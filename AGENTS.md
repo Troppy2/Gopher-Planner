@@ -7,7 +7,7 @@ Gopher Planner is a University of Minnesota course-planning application for stud
 The repository contains:
 
 - `frontend/`: React frontend and responsive planning UI.
-- `backend/`: FastAPI backend, SQLAlchemy data access, transcript parsing, REST endpoints, and migrations.
+- `backend/`: Flask backend, SQLAlchemy data access, transcript parsing, REST endpoints, and migrations.
 - `docs/design-rules.md`: frontend design source of truth for Figma and implementation.
 - `README.md`: project overview, architecture, setup, and migration guidance.
 
