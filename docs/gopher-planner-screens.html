@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gopher Planner – screens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --maroon:#7A0019;--maroon-d:#5A0012;--gold:#FFCC33;--ivory:#E6E0D2;
+  --ink:#201A1B;--muted:#625A5C;--success:#1E6B4A;--warning:#8A5000;--danger:#B42318;
+  --glass:rgba(255,255,255,.66);--border:rgba(32,26,27,.14);
+  --shadow:0 12px 30px rgba(32,26,27,.08);
+  --display:"Young Serif",Georgia,"Times New Roman",serif;
+  --ui:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box;margin:0;letter-spacing:0}
+html,body{height:100%}
+body{font-family:var(--ui);color:var(--ink);background:#d3ccbb;font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--maroon)}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+:focus-visible{outline:3px solid var(--maroon);outline-offset:2px;border-radius:6px}
+.ic{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ic.sm{width:16px;height:16px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- preview strip (tooling, not part of the product) ---------- */
+.strip{height:52px;display:flex;align-items:center;gap:12px;padding:0 12px;background:#c4bca8;border-bottom:1px solid rgba(32,26,27,.18)}
+.strip b{font-family:var(--display);font-weight:400;white-space:nowrap}
+.tabs{display:flex;gap:2px;overflow:auto;flex:1;scrollbar-width:none}
+.tabs button{border:0;background:transparent;padding:0 12px;height:34px;border-radius:99px;font-weight:600;font-size:13px;white-space:nowrap}
+.tabs button:hover{background:rgba(255,255,255,.4)}
+.tabs button[aria-pressed=true]{background:var(--maroon);color:#fff}
+.sizes{display:flex;gap:2px;background:rgba(255,255,255,.4);border-radius:99px;padding:3px}
+.sizes button{border:0;background:transparent;height:30px;padding:0 12px;border-radius:99px;font-size:13px;font-weight:600}
+.sizes button[aria-pressed=true]{background:var(--ink);color:#fff}
+.stage{height:calc(100dvh - 52px);display:flex;justify-content:center;padding:12px}
+.device{position:relative;overflow:hidden;width:100%;height:100%;background:var(--ivory);border-radius:14px;border:1px solid rgba(32,26,27,.25);container:dev/inline-size;transition:max-width .3s}
+.device[data-size=tablet]{max-width:820px}
+.device[data-size=mobile]{max-width:392px;border:6px solid var(--ink);border-radius:36px}
+@media (max-width:640px){.sizes{display:none}.stage{padding:0}.device{border-radius:0;border:0;max-width:100%!important}.strip b{display:none}}
+
+/* ---------- background + surfaces ---------- */
+.bg{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.bg::before,.bg::after{content:"";position:absolute;border-radius:50%}
+.bg::before{width:640px;height:640px;left:-200px;top:-220px;background:radial-gradient(circle at 50% 50%,rgba(122,0,25,.5),rgba(122,0,25,0) 68%)}
+.bg::after{width:620px;height:620px;right:-180px;bottom:-120px;background:radial-gradient(circle at 50% 50%,rgba(255,204,51,.85),rgba(255,204,51,0) 68%)}
+.bg i{position:absolute;inset:0;opacity:.07;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.scroll{position:absolute;inset:0;overflow:auto;z-index:1}
+.glass{background:var(--glass);-webkit-backdrop-filter:blur(16px) saturate(1.25);backdrop-filter:blur(16px) saturate(1.25);border:1px solid var(--border);border-radius:8px;box-shadow:inset 0 1px 0 rgba(255,255,255,.75),var(--shadow)}
+@supports not (backdrop-filter:blur(1px)){.glass,.dock,.hdr,.savebar,.drawer{background:rgba(252,250,245,.95)!important}}
+
+/* ---------- controls ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 18px;border-radius:8px;border:1.5px solid var(--maroon);background:var(--maroon);color:#fff;font-weight:600;text-decoration:none;white-space:nowrap}
+.btn:hover{background:var(--maroon-d)}
+.btn.ghost{background:rgba(255,255,255,.55);color:var(--maroon)}
+.btn.ghost:hover{background:rgba(255,255,255,.9)}
+.btn.sm{min-height:36px;padding:0 12px;font-size:14px}
+.btn.plain{border-color:transparent;background:transparent;color:var(--maroon)}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.icon-btn{width:44px;height:44px;display:grid;place-items:center;border-radius:8px;border:1px solid var(--border);background:rgba(255,255,255,.6)}
+.icon-btn:hover{background:#fff}
+.field{display:grid;gap:6px}
+.l{font-weight:600;font-size:14px}
+.hint{font-size:13px;color:var(--muted)}
+.err{font-size:13px;color:var(--danger);display:none;font-weight:500}
+.in{min-height:44px;padding:0 12px;border-radius:8px;border:1px solid rgba(32,26,27,.38);background:rgba(255,255,255,.82);width:100%}
+textarea.in{padding:10px 12px;min-height:96px;resize:vertical}
+.in:focus{outline:3px solid rgba(122,0,25,.32);border-color:var(--maroon)}
+.field.bad .in{border-color:var(--danger)}
+.field.bad .err{display:flex;gap:6px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:99px;padding:3px;background:rgba(255,255,255,.55)}
+.seg label{position:relative}
+.seg input{position:absolute;opacity:0;inset:0;cursor:pointer}
+.seg span{display:flex;align-items:center;gap:6px;min-height:34px;padding:0 14px;border-radius:99px;font-size:13.5px;font-weight:600;white-space:nowrap}
+.seg input:checked+span{background:var(--maroon);color:#fff}
+.seg input:focus-visible+span{outline:3px solid var(--maroon);outline-offset:2px}
+.badge{display:inline-flex;align-items:center;gap:6px;min-height:26px;padding:0 10px;border-radius:99px;font-size:12.5px;font-weight:600;border:1px solid;white-space:nowrap}
+.badge .ic{width:14px;height:14px}
+.b-done{color:var(--success);border-color:rgba(30,107,74,.45);background:rgba(30,107,74,.10)}
+.b-prog{color:#6b4d00;border-color:var(--gold);background:rgba(255,204,51,.38)}
+.b-plan{color:var(--maroon);border-color:rgba(122,0,25,.45);background:rgba(122,0,25,.07)}
+.b-avail{color:var(--ink);border-color:rgba(32,26,27,.3);background:rgba(255,255,255,.7)}
+.b-block{color:var(--warning);border-color:rgba(138,80,0,.5);background:rgba(168,100,0,.12)}
+.chip{display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:0 10px;border-radius:99px;border:1px solid var(--border);background:rgba(255,255,255,.7);font-size:13px;font-weight:600}
+.callout{display:flex;gap:10px;padding:12px 14px;border-radius:8px;border:1px solid;font-size:14px}
+.callout.warn{border-color:rgba(138,80,0,.5);background:rgba(168,100,0,.12);color:#5f3800}
+.callout.ok{border-color:rgba(30,107,74,.45);background:rgba(30,107,74,.10);color:#124c34}
+.callout.info{border-color:var(--border);background:rgba(255,255,255,.6)}
+.callout b{display:block}
+.demo{font-size:12.5px;color:var(--muted);border:1px dashed rgba(32,26,27,.3);border-radius:8px;padding:8px 12px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+
+.screen{display:none}
+.screen.on{display:block;animation:fade .25s ease}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-size:20px;color:var(--maroon);text-decoration:none;white-space:nowrap}
+.mark{width:34px;height:34px}
+
+/* ---------- app chrome ---------- */
+.hdr{position:sticky;top:0;z-index:15;display:flex;align-items:center;gap:12px;padding:12px 32px;background:rgba(230,224,210,.72);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.hdr #hdrTitle{display:none;flex:1;text-align:center;font-family:var(--display);font-size:18px;color:var(--maroon)}
+.hdr .brand{margin-right:auto}
+.btn-search{display:flex;align-items:center;gap:10px;min-height:44px;padding:0 14px;width:340px;max-width:100%;border-radius:8px;border:1px solid var(--border);background:rgba(255,255,255,.7);color:var(--muted);text-align:left}
+.btn-search:hover{background:#fff}
+.btn-search span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.avatar{width:44px;height:44px;border-radius:50%;background:var(--maroon);color:#fff;display:grid;place-items:center;font-weight:700;border:2px solid var(--gold);flex:none}
+.device[data-chrome=plain] .hdr,.device[data-chrome=plain] .dock{display:none}
+.dock{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);z-index:20;display:flex;gap:4px;padding:6px;border-radius:999px;background:rgba(255,255,255,.78);-webkit-backdrop-filter:blur(18px) saturate(1.3);backdrop-filter:blur(18px) saturate(1.3);border:1px solid var(--border);box-shadow:0 14px 34px rgba(32,26,27,.18)}
+.dock a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-width:76px;min-height:56px;border-radius:999px;color:var(--ink);font-size:11.5px;font-weight:600;text-decoration:none}
+.dock a:hover{background:rgba(122,0,25,.08)}
+.dock a[aria-current=page]{background:var(--maroon);color:#fff}
+.page{max-width:1280px;margin:0 auto;padding:28px 32px 130px}
+.pg-head{margin-bottom:20px}
+h1.t{font-family:var(--display);font-weight:400;font-size:32px;line-height:1.1;color:var(--maroon)}
+.sub{color:var(--muted);margin-top:4px}
+h2.h{font-size:16px;font-weight:700;margin-bottom:12px}
+
+/* ---------- dashboard ---------- */
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.g3{grid-column:span 3}.g4{grid-column:span 4}.g5{grid-column:span 5}.g7{grid-column:span 7}.g12{grid-column:span 12}
+.card{padding:20px}
+.metric .lab{color:var(--muted);font-weight:600;font-size:13.5px}
+.metric .val{font-size:40px;font-weight:700;line-height:1.1;margin:6px 0 4px}
+.metric .val small{font-size:18px;color:var(--muted);font-weight:600}
+.metric .ctx{color:var(--muted);font-size:13.5px}
+.bar{height:8px;border-radius:99px;background:rgba(32,26,27,.12);overflow:hidden;margin:10px 0}
+.bar i{display:block;height:100%;border-radius:99px;background:var(--maroon)}
+.pct{background:linear-gradient(150deg,#8c0a26,#650015);color:#fff;border-color:rgba(255,255,255,.18);display:flex;align-items:center;gap:20px}
+.pct .lab,.pct .ctx{color:rgba(255,255,255,.82)}
+.pct .val{color:#fff;margin:4px 0}
+.ring{width:128px;height:128px;flex:none}
+.ring circle{fill:none;stroke-width:9}
+.ring .trk{stroke:rgba(255,255,255,.22)}
+.ring .arc{stroke:var(--gold);stroke-linecap:round;stroke-dasharray:264;stroke-dashoffset:100.3;transition:stroke-dashoffset 1.1s cubic-bezier(.2,.7,.2,1)}
+.ring text{fill:#fff;font-weight:700;font-size:24px;text-anchor:middle;dominant-baseline:central}
+.crow{width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;border:0;border-top:1px solid var(--border);background:transparent;text-align:left}
+.crow:first-of-type{border-top:0}
+.crow:hover .crow-main b{text-decoration:underline}
+.crow-main{display:grid;min-width:0}
+.crow-main b{font-weight:700}
+.crow-t{color:var(--muted);font-size:13.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crow-meta{display:flex;align-items:center;gap:10px;flex:none;color:var(--muted);font-size:13.5px}
+.term{font-weight:700;font-size:13.5px;color:var(--muted);margin:14px 0 2px}
+.term:first-of-type{margin-top:0}
+.next{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:16px;padding:14px;border-radius:8px;border:1px solid rgba(122,0,25,.25);border-left:5px solid var(--gold);background:rgba(255,255,255,.6)}
+.next b{display:block}
+dl.kv{display:grid;grid-template-columns:auto 1fr;gap:0 16px}
+dl.kv dt,dl.kv dd{padding:10px 0;border-top:1px solid var(--border)}
+dl.kv dt:first-of-type,dl.kv dt:first-of-type+dd{border-top:0}
+dl.kv dt{color:var(--muted)}
+dl.kv dd{font-weight:600;text-align:right}
+
+/* ---------- flow chart ---------- */
+.tb{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:12px;margin-bottom:12px}
+.tb .in{width:auto;min-width:170px}
+.tb .sp{flex:1}
+.zoom{display:flex;gap:6px}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.cv{height:min(560px,calc(100cqh - 330px));min-height:360px;overflow:auto;position:relative}
+.cv-size{position:relative}
+.cv-in{position:absolute;left:0;top:0;transform-origin:0 0}
+.cv svg.edges{position:absolute;left:0;top:0;pointer-events:none}
+.edges path{fill:none;stroke:rgba(32,26,27,.35);stroke-width:1.6}
+.edges path.hl{stroke:var(--maroon);stroke-width:2.6}
+.edges path.dim{opacity:.15}
+.colhead{position:absolute;top:12px;white-space:nowrap;font-weight:700;font-size:13.5px;color:var(--muted)}
+.node{position:absolute;width:196px;height:76px;padding:9px 12px 9px 16px;text-align:left;display:grid;align-content:center;gap:1px;border-radius:8px;border:1.5px solid var(--border);background:#fbf9f4;overflow:hidden;transition:opacity .2s,box-shadow .2s}
+.node::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--bar,transparent)}
+.n-code{font-weight:700;font-size:14px}
+.n-title{font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.n-st{display:flex;align-items:center;gap:5px;font-size:12px;font-weight:600;margin-top:2px}
+.n-st .ic{width:14px;height:14px}
+.n-done{--bar:var(--success);background:#f1ede3}.n-done .n-st{color:var(--success)}
+.n-prog{--bar:var(--gold);border:2px solid var(--gold)}.n-prog .n-st{color:#6b4d00}
+.n-plan{--bar:var(--maroon);border-color:var(--maroon)}.n-plan .n-st{color:var(--maroon)}
+.n-avail .n-st{color:var(--ink)}
+.n-block{--bar:#C47A00;border:1.5px dashed #A86400}.n-block .n-st{color:var(--warning)}
+.node.sel{box-shadow:0 0 0 3px rgba(122,0,25,.35),var(--shadow)}
+.node.dim{opacity:.32}
+.flist{padding:16px 20px}
+.savebar{position:absolute;left:50%;transform:translate(-50%,24px);bottom:92px;z-index:25;display:flex;align-items:center;gap:12px;padding:10px 12px 10px 18px;border-radius:12px;background:rgba(255,255,255,.92);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border:1px solid var(--border);box-shadow:0 14px 34px rgba(32,26,27,.2);opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;white-space:nowrap}
+.savebar.on{opacity:1;transform:translate(-50%,0);pointer-events:auto}
+.savebar b{font-weight:700}
+
+/* ---------- catalog ---------- */
+.searchbar{display:flex;align-items:center;gap:10px;min-height:52px;padding:0 14px;margin-bottom:12px}
+.searchbar input{flex:1;min-width:0;border:0;background:transparent;outline:none}
+.searchbar:focus-within{border-color:var(--maroon);box-shadow:0 0 0 3px rgba(122,0,25,.2)}
+.filters{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-bottom:12px}
+.filters .field .l{font-size:12.5px;color:var(--muted)}
+.fbtn{display:none}
+.summary{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:6px 0 12px;font-weight:600}
+.chead,.citem{display:grid;grid-template-columns:2fr .5fr .9fr 1fr 1.1fr auto;gap:12px;align-items:center}
+.chead{padding:0 20px 8px;font-size:13px;font-weight:600;color:var(--muted)}
+.clist{list-style:none;padding:0;overflow:hidden}
+.citem{padding:14px 20px;border-top:1px solid var(--border)}
+.citem:first-child{border-top:0}
+.citem .cm{display:grid;min-width:0}
+.citem .cm b{font-weight:700}
+.citem .cm span{color:var(--muted);font-size:13.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.acts{display:flex;gap:8px}
+.mlab{display:none}
+.skel{height:64px;margin:0;border-top:1px solid var(--border);background:linear-gradient(90deg,rgba(32,26,27,.05),rgba(255,255,255,.55),rgba(32,26,27,.05));background-size:200% 100%;animation:sh 1.4s linear infinite}
+@keyframes sh{to{background-position:-200% 0}}
+.empty{padding:48px 24px;text-align:center;display:grid;gap:10px;justify-items:center}
+.empty h3{font-family:var(--display);font-weight:400;font-size:22px;color:var(--maroon)}
+.empty p{color:var(--muted);max-width:44ch}
+
+/* ---------- settings ---------- */
+.sgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.sec{padding:22px;margin-bottom:16px}
+.sec h2{font-family:var(--display);font-weight:400;font-size:20px;color:var(--maroon);margin-bottom:4px}
+.sec .sd{color:var(--muted);margin-bottom:16px;font-size:14px}
+.span2{grid-column:1/-1}
+.stepper{display:flex;align-items:center;gap:10px}
+.stepper output{min-width:96px;text-align:center;font-weight:700;font-size:18px}
+.sstate{display:inline-flex;align-items:center;gap:8px;min-height:32px;padding:0 12px;border-radius:99px;border:1px solid;font-weight:600;font-size:13.5px}
+.sstate.saved{color:var(--success);border-color:rgba(30,107,74,.45);background:rgba(30,107,74,.10)}
+.sstate.unsaved{color:#6b4d00;border-color:var(--gold);background:rgba(255,204,51,.38)}
+.sstate.saving{color:var(--ink);border-color:var(--border);background:rgba(255,255,255,.7)}
+.sstate.error{color:var(--danger);border-color:rgba(180,35,24,.5);background:rgba(180,35,24,.08)}
+.spin{width:14px;height:14px;border-radius:50%;border:2px solid rgba(32,26,27,.25);border-top-color:var(--maroon);animation:rot .8s linear infinite}
+@keyframes rot{to{transform:rotate(360deg)}}
+
+/* ---------- drawer / sheet / search overlay ---------- */
+.scrim{position:absolute;inset:0;background:rgba(32,26,27,.38);opacity:0;pointer-events:none;transition:opacity .2s;z-index:30}
+.scrim.on{opacity:1;pointer-events:auto}
+.drawer{position:absolute;top:0;right:0;bottom:0;width:min(430px,100%);z-index:31;transform:translateX(104%);transition:transform .25s;background:rgba(251,248,242,.94);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);border-left:1px solid var(--border);display:flex;flex-direction:column}
+.drawer.on{transform:none}
+.dh{display:flex;justify-content:space-between;gap:12px;padding:20px 20px 12px}
+.dh h2{font-family:var(--display);font-weight:400;font-size:24px;line-height:1.1;color:var(--maroon)}
+.dh p{color:var(--muted);margin-top:4px}
+.db{padding:4px 20px 20px;overflow:auto;flex:1;display:grid;gap:16px;align-content:start}
+.df{padding:14px 20px calc(14px + env(safe-area-inset-bottom));border-top:1px solid var(--border);display:flex;gap:10px;flex-wrap:wrap}
+.db h3{font-size:14px;font-weight:700;margin-bottom:6px}
+.db ul{list-style:none;padding:0}
+.db li{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:8px 0;border-top:1px solid var(--border);font-size:14px}
+.db li:first-child{border-top:0}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.facts div{padding:10px 12px;border-radius:8px;background:rgba(255,255,255,.65);border:1px solid var(--border)}
+.facts dt{font-size:12.5px;color:var(--muted)}
+.facts dd{font-weight:700}
+.grab{display:none;width:44px;height:5px;border-radius:99px;background:rgba(32,26,27,.25);margin:8px auto 0}
+.searchov{position:absolute;inset:0;z-index:40;display:none;padding:72px 24px 24px;justify-content:center;align-items:flex-start;background:rgba(32,26,27,.38)}
+.searchov.on{display:flex}
+.sbox{width:min(640px,100%);background:rgba(251,248,242,.97);border-radius:12px;border:1px solid var(--border);box-shadow:0 24px 60px rgba(32,26,27,.3);overflow:hidden}
+.sbox .top{display:flex;align-items:center;gap:10px;padding:0 14px;min-height:56px;border-bottom:1px solid var(--border)}
+.sbox input{flex:1;border:0;background:transparent;outline:none;min-height:52px}
+.sbox .res{max-height:320px;overflow:auto;padding:6px}
+.sbox .res button{width:100%;display:flex;justify-content:space-between;gap:10px;align-items:center;padding:10px;border:0;background:transparent;border-radius:8px;text-align:left}
+.sbox .res button:hover{background:rgba(122,0,25,.07)}
+.sbox .foot{padding:10px 14px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px;color:var(--muted)}
+
+/* ---------- login ---------- */
+.login{min-height:100%;max-width:1240px;margin:0 auto;padding:40px 56px;display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:center}
+.slogan{font-family:var(--display);font-weight:400;font-size:clamp(36px,3.9cqi,56px);line-height:1.04;color:var(--maroon);margin:28px 0 36px}
+.skyline{position:relative;aspect-ratio:400/230;max-width:560px}
+.skyline>svg{position:absolute;inset:0;width:100%;height:100%}
+.skyline path{fill:none;stroke:rgba(122,0,25,.5);stroke-width:1.6;vector-effect:non-scaling-stroke}
+.skyline path.g{stroke:#c99700;stroke-width:2.6}
+.chipn{position:absolute;width:20%;height:22%;display:flex;align-items:center;gap:5px;padding:0 8px;border-radius:6px;font-size:clamp(9px,1.4cqi,12px);font-weight:700;background:rgba(255,255,255,.8);border:1.5px solid var(--border);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.chipn .ic{width:12px;height:12px}
+.chipn.d{border-color:rgba(30,107,74,.5);color:var(--success)}
+.chipn.p{border:2px solid var(--gold);color:#6b4d00}
+.chipn.f{border-color:var(--maroon);color:var(--maroon)}
+.signin{padding:30px}
+.signin h2{font-family:var(--display);font-weight:400;font-size:26px;color:var(--maroon);margin-bottom:6px}
+.gbtn{width:100%;margin:20px 0 10px;min-height:52px;font-size:16px}
+.gbtn .g{width:24px;height:24px;border-radius:50%;background:#fff;color:#4285F4;display:grid;place-items:center;font-weight:800;font-size:15px}
+.signin hr{border:0;border-top:1px solid var(--border);margin:22px 0}
+.legal{display:flex;gap:20px;flex-wrap:wrap;margin-top:18px;padding-left:4px;font-size:14px}
+.legal a{display:inline-flex;align-items:center;gap:6px;font-weight:600}
+
+/* ---------- onboarding ---------- */
+.onb{max-width:780px;margin:0 auto;padding:32px 24px 64px}
+.steps{display:flex;align-items:center;gap:12px;margin:28px 0 8px;font-weight:600;color:var(--muted)}
+.steps .tr{flex:1;display:flex;gap:6px}
+.steps .tr i{flex:1;height:6px;border-radius:99px;background:rgba(32,26,27,.15)}
+.steps .tr i.on{background:var(--maroon)}
+.opts{display:grid;gap:12px;margin:22px 0}
+.opt{position:relative;display:flex;gap:16px;align-items:center;padding:18px 20px;cursor:pointer;border:1.5px solid var(--border)}
+.opt input{position:absolute;opacity:0;inset:0;cursor:pointer}
+.opt .oi{width:44px;height:44px;border-radius:8px;display:grid;place-items:center;background:rgba(122,0,25,.09);color:var(--maroon);flex:none}
+.opt b{display:block;font-size:16px}
+.opt span.d{color:var(--muted);font-size:14px}
+.opt .tick{margin-left:auto;width:26px;height:26px;border-radius:50%;border:1.5px solid rgba(32,26,27,.35);display:grid;place-items:center;color:#fff;flex:none}
+.opt .tick .ic{width:14px;height:14px;opacity:0}
+.opt:has(input:checked){border:2px solid var(--maroon);background:rgba(255,255,255,.88);box-shadow:inset 6px 0 0 var(--gold),var(--shadow)}
+.opt:has(input:checked) .tick{background:var(--maroon);border-color:var(--maroon)}
+.opt:has(input:checked) .tick .ic{opacity:1}
+.opt:has(input:focus-visible){outline:3px solid var(--maroon);outline-offset:2px}
+.panel{display:none;padding:20px;margin-bottom:18px;gap:14px}
+.panel.on{display:grid}
+.drop{border:2px dashed rgba(122,0,25,.45);border-radius:8px;padding:26px;text-align:center;display:grid;gap:8px;justify-items:center;background:rgba(255,255,255,.5)}
+.prog{height:8px;border-radius:99px;background:rgba(32,26,27,.14);overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--maroon);transition:width .3s}
+.mrow{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:10px 0;border-top:1px solid var(--border)}
+.mrow:first-of-type{border-top:0}
+.actions{display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.form2{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:24px}
+.gen{display:grid;gap:12px;padding:22px;margin:22px 0}
+.gstep{display:flex;gap:12px;align-items:center;color:var(--muted);font-weight:600}
+.gstep .dot{width:24px;height:24px;border-radius:50%;border:1.5px solid rgba(32,26,27,.3);display:grid;place-items:center;color:#fff}
+.gstep .dot .ic{width:14px;height:14px;opacity:0}
+.gstep.done{color:var(--ink)}
+.gstep.done .dot{background:var(--success);border-color:var(--success)}
+.gstep.done .dot .ic{opacity:1}
+
+/* ---------- responsive (container-based, so the Mobile/Tablet toggle works) ---------- */
+@container dev (max-width:1023px){
+  .page{padding:24px 24px 130px}
+  .g3,.g4,.g5,.g7{grid-column:span 6}
+  .g12{grid-column:span 12}
+  .filters{grid-template-columns:repeat(3,1fr)}
+  .login{grid-template-columns:1fr;gap:28px;padding:32px 32px 48px}
+  .skyline{max-width:520px}
+}
+@container dev (max-width:767px){
+  .hdr{padding:8px 12px}
+  .hdr .brand{display:none}
+  .hdr #hdrTitle{display:block}
+  .btn-search{order:-1;width:44px;padding:0;justify-content:center}
+  .btn-search span{display:none}
+  .page{padding:16px 16px 120px}
+  h1.t{font-size:26px}
+  .grid{gap:12px}
+  .g3,.g4{grid-column:span 6}
+  .g5,.g7,.g12{grid-column:span 12}
+  .metric .val{font-size:32px}
+  .pct{gap:16px}
+  .ring{width:96px;height:96px}
+  .dock{width:calc(100% - 24px);justify-content:space-between}
+  .dock a{min-width:0;flex:1}
+  .btn.sm{min-height:44px}
+  .savebar{bottom:90px;width:calc(100% - 24px);justify-content:space-between;white-space:normal}
+  .cv{height:420px}
+  .tb .in{min-width:0;flex:1}
+  .tb .sp{display:none}
+  .filters{display:none}
+  .fbtn{display:inline-flex}
+  .chead{display:none}
+  .citem{grid-template-columns:1fr auto;gap:8px 10px;padding:14px 16px}
+  .citem .cm{grid-column:1/-1}
+  .citem .cm span{white-space:normal}
+  .citem .c-cr,.citem .c-off,.citem .c-req{font-size:13.5px;color:var(--muted)}
+  .citem .mlab{display:inline}
+  .citem .c-st{grid-column:1/-1}
+  .citem .acts{grid-column:1/-1}
+  .citem .acts .btn{flex:1}
+  .sgrid,.form2{grid-template-columns:1fr}
+  .login{padding:20px 20px 40px;gap:20px}
+  .skyline{display:none}
+  .slogan{margin:20px 0 4px;font-size:40px}
+  .signin{padding:22px}
+  .onb{padding:20px 16px 48px}
+  .drawer{top:auto;left:0;width:100%;max-height:84%;border-radius:20px 20px 0 0;border-left:0;border-top:1px solid var(--border);transform:translateY(104%)}
+  .drawer.on{transform:none}
+  .grab{display:block}
+  .searchov{padding:16px}
+  .opt{padding:14px}
+  .crow{flex-direction:column;align-items:flex-start;gap:8px}
+  .crow-t{white-space:normal}
+  .crow-main{width:100%}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 3v18M3 12h18"/></symbol>
+<symbol id="i-flow" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.5"/><path d="M4 4l5.5 5.5M20 4l-5.5 5.5M4 20l5.5-5.5M20 20l-5.5-5.5"/></symbol>
+<symbol id="i-book" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 4v16"/></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+<symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18v.5"/></symbol>
+<symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v4h16v-4"/></symbol>
+<symbol id="i-edit" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/></symbol>
+<symbol id="i-skip" viewBox="0 0 24 24"><path d="M5 5l9 7-9 7z"/><path d="M19 5v14"/></symbol>
+<symbol id="i-fit" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+<symbol id="i-file" viewBox="0 0 24 24"><path d="M6 3h8l5 5v13H6z"/><path d="M14 3v5h5"/></symbol>
+<symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.5M3 12h.5M3 18h.5"/></symbol>
+<symbol id="i-graph" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="8" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7l8 .8M7 8l4 8M17 10l-4 6"/></symbol>
+<symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></symbol>
+<symbol id="i-filter" viewBox="0 0 24 24"><path d="M3 5h18l-7 8v6l-4-2v-4z"/></symbol>
+<symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></symbol>
+<symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></symbol>
+</svg>
+
+<div class="strip">
+  <b>Gopher Planner</b>
+  <div class="tabs" role="group" aria-label="Screens">
+    <button data-go="login">Login</button>
+    <button data-go="onb1">Onboarding 1</button>
+    <button data-go="onb2">Onboarding 2</button>
+    <button data-go="onb3">Plan ready</button>
+    <button data-go="dashboard">Dashboard</button>
+    <button data-go="flow">Flow chart</button>
+    <button data-go="catalog">Course catalog</button>
+    <button data-go="settings">Settings</button>
+  </div>
+  <div class="sizes" role="group" aria-label="Preview size">
+    <button data-size="desktop" aria-pressed="true">Desktop</button>
+    <button data-size="tablet" aria-pressed="false">Tablet</button>
+    <button data-size="mobile" aria-pressed="false">Mobile</button>
+  </div>
+</div>
+
+<div class="stage">
+<div class="device" id="device" data-size="desktop" data-chrome="plain">
+  <div class="bg" aria-hidden="true"><i></i></div>
+
+  <div class="scroll" id="scroll">
+    <header class="hdr">
+      <a class="brand" href="#dashboard" data-go="dashboard"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#7A0019"/><path d="M9 22L16 12L24 20" stroke="#FFCC33" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="22" r="3" fill="#FFCC33"/><circle cx="16" cy="12" r="3" fill="#FFCC33"/><circle cx="24" cy="20" r="3" fill="#FFCC33"/></svg>Gopher Planner</a>
+      <div id="hdrTitle"></div>
+      <button class="btn-search" id="openSearch" aria-label="Search courses, professors, or course codes"><svg class="ic"><use href="#i-search"/></svg><span>Search courses, professors, or course codes</span></button>
+      <div class="avatar" role="img" aria-label="Account" id="avatar">I</div>
+    </header>
+
+    <!-- LOGIN -->
+    <section class="screen" id="login" aria-label="Login">
+      <div class="login">
+        <div>
+          <a class="brand" href="#login"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#7A0019"/><path d="M9 22L16 12L24 20" stroke="#FFCC33" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="22" r="3" fill="#FFCC33"/><circle cx="16" cy="12" r="3" fill="#FFCC33"/><circle cx="24" cy="20" r="3" fill="#FFCC33"/></svg>Gopher Planner</a>
+          <h1 class="slogan">Tired of Looking?<br>Try Gopher Planner!</h1>
+          <div class="skyline" aria-hidden="true">
+            <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path d="M20 17C23.5 17 23.5 17 27 17"/>
+              <path d="M20 50C23.5 50 23.5 50 27 50"/>
+              <path d="M20 83C23.5 83 23.5 50 27 50"/>
+              <path class="g" d="M47 17C50.5 17 50.5 34 54 34"/>
+              <path class="g" d="M47 50C50.5 50 50.5 34 54 34"/>
+              <path d="M47 50C50.5 50 50.5 67 54 67"/>
+              <path d="M74 34C77 34 77 50 80 50"/>
+              <path d="M74 67C77 67 77 50 80 50"/>
+            </svg>
+            <div class="chipn d" style="left:0;top:6%"><svg class="ic"><use href="#i-check"/></svg>MATH 1371</div>
+            <div class="chipn d" style="left:0;top:39%"><svg class="ic"><use href="#i-check"/></svg>CSCI 1133</div>
+            <div class="chipn d" style="left:0;top:72%"><svg class="ic"><use href="#i-check"/></svg>CSCI 2011</div>
+            <div class="chipn p" style="left:27%;top:6%"><svg class="ic"><use href="#i-clock"/></svg>CSCI 2033</div>
+            <div class="chipn p" style="left:27%;top:39%"><svg class="ic"><use href="#i-clock"/></svg>CSCI 2041</div>
+            <div class="chipn f" style="left:54%;top:23%"><svg class="ic"><use href="#i-cal"/></svg>CSCI 2021</div>
+            <div class="chipn f" style="left:54%;top:56%"><svg class="ic"><use href="#i-cal"/></svg>CSCI 4041</div>
+            <div class="chipn f" style="left:80%;top:39%"><svg class="ic"><use href="#i-cal"/></svg>CSCI 4061</div>
+          </div>
+        </div>
+        <div>
+          <div class="signin glass">
+            <h2>Sign in</h2>
+            <p class="muted">Gopher Planner turns your transcript, major, and goals into a complete four-year plan with prerequisites, credit load, and graduation date built in.</p>
+            <a class="btn gbtn" href="#onb1" data-go="onb1"><span class="g" aria-hidden="true">G</span>Continue with Google</a>
+            <p class="hint">Only University of Minnesota accounts (@umn.edu) can sign in.</p>
+          </div>
+          <nav class="legal" aria-label="Project links">
+            <a href="https://github.com/Troppy2/Gopher-Planner" target="_blank" rel="noopener"><svg class="ic sm"><use href="#i-github"/></svg>GitHub</a>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- ONBOARDING 1 -->
+    <section class="screen" id="onb1" aria-label="Onboarding: coursework">
+      <div class="onb">
+        <a class="brand" href="#login"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#7A0019"/><path d="M9 22L16 12L24 20" stroke="#FFCC33" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="22" r="3" fill="#FFCC33"/><circle cx="16" cy="12" r="3" fill="#FFCC33"/><circle cx="24" cy="20" r="3" fill="#FFCC33"/></svg>Gopher Planner</a>
+        <div class="steps"><span class="num">1 of 2</span><div class="tr"><i class="on"></i><i></i></div></div>
+        <h1 class="t">Add your coursework</h1>
+        <p class="sub">Courses you have finished or are taking shape what we plan next. You can change this later.</p>
+        <div class="opts" role="radiogroup" aria-label="How do you want to add coursework?">
+          <label class="opt glass"><input type="radio" name="imp" value="upload" checked><span class="oi"><svg class="ic"><use href="#i-upload"/></svg></span><span><b>Upload APAS</b><span class="d">Upload your APAS or transcript PDF and we read the courses for you.</span></span><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span></label>
+          <label class="opt glass"><input type="radio" name="imp" value="manual"><span class="oi"><svg class="ic"><use href="#i-edit"/></svg></span><span><b>Enter courses manually</b><span class="d">Search the catalog and mark each course completed or in progress.</span></span><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span></label>
+          <label class="opt glass"><input type="radio" name="imp" value="skip"><span class="oi"><svg class="ic"><use href="#i-skip"/></svg></span><span><b>Skip for now</b><span class="d">No classes yet? We start with a standard four-year plan for your major.</span></span><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span></label>
+        </div>
+
+        <div class="panel glass on" id="p-upload">
+          <div id="upIdle" class="drop">
+            <svg class="ic" style="width:32px;height:32px;color:var(--maroon)"><use href="#i-upload"/></svg>
+            <b>Drop your APAS PDF here</b>
+            <span class="hint">PDF only, up to 10 MB. Text-based PDFs work best.</span>
+            <button class="btn" id="chooseFile" type="button">Choose file</button>
+          </div>
+          <div id="upBusy" hidden>
+            <div class="mrow" style="border:0;padding-top:0"><span style="display:flex;gap:8px;align-items:center"><svg class="ic"><use href="#i-file"/></svg><b>APAS_2026-10.pdf</b><span class="muted num">1.2 MB</span></span><span id="upLabel" class="muted" style="display:flex;gap:8px;align-items:center"></span></div>
+            <div class="prog" role="progressbar" aria-label="Upload progress" aria-valuemin="0" aria-valuemax="100"><i id="upBar"></i></div>
+          </div>
+          <div id="upOk" hidden class="callout ok"><svg class="ic"><use href="#i-check"/></svg><div><b>We found 14 completed and 4 in-progress courses.</b>Check them on your dashboard after your plan is built.</div></div>
+          <div id="upFail" hidden>
+            <div class="callout warn"><svg class="ic"><use href="#i-warn"/></svg><div><b>We couldn't read any text in this PDF.</b>It looks like a scan or photo. Try text recognition (OCR), or add your courses by hand.</div></div>
+            <div class="actions" style="justify-content:flex-start;margin-top:12px"><button class="btn" type="button" id="tryOcr">Try text recognition</button><button class="btn ghost" type="button" id="toManual">Enter courses manually</button></div>
+          </div>
+          <div class="demo">Preview only. Outcome of the next upload:
+            <div class="seg"><label><input type="radio" name="outc" value="ok" checked><span>Readable PDF</span></label><label><input type="radio" name="outc" value="scan"><span>Scanned PDF</span></label></div>
+          </div>
+        </div>
+
+        <div class="panel glass" id="p-manual">
+          <label class="field"><span class="l">Search courses</span><input class="in" placeholder="Course code or title, for example CSCI 2041"></label>
+          <div>
+            <div class="mrow"><span><b>CSCI 1133</b><br><span class="muted">Introduction to Computing and Programming Concepts</span></span><div class="seg"><label><input type="radio" name="m1" checked><span>Completed</span></label><label><input type="radio" name="m1"><span>In progress</span></label></div></div>
+            <div class="mrow"><span><b>MATH 1372</b><br><span class="muted">CSE Calculus II</span></span><div class="seg"><label><input type="radio" name="m2" checked><span>Completed</span></label><label><input type="radio" name="m2"><span>In progress</span></label></div></div>
+            <div class="mrow"><span><b>CSCI 2041</b><br><span class="muted">Advanced Programming Principles</span></span><div class="seg"><label><input type="radio" name="m3"><span>Completed</span></label><label><input type="radio" name="m3" checked><span>In progress</span></label></div></div>
+          </div>
+        </div>
+
+        <div class="panel glass" id="p-skip"><div class="callout info"><svg class="ic"><use href="#i-skip"/></svg><div><b>Standard four-year plan</b>We build it from your major and career goals. Add coursework any time from Settings.</div></div></div>
+
+        <div class="actions"><span></span><button class="btn" data-go="onb2">Continue</button></div>
+      </div>
+    </section>
+
+    <!-- ONBOARDING 2 -->
+    <section class="screen" id="onb2" aria-label="Onboarding: profile">
+      <div class="onb">
+        <a class="brand" href="#login"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#7A0019"/><path d="M9 22L16 12L24 20" stroke="#FFCC33" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="22" r="3" fill="#FFCC33"/><circle cx="16" cy="12" r="3" fill="#FFCC33"/><circle cx="24" cy="20" r="3" fill="#FFCC33"/></svg>Gopher Planner</a>
+        <div class="steps"><span class="num">2 of 2</span><div class="tr"><i class="on"></i><i class="on"></i></div></div>
+        <h1 class="t">Build your profile</h1>
+        <p class="sub">We use this to shape your four-year plan.</p>
+        <div class="form2 glass" style="margin:22px 0">
+          <label class="field"><span class="l">Name</span><input class="in" value="Inah" autocomplete="name"></label>
+          <label class="field"><span class="l">Grade standing</span><select class="in"><option>Freshman</option><option>Sophomore</option><option selected>Junior</option><option>Senior</option></select></label>
+          <label class="field" style="grid-column:1/-1"><span class="l">Major or degree program</span><input class="in" list="majors" value="Computer Science B.S."><datalist id="majors"><option>Computer Science B.S.</option><option>Computer Engineering B.S.</option><option>Data Science B.S.</option></datalist></label>
+          <label class="field" style="grid-column:1/-1"><span class="l">Career goals</span><textarea class="in" placeholder="For example: software engineering internship, then backend roles">Software engineering internship, then full-stack roles</textarea></label>
+          <label class="field"><span class="l">Credits per term <span class="muted" style="font-weight:500">(optional)</span></span><select class="in"><option>Not set</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option></select></label>
+          <label class="field"><span class="l">Graduation target <span class="muted" style="font-weight:500">(optional)</span></span><select class="in"><option>Not set</option><option>Spring 2028</option><option>Fall 2028</option><option>Spring 2029</option></select></label>
+          <p class="hint" style="grid-column:1/-1">If you leave these blank, we plan for 15 credits per term and ask you to confirm a graduation target before the plan is final.</p>
+        </div>
+        <div class="actions"><button class="btn ghost" data-go="onb1"><svg class="ic sm"><use href="#i-back"/></svg>Back</button><button class="btn" data-go="onb3">Finish and build plan</button></div>
+      </div>
+    </section>
+
+    <!-- ONBOARDING 3 -->
+    <section class="screen" id="onb3" aria-label="Plan generation">
+      <div class="onb">
+        <a class="brand" href="#login"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#7A0019"/><path d="M9 22L16 12L24 20" stroke="#FFCC33" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="22" r="3" fill="#FFCC33"/><circle cx="16" cy="12" r="3" fill="#FFCC33"/><circle cx="24" cy="20" r="3" fill="#FFCC33"/></svg>Gopher Planner</a>
+        <h1 class="t" style="margin-top:32px" id="genTitle">Building your plan</h1>
+        <p class="sub" id="genSub">This takes a few seconds.</p>
+        <div class="gen glass">
+          <div class="prog" role="progressbar" aria-label="Plan progress" aria-valuemin="0" aria-valuemax="100"><i id="genBar"></i></div>
+          <div class="gstep" data-g><span class="dot"><svg class="ic"><use href="#i-check"/></svg></span>Reading your coursework</div>
+          <div class="gstep" data-g><span class="dot"><svg class="ic"><use href="#i-check"/></svg></span>Checking prerequisites and restrictions</div>
+          <div class="gstep" data-g><span class="dot"><svg class="ic"><use href="#i-check"/></svg></span>Placing courses by term</div>
+          <div class="gstep" data-g><span class="dot"><svg class="ic"><use href="#i-check"/></svg></span>Balancing your credit load</div>
+        </div>
+        <div class="actions"><span></span><a class="btn" id="genGo" href="#dashboard" data-go="dashboard" style="visibility:hidden">Go to dashboard</a></div>
+      </div>
+    </section>
+
+    <!-- DASHBOARD -->
+    <section class="screen" id="dashboard" aria-label="Dashboard">
+      <div class="page">
+        <div class="pg-head"><h1 class="t">Dashboard</h1><p class="sub" id="greet">Welcome back, Inah.</p></div>
+        <div class="grid">
+          <div class="card glass metric g3"><div class="lab">GPA</div><div class="val num">3.62</div><div class="ctx">Out of 4.00, from 48 graded credits</div></div>
+          <div class="card glass metric g4"><div class="lab">Credits</div><div class="val num">74 <small>/ 120</small></div><div class="bar" role="progressbar" aria-label="Credits completed" aria-valuenow="74" aria-valuemin="0" aria-valuemax="120"><i style="width:61.7%"></i></div><div class="ctx">46 credits remaining</div></div>
+          <div class="card glass metric pct g5">
+            <svg class="ring" viewBox="0 0 100 100" role="img" aria-label="62 percent complete"><circle class="trk" cx="50" cy="50" r="42"/><circle class="arc" id="ringArc" cx="50" cy="50" r="42" transform="rotate(-90 50 50)"/><text x="50" y="51" class="num">62%</text></svg>
+            <div><div class="lab">Percent complete</div><div class="ctx" style="font-size:16px;color:#fff;margin-top:4px">of Computer Science B.S. requirements</div><div class="ctx" style="margin-top:6px">Based on your APAS</div></div>
+          </div>
+
+          <div class="card glass g5" style="grid-row:span 2"><h2 class="h">Current classes</h2><div id="curList"></div></div>
+          <div class="card glass g7"><h2 class="h">Future classes</h2><div id="futList"></div>
+            <div class="next"><div><b>Review your next semester</b><span class="muted">Spring 2027 is planned. Check it for conflicts.</span></div><a class="btn sm" href="#flow" data-go="flow" data-term="Spring 2027">Review Spring 2027</a></div>
+          </div>
+          <div class="card glass g7"><h2 class="h">User details</h2>
+            <dl class="kv" id="udet"></dl>
+            <div style="margin-top:12px"><a class="btn sm ghost" href="#settings" data-go="settings">Edit in settings</a></div>
+          </div>
+        </div>
+        <p class="hint" style="margin-top:16px">Sample data for design review.</p>
+      </div>
+    </section>
+
+    <!-- FLOW CHART -->
+    <section class="screen" id="flow" aria-label="Flow chart">
+      <div class="page">
+        <div class="pg-head"><h1 class="t">Flow chart</h1><p class="sub">Select a course to see what leads to it and what it unlocks.</p></div>
+        <div class="tb glass">
+          <label class="vh" for="flowMajor">Major</label>
+          <select class="in" id="flowMajor"><option>Computer Science B.S.</option><option>Data Science B.S.</option></select>
+          <label class="vh" for="flowTerm">Term</label>
+          <select class="in" id="flowTerm"><option value="">All terms</option><option>Completed</option><option>Fall 2026</option><option>Spring 2027</option><option>Fall 2027</option></select>
+          <span class="sp"></span>
+          <div class="seg" role="radiogroup" aria-label="View"><label><input type="radio" name="fview" value="graph" checked><span><svg class="ic sm"><use href="#i-graph"/></svg>Graph</span></label><label><input type="radio" name="fview" value="list"><span><svg class="ic sm"><use href="#i-list"/></svg>List</span></label></div>
+          <div class="zoom" id="zoomCtl">
+            <button class="icon-btn" id="zOut" aria-label="Zoom out"><svg class="ic"><use href="#i-minus"/></svg></button>
+            <button class="icon-btn" id="zIn" aria-label="Zoom in"><svg class="ic"><use href="#i-plus"/></svg></button>
+            <button class="icon-btn" id="zFit" aria-label="Fit plan to screen"><svg class="ic"><use href="#i-fit"/></svg></button>
+            <button class="btn ghost sm" id="zReset">Reset view</button>
+          </div>
+        </div>
+        <div class="legend" aria-label="Legend"><span class="badge b-done"><svg class="ic"><use href="#i-check"/></svg>Completed</span><span class="badge b-prog"><svg class="ic"><use href="#i-clock"/></svg>In progress</span><span class="badge b-plan"><svg class="ic"><use href="#i-cal"/></svg>Planned</span><span class="badge b-avail"><svg class="ic"><use href="#i-plus"/></svg>Available</span><span class="badge b-block"><svg class="ic"><use href="#i-warn"/></svg>Locked</span></div>
+        <div class="glass cv" id="cv" tabindex="0" aria-label="Course flow chart, scrollable"><div class="cv-size" id="cvSize"><div class="cv-in" id="cvIn"></div></div></div>
+        <div class="glass flist" id="flowList" hidden></div>
+      </div>
+    </section>
+
+    <!-- CATALOG -->
+    <section class="screen" id="catalog" aria-label="Course catalog">
+      <div class="page">
+        <div class="pg-head"><h1 class="t">Course catalog</h1><p class="sub">Search any course, whether or not it is in your plan.</p></div>
+        <label class="searchbar glass"><svg class="ic" style="color:var(--muted)"><use href="#i-search"/></svg><span class="vh">Search courses</span><input id="catQ" type="search" placeholder="Search courses, professors, or course codes"></label>
+        <div class="filters" id="fdesk"></div>
+        <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:space-between">
+          <button class="btn ghost sm fbtn" id="openFilters"><svg class="ic sm"><use href="#i-filter"/></svg>Filters</button>
+          <div class="demo" style="margin-left:auto">Preview state
+            <div class="seg"><label><input type="radio" name="cst" value="results" checked><span>Results</span></label><label><input type="radio" name="cst" value="loading"><span>Loading</span></label><label><input type="radio" name="cst" value="error"><span>Error</span></label></div>
+          </div>
+        </div>
+        <div class="summary" id="catSum" aria-live="polite"></div>
+        <div id="catRes"></div>
+      </div>
+    </section>
+
+    <!-- SETTINGS -->
+    <section class="screen" id="settings" aria-label="Settings">
+      <div class="page" style="max-width:960px">
+        <div class="pg-head" style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap"><div><h1 class="t">Settings</h1><p class="sub">These details personalize your plan.</p></div><span class="sstate saved" id="sState" role="status"></span></div>
+        <form id="setForm" novalidate onsubmit="return false">
+          <div class="sec glass"><h2>Profile</h2><p class="sd">How we address you.</p>
+            <div class="sgrid"><div class="field" id="fName"><label class="l" for="sName">Name</label><input class="in" id="sName" value="Inah" autocomplete="name" aria-describedby="nameErr"><span class="err" id="nameErr"><svg class="ic sm"><use href="#i-warn"/></svg>Enter your name so we can personalize your plan.</span></div></div>
+          </div>
+          <div class="sec glass"><h2>Academic goals</h2><p class="sd">Your degree and where you want it to lead.</p>
+            <div class="sgrid">
+              <div class="field"><label class="l" for="sMajor">Major or degree program</label><select class="in" id="sMajor"><option>Computer Science B.S.</option><option>Computer Engineering B.S.</option><option>Data Science B.S.</option></select></div>
+              <div class="field"><label class="l" for="sStanding">Grade standing</label><select class="in" id="sStanding"><option>Freshman</option><option>Sophomore</option><option>Junior</option><option>Senior</option></select></div>
+              <div class="field span2"><label class="l" for="sGoals">Career goals</label><textarea class="in" id="sGoals">Software engineering internship, then full-stack roles</textarea></div>
+            </div>
+          </div>
+          <div class="sec glass"><h2>Planning preferences</h2><p class="sd">Limits we plan around.</p>
+            <div class="sgrid">
+              <div class="field"><span class="l" id="loadL">Preferred credits per term</span>
+                <div class="stepper" role="group" aria-labelledby="loadL"><button type="button" class="icon-btn" id="loadDn" aria-label="Fewer credits"><svg class="ic"><use href="#i-minus"/></svg></button><output id="sLoad" class="num" aria-live="polite">15 credits</output><button type="button" class="icon-btn" id="loadUp" aria-label="More credits"><svg class="ic"><use href="#i-plus"/></svg></button></div>
+                <span class="hint">Between 12 and 18 credits.</span></div>
+              <div class="field"><label class="l" for="sGrad">Desired graduation</label><select class="in" id="sGrad"><option>Fall 2027</option><option selected>Spring 2028</option><option>Fall 2028</option><option>Spring 2029</option></select></div>
+            </div>
+          </div>
+        </form>
+        <div class="demo"><label style="display:flex;gap:8px;align-items:center"><input type="checkbox" id="failSave"> Preview only: make the next save fail</label></div>
+      </div>
+    </section>
+  </div>
+
+  <nav class="dock" aria-label="Primary">
+    <a href="#dashboard" data-go="dashboard"><svg class="ic"><use href="#i-grid"/></svg>Dashboard</a>
+    <a href="#flow" data-go="flow"><svg class="ic"><use href="#i-flow"/></svg>Flow chart</a>
+    <a href="#catalog" data-go="catalog"><svg class="ic"><use href="#i-book"/></svg>Catalog</a>
+    <a href="#settings" data-go="settings"><svg class="ic"><use href="#i-gear"/></svg>Settings</a>
+  </nav>
+
+  <div class="savebar" id="planbar" role="status"><span><b id="planCount">1 unsaved change</b></span><button class="btn ghost sm" id="planDiscard">Discard</button><button class="btn sm" id="planSave">Save plan</button></div>
+  <div class="savebar" id="setbar" role="status"><span><b id="setMsg">Unsaved changes</b></span><button class="btn ghost sm" id="setDiscard">Discard</button><button class="btn sm" id="setSave">Save changes</button></div>
+
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="dTitle" aria-hidden="true">
+    <div class="grab"></div>
+    <div class="dh"><div><h2 id="dTitle"></h2><p id="dSub"></p></div><button class="icon-btn" id="dClose" aria-label="Close details"><svg class="ic"><use href="#i-x"/></svg></button></div>
+    <div class="db" id="dBody"></div>
+    <div class="df" id="dFoot"></div>
+  </aside>
+  <aside class="drawer" id="fsheet" role="dialog" aria-modal="true" aria-label="Filters" aria-hidden="true">
+    <div class="grab"></div>
+    <div class="dh"><div><h2>Filters</h2></div><button class="icon-btn" id="fClose" aria-label="Close filters"><svg class="ic"><use href="#i-x"/></svg></button></div>
+    <div class="db" id="fsBody"></div>
+    <div class="df"><button class="btn ghost" id="fClear">Clear all</button><button class="btn" id="fDone" style="flex:1">Show results</button></div>
+  </aside>
+
+  <div class="searchov" id="searchov" role="dialog" aria-modal="true" aria-label="Search courses">
+    <div class="sbox">
+      <div class="top"><svg class="ic" style="color:var(--muted)"><use href="#i-search"/></svg><input id="sq" placeholder="Search courses, professors, or course codes" aria-label="Search"><button class="icon-btn" id="sClose" aria-label="Close search" style="border:0;background:transparent"><svg class="ic"><use href="#i-x"/></svg></button></div>
+      <div class="res" id="sRes"></div>
+      <div class="foot"><span>Press Enter to open the full catalog</span><button class="btn sm ghost" id="sCat">Open catalog</button></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const dev=$('#device'),scrollEl=$('#scroll');
+const ST={done:{l:'Completed',i:'check'},prog:{l:'In progress',i:'clock'},plan:{l:'Planned',i:'cal'},avail:{l:'Available',i:'plus'},block:{l:'Locked',i:'warn'}};
+const ic=(n,c='')=>`<svg class="ic ${c}" aria-hidden="true"><use href="#i-${n}"/></svg>`;
+const badge=st=>`<span class="badge b-${st}">${ic(ST[st].i)}${ST[st].l}</span>`;
+const HEADS=['Completed','Fall 2026','Spring 2027','Fall 2027'];
+
+/* ---------- sample data ---------- */
+const K=(code,title,cr,st,req,off,pre,profs,x={})=>({code,title,cr,st,req,off,pre,profs,term:'Not placed',col:null,row:null,...x});
+const COURSES=[
+K('MATH 1371','CSE Calculus I',4,'done','Math and stats',['Fall','Spring'],[],['R. Okafor','L. Brandt'],{term:'Completed',col:0,row:0}),
+K('MATH 1372','CSE Calculus II',4,'done','Math and stats',['Fall','Spring'],['MATH 1371'],['L. Brandt','S. Vang'],{term:'Completed',col:0,row:1}),
+K('CSCI 1133','Introduction to Computing and Programming Concepts',4,'done','Major core',['Fall','Spring'],[],['M. Haugen','T. Sandoval'],{term:'Completed',col:0,row:2}),
+K('CSCI 2011','Discrete Structures of Computer Science',4,'done','Major core',['Fall','Spring'],[],['P. Nwosu'],{term:'Completed',col:0,row:3}),
+K('CSCI 2033','Elementary Computational Linear Algebra',4,'prog','Major core',['Fall','Spring'],['MATH 1372'],['A. Lindqvist','D. Moua'],{term:'Fall 2026',col:1,row:0}),
+K('STAT 3021','Introduction to Statistical Analysis',3,'prog','Math and stats',['Fall','Spring','Summer'],['MATH 1372'],['K. Rhee'],{term:'Fall 2026',col:1,row:1}),
+K('CSCI 2041','Advanced Programming Principles',4,'prog','Major core',['Fall','Spring'],['CSCI 1133'],['T. Sandoval','E. Kline'],{term:'Fall 2026',col:1,row:2}),
+K('SW 2501','Software Engineering Fundamentals',3,'prog','Major core',['Fall','Spring'],[],['J. Ashby'],{term:'Fall 2026',col:1,row:3}),
+K('CSCI 2021','Machine Architecture and Organization',4,'plan','Major core',['Fall','Spring'],['CSCI 1133'],['G. Tran','M. Haugen'],{term:'Spring 2027',col:2,row:1}),
+K('CSCI 4041','Algorithms and Data Structures',3,'plan','Major core',['Fall','Spring'],['CSCI 2011','CSCI 2041'],['P. Nwosu','H. Berg'],{term:'Spring 2027',col:2,row:2}),
+K('CSCI 4131','Internet Programming',3,'avail','Elective',['Fall','Spring'],['CSCI 2041'],['E. Kline'],{col:null}),
+K('CSCI 4061','Introduction to Operating Systems',4,'plan','Major core',['Fall','Spring'],['CSCI 2021'],['G. Tran'],{term:'Fall 2027',col:3,row:1}),
+K('CSCI 4511W','Introduction to Artificial Intelligence',3,'block','Elective',['Spring'],['CSCI 4041','STAT 3021'],['D. Moua'],{term:'Fall 2027',col:3,row:2,why:'Requires admission to the Computer Science major. You are currently a pre-major.'}),
+K('CSCI 4211','Introduction to Computer Networks',3,'avail','Elective',['Fall'],['CSCI 2021'],['F. Osei']),
+K('CSCI 5115','User Interface Design, Implementation and Evaluation',3,'avail','Elective',['Spring'],['CSCI 2041'],['B. Lund']),
+K('MATH 2243','Linear Algebra and Differential Equations',4,'avail','Math and stats',['Fall','Spring'],['MATH 1372'],['S. Vang','R. Okafor']),
+K('PHYS 1301W','Introductory Physics for Science and Engineering I',4,'avail','Liberal ed',['Fall','Spring'],['MATH 1371'],['C. Eide']),
+];
+// seed the fourth-column row for CSCI 4131: it can be added to the plan
+const by=c=>COURSES.find(x=>x.code===c);
+let saved=JSON.stringify(COURSES.map(c=>[c.code,c.st,c.term,c.col,c.row]));
+const pending=()=>{const s=JSON.parse(saved);return COURSES.filter(c=>{const o=s.find(r=>r[0]===c.code);return o&&(o[1]!==c.st||o[2]!==c.term)}).length};
+function restore(){JSON.parse(saved).forEach(([code,st,term,col,row])=>Object.assign(by(code),{st,term,col,row}))}
+const statusLine=c=>c.st==='plan'?`Planned for ${c.term}`:c.st==='block'?'Locked: major restriction':ST[c.st].l;
+
+/* ---------- navigation ---------- */
+const SCREENS={login:'plain',onb1:'plain',onb2:'plain',onb3:'plain',dashboard:'app',flow:'app',catalog:'app',settings:'app'};
+const TITLES={dashboard:'Dashboard',flow:'Flow chart',catalog:'Course catalog',settings:'Settings'};
+let cur='login',flowTerm='';
+function go(id,opts={}){
+  if(!SCREENS[id])id='login';cur=id;
+  $$('.screen').forEach(s=>s.classList.toggle('on',s.id===id));
+  dev.dataset.chrome=SCREENS[id];
+  $$('.dock a').forEach(a=>a.dataset.go===id?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current'));
+  $$('.tabs button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.go===id));
+  $('#hdrTitle').textContent=TITLES[id]||'';
+  closeAll();scrollEl.scrollTop=0;
+  if(location.hash!=='#'+id)history.replaceState(null,'','#'+id);
+  if(id==='flow'){if(opts.term!==undefined){flowTerm=opts.term;$('#flowTerm').value=flowTerm}renderFlow();if(dev.clientWidth<768)fitFlow()}
+  if(id==='dashboard')ringAnim();
+  if(id==='onb3')runGen();
+  bars();
+}
+document.addEventListener('click',e=>{
+  const g=e.target.closest('[data-go]');
+  if(g){e.preventDefault();go(g.dataset.go,g.dataset.term!==undefined?{term:g.dataset.term}:{});return}
+  const o=e.target.closest('[data-open]');if(o){openDrawer(o.dataset.open);return}
+  const a=e.target.closest('[data-add]');if(a){addToPlan(a.dataset.add);return}
+  const r=e.target.closest('[data-remove]');if(r){removeFromPlan(r.dataset.remove);return}
+});
+$$('.sizes button').forEach(b=>b.onclick=()=>{dev.dataset.size=b.dataset.size;$$('.sizes button').forEach(x=>x.setAttribute('aria-pressed',x===b));setTimeout(()=>{if(cur==='flow')renderFlow()},320)});
+function ringAnim(){const c=$('#ringArc');c.style.strokeDashoffset=264;requestAnimationFrame(()=>requestAnimationFrame(()=>c.style.strokeDashoffset=100.3))}
+
+/* ---------- dashboard ---------- */
+const row=c=>`<button class="crow" data-open="${c.code}"><span class="crow-main"><b>${c.code}</b><span class="crow-t">${c.title}</span></span><span class="crow-meta"><span class="num">${c.cr} credits</span>${badge(c.st)}</span></button>`;
+function renderDash(){
+  $('#curList').innerHTML=COURSES.filter(c=>c.st==='prog').map(row).join('');
+  const fut=COURSES.filter(c=>c.col>=2&&(c.st==='plan'||c.st==='block'));
+  $('#futList').innerHTML=[2,3].map(i=>{const l=fut.filter(c=>c.col===i);return l.length?`<div class="term">${HEADS[i]}</div>`+l.map(row).join(''):''}).join('')||'<p class="muted">No planned classes yet.</p>';
+  $('#udet').innerHTML=[['Major',S.major],['Standing',S.standing],['Graduation target',S.grad],['Preferred load',S.load+' credits per term']].map(([k,v])=>`<dt>${k}</dt><dd>${v}</dd>`).join('');
+  $('#greet').textContent=`Welcome back, ${S.name||'there'}. Fall 2026 is in progress.`;
+  $('#avatar').textContent=(S.name||'?').trim().charAt(0).toUpperCase();
+}
+
+/* ---------- flow chart ---------- */
+const CW=250,NW=196,RH=100,NH=76,OX=24,OY=48;
+let scale=1,sel=null,fview='graph',cw=0,chh=0;
+const X=c=>OX+c*CW,Y=r=>OY+r*RH;
+function related(code){
+  const out=new Set([code]);
+  (function up(c){by(c).pre.forEach(p=>{const q=by(p);if(q&&q.col!=null&&q.col<by(c).col&&!out.has(p)){out.add(p);up(p)}})})(code);
+  (function down(c){COURSES.filter(x=>x.col!=null&&x.pre.includes(c)&&x.col>by(c).col).forEach(x=>{if(!out.has(x.code)){out.add(x.code);down(x.code)}})})(code);
+  return out;
+}
+function renderFlow(){
+  const nodes=COURSES.filter(c=>c.col!=null);
+  const maxRow=Math.max(...nodes.map(n=>n.row));
+  cw=OX*2+3*CW+NW;chh=OY+maxRow*RH+NH+24;
+  let paths='';
+  nodes.forEach(b=>b.pre.forEach(p=>{const a=by(p);if(a&&a.col!=null&&a.col<b.col){
+    const x1=X(a.col)+NW,y1=Y(a.row)+NH/2,x2=X(b.col),y2=Y(b.row)+NH/2,m=(x1+x2)/2;
+    paths+=`<path data-a="${a.code}" data-b="${b.code}" d="M${x1} ${y1}C${m} ${y1} ${m} ${y2} ${x2} ${y2}"/>`}}));
+  const rel=sel?related(sel):null;
+  const heads=HEADS.map((h,i)=>`<div class="colhead" style="left:${X(i)}px">${h}</div>`).join('');
+  const html=nodes.map(c=>{
+    const dim=(rel&&!rel.has(c.code))||(flowTerm&&c.term!==flowTerm);
+    return `<button class="node n-${c.st}${sel===c.code?' sel':''}${dim?' dim':''}" data-open="${c.code}" data-code="${c.code}" style="left:${X(c.col)}px;top:${Y(c.row)}px" aria-label="${c.code} ${c.title}. ${statusLine(c)}"><span class="n-code">${c.code}</span><span class="n-title">${c.title}</span><span class="n-st">${ic(ST[c.st].i)}${statusLine(c)}</span></button>`}).join('');
+  $('#cvIn').innerHTML=`<svg class="edges" width="${cw}" height="${chh}">${paths}</svg>${heads}${html}`;
+  if(rel)$$('#cvIn .edges path').forEach(p=>{const on=rel.has(p.dataset.a)&&rel.has(p.dataset.b);p.classList.toggle('hl',on);p.classList.toggle('dim',!on)});
+  applyScale();
+  // list view
+  $('#flowList').innerHTML=HEADS.map((h,i)=>{const l=nodes.filter(c=>c.col===i);return l.length?`<div class="term">${h}</div>`+l.map(row).join(''):''}).join('')+
+    (COURSES.some(c=>c.col==null&&c.st==='avail')?`<div class="term">Available to add</div>`+COURSES.filter(c=>c.col==null&&c.st==='avail').slice(0,3).map(row).join(''):'');
+}
+function applyScale(){$('#cvIn').style.transform=`scale(${scale})`;const s=$('#cvSize');s.style.width=cw*scale+'px';s.style.height=chh*scale+'px'}
+function fitFlow(){const w=$('#cv').clientWidth-8;scale=Math.max(.45,Math.min(1,w/cw));applyScale()}
+$('#zIn').onclick=()=>{scale=Math.min(1.5,scale+.15);applyScale()};
+$('#zOut').onclick=()=>{scale=Math.max(.45,scale-.15);applyScale()};
+$('#zFit').onclick=fitFlow;
+$('#zReset').onclick=()=>{scale=1;sel=null;flowTerm='';$('#flowTerm').value='';renderFlow();$('#cv').scrollTo(0,0)};
+$('#flowTerm').onchange=e=>{flowTerm=e.target.value;renderFlow()};
+$$('input[name=fview]').forEach(r=>r.onchange=()=>{fview=r.value;$('#cv').hidden=fview==='list';$('#flowList').hidden=fview==='graph';$('#zoomCtl').style.visibility=fview==='list'?'hidden':'visible'});
+
+/* ---------- drawer ---------- */
+let openCode=null,lastFocus=null;
+const termIdx=['Completed','Fall 2026','Spring 2027','Fall 2027'];
+function target(c){
+  let col=2,missing=[];
+  c.pre.forEach(p=>{const q=by(p);if(!q||q.col==null){if(q)missing.push(p)}else col=Math.max(col,q.col+1)});
+  return {col:Math.min(col,3),missing};
+}
+function openDrawer(code){
+  const c=by(code);if(!c)return;openCode=code;lastFocus=document.activeElement;
+  if(cur==='flow'&&c.col!=null){sel=code;renderFlow()}
+  closeSearch();
+  $('#dTitle').textContent=c.code;
+  $('#dSub').textContent=c.title;
+  const pre=c.pre.length?`<ul>${c.pre.map(p=>{const q=by(p);return `<li><span>${p}${q?' '+q.title:''}</span>${q?badge(q.st):'<span class="muted">Not tracked</span>'}</li>`}).join('')}</ul>`:'<p class="muted">None.</p>';
+  let note='',foot='';
+  if(c.st==='block')note=`<div class="callout warn">${ic('warn')}<div><b>Locked for you right now</b>${c.why}</div></div>`;
+  if(c.st==='avail'){
+    const t=target(c);
+    if(t.missing.length)note=`<div class="callout warn">${ic('warn')}<div><b>Prerequisite conflict</b>${t.missing.join(', ')} is not in your plan yet. Add it first.</div></div>`;
+    else note=`<div class="callout ok">${ic('check')}<div><b>Prerequisites are met by ${HEADS[t.col]}</b>This course would be added to ${HEADS[t.col]}. Nothing is saved until you press Save plan.</div></div>`;
+    foot=`<button class="btn" data-add="${c.code}" ${t.missing.length?'disabled':''}>${ic('plus','sm')}Add to ${HEADS[t.col]}</button>`;
+  }
+  if(c.st==='plan')foot=`<button class="btn ghost" data-remove="${c.code}">Remove from plan</button>`;
+  $('#dBody').innerHTML=`
+    <div>${badge(c.st)}</div>${note}
+    <dl class="facts"><div><dt>Credits</dt><dd class="num">${c.cr}</dd></div><div><dt>Offered</dt><dd>${c.off.join(', ')}</dd></div><div><dt>Requirement</dt><dd>${c.req}</dd></div><div><dt>Term</dt><dd>${c.term}</dd></div></dl>
+    <div><h3>Prerequisites</h3>${pre}</div>
+    <div><h3>Concurrent requirements</h3><p class="muted">None listed.</p></div>
+    <div><h3>Historical professors</h3><ul>${c.profs.map(p=>`<li><span>${p}</span></li>`).join('')}</ul><p class="hint">Sample names for design review.</p></div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn ghost sm" href="https://gophergrades.com" target="_blank" rel="noopener">Gopher Grades${ic('ext','sm')}</a><a class="btn ghost sm" href="https://www.ratemyprofessors.com" target="_blank" rel="noopener">Rate My Professors${ic('ext','sm')}</a></div>`;
+  $('#dFoot').innerHTML=foot+`<button class="btn ghost" id="dDone">Close</button>`;
+  $('#dDone').onclick=closeDrawer;
+  $('#scrim').classList.add('on');$('#drawer').classList.add('on');$('#drawer').setAttribute('aria-hidden','false');
+  setTimeout(()=>$('#dClose').focus(),50);
+}
+function closeDrawer(){
+  if(!$('#drawer').classList.contains('on'))return;
+  $('#drawer').classList.remove('on');$('#drawer').setAttribute('aria-hidden','true');
+  if(!$('#fsheet').classList.contains('on'))$('#scrim').classList.remove('on');
+  openCode=null;if(sel){sel=null;if(cur==='flow')renderFlow()}
+  if(lastFocus&&document.contains(lastFocus))lastFocus.focus();
+}
+function closeFilters(){$('#fsheet').classList.remove('on');$('#fsheet').setAttribute('aria-hidden','true');if(!$('#drawer').classList.contains('on'))$('#scrim').classList.remove('on')}
+function closeAll(){closeDrawer();closeFilters();closeSearch()}
+$('#dClose').onclick=closeDrawer;$('#fClose').onclick=closeFilters;$('#fDone').onclick=closeFilters;
+$('#scrim').onclick=()=>{closeDrawer();closeFilters()};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeAll()});
+
+/* ---------- plan edits ---------- */
+function addToPlan(code){
+  const c=by(code),t=target(c);if(t.missing.length)return;
+  const used=COURSES.filter(x=>x.col===t.col).map(x=>x.row);let r=0;while(used.includes(r))r++;
+  Object.assign(c,{st:'plan',col:t.col,row:r,term:HEADS[t.col]});
+  afterEdit();
+}
+function removeFromPlan(code){Object.assign(by(code),{st:'avail',col:null,row:null,term:'Not placed'});afterEdit()}
+function afterEdit(){closeDrawer();renderDash();if(cur==='flow')renderFlow();renderCat();bars()}
+$('#planDiscard').onclick=()=>{restore();afterEdit()};
+$('#planSave').onclick=()=>{saved=JSON.stringify(COURSES.map(c=>[c.code,c.st,c.term,c.col,c.row]));bars();const m=$('#planCount');m.textContent='Plan saved';$('#planbar').classList.add('on');setTimeout(()=>bars(),1400)};
+
+/* ---------- catalog ---------- */
+const F={subject:'',level:'',credits:'',term:'',req:'',next:''};let q='',cstate='results';
+const FDEF=[['subject','Subject',['','CSCI','MATH','STAT','SW','PHYS']],['level','Level',['','1xxx','2xxx','3xxx','4xxx','5xxx']],['credits','Credits',['','1 to 2','3','4 or more']],['term','Term offered',['','Fall','Spring','Summer']],['req','Requirement type',['','Major core','Math and stats','Elective','Liberal ed']],['next','Availability',['','Offered next term','Not offered next term']]];
+const fHTML=pre=>FDEF.map(([k,l,o])=>`<div class="field"><label class="l" for="${pre}${k}">${l}</label><select class="in" id="${pre}${k}" data-f="${k}">${o.map(v=>`<option value="${v}">${v||'Any'}</option>`).join('')}</select></div>`).join('');
+$('#fdesk').innerHTML=fHTML('d_');$('#fsBody').innerHTML=fHTML('s_');
+function syncF(){$$('[data-f]').forEach(s=>s.value=F[s.dataset.f])}
+document.addEventListener('change',e=>{const s=e.target.closest('[data-f]');if(s){F[s.dataset.f]=s.value;syncF();renderCat()}});
+$('#catQ').oninput=e=>{q=e.target.value;renderCat()};
+$('#openFilters').onclick=()=>{$('#fsheet').classList.add('on');$('#fsheet').setAttribute('aria-hidden','false');$('#scrim').classList.add('on')};
+$('#fClear').onclick=()=>{clearF();};
+function clearF(){Object.keys(F).forEach(k=>F[k]='');q='';$('#catQ').value='';syncF();renderCat()}
+$$('input[name=cst]').forEach(r=>r.onchange=()=>{cstate=r.value;renderCat()});
+const nextTerm=c=>c.off.includes('Spring');
+function filtered(){
+  const s=q.trim().toLowerCase();
+  return COURSES.filter(c=>{
+    if(s&&!(c.code+' '+c.title+' '+c.profs.join(' ')).toLowerCase().includes(s))return false;
+    if(F.subject&&!c.code.startsWith(F.subject))return false;
+    if(F.level&&c.code.match(/\d/)[0]!==F.level[0])return false;
+    if(F.credits==='1 to 2'&&c.cr>2)return false;if(F.credits==='3'&&c.cr!==3)return false;if(F.credits==='4 or more'&&c.cr<4)return false;
+    if(F.term&&!c.off.includes(F.term))return false;
+    if(F.req&&c.req!==F.req)return false;
+    if(F.next==='Offered next term'&&!nextTerm(c))return false;if(F.next==='Not offered next term'&&nextTerm(c))return false;
+    return true});
+}
+function renderCat(){
+  const res=$('#catRes'),sum=$('#catSum');
+  if(cstate==='loading'){sum.innerHTML='<span class="muted">Loading courses…</span>';res.innerHTML='<div class="glass clist" aria-busy="true">'+'<div class="skel"></div>'.repeat(6)+'</div>';return}
+  if(cstate==='error'){sum.innerHTML='';res.innerHTML=`<div class="glass empty"><div style="color:var(--warning)">${ic('warn')}</div><h3>We couldn't load the catalog</h3><p>The course data didn't come back. Check your connection and try again.</p><button class="btn" id="retry">${ic('refresh','sm')}Try again</button></div>`;$('#retry').onclick=()=>{cstate='results';$('input[name=cst][value=results]').checked=true;renderCat()};return}
+  const list=filtered();
+  const act=Object.entries(F).filter(([k,v])=>v).map(([k,v])=>`<button class="chip" data-clear="${k}" aria-label="Remove filter ${FDEF.find(d=>d[0]===k)[1]}: ${v}">${FDEF.find(d=>d[0]===k)[1]}: ${v}${ic('x','sm')}</button>`).join('');
+  sum.innerHTML=`<span>${list.length} ${list.length===1?'course':'courses'}</span>${act}`;
+  $$('[data-clear]').forEach(b=>b.onclick=()=>{F[b.dataset.clear]='';syncF();renderCat()});
+  if(!list.length){res.innerHTML=`<div class="glass empty"><h3>No courses match</h3><p>Try a broader course code, such as CSCI, or clear a filter.</p><button class="btn ghost" id="clr">Clear filters and search</button></div>`;$('#clr').onclick=clearF;return}
+  res.innerHTML=`<div class="chead" aria-hidden="true"><span>Course</span><span>Credits</span><span>Offered</span><span>Requirement</span><span>Status</span><span style="min-width:210px"></span></div><ul class="glass clist">`+list.map(c=>`<li class="citem"><div class="cm"><b>${c.code}</b><span>${c.title}</span></div><span class="c-cr num"><span class="mlab">Credits </span>${c.cr}</span><span class="c-off"><span class="mlab">Offered </span>${c.off.join(', ')}</span><span class="c-req">${c.req}</span><span class="c-st">${badge(c.st)}</span><span class="acts"><button class="btn ghost sm" data-open="${c.code}">View details</button>${c.st==='avail'?`<button class="btn sm" data-open="${c.code}" aria-label="Add ${c.code} to plan">Add to plan</button>`:`<span style="min-width:0"></span>`}</span></li>`).join('')+'</ul>';
+}
+
+/* ---------- search overlay ---------- */
+const sov=$('#searchov');
+function openSearch(){sov.classList.add('on');$('#sq').value='';sres();setTimeout(()=>$('#sq').focus(),30)}
+function closeSearch(){sov.classList.remove('on')}
+function sres(){const s=$('#sq').value.trim().toLowerCase();const l=COURSES.filter(c=>!s||(c.code+' '+c.title+' '+c.profs.join(' ')).toLowerCase().includes(s)).slice(0,6);
+  $('#sRes').innerHTML=l.length?l.map(c=>`<button data-open="${c.code}"><span><b>${c.code}</b> <span class="muted">${c.title}</span></span>${badge(c.st)}</button>`).join(''):'<p class="muted" style="padding:14px">No matches. Try a broader course code.</p>'}
+$('#openSearch').onclick=openSearch;$('#sClose').onclick=closeSearch;
+$('#sq').oninput=sres;
+$('#sq').onkeydown=e=>{if(e.key==='Enter'){q=$('#sq').value;$('#catQ').value=q;go('catalog');renderCat()}};
+$('#sCat').onclick=()=>{q=$('#sq').value;$('#catQ').value=q;go('catalog');renderCat()};
+sov.onclick=e=>{if(e.target===sov)closeSearch()};
+
+/* ---------- settings ---------- */
+let S={name:'Inah',major:'Computer Science B.S.',standing:'Junior',goals:'Software engineering internship, then full-stack roles',load:15,grad:'Spring 2028'};
+let sSaved={...S},sState='saved',load=15;
+const sv=()=>({name:$('#sName').value.trim(),major:$('#sMajor').value,standing:$('#sStanding').value,goals:$('#sGoals').value.trim(),load,grad:$('#sGrad').value});
+const dirty=()=>JSON.stringify(sv())!==JSON.stringify(sSaved);
+function sFill(o){$('#sName').value=o.name;$('#sMajor').value=o.major;$('#sStanding').value=o.standing;$('#sGoals').value=o.goals;load=o.load;$('#sGrad').value=o.grad;$('#sLoad').textContent=load+' credits';$('#fName').classList.remove('bad')}
+function sRender(){
+  const m={saved:[ 'check','Saved'],unsaved:['edit','Unsaved changes'],saving:['','Saving'],error:['warn','Could not save']}[sState];
+  const el=$('#sState');el.className='sstate '+sState;el.innerHTML=(sState==='saving'?'<span class="spin"></span>':ic(m[0],'sm'))+m[1];
+  bars();
+}
+function bars(){
+  const n=pending();
+  $('#planbar').classList.toggle('on',cur==='flow'&&n>0);
+  if(cur==='flow'&&n>0)$('#planCount').textContent=n+(n>1?' unsaved changes':' unsaved change');
+  const on=cur==='settings'&&sState!=='saved';
+  $('#setbar').classList.toggle('on',on);
+  $('#setMsg').textContent={unsaved:'Unsaved changes',saving:'Saving…',error:'Could not save. Check your connection and try again.',saved:'Saved'}[sState];
+  $('#setSave').textContent=sState==='error'?'Try again':'Save changes';
+  $('#setSave').disabled=sState==='saving';$('#setDiscard').disabled=sState==='saving';
+}
+$('#setForm').addEventListener('input',()=>{if(sState==='saving')return;if($('#sName').value.trim())$('#fName').classList.remove('bad');sState=dirty()?'unsaved':'saved';sRender()});
+$('#loadUp').onclick=()=>{if(load<18){load++;$('#sLoad').textContent=load+' credits';$('#setForm').dispatchEvent(new Event('input'))}};
+$('#loadDn').onclick=()=>{if(load>12){load--;$('#sLoad').textContent=load+' credits';$('#setForm').dispatchEvent(new Event('input'))}};
+$('#setDiscard').onclick=()=>{sFill(sSaved);sState='saved';sRender()};
+$('#setSave').onclick=()=>{
+  if(!$('#sName').value.trim()){$('#fName').classList.add('bad');$('#sName').focus();return}
+  sState='saving';sRender();
+  setTimeout(()=>{
+    if($('#failSave').checked){sState='error';sRender();return}
+    sSaved=sv();S={...sSaved};sState='saved';sRender();renderDash();
+  },900);
+};
+
+/* ---------- onboarding ---------- */
+$$('input[name=imp]').forEach(r=>r.onchange=()=>{$$('.panel').forEach(p=>p.classList.remove('on'));$('#p-'+r.value).classList.add('on')});
+let upTimer;
+function upShow(w){['upIdle','upBusy','upOk','upFail'].forEach(i=>$('#'+i).hidden=i!==w)}
+function startUpload(){
+  upShow('upBusy');const bar=$('#upBar'),lab=$('#upLabel'),pb=$('#upBusy .prog');let p=0;
+  lab.textContent='Uploading';bar.style.width='0';
+  upTimer=setInterval(()=>{p+=12;bar.style.width=Math.min(p,100)+'%';pb.setAttribute('aria-valuenow',Math.min(p,100));
+    if(p>=100){clearInterval(upTimer);lab.innerHTML='<span class="spin"></span>Reading your courses…';
+      setTimeout(()=>upShow($('input[name=outc]:checked').value==='ok'?'upOk':'upFail'),1000)}},130);
+}
+$('#chooseFile').onclick=startUpload;
+$('#tryOcr').onclick=()=>{startUpload()};
+$('#toManual').onclick=()=>{$('input[name=imp][value=manual]').checked=true;$$('.panel').forEach(p=>p.classList.remove('on'));$('#p-manual').classList.add('on');upShow('upIdle')};
+let genT=[];
+function runGen(){
+  genT.forEach(clearTimeout);genT=[];
+  const steps=$$('[data-g]'),bar=$('#genBar');steps.forEach(s=>s.classList.remove('done'));bar.style.width='0';
+  $('#genTitle').textContent='Building your plan';$('#genSub').textContent='This takes a few seconds.';$('#genGo').style.visibility='hidden';
+  steps.forEach((s,i)=>genT.push(setTimeout(()=>{s.classList.add('done');bar.style.width=(i+1)*25+'%';
+    if(i===3){$('#genTitle').textContent='Your plan is ready';$('#genSub').textContent='Review it on your dashboard.';$('#genGo').style.visibility='visible'}},700*(i+1))));
+}
+
+/* ---------- init ---------- */
+renderDash();renderFlow();renderCat();sRender();syncF();
+go((location.hash||'#login').slice(1));
+addEventListener('hashchange',()=>{const h=location.hash.slice(1);if(h!==cur)go(h)});
+</script>
+</body>
+</html>
