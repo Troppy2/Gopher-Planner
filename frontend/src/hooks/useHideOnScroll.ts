@@ -1,8 +1,12 @@
 import { useEffect, useState } from "react";
 
-/** True after the user scrolls down past `threshold`; false again on any upward scroll or near the top. */
-export function useHideOnScroll(threshold = 64) {
+/**
+ * True after the user scrolls down past `threshold`; false again on any upward scroll or near the top.
+ * Changing `resetKey` (for example the route) shows the bars again.
+ */
+export function useHideOnScroll(threshold = 64, resetKey?: unknown) {
   const [hidden, setHidden] = useState(false);
+  useEffect(() => setHidden(false), [resetKey]);
   useEffect(() => {
     let last = window.scrollY;
     let ticking = false;
