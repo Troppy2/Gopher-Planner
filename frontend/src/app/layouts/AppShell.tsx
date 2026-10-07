@@ -8,6 +8,8 @@ import { queryKeys } from "@/api/queryKeys";
 import { initial } from "@/lib/format";
 import { useSession } from "@/features/auth/session.store";
 import { SearchOverlay } from "@/features/search/SearchOverlay";
+import { HeaderSearch } from "@/features/search/HeaderSearch";
+import { useIsMobile } from "@/hooks/useMediaQuery";
 import { CourseDrawer } from "@/features/course-detail/CourseDrawer";
 import { UnsavedPlanBar } from "@/features/plan/UnsavedPlanBar";
 import { useHideOnScroll } from "@/hooks/useHideOnScroll";
@@ -30,6 +32,9 @@ export function AppShell() {
   const { pathname } = useLocation();
   const navigate = useNavigate();
   const [searchOpen, setSearchOpen] = useState(false);
+  const [inlineSearch, setInlineSearch] = useState(false);
+  const isMobile = useIsMobile();
+  const openSearch = () => (isMobile ? setInlineSearch(true) : setSearchOpen(true));
   const { data: profile } = useQuery({ queryKey: queryKeys.profile, queryFn: getProfile });
   const { email, signOut } = useSession();
   // A route can hide the navigation pill with `handle: { hideNav: true }`.
@@ -40,12 +45,16 @@ export function AppShell() {
     const onKey = (e: KeyboardEvent) => {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
         e.preventDefault();
-        setSearchOpen(true);
+        openSearch();
       }
     };
     addEventListener("keydown", onKey);
     return () => removeEventListener("keydown", onKey);
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isMobile]);
+
+  // Leaving the screen or widening past mobile closes the inline search.
+  useEffect(() => setInlineSearch(false), [pathname, isMobile]);
 
   useEffect(() => {
     document.title = TITLES[pathname] ? `${TITLES[pathname]} - Gopher Planner` : "Gopher Planner";
@@ -54,12 +63,19 @@ export function AppShell() {
   return (
     <div className={hideNav ? "shell no-nav" : "shell"}>
       <div className="shell-main">
-        <header className="hdr">
+        <header className={inlineSearch ? "hdr searching" : "hdr"}>
+          {inlineSearch ? (
+            <HeaderSearch onClose={() => setInlineSearch(false)} />
+          ) : (
+            <>
           <Link className="hdr-brand" to="/dashboard" aria-label="Gopher Planner, go to dashboard">
             <img src="/favicon.png" alt="" />
             Gopher Planner
           </Link>
-          <button className="btn-search" onClick={() => setSearchOpen(true)} aria-label="Search courses, professors, or course codes">
+          <div className="hdr-title" aria-hidden>
+            {TITLES[pathname]}
+          </div>
+          <button className="btn-search" onClick={openSearch} aria-label="Search courses, professors, or course codes">
             <Search className="ic" aria-hidden />
             <span>Search courses or professors</span>
             <kbd>Ctrl K</kbd>
@@ -91,6 +107,8 @@ export function AppShell() {
               </Menu.Content>
             </Menu.Portal>
           </Menu.Root>
+            </>
+          )}
         </header>
 
         <main id="main">
@@ -99,7 +117,7 @@ export function AppShell() {
       </div>
 
       {!hideNav && (
-        <nav className={pillHidden ? "pill-nav away" : "pill-nav"} aria-label="Primary">
+        <nav className={pillHidden || inlineSearch ? "pill-nav away" : "pill-nav"} aria-label="Primary">
           {NAV.map(({ to, label, Icon }) => (
             <NavLink key={to} to={to} className="pill-link">
               <Icon className="ic" aria-hidden />
