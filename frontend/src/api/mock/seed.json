@@ -1,0 +1,456 @@
+{
+  "profile": {
+    "name": "Alex",
+    "major": "Computer Science B.S.",
+    "standing": "Junior",
+    "careerGoals": "Software engineer",
+    "creditLoad": 15,
+    "graduationTarget": "Spring 2028",
+    "onboarded": false
+  },
+  "summary": {
+    "gpa": 3.62,
+    "gradedCredits": 48,
+    "creditsCompleted": 74,
+    "creditsTotal": 120,
+    "percentComplete": 62,
+    "program": "Computer Science B.S.",
+    "source": "Based on your APAS"
+  },
+  "plan": {
+    "terms": [
+      "Completed",
+      "Fall 2026",
+      "Spring 2027",
+      "Fall 2027",
+      "Spring 2028",
+      "Fall 2028",
+      "Spring 2029"
+    ],
+    "currentTerm": "Fall 2026",
+    "baseCredits": 74,
+    "courses": [
+      {
+        "code": "MATH 1371",
+        "title": "CSE Calculus I",
+        "credits": 4,
+        "status": "done",
+        "requirement": "Math and stats",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [],
+        "concurrent": [],
+        "professors": [
+          "R. Okafor",
+          "L. Brandt"
+        ],
+        "term": "Completed"
+      },
+      {
+        "code": "MATH 1372",
+        "title": "CSE Calculus II",
+        "credits": 4,
+        "status": "done",
+        "requirement": "Math and stats",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [
+          "MATH 1371"
+        ],
+        "concurrent": [],
+        "professors": [
+          "L. Brandt",
+          "S. Vang"
+        ],
+        "term": "Completed"
+      },
+      {
+        "code": "CSCI 1133",
+        "title": "Introduction to Computing and Programming Concepts",
+        "credits": 4,
+        "status": "done",
+        "requirement": "Major core",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [],
+        "concurrent": [],
+        "professors": [
+          "M. Haugen",
+          "T. Sandoval"
+        ],
+        "term": "Completed"
+      },
+      {
+        "code": "CSCI 2011",
+        "title": "Discrete Structures of Computer Science",
+        "credits": 4,
+        "status": "done",
+        "requirement": "Major core",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [],
+        "concurrent": [],
+        "professors": [
+          "P. Nwosu"
+        ],
+        "term": "Completed"
+      },
+      {
+        "code": "CSCI 2033",
+        "title": "Elementary Computational Linear Algebra",
+        "credits": 4,
+        "status": "prog",
+        "requirement": "Major core",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [
+          "MATH 1372"
+        ],
+        "concurrent": [],
+        "professors": [
+          "A. Lindqvist",
+          "D. Moua"
+        ],
+        "term": "Fall 2026"
+      },
+      {
+        "code": "STAT 3021",
+        "title": "Introduction to Statistical Analysis",
+        "credits": 3,
+        "status": "prog",
+        "requirement": "Math and stats",
+        "offered": [
+          "Fall",
+          "Spring",
+          "Summer"
+        ],
+        "prereqs": [
+          "MATH 1372"
+        ],
+        "concurrent": [],
+        "professors": [
+          "K. Rhee"
+        ],
+        "term": "Fall 2026"
+      },
+      {
+        "code": "CSCI 2041",
+        "title": "Advanced Programming Principles",
+        "credits": 4,
+        "status": "prog",
+        "requirement": "Major core",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [
+          "CSCI 1133"
+        ],
+        "concurrent": [],
+        "professors": [
+          "T. Sandoval",
+          "E. Kline"
+        ],
+        "term": "Fall 2026"
+      },
+      {
+        "code": "SW 2501",
+        "title": "Software Engineering Fundamentals",
+        "credits": 3,
+        "status": "prog",
+        "requirement": "Major core",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [],
+        "concurrent": [],
+        "professors": [
+          "J. Ashby"
+        ],
+        "term": "Fall 2026"
+      },
+      {
+        "code": "CSCI 2021",
+        "title": "Machine Architecture and Organization",
+        "credits": 4,
+        "status": "plan",
+        "requirement": "Major core",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [
+          "CSCI 1133"
+        ],
+        "concurrent": [],
+        "professors": [
+          "G. Tran",
+          "M. Haugen"
+        ],
+        "term": "Spring 2027"
+      },
+      {
+        "code": "CSCI 4041",
+        "title": "Algorithms and Data Structures",
+        "credits": 3,
+        "status": "plan",
+        "requirement": "Major core",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [
+          "CSCI 2011",
+          "CSCI 2041"
+        ],
+        "concurrent": [],
+        "professors": [
+          "P. Nwosu",
+          "H. Berg"
+        ],
+        "term": "Spring 2027"
+      },
+      {
+        "code": "CSCI 4131",
+        "title": "Internet Programming",
+        "credits": 3,
+        "status": "avail",
+        "requirement": "Elective",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [
+          "CSCI 2041"
+        ],
+        "concurrent": [],
+        "professors": [
+          "E. Kline"
+        ],
+        "term": null
+      },
+      {
+        "code": "CSCI 4061",
+        "title": "Introduction to Operating Systems",
+        "credits": 4,
+        "status": "plan",
+        "requirement": "Major core",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [
+          "CSCI 2021"
+        ],
+        "concurrent": [],
+        "professors": [
+          "G. Tran"
+        ],
+        "term": "Fall 2027"
+      },
+      {
+        "code": "CSCI 4511W",
+        "title": "Introduction to Artificial Intelligence",
+        "credits": 3,
+        "status": "block",
+        "requirement": "Elective",
+        "offered": [
+          "Spring"
+        ],
+        "prereqs": [
+          "CSCI 4041",
+          "STAT 3021"
+        ],
+        "concurrent": [],
+        "professors": [
+          "D. Moua"
+        ],
+        "term": "Fall 2027",
+        "lockReason": "Requires admission to the Computer Science major. You are currently a pre-major."
+      },
+      {
+        "code": "CSCI 4211",
+        "title": "Introduction to Computer Networks",
+        "credits": 3,
+        "status": "avail",
+        "requirement": "Elective",
+        "offered": [
+          "Fall"
+        ],
+        "prereqs": [
+          "CSCI 2021"
+        ],
+        "concurrent": [],
+        "professors": [
+          "F. Osei"
+        ],
+        "term": null
+      },
+      {
+        "code": "CSCI 5115",
+        "title": "User Interface Design, Implementation and Evaluation",
+        "credits": 3,
+        "status": "avail",
+        "requirement": "Elective",
+        "offered": [
+          "Spring"
+        ],
+        "prereqs": [
+          "CSCI 2041"
+        ],
+        "concurrent": [],
+        "professors": [
+          "B. Lund"
+        ],
+        "term": null
+      },
+      {
+        "code": "MATH 2243",
+        "title": "Linear Algebra and Differential Equations",
+        "credits": 4,
+        "status": "avail",
+        "requirement": "Math and stats",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [
+          "MATH 1372"
+        ],
+        "concurrent": [],
+        "professors": [
+          "S. Vang",
+          "R. Okafor"
+        ],
+        "term": null
+      },
+      {
+        "code": "PHYS 1301W",
+        "title": "Introductory Physics for Science and Engineering I",
+        "credits": 4,
+        "status": "avail",
+        "requirement": "Liberal ed",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [
+          "MATH 1371"
+        ],
+        "concurrent": [
+          "PHYS 1301L"
+        ],
+        "professors": [
+          "C. Eide"
+        ],
+        "term": null
+      },
+      {
+        "code": "CSCI 4011",
+        "title": "Formal Languages and Automata Theory",
+        "credits": 3,
+        "status": "avail",
+        "requirement": "Major core",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [
+          "CSCI 2011",
+          "CSCI 2041"
+        ],
+        "concurrent": [],
+        "professors": [
+          "P. Nwosu"
+        ],
+        "term": null
+      },
+      {
+        "code": "WRIT 1301",
+        "title": "University Writing",
+        "credits": 4,
+        "status": "avail",
+        "requirement": "Liberal ed",
+        "offered": [
+          "Fall",
+          "Spring"
+        ],
+        "prereqs": [],
+        "concurrent": [],
+        "professors": [
+          "N. Dahl"
+        ],
+        "term": null
+      }
+    ]
+  },
+  "options": {
+    "majors": [
+      "Computer Science B.S.",
+      "Computer Engineering B.S.",
+      "Data Science B.S."
+    ],
+    "standings": [
+      "Freshman",
+      "Sophomore",
+      "Junior",
+      "Senior"
+    ],
+    "graduationTargets": [
+      "Fall 2027",
+      "Spring 2028",
+      "Fall 2028",
+      "Spring 2029"
+    ],
+    "subjects": [
+      "CSCI",
+      "MATH",
+      "STAT",
+      "SW",
+      "PHYS",
+      "WRIT"
+    ],
+    "careers": {
+      "Computer Science B.S.": [
+        "Software engineer",
+        "Full-stack developer",
+        "Backend engineer",
+        "Machine learning engineer",
+        "Security engineer",
+        "Product manager",
+        "Graduate school (research)"
+      ],
+      "Computer Engineering B.S.": [
+        "Embedded systems engineer",
+        "Hardware design engineer",
+        "Firmware engineer",
+        "Robotics engineer",
+        "Network engineer",
+        "Graduate school (research)"
+      ],
+      "Data Science B.S.": [
+        "Data scientist",
+        "Data analyst",
+        "Machine learning engineer",
+        "Data engineer",
+        "Business intelligence analyst",
+        "Graduate school (research)"
+      ]
+    }
+  },
+  "transcript": {
+    "completed": 14,
+    "inProgress": 4
+  }
+}
