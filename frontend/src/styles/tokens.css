@@ -22,6 +22,9 @@
   --shadow-card: 0 1px 2px rgba(32, 26, 27, 0.06);
   --shadow-raised: 0 12px 30px rgba(32, 26, 27, 0.14);
   --chrome: rgba(246, 242, 233, 0.72);
+  /* A shade darker than the ivory page so the scrollbar blends in but stays findable. */
+  --scroll-thumb: #c9c0ad;
+  --scroll-thumb-hover: #a99f8b;
 
   /* type */
   --display: "Times New Roman", Times, serif;
