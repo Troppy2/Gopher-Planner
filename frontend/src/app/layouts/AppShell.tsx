@@ -73,7 +73,7 @@ export function AppShell() {
             Gopher Planner
           </Link>
           <div className="hdr-title" aria-hidden>
-            {TITLES[pathname]}
+            Gopher Planner
           </div>
           <button className="btn-search" onClick={openSearch} aria-label="Search courses, professors, or course codes">
             <Search className="ic" aria-hidden />
