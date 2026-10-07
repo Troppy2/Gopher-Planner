@@ -1,13 +1,10 @@
 import { useState } from "react";
-import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import * as Dialog from "@radix-ui/react-dialog";
 import { useNavigate } from "react-router";
 import { Search, X } from "lucide-react";
-import { getCourses } from "@/api/endpoints";
-import { queryKeys } from "@/api/queryKeys";
 import { Button, IconButton, StatusBadge } from "@/ui";
 import { useCourseParam } from "@/features/course-detail/useCourseParam";
-import { usePlanDraft } from "@/features/plan/plan.store";
+import { useCourseSearch } from "./useCourseSearch";
 
 interface Props {
   open: boolean;
@@ -19,14 +16,7 @@ export function SearchOverlay({ open, onOpenChange }: Props) {
   const [active, setActive] = useState(0);
   const navigate = useNavigate();
   const course = useCourseParam();
-  const changes = usePlanDraft((s) => s.changes);
-  const { data = [], isFetching } = useQuery({
-    queryKey: queryKeys.courses({ q }),
-    queryFn: () => getCourses({ q }),
-    placeholderData: keepPreviousData,
-    enabled: open,
-  });
-  const results = data.slice(0, 6).map((c) => (changes[c.code] ? { ...c, ...changes[c.code] } : c));
+  const { results, isFetching } = useCourseSearch(q, open);
 
   const close = () => {
     setQ("");
