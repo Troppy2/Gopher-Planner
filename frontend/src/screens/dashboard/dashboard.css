@@ -77,7 +77,6 @@
   flex: none;
 }
 .crow {
-  width: calc(100% + 20px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,9 +86,6 @@
   border: 0;
   background: transparent;
   text-align: left;
-}
-.crow:hover .crow-main b {
-  text-decoration: underline;
 }
 .crow-main {
   display: grid;

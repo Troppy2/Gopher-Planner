@@ -72,9 +72,6 @@
   color: var(--muted);
   font-size: 13.5px;
 }
-.semrow-main:hover b {
-  text-decoration: underline;
-}
 .semcr {
   font-size: 13.5px;
   white-space: nowrap;

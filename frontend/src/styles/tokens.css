@@ -41,6 +41,8 @@
   --radius: 8px;
   --radius-sm: 6px;
   --hit: 44px;
+  /* Horizontal breathing room inside a hovered row; rows pull it back so text stays aligned. */
+  --row-inset: 14px;
   --page-bottom: 120px;
 
   /* motion: only for responses to user actions */
