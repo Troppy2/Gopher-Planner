@@ -10,13 +10,13 @@ export const creditChoices = Array.from({ length: MAX_CREDITS - MIN_CREDITS + 1 
 
 /** Careers for the chosen major, always with an undecided option. */
 export function careerOptions(options: Options | undefined, major: string) {
-  const list = options?.careers[major] ?? [];
+  const list = options?.careers?.[major] ?? [];
   return [{ value: "", label: "Not decided yet" }, ...list];
 }
 
 /** Keep the career only if the new major still offers it. */
 export const careerForMajor = (options: Options | undefined, major: string, career: string) =>
-  options?.careers[major]?.includes(career) ? career : "";
+  options?.careers?.[major]?.includes(career) ? career : "";
 
 export function HeavyLoadNote({ credits }: { credits: number }) {
   if (credits <= HEAVY_CREDITS) return null;

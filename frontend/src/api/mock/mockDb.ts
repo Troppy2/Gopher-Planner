@@ -10,7 +10,8 @@ interface Db {
   transcript: { completed: number; inProgress: number };
 }
 
-const KEY = "gp-mock-db";
+// Bump when seed.json changes shape so stale browser copies are replaced.
+const KEY = "gp-mock-db-v2";
 const fresh = (): Db => structuredClone(seed) as Db;
 
 function load(): Db {
