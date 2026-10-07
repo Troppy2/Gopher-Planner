@@ -1,0 +1,199 @@
+.sem {
+  display: grid;
+  gap: 16px;
+  max-width: 860px;
+  margin-inline: auto;
+}
+.semcard {
+  padding: 20px;
+  scroll-margin-top: 88px;
+  display: grid;
+  gap: 8px;
+}
+.sem-skel {
+  height: 220px;
+}
+.semhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.semhead h2 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 26px;
+  color: var(--maroon);
+}
+.semhead h2:focus {
+  outline: none;
+}
+.semhead h2:focus-visible {
+  outline: 3px solid var(--maroon);
+  outline-offset: 3px;
+}
+.semmeta {
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.semmeta.over {
+  color: var(--warning);
+}
+.semrow {
+  width: calc(100% + 20px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+}
+.semcard ul .semrow:first-child {
+  border-top: 0;
+}
+.semrow-main {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  display: grid;
+  gap: 1px;
+}
+.semrow-main span {
+  color: var(--muted);
+  font-size: 13.5px;
+}
+.semrow-main:hover b {
+  text-decoration: underline;
+}
+.semcr {
+  font-size: 13.5px;
+  white-space: nowrap;
+}
+.semnote {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  color: var(--warning) !important;
+  font-weight: 600;
+  font-size: 13px !important;
+  margin-top: 2px;
+}
+.semnote.big {
+  font-size: 14px !important;
+}
+.semok {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  color: var(--success);
+  font-weight: 600;
+  font-size: 14px;
+}
+.semsub {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 12px;
+  color: var(--muted);
+}
+.sempad {
+  padding: 6px 0;
+}
+.buildcard {
+  max-width: 860px;
+  margin: 0 auto 16px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+.buildcard .h2 {
+  margin: 0;
+}
+
+/* graph */
+.tb {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.tb-sel {
+  min-width: 220px;
+}
+.tb .sp {
+  flex: 1;
+}
+.zoom {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.legend {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+}
+.legend li {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.legend svg {
+  width: 16px;
+  height: 16px;
+}
+.cv {
+  position: relative;
+  height: clamp(400px, calc(100dvh - 340px), 640px);
+  overflow: hidden;
+}
+.cv canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  cursor: grab;
+}
+.cv canvas.pointing {
+  cursor: pointer;
+}
+.cv canvas.grabbing {
+  cursor: grabbing;
+}
+.graph-hint {
+  margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+  .semcard {
+    padding: 16px;
+  }
+  .semrow {
+    flex-wrap: wrap;
+  }
+  .semrow-main {
+    flex-basis: 100%;
+  }
+  .cv {
+    height: 440px;
+  }
+  .tb-sel {
+    min-width: 0;
+    flex: 1;
+  }
+  .tb .sp {
+    display: none;
+  }
+}
