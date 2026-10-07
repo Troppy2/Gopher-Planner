@@ -31,7 +31,7 @@ export function AppShell() {
   const [searchOpen, setSearchOpen] = useState(false);
   const { data: profile } = useQuery({ queryKey: queryKeys.profile, queryFn: getProfile });
   const { email, signOut } = useSession();
-  // A route can hide the sidebar with `handle: { hideNav: true }`.
+  // A route can hide the navigation pill with `handle: { hideNav: true }`.
   const hideNav = useMatches().some((m) => (m.handle as { hideNav?: boolean } | undefined)?.hideNav);
 
   useEffect(() => {
@@ -51,23 +51,10 @@ export function AppShell() {
 
   return (
     <div className={hideNav ? "shell no-nav" : "shell"}>
-      {!hideNav && (
-        <nav className="rail" aria-label="Primary">
-          <Link className="rail-brand" to="/dashboard" aria-label="Gopher Planner home">
-            <img src="/favicon.png" alt="" />
-          </Link>
-          {NAV.map(({ to, label, Icon }) => (
-            <NavLink key={to} to={to} className="rail-link">
-              <Icon className="ic" aria-hidden />
-              <span>{label}</span>
-            </NavLink>
-          ))}
-        </nav>
-      )}
-
       <div className="shell-main">
         <header className="hdr">
           <Link className="hdr-brand" to="/dashboard">
+            <img src="/favicon.png" alt="" />
             Gopher Planner
           </Link>
           <div className="hdr-title" aria-hidden>
@@ -112,6 +99,16 @@ export function AppShell() {
         </main>
       </div>
 
+      {!hideNav && (
+        <nav className="pill-nav" aria-label="Primary">
+          {NAV.map(({ to, label, Icon }) => (
+            <NavLink key={to} to={to} className="pill-link">
+              <Icon className="ic" aria-hidden />
+              <span>{label}</span>
+            </NavLink>
+          ))}
+        </nav>
+      )}
       {PLAN_EDIT_SCREENS.includes(pathname) && <UnsavedPlanBar />}
       <SearchOverlay open={searchOpen} onOpenChange={setSearchOpen} />
       <CourseDrawer />
