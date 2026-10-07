@@ -1,3 +1,11 @@
+.flow-sem .flow-head,
+.flow-sem .buildcard {
+  max-width: 860px;
+  margin-inline: auto;
+}
+.flow-head {
+  align-items: center;
+}
 .sem {
   display: grid;
   gap: 16px;
@@ -44,16 +52,11 @@
   color: var(--warning);
 }
 .semrow {
-  width: calc(100% + 20px);
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 10px 0;
-  border-top: 1px solid var(--border);
-}
-.semcard ul .semrow:first-child {
-  border-top: 0;
+  padding-block: 10px;
 }
 .semrow-main {
   flex: 1;
@@ -106,8 +109,7 @@
   padding: 6px 0;
 }
 .buildcard {
-  max-width: 860px;
-  margin: 0 auto 16px;
+  margin-bottom: 16px;
   padding: 22px;
   display: grid;
   gap: 14px;
