@@ -812,10 +812,27 @@ textarea.input {
    Clickable rows get an inset hover fill. Rows carry the padding and pull it back with an equal negative
    margin, so the text stays aligned with the card edge and hover never shifts layout. */
 .hover-row {
+  position: relative;
   margin-inline: -10px;
   padding-inline: 10px;
   border-radius: var(--radius);
   transition: background-color var(--fast);
+}
+.hover-row::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 10px;
+  height: 1px;
+  background: var(--border);
+}
+li:first-child > .hover-row::before,
+.hover-row:first-child::before,
+.hover-row:hover::before,
+.hover-row:hover + .hover-row::before,
+li:hover + li > .hover-row::before {
+  opacity: 0;
 }
 .hover-row:hover {
   background: var(--maroon-tint);

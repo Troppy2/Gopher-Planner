@@ -115,8 +115,8 @@ export default function FlowChartScreen() {
   }
 
   return (
-    <div className="page">
-      <div className="pg-head">
+    <div className={view === "sem" ? "page flow-sem" : "page"}>
+      <div className="pg-head flow-head">
         <h1 className="title">Flow chart</h1>
         <SegmentedControl<ViewMode>
           label="View"

@@ -83,14 +83,10 @@
   align-items: center;
   gap: 12px;
   min-height: var(--hit);
-  padding: 12px 0;
+  padding-block: 12px;
   border: 0;
-  border-top: 1px solid var(--border);
   background: transparent;
   text-align: left;
-}
-.clist-d li:first-child .crow {
-  border-top: 0;
 }
 .crow:hover .crow-main b {
   text-decoration: underline;
