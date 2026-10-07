@@ -30,6 +30,13 @@ textarea {
 button {
   cursor: pointer;
 }
+/* Scrollbars hidden everywhere; scrolling still works with wheel, touch, and keyboard. */
+* {
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
 a {
   color: var(--maroon);
 }
