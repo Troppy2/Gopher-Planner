@@ -1,0 +1,154 @@
+.searchbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 14px;
+  margin-bottom: 12px;
+  cursor: text;
+}
+.searchbar input {
+  flex: 1;
+  min-width: 0;
+  min-height: 48px;
+  border: 0;
+  background: transparent;
+  outline: none;
+}
+.searchbar:focus-within {
+  border-color: var(--maroon);
+  box-shadow: 0 0 0 3px rgba(122, 0, 25, 0.2);
+}
+.filters {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.filters .label {
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.cat-tools {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cat-tools .demo {
+  margin-left: auto;
+}
+.fbtn {
+  display: none;
+}
+.summary {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 8px 0 12px;
+  min-height: 32px;
+  font-weight: 600;
+}
+.chead,
+.citem {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 0.9fr 1fr 1.1fr 236px;
+  gap: 12px;
+  align-items: center;
+}
+.chead {
+  padding: 0 20px 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+}
+.clist {
+  overflow: hidden;
+}
+.citem {
+  padding: 14px 20px;
+  border-top: 1px solid var(--border);
+}
+.citem:hover {
+  background: rgba(122, 0, 25, 0.04);
+}
+.citem:first-child {
+  border-top: 0;
+}
+.cm {
+  display: grid;
+  min-width: 0;
+}
+.cm span {
+  color: var(--muted);
+  font-size: 13.5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.acts {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.mlab {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .filters {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .chead {
+    display: none;
+  }
+  .citem {
+    grid-template-columns: 1fr auto auto;
+    gap: 8px 14px;
+  }
+  .cm {
+    grid-column: 1 / -1;
+  }
+  .c-cr,
+  .c-off,
+  .c-req {
+    font-size: 13.5px;
+    color: var(--muted);
+  }
+  .mlab {
+    display: inline;
+  }
+  .c-st {
+    grid-column: 1 / 2;
+  }
+  .acts {
+    grid-column: 2 / -1;
+  }
+}
+@media (max-width: 767px) {
+  .filters {
+    display: none;
+  }
+  .fbtn {
+    display: inline-flex;
+  }
+  .citem {
+    grid-template-columns: 1fr auto;
+    padding: 14px 16px;
+  }
+  .cm span {
+    white-space: normal;
+  }
+  .c-st,
+  .acts {
+    grid-column: 1 / -1;
+  }
+  .acts .btn {
+    flex: 1;
+  }
+  .acts-pad {
+    display: none;
+  }
+}
