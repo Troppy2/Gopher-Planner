@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, NavLink, Outlet, useLocation, useMatches, useNavigate } from "react-router";
+import { Link, NavLink, Outlet, useLocation, useMatches, useNavigate, useNavigationType } from "react-router";
 import { useQuery } from "@tanstack/react-query";
 import * as Menu from "@radix-ui/react-dropdown-menu";
 import { BookOpen, LayoutGrid, LogOut, Search, Settings, Waypoints } from "lucide-react";
@@ -39,7 +39,7 @@ export function AppShell() {
   const { data: profile } = useQuery({ queryKey: queryKeys.profile, queryFn: getProfile });
   const { email, signOut } = useSession();
   // A route can hide the navigation pill with `handle: { hideNav: true }`.
-  const pillHidden = useHideOnScroll();
+  const pillHidden = useHideOnScroll(64, pathname);
   const hideNav = useMatches().some((m) => (m.handle as { hideNav?: boolean } | undefined)?.hideNav);
 
   useEffect(() => {
@@ -53,6 +53,14 @@ export function AppShell() {
     return () => removeEventListener("keydown", onKey);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isMobile]);
+
+  // A new screen opens at the top. Back/Forward (POP) keep the browser's position, and only the path
+  // counts, so opening a course drawer (?course=) doesn't jump the page.
+  const navType = useNavigationType();
+  useEffect(() => {
+    if (navType !== "POP") window.scrollTo(0, 0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
 
   // Leaving the screen or widening past mobile closes the inline search.
   useEffect(() => setInlineSearch(false), [pathname, isMobile]);
