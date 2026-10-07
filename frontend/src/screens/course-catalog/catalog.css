@@ -54,7 +54,7 @@
 .chead,
 .citem {
   display: grid;
-  grid-template-columns: 2fr 0.5fr 0.9fr 1fr 1.1fr 236px;
+  grid-template-columns: 2fr 0.5fr 0.9fr 1fr 1.1fr 232px;
   gap: 12px;
   align-items: center;
 }
@@ -80,6 +80,13 @@
 .cm {
   display: grid;
   min-width: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  text-align: left;
+}
+.cm:hover b {
+  color: var(--maroon);
 }
 .cm span {
   color: var(--muted);
@@ -89,9 +96,14 @@
   white-space: nowrap;
 }
 .acts {
-  display: flex;
+  display: grid;
+  grid-template-columns: 112px 112px;
   gap: 8px;
-  justify-content: flex-end;
+  justify-content: end;
+}
+/* Fixed slots so View details lines up whether or not Add to plan is present. */
+.acts .btn {
+  width: 100%;
 }
 .mlab {
   display: none;
@@ -134,21 +146,27 @@
   .fbtn {
     display: inline-flex;
   }
+  /* Compact rows: tap the course for details; Add to plan stays a separate control. */
   .citem {
     grid-template-columns: 1fr auto;
+    gap: 6px 12px;
     padding: 14px 16px;
+  }
+  .c-req {
+    display: none;
+  }
+  .view-btn,
+  .acts-pad {
+    display: none;
   }
   .cm span {
     white-space: normal;
   }
-  .c-st,
+  .c-st {
+    grid-column: 1 / 2;
+  }
   .acts {
-    grid-column: 1 / -1;
-  }
-  .acts .btn {
-    flex: 1;
-  }
-  .acts-pad {
-    display: none;
+    grid-column: 2 / 3;
+    grid-template-columns: auto;
   }
 }

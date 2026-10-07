@@ -107,7 +107,7 @@ export default function CatalogScreen() {
       <label className="searchbar surf">
         <Search className="ic muted" aria-hidden />
         <span className="vh">Search courses</span>
-        <input type="search" value={q} placeholder="Search courses, professors, or course codes" onChange={(e) => setQ(e.target.value)} />
+        <input type="search" value={q} placeholder="Search courses or professors" onChange={(e) => setQ(e.target.value)} />
       </label>
 
       <div className="filters">
