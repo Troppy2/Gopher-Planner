@@ -19,6 +19,18 @@
   grid-row: span 2;
   align-self: start;
 }
+.dcols {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 16px;
+  margin-top: 16px;
+  align-items: start;
+}
+.dcol {
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+}
 .card {
   padding: 20px;
   min-width: 0;
@@ -152,6 +164,9 @@
 }
 
 @media (max-width: 1023px) {
+  .dcols {
+    grid-template-columns: minmax(0, 1fr);
+  }
   .g3,
   .g4,
   .g5,
@@ -163,8 +178,13 @@
   }
 }
 @media (max-width: 767px) {
-  .dgrid {
+  .dgrid,
+  .dcols,
+  .dcol {
     gap: 12px;
+  }
+  .dcols {
+    margin-top: 12px;
   }
   .g3,
   .g4 {
@@ -174,7 +194,19 @@
   .g7 {
     grid-column: span 12;
   }
-  .card {
+  .dcols {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 16px;
+  margin-top: 16px;
+  align-items: start;
+}
+.dcol {
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+}
+.card {
     padding: 16px;
   }
   .metric .val {

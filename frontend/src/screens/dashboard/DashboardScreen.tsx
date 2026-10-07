@@ -66,59 +66,58 @@ export default function DashboardScreen() {
         </MetricCard>
         <PercentCard className="g5" percent={summary?.percentComplete ?? null} program={summary?.program ?? ""} source={summary?.source ?? ""} />
 
-        <section className="card surf g5" aria-labelledby="cur-h">
-          <h2 className="h2" id="cur-h">
-            Current classes
-          </h2>
-          {isLoading ? <p className="muted">Loading classes…</p> : current.length ? <CourseList courses={current} /> : <p className="muted">No classes in progress this term.</p>}
-        </section>
+      </div>
 
-        <section className="card surf g7 span-rows" aria-labelledby="fut-h">
-          <h2 className="h2" id="fut-h">
-            Future classes
-          </h2>
-          {isLoading ? (
-            <p className="muted">Loading plan…</p>
-          ) : future.length ? (
-            future.map((g) => (
-              <div key={g.term} className="term-group">
-                <h3 className="term">{g.term}</h3>
-                <CourseList courses={g.list} />
-              </div>
-            ))
-          ) : (
-            <div className="empty-inline">
-              <p className="muted">No planned classes yet.</p>
-              <Button size="sm" onClick={build}>
-                Build my planner
-              </Button>
-            </div>
-          )}
-          {nextTerm && (
-            <div className="foot-row">
-              <div>
-                <b>Review your next semester</b>
-                <span className="muted">{nextTerm} is planned.</span>
-              </div>
-              <Link className="btn sm" to={`/flow-chart?term=${encodeURIComponent(nextTerm)}`}>
-                Review {nextTerm}
-              </Link>
-            </div>
-          )}
-        </section>
-
-        <section className="card surf g5" aria-labelledby="det-h">
-          <h2 className="h2" id="det-h">
-            User details
-          </h2>
-          <UserDetails profile={profile} />
-          <div className="foot-row">
-            <span />
-            <Link className="btn sm ghost" to="/settings">
-              Edit in settings
-            </Link>
-          </div>
-        </section>
+      <div className="dcols">
+        <div className="dcol">
+            <section className="card surf" aria-labelledby="cur-h">
+              <h2 className="h2" id="cur-h">
+                Current classes
+              </h2>
+              {isLoading ? <p className="muted">Loading classes…</p> : current.length ? <CourseList courses={current} /> : <p className="muted">No classes in progress this term.</p>}
+            </section>
+            <section className="card surf" aria-labelledby="det-h">
+              <h2 className="h2" id="det-h">
+                User details
+              </h2>
+              <UserDetails profile={profile} />
+            </section>
+        </div>
+        <div className="dcol">
+            <section className="card surf" aria-labelledby="fut-h">
+              <h2 className="h2" id="fut-h">
+                Future classes
+              </h2>
+              {isLoading ? (
+                <p className="muted">Loading plan…</p>
+              ) : future.length ? (
+                future.map((g) => (
+                  <div key={g.term} className="term-group">
+                    <h3 className="term">{g.term}</h3>
+                    <CourseList courses={g.list} />
+                  </div>
+                ))
+              ) : (
+                <div className="empty-inline">
+                  <p className="muted">No planned classes yet.</p>
+                  <Button size="sm" onClick={build}>
+                    Build my planner
+                  </Button>
+                </div>
+              )}
+              {nextTerm && (
+                <div className="foot-row">
+                  <div>
+                    <b>Review your next semester</b>
+                    <span className="muted">{nextTerm} is planned.</span>
+                  </div>
+                  <Link className="btn sm" to={`/flow-chart?term=${encodeURIComponent(nextTerm)}`}>
+                    Review {nextTerm}
+                  </Link>
+                </div>
+              )}
+            </section>
+        </div>
       </div>
     </div>
   );
