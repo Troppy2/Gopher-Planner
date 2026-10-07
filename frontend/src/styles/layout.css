@@ -346,6 +346,14 @@
     font-size: 11.5px;
   }
   .hdr {
+    transition: transform 220ms var(--ease), opacity 220ms var(--ease);
+  }
+  .hdr.away:not(:focus-within) {
+    transform: translateY(calc(-100% - 16px));
+    opacity: 0;
+    pointer-events: none;
+  }
+  .hdr {
     top: 8px;
     width: calc(100% - 32px);
     margin-top: 8px;
