@@ -55,16 +55,13 @@ export function AppShell() {
     <div className={hideNav ? "shell no-nav" : "shell"}>
       <div className="shell-main">
         <header className="hdr">
-          <Link className="hdr-brand" to="/dashboard">
+          <Link className="hdr-brand" to="/dashboard" aria-label="Gopher Planner, go to dashboard">
             <img src="/favicon.png" alt="" />
             Gopher Planner
           </Link>
-          <div className="hdr-title" aria-hidden>
-            {TITLES[pathname]}
-          </div>
           <button className="btn-search" onClick={() => setSearchOpen(true)} aria-label="Search courses, professors, or course codes">
             <Search className="ic" aria-hidden />
-            <span>Search courses, professors, or course codes</span>
+            <span>Search courses or professors</span>
             <kbd>Ctrl K</kbd>
           </button>
           <Menu.Root>

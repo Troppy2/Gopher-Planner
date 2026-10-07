@@ -89,7 +89,8 @@
   display: flex;
   align-items: center;
   gap: var(--s3);
-  width: min(1248px, calc(100% - 32px));
+  /* Same width as page content so the edges line up. */
+  width: calc(min(1280px, 100%) - 64px);
   min-height: 56px;
   margin: 12px auto 0;
   padding: 8px 8px 8px 18px;
@@ -114,14 +115,6 @@
 .hdr-brand img {
   width: 28px;
   height: 30px;
-}
-.hdr-title {
-  display: none;
-  flex: 1;
-  text-align: center;
-  font-family: var(--display);
-  font-size: 20px;
-  color: var(--maroon);
 }
 .btn-search {
   display: flex;
@@ -320,6 +313,9 @@
   .btn-search {
     width: 280px;
   }
+  .hdr {
+    width: calc(100% - 48px);
+  }
 }
 
 /* ---------- mobile ---------- */
@@ -339,19 +335,17 @@
   }
   .hdr {
     top: 8px;
-    width: calc(100% - 16px);
+    width: calc(100% - 32px);
     margin-top: 8px;
     padding: 6px;
     min-height: 52px;
   }
+  /* Brand mark only; the page title below already names the screen. */
   .hdr-brand {
-    display: none;
-  }
-  .hdr-title {
-    display: block;
+    font-size: 0;
+    gap: 0;
   }
   .btn-search {
-    order: -1;
     width: var(--hit);
     min-height: var(--hit);
     padding: 0;

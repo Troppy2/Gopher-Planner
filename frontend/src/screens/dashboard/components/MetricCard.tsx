@@ -32,8 +32,8 @@ export function PercentCard({ className, percent, program, source }: { className
     <section className={`card surf metric pct ${className}`}>
       {percent != null ? <ProgressRing percent={percent} size={mobile ? 96 : 128} /> : <div className="ring-na">N/A</div>}
       <div>
-        <h2 className="lab">Percent complete</h2>
-        <p className="pct-prog">{program ? `of ${program} requirements` : " "}</p>
+        <h2 className="lab">Degree progress</h2>
+        <p className="pct-prog">{program ? `${percent ?? 0}% of ${program} requirements met` : " "}</p>
         <p className="ctx">{percent != null ? source : "Not available until your coursework is added"}</p>
       </div>
     </section>
