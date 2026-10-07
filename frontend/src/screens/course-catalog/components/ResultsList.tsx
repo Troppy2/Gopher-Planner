@@ -21,10 +21,10 @@ export function ResultsList({ courses, onOpen, onAdd }: Props) {
       <ul className="surf clist">
         {courses.map((c) => (
           <li key={c.code} className="citem">
-            <div className="cm">
+            <button type="button" className="cm" onClick={() => onOpen(c.code)}>
               <b>{c.code}</b>
               <span>{c.title}</span>
-            </div>
+            </button>
             <span className="c-cr num">
               <span className="mlab">Credits </span>
               {c.credits}
@@ -38,7 +38,7 @@ export function ResultsList({ courses, onOpen, onAdd }: Props) {
               <StatusBadge status={c.status} />
             </span>
             <span className="acts">
-              <Button variant="ghost" size="sm" onClick={() => onOpen(c.code)} aria-label={`View details for ${c.code}`}>
+              <Button variant="ghost" size="sm" className="view-btn" onClick={() => onOpen(c.code)} aria-label={`View details for ${c.code}`}>
                 View details
               </Button>
               {c.status === "avail" ? (
