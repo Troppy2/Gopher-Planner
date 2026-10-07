@@ -39,11 +39,12 @@
   -webkit-backdrop-filter: blur(16px) saturate(140%);
   box-shadow: 0 8px 24px rgba(32, 26, 27, 0.12);
 }
-/* Slides away while scrolling down; comes back on scroll up or when a link gets keyboard focus. */
+/* Slides away while scrolling down; comes back on scroll up or when a link gets keyboard focus.
+   :focus-visible, not :focus-within, so a tapped link that keeps focus doesn't pin the pill open. */
 .pill-nav {
   transition: transform 220ms var(--ease), opacity 220ms var(--ease);
 }
-.pill-nav.away:not(:focus-within) {
+.pill-nav.away:not(:has(:focus-visible)) {
   transform: translate(-50%, calc(100% + 32px));
   opacity: 0;
   pointer-events: none;
@@ -348,7 +349,7 @@
   .hdr {
     transition: transform 220ms var(--ease), opacity 220ms var(--ease);
   }
-  .hdr.away:not(:focus-within) {
+  .hdr.away:not(:has(:focus-visible)) {
     transform: translateY(calc(-100% - 16px));
     opacity: 0;
     pointer-events: none;
