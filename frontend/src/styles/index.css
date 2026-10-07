@@ -30,12 +30,42 @@ textarea {
 button {
   cursor: pointer;
 }
-/* Scrollbars hidden everywhere; scrolling still works with wheel, touch, and keyboard. */
+/* Scrollbars: a slim bar tinted to the page on desktop (mouse users rely on it to judge length),
+   hidden on touch screens and phones, where swiping is the scroll cue. */
 * {
-  scrollbar-width: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) transparent;
 }
 *::-webkit-scrollbar {
-  display: none;
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 99px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+html {
+  background: var(--surface-page);
+}
+@media (max-width: 767px), (pointer: coarse) {
+  * {
+    scrollbar-width: none;
+  }
+  *::-webkit-scrollbar {
+    display: none;
+  }
 }
 a {
   color: var(--maroon);
