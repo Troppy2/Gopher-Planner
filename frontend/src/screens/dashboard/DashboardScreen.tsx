@@ -76,7 +76,7 @@ export default function DashboardScreen() {
               </h2>
               {isLoading ? <p className="muted">Loading classes…</p> : current.length ? <CourseList courses={current} /> : <p className="muted">No classes in progress this term.</p>}
             </section>
-            <section className="card surf" aria-labelledby="det-h">
+            <section className="card surf d-details" aria-labelledby="det-h">
               <h2 className="h2" id="det-h">
                 User details
               </h2>

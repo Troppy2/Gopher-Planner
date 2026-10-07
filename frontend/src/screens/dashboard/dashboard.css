@@ -164,8 +164,15 @@
 }
 
 @media (max-width: 1023px) {
+  /* One column: flatten the stacks so Future classes comes before User details. */
   .dcols {
     grid-template-columns: minmax(0, 1fr);
+  }
+  .dcol {
+    display: contents;
+  }
+  .d-details {
+    order: 1;
   }
   .g3,
   .g4,
@@ -194,19 +201,7 @@
   .g7 {
     grid-column: span 12;
   }
-  .dcols {
-  display: grid;
-  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
-  gap: 16px;
-  margin-top: 16px;
-  align-items: start;
-}
-.dcol {
-  display: grid;
-  gap: 16px;
-  min-width: 0;
-}
-.card {
+  .card {
     padding: 16px;
   }
   .metric .val {
