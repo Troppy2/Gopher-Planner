@@ -33,6 +33,7 @@ export function AppShell() {
   const navigate = useNavigate();
   const [searchOpen, setSearchOpen] = useState(false);
   const [inlineSearch, setInlineSearch] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const isMobile = useIsMobile();
   const openSearch = () => (isMobile ? setInlineSearch(true) : setSearchOpen(true));
   const { data: profile } = useQuery({ queryKey: queryKeys.profile, queryFn: getProfile });
@@ -63,7 +64,8 @@ export function AppShell() {
   return (
     <div className={hideNav ? "shell no-nav" : "shell"}>
       <div className="shell-main">
-        <header className={inlineSearch ? "hdr searching" : "hdr"}>
+        {/* On phones the bar slides away with the pill while scrolling down, unless search or the menu is open. */}
+        <header className={inlineSearch ? "hdr searching" : isMobile && pillHidden && !menuOpen ? "hdr away" : "hdr"}>
           {inlineSearch ? (
             <HeaderSearch onClose={() => setInlineSearch(false)} />
           ) : (
@@ -80,7 +82,7 @@ export function AppShell() {
             <span>Search courses or professors</span>
             <kbd>Ctrl K</kbd>
           </button>
-          <Menu.Root>
+          <Menu.Root onOpenChange={setMenuOpen}>
             <Menu.Trigger className="avatar" aria-label="Account menu">
               {initial(profile?.name ?? "")}
             </Menu.Trigger>
