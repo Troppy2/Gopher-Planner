@@ -10,6 +10,7 @@ import { useSession } from "@/features/auth/session.store";
 import { SearchOverlay } from "@/features/search/SearchOverlay";
 import { CourseDrawer } from "@/features/course-detail/CourseDrawer";
 import { UnsavedPlanBar } from "@/features/plan/UnsavedPlanBar";
+import { useHideOnScroll } from "@/hooks/useHideOnScroll";
 
 const NAV = [
   { to: "/dashboard", label: "Dashboard", Icon: LayoutGrid },
@@ -32,6 +33,7 @@ export function AppShell() {
   const { data: profile } = useQuery({ queryKey: queryKeys.profile, queryFn: getProfile });
   const { email, signOut } = useSession();
   // A route can hide the navigation pill with `handle: { hideNav: true }`.
+  const pillHidden = useHideOnScroll();
   const hideNav = useMatches().some((m) => (m.handle as { hideNav?: boolean } | undefined)?.hideNav);
 
   useEffect(() => {
@@ -100,7 +102,7 @@ export function AppShell() {
       </div>
 
       {!hideNav && (
-        <nav className="pill-nav" aria-label="Primary">
+        <nav className={pillHidden ? "pill-nav away" : "pill-nav"} aria-label="Primary">
           {NAV.map(({ to, label, Icon }) => (
             <NavLink key={to} to={to} className="pill-link">
               <Icon className="ic" aria-hidden />
