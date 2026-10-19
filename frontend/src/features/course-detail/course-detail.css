@@ -1,41 +1,218 @@
 .facts {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
+  margin: 16px 0;
 }
-.facts div {
+
+.facts > div {
+  min-width: 0;
   padding: 10px 12px;
+  border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--surface-card);
-  border: 1px solid var(--border);
-  min-width: 0;
 }
+
 .facts dt {
-  font-size: 12.5px;
+  margin-bottom: 4px;
   color: var(--muted);
+  font-size: 12.5px;
 }
+
 .facts dd {
+  margin: 0;
   font-weight: 700;
+  overflow-wrap: anywhere;
 }
+
 .dsub {
+  margin: 20px 0 8px;
   font-size: 14px;
   font-weight: 700;
-  margin-bottom: 6px;
 }
+
+.dlist {
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
 .dlist li {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
   align-items: center;
-  padding: 8px 0;
+  gap: 10px;
+  padding: 9px 0;
   border-top: 1px solid var(--border);
   font-size: 14px;
 }
+
 .dlist li:first-child {
   border-top: 0;
 }
+
+.dlist li > :first-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
 .dlinks {
   display: flex;
-  gap: 10px;
   flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.detail-status {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.detail-loading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 0;
+  color: var(--muted);
+}
+
+.course-description {
+  margin: 8px 0 0;
+  line-height: 1.6;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
+.prerequisite-note {
+  margin-top: 12px;
+}
+
+.prerequisite-source {
+  margin-top: 16px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-card);
+}
+
+.prerequisite-source h4 {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.prerequisite-source p {
+  margin: 0;
+  line-height: 1.5;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
+.prerequisite-status {
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* Recursive prerequisite tree */
+
+.prerequisite-group {
+  min-width: 0;
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.prerequisite-group-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.prerequisite-group-type {
+  flex-shrink: 0;
+  padding: 3px 7px;
+  border-radius: 5px;
+  background: var(--surface-card);
+  border: 1px solid var(--border);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.prerequisite-children {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.prerequisite-course {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  min-width: 0;
+  padding: 9px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow-wrap: anywhere;
+}
+
+.prerequisite-course strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.prerequisite-bullet {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 7px;
+  margin-top: 6px;
+  border-radius: 50%;
+  background: var(--maroon);
+}
+
+.prerequisite-any > .prerequisite-children {
+  gap: 8px;
+}
+
+.prerequisite-all > .prerequisite-children {
+  padding-left: 10px;
+  border-left: 2px solid var(--border);
+}
+
+/* Smaller drawer widths */
+
+@media (max-width: 420px) {
+  .facts {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .prerequisite-group {
+    padding: 10px;
+  }
+
+  .prerequisite-all > .prerequisite-children {
+    padding-left: 7px;
+  }
+
+  .dlist li {
+    align-items: flex-start;
+  }
+}
+
+.prerequisite-condition {
+  background: var(--surface-card);
+}
+
+.prerequisite-condition > span:last-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }

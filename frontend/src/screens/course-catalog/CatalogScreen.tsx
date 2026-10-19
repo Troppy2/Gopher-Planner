@@ -1,12 +1,19 @@
 import { useState } from "react";
 import { useSearchParams } from "react-router";
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
-import { AlertTriangle, RefreshCw, Search, SlidersHorizontal, X } from "lucide-react";
+import {
+  AlertTriangle,
+  ChevronLeft,
+  ChevronRight,
+  RefreshCw,
+  Search,
+  SlidersHorizontal,
+  X,
+} from "lucide-react";
 import { getCourses } from "@/api/endpoints";
-import { mockFlags } from "@/api/mock/mockDb";
 import { queryKeys } from "@/api/queryKeys";
 import type { CourseFilters } from "@/api/types";
-import { Button, Checkbox, DemoToggle, Drawer, EmptyState, SkeletonRows } from "@/ui";
+import { Button, Drawer, EmptyState, SkeletonRows } from "@/ui";
 import { plural } from "@/lib/format";
 import { usePlan } from "@/features/plan/usePlan";
 import { useCourseParam } from "@/features/course-detail/useCourseParam";
@@ -17,57 +24,126 @@ import { ResultsList } from "./components/ResultsList";
 import "./catalog.css";
 
 type Filters = Record<FilterKey, string>;
-const EMPTY: Filters = { subject: "", level: "", credits: "", term: "", requirement: "", availability: "" };
+
+const PAGE_SIZE = 25;
+
+const EMPTY: Filters = {
+  subject: "",
+  level: "",
+  credits: "",
+  term: "",
+  availability: "",
+};
 
 export default function CatalogScreen() {
   const [params, setParams] = useSearchParams();
   const q = params.get("q") ?? "";
+
   const [filters, setFilters] = useState<Filters>(EMPTY);
+  const [page, setPage] = useState(0);
   const [sheetOpen, setSheetOpen] = useState(false);
-  const [failPreview, setFailPreview] = useState(mockFlags.failCatalog);
   const [live, setLive] = useState("");
+
   const course = useCourseParam();
   const { courses: planCourses, plan, profile, add } = usePlan();
 
-  const query: CourseFilters = { q, ...filters };
+  const query: CourseFilters = {
+    q,
+    ...filters,
+    limit: PAGE_SIZE,
+    offset: page * PAGE_SIZE,
+  };
+
   const results = useQuery({
     queryKey: queryKeys.courses(query),
     queryFn: () => getCourses(query),
     placeholderData: keepPreviousData,
   });
 
-  const setQ = (v: string) => {
-    const p = new URLSearchParams(params);
-    if (v) p.set("q", v);
-    else p.delete("q");
-    setParams(p, { replace: true });
+  const setQ = (value: string) => {
+    const nextParams = new URLSearchParams(params);
+
+    if (value) {
+      nextParams.set("q", value);
+    } else {
+      nextParams.delete("q");
+    }
+
+    setPage(0);
+    setParams(nextParams, { replace: true });
   };
+
+  const updateFilter = (key: FilterKey, value: string) => {
+    setFilters((previous) => ({
+      ...previous,
+      [key]: value,
+    }));
+    setPage(0);
+  };
+
   const clearAll = () => {
     setFilters(EMPTY);
+    setPage(0);
     setQ("");
   };
-  const active = (Object.keys(filters) as FilterKey[]).filter((k) => filters[k]);
 
-  // Overlay unsaved plan edits so status matches the rest of the app.
-  const list = (results.data ?? []).map((c) => planCourses.find((x) => x.code === c.code) ?? c);
+  const active = (Object.keys(filters) as FilterKey[]).filter(
+    (key) => filters[key] !== "",
+  );
+
+  const catalogCourses = results.data?.courses ?? [];
+
+  const list = catalogCourses.map((catalogCourse) => ({
+    ...catalogCourse,
+    planCourse: planCourses.find(
+      (planCourse) => planCourse.code === catalogCourse.code,
+    ),
+  }));
+
+  const total = results.data?.total ?? 0;
+  const pageCount = Math.ceil(total / PAGE_SIZE);
+  const startResult = total === 0 ? 0 : page * PAGE_SIZE + 1;
+  const endResult = Math.min((page + 1) * PAGE_SIZE, total);
 
   const onAdd = (code: string) => {
-    const c = list.find((x) => x.code === code);
-    if (!c || !plan) return;
-    const t = targetTerm(c, planCourses, plan, profile);
-    if (t.term) {
-      add(code, t.term);
-      setLive(`${code} added to ${t.term}. Save your plan to keep it.`);
+    if (!plan) {
+      setLive("Create or load a plan before adding courses.");
+      return;
+    }
+
+    const planCourse = planCourses.find(
+      (planCourse) => planCourse.code === code,
+    );
+
+    if (!planCourse) {
+      setLive(
+        `${code} is in the catalog, but adding new catalog courses to your plan is not connected yet.`,
+      );
+      return;
+    }
+
+    const target = targetTerm(planCourse, planCourses, plan, profile);
+
+    if (target.term) {
+      add(code, target.term);
+      setLive(`${code} added to ${target.term}. Save your plan to keep it.`);
     } else {
-      course.open(code); // shows why it can't be added
+      course.open(code);
     }
   };
 
   let body;
+
   if (results.isError) {
     body = (
       <EmptyState
-        icon={<AlertTriangle className="ic" style={{ color: "var(--warning)" }} aria-hidden />}
+        icon={
+          <AlertTriangle
+            className="ic"
+            style={{ color: "var(--warning)" }}
+            aria-hidden
+          />
+        }
         title="We couldn't load the catalog"
         action={
           <Button onClick={() => results.refetch()}>
@@ -81,7 +157,7 @@ export default function CatalogScreen() {
     );
   } else if (!results.data) {
     body = <SkeletonRows rows={6} />;
-  } else if (!list.length) {
+  } else if (list.length === 0) {
     body = (
       <EmptyState
         title="No courses match"
@@ -107,54 +183,103 @@ export default function CatalogScreen() {
       <label className="searchbar surf">
         <Search className="ic muted" aria-hidden />
         <span className="vh">Search courses</span>
-        <input type="search" value={q} placeholder="Search courses or professors" onChange={(e) => setQ(e.target.value)} />
+        <input
+          type="search"
+          value={q}
+          placeholder="Search course codes, titles, or descriptions"
+          onChange={(event) => setQ(event.target.value)}
+        />
       </label>
 
       <div className="filters">
-        <FilterFields values={filters} onChange={(k, v) => setFilters({ ...filters, [k]: v })} />
+        <FilterFields values={filters} onChange={updateFilter} />
       </div>
 
       <div className="cat-tools">
-        <Button variant="ghost" size="sm" className="fbtn" onClick={() => setSheetOpen(true)}>
+        <Button
+          variant="ghost"
+          size="sm"
+          className="fbtn"
+          onClick={() => setSheetOpen(true)}
+        >
           <SlidersHorizontal className="ic sm" aria-hidden />
           Filters{active.length ? ` (${active.length})` : ""}
         </Button>
-        <DemoToggle>
-          <Checkbox
-            checked={failPreview}
-            onChange={(v) => {
-              setFailPreview(v);
-              mockFlags.failCatalog = v;
-              results.refetch();
-            }}
-          >
-            Preview only: catalog fails to load
-          </Checkbox>
-        </DemoToggle>
       </div>
 
       <div className="summary" aria-live="polite">
         {results.data && !results.isError && (
-          <span className="num">
-            {plural(list.length, "course")}
-            {results.isFetching && <span className="muted"> (updating)</span>}
-          </span>
+          <>
+            <span className="num">
+              {plural(total, "course")}
+              {results.isFetching && <span className="muted"> (updating)</span>}
+            </span>
+
+            {total > 0 && (
+              <span className="muted">
+                · Showing {startResult}–{endResult}
+              </span>
+            )}
+          </>
         )}
-        {active.map((k) => {
-          const label = FILTERS.find((f) => f.key === k)!.label;
+
+        {active.map((key) => {
+          const label =
+            FILTERS.find((filter) => filter.key === key)?.label ?? key;
+
           return (
-            <button key={k} className="chip" onClick={() => setFilters({ ...filters, [k]: "" })} aria-label={`Remove filter ${label}: ${filters[k]}`}>
-              {label}: {filters[k]}
+            <button
+              key={key}
+              className="chip"
+              onClick={() => updateFilter(key, "")}
+              aria-label={`Remove filter ${label}: ${filters[key]}`}
+            >
+              {label}: {filters[key]}
               <X className="ic sm" aria-hidden />
             </button>
           );
         })}
       </div>
+
       <p className="vh" role="status" aria-live="polite">
         {live}
       </p>
 
       {body}
+
+      {results.data && total > PAGE_SIZE && !results.isError && (
+        <nav className="catalog-pagination" aria-label="Course catalog pages">
+          <Button
+            variant="ghost"
+            disabled={page === 0 || results.isFetching}
+            onClick={() => {
+              setPage((current) => Math.max(0, current - 1));
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            aria-label="Go to previous page"
+          >
+            <ChevronLeft className="ic sm" aria-hidden />
+            Previous
+          </Button>
+
+          <span className="catalog-page-indicator" aria-live="polite">
+            Page {page + 1} of {pageCount}
+          </span>
+
+          <Button
+            variant="ghost"
+            disabled={page >= pageCount - 1 || results.isFetching}
+            onClick={() => {
+              setPage((current) => Math.min(pageCount - 1, current + 1));
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            aria-label="Go to next page"
+          >
+            Next
+            <ChevronRight className="ic sm" aria-hidden />
+          </Button>
+        </nav>
+      )}
 
       <Drawer
         open={sheetOpen}
@@ -163,16 +288,22 @@ export default function CatalogScreen() {
         closeLabel="Close filters"
         footer={
           <>
-            <Button variant="ghost" onClick={() => setFilters(EMPTY)}>
+            <Button
+              variant="ghost"
+              onClick={() => {
+                setFilters(EMPTY);
+                setPage(0);
+              }}
+            >
               Clear all
             </Button>
             <Button style={{ flex: 1 }} onClick={() => setSheetOpen(false)}>
-              Show {results.data ? plural(list.length, "result") : "results"}
+              Show {results.data ? plural(total, "result") : "results"}
             </Button>
           </>
         }
       >
-        <FilterFields values={filters} onChange={(k, v) => setFilters({ ...filters, [k]: v })} />
+        <FilterFields values={filters} onChange={updateFilter} />
       </Drawer>
     </div>
   );

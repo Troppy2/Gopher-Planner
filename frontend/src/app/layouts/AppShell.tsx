@@ -1,8 +1,23 @@
 import { useEffect, useState } from "react";
-import { Link, NavLink, Outlet, useLocation, useMatches, useNavigate, useNavigationType } from "react-router";
+import {
+  Link,
+  NavLink,
+  Outlet,
+  useLocation,
+  useMatches,
+  useNavigate,
+  useNavigationType,
+} from "react-router";
 import { useQuery } from "@tanstack/react-query";
 import * as Menu from "@radix-ui/react-dropdown-menu";
-import { BookOpen, LayoutGrid, LogOut, Search, Settings, Waypoints } from "lucide-react";
+import {
+  BookOpen,
+  LayoutGrid,
+  LogOut,
+  Search,
+  Settings,
+  Waypoints,
+} from "lucide-react";
 import { getProfile } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
 import { initial } from "@/lib/format";
@@ -35,12 +50,18 @@ export function AppShell() {
   const [inlineSearch, setInlineSearch] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const isMobile = useIsMobile();
-  const openSearch = () => (isMobile ? setInlineSearch(true) : setSearchOpen(true));
-  const { data: profile } = useQuery({ queryKey: queryKeys.profile, queryFn: getProfile });
+  const openSearch = () =>
+    isMobile ? setInlineSearch(true) : setSearchOpen(true);
+  const { data: profile } = useQuery({
+    queryKey: queryKeys.profile,
+    queryFn: getProfile,
+  });
   const { email, signOut } = useSession();
   // A route can hide the navigation pill with `handle: { hideNav: true }`.
   const pillHidden = useHideOnScroll(64, pathname);
-  const hideNav = useMatches().some((m) => (m.handle as { hideNav?: boolean } | undefined)?.hideNav);
+  const hideNav = useMatches().some(
+    (m) => (m.handle as { hideNav?: boolean } | undefined)?.hideNav,
+  );
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -66,57 +87,78 @@ export function AppShell() {
   useEffect(() => setInlineSearch(false), [pathname, isMobile]);
 
   useEffect(() => {
-    document.title = TITLES[pathname] ? `${TITLES[pathname]} - Gopher Planner` : "Gopher Planner";
+    document.title = TITLES[pathname]
+      ? `${TITLES[pathname]} - Gopher Planner`
+      : "Gopher Planner";
   }, [pathname]);
 
   return (
     <div className={hideNav ? "shell no-nav" : "shell"}>
       <div className="shell-main">
         {/* On phones the bar slides away with the pill while scrolling down, unless search or the menu is open. */}
-        <header className={inlineSearch ? "hdr searching" : isMobile && pillHidden && !menuOpen ? "hdr away" : "hdr"}>
+        <header
+          className={
+            inlineSearch
+              ? "hdr searching"
+              : isMobile && pillHidden && !menuOpen
+                ? "hdr away"
+                : "hdr"
+          }
+        >
           {inlineSearch ? (
             <HeaderSearch onClose={() => setInlineSearch(false)} />
           ) : (
             <>
-          <Link className="hdr-brand" to="/dashboard" aria-label="Gopher Planner, go to dashboard">
-            <img src="/favicon.png" alt="" />
-            Gopher Planner
-          </Link>
-          <div className="hdr-title" aria-hidden>
-            Gopher Planner
-          </div>
-          <button className="btn-search" onClick={openSearch} aria-label="Search courses, professors, or course codes">
-            <Search className="ic" aria-hidden />
-            <span>Search courses or professors</span>
-            <kbd>Ctrl K</kbd>
-          </button>
-          <Menu.Root onOpenChange={setMenuOpen}>
-            <Menu.Trigger className="avatar" aria-label="Account menu">
-              {initial(profile?.name ?? "")}
-            </Menu.Trigger>
-            <Menu.Portal>
-              <Menu.Content className="menu" align="end" sideOffset={8}>
-                <div className="menu-head">
-                  <b>{profile?.name || "Student"}</b>
-                  <span className="muted">{email}</span>
-                </div>
-                <Menu.Item className="menu-item" onSelect={() => navigate("/settings")}>
-                  <Settings className="ic sm" aria-hidden />
-                  Settings
-                </Menu.Item>
-                <Menu.Item
-                  className="menu-item"
-                  onSelect={() => {
-                    signOut();
-                    navigate("/login");
-                  }}
-                >
-                  <LogOut className="ic sm" aria-hidden />
-                  Sign out
-                </Menu.Item>
-              </Menu.Content>
-            </Menu.Portal>
-          </Menu.Root>
+              <Link
+                className="hdr-brand"
+                to="/dashboard"
+                aria-label="Gopher Planner, go to dashboard"
+              >
+                <img src="/favicon.png" alt="" />
+                Gopher Planner
+              </Link>
+              <div className="hdr-title" aria-hidden>
+                Gopher Planner
+              </div>
+              <button
+                className="btn-search"
+                onClick={openSearch}
+                aria-label="Search courses, professors, or course codes"
+              >
+                <Search className="ic" aria-hidden />
+                <span>Search courses</span>
+                <kbd>Ctrl K</kbd>
+              </button>
+              <Menu.Root onOpenChange={setMenuOpen}>
+                <Menu.Trigger className="avatar" aria-label="Account menu">
+                  {initial(profile?.name ?? "")}
+                </Menu.Trigger>
+                <Menu.Portal>
+                  <Menu.Content className="menu" align="end" sideOffset={8}>
+                    <div className="menu-head">
+                      <b>{profile?.name || "Student"}</b>
+                      <span className="muted">{email}</span>
+                    </div>
+                    <Menu.Item
+                      className="menu-item"
+                      onSelect={() => navigate("/settings")}
+                    >
+                      <Settings className="ic sm" aria-hidden />
+                      Settings
+                    </Menu.Item>
+                    <Menu.Item
+                      className="menu-item"
+                      onSelect={() => {
+                        signOut();
+                        navigate("/login");
+                      }}
+                    >
+                      <LogOut className="ic sm" aria-hidden />
+                      Sign out
+                    </Menu.Item>
+                  </Menu.Content>
+                </Menu.Portal>
+              </Menu.Root>
             </>
           )}
         </header>
@@ -127,7 +169,10 @@ export function AppShell() {
       </div>
 
       {!hideNav && (
-        <nav className={pillHidden || inlineSearch ? "pill-nav away" : "pill-nav"} aria-label="Primary">
+        <nav
+          className={pillHidden || inlineSearch ? "pill-nav away" : "pill-nav"}
+          aria-label="Primary"
+        >
           {NAV.map(({ to, label, Icon }) => (
             <NavLink key={to} to={to} className="pill-link">
               <Icon className="ic" aria-hidden />
