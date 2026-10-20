@@ -2,7 +2,17 @@
 // mock DB; replace each body with a call to `api/client.ts` when the backend is ready.
 import { db, delay, mockFlags, persist } from "./mock/mockDb";
 import { ApiError } from "./client";
-import type { Course, CourseFilters, Options, Plan, PlanChange, Profile, Summary, Transcript } from "./types";
+import type {
+  CatalogCourse,
+  CatalogCoursePage,
+  CourseFilters,
+  Options,
+  Plan,
+  PlanChange,
+  Profile,
+  Summary,
+  Transcript,
+} from "./types";
 
 const clone = <T>(v: T): T => structuredClone(v);
 
@@ -60,35 +70,72 @@ export async function generatePlan(): Promise<{ jobId: string }> {
   return { jobId: "mock-job" };
 }
 
-const levelOf = (code: string) => code.match(/\d/)?.[0] ?? "";
-
 /** GET /api/v1/courses */
-export async function getCourses(f: CourseFilters = {}): Promise<Course[]> {
-  await delay(450);
-  if (mockFlags.failCatalog) throw new ApiError("network", "Catalog data could not be loaded.");
-  const q = f.q?.trim().toLowerCase() ?? "";
-  return clone(
-    db.plan.courses.filter((c) => {
-      if (q && !`${c.code} ${c.title} ${c.professors.join(" ")}`.toLowerCase().includes(q)) return false;
-      if (f.subject && !c.code.startsWith(f.subject + " ")) return false;
-      if (f.level && levelOf(c.code) !== f.level[0]) return false;
-      if (f.credits === "1 to 2" && c.credits > 2) return false;
-      if (f.credits === "3" && c.credits !== 3) return false;
-      if (f.credits === "4 or more" && c.credits < 4) return false;
-      if (f.term && !c.offered.includes(f.term as Course["offered"][number])) return false;
-      if (f.requirement && c.requirement !== f.requirement) return false;
-      const nextTerm = c.offered.includes("Spring");
-      if (f.availability === "Offered next term" && !nextTerm) return false;
-      if (f.availability === "Not offered next term" && nextTerm) return false;
-      return true;
-    }),
-  );
+export async function getCourses(
+  filters: CourseFilters = {},
+): Promise<CatalogCoursePage> {
+  const params = new URLSearchParams();
+
+  if (filters.q?.trim()) params.set("q", filters.q.trim());
+  if (filters.subject) params.set("subject", filters.subject);
+
+  // The UI uses labels like "1xxx"; the API expects the leading digit.
+  if (filters.level) {
+    params.set("level", filters.level.match(/^\d/)?.[0] ?? filters.level);
+  }
+
+  if (filters.credits) params.set("credits", filters.credits);
+  if (filters.term) params.set("term", filters.term);
+
+  // Friendly requirement labels aren't raw SQLite requirement codes.
+  // Do not send them until a proper mapping exists.
+  if (filters.availability) {
+    params.set("availability", filters.availability);
+  }
+
+  // Server-side pagination.
+  const limit = Math.min(100, Math.max(1, filters.limit ?? 25));
+  const offset = Math.max(0, filters.offset ?? 0);
+
+  params.set("limit", String(limit));
+  params.set("offset", String(offset));
+
+  const response = await fetch(`/api/v1/courses?${params.toString()}`, {
+    credentials: "include",
+    headers: { Accept: "application/json" },
+  });
+
+  if (!response.ok) {
+    throw new ApiError(
+      "network",
+      response.status === 503
+        ? "The course catalog is temporarily unavailable."
+        : "Catalog data could not be loaded.",
+    );
+  }
+
+  return (await response.json()) as CatalogCoursePage;
 }
 
 /** GET /api/v1/courses/:code */
-export async function getCourse(code: string): Promise<Course | null> {
-  await delay(150);
-  return clone(db.plan.courses.find((c) => c.code === code) ?? null);
+export async function getCatalogCourse(code: string): Promise<CatalogCourse> {
+  const response = await fetch(`/api/v1/courses/${encodeURIComponent(code)}`, {
+    credentials: "include",
+    headers: { Accept: "application/json" },
+  });
+
+  if (!response.ok) {
+    throw new ApiError(
+      "network",
+      response.status === 404
+        ? "This course was not found in the catalog."
+        : response.status === 503
+          ? "The course catalog is temporarily unavailable."
+          : "Course details could not be loaded.",
+    );
+  }
+
+  return (await response.json()) as CatalogCourse;
 }
 
 const transcripts = new Map<string, Transcript & { readyAt: number }>();

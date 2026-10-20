@@ -157,7 +157,7 @@ Run the API from the `backend` directory with:
 uvicorn app.main:app --reload
 ```
 
-The API is typically available at `http://localhost:8000`, with interactive documentation at `http://localhost:8000/docs`.
+The API is available at `http://localhost:5000`
 
 ### Environment Variables
 
@@ -167,6 +167,16 @@ Create a `backend/.env` file for local settings. Do not commit credentials or pr
 DATABASE_URL=postgresql+psycopg://gopher:gopher@localhost:5432/gopher_planner
 CATALOG_DATABASE_URL=sqlite:///./catalog.db
 ```
+
+### Docker Compose
+Build image:
+docker compose build
+
+Start:
+docker compose up
+
+Stop:
+docker compose up
 
 ### Database Migrations
 

@@ -11,10 +11,13 @@ export function HeaderSearch({ onClose }: { onClose: () => void }) {
   const [active, setActive] = useState(0);
   const navigate = useNavigate();
   const course = useCourseParam();
-  const { results, isFetching } = useCourseSearch(q, true);
+  const { results, isFetching, isError } = useCourseSearch(q, true);
 
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+
     addEventListener("keydown", onKey);
     return () => removeEventListener("keydown", onKey);
   }, [onClose]);
@@ -23,23 +26,34 @@ export function HeaderSearch({ onClose }: { onClose: () => void }) {
     onClose();
     course.open(code);
   };
+
   const toCatalog = () => {
     const query = q.trim();
     onClose();
     navigate(query ? `/catalog?q=${encodeURIComponent(query)}` : "/catalog");
   };
 
+  const moveActive = (direction: 1 | -1) => {
+    if (!results.length) return;
+
+    setActive((current) =>
+      Math.max(0, Math.min(current + direction, results.length - 1)),
+    );
+  };
+
   return (
     <>
       <div className="hsearch-scrim" onClick={onClose} aria-hidden />
+
       <div className="hsearch" role="search">
         <Search className="ic muted" aria-hidden />
+
         <input
           autoFocus
           type="search"
           value={q}
-          placeholder="Search courses or professors"
-          aria-label="Search courses or professors"
+          placeholder="Search course codes or titles"
+          aria-label="Search courses"
           role="combobox"
           aria-expanded
           aria-controls="hsearch-results"
@@ -51,25 +65,43 @@ export function HeaderSearch({ onClose }: { onClose: () => void }) {
           onKeyDown={(e) => {
             if (e.key === "ArrowDown") {
               e.preventDefault();
-              setActive((a) => Math.min(a + 1, results.length - 1));
+              moveActive(1);
             } else if (e.key === "ArrowUp") {
               e.preventDefault();
-              setActive((a) => Math.max(a - 1, 0));
+              moveActive(-1);
             } else if (e.key === "Enter") {
               e.preventDefault();
-              if (q.trim() && results[active]) pick(results[active].code);
-              else toCatalog();
+
+              if (q.trim() && results[active]) {
+                pick(results[active].code);
+              } else {
+                toCatalog();
+              }
             }
           }}
         />
+
         <IconButton label="Close search" bare onClick={onClose}>
           <X className="ic" aria-hidden />
         </IconButton>
       </div>
-      <div className="hsearch-res" id="hsearch-results" role="listbox" aria-busy={isFetching}>
-        {results.length ? (
+
+      <div
+        className="hsearch-res"
+        id="hsearch-results"
+        role="listbox"
+        aria-busy={isFetching}
+      >
+        {results.length > 0 ? (
           results.map((c, i) => (
-            <button key={c.code} id={`hs-${i}`} role="option" aria-selected={i === active} onClick={() => pick(c.code)}>
+            <button
+              key={c.code}
+              id={`hs-${i}`}
+              role="option"
+              aria-selected={i === active}
+              onMouseEnter={() => setActive(i)}
+              onClick={() => pick(c.code)}
+            >
               <span className="t">
                 <b>{c.code}</b>
                 <span className="muted">{c.title}</span>
@@ -78,8 +110,17 @@ export function HeaderSearch({ onClose }: { onClose: () => void }) {
             </button>
           ))
         ) : (
-          <p className="muted hsearch-empty">{isFetching ? "Searching…" : "No matches. Try a broader course code, such as CSCI."}</p>
+          <p className="muted hsearch-empty">
+            {isFetching
+              ? "Searching…"
+              : isError
+                ? "Couldn't load courses. Try again."
+                : q.trim()
+                  ? "No matches. Try a broader course code, such as CSCI."
+                  : "Search by course code or title."}
+          </p>
         )}
+
         <button className="hsearch-all" onClick={toCatalog}>
           Open the full catalog
         </button>

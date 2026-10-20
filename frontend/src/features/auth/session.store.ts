@@ -1,39 +1,69 @@
-// Mock session. Replace with the real auth client (Google OAuth, @umn.edu only) when it's chosen.
 import { create } from "zustand";
+import { getCurrentSession, logoutFromServer } from "./google";
 
-const KEY = "gp-session";
-const read = () => {
-  try {
-    return localStorage.getItem(KEY) === "1";
-  } catch {
-    return false;
-  }
-};
-const write = (on: boolean) => {
-  try {
-    if (on) localStorage.setItem(KEY, "1");
-    else localStorage.removeItem(KEY);
-  } catch {
-    // Storage blocked: the session just won't survive a refresh.
-  }
-};
+export interface AuthUser {
+  id: string;
+  email: string;
+  name: string;
+  picture: string;
+}
 
 interface SessionState {
   signedIn: boolean;
+  initialized: boolean;
   email: string;
-  signIn: () => void;
-  signOut: () => void;
+  user: AuthUser | null;
+
+  signIn: (user: AuthUser) => void;
+  restoreSession: () => Promise<void>;
+  signOut: () => Promise<void>;
 }
 
 export const useSession = create<SessionState>((set) => ({
-  signedIn: read(),
-  email: "inah@umn.edu",
-  signIn: () => {
-    write(true);
-    set({ signedIn: true });
+  signedIn: false,
+  initialized: false,
+  email: "",
+  user: null,
+
+  signIn: (user) => {
+    set({
+      signedIn: true,
+      initialized: true,
+      email: user.email,
+      user,
+    });
   },
-  signOut: () => {
-    write(false);
-    set({ signedIn: false });
+
+  restoreSession: async () => {
+    try {
+      const user = await getCurrentSession();
+
+      set({
+        signedIn: true,
+        initialized: true,
+        email: user.email,
+        user,
+      });
+    } catch {
+      set({
+        signedIn: false,
+        initialized: true,
+        email: "",
+        user: null,
+      });
+    }
+  },
+
+  signOut: async () => {
+    try {
+      await logoutFromServer();
+    } finally {
+      set({
+        signedIn: false,
+        initialized: true,
+        email: "",
+        user: null,
+      });
+    }
   },
 }));

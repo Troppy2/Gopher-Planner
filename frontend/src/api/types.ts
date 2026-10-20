@@ -1,6 +1,10 @@
 export type CourseStatus = "done" | "prog" | "plan" | "avail" | "block";
 export type Season = "Fall" | "Spring" | "Summer";
-export type Requirement = "Major core" | "Math and stats" | "Elective" | "Liberal ed";
+export type Requirement =
+  | "Major core"
+  | "Math and stats"
+  | "Elective"
+  | "Liberal ed";
 
 /** A term label such as "Fall 2026". "Completed" groups everything already finished. */
 export type TermId = string;
@@ -17,6 +21,65 @@ export interface Course {
   professors: string[];
   term: TermId | null;
   lockReason?: string;
+}
+
+export type PrerequisiteExpression =
+  | {
+      type: "course";
+      course_code: string;
+    }
+  | {
+      type: "condition";
+      text: string;
+    }
+  | {
+      type: "any_of" | "all_of";
+      requirements: PrerequisiteExpression[];
+    }
+  | {
+      type: string;
+      [key: string]: unknown;
+    };
+
+export interface CatalogPrerequisites {
+  needs_review: boolean;
+  source_text: string;
+  status: string;
+  requirements: PrerequisiteExpression | null;
+}
+
+export interface CatalogCourse {
+  id: number;
+  code: string;
+  subject: string;
+  number: string;
+  title: string;
+  campus: string;
+  description: string;
+  minimumCredits: number;
+  maximumCredits: number;
+  repeatable: string;
+  maximumCompletions: string;
+  maximumCreditsEarned: string;
+  gradingBasis: string;
+  requirements: string | null;
+  typicallyOffered: string;
+  offered: Season[];
+  prerequisiteStatus: string;
+  prerequisiteSourceText: string;
+  prerequisites: CatalogPrerequisites | null;
+  unresolvedPrerequisiteCourses: string[];
+  resolvedPrerequisites?: {
+    code: string;
+    title: string;
+  }[];
+}
+
+export interface CatalogCoursePage {
+  courses: CatalogCourse[];
+  total: number;
+  limit: number;
+  offset: number;
 }
 
 export interface Summary {
@@ -71,6 +134,8 @@ export interface CourseFilters {
   term?: string;
   requirement?: string;
   availability?: string;
+  limit?: number;
+  offset?: number;
 }
 
 export type TranscriptStatus = "parsing" | "parsed" | "no_text" | "failed";
