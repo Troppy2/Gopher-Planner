@@ -6,6 +6,8 @@ from urllib.parse import quote
 
 from flask import Blueprint, current_app, jsonify, request
 
+from app.api.v1.auth import read_session
+
 courses_bp = Blueprint("courses", __name__, url_prefix="/api/v1/courses")
 
 # backend/app/api/v1/courses.py -> backend/data/courses.db
@@ -13,6 +15,16 @@ CATALOG_DB = Path(__file__).resolve().parents[3] / "data" / "courses.db"
 
 TERMS = ("Fall", "Spring", "Summer")
 AVAILABILITY_OPTIONS = ("Offered next term", "Not offered next term")
+
+
+def require_auth():
+    """Return the authenticated session, or a 401 response."""
+    user_session = read_session()
+
+    if user_session is None:
+        return None, (jsonify({"error": "Not signed in"}), 401)
+
+    return user_session, None
 
 
 def open_catalog() -> sqlite3.Connection:
@@ -70,6 +82,10 @@ def serialize_course(row: sqlite3.Row) -> dict:
 @courses_bp.get("")
 @courses_bp.get("/")
 def get_courses():
+    user_session, auth_error = require_auth()
+    if auth_error is not None:
+        return auth_error
+
     query = request.args.get("q", "").strip()
     subject = request.args.get("subject", "").strip().upper()
     level = request.args.get("level", "").strip()
@@ -131,9 +147,7 @@ def get_courses():
         params.append(level)
 
     if credits == "1 to 2":
-        where.append(
-            "CAST(maximum_credits AS REAL) <= 2"
-        )
+        where.append("CAST(maximum_credits AS REAL) <= 2")
     elif credits == "3":
         where.append(
             "CAST(minimum_credits AS REAL) = 3 "
@@ -198,6 +212,10 @@ def get_courses():
 
 @courses_bp.get("/<string:code>")
 def get_course(code: str):
+    user_session, auth_error = require_auth()
+    if auth_error is not None:
+        return auth_error
+
     try:
         with open_catalog() as connection:
             row = connection.execute(

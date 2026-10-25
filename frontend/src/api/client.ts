@@ -3,6 +3,7 @@ export type ApiErrorCode =
   | "unauthorized"
   | "not_found"
   | "validation"
+  | "auth"
   | "server";
 
 export class ApiError extends Error {

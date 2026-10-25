@@ -70,6 +70,12 @@ def serialize_user(user: User) -> dict:
         "email": user.email,
         "name": user.name or "",
         "picture": user.picture_url or "",
+        "major": user.major or "",
+        "standing": user.standing or "",
+        "careerGoals": user.career_goals or "",
+        "creditLoad": user.credit_load,
+        "graduationTarget": user.graduation_target or "",
+        "onboarded": user.onboarded,
     }
 
 

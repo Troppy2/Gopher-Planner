@@ -1,8 +1,7 @@
-
 from datetime import datetime, timezone
 from typing import TYPE_CHECKING
 
-from sqlalchemy import DateTime, String
+from sqlalchemy import Boolean, DateTime, Integer, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.extensions import db
@@ -33,19 +32,45 @@ class User(db.Model):
 
     id: Mapped[int] = mapped_column(primary_key=True)
 
+    # Authentication and account identity
     google_sub: Mapped[str] = mapped_column(
         String(255), unique=True, nullable=False, index=True
     )
     email: Mapped[str] = mapped_column(
         String(320), unique=True, nullable=False, index=True
     )
-    name: Mapped[str | None] = mapped_column(String(255), nullable=True)
+    name: Mapped[str | None] = mapped_column(
+        String(255), nullable=True
+    )
     picture_url: Mapped[str | None] = mapped_column(
         String(2048), nullable=True
     )
 
+    # Application profile
+    major: Mapped[str | None] = mapped_column(
+        String(255), nullable=True
+    )
+    standing: Mapped[str | None] = mapped_column(
+        String(50), nullable=True
+    )
+    career_goals: Mapped[str | None] = mapped_column(
+        Text, nullable=True
+    )
+    credit_load: Mapped[int] = mapped_column(
+        Integer, default=15, nullable=False
+    )
+    graduation_target: Mapped[str | None] = mapped_column(
+        String(50), nullable=True
+    )
+    onboarded: Mapped[bool] = mapped_column(
+        Boolean, default=False, nullable=False
+    )
+
+    # Timestamps
     created_at: Mapped[datetime] = mapped_column(
-        DateTime(timezone=True), default=utc_now, nullable=False
+        DateTime(timezone=True),
+        default=utc_now,
+        nullable=False,
     )
     updated_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),

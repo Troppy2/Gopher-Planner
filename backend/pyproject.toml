@@ -1,11 +1,8 @@
 [project]
 name = "backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Flask REST API for Gopher Planner"
 readme = "README.md"
-authors = [
-    { name = "Cody Hart", email = "cody@bricktoolbox.com" }
-]
 requires-python = ">=3.12"
 dependencies = [
     "flask>=3.1.3",
@@ -20,8 +17,10 @@ dependencies = [
     "sqlalchemy>=2.1.5",
 ]
 
-[project.scripts]
-backend = "backend:main"
+[dependency-groups]
+dev = [
+    "pytest",
+]
 
 [build-system]
 requires = ["uv_build>=0.12.20,<0.13.0"]

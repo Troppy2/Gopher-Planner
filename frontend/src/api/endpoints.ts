@@ -24,21 +24,56 @@ export async function getSummary(): Promise<Summary> {
 
 /** GET /api/v1/profile */
 export async function getProfile(): Promise<Profile> {
-  await delay(150);
-  return clone(db.profile);
+  const response = await fetch("/api/v1/profile", {
+    method: "GET",
+    credentials: "include",
+    headers: {
+      Accept: "application/json",
+    },
+  });
+
+  if (!response.ok) {
+    if (response.status === 401) {
+      throw new ApiError("auth", "You must be signed in to view your profile.");
+    }
+
+    throw new ApiError("network", "Could not load your profile.");
+  }
+
+  return response.json() as Promise<Profile>;
 }
 
 /** PUT /api/v1/profile */
-export async function updateProfile(patch: Partial<Profile>): Promise<Profile> {
-  await delay(800);
-  if (mockFlags.failNextSettingsSave) {
-    mockFlags.failNextSettingsSave = false;
-    throw new ApiError("network", "Could not reach the server.");
+export async function updateProfile(
+  patch: Partial<Profile>,
+): Promise<Profile> {
+  const response = await fetch("/api/v1/profile", {
+    method: "PUT",
+    credentials: "include",
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(patch),
+  });
+
+  if (!response.ok) {
+    if (response.status === 401) {
+      throw new ApiError("auth", "You must be signed in to update your profile.");
+    }
+
+    if (response.status === 400) {
+      const error = await response.json().catch(() => null);
+      throw new ApiError(
+        "validation",
+        error?.error ?? "The profile information is invalid.",
+      );
+    }
+
+    throw new ApiError("network", "Could not save your profile.");
   }
-  db.profile = { ...db.profile, ...patch };
-  db.summary.program = db.profile.major;
-  persist();
-  return clone(db.profile);
+
+  return response.json() as Promise<Profile>;
 }
 
 /** Select options (majors, standings, terms). Likely part of GET /programs later. */

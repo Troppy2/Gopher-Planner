@@ -4,6 +4,7 @@ from flask_cors import CORS
 
 from app.api.v1.auth import auth_bp
 from app.api.v1.courses import courses_bp
+from app.api.v1.profile import profile_bp
 from app.core.config import Settings
 from app.extensions import db, migrate
 from app import models
@@ -30,6 +31,7 @@ def create_app() -> Flask:
 
     app.register_blueprint(auth_bp)
     app.register_blueprint(courses_bp)
+    app.register_blueprint(profile_bp)
 
     @app.get("/health")
     def health():

@@ -29,6 +29,10 @@ class Settings:
         ).strip().rstrip("/")
         jwt_secret = os.getenv("JWT_SECRET", "").strip()
         database_url = os.getenv("DATABASE_URL", "").strip()
+        environment = os.getenv(
+            "FLASK_ENVIRONMENT",
+            "development",
+        ).strip().lower()
         cookie_secure = (
             os.getenv("COOKIE_SECURE", "false").strip().lower() == "true"
         )
@@ -38,7 +42,6 @@ class Settings:
             for name, value in (
                 ("GOOGLE_CLIENT_ID", google_client_id),
                 ("JWT_SECRET", jwt_secret),
-                ("DATABASE_URL", database_url),
             )
             if not value
         ]
@@ -48,9 +51,27 @@ class Settings:
                 f"Missing required environment variables: {', '.join(missing)}"
             )
 
-        if not database_url.startswith("postgresql+psycopg://"):
+        if not database_url:
+            if environment == "production":
+                raise RuntimeError(
+                    "DATABASE_URL is required in production."
+                )
+
+            # Store the local development database outside the source folders.
+            instance_dir = Path(__file__).resolve().parents[2] / "instance"
+            instance_dir.mkdir(parents=True, exist_ok=True)
+
+            database_path = instance_dir / "dev.db"
+            database_url = f"sqlite:///{database_path.as_posix()}"
+
+        elif not (
+            database_url.startswith("postgresql+psycopg://")
+            or database_url.startswith("sqlite:///")
+            or database_url == "sqlite://"
+        ):
             raise RuntimeError(
-                "DATABASE_URL must use the postgresql+psycopg:// scheme"
+                "DATABASE_URL must use postgresql+psycopg:// "
+                "or sqlite:///"
             )
 
         return cls(
