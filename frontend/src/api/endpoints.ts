@@ -14,6 +14,9 @@ import type {
   Transcript,
 } from "./types";
 
+import { api } from "./client";
+import { useNavigate } from "react-router-dom";
+
 const clone = <T>(v: T): T => structuredClone(v);
 
 /** GET /api/v1/summary */
@@ -173,44 +176,28 @@ export async function getCatalogCourse(code: string): Promise<CatalogCourse> {
   return (await response.json()) as CatalogCourse;
 }
 
-const transcripts = new Map<string, Transcript & { readyAt: number }>();
 
 /** POST /api/v1/transcripts (multipart PDF) */
 export async function uploadTranscript(file: File): Promise<{ id: string }> {
-  await delay(200);
-  const id = `t-${Date.now()}`;
-  transcripts.set(id, {
-    id,
-    fileName: file.name,
-    status: "parsing",
-    completed: 0,
-    inProgress: 0,
-    readyAt: Date.now() + 1400,
+  const navigate = useNavigate();
+  const response = await api.post("/transcripts", file, {
+    headers: {
+      "Content-Type": "multipart/form-data",
+    },
+    onUploadProgress: (progress) => {
+      // Update upload state progress
+    },
   });
-  return { id };
+  return response.data;
 }
 
 /** GET /api/v1/transcripts/:id. Poll while status is "parsing". */
 export async function getTranscript(id: string): Promise<Transcript> {
-  await delay(100);
-  const t = transcripts.get(id);
-  if (!t) throw new ApiError("not_found", "Transcript not found.");
-  if (t.status === "parsing" && Date.now() >= t.readyAt) {
-    if (mockFlags.nextUploadIsScan) {
-      t.status = "no_text";
-    } else {
-      Object.assign(t, { status: "parsed", ...db.transcript });
-    }
-  }
-  const { readyAt: _readyAt, ...rest } = t;
-  return rest;
+  const response = await api.get(`/transcripts/${id}`);
+  return response.data;
 }
 
 /** POST /api/v1/transcripts/:id/ocr */
 export async function retryTranscriptOcr(id: string): Promise<void> {
-  await delay(200);
-  const t = transcripts.get(id);
-  if (!t) throw new ApiError("not_found", "Transcript not found.");
-  mockFlags.nextUploadIsScan = false;
-  Object.assign(t, { status: "parsing", readyAt: Date.now() + 1800 });
+  await api.post(`/transcripts/${id}/ocr`);
 }
