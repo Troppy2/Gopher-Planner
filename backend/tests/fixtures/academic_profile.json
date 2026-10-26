@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "program": "Computer Science B.A.",
+    "catalog_year": "Fall 2026",
+    "current_term": {"year": 2026, "season": "Fall"},
+    "target_graduation_term": {"year": 2028, "season": "Spring"},
+    "max_credits_per_term": 16
+  },
+  "course_records": [
+    {"course_code": "CSCI 1133", "status": "completed", "term": {"year": 2025, "season": "Fall"}, "credits": 4, "earned_credits": 4, "grade": "A", "credit_source": "institutional", "grading_basis": null, "credit_reference": null},
+    {"course_code": "MATH 1272", "status": "completed", "term": {"year": 2026, "season": "Spring"}, "credits": 4, "earned_credits": 4, "grade": null, "credit_source": "institutional", "grading_basis": null, "credit_reference": null},
+    {"course_code": "CSCI 2021", "status": "in_progress", "term": {"year": 2026, "season": "Fall"}, "credits": 4, "earned_credits": 0, "grade": null, "credit_source": "institutional", "grading_basis": "AF", "credit_reference": null}
+  ],
+  "extra_credits": [
+    {"reference": "TEST-IB-001", "source": "IB", "earned_credits": 6, "usage_confirmed": false, "confirmed_usage": null}
+  ]
+}

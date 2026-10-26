@@ -1,0 +1,20 @@
+# Exact versions verified on Python 3.12; includes development tests.
+alembic==1.20.0
+blinker==1.9.0
+click==8.5.0
+Flask==3.1.3
+iniconfig==2.3.1
+itsdangerous==2.2.0
+Jinja2==3.1.6
+Mako==1.4.3
+MarkupSafe==3.0.4
+packaging==26.3
+pluggy==1.6.0
+psycopg==3.3.6
+psycopg-binary==3.3.6
+Pygments==2.21.0
+pytest==9.1.1
+python-dotenv==1.2.4
+SQLAlchemy==2.1.4
+typing_extensions==4.16.0
+Werkzeug==3.1.9

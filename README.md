@@ -61,13 +61,13 @@ React provides better control over DOM updates and rendering when displaying lar
 
 ### Backend
 
-- FastAPI or Node.js
+- Flask
 - REST API
 - SQLAlchemy for database ORM operations
 - `pdfplumber` for transcript PDF parsing
 - Better Auth for authentication and Google OAuth
 
-The backend will use a simple relational REST API. FastAPI is the preferred option because asynchronous request handling can improve responsiveness when fetching and processing data.
+The backend uses Flask, SQLAlchemy, PostgreSQL and Alembic. The current implementation is infrastructure only; parsing, authentication and planning are future work.
 
 ### Databases and Caching
 
@@ -125,81 +125,9 @@ npm install tailwindcss @tailwindcss/vite
 
 ### Backend Installation
 
-The backend will use FastAPI, Uvicorn, SQLAlchemy, PostgreSQL's Python driver, Alembic, and `pdfplumber`:
+See [backend/README.md](backend/README.md) for virtual environment setup, local PostgreSQL initialization, configuration, explicit migrations and Flask startup commands.
 
-```bash
-cd backend
-python -m venv .venv
-```
-
-Activate the virtual environment:
-
-```powershell
-# Windows PowerShell
-.\.venv\Scripts\Activate.ps1
-```
-
-```bash
-# macOS or Linux
-source .venv/bin/activate
-```
-
-Install the backend packages:
-
-```bash
-python -m pip install --upgrade pip
-pip install fastapi "uvicorn[standard]" sqlalchemy "psycopg[binary]" alembic pdfplumber python-dotenv
-```
-
-Run the API from the `backend` directory with:
-
-```bash
-uvicorn app.main:app --reload
-```
-
-The API is typically available at `http://localhost:8000`, with interactive documentation at `http://localhost:8000/docs`.
-
-### Environment Variables
-
-Create a `backend/.env` file for local settings. Do not commit credentials or production secrets.
-
-```env
-DATABASE_URL=postgresql+psycopg://gopher:gopher@localhost:5432/gopher_planner
-CATALOG_DATABASE_URL=sqlite:///./catalog.db
-```
-
-### Database Migrations
-
-Alembic manages schema changes for the PostgreSQL database that stores user accounts, saved plans, preferences, and other user-specific data. After installing the backend dependencies and configuring `DATABASE_URL`:
-
-```bash
-cd backend
-alembic init alembic
-```
-
-Configure `alembic.ini` and `alembic/env.py` to use the SQLAlchemy models and `DATABASE_URL`, then create and apply migrations:
-
-```bash
-alembic revision --autogenerate -m "create initial tables"
-alembic upgrade head
-```
-
-When models change, generate a new migration and apply it:
-
-```bash
-alembic revision --autogenerate -m "describe schema change"
-alembic upgrade head
-```
-
-Useful migration commands:
-
-```bash
-alembic current       # Show the current database revision
-alembic history       # Show migration history
-alembic downgrade -1  # Revert the most recent migration
-```
-
-The SQLite course catalog and program data should be loaded through a seed/import script rather than treated as user-data migrations. PostgreSQL must be running locally before applying PostgreSQL migrations.
+Student data uses PostgreSQL 15 or newer. Course catalog data remains separate in SQLite; this stage does not create or load the catalog. Alembic is already initialized under `backend/migrations`; do not run `alembic init` again. Application startup never changes the database schema.
 
 ## Data Requirements
 
