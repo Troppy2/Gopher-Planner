@@ -1,17 +1,23 @@
-
 from flask import Blueprint, current_app, jsonify, request
 from sqlalchemy.exc import SQLAlchemyError
 
 from app.extensions import db
 from app.models import User
 from app.api.v1.auth import check_request_origin, read_session
-# This might be a security concern --- I think we should serialize the profile data and then return the serialized data
 from app.models.user import User
 from app.models.summary import Summary
+
 profile_bp = Blueprint("profile", __name__, url_prefix="/api/v1")
 
 
-def serialize_profile(user: User) -> dict:
+def serialize_profile(user: User, summary: Summary | None = None) -> dict:
+    if summary is None:
+        summary = getattr(user, "summary", None)
+
+def serialize_profile(user: User, summary: Summary | None = None) -> dict:
+    if summary is None:
+        summary = getattr(user, "summary", None)
+
     return {
         "name": user.name or "",
         "major": user.major or "",
@@ -20,12 +26,18 @@ def serialize_profile(user: User) -> dict:
         "creditLoad": user.credit_load,
         "graduationTarget": user.graduation_target or "",
         "onboarded": user.onboarded,
-        "credits": user.summary.credits if user.summary else 0,
-        "gpa": user.summary.gpa if user.summary else 0.0,
-        "classTaken": user.summary.class_taken if user.summary else "",
-        "classCurrent": user.summary.class_current if user.summary else "",
-        "classPlanned": user.summary.class_planned if user.summary else "",
-        "program": user.summary.program if user.summary else "",
+        "credits": summary.credits if summary else 0,
+        "gpa": summary.gpa if summary and summary.gpa else 0.0,
+        "classTaken": summary.class_taken if summary else "",
+        "classCurrent": summary.class_current if summary else "",
+        "classPlanned": summary.class_planned if summary else "",
+        "program": summary.program if summary else "",
+        "credits": summary.credits if summary else 0,
+        "gpa": summary.gpa if summary and summary.gpa else 0.0,
+        "classTaken": summary.class_taken if summary else "",
+        "classCurrent": summary.class_current if summary else "",
+        "classPlanned": summary.class_planned if summary else "",
+        "program": summary.program if summary else "",
     }
 
 
@@ -37,6 +49,10 @@ PROFILE_FIELDS = {
     "creditLoad": "credit_load",
     "graduationTarget": "graduation_target",
     "onboarded": "onboarded",
+    "credits": "summary.credits",
+    "gpa": "summary.gpa",
+    "classTaken": "summary.class_taken",
+    "program": "summary.program",
     "credits": "summary.credits",
     "gpa": "summary.gpa",
     "classTaken": "summary.class_taken",
@@ -117,12 +133,12 @@ def update_profile():
                 "fields": sorted(unknown_fields),
             }), 400
 
+        user = user_session.user
+
         for field, value in body.items():
             error = validate_profile_field(field, value)
             if error:
                 return jsonify({"error": error}), 400
-
-        user = user_session.user
 
         for field, value in body.items():
             setattr(user, PROFILE_FIELDS[field], value)
