@@ -49,7 +49,7 @@ Two smaller issues can break a local setup or a new contributor: `frontend/.env.
 | App shell, routing, responsive layout | Complete | Not applicable | Complete |
 | Course catalog browse and search | Partial | Partial | Partial |
 | Course detail drawer | Partial | Partial | Partial |
-| Transcript upload and parsing | Mock only | Missing | Not started |
+| Transcript upload and parsing | Mock only | Partial | Partial |
 | Manual coursework entry | Partial | Missing | Not started |
 | Four-year plan generation | Mock only | Missing | Not started |
 | Plan persistence and saved plans | Mock only | Missing | Not started |
@@ -121,6 +121,11 @@ This is the largest missing user flow. The UI exists, but no real coursework rea
 - Manual courses persist as completed or in-progress records.
 - Refresh during onboarding does not lose uploaded or entered coursework.
 - The generation request can read the persisted coursework.
+- Backend transcript endpoints (`POST /api/v1/transcripts`, `GET /api/v1/transcripts/:id`) are implemented.
+- Parsed course data is encrypted at rest using per-user encryption.
+- Frontend onboarding can integrate with real transcript parsing API.
+- Backend transcript endpoints (`POST /api/v1/transcripts`, `GET /api/v1/transcripts/:id`) are implemented.
+- Parsed course data is encrypted at rest.
 
 ## 3. Four-year plan generation
 
