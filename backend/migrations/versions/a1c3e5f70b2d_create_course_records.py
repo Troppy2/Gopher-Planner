@@ -27,6 +27,7 @@ def upgrade():
         sa.Column('kind', sa.String(length=16), nullable=False),
         sa.Column('status', sa.String(length=16), nullable=False),
         sa.Column('course_code', sa.String(length=32), nullable=True),
+        sa.Column('title', sa.String(length=200), nullable=True),
         sa.Column('credit_source', sa.String(length=16), nullable=False),
         sa.Column('term_year', sa.Integer(), nullable=True),
         sa.Column('term_season', sa.String(length=6), nullable=True),

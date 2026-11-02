@@ -1,10 +1,11 @@
 
-from flask import Flask, app
+from flask import Flask
 from flask_cors import CORS
 
 from app.api.v1.auth import auth_bp
 from app.api.v1.courses import courses_bp
 from app.api.v1.profile import profile_bp
+from app.api.v1.transcripts import transcripts_bp
 from app.core.config import Settings
 from app.extensions import db, migrate
 from app import models
@@ -18,6 +19,7 @@ def create_app() -> Flask:
 
     app.config["SQLALCHEMY_DATABASE_URI"] = settings.database_url
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+    app.config["MAX_CONTENT_LENGTH"] = 10 * 1024 * 1024  # reject uploads over 10 MB
 
     db.init_app(app)
     migrate.init_app(app, db)
@@ -32,6 +34,7 @@ def create_app() -> Flask:
     app.register_blueprint(auth_bp)
     app.register_blueprint(courses_bp)
     app.register_blueprint(profile_bp)
+    app.register_blueprint(transcripts_bp)
 
     @app.get("/health")
     def health():

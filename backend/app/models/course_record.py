@@ -104,6 +104,8 @@ class CourseRecord(db.Model):
     kind: Mapped[str] = mapped_column(String(16), nullable=False)
     status: Mapped[str] = mapped_column(String(16), nullable=False)
     course_code: Mapped[str | None] = mapped_column(String(32), nullable=True)
+    # Title as printed on the audit, e.g. "Intro to Programming Concepts".
+    title: Mapped[str | None] = mapped_column(String(200), nullable=True)
     credit_source: Mapped[str] = mapped_column(String(16), nullable=False)
     term_year: Mapped[int | None] = mapped_column(Integer, nullable=True)
     term_season: Mapped[str | None] = mapped_column(String(6), nullable=True)
