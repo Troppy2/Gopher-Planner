@@ -25,3 +25,7 @@ dev = [
 [build-system]
 requires = ["uv_build>=0.12.20,<0.13.0"]
 build-backend = "uv_build"
+[tool.pytest.ini_options]
+# Let tests import the `app` package from the backend folder.
+pythonpath = ["."]
+testpaths = ["tests"]

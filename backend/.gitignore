@@ -3,3 +3,7 @@
 # Python cache files
 __pycache__/
 *.py[cod]
+# Local environments and secrets
+.venv/
+.env.*
+!.env.example
