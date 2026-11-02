@@ -5,6 +5,7 @@ from flask_cors import CORS
 from app.api.v1.auth import auth_bp
 from app.api.v1.courses import courses_bp
 from app.api.v1.profile import profile_bp
+from app.api.v1.plan import plan_bp
 from app.api.v1.summary import summary_bp
 from app.api.v1.transcripts import transcripts_bp
 from app.core.config import Settings
@@ -37,6 +38,7 @@ def create_app() -> Flask:
     app.register_blueprint(profile_bp)
     app.register_blueprint(transcripts_bp)
     app.register_blueprint(summary_bp)
+    app.register_blueprint(plan_bp)
 
     @app.get("/health")
     def health():
