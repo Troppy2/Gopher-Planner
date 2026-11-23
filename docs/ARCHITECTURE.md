@@ -329,6 +329,7 @@ The base prefix is `/api/v1`, except `/health`. Catalog/program endpoints are al
 | `POST /transcripts` | Multipart PDF import. | `api/v1/transcripts.py` |
 | `GET /transcripts/<id>` | Owner-filtered status and imported-course result. | `api/v1/transcripts.py` |
 | `GET /programs` | Supported program/version summaries and review state. | `api/v1/plan.py` |
+| `GET /programs/<id>/graph` | Course nodes and prerequisite edges for one program version (`catalogTerm` required when several exist). Free-text prerequisites produce no edges. | `api/v1/plan.py` |
 | `GET`, `PUT /plan` | Read the assembled plan or validate/persist edits. | `api/v1/plan.py` |
 | `POST /plans/generate` | Generate a preview or persisted plan. | `api/v1/plan.py` |
 | `GET /courses` | Search/filter/paginate catalog records, including LE filtering. | `api/v1/courses.py` |

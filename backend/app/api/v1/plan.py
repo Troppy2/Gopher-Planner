@@ -3,6 +3,7 @@ from flask import Blueprint, g, request
 from app.core.auth import require_auth
 from app.extensions import db
 from app.services.plan import PlanError, generate, get_plan, save_changes
+from app.services.program_graph import ProgramGraphError, program_graph
 from app.services.programs import list_programs
 
 plan_bp = Blueprint("plan", __name__, url_prefix="/api/v1")
@@ -51,3 +52,12 @@ def generate_plan_route():
 @require_auth
 def read_programs():
     return {"programs": list_programs()}
+
+
+@plan_bp.get("/programs/<program_id>/graph")
+@require_auth
+def read_program_graph(program_id):
+    try:
+        return program_graph(program_id, request.args.get("catalogTerm"))
+    except ProgramGraphError as error:
+        return {"error": error.message, "code": error.code}, error.status
