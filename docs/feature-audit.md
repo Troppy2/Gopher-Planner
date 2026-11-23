@@ -7,6 +7,8 @@
 
 **Updated 2026-11-22 (core planner P0).** The audit date and revision above are unchanged; this note and the status table reflect the working tree after the P0 slices. Changed: coursework, summary, plan read/write, synchronous generation (with dry runs) and transcript upload now use a real, tested Flask API and are wired in the frontend; versioned program requirement files exist for all 155 undergraduate majors in the 2026-11-22 Twin Cities catalog snapshot (Computer Science B.S. hand-reviewed, the rest machine-mapped with explicit review states); the dashboard separates credit progress from completed and projected requirement progress; catalog-only courses can be added to a plan; backend and frontend test suites exist. Still open: the transcript parser is provisional until a real redacted APAS sample is checked, liberal education and free electives are not generated, concurrent enrollment, professors and Gopher Grades remain out of scope, and real Google sign-in, PostgreSQL and browser flows have not been verified in this work. Details: [P0 report](core-planner-p0-report.md).
 
+**Updated 2026-11-23 (sample-plan accuracy and editing).** Generation now seeds official sample-plan terms, skips completed and registered coursework, suggests catalog courses for missing liberal education categories, persists gen-ed slot labels, and reports `electiveCredits`. Free electives are reported as credits and are not placed. Flow-chart course drawers support validated term moves, removal, and paginated LE suggestion swaps in the existing draft/save workflow. Dashboard and semester/graph views show slot labels and remaining free elective credits. The public sample-plan export covers 161 pages and builds 155 matched program files; six unmatched pages remain explicit. Only CS requirements are hand-reviewed. Text-only prerequisites warn without blocking; concurrent requirements and professors remain outside this work. Automated verification uses synthetic data. Exact real-audit acceptance is not verified here because real APAS/transcript PDFs are excluded.
+
 ## How to read this document
 
 | Status | Meaning |
@@ -53,7 +55,7 @@ Two smaller issues can break a local setup or a new contributor: `frontend/.env.
 | Course detail drawer | Partial | Partial | Partial |
 | Transcript upload and parsing | Complete | Partial (APAS audit rows checked against real audits 2026-11-23; other transcript layouts unverified) | Partial |
 | Manual coursework entry | Complete | Complete | Complete |
-| Four-year plan generation | Complete | Partial (program courses only; no liberal education or free electives) | Partial |
+| Four-year plan generation | Complete | Partial (sample-plan seeded; LE suggestions; free elective credits reported, not placed) | Partial |
 | Plan persistence and saved plans | Complete | Complete (one plan per user) | Complete |
 | Dashboard summary and progress | Complete | Complete | Complete |
 | Flow chart and semester editing | Complete | Complete | Complete (not browser-verified) |
