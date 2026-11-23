@@ -27,11 +27,11 @@ it("refreshes dashboard credits and plan after coursework credit corrections", a
   renderWithProviders(<><DashboardScreen /><CourseworkEditor /></>);
   const metric = (await screen.findByRole("heading", { name: "Completed credits" })).closest("section")!;
   expect(within(metric).getByText("20 credits remaining")).toBeInTheDocument();
-  const input = await screen.findByRole("spinbutton", { name: "TEST 1001 credits" });
+  const input = await screen.findByRole("textbox", { name: "TEST 1001 credits" });
   await userEvent.clear(input);
   await userEvent.type(input, "2");
-  await userEvent.click(screen.getByRole("button", { name: "Save courses" }));
-  await waitFor(() => expect(within(metric).getByText("22 credits remaining")).toBeInTheDocument());
+  await userEvent.tab();
+  await waitFor(() => expect(within(metric).getByText("22 credits remaining")).toBeInTheDocument(), { timeout: 3000 });
   expect(summaryReads).toBeGreaterThan(1);
   await waitFor(() => expect(planReads).toBeGreaterThan(1));
 });

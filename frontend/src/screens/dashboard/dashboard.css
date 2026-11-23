@@ -236,30 +236,68 @@
 }
 
 /* Degree requirements: completed and with-plan status stay side by side, never colour alone. */
-.req-row {
-  align-items: flex-start;
+.dashboard-credit-breakdown {
+  display: block;
+  margin-top: var(--s2);
 }
-
-.req-status {
+.dashboard-section-heading {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s3);
+  flex-wrap: wrap;
+  /* Room between the heading's button and the first row's hover highlight. */
+  margin-bottom: var(--s3);
+}
+.dashboard-section-heading .h2 {
+  margin: 0;
+}
+.pg-head .sub {
+  min-height: 1.5em;
+}
+
+/* ---------- degree requirements ---------- */
+.req-meta {
+  margin: var(--s1) 0 var(--s3);
+  font-size: 13px;
+}
+.req-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.req-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: var(--s3);
+  padding: var(--s3) 0;
+  border-top: 1px solid var(--border);
+}
+.req-row:first-child {
+  border-top: 0;
+}
+.req-name {
+  display: grid;
   gap: 2px;
-  text-align: right;
-  font-size: 0.875rem;
+  min-width: 0;
+  font-size: 14px;
 }
-
-.warn-list {
-  margin: 12px 0 0;
-  padding-left: 18px;
-  color: var(--muted, inherit);
-  font-size: 0.875rem;
+.req-name b {
+  font-weight: 600;
 }
-
-@media (max-width: 640px) {
-  .req-status {
-    text-align: left;
-  }
+.req-name .muted {
+  font-size: 13px;
 }
-.dashboard-credit-breakdown { display: block; margin-top: 8px; color: var(--ink); }
-.dashboard-section-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-.dashboard-section-heading .btn { min-height: 44px; }
+.req-st {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.req-st.met { color: var(--st-done); }
+.req-st.track { color: var(--st-prog-ink); }
+.req-st.review { color: var(--muted); }
+.req-st.short { color: var(--danger); }

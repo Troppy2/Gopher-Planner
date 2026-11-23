@@ -35,8 +35,7 @@ export function PercentCard({ className, percent, total, source }: { className: 
         <h2 className="lab">Credit progress</h2>
         <p className="pct-prog">{percent != null && total ? `${percent}% of ${total} degree credits` : "N/A"}</p>
         <p className="ctx">
-          {percent != null ? `${source}. ` : "Not available until your coursework is added. "}
-          Credit progress is not a check of your degree requirements.
+          {percent != null ? `${source}. Counts credits only, not requirements.` : "Add your coursework to see this."}
         </p>
       </div>
     </section>
