@@ -30,6 +30,34 @@ def by_code(plan):
     return {course["code"]: course for course in plan["courses"]}
 
 
+def test_major_switch_delete_reupload_and_return_recovers_requirements(client, planner, post_headers):
+    from tests.test_transcripts_api import pdf, upload
+
+    planner(courses=[work("MINI 1101")])
+    assert put(client, post_headers, [], catalogTerm="Fall 2026").status_code == 200
+    assert client.put("/api/v1/profile", json={"major": "Synthetic B.S."}, headers=post_headers).status_code == 200
+    assert client.get("/api/v1/plan").json["catalogTerm"] is None
+    assert client.put("/api/v1/coursework", json={"courses": [], "skipped": False}, headers=post_headers).status_code == 200
+    response = upload(client, post_headers, pdf(["Fall 2025", "CSCI 1001  Synthetic Computing  4.0  A"]))
+    assert response.status_code == 201
+    assert client.get(f"/api/v1/transcripts/{response.json['id']}").json["status"] == "parsed"
+    assert client.put("/api/v1/profile", json={"major": MINI}, headers=post_headers).status_code == 200
+    plan = client.get("/api/v1/plan").json
+    assert plan["availableCatalogTerms"] == ["Fall 2026"]
+    restored = put(client, post_headers, [], catalogTerm="Fall 2026")
+    assert restored.status_code == 200
+    assert restored.json["requirementProgress"]
+    assert "MINI 1101" in by_code(restored.json)
+    assert client.get("/api/v1/coursework").json["courses"][0]["code"] == "CSCI 1001"
+
+
+def test_saving_same_major_keeps_confirmed_catalog_year(client, planner, post_headers):
+    planner()
+    assert put(client, post_headers, [], catalogTerm="Fall 2026").status_code == 200
+    assert client.put("/api/v1/profile", json={"major": MINI, "name": "Synthetic Student"}, headers=post_headers).status_code == 200
+    assert client.get("/api/v1/plan").json["catalogTerm"] == "Fall 2026"
+
+
 def test_current_courses_can_move_out_and_back_with_credit_edits(client, planner, post_headers):
     planner(courses=[work("MINI 1101", "prog", term="Fall 2026", credits=4)])
     moved = put(client, post_headers, [{"code": "MINI 1101", "status": "plan", "term": "Spring 2027"}], catalogTerm="Fall 2026")

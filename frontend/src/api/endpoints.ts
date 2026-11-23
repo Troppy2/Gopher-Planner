@@ -88,15 +88,9 @@ export const getPrograms = () => apiRequest<{ programs: ProgramSummary[] }>("/pr
 export async function getOptions(): Promise<Options> {
   await delay(100);
   const options = clone(db.options);
-  try {
-    const { programs } = await getPrograms();
-    if (programs.length) {
-      options.majors = programs.map((program) => program.name);
-      options.unverifiedMajors = programs.filter((program) => !program.reviewed).map((program) => program.name);
-    }
-  } catch {
-    // Keep the bundled list when the program listing is unavailable.
-  }
+  const { programs } = await getPrograms();
+  options.majors = programs.map((program) => program.name);
+  options.unverifiedMajors = programs.filter((program) => !program.reviewed).map((program) => program.name);
   return options;
 }
 

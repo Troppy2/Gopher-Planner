@@ -38,6 +38,10 @@ Students upload their transcript. Gopher Planner parses the transcript and store
 
 Current and future semesters are editable in the flow chart. Each class has a semester picker, each semester has catalog search, and current courses have editable credits. Moves into the current term become in-progress coursework; moves out become planned courses. Save and discard apply to the whole draft. Coursework changes refresh the dashboard, including separate completed, in-progress, and planned credit totals.
 
+Building a plan also fills an empty current semester with planned suggestions. Existing in-progress courses are preserved. Without a graduation target, the official sample plan starts at the first planning term. Course details allow page scrolling, and finishing a build does not force the page back to the top.
+
+Changing majors refreshes the planner and clears unsaved edits for the previous major. Confirm the catalog year for the newly selected major before building its requirements. Deleting coursework and re-uploading an APAS report restores the imported rows without changing the selected major.
+
 ### Professor and Course Grade Information
 
 For a planned course, users can view likely or historically associated professors and access their Rate My Professors information through an embedded frame or link. The application can also provide a link to average grade information for the course through Gopher Grades.

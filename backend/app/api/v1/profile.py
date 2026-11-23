@@ -3,7 +3,8 @@ from flask import Blueprint, current_app, jsonify, request
 from sqlalchemy.exc import SQLAlchemyError
 
 from app.extensions import db
-from app.models import User
+from app.models import Plan, User
+from app.repositories.locks import lock_user
 from app.core.auth import check_request_origin, read_session
 
 profile_bp = Blueprint("profile", __name__, url_prefix="/api/v1")
@@ -113,7 +114,13 @@ def update_profile():
             if error:
                 return jsonify({"error": error}), 400
 
-        user = user_session.user
+        user = lock_user(user_session.user.id)
+
+        if "major" in body and body["major"] != user.major:
+            plan = db.session.scalar(db.select(Plan).where(Plan.user_id == user.id))
+            if plan is not None:
+                # Catalog-year confirmation belongs to the selected degree program.
+                plan.catalog_term = None
 
         for field, value in body.items():
             setattr(user, PROFILE_FIELDS[field], value)

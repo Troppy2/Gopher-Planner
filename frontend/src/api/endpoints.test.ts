@@ -2,6 +2,7 @@ import { http, HttpResponse } from "msw";
 import { describe, expect, it, vi } from "vitest";
 import { api, server } from "@/test/server";
 import { ApiError } from "./client";
+import { getOptions } from "./endpoints";
 import {
   generatePlan,
   getCoursework,
@@ -50,6 +51,10 @@ const plan = { terms: ["Completed", "Fall 2026"], currentTerm: "Fall 2026", base
   catalogTerm: null, availableCatalogTerms: ["Fall 2026"], warnings: ["program_version_unconfirmed"], requirementProgress: [] };
 
 describe("API endpoints", () => {
+  it("reports a failed program list instead of silently hiding supported majors", async () => {
+    capture("get", "/programs", { error: "Unavailable" }, 503);
+    await expect(getOptions()).rejects.toBeInstanceOf(ApiError);
+  });
   it("getSummary reads the real summary with credentials", async () => {
     const summary = { gpa: null, gradedCredits: 0, creditsCompleted: 0, creditsTotal: 120, percentComplete: null, program: "", source: "" };
     const seen = capture("get", "/summary", summary);
