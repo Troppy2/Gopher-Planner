@@ -1,0 +1,3786 @@
+{
+ "schemaVersion": 2,
+ "id": "american-studies-ba",
+ "name": "American Studies B.A.",
+ "officialName": "American Studies B.A.",
+ "officialProgramId": "005620217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "American Studies B.A., revision 005620217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/005620217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/005620217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 005620217-2026-09-08"
+  },
+  "course-8154461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8154461",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 2031, version 8154461-2025-05-19"
+  },
+  "course-7996311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7996311",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 1012, version 7996311-2010-09-07"
+  },
+  "course-7919791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7919791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 1401, version 7919791-2010-09-07"
+  },
+  "course-8154251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8154251",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 1511, version 8154251-2016-01-19"
+  },
+  "course-7987311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7987311",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 2011, version 7987311-2026-01-20"
+  },
+  "course-7912791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7912791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3001, version 7912791-2016-09-06"
+  },
+  "course-7977871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977871",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3001, version 7977871-2011-09-06"
+  },
+  "course-8170291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170291",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3112, version 8170291-2017-09-05"
+  },
+  "course-0084691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084691",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3114, version 0084691-2010-09-07"
+  },
+  "course-0092251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092251",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3253W, version 0092251-2026-01-20"
+  },
+  "course-8253491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253491",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3814, version 8253491-2026-01-20"
+  },
+  "course-0135851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0135851",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3993, version 0135851-2015-01-20"
+  },
+  "course-8266001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266001",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 1101, version 8266001-2023-09-05"
+  },
+  "course-7974601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974601",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 1101, version 7974601-2023-09-05"
+  },
+  "course-8169321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169321",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 1101, version 8169321-2023-09-05"
+  },
+  "course-8251031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251031",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 2041, version 8251031-2021-09-07"
+  },
+  "course-7976781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976781",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3003, version 7976781-2022-09-06"
+  },
+  "course-8164611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164611",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3001, version 8164611-2022-09-06"
+  },
+  "course-7933701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7933701",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3001, version 7933701-2022-09-06"
+  },
+  "course-0093171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093171",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3113W, version 0093171-2015-09-08"
+  },
+  "course-7976791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3212, version 7976791-2025-01-21"
+  },
+  "course-8024521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8024521",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLBT 3212, version 8024521-2025-01-21"
+  },
+  "course-7933711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7933711",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3212, version 7933711-2021-05-17"
+  },
+  "course-8253301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253301",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3214, version 8253301-2025-05-19"
+  },
+  "course-8182981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8182981",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3361, version 8182981-2025-01-21"
+  },
+  "course-8181591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181591",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3361, version 8181591-2025-01-21"
+  },
+  "course-8271851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271851",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3409W, version 8271851-2024-09-03"
+  },
+  "course-7974611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974611",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3409W, version 7974611-2024-09-03"
+  },
+  "course-0161851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0161851",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3409W, version 0161851-2024-09-03"
+  },
+  "course-8271571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271571",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3661, version 8271571-2024-09-03"
+  },
+  "course-8263481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8263481",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3661, version 8263481-2024-09-03"
+  },
+  "course-8271841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271841",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3859, version 8271841-2024-09-03"
+  },
+  "course-8185501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185501",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3896, version 8185501-2019-01-22"
+  },
+  "course-0093831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093831",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3920, version 0093831-2021-09-07"
+  },
+  "course-0091021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091021",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 4101, version 0091021-2015-09-08"
+  },
+  "course-8022791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8022791",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLBT 4101, version 8022791-2015-09-08"
+  },
+  "course-8178311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178311",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 5412, version 8178311-2026-01-20"
+  },
+  "course-8178301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178301",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5412, version 8178301-2026-01-20"
+  },
+  "course-8178321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178321",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5412, version 8178321-2026-01-20"
+  },
+  "course-8172051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172051",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3412, version 8172051-2026-01-20"
+  },
+  "course-8176031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176031",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 5412, version 8176031-2026-01-20"
+  },
+  "course-8178331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178331",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3515, version 8178331-2026-01-20"
+  },
+  "course-8162561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162561",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3211W, version 8162561-2021-05-17"
+  },
+  "course-0031051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0031051",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3211W, version 0031051-2021-05-17"
+  },
+  "course-8037101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037101",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3251W, version 8037101-2021-05-17"
+  },
+  "course-0023391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3251W, version 0023391-2026-09-08"
+  },
+  "course-7920451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920451",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3251W, version 7920451-2021-05-17"
+  },
+  "course-7975221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975221",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3271, version 7975221-2019-01-22"
+  },
+  "course-7974621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974621",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3301, version 7974621-2024-01-16"
+  },
+  "course-8074311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8074311",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3301, version 8074311-2024-01-16"
+  },
+  "course-8173241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173241",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3341, version 8173241-2021-05-17"
+  },
+  "course-8174791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8174791",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3341, version 8174791-2025-01-21"
+  },
+  "course-8173251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173251",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3351, version 8173251-2021-05-17"
+  },
+  "course-8178341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178341",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3351, version 8178341-2021-05-17"
+  },
+  "course-8056041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8056041",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3483, version 8056041-2021-05-17"
+  },
+  "course-8018931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3483, version 8018931-2021-05-17"
+  },
+  "course-8106321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106321",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3486, version 8106321-2014-01-21"
+  },
+  "course-8097261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097261",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3486, version 8097261-2021-05-17"
+  },
+  "course-8106661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106661",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3503, version 8106661-2021-05-17"
+  },
+  "course-8097721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097721",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3503, version 8097721-2021-05-17"
+  },
+  "course-8115991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115991",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3503H, version 8115991-2021-05-17"
+  },
+  "course-8179611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179611",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3601W, version 8179611-2018-09-04"
+  },
+  "course-7974631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974631",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3877, version 7974631-2011-01-18"
+  },
+  "course-0161291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0161291",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3877, version 0161291-2021-05-17"
+  },
+  "course-8078221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8078221",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3862, version 8078221-2026-01-20"
+  },
+  "course-8078021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8078021",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3862, version 8078021-2026-01-20"
+  },
+  "course-0043441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043441",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3862, version 0043441-2026-01-20"
+  },
+  "course-8047891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8047891",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3875W, version 8047891-2016-01-19"
+  },
+  "course-0161271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0161271",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3875W, version 0161271-2021-05-17"
+  },
+  "course-7974901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974901",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 4231, version 7974901-2014-09-02"
+  },
+  "course-0103391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0103391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 4231, version 0103391-2014-09-02"
+  },
+  "course-7971341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971341",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4231, version 7971341-2014-09-02"
+  },
+  "course-7971351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971351",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 4231, version 7971351-2026-01-20"
+  },
+  "course-8063391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8063391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 4232, version 8063391-2026-01-20"
+  },
+  "course-7936951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7936951",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 4232, version 7936951-2026-01-20"
+  },
+  "course-7974531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974531",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 4311, version 7974531-2016-09-06"
+  },
+  "course-7938251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938251",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 4311, version 7938251-2021-05-17"
+  },
+  "course-7938361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938361",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3006, version 7938361-2026-01-20"
+  },
+  "course-0023291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023291",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3108, version 0023291-2010-09-07"
+  },
+  "course-7938391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3112, version 7938391-2008-09-02"
+  },
+  "course-7953421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953421",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3120, version 7953421-2013-09-03"
+  },
+  "course-8101621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101621",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3456, version 8101621-2021-05-17"
+  },
+  "course-7953431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953431",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5120, version 7953431-2015-01-20"
+  },
+  "course-8139971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8139971",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3125W, version 8139971-2017-05-22"
+  },
+  "course-0023341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023341",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3301, version 0023341-2022-09-06"
+  },
+  "course-8258761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8258761",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3301, version 8258761-2022-09-06"
+  },
+  "course-8155031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8155031",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3402, version 8155031-2016-01-19"
+  },
+  "course-8116841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8116841",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3402, version 8116841-2016-01-19"
+  },
+  "course-7967681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7967681",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3426, version 7967681-2010-09-07"
+  },
+  "course-0050671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0050671",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3592W, version 0050671-2025-01-21"
+  },
+  "course-7896081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7896081",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3592W, version 7896081-2025-01-21"
+  },
+  "course-8100731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100731",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3593, version 8100731-2016-05-23"
+  },
+  "course-8162961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162961",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3593, version 8162961-2021-05-17"
+  },
+  "course-0023521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023521",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5593, version 0023521-2016-05-23"
+  },
+  "course-7912781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7912781",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5593, version 7912781-2021-05-17"
+  },
+  "course-7989041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989041",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3597W, version 7989041-2021-05-17"
+  },
+  "course-7989011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989011",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3597W, version 7989011-2021-05-17"
+  },
+  "course-7975501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975501",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 1009, version 7975501-2022-09-06"
+  },
+  "course-7999111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7999111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3598W, version 7999111-2026-09-08"
+  },
+  "course-8177401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8177401",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3745, version 8177401-2018-05-21"
+  },
+  "course-0023371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023371",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3864, version 0023371-2024-09-03"
+  },
+  "course-0164171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0164171",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3864, version 0164171-2021-05-17"
+  },
+  "course-0023381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023381",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3865, version 0023381-2016-05-23"
+  },
+  "course-0164141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0164141",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3865, version 0164141-2021-05-17"
+  },
+  "course-7938471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938471",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3866, version 7938471-2010-09-07"
+  },
+  "course-8101031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101031",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3856, version 8101031-2021-05-17"
+  },
+  "course-7953481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953481",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5866, version 7953481-2014-09-02"
+  },
+  "course-8177411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8177411",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3867, version 8177411-2018-01-16"
+  },
+  "course-7977891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977891",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3868W, version 7977891-2024-09-03"
+  },
+  "course-7975531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975531",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3868W, version 7975531-2021-05-17"
+  },
+  "course-0023421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023421",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3910, version 0023421-2026-01-20"
+  },
+  "course-8173351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173351",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 4335, version 8173351-2024-09-03"
+  },
+  "course-8173371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173371",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4335, version 8173371-2021-09-07"
+  },
+  "course-8094291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094291",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 4406, version 8094291-2016-09-06"
+  },
+  "course-8093611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8093611",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 4406, version 8093611-2016-09-06"
+  },
+  "course-8094301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094301",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5406, version 8094301-2016-09-06"
+  },
+  "course-8093671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8093671",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 5406, version 8093671-2016-09-06"
+  },
+  "course-8100751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100751",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5627, version 8100751-2015-05-26"
+  },
+  "course-0050601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0050601",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5910, version 0050601-2020-05-18"
+  },
+  "course-7914891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7914891",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3141, version 7914891-2019-01-22"
+  },
+  "course-7922211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922211",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5141, version 7922211-2015-01-20"
+  },
+  "course-0080581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0080581",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3201W, version 0080581-2016-09-06"
+  },
+  "course-0098131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0098131",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3301, version 0098131-2017-05-22"
+  },
+  "course-8029251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029251",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3321, version 8029251-2024-09-03"
+  },
+  "course-7890251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7890251",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3303, version 7890251-2019-01-22"
+  },
+  "course-8098511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8098511",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3304, version 8098511-2014-01-21"
+  },
+  "course-8079501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8079501",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3312, version 8079501-2026-09-08"
+  },
+  "course-7944121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7944121",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3402, version 7944121-2016-09-06"
+  },
+  "course-7950341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7950341",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5402, version 7950341-2016-09-06"
+  },
+  "course-7894291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7894291",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3409, version 7894291-2026-01-20"
+  },
+  "course-7942781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7942781",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5409, version 7942781-2026-01-20"
+  },
+  "course-7897911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7897911",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3701, version 7897911-2026-09-08"
+  },
+  "course-8101861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101861",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3602, version 8101861-2026-09-08"
+  },
+  "course-0087371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087371",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3601, version 0087371-2026-09-08"
+  },
+  "course-8189721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189721",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5602, version 8189721-2026-09-08"
+  },
+  "course-8101221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5601, version 8101221-2026-09-08"
+  },
+  "course-8146491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8146491",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3604, version 8146491-2019-01-22"
+  },
+  "course-0101961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0101961",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3711, version 0101961-2013-09-03"
+  },
+  "course-7922841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922841",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3871, version 7922841-2010-09-07"
+  },
+  "course-0073331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073331",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3871, version 0073331-2021-05-17"
+  },
+  "course-7922831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922831",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3872, version 7922831-2015-01-20"
+  },
+  "course-0072931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3872, version 0072931-2021-05-17"
+  },
+  "course-0102801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102801",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4501, version 0102801-2019-01-22"
+  },
+  "course-0086441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086441",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4511, version 0086441-2019-09-03"
+  },
+  "course-7889791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4525W, version 7889791-2019-01-22"
+  },
+  "course-7898391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7898391",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4525W, version 7898391-2019-01-22"
+  },
+  "course-0102841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102841",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4990, version 0102841-2020-01-21"
+  },
+  "course-7922111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922111",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5107, version 7922111-2022-01-18"
+  },
+  "course-7970711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7970711",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5890, version 7970711-2025-01-21"
+  },
+  "course-0078121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078121",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5890, version 0078121-2021-05-17"
+  },
+  "course-7887291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887291",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5920, version 7887291-2024-05-13"
+  },
+  "course-8018811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018811",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3655, version 8018811-2015-05-26"
+  },
+  "course-8029561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029561",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3655, version 8029561-2022-01-18"
+  },
+  "course-7920391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920391",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5655, version 7920391-2015-05-26"
+  },
+  "course-7971821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971821",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3212, version 7971821-2026-01-20"
+  },
+  "course-8185831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185831",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3212, version 8185831-2026-01-20"
+  },
+  "course-8171061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171061",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3216W, version 8171061-2026-01-20"
+  },
+  "course-8171281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171281",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3216W, version 8171281-2026-01-20"
+  },
+  "course-7975511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975511",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3221, version 7975511-2026-01-20"
+  },
+  "course-7982211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982211",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3223, version 7982211-2026-01-20"
+  },
+  "course-7976861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976861",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3352, version 7976861-2026-09-08"
+  },
+  "course-7975521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3374, version 7975521-2026-01-20"
+  },
+  "course-0031181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0031181",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3375, version 0031181-2026-01-20"
+  },
+  "course-0031211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0031211",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3444, version 0031211-2026-01-20"
+  },
+  "course-7990871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990871",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3444, version 7990871-2026-01-20"
+  },
+  "course-7982081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982081",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3446, version 7982081-2026-01-20"
+  },
+  "course-8107791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8107791",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3446, version 8107791-2026-01-20"
+  },
+  "course-0031231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0031231",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3507W, version 0031231-2026-01-20"
+  },
+  "course-8064591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3507W, version 8064591-2026-01-20"
+  },
+  "course-7982221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982221",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3672, version 7982221-2026-01-20"
+  },
+  "course-7998891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7998891",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3771, version 7998891-2026-01-20"
+  },
+  "course-7975291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975291",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3852, version 7975291-2026-01-20"
+  },
+  "course-7988971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7988971",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3752, version 7988971-2026-01-20"
+  },
+  "course-8085161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8085161",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3888, version 8085161-2026-01-20"
+  },
+  "course-7951131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7951131",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3900, version 7951131-2026-01-20"
+  },
+  "course-7976881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976881",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 4232, version 7976881-2026-01-20"
+  },
+  "course-7976891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976891",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 4275, version 7976891-2026-01-20"
+  },
+  "course-7922711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922711",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 4401, version 7922711-2026-01-20"
+  },
+  "course-0071291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0071291",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 4401, version 0071291-2013-05-28"
+  },
+  "course-0031281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0031281",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 5920, version 0031281-2026-09-08"
+  },
+  "course-0031291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0031291",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 5993, version 0031291-2026-01-20"
+  },
+  "course-0034551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034551",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3101, version 0034551-2024-01-16"
+  },
+  "course-8101061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101061",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5182W, version 8101061-2022-01-18"
+  },
+  "course-0100071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0100071",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 4962W, version 0100071-2021-01-19"
+  }
+ },
+ "courseSets": {
+  "set-cCaimCll": {
+   "codes": [
+    "AMST 1012",
+    "AMST 1401",
+    "AMST 1511",
+    "AMST 2011",
+    "AMST 3001",
+    "AAS 3001",
+    "AMST 3112",
+    "AMST 3114",
+    "AMST 3253W",
+    "AMST 3814",
+    "AMST 3993"
+   ],
+   "sourceRef": "program"
+  },
+  "set-AohCtiyH": {
+   "codes": [
+    "AMST 1101",
+    "AAS 1101",
+    "ANTH 1101",
+    "AMST 2041",
+    "AMST 3001",
+    "AAS 3001",
+    "AMST 3003",
+    "AMIN 3001",
+    "HIST 3001",
+    "AMST 3112",
+    "AMST 3113W",
+    "AMST 3114",
+    "AMST 3212",
+    "GLBT 3212",
+    "HIST 3212",
+    "AMST 3214",
+    "AMST 3253W",
+    "AMST 3361",
+    "AAS 3361",
+    "AMST 3409W",
+    "AAS 3409W",
+    "GWSS 3409W",
+    "AMST 3661",
+    "GER 3661",
+    "HIST 3859",
+    "AMST 3814",
+    "AMST 3896",
+    "AMST 3920",
+    "AMST 3993",
+    "AMST 4101",
+    "GLBT 4101",
+    "AMST 5412",
+    "AMIN 5412",
+    "ANTH 5412",
+    "CHLS 3412",
+    "CHLS 5412",
+    "GWSS 3515"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qVHvybq9": {
+   "codes": [
+    "AAS 3211W",
+    "SOC 3211W",
+    "AAS 3251W",
+    "AFRO 3251W",
+    "SOC 3251W",
+    "AAS 3271",
+    "AAS 3301",
+    "ENGL 3301",
+    "AAS 3341",
+    "COMM 3341",
+    "AAS 3351",
+    "COMM 3351",
+    "AAS 3409W",
+    "GWSS 3409W",
+    "AAS 3483",
+    "HIST 3483",
+    "AAS 3486",
+    "HIST 3486",
+    "AAS 3503",
+    "SOC 3503",
+    "SOC 3503H",
+    "AAS 3601W",
+    "AAS 3877",
+    "HIST 3877",
+    "AAS 3862",
+    "CHLS 3862",
+    "HIST 3862",
+    "AAS 3875W",
+    "HIST 3875W",
+    "AAS 4231",
+    "AFRO 4231",
+    "AMIN 4231",
+    "CHLS 4231",
+    "AAS 4232",
+    "ENGL 4232",
+    "AAS 4311",
+    "ENGL 4311",
+    "AFRO 3006",
+    "AFRO 3108",
+    "AFRO 3112",
+    "AFRO 3120",
+    "HIST 3456",
+    "AFRO 5120",
+    "AFRO 3125W",
+    "AFRO 3301",
+    "MUS 3301",
+    "AFRO 3402",
+    "GWSS 3402",
+    "AFRO 3426",
+    "AFRO 3592W",
+    "ENGL 3592W",
+    "AFRO 3593",
+    "ENGL 3593",
+    "AFRO 5593",
+    "ENGL 5593",
+    "AFRO 3597W",
+    "ENGL 3597W",
+    "AFRO 1009",
+    "ENGL 3598W",
+    "AFRO 3745",
+    "AFRO 3864",
+    "HIST 3864",
+    "AFRO 3865",
+    "HIST 3865",
+    "AFRO 3866",
+    "HIST 3856",
+    "AFRO 5866",
+    "AFRO 3867",
+    "AFRO 3868W",
+    "HIST 3868W",
+    "AFRO 3910",
+    "AFRO 4335",
+    "POL 4335",
+    "AFRO 4406",
+    "GWSS 4406",
+    "AFRO 5406",
+    "GWSS 5406",
+    "AFRO 5627",
+    "AFRO 5910",
+    "AMIN 3141",
+    "AMIN 5141",
+    "AMIN 3201W",
+    "AMIN 3301",
+    "RELS 3321",
+    "AMIN 3303",
+    "AMIN 3304",
+    "AMIN 3312",
+    "AMIN 3402",
+    "AMIN 5402",
+    "AMIN 3409",
+    "AMIN 5409",
+    "POL 3701",
+    "AMIN 3602",
+    "ANTH 3601",
+    "AMIN 5602",
+    "ANTH 5601",
+    "AMIN 3604",
+    "AMIN 3711",
+    "AMIN 3871",
+    "HIST 3871",
+    "AMIN 3872",
+    "HIST 3872",
+    "AMIN 4501",
+    "AMIN 4511",
+    "AMIN 4525W",
+    "POL 4525W",
+    "AMIN 4990",
+    "AMIN 5107",
+    "AMIN 5890",
+    "HIST 5890",
+    "AMIN 5920",
+    "ARTH 3655",
+    "AFRO 3655",
+    "ARTH 5655",
+    "CHLS 3212",
+    "GWSS 3212",
+    "CHLS 3216W",
+    "ARTH 3216W",
+    "CHLS 3221",
+    "CHLS 3223",
+    "CHLS 3352",
+    "CHLS 3374",
+    "CHLS 3375",
+    "CHLS 3444",
+    "HIST 3444",
+    "CHLS 3446",
+    "HIST 3446",
+    "AAS 1101",
+    "CHLS 3507W",
+    "ENGL 3507W",
+    "CHLS 3672",
+    "CHLS 3771",
+    "CHLS 3852",
+    "POL 3752",
+    "CHLS 3888",
+    "CHLS 3900",
+    "CHLS 4232",
+    "CHLS 4275",
+    "CHLS 4401",
+    "GWSS 4401",
+    "CHLS 5920",
+    "CHLS 5993",
+    "GEOG 3101",
+    "TH 5182W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-394622": {
+   "codes": [
+    "AMST 3113W",
+    "AMST 3253W",
+    "AMST 4962W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AAS 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Imagining Asian America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974601"
+   },
+   "sourceRef": "course-7974601"
+  },
+  "AAS 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Perspectives on Asian America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977871"
+   },
+   "sourceRef": "course-7977871"
+  },
+  "AAS 3211W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Race & Racism in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162561"
+   },
+   "sourceRef": "course-8162561"
+  },
+  "AAS 3251W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sociological Perspectives on Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8037101"
+   },
+   "sourceRef": "course-8037101"
+  },
+  "AAS 3271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Learning in the Asian American Community",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "AAS and CRES minors must register A-F."
+    },
+    "sourceRef": "course-7975221"
+   },
+   "sourceRef": "course-7975221"
+  },
+  "AAS 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian America Through Arts and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974621"
+   },
+   "sourceRef": "course-7974621"
+  },
+  "AAS 3341": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Images",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173241"
+   },
+   "sourceRef": "course-8173241"
+  },
+  "AAS 3351": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian Americans and Popular Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173251"
+   },
+   "sourceRef": "course-8173251"
+  },
+  "AAS 3361": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian Americans and Food",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181591"
+   },
+   "sourceRef": "course-8181591"
+  },
+  "AAS 3409W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Women's Cultural Production",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974611"
+   },
+   "sourceRef": "course-7974611"
+  },
+  "AAS 3483": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hmong History Across the Globe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8056041"
+   },
+   "sourceRef": "course-8056041"
+  },
+  "AAS 3486": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hmong Refugees from the Secret War:  Becoming Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106321"
+   },
+   "sourceRef": "course-8106321"
+  },
+  "AAS 3503": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Identities, Families, & Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106661"
+   },
+   "sourceRef": "course-8106661"
+  },
+  "AAS 3601W": {
+   "catalogTerm": "Fall 2026",
+   "title": "War and Empire: Asian American Perspectives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8179611"
+   },
+   "sourceRef": "course-8179611"
+  },
+  "AAS 3862": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Immigration History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8078221"
+   },
+   "sourceRef": "course-8078221"
+  },
+  "AAS 3875W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Race and Ethnicity in U.S. History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8047891"
+   },
+   "sourceRef": "course-8047891"
+  },
+  "AAS 3877": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American History, 1850 to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974631"
+   },
+   "sourceRef": "course-7974631"
+  },
+  "AAS 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974901"
+   },
+   "sourceRef": "course-7974901"
+  },
+  "AAS 4232": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Drama by Writers of Color",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8063391"
+   },
+   "sourceRef": "course-8063391"
+  },
+  "AAS 4311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Literature and Drama",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974531"
+   },
+   "sourceRef": "course-7974531"
+  },
+  "AFRO 1009": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Women in Africa: 1500 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975501"
+   },
+   "sourceRef": "course-7975501"
+  },
+  "AFRO 3006": {
+   "catalogTerm": "Fall 2026",
+   "title": "Impact of African Migrations in the Atlantic World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938361"
+   },
+   "sourceRef": "course-7938361"
+  },
+  "AFRO 3108": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Music: A History of Jazz",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023291"
+   },
+   "sourceRef": "course-0023291"
+  },
+  "AFRO 3112": {
+   "catalogTerm": "Fall 2026",
+   "title": "In the Heart of the Beat: the Poetry of Rap",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938391"
+   },
+   "sourceRef": "course-7938391"
+  },
+  "AFRO 3120": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social and Intellectual Movements in the African Diaspora",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7953421"
+   },
+   "sourceRef": "course-7953421"
+  },
+  "AFRO 3125W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Visions of Liberation: Ella, Martin, Malcolm, and the Radical Transformation of U.S. Democracy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8139971"
+   },
+   "sourceRef": "course-8139971"
+  },
+  "AFRO 3251W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sociological Perspectives on Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023391"
+   },
+   "sourceRef": "course-0023391"
+  },
+  "AFRO 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Music of Black Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023341"
+   },
+   "sourceRef": "course-0023341"
+  },
+  "AFRO 3402": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pleasure, Intimacy and Violence",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8155031"
+   },
+   "sourceRef": "course-8155031"
+  },
+  "AFRO 3426": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Americans, Social Policy, and the Welfare State",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7967681"
+   },
+   "sourceRef": "course-7967681"
+  },
+  "AFRO 3592W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Black Women Writers in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0050671"
+   },
+   "sourceRef": "course-0050671"
+  },
+  "AFRO 3593": {
+   "catalogTerm": "Fall 2026",
+   "title": "The African American Novel",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100731"
+   },
+   "sourceRef": "course-8100731"
+  },
+  "AFRO 3597W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to African American Literature and Culture I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7989041"
+   },
+   "sourceRef": "course-7989041"
+  },
+  "AFRO 3655": {
+   "catalogTerm": "Fall 2026",
+   "title": "African-American Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029561"
+   },
+   "sourceRef": "course-8029561"
+  },
+  "AFRO 3745": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Cultural Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8177401"
+   },
+   "sourceRef": "course-8177401"
+  },
+  "AFRO 3864": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American History: 1619 to 1865",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023371"
+   },
+   "sourceRef": "course-0023371"
+  },
+  "AFRO 3865": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American History: 1865 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023381"
+   },
+   "sourceRef": "course-0023381"
+  },
+  "AFRO 3866": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Civil Rights and Black Power Movement, 1954-1984",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938471"
+   },
+   "sourceRef": "course-7938471"
+  },
+  "AFRO 3867": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Men: Representations and Reality",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8177411"
+   },
+   "sourceRef": "course-8177411"
+  },
+  "AFRO 3868W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Race, War, and Race Wars in American History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977891"
+   },
+   "sourceRef": "course-7977891"
+  },
+  "AFRO 3910": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in African American and African Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 5,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023421"
+   },
+   "sourceRef": "course-0023421"
+  },
+  "AFRO 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0103391"
+   },
+   "sourceRef": "course-0103391"
+  },
+  "AFRO 4335": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173351"
+   },
+   "sourceRef": "course-8173351"
+  },
+  "AFRO 4406": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Feminist Thought",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8094291"
+   },
+   "sourceRef": "course-8094291"
+  },
+  "AFRO 5120": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social and Intellectual Movements in the African Diaspora",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-7953431"
+   },
+   "sourceRef": "course-7953431"
+  },
+  "AFRO 5406": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Feminist Thought",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8094301"
+   },
+   "sourceRef": "course-8094301"
+  },
+  "AFRO 5593": {
+   "catalogTerm": "Fall 2026",
+   "title": "The African American Novel",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023521"
+   },
+   "sourceRef": "course-0023521"
+  },
+  "AFRO 5627": {
+   "catalogTerm": "Fall 2026",
+   "title": "Seminar: Harlem Renaissance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-8100751"
+   },
+   "sourceRef": "course-8100751"
+  },
+  "AFRO 5866": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Civil Rights and Black Power Movement, 1954-1984",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7953481"
+   },
+   "sourceRef": "course-7953481"
+  },
+  "AFRO 5910": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in African American and African Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0050601"
+   },
+   "sourceRef": "course-0050601"
+  },
+  "AMIN 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164611"
+   },
+   "sourceRef": "course-8164611"
+  },
+  "AMIN 3141": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Language Planning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7914891"
+   },
+   "sourceRef": "course-7914891"
+  },
+  "AMIN 3201W": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0080581"
+   },
+   "sourceRef": "course-0080581"
+  },
+  "AMIN 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Philosophies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0098131"
+   },
+   "sourceRef": "course-0098131"
+  },
+  "AMIN 3303": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indians and Photography",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7890251"
+   },
+   "sourceRef": "course-7890251"
+  },
+  "AMIN 3304": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Filmmakers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8098511"
+   },
+   "sourceRef": "course-8098511"
+  },
+  "AMIN 3312": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Environmental Issues and Ecological Perspectives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8079501"
+   },
+   "sourceRef": "course-8079501"
+  },
+  "AMIN 3402": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indians and the Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7944121"
+   },
+   "sourceRef": "course-7944121"
+  },
+  "AMIN 3409": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Women of Turtle Island",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7894291"
+   },
+   "sourceRef": "course-7894291"
+  },
+  "AMIN 3602": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology and Native Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101861"
+   },
+   "sourceRef": "course-8101861"
+  },
+  "AMIN 3604": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Immersion Methods for the Home, Classroom, and Community",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8146491"
+   },
+   "sourceRef": "course-8146491"
+  },
+  "AMIN 3711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dakota Culture and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0101961"
+   },
+   "sourceRef": "course-0101961"
+  },
+  "AMIN 3871": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: Pre-Contact to 1830",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922841"
+   },
+   "sourceRef": "course-7922841"
+  },
+  "AMIN 3872": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: 1830 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922831"
+   },
+   "sourceRef": "course-7922831"
+  },
+  "AMIN 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans, & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971341"
+   },
+   "sourceRef": "course-7971341"
+  },
+  "AMIN 4501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Law, Sovereignty, and Treaty Rights",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0102801"
+   },
+   "sourceRef": "course-0102801"
+  },
+  "AMIN 4511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Political Economies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0086441"
+   },
+   "sourceRef": "course-0086441"
+  },
+  "AMIN 4525W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Federal Indian Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889791"
+   },
+   "sourceRef": "course-7889791"
+  },
+  "AMIN 4990": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in American Indian Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0102841"
+   },
+   "sourceRef": "course-0102841"
+  },
+  "AMIN 5107": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Structure of Anishinaabemowin: The Ojibwe Language",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922111"
+   },
+   "sourceRef": "course-7922111"
+  },
+  "AMIN 5141": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Language Planning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3103 or 3123 or instr consent"
+    },
+    "sourceRef": "course-7922211"
+   },
+   "sourceRef": "course-7922211"
+  },
+  "AMIN 5402": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indians and the Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7950341"
+   },
+   "sourceRef": "course-7950341"
+  },
+  "AMIN 5409": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Women of Turtle Island",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7942781"
+   },
+   "sourceRef": "course-7942781"
+  },
+  "AMIN 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178301"
+   },
+   "sourceRef": "course-8178301"
+  },
+  "AMIN 5602": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology and Native Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8189721"
+   },
+   "sourceRef": "course-8189721"
+  },
+  "AMIN 5890": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in American Indian and Indigenous History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Advanced undergrad with instr consent or grad student"
+    },
+    "sourceRef": "course-7970711"
+   },
+   "sourceRef": "course-7970711"
+  },
+  "AMIN 5920": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in American Indian Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7887291"
+   },
+   "sourceRef": "course-7887291"
+  },
+  "AMST 1012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Migrants, Refugees, Citizens, and Exiles: The U.S. on an Immigrant Planet",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7996311"
+   },
+   "sourceRef": "course-7996311"
+  },
+  "AMST 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Imagining Asian America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266001"
+   },
+   "sourceRef": "course-8266001"
+  },
+  "AMST 1401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Genders and Sexualities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7919791"
+   },
+   "sourceRef": "course-7919791"
+  },
+  "AMST 1511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Americans Abroad:  Rethinking Travel, Culture, & Empire",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8154251"
+   },
+   "sourceRef": "course-8154251"
+  },
+  "AMST 2011": {
+   "catalogTerm": "Fall 2026",
+   "title": "The United States since September 11",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7987311"
+   },
+   "sourceRef": "course-7987311"
+  },
+  "AMST 2031": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chasing the American Dream: Economic Opportunity & Inequality in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8154461"
+   },
+   "sourceRef": "course-8154461"
+  },
+  "AMST 2041": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Politics of Pandemics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251031"
+   },
+   "sourceRef": "course-8251031"
+  },
+  "AMST 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Perspectives on Asian America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7912791"
+   },
+   "sourceRef": "course-7912791"
+  },
+  "AMST 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976781"
+   },
+   "sourceRef": "course-7976781"
+  },
+  "AMST 3112": {
+   "catalogTerm": "Fall 2026",
+   "title": "Prince, Porn, and Public Space: The Cultural Politics of the Twin Cities in the 1980s",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170291"
+   },
+   "sourceRef": "course-8170291"
+  },
+  "AMST 3113W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global Minnesota: Diversity in the 21st Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093171"
+   },
+   "sourceRef": "course-0093171"
+  },
+  "AMST 3114": {
+   "catalogTerm": "Fall 2026",
+   "title": "America in International Perspective",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0084691"
+   },
+   "sourceRef": "course-0084691"
+  },
+  "AMST 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dissident Sexualities in U.S. History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976791"
+   },
+   "sourceRef": "course-7976791"
+  },
+  "AMST 3214": {
+   "catalogTerm": "Fall 2026",
+   "title": "Queer Kinship: Undoing the American Family",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253301"
+   },
+   "sourceRef": "course-8253301"
+  },
+  "AMST 3253W": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Popular Culture and Politics: 1940 to the Present",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0092251"
+   },
+   "sourceRef": "course-0092251"
+  },
+  "AMST 3361": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian Americans and Food",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8182981"
+   },
+   "sourceRef": "course-8182981"
+  },
+  "AMST 3409W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Women's Cultural Production",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271851"
+   },
+   "sourceRef": "course-8271851"
+  },
+  "AMST 3661": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Americans in Germany",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271571"
+   },
+   "sourceRef": "course-8271571"
+  },
+  "AMST 3814": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women, Rage, and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253491"
+   },
+   "sourceRef": "course-8253491"
+  },
+  "AMST 3896": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship for Academic Credit",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8185501"
+   },
+   "sourceRef": "course-8185501"
+  },
+  "AMST 3920": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in American Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093831"
+   },
+   "sourceRef": "course-0093831"
+  },
+  "AMST 3993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 9,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0135851"
+   },
+   "sourceRef": "course-0135851"
+  },
+  "AMST 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender, Sexuality, and Politics in America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0091021"
+   },
+   "sourceRef": "course-0091021"
+  },
+  "AMST 4962W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Proseminar in American Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "AmSt sr or instr consent"
+    },
+    "sourceRef": "course-0100071"
+   },
+   "sourceRef": "course-0100071"
+  },
+  "AMST 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178311"
+   },
+   "sourceRef": "course-8178311"
+  },
+  "ANTH 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Imagining Asian America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8169321"
+   },
+   "sourceRef": "course-8169321"
+  },
+  "ANTH 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology and Native Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087371"
+   },
+   "sourceRef": "course-0087371"
+  },
+  "ANTH 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178321"
+   },
+   "sourceRef": "course-8178321"
+  },
+  "ANTH 5601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology and Native Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101221"
+   },
+   "sourceRef": "course-8101221"
+  },
+  "ARTH 3216W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Power of Chicana/o/x Art: 1960s to the present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171281"
+   },
+   "sourceRef": "course-8171281"
+  },
+  "ARTH 3655": {
+   "catalogTerm": "Fall 2026",
+   "title": "African-American Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018811"
+   },
+   "sourceRef": "course-8018811"
+  },
+  "ARTH 5655": {
+   "catalogTerm": "Fall 2026",
+   "title": "African-American Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7920391"
+   },
+   "sourceRef": "course-7920391"
+  },
+  "CHLS 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chicana Feminism: La Chicana in Contemporary Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971821"
+   },
+   "sourceRef": "course-7971821"
+  },
+  "CHLS 3216W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Power of Chicana/o/x Art: 1960s to the present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171061"
+   },
+   "sourceRef": "course-8171061"
+  },
+  "CHLS 3221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chicana/o Cultural Studies: Barrio Culture and the Aesthetics of Everyday Life",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975511"
+   },
+   "sourceRef": "course-7975511"
+  },
+  "CHLS 3223": {
+   "catalogTerm": "Fall 2026",
+   "title": "Latin Lovers, Vatos Locos and Spicy Latinas: Chicano Film Representation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7982211"
+   },
+   "sourceRef": "course-7982211"
+  },
+  "CHLS 3352": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Southern Border: Boundary Policing and World-making",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976861"
+   },
+   "sourceRef": "course-7976861"
+  },
+  "CHLS 3374": {
+   "catalogTerm": "Fall 2026",
+   "title": "Si Se Puede! Migrant Farmworkers: Historical Struggles and Current Crusades",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975521"
+   },
+   "sourceRef": "course-7975521"
+  },
+  "CHLS 3375": {
+   "catalogTerm": "Fall 2026",
+   "title": "Folklore of Greater Mexico",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0031181"
+   },
+   "sourceRef": "course-0031181"
+  },
+  "CHLS 3412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172051"
+   },
+   "sourceRef": "course-8172051"
+  },
+  "CHLS 3444": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chicana and Chicano History I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0031211"
+   },
+   "sourceRef": "course-0031211"
+  },
+  "CHLS 3446": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chicana and Chicano History II: WWII, El Movimiento, and the New Millennium",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7982081"
+   },
+   "sourceRef": "course-7982081"
+  },
+  "CHLS 3507W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Identity, Displacement, Resistance in Chicano Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0031231"
+   },
+   "sourceRef": "course-0031231"
+  },
+  "CHLS 3672": {
+   "catalogTerm": "Fall 2026",
+   "title": "Latinos in Da House: Midwest Latino Experience",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7982221"
+   },
+   "sourceRef": "course-7982221"
+  },
+  "CHLS 3771": {
+   "catalogTerm": "Fall 2026",
+   "title": "Latina/o/x Social Movements",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7998891"
+   },
+   "sourceRef": "course-7998891"
+  },
+  "CHLS 3852": {
+   "catalogTerm": "Fall 2026",
+   "title": "Radicals, Moderates, and Vendidos: Chicano/a Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975291"
+   },
+   "sourceRef": "course-7975291"
+  },
+  "CHLS 3862": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Immigration History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8078021"
+   },
+   "sourceRef": "course-8078021"
+  },
+  "CHLS 3888": {
+   "catalogTerm": "Fall 2026",
+   "title": "Abajo Con La Migra: Immigration and the Latino/a Experience",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8085161"
+   },
+   "sourceRef": "course-8085161"
+  },
+  "CHLS 3900": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Chicano Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7951131"
+   },
+   "sourceRef": "course-7951131"
+  },
+  "CHLS 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971351"
+   },
+   "sourceRef": "course-7971351"
+  },
+  "CHLS 4232": {
+   "catalogTerm": "Fall 2026",
+   "title": "Bodies, Borders, and Belonging: Latina/x Gender & Sexuality Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976881"
+   },
+   "sourceRef": "course-7976881"
+  },
+  "CHLS 4275": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory in Action: Community Engagement in a Social Justice Framework",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976891"
+   },
+   "sourceRef": "course-7976891"
+  },
+  "CHLS 4401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chicana/Latina Cultural Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922711"
+   },
+   "sourceRef": "course-7922711"
+  },
+  "CHLS 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176031"
+   },
+   "sourceRef": "course-8176031"
+  },
+  "CHLS 5920": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Chicana(o) Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0031281"
+   },
+   "sourceRef": "course-0031281"
+  },
+  "CHLS 5993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0031291"
+   },
+   "sourceRef": "course-0031291"
+  },
+  "COMM 3341": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Images",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8174791"
+   },
+   "sourceRef": "course-8174791"
+  },
+  "COMM 3351": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian Americans and Popular Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178341"
+   },
+   "sourceRef": "course-8178341"
+  },
+  "ENGL 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian America through Arts and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8074311"
+   },
+   "sourceRef": "course-8074311"
+  },
+  "ENGL 3507W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Identity, Displacement, Resistance in Chicano Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8064591"
+   },
+   "sourceRef": "course-8064591"
+  },
+  "ENGL 3592W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Black Women Writers in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7896081"
+   },
+   "sourceRef": "course-7896081"
+  },
+  "ENGL 3593": {
+   "catalogTerm": "Fall 2026",
+   "title": "The African American Novel",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162961"
+   },
+   "sourceRef": "course-8162961"
+  },
+  "ENGL 3597W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to African American Literature and Culture I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7989011"
+   },
+   "sourceRef": "course-7989011"
+  },
+  "ENGL 3598W": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American Literature & Culture: Harlem Renaissance-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7999111"
+   },
+   "sourceRef": "course-7999111"
+  },
+  "ENGL 4232": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Drama by Writers of Color",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7936951"
+   },
+   "sourceRef": "course-7936951"
+  },
+  "ENGL 4311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Literature and Drama",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938251"
+   },
+   "sourceRef": "course-7938251"
+  },
+  "ENGL 5593": {
+   "catalogTerm": "Fall 2026",
+   "title": "The African-American Novel",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7912781"
+   },
+   "sourceRef": "course-7912781"
+  },
+  "GEOG 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geography of the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0034551"
+   },
+   "sourceRef": "course-0034551"
+  },
+  "GER 3661": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Americans in Germany",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8263481"
+   },
+   "sourceRef": "course-8263481"
+  },
+  "GLBT 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dissident Sexualities in U.S. History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8024521"
+   },
+   "sourceRef": "course-8024521"
+  },
+  "GLBT 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender, Sexuality, and Politics in America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8022791"
+   },
+   "sourceRef": "course-8022791"
+  },
+  "GWSS 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chicana Feminism: La Chicana in Contemporary Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8185831"
+   },
+   "sourceRef": "course-8185831"
+  },
+  "GWSS 3402": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pleasure, Intimacy and Violence",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8116841"
+   },
+   "sourceRef": "course-8116841"
+  },
+  "GWSS 3409W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Women's Cultural Production",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0161851"
+   },
+   "sourceRef": "course-0161851"
+  },
+  "GWSS 3515": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178331"
+   },
+   "sourceRef": "course-8178331"
+  },
+  "GWSS 4401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chicana/Latina Cultural Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0071291"
+   },
+   "sourceRef": "course-0071291"
+  },
+  "GWSS 4406": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Feminist Thought in the American and African Diasporas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8093611"
+   },
+   "sourceRef": "course-8093611"
+  },
+  "GWSS 5406": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Feminist Thought in the American and African Diasporas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8093671"
+   },
+   "sourceRef": "course-8093671"
+  },
+  "HIST 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7933701"
+   },
+   "sourceRef": "course-7933701"
+  },
+  "HIST 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dissident Sexualities in U.S. History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7933711"
+   },
+   "sourceRef": "course-7933711"
+  },
+  "HIST 3444": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chicana and Chicano History I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7990871"
+   },
+   "sourceRef": "course-7990871"
+  },
+  "HIST 3446": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chicana and Chicano History II: WWII, El Movimiento, and the New Millennium",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8107791"
+   },
+   "sourceRef": "course-8107791"
+  },
+  "HIST 3456": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social and Intellectual Movements in the African Diaspora",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101621"
+   },
+   "sourceRef": "course-8101621"
+  },
+  "HIST 3483": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hmong History Across the Globe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018931"
+   },
+   "sourceRef": "course-8018931"
+  },
+  "HIST 3486": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hmong Refugees from the Secret War:  Becoming Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097261"
+   },
+   "sourceRef": "course-8097261"
+  },
+  "HIST 3856": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Civil Rights and Black Power Movement, 1954-1984",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101031"
+   },
+   "sourceRef": "course-8101031"
+  },
+  "HIST 3859": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Americans in Germany",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271841"
+   },
+   "sourceRef": "course-8271841"
+  },
+  "HIST 3862": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Immigration History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0043441"
+   },
+   "sourceRef": "course-0043441"
+  },
+  "HIST 3864": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American History: 1619-1865",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0164171"
+   },
+   "sourceRef": "course-0164171"
+  },
+  "HIST 3865": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American History, 1865 to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0164141"
+   },
+   "sourceRef": "course-0164141"
+  },
+  "HIST 3868W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Race, War, and Race Wars in American History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975531"
+   },
+   "sourceRef": "course-7975531"
+  },
+  "HIST 3871": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: Pre-Contact to 1830",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0073331"
+   },
+   "sourceRef": "course-0073331"
+  },
+  "HIST 3872": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: 1830 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0072931"
+   },
+   "sourceRef": "course-0072931"
+  },
+  "HIST 3875W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Race and Ethnicity in US History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0161271"
+   },
+   "sourceRef": "course-0161271"
+  },
+  "HIST 3877": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American History, 1850-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0161291"
+   },
+   "sourceRef": "course-0161291"
+  },
+  "HIST 5890": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in American Indian and Indigenous History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Advanced undergrad with instr consent or grad student"
+    },
+    "sourceRef": "course-0078121"
+   },
+   "sourceRef": "course-0078121"
+  },
+  "MUS 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Music of Black Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8258761"
+   },
+   "sourceRef": "course-8258761"
+  },
+  "POL 3701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Tribal Governments and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7897911"
+   },
+   "sourceRef": "course-7897911"
+  },
+  "POL 3752": {
+   "catalogTerm": "Fall 2026",
+   "title": "Radicals, Moderates, and Vendidos: Chicano/a Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7988971"
+   },
+   "sourceRef": "course-7988971"
+  },
+  "POL 4335": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173371"
+   },
+   "sourceRef": "course-8173371"
+  },
+  "POL 4525W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Federal Indian Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7898391"
+   },
+   "sourceRef": "course-7898391"
+  },
+  "RELS 3321": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Philosophies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029251"
+   },
+   "sourceRef": "course-8029251"
+  },
+  "SOC 3211W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Race and Racism in the US",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0031051"
+   },
+   "sourceRef": "course-0031051"
+  },
+  "SOC 3251W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sociological Perspectives on Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7920451"
+   },
+   "sourceRef": "course-7920451"
+  },
+  "SOC 3503": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Identities, Families & Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SOC 1001 recommended, Sociology majors/minors must register A/F"
+    },
+    "sourceRef": "course-8097721"
+   },
+   "sourceRef": "course-8097721"
+  },
+  "SOC 3503H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Asian American Identities, Families & Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[SOC 1001] recommended, honors"
+    },
+    "sourceRef": "course-8115991"
+   },
+   "sourceRef": "course-8115991"
+  },
+  "TH 5182W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Black Drama and Dramaturgies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101061"
+   },
+   "sourceRef": "course-8101061"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-AxJccy9B",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-DtrjWqqj",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-RpN1T1c4",
+      "type": "course",
+      "code": "AMST 2031",
+      "sourceRef": "program",
+      "label": "Introductory Course"
+     },
+     {
+      "id": "r-cCaimCll",
+      "type": "credits",
+      "courseSet": "set-cCaimCll",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Other Preparatory Courses"
+     }
+    ],
+    "label": "Foundation Courses"
+   }
+  },
+  {
+   "id": "g-ECci50Hz",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-PFWBzRX0",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-AohCtiyH",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-AohCtiyH-credits",
+        "type": "credits",
+        "courseSet": "set-AohCtiyH",
+        "minCredits": 12,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-AohCtiyH-min",
+        "type": "count",
+        "courseSet": "set-AohCtiyH",
+        "minCourses": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-AohCtiyH-max",
+        "type": "count",
+        "courseSet": "set-AohCtiyH",
+        "maxCourses": 7,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "American Studies Electives"
+     },
+     {
+      "id": "r-qVHvybq9",
+      "type": "count",
+      "courseSet": "set-qVHvybq9",
+      "maxCourses": 3,
+      "sourceRef": "program",
+      "label": "Other Electives"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-AKtMKK7I",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-jNk8vfXe",
+    "type": "course",
+    "code": "AMST 4962W",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-005620217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-394622",
+    "type": "count",
+    "courseSet": "set-394622",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the American Studies is AMST.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (AMST 3896, CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 12 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn a BA or a minor in American Studies, but not both. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

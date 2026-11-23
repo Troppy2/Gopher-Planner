@@ -1,0 +1,842 @@
+{
+ "schemaVersion": 2,
+ "id": "linguistics-ba",
+ "name": "Linguistics B.A.",
+ "officialName": "Linguistics B.A.",
+ "officialProgramId": "050420217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Linguistics B.A., revision 050420217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/050420217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/050420217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 050420217-2026-09-08"
+  },
+  "course-0104501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104501",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 3001, version 0104501-2023-05-15"
+  },
+  "course-0135711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0135711",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 3001H, version 0135711-2018-01-16"
+  },
+  "course-0162631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0162631",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5001, version 0162631-2024-05-13"
+  },
+  "course-8024581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8024581",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 4201, version 8024581-2015-01-20"
+  },
+  "course-0104541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104541",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5201, version 0104541-2026-09-08"
+  },
+  "course-8069771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069771",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 4202, version 8069771-2015-01-20"
+  },
+  "course-8071191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8071191",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 4303, version 8071191-2015-01-20"
+  },
+  "course-0104561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104561",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5202, version 0104561-2018-01-16"
+  },
+  "course-0104711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104711",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5303, version 0104711-2026-09-08"
+  },
+  "course-8024591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8024591",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 4302W, version 8024591-2015-01-20"
+  },
+  "course-0104691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104691",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5302, version 0104691-2026-09-08"
+  },
+  "course-0104581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104581",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5205, version 0104581-2015-01-20"
+  },
+  "course-0135721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0135721",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 3093, version 0135721-2022-09-06"
+  },
+  "course-0104631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104631",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 3101W, version 0104631-2026-09-08"
+  },
+  "course-8278671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278671",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 3105, version 8278671-2026-01-20"
+  },
+  "course-0133061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133061",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 3601, version 0133061-2015-01-20"
+  },
+  "course-7939971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939971",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5601, version 7939971-2015-01-20"
+  },
+  "course-8176711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176711",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 3900, version 8176711-2026-09-08"
+  },
+  "course-0104601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104601",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5105, version 0104601-2020-09-08"
+  },
+  "course-0104611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104611",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5106, version 0104611-2015-01-20"
+  },
+  "course-0110831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0110831",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5206, version 0110831-2015-01-20"
+  },
+  "course-8197501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197501",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5207, version 8197501-2024-01-16"
+  },
+  "course-7921571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7921571",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5461, version 7921571-2026-09-08"
+  },
+  "course-7921581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7921581",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5462, version 7921581-2015-01-20"
+  },
+  "course-8281071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8281071",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5731, version 8281071-2026-01-20"
+  },
+  "course-0112441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0112441",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5801, version 0112441-2015-01-20"
+  },
+  "course-0112471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0112471",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5900, version 0112471-2026-09-08"
+  },
+  "course-0112491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0112491",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 5993, version 0112491-2015-01-20"
+  },
+  "course-0087171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087171",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3005W, version 0087171-2024-09-03"
+  },
+  "course-0112501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0112501",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 4901W, version 0112501-2018-09-04"
+  },
+  "course-0135731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0135731",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 3052V, version 0135731-2023-01-17"
+  }
+ },
+ "courseSets": {
+  "set-0wFl7SwL": {
+   "codes": [
+    "LING 3001",
+    "LING 3001H",
+    "LING 5001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qaehe4se": {
+   "codes": [
+    "LING 4201",
+    "LING 5201",
+    "LING 4202",
+    "LING 4303",
+    "LING 5202",
+    "LING 5303",
+    "LING 4302W",
+    "LING 5302",
+    "LING 5205"
+   ],
+   "sourceRef": "program"
+  },
+  "set-0OJhSKgP": {
+   "codes": [
+    "LING 3093",
+    "LING 3101W",
+    "LING 3105",
+    "LING 3601",
+    "LING 5601",
+    "LING 3900",
+    "LING 4202",
+    "LING 5202",
+    "LING 4303",
+    "LING 5303",
+    "LING 5105",
+    "LING 5106",
+    "LING 5206",
+    "LING 5207",
+    "LING 5461",
+    "LING 5462",
+    "LING 5731",
+    "LING 5801",
+    "LING 5900",
+    "LING 5993"
+   ],
+   "sourceRef": "program"
+  },
+  "set-417318": {
+   "codes": [
+    "ANTH 3005W",
+    "LING 3052V",
+    "LING 3101W",
+    "LING 4302W",
+    "LING 4901W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ANTH 3005W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Language, Culture, and Power",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087171"
+   },
+   "sourceRef": "course-0087171"
+  },
+  "LING 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Linguistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0104501"
+   },
+   "sourceRef": "course-0104501"
+  },
+  "LING 3001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Introduction to Linguistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student or instr consent"
+    },
+    "sourceRef": "course-0135711"
+   },
+   "sourceRef": "course-0135711"
+  },
+  "LING 3052V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Thesis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0135731"
+   },
+   "sourceRef": "course-0135731"
+  },
+  "LING 3093": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies Honors Thesis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Linguistics honors candidate, instr consent."
+    },
+    "sourceRef": "course-0135721"
+   },
+   "sourceRef": "course-0135721"
+  },
+  "LING 3101W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Languages of the World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0104631"
+   },
+   "sourceRef": "course-0104631"
+  },
+  "LING 3105": {
+   "catalogTerm": "Fall 2026",
+   "title": "Language and Computers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278671"
+   },
+   "sourceRef": "course-8278671"
+  },
+  "LING 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Historical Linguistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001 or instr consent"
+    },
+    "sourceRef": "course-0133061"
+   },
+   "sourceRef": "course-0133061"
+  },
+  "LING 3900": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Linguistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176711"
+   },
+   "sourceRef": "course-8176711"
+  },
+  "LING 4201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Syntax I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001 or 3001H or 5001 or instr consent"
+    },
+    "sourceRef": "course-8024581"
+   },
+   "sourceRef": "course-8024581"
+  },
+  "LING 4202": {
+   "catalogTerm": "Fall 2026",
+   "title": "Syntax II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4201 or 5201"
+    },
+    "sourceRef": "course-8069771"
+   },
+   "sourceRef": "course-8069771"
+  },
+  "LING 4302W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Phonology I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001 or 3001H or 5001 or instr consent"
+    },
+    "sourceRef": "course-8024591"
+   },
+   "sourceRef": "course-8024591"
+  },
+  "LING 4303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Phonology II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "LING 4302W"
+    },
+    "sourceRef": "course-8071191"
+   },
+   "sourceRef": "course-8071191"
+  },
+  "LING 4901W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Seminar in Linguistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Ling major, [jr or sr]"
+    },
+    "sourceRef": "course-0112501"
+   },
+   "sourceRef": "course-0112501"
+  },
+  "LING 5001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Linguistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0162631"
+   },
+   "sourceRef": "course-0162631"
+  },
+  "LING 5105": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Methods in Linguistics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[4201 or 5201], [4302W or 5302]] or instr consent"
+    },
+    "sourceRef": "course-0104601"
+   },
+   "sourceRef": "course-0104601"
+  },
+  "LING 5106": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Methods in Linguistics II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[5105, grad major] or instr consent"
+    },
+    "sourceRef": "course-0104611"
+   },
+   "sourceRef": "course-0104611"
+  },
+  "LING 5201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Syntactic Theory I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0104541"
+   },
+   "sourceRef": "course-0104541"
+  },
+  "LING 5202": {
+   "catalogTerm": "Fall 2026",
+   "title": "Syntactic Theory II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5201 or instructor consent. LING 5201 is directed towards honors students and graduate students."
+    },
+    "sourceRef": "course-0104561"
+   },
+   "sourceRef": "course-0104561"
+  },
+  "LING 5205": {
+   "catalogTerm": "Fall 2026",
+   "title": "Semantics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[4201 or 5201] or instr consent"
+    },
+    "sourceRef": "course-0104581"
+   },
+   "sourceRef": "course-0104581"
+  },
+  "LING 5206": {
+   "catalogTerm": "Fall 2026",
+   "title": "Linguistic Pragmatics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[4201 or 5201] or instr consent"
+    },
+    "sourceRef": "course-0110831"
+   },
+   "sourceRef": "course-0110831"
+  },
+  "LING 5207": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Semantics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "LING 5205 - Semantics I"
+    },
+    "sourceRef": "course-8197501"
+   },
+   "sourceRef": "course-8197501"
+  },
+  "LING 5302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Phonological Theory I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0104691"
+   },
+   "sourceRef": "course-0104691"
+  },
+  "LING 5303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Phonological Theory II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0104711"
+   },
+   "sourceRef": "course-0104711"
+  },
+  "LING 5461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Conversation Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7921571"
+   },
+   "sourceRef": "course-7921571"
+  },
+  "LING 5462": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Research in Spoken Language",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001 or 3001H or 5001 or instr consent"
+    },
+    "sourceRef": "course-7921581"
+   },
+   "sourceRef": "course-7921581"
+  },
+  "LING 5601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Historical Linguistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001 or 3011H or 5001"
+    },
+    "sourceRef": "course-7939971"
+   },
+   "sourceRef": "course-7939971"
+  },
+  "LING 5731": {
+   "catalogTerm": "Fall 2026",
+   "title": "Variationist Sociolinguistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8281071"
+   },
+   "sourceRef": "course-8281071"
+  },
+  "LING 5801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computational Linguistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[4201 or 5201] or programming experience or instr consent"
+    },
+    "sourceRef": "course-0112441"
+   },
+   "sourceRef": "course-0112441"
+  },
+  "LING 5900": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Linguistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0112471"
+   },
+   "sourceRef": "course-0112471"
+  },
+  "LING 5993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0112491"
+   },
+   "sourceRef": "course-0112491"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-Y0YhxhYR",
+   "label": "Foundation Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-0wFl7SwL",
+    "type": "credits",
+    "courseSet": "set-0wFl7SwL",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Foundation Course"
+   }
+  },
+  {
+   "id": "g-hYZ95SGT",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-qaehe4se",
+    "type": "credits",
+    "courseSet": "set-qaehe4se",
+    "minCredits": 12,
+    "sourceRef": "program",
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-llbYztdE",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-7ynyIZbS",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-BsU73u8t",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Lower-division linguistics courses: courses from this list count for at most 4 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Lower-division linguistics courses"
+     },
+     {
+      "id": "r-0OJhSKgP",
+      "type": "credits",
+      "courseSet": "set-0OJhSKgP",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Upper-division linguistics courses"
+     },
+     {
+      "id": "r-law2Ifni",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Other Electives: courses from this list count for at most 6 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Other Electives"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-aAkDtjIN",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-0FY4rlK8",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-hyGBV2u1",
+      "type": "course",
+      "code": "LING 4901W",
+      "sourceRef": "program",
+      "label": "Capstone Seminar"
+     },
+     {
+      "id": "r-ICzSn34v",
+      "type": "course",
+      "code": "LING 3052V",
+      "sourceRef": "program",
+      "label": "Honors Thesis"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-050420217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-417318",
+    "type": "count",
+    "courseSet": "set-417318",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the The major designator for the Linguistics BA is LING.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 15 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn a BA or a minor in linguistics, but not both. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

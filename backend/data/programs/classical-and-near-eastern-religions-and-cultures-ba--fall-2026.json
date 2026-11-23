@@ -1,0 +1,374 @@
+{
+ "schemaVersion": 2,
+ "id": "classical-and-near-eastern-religions-and-cultures-ba",
+ "name": "Classical and Near Eastern Religions and Cultures B.A.",
+ "officialName": "Classical and Near Eastern Religions and Cultures B.A.",
+ "officialProgramId": "230720217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Classical and Near Eastern Religions and Cultures B.A., revision 230720217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/230720217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/230720217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 230720217-2026-09-08"
+  },
+  "course-8256781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256781",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3994, version 8256781-2022-01-18"
+  },
+  "course-8197011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197011",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3016W, version 8197011-2025-01-21"
+  },
+  "course-0165131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165131",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3013W, version 0165131-2025-01-21"
+  },
+  "course-0165141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165141",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 5013W, version 0165141-2025-01-21"
+  },
+  "course-0163861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0163861",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3013W, version 0163861-2024-09-03"
+  },
+  "course-0163871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0163871",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 5013W, version 0163871-2024-09-03"
+  },
+  "course-8267301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8267301",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3018W, version 8267301-2024-01-16"
+  },
+  "course-7967861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7967861",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3081W, version 7967861-2022-01-18"
+  },
+  "course-7989911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989911",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3082W, version 7989911-2022-01-18"
+  },
+  "course-8270811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8270811",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3207W, version 8270811-2024-09-03"
+  },
+  "course-8270891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8270891",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 5207W, version 8270891-2024-09-03"
+  },
+  "course-0108011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0108011",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3502W, version 0108011-2026-01-20"
+  },
+  "course-7889321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889321",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 5502W, version 7889321-2026-01-20"
+  },
+  "course-7907941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7907941",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3502W, version 7907941-2026-01-20"
+  },
+  "course-8063011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8063011",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3502W, version 8063011-2026-01-20"
+  },
+  "course-7907931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7907931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3502W, version 7907931-2026-01-20"
+  }
+ },
+ "courseSets": {
+  "set-423158": {
+   "codes": [
+    "CNRC 3016W",
+    "JWST 3013W",
+    "JWST 5013W",
+    "RELS 3013W",
+    "RELS 5013W",
+    "CNRC 3018W",
+    "CNRC 3081W",
+    "CNRC 3082W",
+    "CNRC 3207W",
+    "CNRC 5207W",
+    "CNRC 3502W",
+    "CNRC 5502W",
+    "RELS 3502W",
+    "JWST 3502W",
+    "HIST 3502W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "CNRC 3016W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197011"
+   },
+   "sourceRef": "course-8197011"
+  },
+  "CNRC 3018W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Ethics from Plato to Stoicism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8267301"
+   },
+   "sourceRef": "course-8267301"
+  },
+  "CNRC 3081W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Classical Epic in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7967861"
+   },
+   "sourceRef": "course-7967861"
+  },
+  "CNRC 3082W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Greek Tragedy in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7989911"
+   },
+   "sourceRef": "course-7989911"
+  },
+  "CNRC 3207W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Race and Ethnicity in Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8270811"
+   },
+   "sourceRef": "course-8270811"
+  },
+  "CNRC 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0108011"
+   },
+   "sourceRef": "course-0108011"
+  },
+  "CNRC 3994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research: Capstone",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Course is open to second semester juniors and seniors, major in CNRC, or RelS"
+    },
+    "sourceRef": "course-8256781"
+   },
+   "sourceRef": "course-8256781"
+  },
+  "CNRC 5207W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Race and Ethnicity in Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8270891"
+   },
+   "sourceRef": "course-8270891"
+  },
+  "CNRC 5502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889321"
+   },
+   "sourceRef": "course-7889321"
+  },
+  "HIST 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7907931"
+   },
+   "sourceRef": "course-7907931"
+  },
+  "JWST 3013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0165131"
+   },
+   "sourceRef": "course-0165131"
+  },
+  "JWST 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8063011"
+   },
+   "sourceRef": "course-8063011"
+  },
+  "JWST 5013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0165141"
+   },
+   "sourceRef": "course-0165141"
+  },
+  "RELS 3013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0163861"
+   },
+   "sourceRef": "course-0163861"
+  },
+  "RELS 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7907941"
+   },
+   "sourceRef": "course-7907941"
+  },
+  "RELS 5013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0163871"
+   },
+   "sourceRef": "course-0163871"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-KBiLNA4H",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-HPiCsTFs",
+    "type": "course",
+    "code": "CNRC 3994",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-230720217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-423158",
+    "type": "count",
+    "courseSet": "set-423158",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Classical and Near Eastern Religions and Culture BA is CNRC.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or JWST 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 18 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn a BA in Classical and Near Eastern Religions and Cultures or a minor in Classical and Near Eastern Religions and Cultures, but not both. Students may earn a BA (Latin) in Classical and Near Eastern Religions and Cultures or a minor in Latin, but not both. Students may earn a BA (Modern Hebrew) in Classical and Near Eastern Religions and Cultures or a minor in Hebrew, but not both.\nView sample plans for this program here: https://sampleplan.umn.edu/node/381 Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Classical and Near Eastern Religions and Cultures, Greek, Latin, Modern Hebrew. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

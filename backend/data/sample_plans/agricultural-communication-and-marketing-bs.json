@@ -1,0 +1,252 @@
+{
+  "programId": "agricultural-communication-and-marketing-bs",
+  "plan": "Agricultural Communication and Marketing B.S.",
+  "source": "https://sampleplan.umn.edu/twin-cities/agricultural-communication-and-marketing-bs",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 1001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "MATH 1031"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "WRIT 1301"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 2421W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "APEC 1101"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "choice",
+          "codes": [
+            "AGRO 1101"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 3431"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 2096"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 3452"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 3434"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 3462"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 3444"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "APEC 1251"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "CFAN 3096"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 4451W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "MKTG 3001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 4432"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 4444"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "AGRO 3305"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "WRIT 3562W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "APEC 3451"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    }
+  ]
+}

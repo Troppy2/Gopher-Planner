@@ -1,0 +1,2409 @@
+{
+ "schemaVersion": 2,
+ "id": "dance-bfa",
+ "name": "Dance B.F.A.",
+ "officialName": "Dance B.F.A.",
+ "officialProgramId": "022320917",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Dance B.F.A., revision 022320917-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/022320917, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/022320917",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 022320917-2026-09-08"
+  },
+  "course-0090991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090991",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3601, version 0090991-2018-09-04"
+  },
+  "course-0091011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091011",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3602, version 0091011-2018-09-04"
+  },
+  "course-0093161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093161",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 4601, version 0093161-2018-09-04"
+  },
+  "course-0093191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093191",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 4602, version 0093191-2018-09-04"
+  },
+  "course-7911031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7911031",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5601, version 7911031-2018-09-04"
+  },
+  "course-0093851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093851",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1626, version 0093851-2015-01-20"
+  },
+  "course-0160831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160831",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3401W, version 0160831-2010-09-07"
+  },
+  "course-0160841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160841",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3402W, version 0160841-2015-01-20"
+  },
+  "course-0093621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093621",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3433, version 0093621-2015-01-20"
+  },
+  "course-7911001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7911001",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3621, version 7911001-2015-01-20"
+  },
+  "course-7911011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7911011",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3622, version 7911011-2015-01-20"
+  },
+  "course-7911021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7911021",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3901, version 7911021-2018-09-04"
+  },
+  "course-0097751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0097751",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 4443, version 0097751-2015-01-20"
+  },
+  "course-0088851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088851",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5858, version 0088851-2018-09-04"
+  },
+  "course-0088331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088331",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1010, version 0088331-2018-09-04"
+  },
+  "course-0088501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088501",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1020, version 0088501-2018-09-04"
+  },
+  "course-0090011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090011",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3010, version 0090011-2018-09-04"
+  },
+  "course-0090071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090071",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3020, version 0090071-2018-09-04"
+  },
+  "course-0091231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091231",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5010, version 0091231-2018-09-04"
+  },
+  "course-0091251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091251",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5020, version 0091251-2018-09-04"
+  },
+  "course-8169431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169431",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5030, version 8169431-2018-09-04"
+  },
+  "course-8171761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171761",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5040, version 8171761-2018-09-04"
+  },
+  "course-8055381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8055381",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1353, version 8055381-2026-09-08"
+  },
+  "course-8055391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8055391",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1354, version 8055391-2015-01-20"
+  },
+  "course-0090831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090831",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1210, version 0090831-2015-01-20"
+  },
+  "course-0090841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090841",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1220, version 0090841-2015-01-20"
+  },
+  "course-8181331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181331",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3341, version 8181331-2018-09-04"
+  },
+  "course-0090891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090891",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3220, version 0090891-2015-01-20"
+  },
+  "course-0077571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077571",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3302, version 0077571-2015-01-20"
+  },
+  "course-0078371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078371",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1110, version 0078371-2015-01-20"
+  },
+  "course-0085801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085801",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1120, version 0085801-2015-01-20"
+  },
+  "course-0085831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085831",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3110, version 0085831-2015-01-20"
+  },
+  "course-0085841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085841",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3120, version 0085841-2015-01-20"
+  },
+  "course-8185421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185421",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1701, version 8185421-2018-09-04"
+  },
+  "course-0091771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091771",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3700, version 0091771-2015-01-20"
+  },
+  "course-8050451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8050451",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3701, version 8050451-2013-05-28"
+  },
+  "course-0092491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092491",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5700, version 0092491-2019-09-03"
+  },
+  "course-8018661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018661",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3411, version 8018661-2019-09-03"
+  },
+  "course-8020781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020781",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5493, version 8020781-2016-09-06"
+  },
+  "course-8037101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037101",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3251W, version 8037101-2021-05-17"
+  },
+  "course-0023391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3251W, version 0023391-2026-09-08"
+  },
+  "course-7920451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920451",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3251W, version 7920451-2021-05-17"
+  },
+  "course-7938391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3112, version 7938391-2008-09-02"
+  },
+  "course-0023341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023341",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3301, version 0023341-2022-09-06"
+  },
+  "course-8258761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8258761",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3301, version 8258761-2022-09-06"
+  },
+  "course-0093171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093171",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3113W, version 0093171-2015-09-08"
+  },
+  "course-0084691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084691",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3114, version 0084691-2010-09-07"
+  },
+  "course-0092251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092251",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3253W, version 0092251-2026-01-20"
+  },
+  "course-0091021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091021",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 4101, version 0091021-2015-09-08"
+  },
+  "course-8022791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8022791",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLBT 4101, version 8022791-2015-09-08"
+  },
+  "course-7881551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7881551",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANAT 3001, version 7881551-2015-01-20"
+  },
+  "course-8260661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260661",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANAT 3651, version 8260661-2023-01-17"
+  },
+  "course-8260341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260341",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANAT 3658H, version 8260341-2023-01-17"
+  },
+  "course-0087141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087141",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3003, version 0087141-2015-01-20"
+  },
+  "course-8014061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8014061",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3036, version 8014061-2024-01-16"
+  },
+  "course-0087421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087421",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3043, version 0087421-2026-09-08"
+  },
+  "course-8015751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015751",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3401, version 8015751-2024-09-03"
+  },
+  "course-0166651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0166651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3464, version 0166651-2022-09-06"
+  },
+  "course-0035951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035951",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3350W, version 0035951-2018-05-21"
+  },
+  "course-8022781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8022781",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLBT 3456W, version 8022781-2025-01-21"
+  },
+  "course-0035861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035861",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3425W, version 0035861-2026-09-08"
+  },
+  "course-8269281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8269281",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3002, version 8269281-2025-09-02"
+  },
+  "course-8006341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006341",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3334, version 8006341-2015-01-20"
+  },
+  "course-8050441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8050441",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3434, version 8050441-2010-09-07"
+  },
+  "course-8006351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006351",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5334, version 8006351-2015-01-20"
+  },
+  "course-0092371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092371",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3144, version 0092371-2020-09-08"
+  },
+  "course-7943351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7943351",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3144H, version 7943351-2020-09-08"
+  },
+  "course-0092391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092391",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3145, version 0092391-2020-09-08"
+  },
+  "course-0092401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092401",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3145H, version 0092401-2020-09-08"
+  },
+  "course-7879971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7879971",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3602, version 7879971-2021-01-19"
+  },
+  "course-0070701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070701",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3003, version 0070701-2025-05-19"
+  },
+  "course-0070781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070781",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3302, version 0070781-2025-05-19"
+  },
+  "course-8017091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017091",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 4103, version 8017091-2017-01-17"
+  },
+  "course-7954371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7954371",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 5104, version 7954371-2008-09-02"
+  },
+  "course-0134021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0134021",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 4403, version 0134021-2020-09-08"
+  },
+  "course-8022761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8022761",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLBT 4403, version 8022761-2020-09-08"
+  },
+  "course-0042841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042841",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3001, version 0042841-2026-01-20"
+  },
+  "course-7889931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889931",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3027, version 7889931-2024-09-03"
+  },
+  "course-0070381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070381",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5950, version 0070381-2026-09-08"
+  },
+  "course-7979301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7979301",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 4101, version 7979301-2022-05-16"
+  },
+  "course-8049211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8049211",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3716, version 8049211-2015-01-20"
+  },
+  "course-7937771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7937771",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5117, version 7937771-2015-01-20"
+  },
+  "course-8006231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006231",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1040, version 8006231-2015-01-20"
+  },
+  "course-7910901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910901",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1313, version 7910901-2013-05-28"
+  },
+  "course-8049171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8049171",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1327, version 8049171-2017-09-05"
+  },
+  "course-7910941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910941",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1331, version 7910941-2013-05-28"
+  },
+  "course-7910961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910961",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1335, version 7910961-2013-05-28"
+  },
+  "course-8049181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8049181",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1343, version 8049181-2018-09-04"
+  },
+  "course-7910981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910981",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1349, version 7910981-2013-05-28"
+  },
+  "course-8055361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8055361",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1351, version 8055361-2026-09-08"
+  },
+  "course-8276791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8276791",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 4796, version 8276791-2026-01-20"
+  },
+  "course-0086321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086321",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5110, version 0086321-2015-01-20"
+  },
+  "course-0086341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086341",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5120, version 0086341-2015-01-20"
+  },
+  "course-7905401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905401",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 4901, version 7905401-2025-09-02"
+  }
+ },
+ "courseSets": {
+  "set-rzSCvb6O": {
+   "codes": [
+    "DNCE 3601",
+    "DNCE 3602",
+    "DNCE 4601",
+    "DNCE 4602",
+    "DNCE 5601"
+   ],
+   "sourceRef": "program"
+  },
+  "set-aJ66AKYT": {
+   "codes": [
+    "DNCE 1626",
+    "DNCE 3401W",
+    "DNCE 3402W",
+    "DNCE 3433",
+    "DNCE 3621",
+    "DNCE 3622",
+    "DNCE 3901",
+    "DNCE 4443",
+    "DNCE 5858"
+   ],
+   "sourceRef": "program"
+  },
+  "set-7LMv1q7c": {
+   "codes": [
+    "DNCE 1010",
+    "DNCE 1020",
+    "DNCE 3010",
+    "DNCE 3020",
+    "DNCE 5010",
+    "DNCE 5020",
+    "DNCE 5030",
+    "DNCE 5040"
+   ],
+   "sourceRef": "program"
+  },
+  "set-1oDkpLMT": {
+   "codes": [
+    "DNCE 1353",
+    "DNCE 1354"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ALZHiVip": {
+   "codes": [
+    "DNCE 1210",
+    "DNCE 1220"
+   ],
+   "sourceRef": "program"
+  },
+  "set-VWMNLUq6": {
+   "codes": [
+    "DNCE 3341"
+   ],
+   "sourceRef": "program"
+  },
+  "set-XcwXbFDb": {
+   "codes": [
+    "DNCE 1210",
+    "DNCE 1220",
+    "DNCE 1353",
+    "DNCE 1354",
+    "DNCE 3220",
+    "DNCE 3302",
+    "DNCE 3341"
+   ],
+   "sourceRef": "program"
+  },
+  "set-oVuQ5yoD": {
+   "codes": [
+    "DNCE 1110",
+    "DNCE 1120",
+    "DNCE 3110",
+    "DNCE 3120"
+   ],
+   "sourceRef": "program"
+  },
+  "set-CulZSOCX": {
+   "codes": [
+    "DNCE 1701",
+    "DNCE 3700",
+    "DNCE 3701",
+    "DNCE 5700"
+   ],
+   "sourceRef": "program"
+  },
+  "set-8i3rvXY8": {
+   "codes": [
+    "DNCE 3411",
+    "DNCE 5493"
+   ],
+   "sourceRef": "program"
+  },
+  "set-sjsWRQd3": {
+   "codes": [
+    "AAS 3251W",
+    "AFRO 3251W",
+    "SOC 3251W",
+    "AFRO 3112",
+    "AFRO 3301",
+    "MUS 3301",
+    "AMST 3113W",
+    "AMST 3114",
+    "AMST 3253W",
+    "AMST 4101",
+    "GLBT 4101",
+    "ANAT 3001",
+    "ANAT 3651",
+    "ANAT 3658H",
+    "ANTH 3003",
+    "ANTH 3036",
+    "ANTH 3043",
+    "ANTH 3401",
+    "ARTH 3464",
+    "CSCL 3350W",
+    "GLBT 3456W",
+    "CSCL 3425W",
+    "DNCE 3002",
+    "DNCE 3334",
+    "DNCE 3411",
+    "DNCE 3434",
+    "DNCE 5334",
+    "DNCE 5493",
+    "GLOS 3144",
+    "GLOS 3144H",
+    "GLOS 3145",
+    "GLOS 3145H",
+    "GLOS 3602",
+    "GWSS 3003",
+    "GWSS 3302",
+    "GWSS 4103",
+    "GWSS 5104",
+    "GWSS 4403",
+    "GLBT 4403",
+    "KIN 3001",
+    "KIN 3027",
+    "MUS 5950",
+    "PA 4101",
+    "TH 3716",
+    "TH 5117"
+   ],
+   "sourceRef": "program"
+  },
+  "set-XmgLSxp6": {
+   "codes": [
+    "DNCE 1040",
+    "DNCE 1313",
+    "DNCE 1327",
+    "DNCE 1331",
+    "DNCE 1335",
+    "DNCE 1343",
+    "DNCE 1349",
+    "DNCE 1351",
+    "DNCE 1353",
+    "DNCE 1354",
+    "DNCE 4796",
+    "DNCE 5110",
+    "DNCE 5120"
+   ],
+   "sourceRef": "program"
+  },
+  "set-424952": {
+   "codes": [
+    "AAS 3251W",
+    "AFRO 3251W",
+    "SOC 3251W",
+    "AMST 3113W",
+    "AMST 3253W",
+    "CSCL 3350W",
+    "GLBT 3456W",
+    "CSCL 3425W",
+    "DNCE 3401W",
+    "DNCE 3402W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AAS 3251W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sociological Perspectives on Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8037101"
+   },
+   "sourceRef": "course-8037101"
+  },
+  "AFRO 3112": {
+   "catalogTerm": "Fall 2026",
+   "title": "In the Heart of the Beat: the Poetry of Rap",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938391"
+   },
+   "sourceRef": "course-7938391"
+  },
+  "AFRO 3251W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sociological Perspectives on Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023391"
+   },
+   "sourceRef": "course-0023391"
+  },
+  "AFRO 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Music of Black Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023341"
+   },
+   "sourceRef": "course-0023341"
+  },
+  "AMST 3113W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global Minnesota: Diversity in the 21st Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093171"
+   },
+   "sourceRef": "course-0093171"
+  },
+  "AMST 3114": {
+   "catalogTerm": "Fall 2026",
+   "title": "America in International Perspective",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0084691"
+   },
+   "sourceRef": "course-0084691"
+  },
+  "AMST 3253W": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Popular Culture and Politics: 1940 to the Present",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0092251"
+   },
+   "sourceRef": "course-0092251"
+  },
+  "AMST 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender, Sexuality, and Politics in America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0091021"
+   },
+   "sourceRef": "course-0091021"
+  },
+  "ANAT 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Anatomy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1002W or BIOL 1009 or BIOL 2002 or equiv], at least soph"
+    },
+    "sourceRef": "course-7881551"
+   },
+   "sourceRef": "course-7881551"
+  },
+  "ANAT 3651": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Human Anatomy with Cadaver Laboratory",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1002 or BIOL 1009 or BIOL 2002 or equiv], at least soph"
+    },
+    "sourceRef": "course-8260661"
+   },
+   "sourceRef": "course-8260661"
+  },
+  "ANAT 3658H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Human Anatomy with Cadaver Laboratory for Honors Students",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8260341"
+   },
+   "sourceRef": "course-8260341"
+  },
+  "ANTH 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cultural Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087141"
+   },
+   "sourceRef": "course-0087141"
+  },
+  "ANTH 3036": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Body in Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8014061"
+   },
+   "sourceRef": "course-8014061"
+  },
+  "ANTH 3043": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art, Aesthetics and Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087421"
+   },
+   "sourceRef": "course-0087421"
+  },
+  "ANTH 3401": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Human Fossil Record",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ANTH 1001 or instr consent"
+    },
+    "sourceRef": "course-8015751"
+   },
+   "sourceRef": "course-8015751"
+  },
+  "ARTH 3464": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art Since 1945",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0166651"
+   },
+   "sourceRef": "course-0166651"
+  },
+  "CSCL 3350W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sexuality and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035951"
+   },
+   "sourceRef": "course-0035951"
+  },
+  "CSCL 3425W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Critical Theory and Social Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035861"
+   },
+   "sourceRef": "course-0035861"
+  },
+  "DNCE 1010": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern/Contemporary Dance Technique 3",
+   "minimumCredits": 1,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0088331"
+   },
+   "sourceRef": "course-0088331"
+  },
+  "DNCE 1020": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern/Contemporary Dance Technique 4",
+   "minimumCredits": 1,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1010, dept consent, audition"
+    },
+    "sourceRef": "course-0088501"
+   },
+   "sourceRef": "course-0088501"
+  },
+  "DNCE 1040": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Dance Partnering Technique",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Dance major or instr consent"
+    },
+    "sourceRef": "course-8006231"
+   },
+   "sourceRef": "course-8006231"
+  },
+  "DNCE 1110": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 3",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0078371"
+   },
+   "sourceRef": "course-0078371"
+  },
+  "DNCE 1120": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 4",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1110, dept consent, audition"
+    },
+    "sourceRef": "course-0085801"
+   },
+   "sourceRef": "course-0085801"
+  },
+  "DNCE 1210": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jazz Technique 3",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0090831"
+   },
+   "sourceRef": "course-0090831"
+  },
+  "DNCE 1220": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jazz Technique 4",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1210, dept consent, audition"
+    },
+    "sourceRef": "course-0090841"
+   },
+   "sourceRef": "course-0090841"
+  },
+  "DNCE 1313": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Based Movement",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7910901"
+   },
+   "sourceRef": "course-7910901"
+  },
+  "DNCE 1327": {
+   "catalogTerm": "Fall 2026",
+   "title": "Argentine Tango",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8049171"
+   },
+   "sourceRef": "course-8049171"
+  },
+  "DNCE 1331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Yoga",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7910941"
+   },
+   "sourceRef": "course-7910941"
+  },
+  "DNCE 1335": {
+   "catalogTerm": "Fall 2026",
+   "title": "T'ai Chi Ch'uan",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7910961"
+   },
+   "sourceRef": "course-7910961"
+  },
+  "DNCE 1343": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban & Street Dance Forms 1: Introduction",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8049181"
+   },
+   "sourceRef": "course-8049181"
+  },
+  "DNCE 1349": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contact Improvisation",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7910981"
+   },
+   "sourceRef": "course-7910981"
+  },
+  "DNCE 1351": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Diasporic Practices: Community, Rhythm & Grooves 1",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8055361"
+   },
+   "sourceRef": "course-8055361"
+  },
+  "DNCE 1353": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Diasporic Practices: Community, Rhythm & Grooves 3",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8055381"
+   },
+   "sourceRef": "course-8055381"
+  },
+  "DNCE 1354": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Diasporic Movement 4",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1353 or audition or instr consent"
+    },
+    "sourceRef": "course-8055391"
+   },
+   "sourceRef": "course-8055391"
+  },
+  "DNCE 1626": {
+   "catalogTerm": "Fall 2026",
+   "title": "Music for Dance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent"
+    },
+    "sourceRef": "course-0093851"
+   },
+   "sourceRef": "course-0093851"
+  },
+  "DNCE 1701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Freshman/Sophomore Repertory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8185421"
+   },
+   "sourceRef": "course-8185421"
+  },
+  "DNCE 3002": {
+   "catalogTerm": "Fall 2026",
+   "title": "2nd Year Career Readiness for Dancers",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8269281"
+   },
+   "sourceRef": "course-8269281"
+  },
+  "DNCE 3010": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern/Contemporary Dance Technique 5",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0090011"
+   },
+   "sourceRef": "course-0090011"
+  },
+  "DNCE 3020": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern/Contemporary Dance Technique 6",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3010, dept consent, audition"
+    },
+    "sourceRef": "course-0090071"
+   },
+   "sourceRef": "course-0090071"
+  },
+  "DNCE 3110": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 5",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0085831"
+   },
+   "sourceRef": "course-0085831"
+  },
+  "DNCE 3120": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 6",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3110, dept consent, audition"
+    },
+    "sourceRef": "course-0085841"
+   },
+   "sourceRef": "course-0085841"
+  },
+  "DNCE 3220": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jazz Technique 6",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3210, dept consent, audition"
+    },
+    "sourceRef": "course-0090891"
+   },
+   "sourceRef": "course-0090891"
+  },
+  "DNCE 3302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tap Technique 4",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3301 or instr consent"
+    },
+    "sourceRef": "course-0077571"
+   },
+   "sourceRef": "course-0077571"
+  },
+  "DNCE 3334": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Dance/Movement Therapy",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent"
+    },
+    "sourceRef": "course-8006341"
+   },
+   "sourceRef": "course-8006341"
+  },
+  "DNCE 3341": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban & Street Dance Forms 3: Emerging Scholar",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Completion of DNCE 2341 or audition."
+    },
+    "sourceRef": "course-8181331"
+   },
+   "sourceRef": "course-8181331"
+  },
+  "DNCE 3401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance History 1",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0160831"
+   },
+   "sourceRef": "course-0160831"
+  },
+  "DNCE 3402W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance History 2",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3401W"
+    },
+    "sourceRef": "course-0160841"
+   },
+   "sourceRef": "course-0160841"
+  },
+  "DNCE 3411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance and Popular Culture: Choreographing Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018661"
+   },
+   "sourceRef": "course-8018661"
+  },
+  "DNCE 3433": {
+   "catalogTerm": "Fall 2026",
+   "title": "Articulate Body",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Dnce major, dept consent"
+    },
+    "sourceRef": "course-0093621"
+   },
+   "sourceRef": "course-0093621"
+  },
+  "DNCE 3434": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nutrition and Body Maintenance for Movement Artists",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8050441"
+   },
+   "sourceRef": "course-8050441"
+  },
+  "DNCE 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance Composition 1",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1020, 1601, concurrent regis in a modern dance technique course, dept consent"
+    },
+    "sourceRef": "course-0090991"
+   },
+   "sourceRef": "course-0090991"
+  },
+  "DNCE 3602": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance Composition 2",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3601, dept consent, concurrent regis in a modern dance technique course"
+    },
+    "sourceRef": "course-0091011"
+   },
+   "sourceRef": "course-0091011"
+  },
+  "DNCE 3621": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance Production I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Dance major, dept consent"
+    },
+    "sourceRef": "course-7911001"
+   },
+   "sourceRef": "course-7911001"
+  },
+  "DNCE 3622": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance Production II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3621, dance major, dept consent"
+    },
+    "sourceRef": "course-7911011"
+   },
+   "sourceRef": "course-7911011"
+  },
+  "DNCE 3700": {
+   "catalogTerm": "Fall 2026",
+   "title": "Performance",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Concurrent enrollment in a technique course, audition, dept consent"
+    },
+    "sourceRef": "course-0091771"
+   },
+   "sourceRef": "course-0091771"
+  },
+  "DNCE 3701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Summer Dance Intensive",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8050451"
+   },
+   "sourceRef": "course-8050451"
+  },
+  "DNCE 3901": {
+   "catalogTerm": "Fall 2026",
+   "title": "Career Readiness in Dance",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Dance major, dept consent"
+    },
+    "sourceRef": "course-7911021"
+   },
+   "sourceRef": "course-7911021"
+  },
+  "DNCE 4443": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theorizing Dancing Bodies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3402W or instr consent"
+    },
+    "sourceRef": "course-0097751"
+   },
+   "sourceRef": "course-0097751"
+  },
+  "DNCE 4601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance Composition 3",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3602, concurrent regis in a modern dance technique course, dept consent"
+    },
+    "sourceRef": "course-0093161"
+   },
+   "sourceRef": "course-0093161"
+  },
+  "DNCE 4602": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance Composition 4",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4601, concurrent registration is required (or allowed) in  modern dance technique course, dept consent"
+    },
+    "sourceRef": "course-0093191"
+   },
+   "sourceRef": "course-0093191"
+  },
+  "DNCE 4796": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance Performance Practicum",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8276791"
+   },
+   "sourceRef": "course-8276791"
+  },
+  "DNCE 4901": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Seminar for Dance",
+   "minimumCredits": 1,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Sr, [Dnce or Th major]"
+    },
+    "sourceRef": "course-7905401"
+   },
+   "sourceRef": "course-7905401"
+  },
+  "DNCE 5010": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern/Contemporary Dance Technique 7",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0091231"
+   },
+   "sourceRef": "course-0091231"
+  },
+  "DNCE 5020": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern/Contemporary Dance Technique 8",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5010, dept consent, audition"
+    },
+    "sourceRef": "course-0091251"
+   },
+   "sourceRef": "course-0091251"
+  },
+  "DNCE 5030": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern/Contemporary Dance Technique 9",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8169431"
+   },
+   "sourceRef": "course-8169431"
+  },
+  "DNCE 5040": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern/Contemporary Dance Technique 10",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171761"
+   },
+   "sourceRef": "course-8171761"
+  },
+  "DNCE 5110": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 7",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0086321"
+   },
+   "sourceRef": "course-0086321"
+  },
+  "DNCE 5120": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 8",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5110, dept consent, audition"
+    },
+    "sourceRef": "course-0086341"
+   },
+   "sourceRef": "course-0086341"
+  },
+  "DNCE 5334": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Dance/Movement Therapy",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent"
+    },
+    "sourceRef": "course-8006351"
+   },
+   "sourceRef": "course-8006351"
+  },
+  "DNCE 5493": {
+   "catalogTerm": "Fall 2026",
+   "title": "Choreographing Social Justice: Staging \"Equitable\" Choreographies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4443 recommended"
+    },
+    "sourceRef": "course-8020781"
+   },
+   "sourceRef": "course-8020781"
+  },
+  "DNCE 5601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance Composition 5",
+   "minimumCredits": 1,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4601, 4602, dept consent"
+    },
+    "sourceRef": "course-7911031"
+   },
+   "sourceRef": "course-7911031"
+  },
+  "DNCE 5700": {
+   "catalogTerm": "Fall 2026",
+   "title": "Performance",
+   "minimumCredits": 1,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in  technique course, dept consent, audition based"
+    },
+    "sourceRef": "course-0092491"
+   },
+   "sourceRef": "course-0092491"
+  },
+  "DNCE 5858": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dance Pedagogy",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0088851"
+   },
+   "sourceRef": "course-0088851"
+  },
+  "GLBT 3456W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sexuality and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8022781"
+   },
+   "sourceRef": "course-8022781"
+  },
+  "GLBT 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender, Sexuality, and Politics in America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8022791"
+   },
+   "sourceRef": "course-8022791"
+  },
+  "GLBT 4403": {
+   "catalogTerm": "Fall 2026",
+   "title": "Queering Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Any GWSS or GLBT course"
+    },
+    "sourceRef": "course-8022761"
+   },
+   "sourceRef": "course-8022761"
+  },
+  "GLOS 3144": {
+   "catalogTerm": "Fall 2026",
+   "title": "Knowledge, Power, and the Politics of Representation in Global Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "soph, jr, or sr"
+    },
+    "sourceRef": "course-0092371"
+   },
+   "sourceRef": "course-0092371"
+  },
+  "GLOS 3144H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Knowledge, Power, and the Politics of Representation in Global Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors soph, jr, or sr"
+    },
+    "sourceRef": "course-7943351"
+   },
+   "sourceRef": "course-7943351"
+  },
+  "GLOS 3145": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global Modernity, the Nation-State, and Capitalism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "soph, jr, or sr"
+    },
+    "sourceRef": "course-0092391"
+   },
+   "sourceRef": "course-0092391"
+  },
+  "GLOS 3145H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Global Modernity, the Nation-State, and Capitalism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors soph, jr, or sr Units: 3.00"
+    },
+    "sourceRef": "course-0092401"
+   },
+   "sourceRef": "course-0092401"
+  },
+  "GLOS 3602": {
+   "catalogTerm": "Fall 2026",
+   "title": "Other Worlds: Globalization and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7879971"
+   },
+   "sourceRef": "course-7879971"
+  },
+  "GWSS 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender and Global Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0070701"
+   },
+   "sourceRef": "course-0070701"
+  },
+  "GWSS 3302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women and the Arts",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0070781"
+   },
+   "sourceRef": "course-0070781"
+  },
+  "GWSS 4103": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transnational Feminist Theories",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8017091"
+   },
+   "sourceRef": "course-8017091"
+  },
+  "GWSS 4403": {
+   "catalogTerm": "Fall 2026",
+   "title": "Queering Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Any GWSS or GLBT course"
+    },
+    "sourceRef": "course-0134021"
+   },
+   "sourceRef": "course-0134021"
+  },
+  "GWSS 5104": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transnational Feminist Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7954371"
+   },
+   "sourceRef": "course-7954371"
+  },
+  "KIN 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Lifetime Health and Wellness",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042841"
+   },
+   "sourceRef": "course-0042841"
+  },
+  "KIN 3027": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Anatomy for Kinesiology, Physical Activity, and Health Promotion",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889931"
+   },
+   "sourceRef": "course-7889931"
+  },
+  "MUS 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Music of Black Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8258761"
+   },
+   "sourceRef": "course-8258761"
+  },
+  "MUS 5950": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Music",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0070381"
+   },
+   "sourceRef": "course-0070381"
+  },
+  "PA 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nonprofit Management and Governance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7979301"
+   },
+   "sourceRef": "course-7979301"
+  },
+  "SOC 3251W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sociological Perspectives on Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7920451"
+   },
+   "sourceRef": "course-7920451"
+  },
+  "TH 3716": {
+   "catalogTerm": "Fall 2026",
+   "title": "Stage Management",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1501 or instr consent"
+    },
+    "sourceRef": "course-8049211"
+   },
+   "sourceRef": "course-8049211"
+  },
+  "TH 5117": {
+   "catalogTerm": "Fall 2026",
+   "title": "Performance and Social Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr or grad student"
+    },
+    "sourceRef": "course-7937771"
+   },
+   "sourceRef": "course-7937771"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-Jn5EAA3f",
+   "label": "Dance Composition",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-rzSCvb6O",
+    "type": "credits",
+    "courseSet": "set-rzSCvb6O",
+    "minCredits": 14,
+    "sourceRef": "program",
+    "label": "Dance Composition"
+   }
+  },
+  {
+   "id": "g-UZt205A8",
+   "label": "Dance Studies",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-aJ66AKYT",
+    "type": "credits",
+    "courseSet": "set-aJ66AKYT",
+    "minCredits": 23,
+    "sourceRef": "program",
+    "label": "Dance Studies"
+   }
+  },
+  {
+   "id": "g-S3GJLWLI",
+   "label": "Dance Technique",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-fDAZ5uMO",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-7LMv1q7c",
+      "type": "credits",
+      "courseSet": "set-7LMv1q7c",
+      "minCredits": 16,
+      "sourceRef": "program",
+      "label": "Modern/Contemporary Technique"
+     },
+     {
+      "id": "r-YhMxQNSZ",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-FSnebUDo",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-1oDkpLMT",
+          "type": "credits",
+          "courseSet": "set-1oDkpLMT",
+          "minCredits": 2,
+          "sourceRef": "program",
+          "label": "African Diasporic Movement"
+         },
+         {
+          "id": "r-ALZHiVip",
+          "type": "credits",
+          "courseSet": "set-ALZHiVip",
+          "minCredits": 2,
+          "sourceRef": "program",
+          "label": "Jazz Technique"
+         },
+         {
+          "id": "r-VWMNLUq6",
+          "type": "credits",
+          "courseSet": "set-VWMNLUq6",
+          "minCredits": 2,
+          "sourceRef": "program",
+          "label": "Urban & Street Dance Forms"
+         }
+        ],
+        "label": "Rhythmic/Percussive Sequence"
+       },
+       {
+        "id": "r-XcwXbFDb",
+        "type": "credits",
+        "courseSet": "set-XcwXbFDb",
+        "minCredits": 1,
+        "sourceRef": "program",
+        "label": "Rhythmic/Percussive Elective"
+       }
+      ],
+      "label": "Rhythmic/Percussive Technique"
+     },
+     {
+      "id": "r-oVuQ5yoD",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-oVuQ5yoD-credits",
+        "type": "credits",
+        "courseSet": "set-oVuQ5yoD",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-oVuQ5yoD-min",
+        "type": "count",
+        "courseSet": "set-oVuQ5yoD",
+        "minCourses": 2,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-oVuQ5yoD-max",
+        "type": "count",
+        "courseSet": "set-oVuQ5yoD",
+        "maxCourses": 4,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Ballet Technique"
+     }
+    ],
+    "label": "Dance Technique"
+   }
+  },
+  {
+   "id": "g-Y63DJO28",
+   "label": "Dance Performance",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-CulZSOCX",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-CulZSOCX-credits",
+      "type": "credits",
+      "courseSet": "set-CulZSOCX",
+      "minCredits": 4,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-CulZSOCX-min",
+      "type": "count",
+      "courseSet": "set-CulZSOCX",
+      "minCourses": 4,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-CulZSOCX-max",
+      "type": "count",
+      "courseSet": "set-CulZSOCX",
+      "maxCourses": 4,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Dance Performance"
+   }
+  },
+  {
+   "id": "g-1LWpMZWC",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-NOUNb3lo",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-8i3rvXY8",
+      "type": "credits",
+      "courseSet": "set-8i3rvXY8",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Dance Studies"
+     },
+     {
+      "id": "r-sjsWRQd3",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-sjsWRQd3-credits",
+        "type": "credits",
+        "courseSet": "set-sjsWRQd3",
+        "minCredits": 6,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-sjsWRQd3-min",
+        "type": "count",
+        "courseSet": "set-sjsWRQd3",
+        "minCourses": 2,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "General Academic"
+     },
+     {
+      "id": "r-XmgLSxp6",
+      "type": "credits",
+      "courseSet": "set-XmgLSxp6",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Technique"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-UVm25Cr3",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-yzg4W4Fj",
+    "type": "course",
+    "code": "DNCE 4901",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-022320917",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-424952",
+    "type": "count",
+    "courseSet": "set-424952",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 31 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn no more than one undergraduate degree from the Dance program: a BA or a BFA or a minor.\nThe Dance BFA does not have a second language requirement, but students may choose to complete a second language sequence. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Admission into the BFA program is by audition only. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

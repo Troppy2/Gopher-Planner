@@ -1,0 +1,162 @@
+{
+ "schemaVersion": 2,
+ "id": "special-education-bs",
+ "name": "Special Education B.S.",
+ "officialName": "Special Education B.S.",
+ "officialProgramId": "087920106",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Special Education B.S., revision 087920106-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/087920106, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/087920106",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 087920106-2026-09-08"
+  },
+  "course-8016981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016981",
+   "retrieved": "2026-11-23",
+   "section": "Course record EDHD 1525W, version 8016981-2021-09-07"
+  },
+  "course-8054041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054041",
+   "retrieved": "2026-11-23",
+   "section": "Course record EDHD 1525V, version 8054041-2021-09-07"
+  },
+  "course-8113281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8113281",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 2601, version 8113281-2022-01-18"
+  }
+ },
+ "courseSets": {
+  "set-opQFCWMG": {
+   "codes": [
+    "EDHD 1525W",
+    "EDHD 1525V"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "EDHD 1525V": {
+   "catalogTerm": "Fall 2026",
+   "title": "CEHD First Year Experience",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CEHD student, honors, 1st-term fr"
+    },
+    "sourceRef": "course-8054041"
+   },
+   "sourceRef": "course-8054041"
+  },
+  "EDHD 1525W": {
+   "catalogTerm": "Fall 2026",
+   "title": "CEHD First Year Experience",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8016981"
+   },
+   "sourceRef": "course-8016981"
+  },
+  "EPSY 2601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Differences, Disabilities, and the Career of Special Education",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8113281"
+   },
+   "sourceRef": "course-8113281"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-087920106",
+   "label": "Program Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-087920106",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-opQFCWMG",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-opQFCWMG-credits",
+        "type": "credits",
+        "courseSet": "set-opQFCWMG",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-opQFCWMG-max",
+        "type": "count",
+        "courseSet": "set-opQFCWMG",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "First Year Experience Course"
+     },
+     {
+      "id": "r-mnKkmVuq",
+      "type": "course",
+      "code": "EPSY 2601",
+      "sourceRef": "program",
+      "label": "Required Prerequisite"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's Liberal Education requirements.\nAt least half of the upper-division credits in the major (26) must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Special Education Licensure - ABS, Special Education Licensure - ECSE, Foundations of Special Education for Schools and Society. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

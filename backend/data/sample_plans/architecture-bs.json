@@ -1,0 +1,225 @@
+{
+  "programId": "architecture-bs",
+  "plan": "Architecture B.S.",
+  "source": "https://sampleplan.umn.edu/twin-cities/architecture-bs",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 1281"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 1621"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "WRIT 1301"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "ATH 1142",
+            "MATH 1271"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 2281"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 2301"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PHYS 1101W"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 3281"
+          ],
+          "credits": 6.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 3411W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 4511"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 3282"
+          ],
+          "credits": 6.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 3412W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 4561"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 4283"
+          ],
+          "credits": 6.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 3711W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 4521"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 4571"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 4284"
+          ],
+          "credits": 6.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 4701W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 5212"
+          ],
+          "credits": 6.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "ARCH 5213"
+          ],
+          "credits": 6.0,
+          "preferred": false
+        }
+      ]
+    }
+  ]
+}

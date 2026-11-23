@@ -1,0 +1,1900 @@
+{
+ "schemaVersion": 2,
+ "id": "german-scandinavian-dutch-ba",
+ "name": "German, Scandinavian, Dutch B.A.",
+ "officialName": "German, Scandinavian, Dutch B.A.",
+ "officialProgramId": "228220217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "German, Scandinavian, Dutch B.A., revision 228220217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/228220217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/228220217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 228220217-2026-09-08"
+  },
+  "course-0099511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099511",
+   "retrieved": "2026-11-23",
+   "section": "Course record GSD 3511W, version 0099511-2024-09-03"
+  },
+  "course-0099801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099801",
+   "retrieved": "2026-11-23",
+   "section": "Course record GSD 3512W, version 0099801-2015-01-20"
+  },
+  "course-0088251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088251",
+   "retrieved": "2026-11-23",
+   "section": "Course record DTCH 3011W, version 0088251-2015-05-26"
+  },
+  "course-0079661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079661",
+   "retrieved": "2026-11-23",
+   "section": "Course record FIN 3011, version 0079661-2015-05-26"
+  },
+  "course-0086391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086391",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3011W, version 0086391-2026-09-08"
+  },
+  "course-7901431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7901431",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3011W, version 7901431-2015-05-26"
+  },
+  "course-0088261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088261",
+   "retrieved": "2026-11-23",
+   "section": "Course record DTCH 3012, version 0088261-2016-05-23"
+  },
+  "course-0079761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079761",
+   "retrieved": "2026-11-23",
+   "section": "Course record FIN 3012, version 0079761-2015-01-20"
+  },
+  "course-0088651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088651",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3012W, version 0088651-2023-01-17"
+  },
+  "course-0090031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090031",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3014, version 0090031-2026-09-08"
+  },
+  "course-0090111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090111",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3021, version 0090111-2026-09-08"
+  },
+  "course-0103071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0103071",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3104W, version 0103071-2026-09-08"
+  },
+  "course-0090121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090121",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3421, version 0090121-2015-01-20"
+  },
+  "course-0090151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090151",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3441, version 0090151-2026-09-08"
+  },
+  "course-0084651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084651",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3642, version 0084651-2026-09-08"
+  },
+  "course-0102411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102411",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3701, version 0102411-2015-01-20"
+  },
+  "course-0102541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102541",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3702, version 0102541-2015-01-20"
+  },
+  "course-0090491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090491",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 5711, version 0090491-2015-01-20"
+  },
+  "course-0090521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090521",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 5721, version 0090521-2013-05-28"
+  },
+  "course-0085701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085701",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 5734, version 0085701-2013-05-28"
+  },
+  "course-8277641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277641",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3065, version 8277641-2025-09-02"
+  },
+  "course-8277631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277631",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5065, version 8277631-2025-09-02"
+  },
+  "course-8277651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277651",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 5065, version 8277651-2025-09-02"
+  },
+  "course-0084481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3602, version 0084481-2012-09-04"
+  },
+  "course-0084461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084461",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3605, version 0084461-2026-01-20"
+  },
+  "course-8098391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8098391",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 5605, version 8098391-2026-01-20"
+  },
+  "course-0086291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086291",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3613, version 0086291-2011-09-06"
+  },
+  "course-0083881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0083881",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3618, version 0083881-2023-09-05"
+  },
+  "course-0086581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086581",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 5701, version 0086581-2021-09-07"
+  },
+  "course-8277741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277741",
+   "retrieved": "2026-11-23",
+   "section": "Course record DTCH 3635, version 8277741-2026-09-08"
+  },
+  "course-8278331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278331",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3635, version 8278331-2026-09-08"
+  },
+  "course-0090161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090161",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3501, version 0090161-2026-09-08"
+  },
+  "course-0101741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0101741",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3601, version 0101741-2015-01-20"
+  },
+  "course-0105321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0105321",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3604W, version 0105321-2026-01-20"
+  },
+  "course-8167621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8167621",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3633, version 8167621-2026-09-08"
+  },
+  "course-8168041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168041",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3633, version 8168041-2026-09-08"
+  },
+  "course-0101881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0101881",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3641, version 0101881-2016-01-19"
+  },
+  "course-8099361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099361",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3651, version 8099361-2026-09-08"
+  },
+  "course-8154241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8154241",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 5651, version 8154241-2026-09-08"
+  },
+  "course-8133421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8133421",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3655, version 8133421-2026-09-08"
+  },
+  "course-8263481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8263481",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3661, version 8263481-2024-09-03"
+  },
+  "course-8271871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271871",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3671W, version 8271871-2026-01-20"
+  },
+  "course-8278971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278971",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3671W, version 8278971-2026-01-20"
+  },
+  "course-8278961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278961",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5671W, version 8278961-2026-01-20"
+  },
+  "course-8278981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278981",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 5671W, version 8278981-2026-01-20"
+  },
+  "course-8262791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262791",
+   "retrieved": "2026-11-23",
+   "section": "Course record GSD 3681, version 8262791-2026-09-08"
+  },
+  "course-0079851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079851",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3501W, version 0079851-2011-09-06"
+  },
+  "course-0102061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102061",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3502, version 0102061-2021-09-07"
+  },
+  "course-0084971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084971",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3503, version 0084971-2014-01-21"
+  },
+  "course-0079881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079881",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3504, version 0079881-2014-01-21"
+  },
+  "course-0086401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086401",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3614, version 0086401-2013-09-03"
+  },
+  "course-8100881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100881",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 5614, version 8100881-2013-09-03"
+  },
+  "course-8191341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8191341",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3617, version 8191341-2020-01-21"
+  },
+  "course-8191351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8191351",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 5617, version 8191351-2020-01-21"
+  },
+  "course-0083901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0083901",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3634, version 0083901-2015-05-26"
+  },
+  "course-8089471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8089471",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 5634, version 8089471-2015-05-26"
+  },
+  "course-0087391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087391",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4043, version 0087391-2017-01-17"
+  },
+  "course-8176671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176671",
+   "retrieved": "2026-11-23",
+   "section": "Course record CFAN 3532, version 8176671-2024-01-16"
+  },
+  "course-8186791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8186791",
+   "retrieved": "2026-11-23",
+   "section": "Course record CFAN 5532, version 8186791-2024-01-16"
+  },
+  "course-0090091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090091",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3016, version 0090091-2026-09-08"
+  },
+  "course-0090171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090171",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3510, version 0090171-2026-09-08"
+  },
+  "course-0090181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090181",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3520, version 0090181-2025-05-19"
+  },
+  "course-0090201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090201",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3610, version 0090201-2022-01-18"
+  },
+  "course-0084541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084541",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3631, version 0084541-2021-09-07"
+  },
+  "course-7970871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7970871",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3631, version 7970871-2021-09-07"
+  },
+  "course-0084681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084681",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3634, version 0084681-2022-09-06"
+  },
+  "course-0102971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102971",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 5011, version 0102971-2015-01-20"
+  },
+  "course-8267031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8267031",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 5210, version 8267031-2024-05-13"
+  },
+  "course-0099941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099941",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 5410, version 0099941-2025-05-19"
+  },
+  "course-0099971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099971",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 5510, version 0099971-2026-09-08"
+  },
+  "course-0090211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090211",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 5610, version 0090211-2023-05-15"
+  },
+  "course-0034541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034541",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3271, version 0034541-2021-09-07"
+  },
+  "course-8251711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251711",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3271, version 8251711-2021-09-07"
+  },
+  "course-7963321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7963321",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5271, version 7963321-2021-09-07"
+  },
+  "course-8251721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251721",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 5271, version 8251721-2021-09-07"
+  },
+  "course-8184921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8184921",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3604W, version 8184921-2021-01-19"
+  },
+  "course-0083911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0083911",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 3670, version 0083911-2025-01-21"
+  },
+  "course-8085861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8085861",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 4011, version 8085861-2015-05-26"
+  },
+  "course-0086561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086561",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCAN 5670, version 0086561-2023-05-15"
+  },
+  "course-0089781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0089781",
+   "retrieved": "2026-11-23",
+   "section": "Course record GSD 3451W, version 0089781-2014-09-02"
+  },
+  "course-7876061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7876061",
+   "retrieved": "2026-11-23",
+   "section": "Course record GSD 3451V, version 7876061-2015-01-20"
+  }
+ },
+ "courseSets": {
+  "set-VDPu2zwQ": {
+   "codes": [
+    "GSD 3511W",
+    "GSD 3512W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-bXv3EYq2": {
+   "codes": [
+    "DTCH 3011W",
+    "FIN 3011",
+    "GER 3011W",
+    "SCAN 3011W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Kp6Ks6Ei": {
+   "codes": [
+    "DTCH 3011W",
+    "DTCH 3012",
+    "FIN 3011",
+    "FIN 3012",
+    "GER 3011W",
+    "GER 3012W",
+    "GER 3014",
+    "GER 3021",
+    "GER 3104W",
+    "GER 3421",
+    "GER 3441",
+    "GER 3642",
+    "GER 3701",
+    "GER 3702",
+    "GER 5711",
+    "GER 5721",
+    "GER 5734",
+    "PHIL 3065",
+    "PHIL 5065",
+    "GER 5065",
+    "SCAN 3602",
+    "SCAN 3605",
+    "SCAN 5605",
+    "SCAN 3613",
+    "SCAN 3618",
+    "SCAN 5701"
+   ],
+   "sourceRef": "program"
+  },
+  "set-5WnzuJK5": {
+   "codes": [
+    "DTCH 3635",
+    "JWST 3635",
+    "GER 3501",
+    "GER 3601",
+    "GER 3604W",
+    "GER 3633",
+    "JWST 3633",
+    "GER 3641",
+    "GER 3651",
+    "GER 5651",
+    "GER 3655",
+    "GER 3661",
+    "GER 3671W",
+    "ARTH 3671W",
+    "ARTH 5671W",
+    "GER 5671W",
+    "GSD 3681",
+    "SCAN 3501W",
+    "SCAN 3502",
+    "SCAN 3503",
+    "SCAN 3504",
+    "SCAN 3614",
+    "SCAN 5614",
+    "SCAN 3617",
+    "SCAN 5617",
+    "SCAN 3634",
+    "SCAN 5634"
+   ],
+   "sourceRef": "program"
+  },
+  "set-rDl296ZU": {
+   "codes": [
+    "ANTH 4043",
+    "CFAN 3532",
+    "CFAN 5532",
+    "DTCH 3011W",
+    "DTCH 3012",
+    "DTCH 3635",
+    "JWST 3635",
+    "FIN 3011",
+    "FIN 3012",
+    "GER 3011W",
+    "GER 3012W",
+    "GER 3014",
+    "GER 3016",
+    "GER 3021",
+    "GER 3104W",
+    "GER 3421",
+    "GER 3441",
+    "GER 3501",
+    "GER 3510",
+    "GER 3520",
+    "GER 3601",
+    "GER 3604W",
+    "GER 3610",
+    "GER 3631",
+    "JWST 3631",
+    "GER 3633",
+    "JWST 3633",
+    "GER 3634",
+    "GER 3641",
+    "GER 3642",
+    "GER 3651",
+    "GER 5651",
+    "GER 3655",
+    "GER 3661",
+    "GER 3671W",
+    "ARTH 3671W",
+    "GER 5671W",
+    "ARTH 5671W",
+    "GER 3701",
+    "GER 3702",
+    "GER 5011",
+    "GER 5210",
+    "GER 5410",
+    "GER 5510",
+    "GER 5610",
+    "GER 5711",
+    "GER 5721",
+    "GER 5734",
+    "GSD 3681",
+    "HIST 3271",
+    "MEST 3271",
+    "HIST 5271",
+    "MEST 5271",
+    "PHIL 3065",
+    "PHIL 5065",
+    "GER 5065",
+    "SCAN 3011W",
+    "SCAN 3501W",
+    "SCAN 3502",
+    "SCAN 3503",
+    "SCAN 3504",
+    "SCAN 3602",
+    "SCAN 3604W",
+    "SCAN 3605",
+    "SCAN 5605",
+    "SCAN 3613",
+    "SCAN 3614",
+    "SCAN 5614",
+    "SCAN 3617",
+    "SCAN 5617",
+    "SCAN 3618",
+    "SCAN 3634",
+    "SCAN 5634",
+    "SCAN 3670",
+    "SCAN 4011",
+    "SCAN 5670",
+    "SCAN 5701"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qgVmhkMc": {
+   "codes": [
+    "GSD 3451W",
+    "GSD 3451V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-400509": {
+   "codes": [
+    "DTCH 3011W",
+    "GER 3011W",
+    "GER 3012W",
+    "GER 3104W",
+    "GER 3604W",
+    "GER 3671W",
+    "ARTH 3671W",
+    "GER 5671W",
+    "ARTH 5671W",
+    "GSD 3451W",
+    "GSD 3451V",
+    "GSD 3511W",
+    "GSD 3512W",
+    "SCAN 3011W",
+    "SCAN 3501W",
+    "SCAN 3604W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ANTH 4043": {
+   "catalogTerm": "Fall 2026",
+   "title": "Romans, Anglo-Saxons and Vikings: Archaeology of Northern Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087391"
+   },
+   "sourceRef": "course-0087391"
+  },
+  "ARTH 3671W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Art in German and Central Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278971"
+   },
+   "sourceRef": "course-8278971"
+  },
+  "ARTH 5671W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Art in Germany and Central Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278961"
+   },
+   "sourceRef": "course-8278961"
+  },
+  "CFAN 3532": {
+   "catalogTerm": "Fall 2026",
+   "title": "Germany: Leading the Renewables Revolution",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176671"
+   },
+   "sourceRef": "course-8176671"
+  },
+  "CFAN 5532": {
+   "catalogTerm": "Fall 2026",
+   "title": "Germany: Leading the Renewables Revolution",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8186791"
+   },
+   "sourceRef": "course-8186791"
+  },
+  "DTCH 3011W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Conversation and Composition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1004 or 4004 or instr consent"
+    },
+    "sourceRef": "course-0088251"
+   },
+   "sourceRef": "course-0088251"
+  },
+  "DTCH 3012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Conversation and Composition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3011 or 4011"
+    },
+    "sourceRef": "course-0088261"
+   },
+   "sourceRef": "course-0088261"
+  },
+  "DTCH 3635": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anne Frank: Perspectives on Her Life and Legacy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277741"
+   },
+   "sourceRef": "course-8277741"
+  },
+  "FIN 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Finnish",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1004 or 4004"
+    },
+    "sourceRef": "course-0079661"
+   },
+   "sourceRef": "course-0079661"
+  },
+  "FIN 3012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Finnish",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3011 or 4011"
+    },
+    "sourceRef": "course-0079761"
+   },
+   "sourceRef": "course-0079761"
+  },
+  "GER 3011W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Conversation and Composition",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1004."
+    },
+    "sourceRef": "course-0086391"
+   },
+   "sourceRef": "course-0086391"
+  },
+  "GER 3012W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Conversation and Composition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3011W"
+    },
+    "sourceRef": "course-0088651"
+   },
+   "sourceRef": "course-0088651"
+  },
+  "GER 3014": {
+   "catalogTerm": "Fall 2026",
+   "title": "German Media",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3011"
+    },
+    "sourceRef": "course-0090031"
+   },
+   "sourceRef": "course-0090031"
+  },
+  "GER 3016": {
+   "catalogTerm": "Fall 2026",
+   "title": "Techniques of Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3011"
+    },
+    "sourceRef": "course-0090091"
+   },
+   "sourceRef": "course-0090091"
+  },
+  "GER 3021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business German",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1004"
+    },
+    "sourceRef": "course-0090111"
+   },
+   "sourceRef": "course-0090111"
+  },
+  "GER 3104W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reading and Analysis of German Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3011 or advanced German proficiency."
+    },
+    "sourceRef": "course-0103071"
+   },
+   "sourceRef": "course-0103071"
+  },
+  "GER 3421": {
+   "catalogTerm": "Fall 2026",
+   "title": "18th-Century German Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3011"
+    },
+    "sourceRef": "course-0090121"
+   },
+   "sourceRef": "course-0090121"
+  },
+  "GER 3441": {
+   "catalogTerm": "Fall 2026",
+   "title": "20th-/21st-Century Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3011 or advanced German proficiency."
+    },
+    "sourceRef": "course-0090151"
+   },
+   "sourceRef": "course-0090151"
+  },
+  "GER 3501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Germany",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0090161"
+   },
+   "sourceRef": "course-0090161"
+  },
+  "GER 3510": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in German Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0090171"
+   },
+   "sourceRef": "course-0090171"
+  },
+  "GER 3520": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Austrian and Central European Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0090181"
+   },
+   "sourceRef": "course-0090181"
+  },
+  "GER 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "German Medieval Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "No knowledge of German required"
+    },
+    "sourceRef": "course-0101741"
+   },
+   "sourceRef": "course-0101741"
+  },
+  "GER 3604W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to German Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0105321"
+   },
+   "sourceRef": "course-0105321"
+  },
+  "GER 3610": {
+   "catalogTerm": "Fall 2026",
+   "title": "German Literature in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "No knowledge of German required; cr toward major or minor requires reading in German"
+    },
+    "sourceRef": "course-0090201"
+   },
+   "sourceRef": "course-0090201"
+  },
+  "GER 3631": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jewish and German Writing at the Margins: Multilingualism, Race, Memory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "No knowledge of German required; some work in German must be done in order to count this course toward a German minor or a German, Scandinavian, Dutch major."
+    },
+    "sourceRef": "course-0084541"
+   },
+   "sourceRef": "course-0084541"
+  },
+  "GER 3633": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Holocaust: Memory, Narrative, History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8167621"
+   },
+   "sourceRef": "course-8167621"
+  },
+  "GER 3634": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women & Nonbinary German Authors: Cultural History & Constructing Selves through Narrative & Media",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0084681"
+   },
+   "sourceRef": "course-0084681"
+  },
+  "GER 3641": {
+   "catalogTerm": "Fall 2026",
+   "title": "German Folklore",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "No knowledge of German required; cr for major or minor by arrangement with instructor"
+    },
+    "sourceRef": "course-0101881"
+   },
+   "sourceRef": "course-0101881"
+  },
+  "GER 3642": {
+   "catalogTerm": "Fall 2026",
+   "title": "Breaking the Spell: Analyzing Fairy Tales",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0084651"
+   },
+   "sourceRef": "course-0084651"
+  },
+  "GER 3651": {
+   "catalogTerm": "Fall 2026",
+   "title": "Thinking Environment: Green Culture, German Literature and Global Debates",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8099361"
+   },
+   "sourceRef": "course-8099361"
+  },
+  "GER 3655": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cultures of Control and Surveillance in Germany and the US",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8133421"
+   },
+   "sourceRef": "course-8133421"
+  },
+  "GER 3661": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Americans in Germany",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8263481"
+   },
+   "sourceRef": "course-8263481"
+  },
+  "GER 3671W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Art in Germany and Central Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271871"
+   },
+   "sourceRef": "course-8271871"
+  },
+  "GER 3701": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the German Language",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1004"
+    },
+    "sourceRef": "course-0102411"
+   },
+   "sourceRef": "course-0102411"
+  },
+  "GER 3702": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Middle High German",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1004"
+    },
+    "sourceRef": "course-0102541"
+   },
+   "sourceRef": "course-0102541"
+  },
+  "GER 5011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Conversation and Composition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3012, [grad student or adv undergrad]"
+    },
+    "sourceRef": "course-0102971"
+   },
+   "sourceRef": "course-0102971"
+  },
+  "GER 5065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Michel Foucault, Philosopher",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277651"
+   },
+   "sourceRef": "course-8277651"
+  },
+  "GER 5210": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in German Media Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8267031"
+   },
+   "sourceRef": "course-8267031"
+  },
+  "GER 5410": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in German Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099941"
+   },
+   "sourceRef": "course-0099941"
+  },
+  "GER 5510": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Contemporary German Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099971"
+   },
+   "sourceRef": "course-0099971"
+  },
+  "GER 5610": {
+   "catalogTerm": "Fall 2026",
+   "title": "German Literature in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "No knowledge of German required; cr toward major or minor requires reading in German"
+    },
+    "sourceRef": "course-0090211"
+   },
+   "sourceRef": "course-0090211"
+  },
+  "GER 5651": {
+   "catalogTerm": "Fall 2026",
+   "title": "Thinking Environment: Green Culture, German Literature and Global Debates",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8154241"
+   },
+   "sourceRef": "course-8154241"
+  },
+  "GER 5671W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Art in Germany and Central Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278981"
+   },
+   "sourceRef": "course-8278981"
+  },
+  "GER 5711": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the German Language I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3011"
+    },
+    "sourceRef": "course-0090491"
+   },
+   "sourceRef": "course-0090491"
+  },
+  "GER 5721": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Middle High German",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0090521"
+   },
+   "sourceRef": "course-0090521"
+  },
+  "GER 5734": {
+   "catalogTerm": "Fall 2026",
+   "title": "Old Saxon",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0085701"
+   },
+   "sourceRef": "course-0085701"
+  },
+  "GSD 3451V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Major Project Seminar",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student"
+    },
+    "sourceRef": "course-7876061"
+   },
+   "sourceRef": "course-7876061"
+  },
+  "GSD 3451W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Major Project Seminar",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0089781"
+   },
+   "sourceRef": "course-0089781"
+  },
+  "GSD 3511W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Vikings, Knights, and Reformers: German and European Culture and Controversies to 1700",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099511"
+   },
+   "sourceRef": "course-0099511"
+  },
+  "GSD 3512W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Imagined Communities: German and European, Culture and Controversies, 1700 to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099801"
+   },
+   "sourceRef": "course-0099801"
+  },
+  "GSD 3681": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262791"
+   },
+   "sourceRef": "course-8262791"
+  },
+  "HIST 3271": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Viking World: Story, History, and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0034541"
+   },
+   "sourceRef": "course-0034541"
+  },
+  "HIST 5271": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Viking World: Story, History, and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7963321"
+   },
+   "sourceRef": "course-7963321"
+  },
+  "JWST 3631": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jewish and German Writing at the Margins: Multilingualism, Race, Memory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "No knowledge of German required; some work in German must be done in order to count this course toward a German minor or a German, Scandinavian, Dutch major."
+    },
+    "sourceRef": "course-7970871"
+   },
+   "sourceRef": "course-7970871"
+  },
+  "JWST 3633": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Holocaust: Memory, Narrative, History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168041"
+   },
+   "sourceRef": "course-8168041"
+  },
+  "JWST 3635": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anne Frank: Perspectives on Her Life and Legacy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278331"
+   },
+   "sourceRef": "course-8278331"
+  },
+  "MEST 3271": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Viking World: Story, History, and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251711"
+   },
+   "sourceRef": "course-8251711"
+  },
+  "MEST 5271": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Viking World: Story, History, and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251721"
+   },
+   "sourceRef": "course-8251721"
+  },
+  "PHIL 3065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Michel Foucault, Philosopher",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277641"
+   },
+   "sourceRef": "course-8277641"
+  },
+  "PHIL 5065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Michel Foucault, Philosopher",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277631"
+   },
+   "sourceRef": "course-8277631"
+  },
+  "SCAN 3011W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in Scandinavian Languages",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Dan or Nor or Swed][1004 or 4004] or instr consent"
+    },
+    "sourceRef": "course-7901431"
+   },
+   "sourceRef": "course-7901431"
+  },
+  "SCAN 3501W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scandinavian Culture Past and Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0079851"
+   },
+   "sourceRef": "course-0079851"
+  },
+  "SCAN 3502": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scandinavian Myths",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0102061"
+   },
+   "sourceRef": "course-0102061"
+  },
+  "SCAN 3503": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scandinavian Folklore",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0084971"
+   },
+   "sourceRef": "course-0084971"
+  },
+  "SCAN 3504": {
+   "catalogTerm": "Fall 2026",
+   "title": "Emigration, Immigration, Integration: The Nordic Experience",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0079881"
+   },
+   "sourceRef": "course-0079881"
+  },
+  "SCAN 3602": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Literary Fairy Tale in Scandinavia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0084481"
+   },
+   "sourceRef": "course-0084481"
+  },
+  "SCAN 3604W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Living Pictures: An Introduction to Nordic Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8184921"
+   },
+   "sourceRef": "course-8184921"
+  },
+  "SCAN 3605": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Scandinavian Short Story",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0084461"
+   },
+   "sourceRef": "course-0084461"
+  },
+  "SCAN 3613": {
+   "catalogTerm": "Fall 2026",
+   "title": "Children's Literature in Scandinavia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0086291"
+   },
+   "sourceRef": "course-0086291"
+  },
+  "SCAN 3614": {
+   "catalogTerm": "Fall 2026",
+   "title": "Blood on Snow: Scandinavian Thrillers in Fiction and Film",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0086401"
+   },
+   "sourceRef": "course-0086401"
+  },
+  "SCAN 3617": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scandinavian Gothic: Horror and the Uncanny in Nordic Literature and Media",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8191341"
+   },
+   "sourceRef": "course-8191341"
+  },
+  "SCAN 3618": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scandinavian Drama",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0083881"
+   },
+   "sourceRef": "course-0083881"
+  },
+  "SCAN 3634": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scandinavian Women Writers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0083901"
+   },
+   "sourceRef": "course-0083901"
+  },
+  "SCAN 3670": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Scandinavian Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0083911"
+   },
+   "sourceRef": "course-0083911"
+  },
+  "SCAN 4011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in Scandinavian Languages",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student"
+    },
+    "sourceRef": "course-8085861"
+   },
+   "sourceRef": "course-8085861"
+  },
+  "SCAN 5605": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Scandinavian Short Story",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8098391"
+   },
+   "sourceRef": "course-8098391"
+  },
+  "SCAN 5614": {
+   "catalogTerm": "Fall 2026",
+   "title": "Blood on Snow: Scandinavian Thrillers in Fiction and Film",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100881"
+   },
+   "sourceRef": "course-8100881"
+  },
+  "SCAN 5617": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scandinavian Gothic: Horror and the Uncanny in Nordic Literature and Media",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8191351"
+   },
+   "sourceRef": "course-8191351"
+  },
+  "SCAN 5634": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scandinavian Women Writers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8089471"
+   },
+   "sourceRef": "course-8089471"
+  },
+  "SCAN 5670": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Scandinavian Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0086561"
+   },
+   "sourceRef": "course-0086561"
+  },
+  "SCAN 5701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Old Norse Language and Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0086581"
+   },
+   "sourceRef": "course-0086581"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-FVhYNF2P",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-VDPu2zwQ",
+    "type": "credits",
+    "courseSet": "set-VDPu2zwQ",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-ihH3EzIV",
+   "label": "Advanced Language",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-bXv3EYq2",
+    "type": "credits",
+    "courseSet": "set-bXv3EYq2",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Advanced Language"
+   }
+  },
+  {
+   "id": "g-bmG7t8q8",
+   "label": "Language & Textual Analysis",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Kp6Ks6Ei",
+    "type": "credits",
+    "courseSet": "set-Kp6Ks6Ei",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Language & Textual Analysis"
+   }
+  },
+  {
+   "id": "g-S9hbhrvB",
+   "label": "Critical Literacy & Global Understanding",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-5WnzuJK5",
+    "type": "credits",
+    "courseSet": "set-5WnzuJK5",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Critical Literacy & Global Understanding"
+   }
+  },
+  {
+   "id": "g-1ggWfckQ",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-CWWa8T1y",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-rDl296ZU",
+      "type": "credits",
+      "courseSet": "set-rDl296ZU",
+      "minCredits": 15,
+      "sourceRef": "program",
+      "label": "Electives"
+     },
+     {
+      "id": "r-mThFeTpP",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Directed Study: courses from this list count for at most 5 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Directed Study"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-oLOVeP8Q",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-3VlyMWjl",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-qgVmhkMc",
+      "type": "credits",
+      "courseSet": "set-qgVmhkMc",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Capstone Seminar"
+     },
+     {
+      "id": "r-dmbe76aE",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Students who choose to complete a German sub-plan or Scandinavian & Finnish sub-plan should complete their senior capstone course under the corresponding designator. GER 5011 may not count as the capstone. Verify this requirement with your advisor or APAS.",
+      "label": "GER / SCAN 5xxx-level Course"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-228220217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-400509",
+    "type": "count",
+    "courseSet": "set-400509",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Required Prerequisites",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ccKmGBeK",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-qnbPfTVR",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Dutch: courses from this list count for at most 16 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Dutch"
+     },
+     {
+      "id": "r-ciKnFHy0",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Finnish: courses from this list count for at most 20 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Finnish"
+     },
+     {
+      "id": "r-ON7UKeyE",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "German: courses from this list count for at most 20 credits. Verify this requirement with your advisor or APAS.",
+      "label": "German"
+     },
+     {
+      "id": "r-cmrpkLfY",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Norwegian: courses from this list count for at most 20 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Norwegian"
+     },
+     {
+      "id": "r-zkAgAGEX",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Swedish: courses from this list count for at most 20 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Swedish"
+     }
+    ],
+    "label": "Beginning and Intermediate Language Courses"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the German, Scandinavian, Dutch BA is GER.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996.\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nStudents are required to complete 4 semester(s) of Dutch, or Finnish, or German, or Norwegian, or Swedish. with a grade of C-, or better, or demonstrate proficiency in the language(s) as defined by the department or college.\nStudents may combine coursework across the department's designators, or to concentrate on one area by declaring an sub-plan (either German or Scandinavian & Finnish). In order to add a German or Scandinavian & Finnish sub-plan to your transcript, courses in the competencies, and 3 of 5 electives must be in the appropriate designator(s). Students who take courses taught in English will integrate work in the language of emphasis, as directed by the course instructor or the director of undergraduate studies.\nAt least 17 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: German, Scandinavian & Finnish. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

@@ -1,0 +1,252 @@
+{
+  "programId": "environmental-sciences-policy-and-management-bs",
+  "plan": "Conservation and Resource Management",
+  "source": "https://sampleplan.umn.edu/twin-cities/environmental-sciences-policy-and-management-bs",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "ESPM 1001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ESPM 1011"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "MATH 1142"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "WRIT 1301"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "choice",
+          "codes": [
+            "CHEM 1001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "CHEM 1017"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ESPM 2021"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "AECM 2421W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "choice",
+          "codes": [
+            "BIOL 1009"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "SOIL 2125"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "ESPM 3604"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "choice",
+          "codes": [
+            "ESPM 3012"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "ESPM 3241W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "PMB 2022"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "ESPM 3004"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "FNRM 3131"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "APEC 1101"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "FNRM 3262"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SOIL 3416"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "choice",
+          "codes": [
+            "ESPM 4041W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "CFAN 4096"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "ESPM 3111"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    }
+  ]
+}

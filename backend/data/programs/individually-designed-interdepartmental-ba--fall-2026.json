@@ -1,0 +1,157 @@
+{
+ "schemaVersion": 2,
+ "id": "individually-designed-interdepartmental-ba",
+ "name": "Individually Designed Interdepartmental B.A.",
+ "officialName": "Individually Designed Interdepartmental B.A.",
+ "officialProgramId": "045920217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Individually Designed Interdepartmental B.A., revision 045920217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/045920217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/045920217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 045920217-2026-09-08"
+  }
+ },
+ "courseSets": {},
+ "courseMetadata": {},
+ "groups": [
+  {
+   "id": "g-045920217",
+   "label": "Concentration Area Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-416555",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-416556",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-416557",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "First Concentration Area - lower-division Verify this requirement with your advisor or APAS.",
+        "label": "First Concentration Area - lower-division"
+       },
+       {
+        "id": "r-416558",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "First Concentration Area - upper-division Verify this requirement with your advisor or APAS.",
+        "label": "First Concentration Area - upper-division"
+       }
+      ],
+      "label": "First Concentration Area"
+     },
+     {
+      "id": "r-416559",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-416560",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Second Concentration Area - lower-division Verify this requirement with your advisor or APAS.",
+        "label": "Second Concentration Area - lower-division"
+       },
+       {
+        "id": "r-416561",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Second Concentration Area - upper-division Verify this requirement with your advisor or APAS.",
+        "label": "Second Concentration Area - upper-division"
+       }
+      ],
+      "label": "Second Concentration Area"
+     },
+     {
+      "id": "r-416562",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-416563",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Third Concentration Area - lower-division Verify this requirement with your advisor or APAS.",
+        "label": "Third Concentration Area - lower-division"
+       },
+       {
+        "id": "r-416564",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Third Concentration Area - upper-division Verify this requirement with your advisor or APAS.",
+        "label": "Third Concentration Area - upper-division"
+       }
+      ],
+      "label": "Third Concentration Area"
+     }
+    ],
+    "label": "Concentration Area Courses"
+   }
+  },
+  {
+   "id": "g-qsisOiv4",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-XkrgWr3t",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Capstone uses a course list the planner cannot read. Verify this requirement with your advisor or APAS.",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-ItasW8Jn",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-CEYV51Ki",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students are required to take one upper division writing intensive course within the major. Students work with their advisor to select the appropriate course. Verify this requirement with your advisor or APAS.",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 20 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nBecause of its interdisciplinary nature, this program is not held to the CLA requirement of 18 upper division credits outside the major.\nStudents must have their program approved by a committee and three department or faculty advisors.\nAt least 20 credits in the major must be completed after the program has been approved.\nNo more than 12 credits of directed study may be applied toward the program. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "For certain concentration areas, prerequisite courses must be completed before submitting a program proposal. For certain concentrations, a minimum overall GPA or a minimum tool course GPA is required before a student can submit a program proposal.\nStudents can declare the degree after completing an Information Session Module on the program website ( https://cla.umn.edu/undergraduate-students/advising/cla-individualized-degree-programs-and-advising ) and preparing a preliminary course list. Students are not approved for the degree until they have submitted a program proposal (the submission deadline is once per semester) and the proposal has been approved by a committee and faculty or department advisors.\nSee the IDIM advisor for more information. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

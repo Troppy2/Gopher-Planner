@@ -1,0 +1,2611 @@
+{
+ "schemaVersion": 2,
+ "id": "integrated-degree-program-bs",
+ "name": "Integrated Degree Program B.S.",
+ "officialName": "Integrated Degree Program B.S.",
+ "officialProgramId": "228520106",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Integrated Degree Program B.S., revision 228520106-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/228520106, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/228520106",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 228520106-2026-09-08"
+  },
+  "course-8016981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016981",
+   "retrieved": "2026-11-23",
+   "section": "Course record EDHD 1525W, version 8016981-2021-09-07"
+  },
+  "course-8054041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054041",
+   "retrieved": "2026-11-23",
+   "section": "Course record EDHD 1525V, version 8054041-2021-09-07"
+  },
+  "course-8162821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162821",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 1281, version 8162821-2020-01-21"
+  },
+  "course-0062651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001, version 0062651-2026-09-08"
+  },
+  "course-7990411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001H, version 7990411-2026-09-08"
+  },
+  "course-0029431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029431",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 1001, version 0029431-2021-05-17"
+  },
+  "course-8164821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164821",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1211, version 8164821-2018-01-16"
+  },
+  "course-8164831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164831",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 1461, version 8164831-2016-09-06"
+  },
+  "course-8164481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164481",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1461, version 8164481-2022-01-18"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-7887411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887411",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101H, version 7887411-2026-09-08"
+  },
+  "course-8020551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020551",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 1806, version 8020551-2024-05-13"
+  },
+  "course-0023941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023941",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1031, version 0023941-2025-09-02"
+  },
+  "course-0016161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016161",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 1001, version 0016161-2023-01-17"
+  },
+  "course-0133851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133851",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1051, version 0133851-2025-09-02"
+  },
+  "course-0133861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133861",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1151, version 0133861-2023-05-15"
+  },
+  "course-0002941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002941",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1155, version 0002941-2025-09-02"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-8164031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164031",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 1261, version 8164031-2019-09-03"
+  },
+  "course-8173851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173851",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 1826, version 8173851-2024-05-13"
+  },
+  "course-8016561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016561",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3301, version 8016561-2016-01-19"
+  },
+  "course-0021811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021811",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3132, version 0021811-2022-01-18"
+  },
+  "course-8016591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016591",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3303, version 8016591-2022-05-16"
+  },
+  "course-8265051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8265051",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3616W, version 8265051-2024-09-03"
+  },
+  "course-8091951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8091951",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 5631, version 8091951-2024-09-03"
+  },
+  "course-8091961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8091961",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 5632, version 8091961-2016-01-19"
+  },
+  "course-7972981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7972981",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 5661, version 7972981-2021-09-07"
+  },
+  "course-8091991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8091991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 5663, version 8091991-2021-09-07"
+  },
+  "course-8057701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8057701",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3318, version 8057701-2024-05-13"
+  },
+  "course-8054121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054121",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3401, version 8054121-2024-09-03"
+  },
+  "course-8054131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054131",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3424, version 8054131-2024-05-13"
+  },
+  "course-8054141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054141",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 4426, version 8054141-2024-05-13"
+  },
+  "course-0023571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023571",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 2301, version 0023571-2024-09-03"
+  },
+  "course-0048951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048951",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 5241, version 0048951-2024-09-03"
+  },
+  "course-0156221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0156221",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 5252, version 0156221-2024-09-03"
+  },
+  "course-0156231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0156231",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 5253, version 0156231-2021-09-07"
+  },
+  "course-8064181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064181",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 5254, version 8064181-2024-09-03"
+  },
+  "course-7946311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7946311",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 2103, version 7946311-2026-01-20"
+  },
+  "course-8170931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170931",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 2107, version 8170931-2025-05-19"
+  },
+  "course-8170851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170851",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4107, version 8170851-2026-01-20"
+  },
+  "course-8171441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171441",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4108, version 8171441-2024-09-03"
+  },
+  "course-0074561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074561",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 2106, version 0074561-2025-01-21"
+  },
+  "course-0074601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074601",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3101, version 0074601-2026-01-20"
+  },
+  "course-0158131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0158131",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4153, version 0158131-2026-01-20"
+  },
+  "course-0074261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074261",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1101, version 0074261-2026-01-20"
+  },
+  "course-0074331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074331",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3102, version 0074331-2026-01-20"
+  },
+  "course-0073351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073351",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 2101, version 0073351-2026-01-20"
+  },
+  "course-0075711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0075711",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3429, version 0075711-2025-09-02"
+  },
+  "course-8170941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170941",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4111, version 8170941-2026-01-20"
+  },
+  "course-0075331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0075331",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3426, version 0075331-2022-01-18"
+  },
+  "course-0074271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074271",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4101, version 0074271-2025-09-02"
+  },
+  "course-7905391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905391",
+   "retrieved": "2026-11-23",
+   "section": "Course record SW 3701, version 7905391-2025-09-02"
+  },
+  "course-7883701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7883701",
+   "retrieved": "2026-11-23",
+   "section": "Course record SW 3702, version 7883701-2026-09-08"
+  },
+  "course-0077201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077201",
+   "retrieved": "2026-11-23",
+   "section": "Course record SW 3703, version 0077201-2025-09-02"
+  },
+  "course-7942501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7942501",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3601, version 7942501-2012-05-21"
+  },
+  "course-7967371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7967371",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3621, version 7967371-2020-01-21"
+  },
+  "course-7967701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7967701",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3641, version 7967701-2025-05-19"
+  },
+  "course-8054511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054511",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 4696, version 8054511-2020-01-21"
+  },
+  "course-0159081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0159081",
+   "retrieved": "2026-11-23",
+   "section": "Course record LEAD 3961, version 0159081-2025-01-21"
+  },
+  "course-7902111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7902111",
+   "retrieved": "2026-11-23",
+   "section": "Course record LEAD 3971, version 7902111-2026-09-08"
+  },
+  "course-0042841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042841",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3001, version 0042841-2026-01-20"
+  },
+  "course-8020851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020851",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 4214, version 8020851-2022-09-06"
+  },
+  "course-8177071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8177071",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3801, version 8177071-2018-01-16"
+  },
+  "course-8165101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8165101",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 3101, version 8165101-2016-09-06"
+  },
+  "course-8121091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8121091",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 4121, version 8121091-2022-09-06"
+  },
+  "course-8116991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8116991",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 4122, version 8116991-2017-01-17"
+  },
+  "course-0156591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0156591",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 5641, version 0156591-2017-09-05"
+  },
+  "course-8164261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164261",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 5464, version 8164261-2016-09-06"
+  },
+  "course-8007381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8007381",
+   "retrieved": "2026-11-23",
+   "section": "Course record SW 1501, version 8007381-2026-09-08"
+  },
+  "course-7977311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977311",
+   "retrieved": "2026-11-23",
+   "section": "Course record SW 2501W, version 7977311-2026-09-08"
+  },
+  "course-7978461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7978461",
+   "retrieved": "2026-11-23",
+   "section": "Course record SW 3501, version 7978461-2026-09-08"
+  },
+  "course-7979021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7979021",
+   "retrieved": "2026-11-23",
+   "section": "Course record SW 4501, version 7979021-2026-09-08"
+  },
+  "course-8113281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8113281",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 2601, version 8113281-2022-01-18"
+  },
+  "course-8258881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8258881",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3613, version 8258881-2022-09-06"
+  },
+  "course-0022071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0022071",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 5114, version 0022071-2023-09-05"
+  },
+  "course-0044481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044481",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3114, version 0044481-2024-01-16"
+  },
+  "course-8005581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8005581",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 4641, version 8005581-2022-05-16"
+  },
+  "course-8183181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8183181",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 4687, version 8183181-2022-09-06"
+  },
+  "course-0042541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042541",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3111, version 0042541-2023-09-05"
+  },
+  "course-7921561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7921561",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3143, version 7921561-2026-01-20"
+  },
+  "course-0047671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047671",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3421, version 0047671-2026-01-20"
+  },
+  "course-0047551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047551",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3631, version 0047551-2026-01-20"
+  },
+  "course-0104501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104501",
+   "retrieved": "2026-11-23",
+   "section": "Course record LING 3001, version 0104501-2023-05-15"
+  },
+  "course-8069521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 3610, version 8069521-2015-09-08"
+  },
+  "course-8100191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100191",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 3611W, version 8100191-2024-05-13"
+  },
+  "course-8100221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100221",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 3612, version 8100221-2024-05-13"
+  },
+  "course-8100231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100231",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 3613, version 8100231-2018-01-16"
+  },
+  "course-7979051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7979051",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 1001, version 7979051-2021-09-07"
+  },
+  "course-0150831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4022W, version 0150831-2026-09-08"
+  },
+  "course-0150841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150841",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4023W, version 0150841-2025-05-19"
+  },
+  "course-0033601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033601",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 4311W, version 0033601-2014-01-21"
+  },
+  "course-0023601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023601",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4313W, version 0023601-2019-05-20"
+  },
+  "course-0165101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165101",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 5251W, version 0165101-2024-09-03"
+  },
+  "course-8187971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187971",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3222W, version 8187971-2020-01-21"
+  },
+  "course-8173421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173421",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4109W, version 8173421-2026-01-20"
+  },
+  "course-8094811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094811",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3324W, version 8094811-2017-05-22"
+  },
+  "course-8094821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094821",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3325W, version 8094821-2024-05-13"
+  },
+  "course-7977951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977951",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4401W, version 7977951-2024-05-13"
+  }
+ },
+ "courseSets": {
+  "set-xrni6mng": {
+   "codes": [
+    "EDHD 1525W",
+    "EDHD 1525V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-AAf0eRAJ": {
+   "codes": [
+    "EPSY 1281",
+    "PSY 1001",
+    "PSY 1001H",
+    "SOC 1001",
+    "FSOS 1211"
+   ],
+   "sourceRef": "program"
+  },
+  "set-XQEpJWTj": {
+   "codes": [
+    "OLPD 1461",
+    "FSOS 1461",
+    "COMM 1101",
+    "COMM 1101H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-y3GdOgyF": {
+   "codes": [
+    "CI 1806",
+    "MATH 1031",
+    "STAT 1001",
+    "MATH 1051",
+    "MATH 1151",
+    "MATH 1155",
+    "EPSY 3264",
+    "EPSY 1261",
+    "CI 1826"
+   ],
+   "sourceRef": "program"
+  },
+  "set-iWeqeHla": {
+   "codes": [
+    "EPSY 3301",
+    "EPSY 3264",
+    "EPSY 3132",
+    "EPSY 3303"
+   ],
+   "sourceRef": "program"
+  },
+  "set-cgSIerWN": {
+   "codes": [
+    "EPSY 3616W",
+    "EPSY 5631",
+    "EPSY 5632",
+    "EPSY 5661",
+    "EPSY 5663"
+   ],
+   "sourceRef": "program"
+  },
+  "set-uG7GvKPQ": {
+   "codes": [
+    "OLPD 3318",
+    "OLPD 3401",
+    "OLPD 3424",
+    "OLPD 4426"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qJ43xbxS": {
+   "codes": [
+    "CPSY 2301",
+    "CPSY 5241",
+    "CPSY 5252",
+    "CPSY 5253",
+    "CPSY 5254"
+   ],
+   "sourceRef": "program"
+  },
+  "set-rEI5Jpzf": {
+   "codes": [
+    "FSOS 2103",
+    "FSOS 2107",
+    "FSOS 4107",
+    "FSOS 4108"
+   ],
+   "sourceRef": "program"
+  },
+  "set-nePLcy3T": {
+   "codes": [
+    "FSOS 2106",
+    "FSOS 3101",
+    "FSOS 4153"
+   ],
+   "sourceRef": "program"
+  },
+  "set-1xTqqCq0": {
+   "codes": [
+    "FSOS 1101",
+    "FSOS 3102"
+   ],
+   "sourceRef": "program"
+  },
+  "set-KhTGp6H3": {
+   "codes": [
+    "FSOS 2101",
+    "FSOS 3429",
+    "FSOS 4111",
+    "FSOS 3426",
+    "FSOS 4101"
+   ],
+   "sourceRef": "program"
+  },
+  "set-vRsOM952": {
+   "codes": [
+    "SW 3701",
+    "SW 3702",
+    "SW 3703"
+   ],
+   "sourceRef": "program"
+  },
+  "set-dNc4yeXY": {
+   "codes": [
+    "OLPD 3601",
+    "OLPD 3621",
+    "OLPD 3641",
+    "OLPD 4696"
+   ],
+   "sourceRef": "program"
+  },
+  "set-QxVjwYfU": {
+   "codes": [
+    "LEAD 3961",
+    "LEAD 3971"
+   ],
+   "sourceRef": "program"
+  },
+  "set-8oJNvbu7": {
+   "codes": [
+    "KIN 3001",
+    "KIN 4214",
+    "EPSY 3801"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ZgkrgshC": {
+   "codes": [
+    "CI 3101",
+    "CI 4121",
+    "CI 4122",
+    "CI 5641",
+    "CI 5464"
+   ],
+   "sourceRef": "program"
+  },
+  "set-3gGnqhWY": {
+   "codes": [
+    "SW 1501",
+    "SW 2501W",
+    "SW 3501",
+    "SW 4501"
+   ],
+   "sourceRef": "program"
+  },
+  "set-QAb3z2mo": {
+   "codes": [
+    "EPSY 2601",
+    "EPSY 3613",
+    "EPSY 5114"
+   ],
+   "sourceRef": "program"
+  },
+  "set-wTHWYz4q": {
+   "codes": [
+    "KIN 3114",
+    "KIN 4641",
+    "KIN 4687"
+   ],
+   "sourceRef": "program"
+  },
+  "set-TFjrBmzW": {
+   "codes": [
+    "SMGT 3111",
+    "SMGT 3143",
+    "SMGT 3421",
+    "SMGT 3631"
+   ],
+   "sourceRef": "program"
+  },
+  "set-jNueMDlG": {
+   "codes": [
+    "LING 3001",
+    "CI 3610",
+    "CI 3611W",
+    "CI 3612",
+    "CI 3613"
+   ],
+   "sourceRef": "program"
+  },
+  "set-NlqWlxQS": {
+   "codes": [
+    "ABUS 4022W",
+    "ABUS 4023W",
+    "CI 3611W",
+    "CI 4311W",
+    "CPSY 4313W",
+    "CPSY 5251W",
+    "EPSY 3616W",
+    "FSOS 3222W",
+    "FSOS 4109W",
+    "OLPD 3324W",
+    "YOST 3325W",
+    "YOST 4401W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ABUS 4022W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategic Management and Leadership",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 credits completed. Students will have better success if they have successfully taken and completed a technical writing or English composition course at the University level and can apply good writing techniques in this class."
+    },
+    "sourceRef": "course-0150831"
+   },
+   "sourceRef": "course-0150831"
+  },
+  "ABUS 4023W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communicating for Strategic Results",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 cr recommended"
+    },
+    "sourceRef": "course-0150841"
+   },
+   "sourceRef": "course-0150841"
+  },
+  "CI 1806": {
+   "catalogTerm": "Fall 2026",
+   "title": "College Algebra through Modeling",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8020551"
+   },
+   "sourceRef": "course-8020551"
+  },
+  "CI 1826": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Change, Social Justice: An Introduction to Applied Calculus",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173851"
+   },
+   "sourceRef": "course-8173851"
+  },
+  "CI 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Issues in Urban Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8165101"
+   },
+   "sourceRef": "course-8165101"
+  },
+  "CI 3610": {
+   "catalogTerm": "Fall 2026",
+   "title": "Linguistics for Teachers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8069521"
+   },
+   "sourceRef": "course-8069521"
+  },
+  "CI 3611W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basics in Teaching English as a Second Language",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100191"
+   },
+   "sourceRef": "course-8100191"
+  },
+  "CI 3612": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Pronunciation and Grammar for ESL Teachers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100221"
+   },
+   "sourceRef": "course-8100221"
+  },
+  "CI 3613": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intercultural Communication and English Language Teaching",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100231"
+   },
+   "sourceRef": "course-8100231"
+  },
+  "CI 4121": {
+   "catalogTerm": "Fall 2026",
+   "title": "Culture Power and Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8121091"
+   },
+   "sourceRef": "course-8121091"
+  },
+  "CI 4122": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Class Education and Pedagogy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8116991"
+   },
+   "sourceRef": "course-8116991"
+  },
+  "CI 4311W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technology and Ethics in Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033601"
+   },
+   "sourceRef": "course-0033601"
+  },
+  "CI 5464": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Politics of Literacy and Race in Schools",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164261"
+   },
+   "sourceRef": "course-8164261"
+  },
+  "CI 5641": {
+   "catalogTerm": "Fall 2026",
+   "title": "Language, Culture, and Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0156591"
+   },
+   "sourceRef": "course-0156591"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "COMM 1101H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-7887411"
+   },
+   "sourceRef": "course-7887411"
+  },
+  "CPSY 2301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Developmental Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023571"
+   },
+   "sourceRef": "course-0023571"
+  },
+  "CPSY 4313W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Disabilities and Development",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "PSY 1001"
+    },
+    "sourceRef": "course-0023601"
+   },
+   "sourceRef": "course-0023601"
+  },
+  "CPSY 5241": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Experience in Early Childhood Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2/3301 or equiv."
+    },
+    "sourceRef": "course-0048951"
+   },
+   "sourceRef": "course-0048951"
+  },
+  "CPSY 5251W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social and Philosophical Foundations of Early Childhood Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2/3301 or equiv."
+    },
+    "sourceRef": "course-0165101"
+   },
+   "sourceRef": "course-0165101"
+  },
+  "CPSY 5252": {
+   "catalogTerm": "Fall 2026",
+   "title": "Facilitating Social and Emotional Learning in Early Childhood Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 or equiv or inst consent. For Early Childhood or ECSE students."
+    },
+    "sourceRef": "course-0156221"
+   },
+   "sourceRef": "course-0156221"
+  },
+  "CPSY 5253": {
+   "catalogTerm": "Fall 2026",
+   "title": "Facilitating Cognitive and Language Learning in Early Childhood Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 or equiv or inst consent. For Early Childhood or ECSE students."
+    },
+    "sourceRef": "course-0156231"
+   },
+   "sourceRef": "course-0156231"
+  },
+  "CPSY 5254": {
+   "catalogTerm": "Fall 2026",
+   "title": "Facilitating Creative and Motor Learning in Early Childhood Education",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 or equiv or inst consent. For Early Childhood and ECSE students."
+    },
+    "sourceRef": "course-8064181"
+   },
+   "sourceRef": "course-8064181"
+  },
+  "EDHD 1525V": {
+   "catalogTerm": "Fall 2026",
+   "title": "CEHD First Year Experience",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CEHD student, honors, 1st-term fr"
+    },
+    "sourceRef": "course-8054041"
+   },
+   "sourceRef": "course-8054041"
+  },
+  "EDHD 1525W": {
+   "catalogTerm": "Fall 2026",
+   "title": "CEHD First Year Experience",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8016981"
+   },
+   "sourceRef": "course-8016981"
+  },
+  "EPSY 1261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Data Stories through Visualization & Computing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164031"
+   },
+   "sourceRef": "course-8164031"
+  },
+  "EPSY 1281": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychological Science Applied",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162821"
+   },
+   "sourceRef": "course-8162821"
+  },
+  "EPSY 2601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Differences, Disabilities, and the Career of Special Education",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8113281"
+   },
+   "sourceRef": "course-8113281"
+  },
+  "EPSY 3132": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Multiculturalism in Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021811"
+   },
+   "sourceRef": "course-0021811"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "EPSY 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Educational Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8016561"
+   },
+   "sourceRef": "course-8016561"
+  },
+  "EPSY 3303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Educational Psychology Undergraduate Practicum",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8016591"
+   },
+   "sourceRef": "course-8016591"
+  },
+  "EPSY 3613": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Special Education I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8258881"
+   },
+   "sourceRef": "course-8258881"
+  },
+  "EPSY 3616W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Classroom Management and Behavior Analytic Problem Solving",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8265051"
+   },
+   "sourceRef": "course-8265051"
+  },
+  "EPSY 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Science of Human Resilience and Wellbeing: Foundational Knowledge for Career and Life Success",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8177071"
+   },
+   "sourceRef": "course-8177071"
+  },
+  "EPSY 5114": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Student Learning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0022071"
+   },
+   "sourceRef": "course-0022071"
+  },
+  "EPSY 5631": {
+   "catalogTerm": "Fall 2026",
+   "title": "Module 1: Introduction to Augmentative and Alternative Communication",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8091951"
+   },
+   "sourceRef": "course-8091951"
+  },
+  "EPSY 5632": {
+   "catalogTerm": "Fall 2026",
+   "title": "Module 2: Evidence-based Methods for AAC Assessment and Intervention",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8091961"
+   },
+   "sourceRef": "course-8091961"
+  },
+  "EPSY 5661": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Autism Spectrum Disorder",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7972981"
+   },
+   "sourceRef": "course-7972981"
+  },
+  "EPSY 5663": {
+   "catalogTerm": "Fall 2026",
+   "title": "Assessment and Intervention for Individuals with Autism Spectrum Disorder",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5661, Special Ed grad, licensure student, ASD Certificate student, IDP major or instr consent"
+    },
+    "sourceRef": "course-8091991"
+   },
+   "sourceRef": "course-8091991"
+  },
+  "FSOS 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intimate Relationships",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074261"
+   },
+   "sourceRef": "course-0074261"
+  },
+  "FSOS 1211": {
+   "catalogTerm": "Fall 2026",
+   "title": "An Interdisciplinary Look at the Family in Multicultural America",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164821"
+   },
+   "sourceRef": "course-8164821"
+  },
+  "FSOS 1461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Presentations at Work: Families, Communities, Nonprofits, and Schools",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164481"
+   },
+   "sourceRef": "course-8164481"
+  },
+  "FSOS 2101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Preparation for Working With Families",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0073351"
+   },
+   "sourceRef": "course-0073351"
+  },
+  "FSOS 2103": {
+   "catalogTerm": "Fall 2026",
+   "title": "Family Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7946311"
+   },
+   "sourceRef": "course-7946311"
+  },
+  "FSOS 2106": {
+   "catalogTerm": "Fall 2026",
+   "title": "Family Resources and Economic Justice: Building Wealth in Multicultural America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074561"
+   },
+   "sourceRef": "course-0074561"
+  },
+  "FSOS 2107": {
+   "catalogTerm": "Fall 2026",
+   "title": "Preparation for Family and Community Engagement",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170931"
+   },
+   "sourceRef": "course-8170931"
+  },
+  "FSOS 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Personal and Family Finances",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074601"
+   },
+   "sourceRef": "course-0074601"
+  },
+  "FSOS 3102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Family Systems and Diversity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "soph or jr or sr or grad"
+    },
+    "sourceRef": "course-0074331"
+   },
+   "sourceRef": "course-0074331"
+  },
+  "FSOS 3222W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Our Addicted World: Going Beyond the Individual in Looking at the Addiction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187971"
+   },
+   "sourceRef": "course-8187971"
+  },
+  "FSOS 3426": {
+   "catalogTerm": "Fall 2026",
+   "title": "Alcohol and Drugs: Families and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0075331"
+   },
+   "sourceRef": "course-0075331"
+  },
+  "FSOS 3429": {
+   "catalogTerm": "Fall 2026",
+   "title": "Counseling Skills Practicum I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0075711"
+   },
+   "sourceRef": "course-0075711"
+  },
+  "FSOS 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sexuality and Gender in Families and Close Relationships",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least jr or instr consent"
+    },
+    "sourceRef": "course-0074271"
+   },
+   "sourceRef": "course-0074271"
+  },
+  "FSOS 4107": {
+   "catalogTerm": "Fall 2026",
+   "title": "Traumatic Stress and Resilience in Vulnerable Families Across the Lifespan",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170851"
+   },
+   "sourceRef": "course-8170851"
+  },
+  "FSOS 4108": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding and Working with Immigrants and Refugee Families",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171441"
+   },
+   "sourceRef": "course-8171441"
+  },
+  "FSOS 4109W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Family Theories",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173421"
+   },
+   "sourceRef": "course-8173421"
+  },
+  "FSOS 4111": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Family Therapy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170941"
+   },
+   "sourceRef": "course-8170941"
+  },
+  "FSOS 4153": {
+   "catalogTerm": "Fall 2026",
+   "title": "Family Financial Counseling",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0158131"
+   },
+   "sourceRef": "course-0158131"
+  },
+  "KIN 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Lifetime Health and Wellness",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042841"
+   },
+   "sourceRef": "course-0042841"
+  },
+  "KIN 3114": {
+   "catalogTerm": "Fall 2026",
+   "title": "Prevention and Care of Athletic Injuries",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Students are encouraged to have taken an anatomy course."
+    },
+    "sourceRef": "course-0044481"
+   },
+   "sourceRef": "course-0044481"
+  },
+  "KIN 4214": {
+   "catalogTerm": "Fall 2026",
+   "title": "Health Promotion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8020851"
+   },
+   "sourceRef": "course-8020851"
+  },
+  "KIN 4641": {
+   "catalogTerm": "Fall 2026",
+   "title": "Training Theory & Analytics I for Exercise & Sport Performance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Enrolled in Kinesiology Major, Physical Activity and Health Promotion Major, Sports Coaching Minor, Physical Activity and Promotion Minor, Sport and Exercise Science M.Ed, Physical Activity and Health M.Ed, or Integrated Degree Program"
+    },
+    "sourceRef": "course-8005581"
+   },
+   "sourceRef": "course-8005581"
+  },
+  "KIN 4687": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles and Theory of Sports Coaching",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8183181"
+   },
+   "sourceRef": "course-8183181"
+  },
+  "LEAD 3961": {
+   "catalogTerm": "Fall 2026",
+   "title": "Leadership, You, and Your Community",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0159081"
+   },
+   "sourceRef": "course-0159081"
+  },
+  "LEAD 3971": {
+   "catalogTerm": "Fall 2026",
+   "title": "Leadership Minor: Field Experience",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7902111"
+   },
+   "sourceRef": "course-7902111"
+  },
+  "LING 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Linguistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0104501"
+   },
+   "sourceRef": "course-0104501"
+  },
+  "MATH 1031": {
+   "catalogTerm": "Fall 2026",
+   "title": "College Algebra and Probability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on Placement Exam."
+    },
+    "sourceRef": "course-0023941"
+   },
+   "sourceRef": "course-0023941"
+  },
+  "MATH 1051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Precalculus I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement exam."
+    },
+    "sourceRef": "course-0133851"
+   },
+   "sourceRef": "course-0133851"
+  },
+  "MATH 1151": {
+   "catalogTerm": "Fall 2026",
+   "title": "Precalculus II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement exam or grade of at least C- in [1031 or 1051]"
+    },
+    "sourceRef": "course-0133861"
+   },
+   "sourceRef": "course-0133861"
+  },
+  "MATH 1155": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intensive Precalculus",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on Placement Exam."
+    },
+    "sourceRef": "course-0002941"
+   },
+   "sourceRef": "course-0002941"
+  },
+  "OLPD 1461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Presentations in Work Settings: Business & Marketing Education and Human Resource Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164831"
+   },
+   "sourceRef": "course-8164831"
+  },
+  "OLPD 3318": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Project Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8057701"
+   },
+   "sourceRef": "course-8057701"
+  },
+  "OLPD 3324W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing in the Workplace for Education and Human Development Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "60+ undergraduate credits, declared major"
+    },
+    "sourceRef": "course-8094811"
+   },
+   "sourceRef": "course-8094811"
+  },
+  "OLPD 3401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Teaching Marketing Promotion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8054121"
+   },
+   "sourceRef": "course-8054121"
+  },
+  "OLPD 3424": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sales Training",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8054131"
+   },
+   "sourceRef": "course-8054131"
+  },
+  "OLPD 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Human Resource Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7942501"
+   },
+   "sourceRef": "course-7942501"
+  },
+  "OLPD 3621": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Training and Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7967371"
+   },
+   "sourceRef": "course-7967371"
+  },
+  "OLPD 3641": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Organization Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7967701"
+   },
+   "sourceRef": "course-7967701"
+  },
+  "OLPD 4426": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategic Customer Relationship Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8054141"
+   },
+   "sourceRef": "course-8054141"
+  },
+  "OLPD 4696": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Experience in Business Marketing Education & Human Resource Development",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "OLPD ugrd student in BME/HRD,  BME compl 3 of the 4 cores: OLPD 3318, 3401, 3424, 4426. HRD compl 4 of the 4 cores: OLPD 3601, 3202, 3621, 3641. Completed or permission to be concurrently registered for OLPD 3609."
+    },
+    "sourceRef": "course-8054511"
+   },
+   "sourceRef": "course-8054511"
+  },
+  "PSY 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062651"
+   },
+   "sourceRef": "course-0062651"
+  },
+  "PSY 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors."
+    },
+    "sourceRef": "course-7990411"
+   },
+   "sourceRef": "course-7990411"
+  },
+  "SMGT 3111": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sports Facility and Event Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major or SMGT minor or CEHD IDP or instructor consent"
+    },
+    "sourceRef": "course-0042541"
+   },
+   "sourceRef": "course-0042541"
+  },
+  "SMGT 3143": {
+   "catalogTerm": "Fall 2026",
+   "title": "Organization and Management of Sport",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major or SMGT minor or Esports Minor or CEHD IDP or instructor consent."
+    },
+    "sourceRef": "course-7921561"
+   },
+   "sourceRef": "course-7921561"
+  },
+  "SMGT 3421": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business of Sport",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major or SMGT minor or Esports minor or CEHD IDP or instructor consent"
+    },
+    "sourceRef": "course-0047671"
+   },
+   "sourceRef": "course-0047671"
+  },
+  "SMGT 3631": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sport Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major or SMGT minor or Esports Minor or CEHD IDP or instructor consent"
+    },
+    "sourceRef": "course-0047551"
+   },
+   "sourceRef": "course-0047551"
+  },
+  "SOC 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Sociology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc Majors/Minors must register A-F"
+    },
+    "sourceRef": "course-0029431"
+   },
+   "sourceRef": "course-0029431"
+  },
+  "STAT 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to the Ideas of Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Mathematics requirement for admission to University"
+    },
+    "sourceRef": "course-0016161"
+   },
+   "sourceRef": "course-0016161"
+  },
+  "SW 1501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Peace Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8007381"
+   },
+   "sourceRef": "course-8007381"
+  },
+  "SW 2501W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Social Justice",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977311"
+   },
+   "sourceRef": "course-7977311"
+  },
+  "SW 3501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theories and Practices of Social Change Organizing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7978461"
+   },
+   "sourceRef": "course-7978461"
+  },
+  "SW 3701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Child Maltreatment: Intervention and Prevention",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7905391"
+   },
+   "sourceRef": "course-7905391"
+  },
+  "SW 3702": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Adult Intimate Partner Violence: Intervention and Prevention",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7883701"
+   },
+   "sourceRef": "course-7883701"
+  },
+  "SW 3703": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender Violence in Global Perspective",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0077201"
+   },
+   "sourceRef": "course-0077201"
+  },
+  "SW 4501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Seminar in Social Justice",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7979021"
+   },
+   "sourceRef": "course-7979021"
+  },
+  "YOST 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Seeing Youth, Thinking Youth: Media, Popular Media, and Scholarship",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7979051"
+   },
+   "sourceRef": "course-7979051"
+  },
+  "YOST 3325W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Project-Based Writing For Education and Human Development Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "jr or sr level"
+    },
+    "sourceRef": "course-8094821"
+   },
+   "sourceRef": "course-8094821"
+  },
+  "YOST 4401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Young People's Spirituality and Youth Work: An Introduction",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977951"
+   },
+   "sourceRef": "course-7977951"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-ONmLHg09",
+   "label": "First Year Experience",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-xrni6mng",
+    "type": "count",
+    "courseSet": "set-xrni6mng",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "First Year Experience"
+   }
+  },
+  {
+   "id": "g-xSOmbC4l",
+   "label": "Two or Three Area Within-College Program Options",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sf0aneAX",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Two or Three Area Within-College Program Options Verify this requirement with your advisor or APAS.",
+    "label": "Two or Three Area Within-College Program Options"
+   }
+  },
+  {
+   "id": "g-L0Did5xK",
+   "label": "Social Sciences",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-AAf0eRAJ",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-AAf0eRAJ-credits",
+      "type": "credits",
+      "courseSet": "set-AAf0eRAJ",
+      "minCredits": 4,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-AAf0eRAJ-min",
+      "type": "count",
+      "courseSet": "set-AAf0eRAJ",
+      "minCourses": 1,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-AAf0eRAJ-max",
+      "type": "count",
+      "courseSet": "set-AAf0eRAJ",
+      "maxCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Social Sciences"
+   }
+  },
+  {
+   "id": "g-tyuAqfdh",
+   "label": "Public Speaking",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-XQEpJWTj",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-XQEpJWTj-credits",
+      "type": "credits",
+      "courseSet": "set-XQEpJWTj",
+      "minCredits": 3,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-XQEpJWTj-min",
+      "type": "count",
+      "courseSet": "set-XQEpJWTj",
+      "minCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Public Speaking"
+   }
+  },
+  {
+   "id": "g-bzU4zotS",
+   "label": "Math",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-y3GdOgyF",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-y3GdOgyF-credits",
+      "type": "credits",
+      "courseSet": "set-y3GdOgyF",
+      "minCredits": 3,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-y3GdOgyF-min",
+      "type": "count",
+      "courseSet": "set-y3GdOgyF",
+      "minCourses": 1,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-y3GdOgyF-max",
+      "type": "count",
+      "courseSet": "set-y3GdOgyF",
+      "maxCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Math"
+   }
+  },
+  {
+   "id": "g-2ndy4AiW",
+   "label": "Core Courses by Concentration",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-QXv4ZPnG",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-iWeqeHla",
+      "type": "credits",
+      "courseSet": "set-iWeqeHla",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Applied Psychology in Educational and Community Settings"
+     },
+     {
+      "id": "r-cgSIerWN",
+      "type": "credits",
+      "courseSet": "set-cgSIerWN",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Autism Spectrum Disorder"
+     },
+     {
+      "id": "r-uG7GvKPQ",
+      "type": "credits",
+      "courseSet": "set-uG7GvKPQ",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Business and Marketing Education"
+     },
+     {
+      "id": "r-qJ43xbxS",
+      "type": "credits",
+      "courseSet": "set-qJ43xbxS",
+      "minCredits": 15,
+      "sourceRef": "program",
+      "label": "Early Childhood Education"
+     },
+     {
+      "id": "r-rEI5Jpzf",
+      "type": "credits",
+      "courseSet": "set-rEI5Jpzf",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Family and Community Engagement"
+     },
+     {
+      "id": "r-nePLcy3T",
+      "type": "credits",
+      "courseSet": "set-nePLcy3T",
+      "minCredits": 9,
+      "sourceRef": "program",
+      "label": "Family Financial Studies"
+     },
+     {
+      "id": "r-1xTqqCq0",
+      "type": "credits",
+      "courseSet": "set-1xTqqCq0",
+      "minCredits": 7,
+      "sourceRef": "program",
+      "label": "Family Social Sciences"
+     },
+     {
+      "id": "r-KhTGp6H3",
+      "type": "credits",
+      "courseSet": "set-KhTGp6H3",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Family Therapy"
+     },
+     {
+      "id": "r-vRsOM952",
+      "type": "credits",
+      "courseSet": "set-vRsOM952",
+      "minCredits": 9,
+      "sourceRef": "program",
+      "label": "Family Violence Prevention"
+     },
+     {
+      "id": "r-dNc4yeXY",
+      "type": "credits",
+      "courseSet": "set-dNc4yeXY",
+      "minCredits": 10,
+      "sourceRef": "program",
+      "label": "Human Resource Development"
+     },
+     {
+      "id": "r-QxVjwYfU",
+      "type": "credits",
+      "courseSet": "set-QxVjwYfU",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Leadership"
+     },
+     {
+      "id": "r-8oJNvbu7",
+      "type": "credits",
+      "courseSet": "set-8oJNvbu7",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Physical Activity and Health Promotion"
+     },
+     {
+      "id": "r-ZgkrgshC",
+      "type": "credits",
+      "courseSet": "set-ZgkrgshC",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Racial Justice in Urban Schooling"
+     },
+     {
+      "id": "r-3gGnqhWY",
+      "type": "credits",
+      "courseSet": "set-3gGnqhWY",
+      "minCredits": 11,
+      "sourceRef": "program",
+      "label": "Social Justice"
+     },
+     {
+      "id": "r-QAb3z2mo",
+      "type": "credits",
+      "courseSet": "set-QAb3z2mo",
+      "minCredits": 10,
+      "sourceRef": "program",
+      "label": "Special Education"
+     },
+     {
+      "id": "r-wTHWYz4q",
+      "type": "credits",
+      "courseSet": "set-wTHWYz4q",
+      "minCredits": 9,
+      "sourceRef": "program",
+      "label": "Sports Coaching"
+     },
+     {
+      "id": "r-TFjrBmzW",
+      "type": "credits",
+      "courseSet": "set-TFjrBmzW",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Sport Management"
+     },
+     {
+      "id": "r-jNueMDlG",
+      "type": "credits",
+      "courseSet": "set-jNueMDlG",
+      "minCredits": 14,
+      "sourceRef": "program",
+      "label": "Teaching English as a Second Language"
+     },
+     {
+      "id": "r-f8zXsHjF",
+      "type": "course",
+      "code": "YOST 1001",
+      "sourceRef": "program",
+      "label": "Youth Studies"
+     }
+    ],
+    "label": "Core Courses by Concentration"
+   }
+  },
+  {
+   "id": "g-0e7uABnU",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-NlqWlxQS",
+    "type": "count",
+    "courseSet": "set-NlqWlxQS",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students are considered for admission based on a review of their application. The review includes factors such as GPA, grade trends, performance in coursework relevant to proposed areas of study, and demonstrated ability to meet curricular and developmental expectations of individualized undergraduate education. Students who transfer within the University are not eligible for admission to this major.\nStudents must develop a degree plan that includes:\nAcademic and career goals\nCourses proposed for the program\nIDP Area Requirements\nStudents choosing the IDP sport management area are required to take SMGT 1701 before declaring their major.\nStudents choosing the IDP Leadership Area are required to take LEAD 1961W before declaring their major.\nRegardless of what minors/certificates/concentration areas students choose to integrate, one course in each of the following areas must be taken: Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's Liberal Education requirements .\nCollegiate Requirements:\nAll incoming CEHD Freshmen must complete the First-Year Experience course.\nAt least 25 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

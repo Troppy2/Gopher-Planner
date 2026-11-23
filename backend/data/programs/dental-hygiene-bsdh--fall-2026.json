@@ -1,0 +1,2250 @@
+{
+ "schemaVersion": 2,
+ "id": "dental-hygiene-bsdh",
+ "name": "Dental Hygiene B.S.D.H.",
+ "officialName": "Dental Hygiene B.S.D.H.",
+ "officialProgramId": "021624904",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Dental Hygiene B.S.D.H., revision 021624904-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/021624904, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/021624904",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 021624904-2026-09-08"
+  },
+  "course-0054161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009, version 0054161-2020-09-08"
+  },
+  "course-7908161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009H, version 7908161-2020-09-08"
+  },
+  "course-7976151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976151",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1017, version 7976151-2026-05-18"
+  },
+  "course-8283871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8283871",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1001, version 8283871-2026-09-08"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-8077581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077581",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1071H, version 8077581-2026-09-08"
+  },
+  "course-0062651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001, version 0062651-2026-09-08"
+  },
+  "course-7990411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001H, version 7990411-2026-09-08"
+  },
+  "course-8003721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003721",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 1301, version 8003721-2025-05-19"
+  },
+  "course-7881551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7881551",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANAT 3001, version 7881551-2015-01-20"
+  },
+  "course-8008441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8008441",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANAT 3601, version 8008441-2015-01-20"
+  },
+  "course-7898971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7898971",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANAT 3611, version 7898971-2015-01-20"
+  },
+  "course-7889931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889931",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3027, version 7889931-2024-09-03"
+  },
+  "course-0029431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029431",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 1001, version 0029431-2021-05-17"
+  },
+  "course-0105661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0105661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHSL 3051, version 0105661-2015-01-20"
+  },
+  "course-0052701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052701",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3385, version 0052701-2023-05-15"
+  },
+  "course-0016161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016161",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 1001, version 0016161-2023-01-17"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0011481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3811, version 0011481-2024-05-13"
+  },
+  "course-7989021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989021",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3801, version 7989021-2021-05-17"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-7882031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7882031",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 2011, version 7882031-2016-01-19"
+  },
+  "course-0129791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129791",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 2121, version 0129791-2022-01-18"
+  },
+  "course-8033811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8033811",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 2121, version 8033811-2022-01-18"
+  },
+  "course-0127401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0127401",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 2132, version 0127401-2022-09-06"
+  },
+  "course-8259961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8259961",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 2132, version 8259961-2022-09-06"
+  },
+  "course-0168741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0168741",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 3133, version 0168741-2025-09-02"
+  },
+  "course-8054301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054301",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 3133, version 8054301-2025-09-02"
+  },
+  "course-0129781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129781",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 2212, version 0129781-2022-01-18"
+  },
+  "course-8045321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8045321",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 2212, version 8045321-2022-01-18"
+  },
+  "course-0128611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128611",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 2221W, version 0128611-2022-01-18"
+  },
+  "course-8037911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037911",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 2221W, version 8037911-2022-01-18"
+  },
+  "course-0129811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129811",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 2222, version 0129811-2022-01-18"
+  },
+  "course-8255571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8255571",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 2222, version 8255571-2022-01-18"
+  },
+  "course-8281231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8281231",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 3233, version 8281231-2026-01-20"
+  },
+  "course-8281221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8281221",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 3233, version 8281221-2026-01-20"
+  },
+  "course-0129921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129921",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 3151, version 0129921-2022-01-18"
+  },
+  "course-8055951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8055951",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 3151, version 8055951-2022-01-18"
+  },
+  "course-8175291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8175291",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 2225, version 8175291-2022-01-18"
+  },
+  "course-8255581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8255581",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 2225, version 8255581-2022-01-18"
+  },
+  "course-7998681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7998681",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 3121, version 7998681-2022-01-18"
+  },
+  "course-8040631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8040631",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 3121, version 8040631-2022-01-18"
+  },
+  "course-0129821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129821",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 3123, version 0129821-2022-01-18"
+  },
+  "course-8255591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8255591",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 3123, version 8255591-2022-01-18"
+  },
+  "course-7950951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7950951",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 3125, version 7950951-2025-05-19"
+  },
+  "course-8066031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8066031",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 3125, version 8066031-2025-05-19"
+  },
+  "course-0128631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128631",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 3134, version 0128631-2026-05-18"
+  },
+  "course-8283211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8283211",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 3134, version 8283211-2026-05-18"
+  },
+  "course-0128511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128511",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 2231, version 0128511-2022-01-18"
+  },
+  "course-8045331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8045331",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 2231, version 8045331-2022-01-18"
+  },
+  "course-0129831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129831",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 3224W, version 0129831-2022-09-06"
+  },
+  "course-8260141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260141",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 3224W, version 8260141-2022-09-06"
+  },
+  "course-8009691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8009691",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 3228, version 8009691-2022-01-08"
+  },
+  "course-8059061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8059061",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 3228, version 8059061-2022-01-18"
+  },
+  "course-8010561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8010561",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 3234, version 8010561-2022-01-18"
+  },
+  "course-8059031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8059031",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 3234, version 8059031-2022-01-18"
+  },
+  "course-8010611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8010611",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 3238, version 8010611-2022-01-18"
+  },
+  "course-8059041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8059041",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 3238, version 8059041-2022-01-18"
+  },
+  "course-8014521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8014521",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 4136, version 8014521-2021-09-07"
+  },
+  "course-8132121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8132121",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 4105, version 8132121-2023-09-05"
+  },
+  "course-8132611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8132611",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 4105, version 8132611-2023-09-05"
+  },
+  "course-0129941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129941",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 4125W, version 0129941-2022-09-06"
+  },
+  "course-8259461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8259461",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 4125W, version 8259461-2022-01-18"
+  },
+  "course-8014771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8014771",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 4135W, version 8014771-2026-01-20"
+  },
+  "course-8066191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8066191",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 4135W, version 8066191-2026-01-20"
+  },
+  "course-8012041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8012041",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 4139, version 8012041-2022-01-18"
+  },
+  "course-8065131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8065131",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 4139, version 8065131-2022-01-18"
+  },
+  "course-8010571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8010571",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 4234, version 8010571-2026-05-18"
+  },
+  "course-8255611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8255611",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 4234, version 8255611-2026-05-18"
+  },
+  "course-0129931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129931",
+   "retrieved": "2026-11-23",
+   "section": "Course record DH 4226, version 0129931-2022-01-18"
+  },
+  "course-8255601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8255601",
+   "retrieved": "2026-11-23",
+   "section": "Course record DT 4226, version 8255601-2022-01-18"
+  },
+  "course-0156021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0156021",
+   "retrieved": "2026-11-23",
+   "section": "Course record CLA 1001, version 0156021-2024-09-03"
+  },
+  "course-8085201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8085201",
+   "retrieved": "2026-11-23",
+   "section": "Course record CLA 1002, version 8085201-2020-09-08"
+  }
+ },
+ "courseSets": {
+  "set-t7GQwZrd": {
+   "codes": [
+    "BIOL 1009",
+    "BIOL 1009H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-1U0QRDbc": {
+   "codes": [
+    "CHEM 1017",
+    "CHEM 1001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-vY1RRRe5": {
+   "codes": [
+    "CHEM 1061",
+    "CHEM 1065"
+   ],
+   "sourceRef": "program"
+  },
+  "set-y7Sju5SR": {
+   "codes": [
+    "CHEM 1071H",
+    "CHEM 1065"
+   ],
+   "sourceRef": "program"
+  },
+  "set-tbl7Ursw": {
+   "codes": [
+    "PSY 1001",
+    "PSY 1001H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-nv0Kh1zc": {
+   "codes": [
+    "ANAT 3001",
+    "ANAT 3601",
+    "ANAT 3611",
+    "KIN 3027"
+   ],
+   "sourceRef": "program"
+  },
+  "set-2CWczY0n": {
+   "codes": [
+    "PHSL 3051",
+    "KIN 3385"
+   ],
+   "sourceRef": "program"
+  },
+  "set-415098": {
+   "codes": [
+    "STAT 1001",
+    "STAT 3011",
+    "SOC 3811",
+    "PSY 3801",
+    "EPSY 3264"
+   ],
+   "sourceRef": "program"
+  },
+  "set-w0CnW5d6": {
+   "codes": [
+    "DH 2121",
+    "DT 2121"
+   ],
+   "sourceRef": "program"
+  },
+  "set-YvQ2smhQ": {
+   "codes": [
+    "DH 2132",
+    "DT 2132"
+   ],
+   "sourceRef": "program"
+  },
+  "set-hUXm75Xk": {
+   "codes": [
+    "DH 3133",
+    "DT 3133"
+   ],
+   "sourceRef": "program"
+  },
+  "set-vkiZ2vqA": {
+   "codes": [
+    "DH 2212",
+    "DT 2212"
+   ],
+   "sourceRef": "program"
+  },
+  "set-IwyOYgPX": {
+   "codes": [
+    "DH 2221W",
+    "DT 2221W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-B7BqTnlB": {
+   "codes": [
+    "DH 2222",
+    "DT 2222"
+   ],
+   "sourceRef": "program"
+  },
+  "set-HYbVagY5": {
+   "codes": [
+    "DH 3233",
+    "DT 3233"
+   ],
+   "sourceRef": "program"
+  },
+  "set-nT8Kgqeu": {
+   "codes": [
+    "DH 3151",
+    "DT 3151"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ZjtetgBY": {
+   "codes": [
+    "DH 2225",
+    "DT 2225"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ZrFEiQCr": {
+   "codes": [
+    "DH 3121",
+    "DT 3121"
+   ],
+   "sourceRef": "program"
+  },
+  "set-yBFNayBs": {
+   "codes": [
+    "DH 3123",
+    "DT 3123"
+   ],
+   "sourceRef": "program"
+  },
+  "set-RYZvneQF": {
+   "codes": [
+    "DH 3125",
+    "DT 3125"
+   ],
+   "sourceRef": "program"
+  },
+  "set-LLIen0Wm": {
+   "codes": [
+    "DH 3134",
+    "DT 3134"
+   ],
+   "sourceRef": "program"
+  },
+  "set-7kmzVDxh": {
+   "codes": [
+    "DH 2231",
+    "DT 2231"
+   ],
+   "sourceRef": "program"
+  },
+  "set-1TT9CDMj": {
+   "codes": [
+    "DH 3224W",
+    "DT 3224W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-cOjh3D1s": {
+   "codes": [
+    "DH 3228",
+    "DT 3228"
+   ],
+   "sourceRef": "program"
+  },
+  "set-zJNaE99C": {
+   "codes": [
+    "DH 3234",
+    "DT 3234"
+   ],
+   "sourceRef": "program"
+  },
+  "set-rbgpLUGL": {
+   "codes": [
+    "DH 3238",
+    "DT 3238"
+   ],
+   "sourceRef": "program"
+  },
+  "set-uTmUrTBZ": {
+   "codes": [
+    "DH 4105",
+    "DT 4105"
+   ],
+   "sourceRef": "program"
+  },
+  "set-7XsbijDh": {
+   "codes": [
+    "DH 4125W",
+    "DT 4125W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-EBmeRf1p": {
+   "codes": [
+    "DH 4135W",
+    "DT 4135W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-6GriINsN": {
+   "codes": [
+    "DH 4139",
+    "DT 4139"
+   ],
+   "sourceRef": "program"
+  },
+  "set-KTvHxMrE": {
+   "codes": [
+    "DH 4234",
+    "DT 4234"
+   ],
+   "sourceRef": "program"
+  },
+  "set-WheL3n1S": {
+   "codes": [
+    "DH 4226",
+    "DT 4226"
+   ],
+   "sourceRef": "program"
+  },
+  "set-J97fFjAH": {
+   "codes": [
+    "DH 3224W",
+    "DH 4125W",
+    "DH 4135W",
+    "DT 3224W",
+    "DT 4125W",
+    "DT 4135W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-yRbfTwvq": {
+   "codes": [
+    "CLA 1001",
+    "CLA 1002"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ANAT 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Anatomy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1002W or BIOL 1009 or BIOL 2002 or equiv], at least soph"
+    },
+    "sourceRef": "course-7881551"
+   },
+   "sourceRef": "course-7881551"
+  },
+  "ANAT 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Human Anatomy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1002 or BIOL 1009 or BIOL 2002 or equiv], [concurrent registration is required (or allowed) in 3602 or concurrent registration is required (or allowed) in 3612], at least soph"
+    },
+    "sourceRef": "course-8008441"
+   },
+   "sourceRef": "course-8008441"
+  },
+  "ANAT 3611": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Human Anatomy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1002 or BIOL 1009 or BIOL 2002 or equiv], at least soph; [concurrent registration is required (or allowed) in 3602 or concurrent registration is required (or allowed) in 3612] recommended"
+    },
+    "sourceRef": "course-7898971"
+   },
+   "sourceRef": "course-7898971"
+  },
+  "BIOC 2011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biochemistry for the Agricultural and Health Sciences",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1015"
+      },
+      {
+       "type": "course",
+       "course_code": "BIO 1009"
+      }
+     ]
+    },
+    "sourceRef": "course-7882031"
+   },
+   "sourceRef": "course-7882031"
+  },
+  "BIOL 1009": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054161"
+   },
+   "sourceRef": "course-0054161"
+  },
+  "BIOL 1009H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7908161"
+   },
+   "sourceRef": "course-7908161"
+  },
+  "CHEM 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry of Life and Death",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8283871"
+   },
+   "sourceRef": "course-8283871"
+  },
+  "CHEM 1017": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Chemistry: Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976151"
+   },
+   "sourceRef": "course-7976151"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "CHEM 1071H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8077581"
+   },
+   "sourceRef": "course-8077581"
+  },
+  "CLA 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "CLA First-Year Experience I",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0156021"
+   },
+   "sourceRef": "course-0156021"
+  },
+  "CLA 1002": {
+   "catalogTerm": "Fall 2026",
+   "title": "CLA First-Year Experience II",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8085201"
+   },
+   "sourceRef": "course-8085201"
+  },
+  "DH 2121": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application I",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129791"
+   },
+   "sourceRef": "course-0129791"
+  },
+  "DH 2132": {
+   "catalogTerm": "Fall 2026",
+   "title": "Head and Neck Anatomy",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0127401"
+   },
+   "sourceRef": "course-0127401"
+  },
+  "DH 2212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communication for Oral Health Providers",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129781"
+   },
+   "sourceRef": "course-0129781"
+  },
+  "DH 2221W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Periodontology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "DH student"
+    },
+    "sourceRef": "course-0128611"
+   },
+   "sourceRef": "course-0128611"
+  },
+  "DH 2222": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129811"
+   },
+   "sourceRef": "course-0129811"
+  },
+  "DH 2225": {
+   "catalogTerm": "Fall 2026",
+   "title": "Microbiology, Immunology, and Oral Health",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dental hygiene student"
+    },
+    "sourceRef": "course-8175291"
+   },
+   "sourceRef": "course-8175291"
+  },
+  "DH 2231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cariology and Applied Nutrition in Allied Dental Health",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128511"
+   },
+   "sourceRef": "course-0128511"
+  },
+  "DH 3121": {
+   "catalogTerm": "Fall 2026",
+   "title": "Local Anesthesia and Pain Management",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7998681"
+   },
+   "sourceRef": "course-7998681"
+  },
+  "DH 3123": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application III",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129821"
+   },
+   "sourceRef": "course-0129821"
+  },
+  "DH 3125": {
+   "catalogTerm": "Fall 2026",
+   "title": "General and Oral Pathology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7950951"
+   },
+   "sourceRef": "course-7950951"
+  },
+  "DH 3133": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pharmacology I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0168741"
+   },
+   "sourceRef": "course-0168741"
+  },
+  "DH 3134": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pediatric Dentistry",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "DH/DT student"
+    },
+    "sourceRef": "course-0128631"
+   },
+   "sourceRef": "course-0128631"
+  },
+  "DH 3151": {
+   "catalogTerm": "Fall 2026",
+   "title": "Oral and Maxillofacial Radiology",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129921"
+   },
+   "sourceRef": "course-0129921"
+  },
+  "DH 3224W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application IV",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Dental hygiene student"
+    },
+    "sourceRef": "course-0129831"
+   },
+   "sourceRef": "course-0129831"
+  },
+  "DH 3228": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ethics and Jurisprudence in Allied Dental Health",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8009691"
+   },
+   "sourceRef": "course-8009691"
+  },
+  "DH 3233": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pharmacology II",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8281231"
+   },
+   "sourceRef": "course-8281231"
+  },
+  "DH 3234": {
+   "catalogTerm": "Fall 2026",
+   "title": "Oral and Maxillofacial Radiology: Theory, Principles, and Radiographic Analysis",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8010561"
+   },
+   "sourceRef": "course-8010561"
+  },
+  "DH 3238": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dental Public Health and Academic Service Learning I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8010611"
+   },
+   "sourceRef": "course-8010611"
+  },
+  "DH 4105": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dental Professional Development",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8132121"
+   },
+   "sourceRef": "course-8132121"
+  },
+  "DH 4125W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application V",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129941"
+   },
+   "sourceRef": "course-0129941"
+  },
+  "DH 4135W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Research Methods in Allied Dental Health",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8014771"
+   },
+   "sourceRef": "course-8014771"
+  },
+  "DH 4136": {
+   "catalogTerm": "Fall 2026",
+   "title": "Periodontology III Lecture",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8014521"
+   },
+   "sourceRef": "course-8014521"
+  },
+  "DH 4139": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dental Public Health and Academic Service Learning II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8012041"
+   },
+   "sourceRef": "course-8012041"
+  },
+  "DH 4226": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application VI",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129931"
+   },
+   "sourceRef": "course-0129931"
+  },
+  "DH 4234": {
+   "catalogTerm": "Fall 2026",
+   "title": "Leadership and Professional Development",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8010571"
+   },
+   "sourceRef": "course-8010571"
+  },
+  "DT 2121": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application I",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8033811"
+   },
+   "sourceRef": "course-8033811"
+  },
+  "DT 2132": {
+   "catalogTerm": "Fall 2026",
+   "title": "Head and Neck Anatomy",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8259961"
+   },
+   "sourceRef": "course-8259961"
+  },
+  "DT 2212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communications for Oral Health Providers",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8045321"
+   },
+   "sourceRef": "course-8045321"
+  },
+  "DT 2221W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Periodontology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8037911"
+   },
+   "sourceRef": "course-8037911"
+  },
+  "DT 2222": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8255571"
+   },
+   "sourceRef": "course-8255571"
+  },
+  "DT 2225": {
+   "catalogTerm": "Fall 2026",
+   "title": "Microbiology, Immunology, and Oral Health",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8255581"
+   },
+   "sourceRef": "course-8255581"
+  },
+  "DT 2231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cariology and Applied Nutrition in Allied Dental Health",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8045331"
+   },
+   "sourceRef": "course-8045331"
+  },
+  "DT 3121": {
+   "catalogTerm": "Fall 2026",
+   "title": "Local Anesthesia and Pain Management",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8040631"
+   },
+   "sourceRef": "course-8040631"
+  },
+  "DT 3123": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application III",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8255591"
+   },
+   "sourceRef": "course-8255591"
+  },
+  "DT 3125": {
+   "catalogTerm": "Fall 2026",
+   "title": "General and Oral Pathology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8066031"
+   },
+   "sourceRef": "course-8066031"
+  },
+  "DT 3133": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pharmacology I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8054301"
+   },
+   "sourceRef": "course-8054301"
+  },
+  "DT 3134": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pediatric Dentistry",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "DH/DT student"
+    },
+    "sourceRef": "course-8283211"
+   },
+   "sourceRef": "course-8283211"
+  },
+  "DT 3151": {
+   "catalogTerm": "Fall 2026",
+   "title": "Oral and Maxillofacial Radiology",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8055951"
+   },
+   "sourceRef": "course-8055951"
+  },
+  "DT 3224W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application IV",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8260141"
+   },
+   "sourceRef": "course-8260141"
+  },
+  "DT 3228": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ethics and Jurisprudence in Allied Dental Health",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8059061"
+   },
+   "sourceRef": "course-8059061"
+  },
+  "DT 3233": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pharmacology II",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8281221"
+   },
+   "sourceRef": "course-8281221"
+  },
+  "DT 3234": {
+   "catalogTerm": "Fall 2026",
+   "title": "Oral and Maxillofacial Radiology: Theory, Principles, and Radiographic Analysis",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8059031"
+   },
+   "sourceRef": "course-8059031"
+  },
+  "DT 3238": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dental Public Health and Academic Service Learning I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8059041"
+   },
+   "sourceRef": "course-8059041"
+  },
+  "DT 4105": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dental Professional Development",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8132611"
+   },
+   "sourceRef": "course-8132611"
+  },
+  "DT 4125W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application V",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8259461"
+   },
+   "sourceRef": "course-8259461"
+  },
+  "DT 4135W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Research Methods in Allied Dental Health",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8066191"
+   },
+   "sourceRef": "course-8066191"
+  },
+  "DT 4139": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dental Public Health and Academic Service Learning II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8065131"
+   },
+   "sourceRef": "course-8065131"
+  },
+  "DT 4226": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process of Care in Allied Dental Health: Clinical Application VI",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8255601"
+   },
+   "sourceRef": "course-8255601"
+  },
+  "DT 4234": {
+   "catalogTerm": "Fall 2026",
+   "title": "Leadership and Professional Development",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8255611"
+   },
+   "sourceRef": "course-8255611"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "KIN 3027": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Anatomy for Kinesiology, Physical Activity, and Health Promotion",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889931"
+   },
+   "sourceRef": "course-7889931"
+  },
+  "KIN 3385": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Physiology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[KIN 3027 or ANAT 3001 or ANAT 3601 or ANAT 3611 or ANAT 3651 or ANAT 3658H ] and [Kin or Physical Activity and Health Promotion Major] or instr consent"
+    },
+    "sourceRef": "course-0052701"
+   },
+   "sourceRef": "course-0052701"
+  },
+  "PHSL 3051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Physiology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1009 or 1 yr college biol], 1 yr college chem"
+    },
+    "sourceRef": "course-0105661"
+   },
+   "sourceRef": "course-0105661"
+  },
+  "PSY 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062651"
+   },
+   "sourceRef": "course-0062651"
+  },
+  "PSY 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors."
+    },
+    "sourceRef": "course-7990411"
+   },
+   "sourceRef": "course-7990411"
+  },
+  "PSY 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychological Measurement and Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra, [PSY 1001 or equiv]; intended for students who plan to major in psychology"
+    },
+    "sourceRef": "course-7989021"
+   },
+   "sourceRef": "course-7989021"
+  },
+  "SOC 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Sociology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc Majors/Minors must register A-F"
+    },
+    "sourceRef": "course-0029431"
+   },
+   "sourceRef": "course-0029431"
+  },
+  "SOC 3811": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergraduates with strong math background are encouraged to register for 5811 in lieu of 3811 (Soc 5811 offered Fall terms only). Soc Majors/Minors must register A-F."
+    },
+    "sourceRef": "course-0011481"
+   },
+   "sourceRef": "course-0011481"
+  },
+  "STAT 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to the Ideas of Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Mathematics requirement for admission to University"
+    },
+    "sourceRef": "course-0016161"
+   },
+   "sourceRef": "course-0016161"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "WRIT 1301": {
+   "catalogTerm": "Fall 2026",
+   "title": "University Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8003721"
+   },
+   "sourceRef": "course-8003721"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-AtBvwwAV",
+   "label": "Dental Hygiene Admissions: Fall",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-AtBvwwAV",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-t7GQwZrd",
+      "type": "credits",
+      "courseSet": "set-t7GQwZrd",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Biology"
+     },
+     {
+      "id": "r-W6jGNgUw",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-1U0QRDbc",
+        "type": "credits",
+        "courseSet": "set-1U0QRDbc",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Option 1"
+       },
+       {
+        "id": "r-vY1RRRe5",
+        "type": "credits",
+        "courseSet": "set-vY1RRRe5",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Option 2"
+       },
+       {
+        "id": "r-y7Sju5SR",
+        "type": "credits",
+        "courseSet": "set-y7Sju5SR",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Option 3"
+       }
+      ],
+      "label": "Chemistry"
+     },
+     {
+      "id": "r-tbl7Ursw",
+      "type": "credits",
+      "courseSet": "set-tbl7Ursw",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Psychology"
+     },
+     {
+      "id": "r-OYEgIkgy",
+      "type": "course",
+      "code": "WRIT 1301",
+      "sourceRef": "program",
+      "label": "Composition"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-5UN2IO3R",
+   "label": "Dental Hygiene Admissions: Spring",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-5UN2IO3R",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-nv0Kh1zc",
+      "type": "credits",
+      "courseSet": "set-nv0Kh1zc",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Human Anatomy"
+     },
+     {
+      "id": "r-n60dZlGS",
+      "type": "course",
+      "code": "SOC 1001",
+      "sourceRef": "program",
+      "label": "Sociology"
+     },
+     {
+      "id": "r-2CWczY0n",
+      "type": "credits",
+      "courseSet": "set-2CWczY0n",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Physiology"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Dental Hygiene Admissions: Summer",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-415098",
+    "type": "credits",
+    "courseSet": "set-415098",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Statistics"
+   }
+  },
+  {
+   "id": "g-hWiQZuDS",
+   "label": "Year 2: Fall",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-hWiQZuDS",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-qW2w6GlP",
+      "type": "course",
+      "code": "BIOC 2011",
+      "sourceRef": "program",
+      "label": "Biochemistry for the Agricultural and Health Sciences"
+     },
+     {
+      "id": "r-w0CnW5d6",
+      "type": "credits",
+      "courseSet": "set-w0CnW5d6",
+      "minCredits": 5,
+      "sourceRef": "program",
+      "label": "Process of Care in Allied Dental Health: Clinical Application I"
+     },
+     {
+      "id": "r-YvQ2smhQ",
+      "type": "credits",
+      "courseSet": "set-YvQ2smhQ",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Head and Neck Anatomy"
+     },
+     {
+      "id": "r-hUXm75Xk",
+      "type": "credits",
+      "courseSet": "set-hUXm75Xk",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Pharmacology I"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-KQrOAXpj",
+   "label": "Year 2: Spring",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-KQrOAXpj",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-vkiZ2vqA",
+      "type": "credits",
+      "courseSet": "set-vkiZ2vqA",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Communication for Oral Health Providers"
+     },
+     {
+      "id": "r-IwyOYgPX",
+      "type": "credits",
+      "courseSet": "set-IwyOYgPX",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Peridontology"
+     },
+     {
+      "id": "r-B7BqTnlB",
+      "type": "credits",
+      "courseSet": "set-B7BqTnlB",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Process of Care in Allied Dental Health: Clinical Application II"
+     },
+     {
+      "id": "r-HYbVagY5",
+      "type": "credits",
+      "courseSet": "set-HYbVagY5",
+      "minCredits": 1,
+      "sourceRef": "program",
+      "label": "Pharmacology"
+     },
+     {
+      "id": "r-nT8Kgqeu",
+      "type": "credits",
+      "courseSet": "set-nT8Kgqeu",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Oral and Maxillofacial Radiology"
+     },
+     {
+      "id": "r-ZjtetgBY",
+      "type": "credits",
+      "courseSet": "set-ZjtetgBY",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Microbiology, Immunology, and Oral Health"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-7yOpcjR7",
+   "label": "Year 2: Summer",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-7yOpcjR7",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-ZrFEiQCr",
+      "type": "credits",
+      "courseSet": "set-ZrFEiQCr",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Local Anesthesia and Pain Management"
+     },
+     {
+      "id": "r-yBFNayBs",
+      "type": "credits",
+      "courseSet": "set-yBFNayBs",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Process of Care in Allied Dental Health: Clinical Application III"
+     },
+     {
+      "id": "r-RYZvneQF",
+      "type": "credits",
+      "courseSet": "set-RYZvneQF",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "General and Oral Pathology"
+     },
+     {
+      "id": "r-LLIen0Wm",
+      "type": "credits",
+      "courseSet": "set-LLIen0Wm",
+      "minCredits": 1,
+      "sourceRef": "program",
+      "label": "Pediatric Dentistry"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-mipAh1VY",
+   "label": "Year 3: Fall",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-mipAh1VY",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-7kmzVDxh",
+      "type": "credits",
+      "courseSet": "set-7kmzVDxh",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Cariology and Applied Nutrition in Allied Dental Health"
+     },
+     {
+      "id": "r-1TT9CDMj",
+      "type": "credits",
+      "courseSet": "set-1TT9CDMj",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Process of Care in Allied Dental Health: Clinical Application IV"
+     },
+     {
+      "id": "r-cOjh3D1s",
+      "type": "credits",
+      "courseSet": "set-cOjh3D1s",
+      "minCredits": 1,
+      "sourceRef": "program",
+      "label": "Ethics and Jurisprudence in Allied Dental Health"
+     },
+     {
+      "id": "r-zJNaE99C",
+      "type": "credits",
+      "courseSet": "set-zJNaE99C",
+      "minCredits": 1,
+      "sourceRef": "program",
+      "label": "Oral and Maxillofacial Radiology: Theory, Principles, and Radiographic Analysis"
+     },
+     {
+      "id": "r-rbgpLUGL",
+      "type": "credits",
+      "courseSet": "set-rbgpLUGL",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Dental Public Health and Academic Service Learning I"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-FuZCO3H4",
+   "label": "Year 3: Spring",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-FuZCO3H4",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-ElvmoKGn",
+      "type": "course",
+      "code": "DH 4136",
+      "sourceRef": "program",
+      "label": "Periodontology III"
+     },
+     {
+      "id": "r-uTmUrTBZ",
+      "type": "credits",
+      "courseSet": "set-uTmUrTBZ",
+      "minCredits": 1,
+      "sourceRef": "program",
+      "label": "Dental Professional Development"
+     },
+     {
+      "id": "r-7XsbijDh",
+      "type": "credits",
+      "courseSet": "set-7XsbijDh",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Process of Care in Allied Dental Health: Clinical Application V"
+     },
+     {
+      "id": "r-EBmeRf1p",
+      "type": "credits",
+      "courseSet": "set-EBmeRf1p",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Research Methods in Allied Dental Health"
+     },
+     {
+      "id": "r-6GriINsN",
+      "type": "credits",
+      "courseSet": "set-6GriINsN",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Dental Public Health and Academic Service Learning II"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-1CTUnJmI",
+   "label": "Year 3: Summer",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-1CTUnJmI",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-KTvHxMrE",
+      "type": "credits",
+      "courseSet": "set-KTvHxMrE",
+      "minCredits": 1,
+      "sourceRef": "program",
+      "label": "Leadership and Professional Development"
+     },
+     {
+      "id": "r-WheL3n1S",
+      "type": "credits",
+      "courseSet": "set-WheL3n1S",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Process of Care in Allied Dental Health: Clinical Application VI"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-Phm0DDmH",
+   "label": "Upper Division Writing Intensive Within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-J97fFjAH",
+    "type": "count",
+    "courseSet": "set-J97fFjAH",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive Within the Major"
+   }
+  },
+  {
+   "id": "g-VzuzquX0",
+   "label": "CLA First-Year Experience (FYE)",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-yRbfTwvq",
+    "type": "credits",
+    "courseSet": "set-yRbfTwvq",
+    "minCredits": 2,
+    "sourceRef": "program",
+    "label": "CLA First-Year Experience (FYE)"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All prerequisite courses must be taken A-F. Biology and chemistry must be taken within five years of entry into the program and one or the other must be completed prior to application, so grades are on the transcript submitted at the time of application. In addition, applicants are strongly encouraged to have completed composition and psychology and/or sociology prior to application so grades are on the transcript submitted at the time of application. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "The BS in dental hygiene requires that students take six consecutive terms of courses, including summer terms.\nStudents must complete a minimum of 28 upper division major credits at the University of Minnesota Twin Cities.\nA sample plan for this program is available at https://sampleplan.umn.edu/node/776 Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Dental Hygiene B.S., Integrated Bachelor of Science Dental Hygiene/Master of Dental Therapy. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

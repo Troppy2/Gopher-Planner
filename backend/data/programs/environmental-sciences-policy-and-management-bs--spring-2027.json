@@ -1,0 +1,379 @@
+{
+ "schemaVersion": 2,
+ "id": "environmental-sciences-policy-and-management-bs",
+ "name": "Environmental Sciences, Policy and Management B.S.",
+ "officialName": "Environmental Sciences, Policy and Management B.S.",
+ "officialProgramId": "216020130",
+ "catalogTerm": "Spring 2027",
+ "totalCredits": 120,
+ "source": "Environmental Sciences, Policy and Management B.S., revision 216020130-2027-01-19, https://umtc.catalog.prod.coursedog.com/programs/216020130, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/216020130",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 216020130-2027-01-19"
+  },
+  "course-0081501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0081501",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 1001, version 0081501-2008-09-02"
+  },
+  "course-8004651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8004651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 1002, version 8004651-2019-01-22"
+  },
+  "course-0126071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0126071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 1011, version 0126071-2022-01-18"
+  },
+  "course-7989281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989281",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 2021, version 7989281-2020-09-08"
+  },
+  "course-8270991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8270991",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3004, version 8270991-2025-01-21"
+  },
+  "course-0054191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054191",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1001, version 0054191-2020-09-08"
+  },
+  "course-0054161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009, version 0054161-2020-09-08"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-7961761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7961761",
+   "retrieved": "2026-11-23",
+   "section": "Course record AECM 2421W, version 7961761-2021-09-07"
+  },
+  "course-0053631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053631",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 4021W, version 0053631-2016-01-19"
+  },
+  "course-7989531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 4041W, version 7989531-2017-09-05"
+  }
+ },
+ "courseSets": {
+  "set-5eK4IPir": {
+   "codes": [
+    "ESPM 1001",
+    "ESPM 1002",
+    "ESPM 1011",
+    "ESPM 2021",
+    "ESPM 3004"
+   ],
+   "sourceRef": "program"
+  },
+  "set-en5xccBT": {
+   "codes": [
+    "BIOL 1001",
+    "BIOL 1009"
+   ],
+   "sourceRef": "program"
+  },
+  "set-FPQEgyI7": {
+   "codes": [
+    "COMM 1101",
+    "AECM 2421W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-cQ2JFb5x": {
+   "codes": [
+    "ESPM 4021W",
+    "ESPM 4041W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-LZxlbRRN": {
+   "codes": [
+    "ESPM 4021W",
+    "ESPM 4041W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AECM 2421W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Professional Communication for Agriculture, Food, and the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7961761"
+   },
+   "sourceRef": "course-7961761"
+  },
+  "BIOL 1001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introductory Biology: Evolutionary and Ecological Perspectives",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054191"
+   },
+   "sourceRef": "course-0054191"
+  },
+  "BIOL 1009": {
+   "catalogTerm": "Spring 2027",
+   "title": "General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054161"
+   },
+   "sourceRef": "course-0054161"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "ESPM 1001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Freshmen Orientation to Environmental Sciences, Policy, and Management",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0081501"
+   },
+   "sourceRef": "course-0081501"
+  },
+  "ESPM 1002": {
+   "catalogTerm": "Spring 2027",
+   "title": "Transfer Orientation Seminar",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8004651"
+   },
+   "sourceRef": "course-8004651"
+  },
+  "ESPM 1011": {
+   "catalogTerm": "Spring 2027",
+   "title": "Issues in the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0126071"
+   },
+   "sourceRef": "course-0126071"
+  },
+  "ESPM 2021": {
+   "catalogTerm": "Spring 2027",
+   "title": "Environmental Sciences: Integrated Problem Solving",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1011, ESPM major"
+    },
+    "sourceRef": "course-7989281"
+   },
+   "sourceRef": "course-7989281"
+  },
+  "ESPM 3004": {
+   "catalogTerm": "Spring 2027",
+   "title": "Environmental Justice in Natural Resource Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8270991"
+   },
+   "sourceRef": "course-8270991"
+  },
+  "ESPM 4021W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Problem Solving: Environmental Review",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ESPM 2021 and jr or sr"
+    },
+    "sourceRef": "course-0053631"
+   },
+   "sourceRef": "course-0053631"
+  },
+  "ESPM 4041W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Problem Solving for Environmental Change",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7989531"
+   },
+   "sourceRef": "course-7989531"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-6uHx01LL",
+   "label": "Integrated ESPM Core",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-5eK4IPir",
+    "type": "credits",
+    "courseSet": "set-5eK4IPir",
+    "minCredits": 10,
+    "sourceRef": "program",
+    "label": "Integrated ESPM Core"
+   }
+  },
+  {
+   "id": "g-50ZM5Ea8",
+   "label": "Biological Sciences",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-en5xccBT",
+    "type": "credits",
+    "courseSet": "set-en5xccBT",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Biological Sciences"
+   }
+  },
+  {
+   "id": "g-ww66CRhj",
+   "label": "Communication Skills",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-FPQEgyI7",
+    "type": "credits",
+    "courseSet": "set-FPQEgyI7",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Communication Skills"
+   }
+  },
+  {
+   "id": "g-YOVhpiNe",
+   "label": "Experiential and Interdisciplinary Learning",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-cQ2JFb5x",
+    "type": "credits",
+    "courseSet": "set-cQ2JFb5x",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Experiential and Interdisciplinary Learning"
+   }
+  },
+  {
+   "id": "g-Yr9FYcyF",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-LZxlbRRN",
+    "type": "count",
+    "courseSet": "set-LZxlbRRN",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students complete required courses below and choose one of the following ESPM tracks:\n- Conservation and Resource Management (CRM)\n- Environmental Education and Communication (EEC)\n- Environmental Science (ES)\n- Policy, Planning, Law, and Society (PPLS)\nStudents are strongly encouraged to have an international experience before graduation. Courses completed during an international experience (study, work, volunteer, research) can meet program requirements, liberal education requirements, and/or electives. Discussion with an advisor prior to commencing an international experience is required to plan how courses meet requirements in the ESPM major.\nAt least 19 upper division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nAll degree-seeking students must complete the University\u2019s Liberal Education requirements .\nCollegiate Requirements:\nAll CFANS undergraduate students must complete an Experiential Learning (EL) requirement. Experiential learning is a way to learn by doing, or learn by experiencing. Instead of acquiring information from a classroom lecture or book, experiential learning gives you active, hands-on experience in the real world. Examples of experiential learning options within CFANS include: off-campus study programs, field-based research, service-learning classes, internships, volunteer work related to your studies, and more.\nAll CFANS undergraduate students must complete an Interdisciplinary (ID) Learning Requirement. An interdisciplinary (ID) course addresses issues from at least two different academic disciplines (two fields/departments within the university). By integrating two disciplines into one class, students have the opportunity to develop integrated problem-solving skills.\nTo determine which of your major classes fulfill the EL and ID requirements, see your APAS report. Students are encouraged to work with their academic advisor to identify EL and ID requirements in their graduation planning. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Conservation and Resource Management, Environmental Education & Communication, Environmental Science, Policy, Planning, Law and Society. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

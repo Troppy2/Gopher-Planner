@@ -1,0 +1,1058 @@
+{
+ "schemaVersion": 2,
+ "id": "architecture-bs",
+ "name": "Architecture B.S.",
+ "officialName": "Architecture B.S.",
+ "officialProgramId": "008820122",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Architecture B.S., revision 008820122-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/008820122, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/008820122",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 008820122-2026-09-08"
+  },
+  "course-7980111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7980111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3281, version 7980111-2025-09-02"
+  },
+  "course-0112641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0112641",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3282, version 0112641-2025-09-02"
+  },
+  "course-7889941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889941",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4283, version 7889941-2026-01-20"
+  },
+  "course-7899841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7899841",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4284, version 7899841-2026-09-08"
+  },
+  "course-8109281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8109281",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 5212, version 8109281-2018-09-04"
+  },
+  "course-8269801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8269801",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 5213, version 8269801-2024-09-03"
+  },
+  "course-7916861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7916861",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4511, version 7916861-2018-09-04"
+  },
+  "course-7984001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7984001",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4521, version 7984001-2024-01-16"
+  },
+  "course-7977411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977411",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4561, version 7977411-2015-01-20"
+  },
+  "course-7915261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7915261",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4571, version 7915261-2024-01-16"
+  },
+  "course-7976411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976411",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4701W, version 7976411-2018-01-16"
+  },
+  "course-0001191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001191",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1142, version 0001191-2021-05-17"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0020661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1101W, version 0020661-2021-05-17"
+  },
+  "course-0020701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020701",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1301W, version 0020701-2022-05-16"
+  },
+  "course-0099381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099381",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3411W, version 0099381-2024-09-03"
+  },
+  "course-0113161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0113161",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3412W, version 0113161-2020-01-21"
+  },
+  "course-0113731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0113731",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3711W, version 0113731-2015-01-20"
+  },
+  "course-7899031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7899031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3711V, version 7899031-2015-01-20"
+  },
+  "course-8131311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8131311",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4410, version 8131311-2026-09-08"
+  },
+  "course-7977101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977101",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4432, version 7977101-2015-01-20"
+  },
+  "course-7977111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4434, version 7977111-2015-01-20"
+  },
+  "course-8165211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8165211",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4435, version 8165211-2016-09-06"
+  },
+  "course-8188131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8188131",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4451, version 8188131-2019-09-03"
+  },
+  "course-7977151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977151",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3351, version 7977151-2015-01-20"
+  },
+  "course-8163031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3391, version 8163031-2017-09-05"
+  },
+  "course-7976961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976961",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4150, version 7976961-2026-09-08"
+  },
+  "course-7986701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7986701",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 4165, version 7986701-2022-01-18"
+  },
+  "course-0092561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092561",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 3161, version 0092561-2023-01-17"
+  },
+  "course-0092581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092581",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 3162, version 0092581-2020-01-21"
+  },
+  "course-8083921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083921",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 3612, version 8083921-2022-01-18"
+  },
+  "course-0088771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088771",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3413, version 0088771-2022-09-06"
+  },
+  "course-0111481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0111481",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3501, version 0111481-2021-09-07"
+  },
+  "course-7911861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7911861",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3571, version 7911861-2015-01-20"
+  },
+  "course-8251481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251481",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3801, version 8251481-2021-05-17"
+  },
+  "course-7976931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976931",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 1281, version 7976931-2019-09-03"
+  },
+  "course-8191801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8191801",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 1621, version 8191801-2024-09-03"
+  },
+  "course-7977191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977191",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 2281, version 7977191-2022-09-06"
+  },
+  "course-0113411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0113411",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 2301, version 0113411-2026-09-08"
+  }
+ },
+ "courseSets": {
+  "set-iUuB7qDP": {
+   "codes": [
+    "ARCH 3281",
+    "ARCH 3282",
+    "ARCH 4283",
+    "ARCH 4284",
+    "ARCH 5212",
+    "ARCH 5213",
+    "ARCH 4511",
+    "ARCH 4521",
+    "ARCH 4561",
+    "ARCH 4571",
+    "ARCH 4701W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-vbKeNh5Q": {
+   "codes": [
+    "MATH 1142",
+    "MATH 1271"
+   ],
+   "sourceRef": "program"
+  },
+  "set-M0txh2b2": {
+   "codes": [
+    "PHYS 1101W",
+    "PHYS 1301W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-scgxTKak": {
+   "codes": [
+    "ARCH 3411W",
+    "ARCH 3412W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-A0FYpoc6": {
+   "codes": [
+    "ARCH 3711W",
+    "ARCH 3711V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-pvSqZiL6": {
+   "codes": [
+    "ARCH 4410",
+    "ARCH 4432",
+    "ARCH 4434",
+    "ARCH 4435",
+    "ARCH 4451"
+   ],
+   "sourceRef": "program"
+  },
+  "set-lZjKkocY": {
+   "codes": [
+    "ARCH 3351",
+    "ARCH 3391",
+    "ARCH 4150",
+    "DES 4165",
+    "IDES 3161",
+    "IDES 3162",
+    "IDES 3612",
+    "LA 3413",
+    "LA 3501",
+    "LA 3571",
+    "LA 3801"
+   ],
+   "sourceRef": "program"
+  },
+  "set-PDWaLIdj": {
+   "codes": [
+    "ARCH 3412W",
+    "ARCH 3711W",
+    "ARCH 3711V",
+    "ARCH 4701W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-406321": {
+   "codes": [
+    "ARCH 1281",
+    "ARCH 1621",
+    "ARCH 2281",
+    "ARCH 2301"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ARCH 1281": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design Fundamentals I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976931"
+   },
+   "sourceRef": "course-7976931"
+  },
+  "ARCH 1621": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Critical Inquiry in Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8191801"
+   },
+   "sourceRef": "course-8191801"
+  },
+  "ARCH 2281": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design Fundamentals II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977191"
+   },
+   "sourceRef": "course-7977191"
+  },
+  "ARCH 2301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Drawing and Critical Thinking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0113411"
+   },
+   "sourceRef": "course-0113411"
+  },
+  "ARCH 3281": {
+   "catalogTerm": "Fall 2026",
+   "title": "Architecture Studio 01: Material",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Arch BS major"
+    },
+    "sourceRef": "course-7980111"
+   },
+   "sourceRef": "course-7980111"
+  },
+  "ARCH 3282": {
+   "catalogTerm": "Fall 2026",
+   "title": "Architecture Studio 02: Site",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3281 or 4281], BS Arch major"
+    },
+    "sourceRef": "course-0112641"
+   },
+   "sourceRef": "course-0112641"
+  },
+  "ARCH 3351": {
+   "catalogTerm": "Fall 2026",
+   "title": "AutoCAD I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Arch major or BED major or instr consent"
+    },
+    "sourceRef": "course-7977151"
+   },
+   "sourceRef": "course-7977151"
+  },
+  "ARCH 3391": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design and Representation with BIM",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8163031"
+   },
+   "sourceRef": "course-8163031"
+  },
+  "ARCH 3411W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Architectural History to 1750",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or above"
+    },
+    "sourceRef": "course-0099381"
+   },
+   "sourceRef": "course-0099381"
+  },
+  "ARCH 3412W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Architectural History Since 1750",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or above"
+    },
+    "sourceRef": "course-0113161"
+   },
+   "sourceRef": "course-0113161"
+  },
+  "ARCH 3711V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Environmental Design and the Sociocultural Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors, [soph or above]"
+    },
+    "sourceRef": "course-7899031"
+   },
+   "sourceRef": "course-7899031"
+  },
+  "ARCH 3711W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Design and the Sociocultural Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or above"
+    },
+    "sourceRef": "course-0113731"
+   },
+   "sourceRef": "course-0113731"
+  },
+  "ARCH 4150": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Architecture",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Arch major or instr consent"
+    },
+    "sourceRef": "course-7976961"
+   },
+   "sourceRef": "course-7976961"
+  },
+  "ARCH 4283": {
+   "catalogTerm": "Fall 2026",
+   "title": "Architecture Studio 03:Program",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889941"
+   },
+   "sourceRef": "course-7889941"
+  },
+  "ARCH 4284": {
+   "catalogTerm": "Fall 2026",
+   "title": "Architecture Studio 04: Urban Design",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7899841"
+   },
+   "sourceRef": "course-7899841"
+  },
+  "ARCH 4410": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Architectural History",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8131311"
+   },
+   "sourceRef": "course-8131311"
+  },
+  "ARCH 4432": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Architecture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3412 or instr consent"
+    },
+    "sourceRef": "course-7977101"
+   },
+   "sourceRef": "course-7977101"
+  },
+  "ARCH 4434": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Architecture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3412 or instr consent"
+    },
+    "sourceRef": "course-7977111"
+   },
+   "sourceRef": "course-7977111"
+  },
+  "ARCH 4435": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of American Architecture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8165211"
+   },
+   "sourceRef": "course-8165211"
+  },
+  "ARCH 4451": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Architectural Thinking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8188131"
+   },
+   "sourceRef": "course-8188131"
+  },
+  "ARCH 4511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Materials and Methods I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BS Arch major or BDA major jr/sr"
+    },
+    "sourceRef": "course-7916861"
+   },
+   "sourceRef": "course-7916861"
+  },
+  "ARCH 4521": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Technology I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Architecture major BDA or BS, jr or sr"
+    },
+    "sourceRef": "course-7984001"
+   },
+   "sourceRef": "course-7984001"
+  },
+  "ARCH 4561": {
+   "catalogTerm": "Fall 2026",
+   "title": "Architecture and Ecology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977411"
+   },
+   "sourceRef": "course-7977411"
+  },
+  "ARCH 4571": {
+   "catalogTerm": "Fall 2026",
+   "title": "Architectural Structures I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BS Arch major"
+    },
+    "sourceRef": "course-7915261"
+   },
+   "sourceRef": "course-7915261"
+  },
+  "ARCH 4701W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Urban Form and Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3411, 3412] or instr consent"
+    },
+    "sourceRef": "course-7976411"
+   },
+   "sourceRef": "course-7976411"
+  },
+  "ARCH 5212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Undergraduate Architecture Studio 05: Advanced Design",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "C- or better in 3281, 3282, 4283, 4284"
+    },
+    "sourceRef": "course-8109281"
+   },
+   "sourceRef": "course-8109281"
+  },
+  "ARCH 5213": {
+   "catalogTerm": "Fall 2026",
+   "title": "Undergraduate Architecture Studio 06: Research",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8269801"
+   },
+   "sourceRef": "course-8269801"
+  },
+  "DES 4165": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design and Globalization",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr"
+    },
+    "sourceRef": "course-7986701"
+   },
+   "sourceRef": "course-7986701"
+  },
+  "IDES 3161": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Interiors and Furnishings: Ancient to 1750",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0092561"
+   },
+   "sourceRef": "course-0092561"
+  },
+  "IDES 3162": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Interiors and Furnishings: 1750 to Present",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0092581"
+   },
+   "sourceRef": "course-0092581"
+  },
+  "IDES 3612": {
+   "catalogTerm": "Fall 2026",
+   "title": "Lighting Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8083921"
+   },
+   "sourceRef": "course-8083921"
+  },
+  "LA 3413": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Landscape Architectural History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0088771"
+   },
+   "sourceRef": "course-0088771"
+  },
+  "LA 3501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Design and Its Biological and Physical Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0111481"
+   },
+   "sourceRef": "course-0111481"
+  },
+  "LA 3571": {
+   "catalogTerm": "Fall 2026",
+   "title": "Landscape Construction: Site Systems and Engineering",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BED major or BED minor or instr consent"
+    },
+    "sourceRef": "course-7911861"
+   },
+   "sourceRef": "course-7911861"
+  },
+  "LA 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Finding Order: An Introduction to Garden Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251481"
+   },
+   "sourceRef": "course-8251481"
+  },
+  "MATH 1142": {
+   "catalogTerm": "Fall 2026",
+   "title": "Short Calculus",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]"
+    },
+    "sourceRef": "course-0001191"
+   },
+   "sourceRef": "course-0001191"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "PHYS 1101W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory College Physics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra, plane geometry, trigonometry; primarily for students interested in technical areas"
+    },
+    "sourceRef": "course-0020661"
+   },
+   "sourceRef": "course-0020661"
+  },
+  "PHYS 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Science and Engineering I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020701"
+   },
+   "sourceRef": "course-0020701"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-GB4OQ4RA",
+   "label": "Major Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-iUuB7qDP",
+    "type": "credits",
+    "courseSet": "set-iUuB7qDP",
+    "minCredits": 51,
+    "sourceRef": "program",
+    "label": "Major Courses"
+   }
+  },
+  {
+   "id": "g-BJQ8nwki",
+   "label": "Calculus",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-vbKeNh5Q",
+    "type": "credits",
+    "courseSet": "set-vbKeNh5Q",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Calculus"
+   }
+  },
+  {
+   "id": "g-ZXpt6l56",
+   "label": "Physics",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-M0txh2b2",
+    "type": "credits",
+    "courseSet": "set-M0txh2b2",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Physics"
+   }
+  },
+  {
+   "id": "g-DnL9lgrU",
+   "label": "Architectural History Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-scgxTKak",
+    "type": "credits",
+    "courseSet": "set-scgxTKak",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "Architectural History Courses"
+   }
+  },
+  {
+   "id": "g-uF3q1Csd",
+   "label": "Environmental Design and Sociocultural Context",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-A0FYpoc6",
+    "type": "credits",
+    "courseSet": "set-A0FYpoc6",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Environmental Design and Sociocultural Context"
+   }
+  },
+  {
+   "id": "g-0cPZQsjD",
+   "label": "Architectural History Elective",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-pvSqZiL6",
+    "type": "credits",
+    "courseSet": "set-pvSqZiL6",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Architectural History Elective"
+   }
+  },
+  {
+   "id": "g-sFmTNzUA",
+   "label": "Architecture Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-lZjKkocY",
+    "type": "credits",
+    "courseSet": "set-lZjKkocY",
+    "minCredits": 9,
+    "sourceRef": "program",
+    "label": "Architecture Electives"
+   }
+  },
+  {
+   "id": "g-LBQqrjFb",
+   "label": "Upper Division Credits Outside the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-yqjJ3tRH",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Upper Division Credits Outisde the Major uses a course list the planner cannot read. Verify this requirement with your advisor or APAS.",
+    "label": "Upper Division Credits Outisde the Major"
+   }
+  },
+  {
+   "id": "g-a6DzDoub",
+   "label": "Upper Division Writing Intensive Within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-PDWaLIdj",
+    "type": "count",
+    "courseSet": "set-PDWaLIdj",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive Within the Major"
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Admission Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-406321",
+    "type": "credits",
+    "courseSet": "set-406321",
+    "minCredits": 15,
+    "sourceRef": "program",
+    "label": "Prerequisite Courses (Primary Core)"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nAt least 39 upper division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

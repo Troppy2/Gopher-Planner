@@ -1,0 +1,1674 @@
+{
+ "schemaVersion": 2,
+ "id": "fisheries-wildlife-and-conservation-biology-bs",
+ "name": "Fisheries, Wildlife, and Conservation Biology B.S.",
+ "officialName": "Fisheries, Wildlife, and Conservation Biology B.S.",
+ "officialProgramId": "030020130",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Fisheries, Wildlife, and Conservation Biology B.S., revision 030020130-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/030020130, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/030020130",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 030020130-2026-09-08"
+  },
+  "course-0001191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001191",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1142, version 0001191-2021-05-17"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0146491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0146491",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 4001, version 0146491-2016-01-19"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8152521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1081, version 8152521-2024-09-03"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-0054161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009, version 0054161-2020-09-08"
+  },
+  "course-8257621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8257621",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3012, version 8257621-2022-09-06"
+  },
+  "course-0054181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054181",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 2022, version 0054181-2024-09-03"
+  },
+  "course-8140561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8140561",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 4301, version 8140561-2016-01-19"
+  },
+  "course-0062711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062711",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 3022, version 0062711-2024-09-03"
+  },
+  "course-8123571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8123571",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3407, version 8123571-2024-09-03"
+  },
+  "course-8125911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8125911",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3408W, version 8125911-2026-09-08"
+  },
+  "course-0073361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073361",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 1001, version 0073361-2020-09-08"
+  },
+  "course-0133521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133521",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 2001W, version 0133521-2026-09-08"
+  },
+  "course-0097271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0097271",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 3108, version 0097271-2025-09-02"
+  },
+  "course-0048841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048841",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 3131, version 0048841-2023-09-05"
+  },
+  "course-8095531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8095531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CFAN 3096, version 8095531-2024-01-16"
+  },
+  "course-8199021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8199021",
+   "retrieved": "2026-11-23",
+   "section": "Course record CFAN 4096, version 8199021-2023-09-05"
+  },
+  "course-7961761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7961761",
+   "retrieved": "2026-11-23",
+   "section": "Course record AECM 2421W, version 7961761-2021-09-07"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-0026681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026681",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562W, version 0026681-2021-05-17"
+  },
+  "course-8118841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8118841",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 3925, version 8118841-2026-09-08"
+  },
+  "course-0093181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3011W, version 0093181-2017-01-17"
+  },
+  "course-8197611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197611",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3014, version 8197611-2020-09-08"
+  },
+  "course-0149621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0149621",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3202W, version 0149621-2016-01-19"
+  },
+  "course-0082071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3241W, version 0082071-2011-01-18"
+  },
+  "course-0067031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0067031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3245, version 0067031-2015-09-08"
+  },
+  "course-0053691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053691",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3261, version 0053691-2024-01-16"
+  },
+  "course-7989321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989321",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3271, version 7989321-2015-01-20"
+  },
+  "course-7993281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7993281",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 2003, version 7993281-2026-09-08"
+  },
+  "course-8007891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8007891",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 4101, version 8007891-2016-01-19"
+  },
+  "course-0082441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082441",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 1101, version 0082441-2016-09-06"
+  },
+  "course-0138531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138531",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 4136, version 0138531-2015-01-20"
+  },
+  "course-8200821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8200821",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENT 3021, version 8200821-2024-01-16"
+  },
+  "course-0054901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENT 4361, version 0054901-2023-09-05"
+  },
+  "course-0106321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0106321",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4321, version 0106321-2017-09-05"
+  },
+  "course-0088031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088031",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4511, version 0088031-2024-09-03"
+  },
+  "course-0051871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051871",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4129, version 0051871-2024-09-03"
+  },
+  "course-0136991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0136991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4839, version 0136991-2025-05-19"
+  },
+  "course-0051191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051191",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4134, version 0051191-2015-01-20"
+  },
+  "course-0136981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0136981",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4844, version 0136981-2025-05-19"
+  },
+  "course-0128471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128471",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4609W, version 0128471-2022-09-06"
+  },
+  "course-0105981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0105981",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3575, version 0105981-2013-01-22"
+  },
+  "course-0051151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051151",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 3104, version 0051151-2016-09-06"
+  },
+  "course-7908621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908621",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 3203, version 7908621-2016-05-23"
+  },
+  "course-7953831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953831",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 3204, version 7953831-2015-09-08"
+  },
+  "course-7989311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989311",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3108, version 7989311-2015-01-20"
+  },
+  "course-8084941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084941",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 5071, version 8084941-2020-09-08"
+  },
+  "course-7994301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7994301",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3603, version 7994301-2024-09-03"
+  },
+  "course-0052151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052151",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 5601, version 0052151-2015-01-20"
+  },
+  "course-7978531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7978531",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 4102, version 7978531-2015-01-20"
+  },
+  "course-7987351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7987351",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 4103, version 7987351-2022-09-06"
+  },
+  "course-8172381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172381",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 4107, version 8172381-2022-09-06"
+  },
+  "course-7922481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922481",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 5051, version 7922481-2022-01-18"
+  },
+  "course-0099041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099041",
+   "retrieved": "2026-11-23",
+   "section": "Course record FW 5603, version 0099041-2024-09-03"
+  },
+  "course-0134601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0134601",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3015, version 0134601-2026-09-08"
+  },
+  "course-0066951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066951",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3251, version 0066951-2010-09-07"
+  },
+  "course-0129871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129871",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 4061W, version 0129871-2016-09-06"
+  },
+  "course-0069791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069791",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 3411, version 0069791-2020-09-08"
+  },
+  "course-0066351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066351",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 4232W, version 0066351-2018-01-16"
+  }
+ },
+ "courseSets": {
+  "set-8F3mbwTd": {
+   "codes": [
+    "MATH 1142",
+    "MATH 1271",
+    "FW 4001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-9UcVKtGi": {
+   "codes": [
+    "CHEM 1061",
+    "CHEM 1081",
+    "CHEM 1065"
+   ],
+   "sourceRef": "program"
+  },
+  "set-8n356X6D": {
+   "codes": [
+    "BIOL 1009",
+    "BIOL 3012",
+    "PMB 2022",
+    "FW 4301",
+    "GCD 3022",
+    "EEB 3407",
+    "EEB 3408W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-LfIaQ7vK": {
+   "codes": [
+    "FW 1001",
+    "FW 2001W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-D4173OiR": {
+   "codes": [
+    "FW 3108",
+    "FNRM 3131"
+   ],
+   "sourceRef": "program"
+  },
+  "set-xBnE89iQ": {
+   "codes": [
+    "CFAN 3096",
+    "CFAN 4096"
+   ],
+   "sourceRef": "program"
+  },
+  "set-URtWktfd": {
+   "codes": [
+    "AECM 2421W",
+    "COMM 1101",
+    "WRIT 3562W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-SIRd5kvh": {
+   "codes": [
+    "FW 3925",
+    "ESPM 3011W",
+    "ESPM 3014",
+    "ESPM 3202W",
+    "ESPM 3241W",
+    "ESPM 3245",
+    "ESPM 3261",
+    "ESPM 3271"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Sb9tXHOz": {
+   "codes": [
+    "FW 2003",
+    "FW 4101",
+    "FNRM 1101",
+    "FW 4136",
+    "ENT 3021",
+    "ENT 4361",
+    "PMB 4321",
+    "PMB 4511",
+    "EEB 4129",
+    "EEB 4839",
+    "EEB 4134",
+    "EEB 4844"
+   ],
+   "sourceRef": "program"
+  },
+  "set-nvD5LsS5": {
+   "codes": [
+    "EEB 4609W",
+    "ESPM 3575",
+    "FNRM 3104",
+    "FNRM 3203",
+    "FNRM 3204",
+    "ESPM 3108",
+    "ESPM 5071",
+    "EEB 3603",
+    "EEB 5601"
+   ],
+   "sourceRef": "program"
+  },
+  "set-R1IfetSr": {
+   "codes": [
+    "FW 4102",
+    "FW 4103",
+    "FW 4107",
+    "FW 5051",
+    "FW 5603",
+    "ESPM 3015",
+    "ESPM 3251",
+    "ESPM 4061W",
+    "FNRM 3411",
+    "FNRM 4232W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-K0yAxqRt": {
+   "codes": [
+    "EEB 3408W",
+    "EEB 4609W",
+    "ESPM 3011W",
+    "ESPM 3202W",
+    "ESPM 3241W",
+    "ESPM 4061W",
+    "FNRM 4232W",
+    "WRIT 3562W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AECM 2421W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Professional Communication for Agriculture, Food, and the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7961761"
+   },
+   "sourceRef": "course-7961761"
+  },
+  "BIOL 1009": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054161"
+   },
+   "sourceRef": "course-0054161"
+  },
+  "BIOL 3012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Animal Diversity and Evolution",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1001/1001H, or BIOL 1009/1009H, or BIOL 1951/1951H"
+    },
+    "sourceRef": "course-8257621"
+   },
+   "sourceRef": "course-8257621"
+  },
+  "CFAN 3096": {
+   "catalogTerm": "Fall 2026",
+   "title": "Making the Most of your Professional Experience",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8095531"
+   },
+   "sourceRef": "course-8095531"
+  },
+  "CFAN 4096": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reflecting on Your Professional Experience",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Secured internship, completion of summer module, instr consent"
+    },
+    "sourceRef": "course-8199021"
+   },
+   "sourceRef": "course-8199021"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "CHEM 1081": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8152521"
+   },
+   "sourceRef": "course-8152521"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "EEB 3407": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ecology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8123571"
+   },
+   "sourceRef": "course-8123571"
+  },
+  "EEB 3408W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ecology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8125911"
+   },
+   "sourceRef": "course-8125911"
+  },
+  "EEB 3603": {
+   "catalogTerm": "Fall 2026",
+   "title": "Science, Protection, and Management of Aquatic Environments",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1001 or 1009 or 1951 or equiv"
+    },
+    "sourceRef": "course-7994301"
+   },
+   "sourceRef": "course-7994301"
+  },
+  "EEB 4129": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mammalogy",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One semester of college-level biology (BIOL 1951 or 1009). A course in Animal Diversity (e.g. BIOL 3012) is recommended but not required."
+    },
+    "sourceRef": "course-0051871"
+   },
+   "sourceRef": "course-0051871"
+  },
+  "EEB 4134": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Ornithology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "BIOL 1001"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 2012"
+      }
+     ]
+    },
+    "sourceRef": "course-0051191"
+   },
+   "sourceRef": "course-0051191"
+  },
+  "EEB 4609W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ecosystem Ecology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128471"
+   },
+   "sourceRef": "course-0128471"
+  },
+  "EEB 4839": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Studies in Mammalogy",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0136991"
+   },
+   "sourceRef": "course-0136991"
+  },
+  "EEB 4844": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Ornithology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0136981"
+   },
+   "sourceRef": "course-0136981"
+  },
+  "EEB 5601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Limnology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-0052151"
+   },
+   "sourceRef": "course-0052151"
+  },
+  "ENT 3021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Insect Biodiversity and Evolution",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8200821"
+   },
+   "sourceRef": "course-8200821"
+  },
+  "ENT 4361": {
+   "catalogTerm": "Fall 2026",
+   "title": "Aquatic Insects",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ENT 1005 or BIOL 1009 or Instructor consent"
+    },
+    "sourceRef": "course-0054901"
+   },
+   "sourceRef": "course-0054901"
+  },
+  "ESPM 3011W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ethics in Natural Resources",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093181"
+   },
+   "sourceRef": "course-0093181"
+  },
+  "ESPM 3014": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tribal and Indigenous Natural Resource Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197611"
+   },
+   "sourceRef": "course-8197611"
+  },
+  "ESPM 3015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Invasive Plants and Animals: Ecology and Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0134601"
+   },
+   "sourceRef": "course-0134601"
+  },
+  "ESPM 3108": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ecology of Managed Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1001 or BIOL 1009 or HORT 1001 or instr consent"
+    },
+    "sourceRef": "course-7989311"
+   },
+   "sourceRef": "course-7989311"
+  },
+  "ESPM 3202W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Conflict Management, Leadership, and Planning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0149621"
+   },
+   "sourceRef": "course-0149621"
+  },
+  "ESPM 3241W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Natural Resource and Environmental Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082071"
+   },
+   "sourceRef": "course-0082071"
+  },
+  "ESPM 3245": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Land Use Planning and Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0067031"
+   },
+   "sourceRef": "course-0067031"
+  },
+  "ESPM 3251": {
+   "catalogTerm": "Fall 2026",
+   "title": "Natural Resources in Sustainable International Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066951"
+   },
+   "sourceRef": "course-0066951"
+  },
+  "ESPM 3261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Economics and Natural Resources Management",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053691"
+   },
+   "sourceRef": "course-0053691"
+  },
+  "ESPM 3271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Policy, Law, and Human Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7989321"
+   },
+   "sourceRef": "course-7989321"
+  },
+  "ESPM 3575": {
+   "catalogTerm": "Fall 2026",
+   "title": "Wetlands",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0105981"
+   },
+   "sourceRef": "course-0105981"
+  },
+  "ESPM 4061W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Water Quality and Natural Resources",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129871"
+   },
+   "sourceRef": "course-0129871"
+  },
+  "ESPM 5071": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ecological Restoration",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8084941"
+   },
+   "sourceRef": "course-8084941"
+  },
+  "FNRM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dendrology: Identifying Forest Trees and Shrubs",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082441"
+   },
+   "sourceRef": "course-0082441"
+  },
+  "FNRM 3104": {
+   "catalogTerm": "Fall 2026",
+   "title": "Forest Ecology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Biol 1001, 1009 or equivalent introductory biology course; 1 semester college chemistry recommended."
+    },
+    "sourceRef": "course-0051151"
+   },
+   "sourceRef": "course-0051151"
+  },
+  "FNRM 3131": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geographical Information Systems (GIS) for Natural Resources",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or jr or sr or UHP fr"
+    },
+    "sourceRef": "course-0048841"
+   },
+   "sourceRef": "course-0048841"
+  },
+  "FNRM 3203": {
+   "catalogTerm": "Fall 2026",
+   "title": "Forest Fire and Disturbance Ecology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7908621"
+   },
+   "sourceRef": "course-7908621"
+  },
+  "FNRM 3204": {
+   "catalogTerm": "Fall 2026",
+   "title": "Landscape Ecology and Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Ecology course"
+    },
+    "sourceRef": "course-7953831"
+   },
+   "sourceRef": "course-7953831"
+  },
+  "FNRM 3411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Managing Forest Ecosystems: Silviculture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0069791"
+   },
+   "sourceRef": "course-0069791"
+  },
+  "FNRM 4232W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Managing Recreational Lands",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066351"
+   },
+   "sourceRef": "course-0066351"
+  },
+  "FW 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Orientation in Fisheries, Wildlife, and Conservation Biology",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0073361"
+   },
+   "sourceRef": "course-0073361"
+  },
+  "FW 2001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Fisheries, Wildlife, and Conservation Biology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Biol 1001, Biol 1009 or Biol 1951"
+    },
+    "sourceRef": "course-0133521"
+   },
+   "sourceRef": "course-0133521"
+  },
+  "FW 2003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Marine Biology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1001 or BIOL 1009 or BIOL 2002 or ESCI 1006 or ESCI 1106 or instr consent"
+    },
+    "sourceRef": "course-7993281"
+   },
+   "sourceRef": "course-7993281"
+  },
+  "FW 3108": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Methods in Research and Conservation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[soph, jr, sr], FW major"
+    },
+    "sourceRef": "course-0097271"
+   },
+   "sourceRef": "course-0097271"
+  },
+  "FW 3925": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Dimensions of Fisheries and Wildlife Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8118841"
+   },
+   "sourceRef": "course-8118841"
+  },
+  "FW 4001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biometry",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0146491"
+   },
+   "sourceRef": "course-0146491"
+  },
+  "FW 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Herpetology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "BIOL 1001"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 2012"
+      }
+     ]
+    },
+    "sourceRef": "course-8007891"
+   },
+   "sourceRef": "course-8007891"
+  },
+  "FW 4102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Conservation Biology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "introductory biology course"
+    },
+    "sourceRef": "course-7978531"
+   },
+   "sourceRef": "course-7978531"
+  },
+  "FW 4103": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Wildlife Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Intro biology course, [jr or sr]"
+    },
+    "sourceRef": "course-7987351"
+   },
+   "sourceRef": "course-7987351"
+  },
+  "FW 4107": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Fisheries Science and Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172381"
+   },
+   "sourceRef": "course-8172381"
+  },
+  "FW 4136": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ichthyology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "BIOL 1001"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 2012"
+      }
+     ]
+    },
+    "sourceRef": "course-0138531"
+   },
+   "sourceRef": "course-0138531"
+  },
+  "FW 4301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Conservation Genetics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8140561"
+   },
+   "sourceRef": "course-8140561"
+  },
+  "FW 5051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of Populations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[4001 or STAT 3011 or ESPM 3012], [EEB 3407 or EEB 3408W or EEB 3807], Senior or grad student"
+    },
+    "sourceRef": "course-7922481"
+   },
+   "sourceRef": "course-7922481"
+  },
+  "FW 5603": {
+   "catalogTerm": "Fall 2026",
+   "title": "Habitats and Regulation of Wildlife",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "FW 4102"
+        },
+        {
+         "type": "course",
+         "course_code": "FW 4103"
+        }
+       ]
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "EEB 3407"
+        },
+        {
+         "type": "course",
+         "course_code": "EEB 3408"
+        },
+        {
+         "type": "course",
+         "course_code": "EEB 3807"
+        }
+       ]
+      }
+     ]
+    },
+    "sourceRef": "course-0099041"
+   },
+   "sourceRef": "course-0099041"
+  },
+  "GCD 3022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Genetics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062711"
+   },
+   "sourceRef": "course-0062711"
+  },
+  "MATH 1142": {
+   "catalogTerm": "Fall 2026",
+   "title": "Short Calculus",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]"
+    },
+    "sourceRef": "course-0001191"
+   },
+   "sourceRef": "course-0001191"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "PMB 2022": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Botany",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054181"
+   },
+   "sourceRef": "course-0054181"
+  },
+  "PMB 4321": {
+   "catalogTerm": "Fall 2026",
+   "title": "Minnesota Flora",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One semester college biology"
+    },
+    "sourceRef": "course-0106321"
+   },
+   "sourceRef": "course-0106321"
+  },
+  "PMB 4511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Flowering Plant Diversity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "BIOL 1001"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1001H"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1009"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1009H"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1951"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1951H"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 2003"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 2003H"
+      }
+     ]
+    },
+    "sourceRef": "course-0088031"
+   },
+   "sourceRef": "course-0088031"
+  },
+  "WRIT 3562W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026681"
+   },
+   "sourceRef": "course-0026681"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-VmtBkorQ",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-VmtBkorQ",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-8F3mbwTd",
+      "type": "credits",
+      "courseSet": "set-8F3mbwTd",
+      "minCredits": 8,
+      "sourceRef": "program",
+      "label": "Mathematical Thinking"
+     },
+     {
+      "id": "r-9UcVKtGi",
+      "type": "credits",
+      "courseSet": "set-9UcVKtGi",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Chemistry"
+     },
+     {
+      "id": "r-8n356X6D",
+      "type": "credits",
+      "courseSet": "set-8n356X6D",
+      "minCredits": 17,
+      "sourceRef": "program",
+      "label": "Biological Sciences"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-Heqd2nqQ",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Heqd2nqQ",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-LfIaQ7vK",
+      "type": "credits",
+      "courseSet": "set-LfIaQ7vK",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Lower Division Core Courses"
+     },
+     {
+      "id": "r-D4173OiR",
+      "type": "credits",
+      "courseSet": "set-D4173OiR",
+      "minCredits": 8,
+      "sourceRef": "program",
+      "label": "Upper Division Core Courses"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-TFBF2nYw",
+   "label": "Experiential Learning",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-xBnE89iQ",
+    "type": "credits",
+    "courseSet": "set-xBnE89iQ",
+    "minCredits": 1,
+    "sourceRef": "program",
+    "label": "All students must take either CFAN 3096 or CFAN 4096"
+   }
+  },
+  {
+   "id": "g-pcMWOt1M",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-pcMWOt1M",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-URtWktfd",
+      "type": "credits",
+      "courseSet": "set-URtWktfd",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Communications"
+     },
+     {
+      "id": "r-SIRd5kvh",
+      "type": "credits",
+      "courseSet": "set-SIRd5kvh",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Human Dimensions"
+     },
+     {
+      "id": "r-Sb9tXHOz",
+      "type": "credits",
+      "courseSet": "set-Sb9tXHOz",
+      "minCredits": 9,
+      "sourceRef": "program",
+      "label": "Animals and Plants"
+     },
+     {
+      "id": "r-nvD5LsS5",
+      "type": "credits",
+      "courseSet": "set-nvD5LsS5",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Community and Ecosystem Ecology"
+     },
+     {
+      "id": "r-R1IfetSr",
+      "type": "credits",
+      "courseSet": "set-R1IfetSr",
+      "minCredits": 9,
+      "sourceRef": "program",
+      "label": "Advanced Courses in FWCB"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-kgGqZtOc",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-K0yAxqRt",
+    "type": "count",
+    "courseSet": "set-K0yAxqRt",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nStudents may fulfill the minimum requirements for admission to the University's College of Veterinary Medicine and other colleges of veterinary medicine by completing a bachelor's degree in fisheries, wildlife, and conservation biology and consulting their adviser. View a sample plan for your major here: https://sampleplan.umn.edu/node/256\nAt least 22 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nCollegiate Requirements:\nAll CFANS undergraduate students must complete an Experiential Learning (EL) requirement. Experiential learning is a way to learn by doing or learn by experiencing. Instead of acquiring information from a classroom lecture or book, experiential learning gives you active, hands-on experience in the real world. Examples of experiential learning options within CFANS include: off-campus study programs, field-based research, service-learning classes, internships, volunteer work related to your studies, and more.\nAll CFANS undergraduate students must complete an Interdisciplinary (ID) Learning Requirement. An interdisciplinary (ID) course addresses issues from at least two different academic disciplines (two fields/departments within the university). By integrating two disciplines into one class, students have the opportunity to develop integrated problem-solving skills.\nTo determine which of your major classes fulfill the EL and ID requirements, see your APAS report. Students are encouraged to work with their academic advisor to identify EL and ID requirements in their graduation planning. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "For information about University of Minnesota admission requirements, visit the Office of Admissions website . Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

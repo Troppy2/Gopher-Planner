@@ -1,0 +1,714 @@
+{
+ "schemaVersion": 2,
+ "id": "forest-and-natural-resource-management-bs",
+ "name": "Forest and Natural Resource Management B.S.",
+ "officialName": "Forest and Natural Resource Management B.S.",
+ "officialProgramId": "032420130",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Forest and Natural Resource Management B.S., revision 032420130-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/032420130, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/032420130",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 032420130-2026-09-08"
+  },
+  "course-7961761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7961761",
+   "retrieved": "2026-11-23",
+   "section": "Course record AECM 2421W, version 7961761-2021-09-07"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-0054191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054191",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1001, version 0054191-2020-09-08"
+  },
+  "course-0054161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009, version 0054161-2020-09-08"
+  },
+  "course-0054181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054181",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 2022, version 0054181-2024-09-03"
+  },
+  "course-0065781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065781",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOIL 2125, version 0065781-2016-05-23"
+  },
+  "course-8283871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8283871",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1001, version 8283871-2026-09-08"
+  },
+  "course-7976151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976151",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1017, version 7976151-2026-05-18"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-8077581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077581",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1071H, version 8077581-2026-09-08"
+  },
+  "course-0082071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3241W, version 0082071-2011-01-18"
+  },
+  "course-0053691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053691",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3261, version 0053691-2024-01-16"
+  },
+  "course-0081451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0081451",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 1001, version 0081451-2016-01-19"
+  },
+  "course-0082441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082441",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 1101, version 0082441-2016-09-06"
+  },
+  "course-0048841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048841",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 3131, version 0048841-2023-09-05"
+  },
+  "course-0066351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066351",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 4232W, version 0066351-2018-01-16"
+  },
+  "course-8197611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197611",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3014, version 8197611-2020-09-08"
+  },
+  "course-0149621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0149621",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3202W, version 0149621-2016-01-19"
+  },
+  "course-0129871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129871",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 4061W, version 0129871-2016-09-06"
+  },
+  "course-8005951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8005951",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 4141W, version 8005951-2024-01-16"
+  },
+  "course-8056941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8056941",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 3001W, version 8056941-2018-01-16"
+  }
+ },
+ "courseSets": {
+  "set-YJ7ZrOLw": {
+   "codes": [
+    "AECM 2421W",
+    "COMM 1101"
+   ],
+   "sourceRef": "program"
+  },
+  "set-0PwsanSu": {
+   "codes": [
+    "BIOL 1001",
+    "BIOL 1009",
+    "PMB 2022",
+    "SOIL 2125"
+   ],
+   "sourceRef": "program"
+  },
+  "set-cwzZTazq": {
+   "codes": [
+    "CHEM 1001",
+    "CHEM 1017",
+    "CHEM 1061",
+    "CHEM 1065",
+    "CHEM 1071H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-NRBjqytK": {
+   "codes": [
+    "ESPM 3241W",
+    "ESPM 3261"
+   ],
+   "sourceRef": "program"
+  },
+  "set-h9zBnwe7": {
+   "codes": [
+    "FNRM 1001",
+    "FNRM 1101",
+    "FNRM 3131",
+    "FNRM 4232W",
+    "ESPM 3014"
+   ],
+   "sourceRef": "program"
+  },
+  "set-EiLa7LjQ": {
+   "codes": [
+    "FNRM 4232W",
+    "ESPM 3202W",
+    "ESPM 3241W",
+    "ESPM 4061W",
+    "HORT 4141W",
+    "URBS 3001W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AECM 2421W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Professional Communication for Agriculture, Food, and the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7961761"
+   },
+   "sourceRef": "course-7961761"
+  },
+  "BIOL 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Biology: Evolutionary and Ecological Perspectives",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054191"
+   },
+   "sourceRef": "course-0054191"
+  },
+  "BIOL 1009": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054161"
+   },
+   "sourceRef": "course-0054161"
+  },
+  "CHEM 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry of Life and Death",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8283871"
+   },
+   "sourceRef": "course-8283871"
+  },
+  "CHEM 1017": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Chemistry: Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976151"
+   },
+   "sourceRef": "course-7976151"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "CHEM 1071H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8077581"
+   },
+   "sourceRef": "course-8077581"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "ESPM 3014": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tribal and Indigenous Natural Resource Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197611"
+   },
+   "sourceRef": "course-8197611"
+  },
+  "ESPM 3202W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Conflict Management, Leadership, and Planning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0149621"
+   },
+   "sourceRef": "course-0149621"
+  },
+  "ESPM 3241W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Natural Resource and Environmental Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082071"
+   },
+   "sourceRef": "course-0082071"
+  },
+  "ESPM 3261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Economics and Natural Resources Management",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053691"
+   },
+   "sourceRef": "course-0053691"
+  },
+  "ESPM 4061W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Water Quality and Natural Resources",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129871"
+   },
+   "sourceRef": "course-0129871"
+  },
+  "FNRM 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Orientation and Information Systems",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0081451"
+   },
+   "sourceRef": "course-0081451"
+  },
+  "FNRM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dendrology: Identifying Forest Trees and Shrubs",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082441"
+   },
+   "sourceRef": "course-0082441"
+  },
+  "FNRM 3131": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geographical Information Systems (GIS) for Natural Resources",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or jr or sr or UHP fr"
+    },
+    "sourceRef": "course-0048841"
+   },
+   "sourceRef": "course-0048841"
+  },
+  "FNRM 4232W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Managing Recreational Lands",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066351"
+   },
+   "sourceRef": "course-0066351"
+  },
+  "HORT 4141W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scheduling Crops for Protected Environments",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "HORT 1001/6011 or PMB 2022 or BIOL 1009.  HORT 1015 preferred but not required."
+    },
+    "sourceRef": "course-8005951"
+   },
+   "sourceRef": "course-8005951"
+  },
+  "PMB 2022": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Botany",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054181"
+   },
+   "sourceRef": "course-0054181"
+  },
+  "SOIL 2125": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic Soil Science",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[CHEM 1015, CHEM 1017] or CHEM 1021 or equiv"
+    },
+    "sourceRef": "course-0065781"
+   },
+   "sourceRef": "course-0065781"
+  },
+  "URBS 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Urban Studies: The Complexity of Metropolitan Life",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8056941"
+   },
+   "sourceRef": "course-8056941"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-abVWnFpb",
+   "label": "Communication Skills",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-YJ7ZrOLw",
+    "type": "credits",
+    "courseSet": "set-YJ7ZrOLw",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Communication Skills"
+   }
+  },
+  {
+   "id": "g-7t5bdVnW",
+   "label": "Physical and Biological Sciences",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-0PwsanSu",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-0PwsanSu-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-0PwsanSu-g1",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-0PwsanSu-g1-1",
+          "type": "course",
+          "code": "BIOL 1001",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-0PwsanSu-g1-2",
+          "type": "course",
+          "code": "BIOL 1009",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-0PwsanSu-g2-1",
+        "type": "course",
+        "code": "PMB 2022",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-0PwsanSu-g3-1",
+        "type": "course",
+        "code": "SOIL 2125",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-0PwsanSu-credits",
+      "type": "credits",
+      "minCredits": 11,
+      "courseSet": "set-0PwsanSu",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Physical and Biological Sciences"
+   }
+  },
+  {
+   "id": "g-qhoGz4u5",
+   "label": "Chemistry",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-cwzZTazq",
+    "type": "credits",
+    "courseSet": "set-cwzZTazq",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Chemistry"
+   }
+  },
+  {
+   "id": "g-1DoX2s58",
+   "label": "Economics and Policy",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-NRBjqytK",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-NRBjqytK-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-NRBjqytK-g1-1",
+        "type": "course",
+        "code": "ESPM 3241W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-NRBjqytK-g2-1",
+        "type": "course",
+        "code": "ESPM 3261",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-NRBjqytK-credits",
+      "type": "credits",
+      "minCredits": 7,
+      "courseSet": "set-NRBjqytK",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Economics and Policy"
+   }
+  },
+  {
+   "id": "g-RQAJTVMA",
+   "label": "Other Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-h9zBnwe7",
+    "type": "credits",
+    "courseSet": "set-h9zBnwe7",
+    "minCredits": 15,
+    "sourceRef": "program",
+    "label": "Other Core Courses"
+   }
+  },
+  {
+   "id": "g-E6NA0wFJ",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-EiLa7LjQ",
+    "type": "count",
+    "courseSet": "set-EiLa7LjQ",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nCollegiate Requirements:\nAll CFANS undergraduate students must complete an Experiential Learning (EL) requirement. Experiential learning is a way to learn by doing, or learn by experiencing. Instead of acquiring information from a classroom lecture or book, experiential learning gives you active, hands-on experience in the real world. Examples of experiential learning options within CFANS include: off-campus study programs, field-based research, service-learning classes, internships, volunteer work related to your studies, and more.\nAll CFANS undergraduate students must complete an Interdisciplinary (ID) Learning Requirement. An interdisciplinary (ID) course addresses issues from at least two different academic disciplines (two fields/departments within the university). By integrating two disciplines into one class, students have the opportunity to develop integrated problem-solving skills.\nTo determine which of your major classes fulfill the EL and ID requirements, see your APAS report. Students are encouraged to work with their academic advisor to identify EL and ID requirements in their graduation planning.\nAt least 23 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Forest Ecosystem Management and Conservation, Park and Protected Area Management, Urban & Community Forestry. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

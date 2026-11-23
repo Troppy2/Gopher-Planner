@@ -1,0 +1,1676 @@
+{
+ "schemaVersion": 2,
+ "id": "philosophy-ba",
+ "name": "Philosophy B.A.",
+ "officialName": "Philosophy B.A.",
+ "officialProgramId": "065220217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Philosophy B.A., revision 065220217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/065220217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/065220217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 065220217-2026-09-08"
+  },
+  "course-0054431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054431",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3001W, version 0054431-2021-05-17"
+  },
+  "course-0054421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054421",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3005W, version 0054421-2021-05-17"
+  },
+  "course-0063001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063001",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 1001, version 0063001-2026-09-08"
+  },
+  "course-0063091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063091",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5201, version 0063091-2021-05-17"
+  },
+  "course-0066711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066711",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3234, version 0066711-2023-01-17"
+  },
+  "course-0064651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3601W, version 0064651-2026-09-08"
+  },
+  "course-0063591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063591",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4101, version 0063591-2021-05-17"
+  },
+  "course-8183091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8183091",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5101, version 8183091-2021-05-17"
+  },
+  "course-0051421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051421",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4105W, version 0051421-2021-09-07"
+  },
+  "course-8251261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251261",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5105, version 8251261-2021-09-07"
+  },
+  "course-0063611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063611",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4231, version 0063611-2021-05-17"
+  },
+  "course-8191991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8191991",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5231, version 8191991-2021-05-17"
+  },
+  "course-0064781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064781",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4605, version 0064781-2021-05-17"
+  },
+  "course-7949781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7949781",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5605, version 7949781-2021-05-17"
+  },
+  "course-0064831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064831",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4607, version 0064831-2021-05-17"
+  },
+  "course-8189661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5607, version 8189661-2021-05-17"
+  },
+  "course-0069841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069841",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3311W, version 0069841-2026-09-08"
+  },
+  "course-0069901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069901",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4311W, version 0069901-2021-05-17"
+  },
+  "course-8186571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8186571",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5311, version 8186571-2021-05-17"
+  },
+  "course-0063751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063751",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4320, version 0063751-2026-09-08"
+  },
+  "course-8177501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8177501",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5320, version 8177501-2026-09-08"
+  },
+  "course-0069911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069911",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4321W, version 0069911-2021-09-07"
+  },
+  "course-8251411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5321, version 8251411-2021-09-07"
+  },
+  "course-0069931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069931",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4331, version 0069931-2021-05-17"
+  },
+  "course-8190281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8190281",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5331, version 8190281-2021-05-17"
+  },
+  "course-0063761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063761",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4414, version 0063761-2021-05-17"
+  },
+  "course-8194331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8194331",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5414, version 8194331-2021-05-17"
+  },
+  "course-8262991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262991",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3009, version 8262991-2023-09-05"
+  },
+  "course-8264451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8264451",
+   "retrieved": "2026-11-23",
+   "section": "Course record FRIT 3656, version 8264451-2023-09-05"
+  },
+  "course-8264461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8264461",
+   "retrieved": "2026-11-23",
+   "section": "Course record GSD 3656, version 8264461-2023-09-05"
+  },
+  "course-8277641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277641",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3065, version 8277641-2025-09-02"
+  },
+  "course-8277631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277631",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5065, version 8277631-2025-09-02"
+  },
+  "course-8019521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8019521",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3201, version 8019521-2021-05-17"
+  },
+  "course-7901791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7901791",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3301, version 7901791-2021-05-17"
+  },
+  "course-0051521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051521",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3302W, version 0051521-2025-01-21"
+  },
+  "course-0170311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0170311",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3322W, version 0170311-2025-05-19"
+  },
+  "course-0063841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063841",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3304, version 0063841-2021-05-17"
+  },
+  "course-0054821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054821",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3305, version 0054821-2021-05-17"
+  },
+  "course-8275111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275111",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3333, version 8275111-2025-09-02"
+  },
+  "course-8185961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185961",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3605, version 8185961-2021-05-17"
+  },
+  "course-0064741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064741",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3607, version 0064741-2021-05-17"
+  },
+  "course-8262871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262871",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3760, version 8262871-2026-09-08"
+  },
+  "course-0072131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072131",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3993, version 0072131-2021-05-17"
+  },
+  "course-0054631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054631",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4010, version 0054631-2021-05-17"
+  },
+  "course-8084761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084761",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5010, version 8084761-2021-05-17"
+  },
+  "course-8272151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272151",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4016, version 8272151-2024-09-03"
+  },
+  "course-8269191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8269191",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5016, version 8269191-2024-09-03"
+  },
+  "course-0054681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054681",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4055, version 0054681-2021-09-07"
+  },
+  "course-8251371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251371",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5055, version 8251371-2021-09-07"
+  },
+  "course-0054701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054701",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4085, version 0054701-2025-09-02"
+  },
+  "course-8005631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8005631",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5085, version 8005631-2025-09-02"
+  },
+  "course-0054781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054781",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4510, version 0054781-2021-05-17"
+  },
+  "course-8006051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006051",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5510, version 8006051-2021-05-17"
+  },
+  "course-0064981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064981",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4615, version 0064981-2026-01-20"
+  },
+  "course-8196001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8196001",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5615, version 8196001-2026-01-20"
+  },
+  "course-0063631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063631",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4622, version 0063631-2021-09-07"
+  },
+  "course-7962531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7962531",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5622, version 7962531-2021-09-07"
+  },
+  "course-0072101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072101",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4760, version 0072101-2026-01-20"
+  },
+  "course-0072121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072121",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4993, version 0072121-2021-05-17"
+  },
+  "course-0063101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063101",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5202, version 0063101-2021-05-17"
+  },
+  "course-8185181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185181",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5209, version 8185181-2021-05-17"
+  },
+  "course-0063111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063111",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5211, version 0063111-2021-05-17"
+  },
+  "course-0054611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054611",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5221, version 0054611-2021-09-07"
+  },
+  "course-0063741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063741",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5222, version 0063741-2021-05-17"
+  },
+  "course-0069851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069851",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5415, version 0069851-2021-05-17"
+  },
+  "course-7940011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7940011",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5601, version 7940011-2021-05-17"
+  },
+  "course-0072091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072091",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5760, version 0072091-2026-09-08"
+  },
+  "course-0072161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072161",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 5993, version 0072161-2021-05-17"
+  },
+  "course-8256251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256251",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4888, version 8256251-2022-01-18"
+  },
+  "course-8256301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256301",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4888H, version 8256301-2022-01-18"
+  },
+  "course-8000261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8000261",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 4893, version 8000261-2022-01-18"
+  }
+ },
+ "courseSets": {
+  "set-XqoHuo0p": {
+   "codes": [
+    "PHIL 3001W",
+    "PHIL 3005W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Hj8jGzPA": {
+   "codes": [
+    "PHIL 1001",
+    "PHIL 5201"
+   ],
+   "sourceRef": "program"
+  },
+  "set-44rvoV8c": {
+   "codes": [
+    "PHIL 3234",
+    "PHIL 3601W",
+    "PHIL 4101",
+    "PHIL 5101",
+    "PHIL 4105W",
+    "PHIL 5105",
+    "PHIL 4231",
+    "PHIL 5231",
+    "PHIL 4605",
+    "PHIL 5605",
+    "PHIL 4607",
+    "PHIL 5607"
+   ],
+   "sourceRef": "program"
+  },
+  "set-3Q119T0j": {
+   "codes": [
+    "PHIL 3311W",
+    "PHIL 4311W",
+    "PHIL 5311",
+    "PHIL 4320",
+    "PHIL 5320",
+    "PHIL 4321W",
+    "PHIL 5321",
+    "PHIL 4331",
+    "PHIL 5331",
+    "PHIL 4414",
+    "PHIL 5414"
+   ],
+   "sourceRef": "program"
+  },
+  "set-mkbzlB8b": {
+   "codes": [
+    "PHIL 3001W",
+    "PHIL 3005W",
+    "PHIL 3009",
+    "FRIT 3656",
+    "GSD 3656",
+    "PHIL 3065",
+    "PHIL 5065",
+    "PHIL 3201",
+    "PHIL 3234",
+    "PHIL 3301",
+    "PHIL 3302W",
+    "PHIL 3322W",
+    "PHIL 3304",
+    "PHIL 3305",
+    "PHIL 3311W",
+    "PHIL 3333",
+    "PHIL 3601W",
+    "PHIL 3605",
+    "PHIL 3607",
+    "PHIL 3760",
+    "PHIL 3993",
+    "PHIL 4010",
+    "PHIL 5010",
+    "PHIL 4016",
+    "PHIL 5016",
+    "PHIL 4055",
+    "PHIL 5055",
+    "PHIL 4085",
+    "PHIL 5085",
+    "PHIL 4101",
+    "PHIL 5101",
+    "PHIL 4105W",
+    "PHIL 5105",
+    "PHIL 4231",
+    "PHIL 5231",
+    "PHIL 4311W",
+    "PHIL 5311",
+    "PHIL 4320",
+    "PHIL 5320",
+    "PHIL 4321W",
+    "PHIL 5321",
+    "PHIL 4331",
+    "PHIL 5331",
+    "PHIL 4414",
+    "PHIL 5414",
+    "PHIL 4510",
+    "PHIL 5510",
+    "PHIL 4605",
+    "PHIL 5605",
+    "PHIL 4607",
+    "PHIL 5607",
+    "PHIL 4615",
+    "PHIL 5615",
+    "PHIL 4622",
+    "PHIL 5622",
+    "PHIL 4760",
+    "PHIL 4993",
+    "PHIL 5201",
+    "PHIL 5202",
+    "PHIL 5209",
+    "PHIL 5211",
+    "PHIL 5221",
+    "PHIL 5222",
+    "PHIL 5415",
+    "PHIL 5601",
+    "PHIL 5760",
+    "PHIL 5993"
+   ],
+   "sourceRef": "program"
+  },
+  "set-6bql1GmH": {
+   "codes": [
+    "PHIL 4888",
+    "PHIL 4888H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-YrKYXnmL": {
+   "codes": [
+    "PHIL 4893"
+   ],
+   "sourceRef": "program"
+  },
+  "set-398783": {
+   "codes": [
+    "PHIL 3001W",
+    "PHIL 3005W",
+    "PHIL 3302W",
+    "PHIL 3322W",
+    "PHIL 3311W",
+    "PHIL 3601W",
+    "PHIL 4105W",
+    "PHIL 4311W",
+    "PHIL 4321W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "FRIT 3656": {
+   "catalogTerm": "Fall 2026",
+   "title": "Existentialism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8264451"
+   },
+   "sourceRef": "course-8264451"
+  },
+  "GSD 3656": {
+   "catalogTerm": "Fall 2026",
+   "title": "Existentialism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8264461"
+   },
+   "sourceRef": "course-8264461"
+  },
+  "PHIL 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Logic",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0063001"
+   },
+   "sourceRef": "course-0063001"
+  },
+  "PHIL 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "General History of Western Philosophy: Ancient Period",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054431"
+   },
+   "sourceRef": "course-0054431"
+  },
+  "PHIL 3005W": {
+   "catalogTerm": "Fall 2026",
+   "title": "General History of Western Philosophy: Modern Period",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054421"
+   },
+   "sourceRef": "course-0054421"
+  },
+  "PHIL 3009": {
+   "catalogTerm": "Fall 2026",
+   "title": "Existentialism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262991"
+   },
+   "sourceRef": "course-8262991"
+  },
+  "PHIL 3065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Michel Foucault, Philosopher",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277641"
+   },
+   "sourceRef": "course-8277641"
+  },
+  "PHIL 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Free Will and Responsibility",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8019521"
+   },
+   "sourceRef": "course-8019521"
+  },
+  "PHIL 3234": {
+   "catalogTerm": "Fall 2026",
+   "title": "Knowledge and Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066711"
+   },
+   "sourceRef": "course-0066711"
+  },
+  "PHIL 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Ethics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7901791"
+   },
+   "sourceRef": "course-7901791"
+  },
+  "PHIL 3302W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Moral Problems of Contemporary Society",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0051521"
+   },
+   "sourceRef": "course-0051521"
+  },
+  "PHIL 3304": {
+   "catalogTerm": "Fall 2026",
+   "title": "Law and Morality",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0063841"
+   },
+   "sourceRef": "course-0063841"
+  },
+  "PHIL 3305": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medical Ethics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054821"
+   },
+   "sourceRef": "course-0054821"
+  },
+  "PHIL 3311W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Ethical Theory",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0069841"
+   },
+   "sourceRef": "course-0069841"
+  },
+  "PHIL 3322W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Moral Problems of Contemporary Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0170311"
+   },
+   "sourceRef": "course-0170311"
+  },
+  "PHIL 3333": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Pursuit of Happiness",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275111"
+   },
+   "sourceRef": "course-8275111"
+  },
+  "PHIL 3601W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scientific Thought",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0064651"
+   },
+   "sourceRef": "course-0064651"
+  },
+  "PHIL 3605": {
+   "catalogTerm": "Fall 2026",
+   "title": "Disease, Diagnosis, and Intervention: Conceptual Issues in Medicine",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8185961"
+   },
+   "sourceRef": "course-8185961"
+  },
+  "PHIL 3607": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy of Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One course in philosophy or psychology"
+    },
+    "sourceRef": "course-0064741"
+   },
+   "sourceRef": "course-0064741"
+  },
+  "PHIL 3760": {
+   "catalogTerm": "Fall 2026",
+   "title": "Selected Topics in Philosophy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262871"
+   },
+   "sourceRef": "course-8262871"
+  },
+  "PHIL 3993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0072131"
+   },
+   "sourceRef": "course-0072131"
+  },
+  "PHIL 4010": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Philosophers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001 or instr consent"
+    },
+    "sourceRef": "course-0054631"
+   },
+   "sourceRef": "course-0054631"
+  },
+  "PHIL 4016": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chinese Philosophy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272151"
+   },
+   "sourceRef": "course-8272151"
+  },
+  "PHIL 4055": {
+   "catalogTerm": "Fall 2026",
+   "title": "Kant",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3005 or 4004 or instr consent"
+    },
+    "sourceRef": "course-0054681"
+   },
+   "sourceRef": "course-0054681"
+  },
+  "PHIL 4085": {
+   "catalogTerm": "Fall 2026",
+   "title": "Wittgenstein",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054701"
+   },
+   "sourceRef": "course-0054701"
+  },
+  "PHIL 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Metaphysics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One course in history of philosophy or instr consent"
+    },
+    "sourceRef": "course-0063591"
+   },
+   "sourceRef": "course-0063591"
+  },
+  "PHIL 4105W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Epistemology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or instr consent"
+    },
+    "sourceRef": "course-0051421"
+   },
+   "sourceRef": "course-0051421"
+  },
+  "PHIL 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy of Language",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or 5201 or instr consent"
+    },
+    "sourceRef": "course-0063611"
+   },
+   "sourceRef": "course-0063611"
+  },
+  "PHIL 4311W": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Moral Theories",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0069901"
+   },
+   "sourceRef": "course-0069901"
+  },
+  "PHIL 4320": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intensive Study of a Historical Moral Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or instr consent"
+    },
+    "sourceRef": "course-0063751"
+   },
+   "sourceRef": "course-0063751"
+  },
+  "PHIL 4321W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theories of Justice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or 1004 or instr consent"
+    },
+    "sourceRef": "course-0069911"
+   },
+   "sourceRef": "course-0069911"
+  },
+  "PHIL 4331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Moral Theories",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0069931"
+   },
+   "sourceRef": "course-0069931"
+  },
+  "PHIL 4414": {
+   "catalogTerm": "Fall 2026",
+   "title": "Political Philosophy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1004 or instr consent"
+    },
+    "sourceRef": "course-0063761"
+   },
+   "sourceRef": "course-0063761"
+  },
+  "PHIL 4510": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy of the Individual Arts",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3502"
+    },
+    "sourceRef": "course-0054781"
+   },
+   "sourceRef": "course-0054781"
+  },
+  "PHIL 4605": {
+   "catalogTerm": "Fall 2026",
+   "title": "Space and Time",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Courses in [philosophy or physics] or instr consent"
+    },
+    "sourceRef": "course-0064781"
+   },
+   "sourceRef": "course-0064781"
+  },
+  "PHIL 4607": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy of the Biological Sciences",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0064831"
+   },
+   "sourceRef": "course-0064831"
+  },
+  "PHIL 4615": {
+   "catalogTerm": "Fall 2026",
+   "title": "Minds, Bodies, and Machines",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0064981"
+   },
+   "sourceRef": "course-0064981"
+  },
+  "PHIL 4622": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy and Feminist Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "8 crs in [philosophy or women's studies] or instr consent"
+    },
+    "sourceRef": "course-0063631"
+   },
+   "sourceRef": "course-0063631"
+  },
+  "PHIL 4760": {
+   "catalogTerm": "Fall 2026",
+   "title": "Selected Topics in Philosophy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3 [3xxx-5xxx] cr in philosophy or instr consent"
+    },
+    "sourceRef": "course-0072101"
+   },
+   "sourceRef": "course-0072101"
+  },
+  "PHIL 4888": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy Senior Capstone",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256251"
+   },
+   "sourceRef": "course-8256251"
+  },
+  "PHIL 4888H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Philosophy Senior Capstone",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256301"
+   },
+   "sourceRef": "course-8256301"
+  },
+  "PHIL 4893": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone: Directed Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent, dept consent"
+    },
+    "sourceRef": "course-8000261"
+   },
+   "sourceRef": "course-8000261"
+  },
+  "PHIL 4993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0072121"
+   },
+   "sourceRef": "course-0072121"
+  },
+  "PHIL 5010": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Philosophers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001 or instr consent"
+    },
+    "sourceRef": "course-8084761"
+   },
+   "sourceRef": "course-8084761"
+  },
+  "PHIL 5016": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chinese Philosophy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8269191"
+   },
+   "sourceRef": "course-8269191"
+  },
+  "PHIL 5055": {
+   "catalogTerm": "Fall 2026",
+   "title": "Kant",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3005 or 4004 or instr consent"
+    },
+    "sourceRef": "course-8251371"
+   },
+   "sourceRef": "course-8251371"
+  },
+  "PHIL 5065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Michel Foucault, Philosopher",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277631"
+   },
+   "sourceRef": "course-8277631"
+  },
+  "PHIL 5085": {
+   "catalogTerm": "Fall 2026",
+   "title": "Wittgenstein",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8005631"
+   },
+   "sourceRef": "course-8005631"
+  },
+  "PHIL 5101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Metaphysics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One course in history of philosophy or instr consent"
+    },
+    "sourceRef": "course-8183091"
+   },
+   "sourceRef": "course-8183091"
+  },
+  "PHIL 5105": {
+   "catalogTerm": "Fall 2026",
+   "title": "Epistemology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or instr consent"
+    },
+    "sourceRef": "course-8251261"
+   },
+   "sourceRef": "course-8251261"
+  },
+  "PHIL 5201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Symbolic Logic I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or instr consent"
+    },
+    "sourceRef": "course-0063091"
+   },
+   "sourceRef": "course-0063091"
+  },
+  "PHIL 5202": {
+   "catalogTerm": "Fall 2026",
+   "title": "Symbolic Logic II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5201 or instr consent"
+    },
+    "sourceRef": "course-0063101"
+   },
+   "sourceRef": "course-0063101"
+  },
+  "PHIL 5209": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mathematical Methods for Philosophy",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "prior course in mathematics, logic, or mathematics-related discipline or or instr consent"
+    },
+    "sourceRef": "course-8185181"
+   },
+   "sourceRef": "course-8185181"
+  },
+  "PHIL 5211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modal Logic",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5201 or instr consent"
+    },
+    "sourceRef": "course-0063111"
+   },
+   "sourceRef": "course-0063111"
+  },
+  "PHIL 5221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy of Logic",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5202 or instr consent"
+    },
+    "sourceRef": "course-0054611"
+   },
+   "sourceRef": "course-0054611"
+  },
+  "PHIL 5222": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy of Mathematics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "College level logic or mathematics course or instr consent"
+    },
+    "sourceRef": "course-0063741"
+   },
+   "sourceRef": "course-0063741"
+  },
+  "PHIL 5231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy of Language",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or 5201 or instr consent"
+    },
+    "sourceRef": "course-8191991"
+   },
+   "sourceRef": "course-8191991"
+  },
+  "PHIL 5311": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Moral Theories",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003W or instr consent or GRAD"
+    },
+    "sourceRef": "course-8186571"
+   },
+   "sourceRef": "course-8186571"
+  },
+  "PHIL 5320": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intensive Study of a Historical Moral Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or instr consent"
+    },
+    "sourceRef": "course-8177501"
+   },
+   "sourceRef": "course-8177501"
+  },
+  "PHIL 5321": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theories of Justice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or 1004 or grad student or instr consent"
+    },
+    "sourceRef": "course-8251411"
+   },
+   "sourceRef": "course-8251411"
+  },
+  "PHIL 5331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Moral Theories",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or instr consent"
+    },
+    "sourceRef": "course-8190281"
+   },
+   "sourceRef": "course-8190281"
+  },
+  "PHIL 5414": {
+   "catalogTerm": "Fall 2026",
+   "title": "Political Philosophy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1004 or instr consent"
+    },
+    "sourceRef": "course-8194331"
+   },
+   "sourceRef": "course-8194331"
+  },
+  "PHIL 5415": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy of Law",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or 1004 or 3302 or social science major or instr consent"
+    },
+    "sourceRef": "course-0069851"
+   },
+   "sourceRef": "course-0069851"
+  },
+  "PHIL 5510": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy of the Individual Arts",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3502"
+    },
+    "sourceRef": "course-8006051"
+   },
+   "sourceRef": "course-8006051"
+  },
+  "PHIL 5601": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the Philosophy of Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-7940011"
+   },
+   "sourceRef": "course-7940011"
+  },
+  "PHIL 5605": {
+   "catalogTerm": "Fall 2026",
+   "title": "Space and Time",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Courses in [philosophy or physics] or instr consent"
+    },
+    "sourceRef": "course-7949781"
+   },
+   "sourceRef": "course-7949781"
+  },
+  "PHIL 5607": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy of the Biological Sciences",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Courses in [philosophy or biology] or instr consent"
+    },
+    "sourceRef": "course-8189661"
+   },
+   "sourceRef": "course-8189661"
+  },
+  "PHIL 5615": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mind, Bodies, and Machines",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8196001"
+   },
+   "sourceRef": "course-8196001"
+  },
+  "PHIL 5622": {
+   "catalogTerm": "Fall 2026",
+   "title": "Philosophy and Feminist Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "8 crs in [philosophy or women's studies] or instr consent"
+    },
+    "sourceRef": "course-7962531"
+   },
+   "sourceRef": "course-7962531"
+  },
+  "PHIL 5760": {
+   "catalogTerm": "Fall 2026",
+   "title": "Selected Topics in Philosophy",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3xxx-5xxx course in phil or instr consent"
+    },
+    "sourceRef": "course-0072091"
+   },
+   "sourceRef": "course-0072091"
+  },
+  "PHIL 5993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent, dept consent, college consent"
+    },
+    "sourceRef": "course-0072161"
+   },
+   "sourceRef": "course-0072161"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-vWHRqGR1",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-zGvqynb2",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-XqoHuo0p",
+      "type": "credits",
+      "courseSet": "set-XqoHuo0p",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "History of Philosophy"
+     },
+     {
+      "id": "r-Hj8jGzPA",
+      "type": "credits",
+      "courseSet": "set-Hj8jGzPA",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Logic"
+     },
+     {
+      "id": "r-44rvoV8c",
+      "type": "credits",
+      "courseSet": "set-44rvoV8c",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Epistemology / Philosophy of Language / Metaphysics / Philosophy of Science"
+     },
+     {
+      "id": "r-3Q119T0j",
+      "type": "credits",
+      "courseSet": "set-3Q119T0j",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Value Theory"
+     }
+    ],
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-ZUqUDVzR",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-0oEF4j1B",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-I7unETAQ",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Lower-division Courses: courses from this list count for at most 8 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Lower-division Courses"
+     },
+     {
+      "id": "r-mkbzlB8b",
+      "type": "credits",
+      "courseSet": "set-mkbzlB8b",
+      "minCredits": 7,
+      "sourceRef": "program",
+      "label": "Upper-division Courses"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-FhnUzako",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-mnHSmuVE",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-6bql1GmH",
+      "type": "credits",
+      "courseSet": "set-6bql1GmH",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "PHIL 4888/H Capstone"
+     },
+     {
+      "id": "r-YrKYXnmL",
+      "type": "credits",
+      "courseSet": "set-YrKYXnmL",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "PHIL 4893 Capstone"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-065220217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-398783",
+    "type": "count",
+    "courseSet": "set-398783",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Philosophy BA is PHIL.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 11 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn a BA or a minor in philosophy, but not both. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Ethics and Civic Life. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

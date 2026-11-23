@@ -1,0 +1,1275 @@
+{
+ "schemaVersion": 2,
+ "id": "communication-studies-ba",
+ "name": "Communication Studies B.A.",
+ "officialName": "Communication Studies B.A.",
+ "officialProgramId": "088420217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Communication Studies B.A., revision 088420217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/088420217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/088420217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 088420217-2026-09-08"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-7887411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887411",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101H, version 7887411-2026-09-08"
+  },
+  "course-0038931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038931",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1313W, version 0038931-2026-01-20"
+  },
+  "course-0039481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039481",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3211, version 0039481-2021-05-17"
+  },
+  "course-0038971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038971",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3401, version 0038971-2024-05-13"
+  },
+  "course-0039031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039031",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3601, version 0039031-2021-09-07"
+  },
+  "course-0038951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038951",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3201, version 0038951-2021-05-17"
+  },
+  "course-8029941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029941",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3202, version 8029941-2025-05-19"
+  },
+  "course-7930741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7930741",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3204, version 7930741-2021-05-17"
+  },
+  "course-0038981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038981",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3411, version 0038981-2024-09-03"
+  },
+  "course-0042681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042681",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3422, version 0042681-2021-05-17"
+  },
+  "course-0039051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039051",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3605W, version 0039051-2026-09-08"
+  },
+  "course-8168371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168371",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3614, version 8168371-2021-05-17"
+  },
+  "course-0046061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0046061",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3994, version 0046061-2021-05-17"
+  },
+  "course-8003941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003941",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3263W, version 8003941-2024-05-13"
+  },
+  "course-0039001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039001",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3451W, version 0039001-2026-09-08"
+  },
+  "course-0043781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043781",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3615W, version 0043781-2022-09-06"
+  },
+  "course-0039081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039081",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3625W, version 0039081-2022-01-18"
+  },
+  "course-8031421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8031421",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3635W, version 8031421-2021-05-17"
+  },
+  "course-8035711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8035711",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3645W, version 8035711-2021-05-17"
+  },
+  "course-0026301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026301",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3676W, version 0026301-2021-05-17"
+  },
+  "course-0026481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026481",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3682W, version 0026481-2021-05-17"
+  },
+  "course-8052041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8052041",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4204, version 8052041-2021-05-17"
+  },
+  "course-0044671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044671",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4235, version 0044671-2021-05-17"
+  },
+  "course-8150611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8150611",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4251, version 8150611-2021-05-17"
+  },
+  "course-8003971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003971",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4263, version 8003971-2021-05-17"
+  },
+  "course-0038961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038961",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4291, version 0038961-2021-05-17"
+  },
+  "course-0044051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044051",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4404W, version 0044051-2021-05-17"
+  },
+  "course-7901441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7901441",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4407, version 7901441-2021-05-17"
+  },
+  "course-8196301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8196301",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4461, version 8196301-2026-09-08"
+  },
+  "course-7901451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7901451",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4471, version 7901451-2024-05-13"
+  },
+  "course-0039181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039181",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4602W, version 0039181-2021-05-17"
+  },
+  "course-0043851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043851",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4616, version 0043851-2021-05-17"
+  },
+  "course-0039261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039261",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4621W, version 0039261-2021-05-17"
+  },
+  "course-8262391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262391",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 4642W, version 8262391-2023-01-17"
+  },
+  "course-0102451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102451",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5110, version 0102451-2026-09-08"
+  },
+  "course-8003981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003981",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5211, version 8003981-2021-09-07"
+  },
+  "course-8003991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003991",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5221, version 8003991-2021-05-17"
+  },
+  "course-8082301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8082301",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5231, version 8082301-2021-05-17"
+  },
+  "course-0039211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039211",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5261, version 0039211-2021-05-17"
+  },
+  "course-0039271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039271",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5402, version 0039271-2024-01-16"
+  },
+  "course-0039041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039041",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5411, version 0039041-2021-05-17"
+  },
+  "course-0039071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039071",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5431, version 0039071-2021-05-17"
+  },
+  "course-0039101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039101",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5441, version 0039101-2021-05-17"
+  },
+  "course-0039111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039111",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5451, version 0039111-2026-09-08"
+  },
+  "course-0039191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039191",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5611, version 0039191-2021-05-17"
+  },
+  "course-0039201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039201",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5615W, version 0039201-2021-05-17"
+  },
+  "course-0039221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039221",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5617, version 0039221-2021-05-17"
+  },
+  "course-7908791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908791",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5994, version 7908791-2021-05-17"
+  },
+  "course-7913551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7913551",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3999W, version 7913551-2021-05-17"
+  }
+ },
+ "courseSets": {
+  "set-nESvUXKf": {
+   "codes": [
+    "COMM 1101",
+    "COMM 1101H",
+    "COMM 1313W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-4Uy5oYF0": {
+   "codes": [
+    "COMM 3211",
+    "COMM 3401",
+    "COMM 3601"
+   ],
+   "sourceRef": "program"
+  },
+  "set-9u8numcP": {
+   "codes": [
+    "COMM 3201",
+    "COMM 3202",
+    "COMM 3204",
+    "COMM 3411",
+    "COMM 3422",
+    "COMM 3605W",
+    "COMM 3614",
+    "COMM 3994"
+   ],
+   "sourceRef": "program"
+  },
+  "set-EXH5bZ3J": {
+   "codes": [
+    "COMM 3263W",
+    "COMM 3451W",
+    "COMM 3615W",
+    "COMM 3625W",
+    "COMM 3635W",
+    "COMM 3645W",
+    "COMM 3676W",
+    "COMM 3682W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-NexPb8BP": {
+   "codes": [
+    "COMM 4204",
+    "COMM 4235",
+    "COMM 4251",
+    "COMM 4263",
+    "COMM 4291",
+    "COMM 4404W",
+    "COMM 4407",
+    "COMM 4461",
+    "COMM 4471",
+    "COMM 4602W",
+    "COMM 4616",
+    "COMM 4621W",
+    "COMM 4642W",
+    "COMM 5110",
+    "COMM 5211",
+    "COMM 5221",
+    "COMM 5231",
+    "COMM 5261",
+    "COMM 5402",
+    "COMM 5411",
+    "COMM 5431",
+    "COMM 5441",
+    "COMM 5451",
+    "COMM 5611",
+    "COMM 5615W",
+    "COMM 5617",
+    "COMM 5994"
+   ],
+   "sourceRef": "program"
+  },
+  "set-416960": {
+   "codes": [
+    "COMM 3263W",
+    "COMM 3451W",
+    "COMM 3605W",
+    "COMM 3615W",
+    "COMM 3625W",
+    "COMM 3635W",
+    "COMM 3645W",
+    "COMM 3676W",
+    "COMM 3682W",
+    "COMM 3999W",
+    "COMM 4404W",
+    "COMM 4602W",
+    "COMM 4621W",
+    "COMM 4642W",
+    "COMM 5451",
+    "COMM 5615W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "COMM 1101H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-7887411"
+   },
+   "sourceRef": "course-7887411"
+  },
+  "COMM 1313W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of Argument",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038931"
+   },
+   "sourceRef": "course-0038931"
+  },
+  "COMM 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Electronic Media Production",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038951"
+   },
+   "sourceRef": "course-0038951"
+  },
+  "COMM 3202": {
+   "catalogTerm": "Fall 2026",
+   "title": "Audio Production and Podcast Storytelling",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029941"
+   },
+   "sourceRef": "course-8029941"
+  },
+  "COMM 3204": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Electronic Media Production",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3201 or instr consent"
+    },
+    "sourceRef": "course-7930741"
+   },
+   "sourceRef": "course-7930741"
+  },
+  "COMM 3211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Media Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039481"
+   },
+   "sourceRef": "course-0039481"
+  },
+  "COMM 3263W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Media Literacy: Decoding Media Images and Messages",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8003941"
+   },
+   "sourceRef": "course-8003941"
+  },
+  "COMM 3401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Communication Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038971"
+   },
+   "sourceRef": "course-0038971"
+  },
+  "COMM 3411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Small Group and Team Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038981"
+   },
+   "sourceRef": "course-0038981"
+  },
+  "COMM 3422": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interviewing and Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042681"
+   },
+   "sourceRef": "course-0042681"
+  },
+  "COMM 3451W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intercultural Communication: Theory and Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Planning an intercultural experience"
+    },
+    "sourceRef": "course-0039001"
+   },
+   "sourceRef": "course-0039001"
+  },
+  "COMM 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Rhetorical Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039031"
+   },
+   "sourceRef": "course-0039031"
+  },
+  "COMM 3605W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Persuasive Speaking and Speech Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101, soph"
+    },
+    "sourceRef": "course-0039051"
+   },
+   "sourceRef": "course-0039051"
+  },
+  "COMM 3614": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Public Policy and Debate",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168371"
+   },
+   "sourceRef": "course-8168371"
+  },
+  "COMM 3615W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Argumentation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0043781"
+   },
+   "sourceRef": "course-0043781"
+  },
+  "COMM 3625W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communication Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039081"
+   },
+   "sourceRef": "course-0039081"
+  },
+  "COMM 3635W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Famous Speeches",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8031421"
+   },
+   "sourceRef": "course-8031421"
+  },
+  "COMM 3645W": {
+   "catalogTerm": "Fall 2026",
+   "title": "How Pictures Persuade",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8035711"
+   },
+   "sourceRef": "course-8035711"
+  },
+  "COMM 3676W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communicating Terrorism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026301"
+   },
+   "sourceRef": "course-0026301"
+  },
+  "COMM 3682W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communicating War",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026481"
+   },
+   "sourceRef": "course-0026481"
+  },
+  "COMM 3994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0046061"
+   },
+   "sourceRef": "course-0046061"
+  },
+  "COMM 3999W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Project",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7913551"
+   },
+   "sourceRef": "course-7913551"
+  },
+  "COMM 4204": {
+   "catalogTerm": "Fall 2026",
+   "title": "Producing for Television: Theory and Practice",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3201, 3204"
+    },
+    "sourceRef": "course-8052041"
+   },
+   "sourceRef": "course-8052041"
+  },
+  "COMM 4235": {
+   "catalogTerm": "Fall 2026",
+   "title": "Electronic Media and Ethnic Minorities--A World View",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0044671"
+   },
+   "sourceRef": "course-0044671"
+  },
+  "COMM 4251": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8150611"
+   },
+   "sourceRef": "course-8150611"
+  },
+  "COMM 4263": {
+   "catalogTerm": "Fall 2026",
+   "title": "Feminist Media Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3211 or instr consent"
+    },
+    "sourceRef": "course-8003971"
+   },
+   "sourceRef": "course-8003971"
+  },
+  "COMM 4291": {
+   "catalogTerm": "Fall 2026",
+   "title": "New Telecommunication Media",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3211 or instr consent"
+    },
+    "sourceRef": "course-0038961"
+   },
+   "sourceRef": "course-0038961"
+  },
+  "COMM 4404W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Language Borderlands",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0044051"
+   },
+   "sourceRef": "course-0044051"
+  },
+  "COMM 4407": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communication and Conflict",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3401 or instr consent"
+    },
+    "sourceRef": "course-7901441"
+   },
+   "sourceRef": "course-7901441"
+  },
+  "COMM 4461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Healthy Bonds: Cultivating Relational Resilience through Prosocial Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8196301"
+   },
+   "sourceRef": "course-8196301"
+  },
+  "COMM 4471": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communication in Marriage and Family",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3401 or 3402 or instr consent"
+    },
+    "sourceRef": "course-7901451"
+   },
+   "sourceRef": "course-7901451"
+  },
+  "COMM 4602W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Political Persuasion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101, 3431 or instr consent"
+    },
+    "sourceRef": "course-0039181"
+   },
+   "sourceRef": "course-0039181"
+  },
+  "COMM 4616": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American Civil Rights Rhetoric",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr"
+    },
+    "sourceRef": "course-0043851"
+   },
+   "sourceRef": "course-0043851"
+  },
+  "COMM 4621W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Rhetoric of Feminism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039261"
+   },
+   "sourceRef": "course-0039261"
+  },
+  "COMM 4642W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Rhetoric of Secrecy and Surveillance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262391"
+   },
+   "sourceRef": "course-8262391"
+  },
+  "COMM 5110": {
+   "catalogTerm": "Fall 2026",
+   "title": "Special Topics in Communication Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0102451"
+   },
+   "sourceRef": "course-0102451"
+  },
+  "COMM 5211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Critical Media Studies: Theory and Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Graduate students or undergraduates who have completed COMM 3211 (Introduction to Media Studies) or its equivalent"
+    },
+    "sourceRef": "course-8003981"
+   },
+   "sourceRef": "course-8003981"
+  },
+  "COMM 5221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Media, Race, and Identity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3211 or instr consent"
+    },
+    "sourceRef": "course-8003991"
+   },
+   "sourceRef": "course-8003991"
+  },
+  "COMM 5231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Media Outlaws",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8082301"
+   },
+   "sourceRef": "course-8082301"
+  },
+  "COMM 5261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Political Economy of Media Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3211 or instr consent"
+    },
+    "sourceRef": "course-0039211"
+   },
+   "sourceRef": "course-0039211"
+  },
+  "COMM 5402": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Interpersonal Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3401 or 3402"
+    },
+    "sourceRef": "course-0039271"
+   },
+   "sourceRef": "course-0039271"
+  },
+  "COMM 5411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Small Group Communication Research",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3411 or instr consent"
+    },
+    "sourceRef": "course-0039041"
+   },
+   "sourceRef": "course-0039041"
+  },
+  "COMM 5431": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Process of Persuasion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3431"
+    },
+    "sourceRef": "course-0039071"
+   },
+   "sourceRef": "course-0039071"
+  },
+  "COMM 5441": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communication in Human Organizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039101"
+   },
+   "sourceRef": "course-0039101"
+  },
+  "COMM 5451": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intercultural Communication Processes",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039111"
+   },
+   "sourceRef": "course-0039111"
+  },
+  "COMM 5611": {
+   "catalogTerm": "Fall 2026",
+   "title": "Survey of Rhetorical Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039191"
+   },
+   "sourceRef": "course-0039191"
+  },
+  "COMM 5615W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Rhetorical Criticism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101; 3601 recommended"
+    },
+    "sourceRef": "course-0039201"
+   },
+   "sourceRef": "course-0039201"
+  },
+  "COMM 5617": {
+   "catalogTerm": "Fall 2026",
+   "title": "History and Criticism of U.S. Public Discourse: 1630-1865",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr"
+    },
+    "sourceRef": "course-0039221"
+   },
+   "sourceRef": "course-0039221"
+  },
+  "COMM 5994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communication Research Practicum",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-7908791"
+   },
+   "sourceRef": "course-7908791"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-GvSPkv8i",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-nESvUXKf",
+    "type": "credits",
+    "courseSet": "set-nESvUXKf",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "Foundation Courses"
+   }
+  },
+  {
+   "id": "g-3F4jVwNm",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-4Uy5oYF0",
+    "type": "credits",
+    "courseSet": "set-4Uy5oYF0",
+    "minCredits": 9,
+    "sourceRef": "program",
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-E1hZBp3s",
+   "label": "Performative Elective",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-9u8numcP",
+    "type": "credits",
+    "courseSet": "set-9u8numcP",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Performative Elective"
+   }
+  },
+  {
+   "id": "g-3SmFR5m6",
+   "label": "Research Experience Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-EXH5bZ3J",
+    "type": "credits",
+    "courseSet": "set-EXH5bZ3J",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Research Experience Course"
+   }
+  },
+  {
+   "id": "g-wkbWcPE6",
+   "label": "Communication Studies Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-8ijdMw2z",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-GnclVPJu",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "COMM 19xx & 3xxx: courses from this list count for at most 3 credits. Verify this requirement with your advisor or APAS.",
+      "label": "COMM 19xx & 3xxx"
+     },
+     {
+      "id": "r-kz7ztgCo",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Directed Study and Research states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+      "label": "Directed Study and Research"
+     },
+     {
+      "id": "r-NexPb8BP",
+      "type": "credits",
+      "courseSet": "set-NexPb8BP",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "COMM 4xxx & 5xxx"
+     }
+    ],
+    "label": "Communication Studies Electives"
+   }
+  },
+  {
+   "id": "g-bqPYKk0M",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-RIbmyuuT",
+    "type": "course",
+    "code": "COMM 3999W",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-088420217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-416960",
+    "type": "count",
+    "courseSet": "set-416960",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Communication Studies BA is COMM.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or COMM 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 14 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn a BA or a minor in Communication Studies, but not both. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

@@ -1,0 +1,1311 @@
+{
+ "schemaVersion": 2,
+ "id": "statistical-science-bs",
+ "name": "Statistical Science B.S.",
+ "officialName": "Statistical Science B.S.",
+ "officialProgramId": "234420117",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Statistical Science B.S., revision 234420117-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/234420117, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/234420117",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 234420117-2026-09-08"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0036921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036921",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1371, version 0036921-2025-09-02"
+  },
+  "course-0036961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "course-0001211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001211",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1272, version 0001211-2021-09-07"
+  },
+  "course-0036931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036931",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1372, version 0036931-2021-05-17"
+  },
+  "course-0036971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1572H, version 0036971-2023-09-05"
+  },
+  "course-0002821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002821",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2263, version 0002821-2021-05-17"
+  },
+  "course-0036951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036951",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2374, version 0036951-2021-05-17"
+  },
+  "course-0036981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036981",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2573H, version 0036981-2023-09-05"
+  },
+  "course-7926551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7926551",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2142, version 7926551-2021-05-17"
+  },
+  "course-8051471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8051471",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 2033, version 8051471-2024-09-03"
+  },
+  "course-0002801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002801",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2243, version 0002801-2021-05-17"
+  },
+  "course-0107951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0107951",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 4242, version 0107951-2025-09-02"
+  },
+  "course-0036941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036941",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2373, version 0036941-2021-05-17"
+  },
+  "course-0036691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036691",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1113, version 0036691-2024-09-03"
+  },
+  "course-8096661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096661",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133, version 8096661-2024-09-03"
+  },
+  "course-8110721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8110721",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133H, version 8110721-2023-09-05"
+  },
+  "course-0036731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036731",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 2021, version 0036731-2025-09-02"
+  },
+  "course-8145241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8145241",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3032, version 8145241-2024-09-03"
+  },
+  "course-8153341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8153341",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3701, version 8153341-2025-01-21"
+  },
+  "course-8153351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8153351",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 4051, version 8153351-2024-01-16"
+  },
+  "course-8153361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8153361",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 4052, version 8153361-2024-09-03"
+  },
+  "course-0064081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064081",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5101, version 0064081-2026-01-20"
+  },
+  "course-0043081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043081",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 5651, version 0043081-2021-05-17"
+  },
+  "course-0064091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064091",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5102, version 0064091-2023-09-05"
+  },
+  "course-0026681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026681",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562W, version 0026681-2021-05-17"
+  },
+  "course-8158401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8158401",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562V, version 8158401-2021-05-17"
+  },
+  "course-0034661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034661",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5302, version 0034661-2025-09-02"
+  },
+  "course-0034651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034651",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5303, version 0034651-2023-09-05"
+  },
+  "course-0036641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036641",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5401, version 0036641-2023-09-05"
+  },
+  "course-0043671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043671",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5421, version 0043671-2023-09-05"
+  },
+  "course-8034561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8034561",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5511, version 8034561-2023-09-05"
+  },
+  "course-0047121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047121",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5601, version 0047121-2023-09-05"
+  },
+  "course-8198211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198211",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5731, version 8198211-2023-09-05"
+  },
+  "course-8197881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197881",
+   "retrieved": "2026-11-23",
+   "section": "Course record AST 5731, version 8197881-2025-01-21"
+  },
+  "course-0134661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0134661",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5931, version 0134661-2014-05-27"
+  },
+  "course-0134711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0134711",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 4893W, version 0134711-2023-09-05"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0016221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016221",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3021, version 0016221-2025-01-21"
+  }
+ },
+ "courseSets": {
+  "set-nnXfEDNg": {
+   "codes": [
+    "MATH 1271",
+    "MATH 1371",
+    "MATH 1571H",
+    "MATH 1272",
+    "MATH 1372",
+    "MATH 1572H",
+    "MATH 2263",
+    "MATH 2374",
+    "MATH 2573H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qZRwA5mr": {
+   "codes": [
+    "MATH 2142",
+    "CSCI 2033"
+   ],
+   "sourceRef": "program"
+  },
+  "set-nG7dZlQ5": {
+   "codes": [
+    "MATH 2243",
+    "MATH 4242"
+   ],
+   "sourceRef": "program"
+  },
+  "set-c8kfnSqc": {
+   "codes": [
+    "MATH 2373",
+    "MATH 4242"
+   ],
+   "sourceRef": "program"
+  },
+  "set-PNWD1up5": {
+   "codes": [
+    "CSCI 1113",
+    "CSCI 1133",
+    "CSCI 1133H",
+    "CSCI 2021"
+   ],
+   "sourceRef": "program"
+  },
+  "set-wZFNd3w4": {
+   "codes": [
+    "STAT 3032",
+    "STAT 3701",
+    "STAT 4051",
+    "STAT 4052",
+    "STAT 5101",
+    "MATH 5651",
+    "STAT 5102"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Snqs5A0W": {
+   "codes": [
+    "WRIT 3562W",
+    "WRIT 3562V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-GHqGm41W": {
+   "codes": [
+    "STAT 3032",
+    "STAT 3701",
+    "STAT 4051",
+    "STAT 4052",
+    "STAT 5101",
+    "MATH 5651",
+    "STAT 5102",
+    "WRIT 3562W",
+    "WRIT 3562V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-BCgSaBTs": {
+   "codes": [
+    "STAT 5302",
+    "STAT 5303",
+    "STAT 5401",
+    "STAT 5421",
+    "STAT 5511",
+    "STAT 5601",
+    "STAT 5731",
+    "AST 5731",
+    "STAT 5931"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qyEMNXv9": {
+   "codes": [
+    "STAT 3011",
+    "STAT 3021"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AST 5731": {
+   "catalogTerm": "Fall 2026",
+   "title": "Bayesian Astrostatistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197881"
+   },
+   "sourceRef": "course-8197881"
+  },
+  "CSCI 1113": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to C/C++ Programming for Scientists and Engineers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1271 or Math 1371 or Math 1571H or instr consent."
+    },
+    "sourceRef": "course-0036691"
+   },
+   "sourceRef": "course-0036691"
+  },
+  "CSCI 1133": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8096661"
+   },
+   "sourceRef": "course-8096661"
+  },
+  "CSCI 1133H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[concurrent registration is required (or allowed) in MATH 1271 or concurrent registration is required (or allowed) in MATH 1371 or concurrent registration is required (or allowed) in MATH 1571H], CSci majors, pre-majors in CSE/CLA, honors student"
+    },
+    "sourceRef": "course-8110721"
+   },
+   "sourceRef": "course-8110721"
+  },
+  "CSCI 2021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Machine Architecture and Organization",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1913 or 1933  or 1933H"
+    },
+    "sourceRef": "course-0036731"
+   },
+   "sourceRef": "course-0036731"
+  },
+  "CSCI 2033": {
+   "catalogTerm": "Fall 2026",
+   "title": "Elementary Computational Linear Algebra",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSCI [1103 OR 1113 OR 1133] & MATH [1271 OR 1371 OR 1571H]"
+    },
+    "sourceRef": "course-8051471"
+   },
+   "sourceRef": "course-8051471"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "MATH 1272": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1271 or equiv] with grade of at least C-"
+    },
+    "sourceRef": "course-0001211"
+   },
+   "sourceRef": "course-0001211"
+  },
+  "MATH 1371": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0036921"
+   },
+   "sourceRef": "course-0036921"
+  },
+  "MATH 1372": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in [1371 or equiv], CSE or pre-Bioprod/Biosys Engr"
+    },
+    "sourceRef": "course-0036931"
+   },
+   "sourceRef": "course-0036931"
+  },
+  "MATH 1571H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0036961"
+   },
+   "sourceRef": "course-0036961"
+  },
+  "MATH 1572H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1571H (or equivalent)  honors student"
+    },
+    "sourceRef": "course-0036971"
+   },
+   "sourceRef": "course-0036971"
+  },
+  "MATH 2142": {
+   "catalogTerm": "Fall 2026",
+   "title": "Elementary Linear Algebra",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7926551"
+   },
+   "sourceRef": "course-7926551"
+  },
+  "MATH 2243": {
+   "catalogTerm": "Fall 2026",
+   "title": "Linear Algebra and Differential Equations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-"
+    },
+    "sourceRef": "course-0002801"
+   },
+   "sourceRef": "course-0002801"
+  },
+  "MATH 2263": {
+   "catalogTerm": "Fall 2026",
+   "title": "Multivariable Calculus",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1372 or 1572] w/grade of at least C-"
+    },
+    "sourceRef": "course-0002821"
+   },
+   "sourceRef": "course-0002821"
+  },
+  "MATH 2373": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Linear Algebra and Differential Equations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bio Prod/Biosys Engr"
+    },
+    "sourceRef": "course-0036941"
+   },
+   "sourceRef": "course-0036941"
+  },
+  "MATH 2374": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Multivariable Calculus and Vector Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bioprod/Biosys Engr"
+    },
+    "sourceRef": "course-0036951"
+   },
+   "sourceRef": "course-0036951"
+  },
+  "MATH 2573H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus III",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1572H (or equivalent), honors student"
+    },
+    "sourceRef": "course-0036981"
+   },
+   "sourceRef": "course-0036981"
+  },
+  "MATH 4242": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Linear Algebra",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2243 or 2373 or 2573"
+    },
+    "sourceRef": "course-0107951"
+   },
+   "sourceRef": "course-0107951"
+  },
+  "MATH 5651": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic Theory of Probability and Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[2263 or 2374 or 2573], [2243 or 2373]; [2283 or 2574 or 3283] recommended."
+    },
+    "sourceRef": "course-0043081"
+   },
+   "sourceRef": "course-0043081"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "STAT 3021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Probability and Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1272"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1472"
+      }
+     ]
+    },
+    "sourceRef": "course-0016221"
+   },
+   "sourceRef": "course-0016221"
+  },
+  "STAT 3032": {
+   "catalogTerm": "Fall 2026",
+   "title": "Regression and Correlated Data",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3011"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3021"
+      }
+     ]
+    },
+    "sourceRef": "course-8145241"
+   },
+   "sourceRef": "course-8145241"
+  },
+  "STAT 3701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Computing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1472"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H"
+        }
+       ]
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "CSCI 1113"
+        },
+        {
+         "type": "course",
+         "course_code": "CSCI 1133"
+        }
+       ]
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3032"
+      }
+     ]
+    },
+    "sourceRef": "course-8153341"
+   },
+   "sourceRef": "course-8153341"
+  },
+  "STAT 4051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Statistical Machine Learning I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "STAT 3701"
+        },
+        {
+         "type": "course",
+         "course_code": "STAT 3301"
+        }
+       ]
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "STAT 4101"
+        },
+        {
+         "type": "course",
+         "course_code": "STAT 5101"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 5651"
+        }
+       ]
+      }
+     ]
+    },
+    "sourceRef": "course-8153351"
+   },
+   "sourceRef": "course-8153351"
+  },
+  "STAT 4052": {
+   "catalogTerm": "Fall 2026",
+   "title": "Statistical Machine Learning II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8153361"
+   },
+   "sourceRef": "course-8153361"
+  },
+  "STAT 4893W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Consultation and Communication for Statisticians",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Senior Statistics Major. STAT 4051 and STAT 4102 or STAT 5102"
+    },
+    "sourceRef": "course-0134711"
+   },
+   "sourceRef": "course-0134711"
+  },
+  "STAT 5101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory of Statistics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(MATH 2263 or MATH 2374 or MATH 2573H) & (MATH 2142 or CSCI 2033 or MATH 2373 or MATH 2243), OR (STAT, PUBH, or Data Science Graduate Student)"
+    },
+    "sourceRef": "course-0064081"
+   },
+   "sourceRef": "course-0064081"
+  },
+  "STAT 5102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory of Statistics II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5101 or Math 5651"
+    },
+    "sourceRef": "course-0064091"
+   },
+   "sourceRef": "course-0064091"
+  },
+  "STAT 5302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Regression Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3032 or 3022 or 4102 or 5021 or 5102 or instr consent"
+    },
+    "sourceRef": "course-0034661"
+   },
+   "sourceRef": "course-0034661"
+  },
+  "STAT 5303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Designing Experiments",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3022 or 3032 or 3301 or 4102 or 5021 or 5102 or instr consent"
+    },
+    "sourceRef": "course-0034651"
+   },
+   "sourceRef": "course-0034651"
+  },
+  "STAT 5401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Multivariate Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036641"
+   },
+   "sourceRef": "course-0036641"
+  },
+  "STAT 5421": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of Categorical Data",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3022"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3032"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3301"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 5302"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 4051"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 8051"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 5102"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 4102"
+      }
+     ]
+    },
+    "sourceRef": "course-0043671"
+   },
+   "sourceRef": "course-0043671"
+  },
+  "STAT 5511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Time Series Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 4102"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 5102"
+      }
+     ]
+    },
+    "sourceRef": "course-8034561"
+   },
+   "sourceRef": "course-8034561"
+  },
+  "STAT 5601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nonparametric Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Stat classes 3032 or 3022 or 4102 or 5021 or 5102 or instr consent"
+    },
+    "sourceRef": "course-0047121"
+   },
+   "sourceRef": "course-0047121"
+  },
+  "STAT 5731": {
+   "catalogTerm": "Fall 2026",
+   "title": "Bayesian Astrostatistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MATH 2263 and MATH 2243, or equivalent; or instructor consent"
+    },
+    "sourceRef": "course-8198211"
+   },
+   "sourceRef": "course-8198211"
+  },
+  "STAT 5931": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0134661"
+   },
+   "sourceRef": "course-0134661"
+  },
+  "WRIT 3562V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8158401"
+   },
+   "sourceRef": "course-8158401"
+  },
+  "WRIT 3562W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026681"
+   },
+   "sourceRef": "course-0026681"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-lPFHEC1P",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-h0377no0",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-nnXfEDNg",
+      "type": "credits",
+      "courseSet": "set-nnXfEDNg",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Calculus"
+     },
+     {
+      "id": "r-BtdIXfCO",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-qZRwA5mr",
+        "type": "credits",
+        "courseSet": "set-qZRwA5mr",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Option 1"
+       },
+       {
+        "id": "r-nG7dZlQ5",
+        "type": "credits",
+        "courseSet": "set-nG7dZlQ5",
+        "minCredits": 8,
+        "sourceRef": "program",
+        "label": "Option 2"
+       },
+       {
+        "id": "r-c8kfnSqc",
+        "type": "credits",
+        "courseSet": "set-c8kfnSqc",
+        "minCredits": 8,
+        "sourceRef": "program",
+        "label": "Option 3"
+       }
+      ],
+      "label": "Linear Algebra"
+     },
+     {
+      "id": "r-PNWD1up5",
+      "type": "credits",
+      "courseSet": "set-PNWD1up5",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Programming for Statisticians"
+     }
+    ],
+    "label": "Foundation Courses"
+   }
+  },
+  {
+   "id": "g-vQcDGAw5",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-GHqGm41W",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-GHqGm41W-rules",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-wZFNd3w4",
+        "type": "credits",
+        "courseSet": "set-wZFNd3w4",
+        "minCredits": 24,
+        "sourceRef": "program",
+        "label": "Statistics"
+       },
+       {
+        "id": "r-Snqs5A0W",
+        "type": "credits",
+        "courseSet": "set-Snqs5A0W",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Technical Writing"
+       }
+      ]
+     },
+     {
+      "id": "r-GHqGm41W-credits",
+      "type": "credits",
+      "courseSet": "set-GHqGm41W",
+      "minCredits": 28,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-3ILsnmu3",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-3Yenk79f",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-BCgSaBTs",
+      "type": "credits",
+      "courseSet": "set-BCgSaBTs",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "STAT Electives"
+     },
+     {
+      "id": "r-IttDKoLM",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Other Electives: courses from this list count for at most 6 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Other Electives"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-MlHnGhMF",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-aOR984d1",
+    "type": "course",
+    "code": "STAT 4893W",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-234420117",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-421560",
+    "type": "course",
+    "code": "STAT 4893W",
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-dn0V0GBQ",
+   "label": "Required Prerequisite",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-qyEMNXv9",
+    "type": "credits",
+    "courseSet": "set-qyEMNXv9",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Preparatory Course"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 19 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn no more than one degree from the statistics program: a BA or a BS or a minor. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

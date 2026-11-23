@@ -1,0 +1,3769 @@
+{
+ "schemaVersion": 2,
+ "id": "english-ba",
+ "name": "English B.A.",
+ "officialName": "English B.A.",
+ "officialProgramId": "027620217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "English B.A., revision 027620217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/027620217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/027620217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 027620217-2026-09-08"
+  },
+  "course-0024461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0024461",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3001W, version 0024461-2021-09-07"
+  },
+  "course-0163221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0163221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3001V, version 0163221-2021-05-17"
+  },
+  "course-0034761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034761",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3002, version 0034761-2021-05-17"
+  },
+  "course-7938221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 4003, version 7938221-2021-05-17"
+  },
+  "course-0029221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3007, version 0029221-2024-09-03"
+  },
+  "course-0165431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165431",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3007H, version 0165431-2024-09-03"
+  },
+  "course-0024481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0024481",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3003W, version 0024481-2021-05-17"
+  },
+  "course-0041901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0041901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3006W, version 0041901-2021-05-17"
+  },
+  "course-8136401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8136401",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3006V, version 8136401-2021-05-17"
+  },
+  "course-0029441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029441",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3004W, version 0029441-2021-05-17"
+  },
+  "course-0041801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0041801",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3005W, version 0041801-2021-05-17"
+  },
+  "course-0080581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0080581",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3201W, version 0080581-2016-09-06"
+  },
+  "course-8035991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8035991",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3011, version 8035991-2021-05-17"
+  },
+  "course-8191331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8191331",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3628, version 8191331-2024-09-03"
+  },
+  "course-8111621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8111621",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3025, version 8111621-2021-05-17"
+  },
+  "course-8171941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171941",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3627, version 8171941-2024-09-03"
+  },
+  "course-8136371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8136371",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3026, version 8136371-2021-05-17"
+  },
+  "course-8203421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8203421",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3072, version 8203421-2025-01-21"
+  },
+  "course-8204341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8204341",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3072, version 8204341-2025-01-21"
+  },
+  "course-8170191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170191",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3092, version 8170191-2021-05-17"
+  },
+  "course-7938191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938191",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3101, version 7938191-2021-09-07"
+  },
+  "course-8166371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8166371",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3101, version 8166371-2021-09-07"
+  },
+  "course-7943661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7943661",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3102, version 7943661-2021-05-17"
+  },
+  "course-8142381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8142381",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3102, version 8142381-2015-09-08"
+  },
+  "course-8272041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272041",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3103, version 8272041-2025-01-21"
+  },
+  "course-8160591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8160591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3114, version 8160591-2021-05-17"
+  },
+  "course-0036791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036791",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3132, version 0036791-2023-09-05"
+  },
+  "course-7943671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7943671",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3134, version 7943671-2021-05-17"
+  },
+  "course-7938211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938211",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3141, version 7938211-2021-05-17"
+  },
+  "course-0036811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036811",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3151, version 0036811-2021-09-07"
+  },
+  "course-0036831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3161, version 0036831-2022-01-18"
+  },
+  "course-8168751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168751",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3182, version 8168751-2021-05-17"
+  },
+  "course-0041931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0041931",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3212, version 0041931-2021-05-17"
+  },
+  "course-0042901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3222, version 0042901-2021-05-17"
+  },
+  "course-8029121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029121",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3222H, version 8029121-2025-01-21"
+  },
+  "course-8064591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3507W, version 8064591-2026-01-20"
+  },
+  "course-0031231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0031231",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3507W, version 0031231-2026-01-20"
+  },
+  "course-8162961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162961",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3593, version 8162961-2021-05-17"
+  },
+  "course-8100731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100731",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3593, version 8100731-2016-05-23"
+  },
+  "course-7912781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7912781",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5593, version 7912781-2021-05-17"
+  },
+  "course-0023521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023521",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5593, version 0023521-2016-05-23"
+  },
+  "course-7989011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989011",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3597W, version 7989011-2021-05-17"
+  },
+  "course-7989041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989041",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3597W, version 7989041-2021-05-17"
+  },
+  "course-7999111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7999111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3598W, version 7999111-2026-09-08"
+  },
+  "course-7897981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7897981",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3598W, version 7897981-2026-09-08"
+  },
+  "course-0043181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3601, version 0043181-2021-05-17"
+  },
+  "course-7943701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7943701",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 4152, version 7943701-2021-05-17"
+  },
+  "course-7936951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7936951",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 4232, version 7936951-2026-01-20"
+  },
+  "course-8063391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8063391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 4232, version 8063391-2026-01-20"
+  },
+  "course-7938241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938241",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 4233, version 7938241-2021-09-07"
+  },
+  "course-7938251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938251",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 4311, version 7938251-2021-05-17"
+  },
+  "course-7974531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974531",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 4311, version 7974531-2016-09-06"
+  },
+  "course-7936961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7936961",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 4612, version 7936961-2021-05-17"
+  },
+  "course-8142391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8142391",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 4612, version 8142391-2025-01-21"
+  },
+  "course-0074581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074581",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 4613, version 0074581-2021-05-17"
+  },
+  "course-8154231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8154231",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 4613, version 8154231-2025-01-21"
+  },
+  "course-8272181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 4621, version 8272181-2025-01-21"
+  },
+  "course-0045521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045521",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5110, version 0045521-2021-05-17"
+  },
+  "course-8088991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8088991",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3045, version 8088991-2024-09-03"
+  },
+  "course-8278431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278431",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3073, version 8278431-2025-09-02"
+  },
+  "course-8190931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8190931",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3093, version 8190931-2021-05-17"
+  },
+  "course-8074311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8074311",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3301, version 8074311-2024-01-16"
+  },
+  "course-7974621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974621",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3301, version 7974621-2024-01-16"
+  },
+  "course-8146521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8146521",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3303W, version 8146521-2021-05-17"
+  },
+  "course-8101021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101021",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3303W, version 8101021-2015-09-08"
+  },
+  "course-0071201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0071201",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3303W, version 0071201-2015-09-08"
+  },
+  "course-8100721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100721",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 4303W, version 8100721-2015-09-08"
+  },
+  "course-8179691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179691",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3331, version 8179691-2021-05-17"
+  },
+  "course-8180971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8180971",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLBT 3309, version 8180971-2025-01-21"
+  },
+  "course-8255931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8255931",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3332, version 8255931-2022-01-18"
+  },
+  "course-0037211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0037211",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3350, version 0037211-2021-05-17"
+  },
+  "course-8039301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8039301",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3352, version 8039301-2024-09-03"
+  },
+  "course-7898941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7898941",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3501, version 7898941-2021-05-17"
+  },
+  "course-8136381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8136381",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3502, version 8136381-2021-05-17"
+  },
+  "course-7954001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7954001",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3505, version 7954001-2022-09-06"
+  },
+  "course-7954011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7954011",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3506, version 7954011-2022-01-18"
+  },
+  "course-7896081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7896081",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3592W, version 7896081-2025-01-21"
+  },
+  "course-0050671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0050671",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3592W, version 0050671-2025-01-21"
+  },
+  "course-0043231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043231",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3741, version 0043231-2022-09-06"
+  },
+  "course-0024231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0024231",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1001W, version 0024231-2025-01-21"
+  },
+  "course-8145701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8145701",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1003W, version 8145701-2021-05-17"
+  },
+  "course-0169341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0169341",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 1003W, version 0169341-2015-09-08"
+  },
+  "course-8265101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8265101",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1004, version 8265101-2023-09-05"
+  },
+  "course-8266751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266751",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1005, version 8266751-2024-01-16"
+  },
+  "course-8273471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8273471",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1006, version 8273471-2025-01-21"
+  },
+  "course-8273461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8273461",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1007, version 8273461-2025-01-21"
+  },
+  "course-8277511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277511",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1022, version 8277511-2025-09-02"
+  },
+  "course-8277501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277501",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1023, version 8277501-2025-09-02"
+  },
+  "course-8178561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178561",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1031, version 8178561-2026-09-08"
+  },
+  "course-8173921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173921",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1041, version 8173921-2021-05-17"
+  },
+  "course-8266771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266771",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1042, version 8266771-2025-01-21"
+  },
+  "course-8266781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266781",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLBT 1042, version 8266781-2025-09-02"
+  },
+  "course-8266791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266791",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 1042, version 8266791-2025-09-02"
+  },
+  "course-8181301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181301",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1051, version 8181301-2021-05-17"
+  },
+  "course-8278761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278761",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1061, version 8278761-2025-09-02"
+  },
+  "course-8278771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278771",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 1061, version 8278771-2025-09-02"
+  },
+  "course-8034251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8034251",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1172, version 8034251-2026-09-08"
+  },
+  "course-0024291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0024291",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1181W, version 0024291-2024-09-03"
+  },
+  "course-0038741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038741",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1201W, version 0038741-2025-05-19"
+  },
+  "course-0038771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038771",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1301W, version 0038771-2025-09-02"
+  },
+  "course-0038761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038761",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1401W, version 0038761-2025-09-02"
+  },
+  "course-7889741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889741",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1501W, version 7889741-2021-09-07"
+  },
+  "course-7900181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7900181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1701, version 7900181-2022-01-18"
+  },
+  "course-7959131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7959131",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1701H, version 7959131-2025-09-02"
+  },
+  "course-0047651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 1101W, version 0047651-2022-09-06"
+  },
+  "course-8251621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251621",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 1101V, version 8251621-2021-09-07"
+  },
+  "course-0049451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049451",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 1102W, version 0049451-2023-05-15"
+  },
+  "course-0049441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049441",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 1103W, version 0049441-2023-05-15"
+  },
+  "course-0049461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049461",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 1104W, version 0049461-2023-05-15"
+  },
+  "course-8100751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100751",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5627, version 8100751-2015-05-26"
+  },
+  "course-8097271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097271",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3013, version 8097271-2025-01-21"
+  },
+  "course-0037121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0037121",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3020, version 0037121-2021-05-17"
+  },
+  "course-8025291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8025291",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5020, version 8025291-2021-05-17"
+  },
+  "course-8079531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8079531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3022, version 8079531-2025-09-02"
+  },
+  "course-8079541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8079541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3023, version 8079541-2024-09-03"
+  },
+  "course-8079551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8079551",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3024, version 8079551-2025-09-02"
+  },
+  "course-8004541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8004541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3027W, version 8004541-2021-09-07"
+  },
+  "course-8171541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3028, version 8171541-2021-09-07"
+  },
+  "course-8277521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277521",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3029, version 8277521-2025-09-02"
+  },
+  "course-8036201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8036201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3032W, version 8036201-2025-01-21"
+  },
+  "course-0042531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3040, version 0042531-2021-05-17"
+  },
+  "course-8089241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8089241",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3041, version 8089241-2025-09-02"
+  },
+  "course-8276721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8276721",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3047, version 8276721-2025-09-02"
+  },
+  "course-8114441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114441",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3061, version 8114441-2021-05-17"
+  },
+  "course-0042571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042571",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3070, version 0042571-2021-05-17"
+  },
+  "course-8085441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8085441",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3071, version 8085441-2021-05-17"
+  },
+  "course-7938991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938991",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3090, version 7938991-2026-05-18"
+  },
+  "course-8144621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8144621",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3091, version 8144621-2021-05-17"
+  },
+  "course-8163101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163101",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3181, version 8163101-2021-05-17"
+  },
+  "course-8273481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8273481",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3183, version 8273481-2025-01-21"
+  },
+  "course-0042891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042891",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3221, version 0042891-2021-05-17"
+  },
+  "course-0049651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3704, version 0049651-2022-01-18"
+  },
+  "course-7936891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7936891",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3711, version 7936891-2021-05-17"
+  },
+  "course-8025331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8025331",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3712, version 8025331-2021-05-17"
+  },
+  "course-8176991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176991",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3714, version 8176991-2021-05-17"
+  },
+  "course-0038721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038721",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3993, version 0038721-2021-05-17"
+  },
+  "course-8031911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8031911",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5040, version 8031911-2021-05-17"
+  },
+  "course-7939001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939001",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5090, version 7939001-2026-05-18"
+  },
+  "course-0042441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042441",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5121, version 0042441-2026-05-18"
+  },
+  "course-7958161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7958161",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5140, version 7958161-2024-05-13"
+  },
+  "course-0042481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042481",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5150, version 0042481-2026-05-18"
+  },
+  "course-0042591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5170, version 0042591-2021-05-17"
+  },
+  "course-0042431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042431",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5300, version 0042431-2023-01-17"
+  },
+  "course-8154761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8154761",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5501, version 8154761-2021-05-17"
+  },
+  "course-0045561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045561",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5510, version 0045561-2025-01-21"
+  },
+  "course-0043791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043791",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5790, version 0043791-2021-05-17"
+  },
+  "course-0043891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043891",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 5805, version 0043891-2021-05-17"
+  },
+  "course-0049471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049471",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 3102W, version 0049471-2024-09-03"
+  },
+  "course-0049481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049481",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 3104W, version 0049481-2024-09-03"
+  },
+  "course-0049491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049491",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 3106W, version 0049491-2024-09-03"
+  },
+  "course-0049501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049501",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 3110, version 0049501-2026-09-08"
+  },
+  "course-8272441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272441",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 3111W, version 8272441-2024-09-03"
+  },
+  "course-8279001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8279001",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 3115, version 8279001-2026-01-20"
+  },
+  "course-0140961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0140961",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 4205W, version 0140961-2026-09-08"
+  },
+  "course-0049531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 5102, version 0049531-2021-09-07"
+  },
+  "course-0049541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 5104, version 0049541-2018-01-16"
+  },
+  "course-0049561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049561",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 5106, version 0049561-2021-09-07"
+  },
+  "course-0049601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049601",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 5130, version 0049601-2026-05-18"
+  },
+  "course-0049641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049641",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 5310, version 0049641-2025-05-19"
+  },
+  "course-0164181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0164181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 5606W, version 0164181-2025-01-21"
+  },
+  "course-0002621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002621",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4606W, version 0002621-2025-05-19"
+  },
+  "course-8253331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253331",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3885W, version 8253331-2025-09-02"
+  },
+  "course-8253341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253341",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 3885W, version 8253341-2021-09-07"
+  },
+  "course-8253421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253421",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3885V, version 8253421-2025-01-21"
+  },
+  "course-8253411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253411",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGW 3885V, version 8253411-2021-09-07"
+  }
+ },
+ "courseSets": {
+  "set-y5YCdMHf": {
+   "codes": [
+    "ENGL 3001W",
+    "ENGL 3001V",
+    "ENGL 3002",
+    "ENGL 4003"
+   ],
+   "sourceRef": "program"
+  },
+  "set-OyLlreWn": {
+   "codes": [
+    "ENGL 3007",
+    "ENGL 3007H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-th7JA0tb": {
+   "codes": [
+    "ENGL 3003W",
+    "ENGL 3006W",
+    "ENGL 3006V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-G7d6bkSc": {
+   "codes": [
+    "ENGL 3004W",
+    "ENGL 3005W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-0CJR9C08": {
+   "codes": [
+    "AMIN 3201W",
+    "ENGL 3003W",
+    "ENGL 3004W",
+    "ENGL 3005W",
+    "ENGL 3006W",
+    "ENGL 3006V",
+    "ENGL 3011",
+    "RELS 3628",
+    "ENGL 3025",
+    "RELS 3627",
+    "ENGL 3026",
+    "ENGL 3072",
+    "MEST 3072",
+    "ENGL 3092",
+    "ENGL 3101",
+    "MEST 3101",
+    "ENGL 3102",
+    "MEST 3102",
+    "ENGL 3103",
+    "ENGL 3114",
+    "ENGL 3132",
+    "ENGL 3134",
+    "ENGL 3141",
+    "ENGL 3151",
+    "ENGL 3161",
+    "ENGL 3182",
+    "ENGL 3212",
+    "ENGL 3222",
+    "ENGL 3222H",
+    "ENGL 3507W",
+    "CHLS 3507W",
+    "ENGL 3593",
+    "AFRO 3593",
+    "ENGL 5593",
+    "AFRO 5593",
+    "ENGL 3597W",
+    "AFRO 3597W",
+    "ENGL 3598W",
+    "AFRO 3598W",
+    "ENGL 3601",
+    "ENGL 4152",
+    "ENGL 4232",
+    "AAS 4232",
+    "ENGL 4233",
+    "ENGL 4311",
+    "AAS 4311",
+    "ENGL 4612",
+    "MEST 4612",
+    "ENGL 4613",
+    "MEST 4613",
+    "ENGL 4621",
+    "ENGL 5110"
+   ],
+   "sourceRef": "program"
+  },
+  "set-v5OxJAbh": {
+   "codes": [
+    "AMIN 3201W",
+    "ENGL 3011",
+    "RELS 3628",
+    "ENGL 3026",
+    "ENGL 3045",
+    "ENGL 3073",
+    "ENGL 3093",
+    "ENGL 3182",
+    "ENGL 3301",
+    "AAS 3301",
+    "ENGL 3303W",
+    "AAS 3303W",
+    "GWSS 3303W",
+    "GWSS 4303W",
+    "ENGL 3331",
+    "GLBT 3309",
+    "ENGL 3332",
+    "ENGL 3350",
+    "ENGL 3352",
+    "ENGL 3501",
+    "ENGL 3502",
+    "ENGL 3505",
+    "ENGL 3506",
+    "ENGL 3507W",
+    "CHLS 3507W",
+    "ENGL 3592W",
+    "AFRO 3592W",
+    "ENGL 3593",
+    "AFRO 3593",
+    "ENGL 5593",
+    "AFRO 5593",
+    "ENGL 3597W",
+    "AFRO 3597W",
+    "ENGL 3598W",
+    "AFRO 3598W",
+    "ENGL 3741",
+    "ENGL 4232",
+    "AAS 4232",
+    "ENGL 4311",
+    "AAS 4311"
+   ],
+   "sourceRef": "program"
+  },
+  "set-lojsHDbz": {
+   "codes": [
+    "ENGL 1001W",
+    "ENGL 1003W",
+    "GWSS 1003W",
+    "ENGL 1004",
+    "ENGL 1005",
+    "ENGL 1006",
+    "ENGL 1007",
+    "ENGL 1022",
+    "ENGL 1023",
+    "ENGL 1031",
+    "ENGL 1041",
+    "ENGL 1042",
+    "GLBT 1042",
+    "GWSS 1042",
+    "ENGL 1051",
+    "ENGL 1061",
+    "RELS 1061",
+    "ENGL 1172",
+    "ENGL 1181W",
+    "ENGL 1201W",
+    "ENGL 1301W",
+    "ENGL 1401W",
+    "ENGL 1501W",
+    "ENGL 1701",
+    "ENGL 1701H",
+    "ENGW 1101W",
+    "ENGW 1101V",
+    "ENGW 1102W",
+    "ENGW 1103W",
+    "ENGW 1104W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-f6gWYLLb": {
+   "codes": [
+    "AFRO 5627",
+    "AMIN 3201W",
+    "ENGL 3002",
+    "ENGL 3003W",
+    "ENGL 3004W",
+    "ENGL 3005W",
+    "ENGL 3006W",
+    "ENGL 3006V",
+    "ENGL 3011",
+    "RELS 3628",
+    "ENGL 3013",
+    "ENGL 3020",
+    "ENGL 5020",
+    "ENGL 3022",
+    "ENGL 3023",
+    "ENGL 3024",
+    "ENGL 3025",
+    "RELS 3627",
+    "ENGL 3026",
+    "ENGL 3027W",
+    "ENGL 3028",
+    "ENGL 3029",
+    "ENGL 3032W",
+    "ENGL 3040",
+    "ENGL 3041",
+    "ENGL 3045",
+    "ENGL 3047",
+    "ENGL 3061",
+    "ENGL 3070",
+    "ENGL 3071",
+    "ENGL 3072",
+    "MEST 3072",
+    "ENGL 3090",
+    "ENGL 3091",
+    "ENGL 3092",
+    "ENGL 3101",
+    "MEST 3101",
+    "ENGL 3102",
+    "MEST 3102",
+    "ENGL 3103",
+    "ENGL 3114",
+    "ENGL 3132",
+    "ENGL 3134",
+    "ENGL 3141",
+    "ENGL 3151",
+    "ENGL 3161",
+    "ENGL 3181",
+    "ENGL 3182",
+    "ENGL 3183",
+    "ENGL 3212",
+    "ENGL 3221",
+    "ENGL 3222",
+    "ENGL 3222H",
+    "ENGL 3301",
+    "AAS 3301",
+    "ENGL 3303W",
+    "AAS 3303W",
+    "GWSS 3303W",
+    "GWSS 4303W",
+    "ENGL 3350",
+    "ENGL 3352",
+    "ENGL 3501",
+    "ENGL 3502",
+    "ENGL 3505",
+    "ENGL 3506",
+    "ENGL 3507W",
+    "CHLS 3507W",
+    "ENGL 3592W",
+    "AFRO 3592W",
+    "ENGL 3593",
+    "AFRO 3593",
+    "ENGL 5593",
+    "AFRO 5593",
+    "ENGL 3597W",
+    "AFRO 3597W",
+    "ENGL 3598W",
+    "AFRO 3598W",
+    "ENGL 3601",
+    "ENGL 3704",
+    "ENGL 3711",
+    "ENGL 3712",
+    "ENGL 3714",
+    "ENGL 3741",
+    "ENGL 3993",
+    "ENGL 4003",
+    "ENGL 4152",
+    "ENGL 4232",
+    "AAS 4232",
+    "ENGL 4233",
+    "ENGL 4311",
+    "AAS 4311",
+    "ENGL 4612",
+    "MEST 4612",
+    "ENGL 4613",
+    "MEST 4613",
+    "ENGL 4621",
+    "ENGL 5040",
+    "ENGL 5090",
+    "ENGL 5110",
+    "ENGL 5121",
+    "ENGL 5140",
+    "ENGL 5150",
+    "ENGL 5170",
+    "ENGL 5300",
+    "ENGL 5501",
+    "ENGL 5510",
+    "ENGL 5790",
+    "ENGL 5805",
+    "ENGW 3102W",
+    "ENGW 3104W",
+    "ENGW 3106W",
+    "ENGW 3110",
+    "ENGW 3111W",
+    "ENGW 3115",
+    "ENGW 4205W",
+    "ENGW 5102",
+    "ENGW 5104",
+    "ENGW 5106",
+    "ENGW 5130",
+    "ENGW 5310",
+    "ENGW 5606W",
+    "JOUR 4606W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ImZDEQqD": {
+   "codes": [
+    "ENGL 3885V",
+    "ENGW 3885V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ARCQypMs": {
+   "codes": [
+    "ENGL 3993"
+   ],
+   "sourceRef": "program"
+  },
+  "set-417116": {
+   "codes": [
+    "AMIN 3201W",
+    "ENGL 3001W",
+    "ENGL 3001V",
+    "ENGL 3003W",
+    "ENGL 3004W",
+    "ENGL 3005W",
+    "ENGL 3006W",
+    "ENGL 3006V",
+    "ENGL 3027W",
+    "ENGW 3102W",
+    "ENGW 3104W",
+    "ENGW 3106W",
+    "ENGW 3111W",
+    "ENGL 3303W",
+    "AAS 3303W",
+    "GWSS 3303W",
+    "GWSS 4303W",
+    "ENGL 3507W",
+    "CHLS 3507W",
+    "ENGL 3592W",
+    "AFRO 3592W",
+    "ENGL 3597W",
+    "AFRO 3597W",
+    "ENGL 3598W",
+    "AFRO 3598W",
+    "ENGW 5606W",
+    "JOUR 4606W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AAS 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian America Through Arts and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974621"
+   },
+   "sourceRef": "course-7974621"
+  },
+  "AAS 3303W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing Differences: Literature by U.S. Women of Color",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101021"
+   },
+   "sourceRef": "course-8101021"
+  },
+  "AAS 4232": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Drama by Writers of Color",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8063391"
+   },
+   "sourceRef": "course-8063391"
+  },
+  "AAS 4311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Literature and Drama",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974531"
+   },
+   "sourceRef": "course-7974531"
+  },
+  "AFRO 3592W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Black Women Writers in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0050671"
+   },
+   "sourceRef": "course-0050671"
+  },
+  "AFRO 3593": {
+   "catalogTerm": "Fall 2026",
+   "title": "The African American Novel",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100731"
+   },
+   "sourceRef": "course-8100731"
+  },
+  "AFRO 3597W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to African American Literature and Culture I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7989041"
+   },
+   "sourceRef": "course-7989041"
+  },
+  "AFRO 3598W": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American Literature & Culture: Harlem Renaissance-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7897981"
+   },
+   "sourceRef": "course-7897981"
+  },
+  "AFRO 5593": {
+   "catalogTerm": "Fall 2026",
+   "title": "The African American Novel",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023521"
+   },
+   "sourceRef": "course-0023521"
+  },
+  "AFRO 5627": {
+   "catalogTerm": "Fall 2026",
+   "title": "Seminar: Harlem Renaissance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-8100751"
+   },
+   "sourceRef": "course-8100751"
+  },
+  "AMIN 3201W": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0080581"
+   },
+   "sourceRef": "course-0080581"
+  },
+  "CHLS 3507W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Identity, Displacement, Resistance in Chicano Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0031231"
+   },
+   "sourceRef": "course-0031231"
+  },
+  "ENGL 1001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Literature: Poetry, Drama, Narrative",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0024231"
+   },
+   "sourceRef": "course-0024231"
+  },
+  "ENGL 1003W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women Write the World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8145701"
+   },
+   "sourceRef": "course-8145701"
+  },
+  "ENGL 1004": {
+   "catalogTerm": "Fall 2026",
+   "title": "Banned Books",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8265101"
+   },
+   "sourceRef": "course-8265101"
+  },
+  "ENGL 1005": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reading Poetry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266751"
+   },
+   "sourceRef": "course-8266751"
+  },
+  "ENGL 1006": {
+   "catalogTerm": "Fall 2026",
+   "title": "Queer Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8273471"
+   },
+   "sourceRef": "course-8273471"
+  },
+  "ENGL 1007": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Literature and Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8273461"
+   },
+   "sourceRef": "course-8273461"
+  },
+  "ENGL 1022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Science Fiction and Fantasy",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277511"
+   },
+   "sourceRef": "course-8277511"
+  },
+  "ENGL 1023": {
+   "catalogTerm": "Fall 2026",
+   "title": "Our Monstrosities, Ourselves",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277501"
+   },
+   "sourceRef": "course-8277501"
+  },
+  "ENGL 1031": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to the Short Story",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178561"
+   },
+   "sourceRef": "course-8178561"
+  },
+  "ENGL 1041": {
+   "catalogTerm": "Fall 2026",
+   "title": "Adaptation: Literature into Film",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173921"
+   },
+   "sourceRef": "course-8173921"
+  },
+  "ENGL 1042": {
+   "catalogTerm": "Fall 2026",
+   "title": "Engaging with Queer Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266771"
+   },
+   "sourceRef": "course-8266771"
+  },
+  "ENGL 1051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Progress & Madness: Literature, Science & Technology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181301"
+   },
+   "sourceRef": "course-8181301"
+  },
+  "ENGL 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reimagining Witches",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278761"
+   },
+   "sourceRef": "course-8278761"
+  },
+  "ENGL 1172": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Story of King Arthur",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8034251"
+   },
+   "sourceRef": "course-8034251"
+  },
+  "ENGL 1181W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Shakespeare",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0024291"
+   },
+   "sourceRef": "course-0024291"
+  },
+  "ENGL 1201W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary American Literature",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038741"
+   },
+   "sourceRef": "course-0038741"
+  },
+  "ENGL 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Margins Are the Center: US Literature and Social Injustice",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038771"
+   },
+   "sourceRef": "course-0038771"
+  },
+  "ENGL 1401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Legacies of Colonialism: Literatures in English of the Global South",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038761"
+   },
+   "sourceRef": "course-0038761"
+  },
+  "ENGL 1501W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literature and Public Life",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889741"
+   },
+   "sourceRef": "course-7889741"
+  },
+  "ENGL 1701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Fiction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7900181"
+   },
+   "sourceRef": "course-7900181"
+  },
+  "ENGL 1701H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Modern Fiction",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors or instr consent"
+    },
+    "sourceRef": "course-7959131"
+   },
+   "sourceRef": "course-7959131"
+  },
+  "ENGL 3001V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Textual Analysis: Methods",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors, [English major or minor or approved BIS or IDIM program with English area]"
+    },
+    "sourceRef": "course-0163221"
+   },
+   "sourceRef": "course-0163221"
+  },
+  "ENGL 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Textual Analysis: Methods",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[English major or minor or approved BIS or IDIM program with English area]"
+    },
+    "sourceRef": "course-0024461"
+   },
+   "sourceRef": "course-0024461"
+  },
+  "ENGL 3002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Literary Criticism and Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0034761"
+   },
+   "sourceRef": "course-0034761"
+  },
+  "ENGL 3003W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Historical Survey of British Literatures I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0024481"
+   },
+   "sourceRef": "course-0024481"
+  },
+  "ENGL 3004W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Historical Survey of British Literatures II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0029441"
+   },
+   "sourceRef": "course-0029441"
+  },
+  "ENGL 3005W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Survey of American Literatures and Cultures I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0041801"
+   },
+   "sourceRef": "course-0041801"
+  },
+  "ENGL 3006V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Survey of American Literatures and Cultures II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8136401"
+   },
+   "sourceRef": "course-8136401"
+  },
+  "ENGL 3006W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Survey of American Literatures and Cultures II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0041901"
+   },
+   "sourceRef": "course-0041901"
+  },
+  "ENGL 3007": {
+   "catalogTerm": "Fall 2026",
+   "title": "Shakespeare",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0029221"
+   },
+   "sourceRef": "course-0029221"
+  },
+  "ENGL 3007H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Shakespeare",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0165431"
+   },
+   "sourceRef": "course-0165431"
+  },
+  "ENGL 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jewish American Literature: Religion, Culture, and the Immigrant Experience",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8035991"
+   },
+   "sourceRef": "course-8035991"
+  },
+  "ENGL 3013": {
+   "catalogTerm": "Fall 2026",
+   "title": "The City in Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097271"
+   },
+   "sourceRef": "course-8097271"
+  },
+  "ENGL 3020": {
+   "catalogTerm": "Fall 2026",
+   "title": "Studies in Narrative",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0037121"
+   },
+   "sourceRef": "course-0037121"
+  },
+  "ENGL 3022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Science Fiction and Fantasy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8079531"
+   },
+   "sourceRef": "course-8079531"
+  },
+  "ENGL 3023": {
+   "catalogTerm": "Fall 2026",
+   "title": "Children's Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8079541"
+   },
+   "sourceRef": "course-8079541"
+  },
+  "ENGL 3024": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Graphic Novel",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8079551"
+   },
+   "sourceRef": "course-8079551"
+  },
+  "ENGL 3025": {
+   "catalogTerm": "Fall 2026",
+   "title": "The End of the World in Literature and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8111621"
+   },
+   "sourceRef": "course-8111621"
+  },
+  "ENGL 3026": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mediterranean Wanderings: Literature and History on the Borders of Three Continents",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8136371"
+   },
+   "sourceRef": "course-8136371"
+  },
+  "ENGL 3027W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Essay",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8004541"
+   },
+   "sourceRef": "course-8004541"
+  },
+  "ENGL 3028": {
+   "catalogTerm": "Fall 2026",
+   "title": "Paranoia and Pleasure: Contemporary American Spy Novels",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171541"
+   },
+   "sourceRef": "course-8171541"
+  },
+  "ENGL 3029": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literature of Horror",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277521"
+   },
+   "sourceRef": "course-8277521"
+  },
+  "ENGL 3032W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Shakespeare in London and Stratford",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8036201"
+   },
+   "sourceRef": "course-8036201"
+  },
+  "ENGL 3040": {
+   "catalogTerm": "Fall 2026",
+   "title": "Studies in Film",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042531"
+   },
+   "sourceRef": "course-0042531"
+  },
+  "ENGL 3041": {
+   "catalogTerm": "Fall 2026",
+   "title": "Killer Women: Film Noir, Its Origins and Legacies",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8089241"
+   },
+   "sourceRef": "course-8089241"
+  },
+  "ENGL 3045": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cinematic Seductions: Sex, Gender, Desire",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8088991"
+   },
+   "sourceRef": "course-8088991"
+  },
+  "ENGL 3047": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cinema and the City",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8276721"
+   },
+   "sourceRef": "course-8276721"
+  },
+  "ENGL 3061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literature and Music",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8114441"
+   },
+   "sourceRef": "course-8114441"
+  },
+  "ENGL 3070": {
+   "catalogTerm": "Fall 2026",
+   "title": "Studies in Literary and Cultural Modes",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042571"
+   },
+   "sourceRef": "course-0042571"
+  },
+  "ENGL 3071": {
+   "catalogTerm": "Fall 2026",
+   "title": "The American Food Revolution in Literature and Television",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8085441"
+   },
+   "sourceRef": "course-8085441"
+  },
+  "ENGL 3072": {
+   "catalogTerm": "Fall 2026",
+   "title": "Witchcraft, Possession, Magic: Concepts in the Atlantic Supernatural, 1500-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8203421"
+   },
+   "sourceRef": "course-8203421"
+  },
+  "ENGL 3073": {
+   "catalogTerm": "Fall 2026",
+   "title": "Notes from the Clinic: Stories of Reproductive Healthcare",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278431"
+   },
+   "sourceRef": "course-8278431"
+  },
+  "ENGL 3090": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Topics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938991"
+   },
+   "sourceRef": "course-7938991"
+  },
+  "ENGL 3091": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Literature and Film of Baseball",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8144621"
+   },
+   "sourceRef": "course-8144621"
+  },
+  "ENGL 3092": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Original Walking Dead: Misbehaving Dead Bodies in the 19th Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170191"
+   },
+   "sourceRef": "course-8170191"
+  },
+  "ENGL 3093": {
+   "catalogTerm": "Fall 2026",
+   "title": "Law and Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8190931"
+   },
+   "sourceRef": "course-8190931"
+  },
+  "ENGL 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Knights and Pilgrims in Medieval Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938191"
+   },
+   "sourceRef": "course-7938191"
+  },
+  "ENGL 3102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chaucer",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7943661"
+   },
+   "sourceRef": "course-7943661"
+  },
+  "ENGL 3103": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dragons and Druids: Literature of the Early Medieval North",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272041"
+   },
+   "sourceRef": "course-8272041"
+  },
+  "ENGL 3114": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dreams and Dream Visions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8160591"
+   },
+   "sourceRef": "course-8160591"
+  },
+  "ENGL 3132": {
+   "catalogTerm": "Fall 2026",
+   "title": "Between Heaven and Hell: The King James Bible as Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036791"
+   },
+   "sourceRef": "course-0036791"
+  },
+  "ENGL 3134": {
+   "catalogTerm": "Fall 2026",
+   "title": "Milton and Rebellion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7943671"
+   },
+   "sourceRef": "course-7943671"
+  },
+  "ENGL 3141": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Restoration and the Eighteenth Century: Sex, Satire, and Sentiment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938211"
+   },
+   "sourceRef": "course-7938211"
+  },
+  "ENGL 3151": {
+   "catalogTerm": "Fall 2026",
+   "title": "British Romantic Literature and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036811"
+   },
+   "sourceRef": "course-0036811"
+  },
+  "ENGL 3161": {
+   "catalogTerm": "Fall 2026",
+   "title": "Victorian Literatures and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036831"
+   },
+   "sourceRef": "course-0036831"
+  },
+  "ENGL 3181": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Literary Nonfiction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8163101"
+   },
+   "sourceRef": "course-8163101"
+  },
+  "ENGL 3182": {
+   "catalogTerm": "Fall 2026",
+   "title": "Irish Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168751"
+   },
+   "sourceRef": "course-8168751"
+  },
+  "ENGL 3183": {
+   "catalogTerm": "Fall 2026",
+   "title": "Living Poets",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8273481"
+   },
+   "sourceRef": "course-8273481"
+  },
+  "ENGL 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Poetry from 1900",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0041931"
+   },
+   "sourceRef": "course-0041931"
+  },
+  "ENGL 3221": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Novel to 1900",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042891"
+   },
+   "sourceRef": "course-0042891"
+  },
+  "ENGL 3222": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Novel from 1900",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042901"
+   },
+   "sourceRef": "course-0042901"
+  },
+  "ENGL 3222H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: American Novel from 1900",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029121"
+   },
+   "sourceRef": "course-8029121"
+  },
+  "ENGL 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian America through Arts and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8074311"
+   },
+   "sourceRef": "course-8074311"
+  },
+  "ENGL 3303W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing Differences: Literature by U.S. Women of Color",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8146521"
+   },
+   "sourceRef": "course-8146521"
+  },
+  "ENGL 3331": {
+   "catalogTerm": "Fall 2026",
+   "title": "LGBTQ Literature: Then and Now",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8179691"
+   },
+   "sourceRef": "course-8179691"
+  },
+  "ENGL 3332": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Times: Afrofuturism, Afropessimism and the Future (Ends) of the World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8255931"
+   },
+   "sourceRef": "course-8255931"
+  },
+  "ENGL 3350": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women Writers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0037211"
+   },
+   "sourceRef": "course-0037211"
+  },
+  "ENGL 3352": {
+   "catalogTerm": "Fall 2026",
+   "title": "Weird Books by Women and Gender-variant Writers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8039301"
+   },
+   "sourceRef": "course-8039301"
+  },
+  "ENGL 3501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public Discourse: Coming to Terms with the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7898941"
+   },
+   "sourceRef": "course-7898941"
+  },
+  "ENGL 3502": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nature Stories: Environmental Discourse in Action",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8136381"
+   },
+   "sourceRef": "course-8136381"
+  },
+  "ENGL 3505": {
+   "catalogTerm": "Fall 2026",
+   "title": "Protest Literature and Community Action",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7954001"
+   },
+   "sourceRef": "course-7954001"
+  },
+  "ENGL 3506": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Movements & Community Education",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7954011"
+   },
+   "sourceRef": "course-7954011"
+  },
+  "ENGL 3507W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Identity, Displacement, Resistance in Chicano Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8064591"
+   },
+   "sourceRef": "course-8064591"
+  },
+  "ENGL 3592W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Black Women Writers in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7896081"
+   },
+   "sourceRef": "course-7896081"
+  },
+  "ENGL 3593": {
+   "catalogTerm": "Fall 2026",
+   "title": "The African American Novel",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162961"
+   },
+   "sourceRef": "course-8162961"
+  },
+  "ENGL 3597W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to African American Literature and Culture I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7989011"
+   },
+   "sourceRef": "course-7989011"
+  },
+  "ENGL 3598W": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American Literature & Culture: Harlem Renaissance-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7999111"
+   },
+   "sourceRef": "course-7999111"
+  },
+  "ENGL 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of the English Language",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0043181"
+   },
+   "sourceRef": "course-0043181"
+  },
+  "ENGL 3704": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Editing and Publishing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0049651"
+   },
+   "sourceRef": "course-0049651"
+  },
+  "ENGL 3711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literary Magazine Production Lab I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[instructor consent required, instr consent]"
+    },
+    "sourceRef": "course-7936891"
+   },
+   "sourceRef": "course-7936891"
+  },
+  "ENGL 3712": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literary Magazine Production Lab II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3711, instr consent]"
+    },
+    "sourceRef": "course-8025331"
+   },
+   "sourceRef": "course-8025331"
+  },
+  "ENGL 3714": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Business of Publishing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176991"
+   },
+   "sourceRef": "course-8176991"
+  },
+  "ENGL 3741": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literacy and American Cultural Diversity",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0043231"
+   },
+   "sourceRef": "course-0043231"
+  },
+  "ENGL 3885V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Capstone Seminar in English",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253421"
+   },
+   "sourceRef": "course-8253421"
+  },
+  "ENGL 3885W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Seminar in English",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253331"
+   },
+   "sourceRef": "course-8253331"
+  },
+  "ENGL 3993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038721"
+   },
+   "sourceRef": "course-0038721"
+  },
+  "ENGL 4003": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Literary Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938221"
+   },
+   "sourceRef": "course-7938221"
+  },
+  "ENGL 4152": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nineteenth Century British Novel",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7943701"
+   },
+   "sourceRef": "course-7943701"
+  },
+  "ENGL 4232": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Drama by Writers of Color",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7936951"
+   },
+   "sourceRef": "course-7936951"
+  },
+  "ENGL 4233": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern and Contemporary Drama",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938241"
+   },
+   "sourceRef": "course-7938241"
+  },
+  "ENGL 4311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Literature and Drama",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938251"
+   },
+   "sourceRef": "course-7938251"
+  },
+  "ENGL 4612": {
+   "catalogTerm": "Fall 2026",
+   "title": "Old English I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7936961"
+   },
+   "sourceRef": "course-7936961"
+  },
+  "ENGL 4613": {
+   "catalogTerm": "Fall 2026",
+   "title": "Old English II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074581"
+   },
+   "sourceRef": "course-0074581"
+  },
+  "ENGL 4621": {
+   "catalogTerm": "Fall 2026",
+   "title": "Middle English Language and Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272181"
+   },
+   "sourceRef": "course-8272181"
+  },
+  "ENGL 5020": {
+   "catalogTerm": "Fall 2026",
+   "title": "Studies in Narrative",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8025291"
+   },
+   "sourceRef": "course-8025291"
+  },
+  "ENGL 5040": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theories of Film",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-8031911"
+   },
+   "sourceRef": "course-8031911"
+  },
+  "ENGL 5090": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in Special Subjects",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7939001"
+   },
+   "sourceRef": "course-7939001"
+  },
+  "ENGL 5110": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Literatures and Cultures: Intro to Medieval Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0045521"
+   },
+   "sourceRef": "course-0045521"
+  },
+  "ENGL 5121": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in Early Modern Literature and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-0042441"
+   },
+   "sourceRef": "course-0042441"
+  },
+  "ENGL 5140": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in 18th Century Literature and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-7958161"
+   },
+   "sourceRef": "course-7958161"
+  },
+  "ENGL 5150": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in 19th-Century Literature and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042481"
+   },
+   "sourceRef": "course-0042481"
+  },
+  "ENGL 5170": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in 20th-Century Literature and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042591"
+   },
+   "sourceRef": "course-0042591"
+  },
+  "ENGL 5300": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in American Minority Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042431"
+   },
+   "sourceRef": "course-0042431"
+  },
+  "ENGL 5501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Origins of Cultural Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8154761"
+   },
+   "sourceRef": "course-8154761"
+  },
+  "ENGL 5510": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in Criticism and Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0045561"
+   },
+   "sourceRef": "course-0045561"
+  },
+  "ENGL 5593": {
+   "catalogTerm": "Fall 2026",
+   "title": "The African-American Novel",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7912781"
+   },
+   "sourceRef": "course-7912781"
+  },
+  "ENGL 5790": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Rhetoric, Composition, and Language",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-0043791"
+   },
+   "sourceRef": "course-0043791"
+  },
+  "ENGL 5805": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing for Publication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-0043891"
+   },
+   "sourceRef": "course-0043891"
+  },
+  "ENGW 1101V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Creative Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251621"
+   },
+   "sourceRef": "course-8251621"
+  },
+  "ENGW 1101W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Creative Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Students may not audit this course"
+    },
+    "sourceRef": "course-0047651"
+   },
+   "sourceRef": "course-0047651"
+  },
+  "ENGW 1102W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Fiction Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0049451"
+   },
+   "sourceRef": "course-0049451"
+  },
+  "ENGW 1103W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Poetry Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0049441"
+   },
+   "sourceRef": "course-0049441"
+  },
+  "ENGW 1104W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Literary Nonfiction Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0049461"
+   },
+   "sourceRef": "course-0049461"
+  },
+  "ENGW 3102W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Fiction Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[EngW 1101 , 1101W, 1102, 1102W, 1103, 1103W, 1104, 1104W,1911W, 1912W, 1913, 1914W, 1915W], students cannot audit course"
+    },
+    "sourceRef": "course-0049471"
+   },
+   "sourceRef": "course-0049471"
+  },
+  "ENGW 3104W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Poetry Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[EngW 1101 , 1101W, 1102, 1102W, 1103, 1103W, 1104, 1104W, 1911W, 1912W, 1913, 1914W, 1915W], students cannot audit course"
+    },
+    "sourceRef": "course-0049481"
+   },
+   "sourceRef": "course-0049481"
+  },
+  "ENGW 3106W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Literary Nonfiction Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[EngW 1101 , 1101W, 1102, 1102W, 1103, 1103W, 1104, 1104W,1911W, 1912W, 1913, 1914W, 1915W], students cannot audit course"
+    },
+    "sourceRef": "course-0049491"
+   },
+   "sourceRef": "course-0049491"
+  },
+  "ENGW 3110": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Creative Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101 or 1102 or 1103 or 1104 or dept consent"
+    },
+    "sourceRef": "course-0049501"
+   },
+   "sourceRef": "course-0049501"
+  },
+  "ENGW 3111W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Science Fiction and Fantasy Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272441"
+   },
+   "sourceRef": "course-8272441"
+  },
+  "ENGW 3115": {
+   "catalogTerm": "Fall 2026",
+   "title": "Developing the TV Pilot",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8279001"
+   },
+   "sourceRef": "course-8279001"
+  },
+  "ENGW 3885V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Capstone Seminar in Creative Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253411"
+   },
+   "sourceRef": "course-8253411"
+  },
+  "ENGW 3885W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Seminar in Creative Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253341"
+   },
+   "sourceRef": "course-8253341"
+  },
+  "ENGW 4205W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Screenwriting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "EngL 3001W or 3001V or EngW 3102 or 3104 or 3106 or 3110, or jr or sr in SCMC major or minor"
+    },
+    "sourceRef": "course-0140961"
+   },
+   "sourceRef": "course-0140961"
+  },
+  "ENGW 5102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Graduate Fiction Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0049531"
+   },
+   "sourceRef": "course-0049531"
+  },
+  "ENGW 5104": {
+   "catalogTerm": "Fall 2026",
+   "title": "Graduate Poetry Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0049541"
+   },
+   "sourceRef": "course-0049541"
+  },
+  "ENGW 5106": {
+   "catalogTerm": "Fall 2026",
+   "title": "Graduate Literary Nonfiction Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0049561"
+   },
+   "sourceRef": "course-0049561"
+  },
+  "ENGW 5130": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Graduate Creative Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0049601"
+   },
+   "sourceRef": "course-0049601"
+  },
+  "ENGW 5310": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reading as Writers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0049641"
+   },
+   "sourceRef": "course-0049641"
+  },
+  "ENGW 5606W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literary Aspects of Journalism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0164181"
+   },
+   "sourceRef": "course-0164181"
+  },
+  "GLBT 1042": {
+   "catalogTerm": "Fall 2026",
+   "title": "Engaging with Queer Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266781"
+   },
+   "sourceRef": "course-8266781"
+  },
+  "GLBT 3309": {
+   "catalogTerm": "Fall 2026",
+   "title": "LGBTQ Literature: Then and Now",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8180971"
+   },
+   "sourceRef": "course-8180971"
+  },
+  "GWSS 1003W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women Write the World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0169341"
+   },
+   "sourceRef": "course-0169341"
+  },
+  "GWSS 1042": {
+   "catalogTerm": "Fall 2026",
+   "title": "Engaging with Queer Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266791"
+   },
+   "sourceRef": "course-8266791"
+  },
+  "GWSS 3303W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing Differences: Literature by U.S. Women of Color",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0071201"
+   },
+   "sourceRef": "course-0071201"
+  },
+  "GWSS 4303W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing Differences: Literature by U.S. Women of Color",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100721"
+   },
+   "sourceRef": "course-8100721"
+  },
+  "JOUR 4606W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literary Aspects of Journalism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002621"
+   },
+   "sourceRef": "course-0002621"
+  },
+  "MEST 3072": {
+   "catalogTerm": "Fall 2026",
+   "title": "Witchcraft, Possession, Magic: Concepts in the Atlantic Supernatural, 1500-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8204341"
+   },
+   "sourceRef": "course-8204341"
+  },
+  "MEST 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Knights and Pilgrims in Medieval Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8166371"
+   },
+   "sourceRef": "course-8166371"
+  },
+  "MEST 3102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chaucer",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8142381"
+   },
+   "sourceRef": "course-8142381"
+  },
+  "MEST 4612": {
+   "catalogTerm": "Fall 2026",
+   "title": "Old English I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8142391"
+   },
+   "sourceRef": "course-8142391"
+  },
+  "MEST 4613": {
+   "catalogTerm": "Fall 2026",
+   "title": "Old English II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8154231"
+   },
+   "sourceRef": "course-8154231"
+  },
+  "RELS 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reimagining Witches",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278771"
+   },
+   "sourceRef": "course-8278771"
+  },
+  "RELS 3627": {
+   "catalogTerm": "Fall 2026",
+   "title": "The End of the World in Literature and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171941"
+   },
+   "sourceRef": "course-8171941"
+  },
+  "RELS 3628": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jewish American Literature: Religion, Culture, and the Immigrant Experience",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8191331"
+   },
+   "sourceRef": "course-8191331"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-vkLGhDtJ",
+   "label": "Critical Theories & Methods",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-y5YCdMHf",
+    "type": "credits",
+    "courseSet": "set-y5YCdMHf",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Critical Theories & Methods"
+   }
+  },
+  {
+   "id": "g-CJOSnuHV",
+   "label": "Shakespeare",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-OyLlreWn",
+    "type": "credits",
+    "courseSet": "set-OyLlreWn",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Shakespeare"
+   }
+  },
+  {
+   "id": "g-LHwCLRuS",
+   "label": "American & British Surveys",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-wQEdmNNb",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-th7JA0tb",
+      "type": "credits",
+      "courseSet": "set-th7JA0tb",
+      "minCredits": 8,
+      "sourceRef": "program",
+      "label": "Option 1"
+     },
+     {
+      "id": "r-G7d6bkSc",
+      "type": "credits",
+      "courseSet": "set-G7d6bkSc",
+      "minCredits": 8,
+      "sourceRef": "program",
+      "label": "Option 2"
+     }
+    ],
+    "label": "American & British Surveys"
+   }
+  },
+  {
+   "id": "g-REmlAMh7",
+   "label": "Historically-Oriented Language & Literature",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-0CJR9C08",
+    "type": "credits",
+    "courseSet": "set-0CJR9C08",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Historically-Oriented Language & Literature"
+   }
+  },
+  {
+   "id": "g-wynxYn1N",
+   "label": "Difference & Diasporas",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-v5OxJAbh",
+    "type": "credits",
+    "courseSet": "set-v5OxJAbh",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Difference & Diasporas"
+   }
+  },
+  {
+   "id": "g-ufy1BSBi",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-vShkKFnO",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-lojsHDbz",
+      "type": "count",
+      "courseSet": "set-lojsHDbz",
+      "maxCourses": 1,
+      "sourceRef": "program",
+      "label": "Lower-Division Elective"
+     },
+     {
+      "id": "r-f6gWYLLb",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-f6gWYLLb-credits",
+        "type": "credits",
+        "courseSet": "set-f6gWYLLb",
+        "minCredits": 6,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-f6gWYLLb-min",
+        "type": "count",
+        "courseSet": "set-f6gWYLLb",
+        "minCourses": 2,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-f6gWYLLb-max",
+        "type": "count",
+        "courseSet": "set-f6gWYLLb",
+        "maxCourses": 3,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Upper-Division Electives"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-80LKxEkB",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-dasi1Hw2",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-DWGkcWWx",
+      "type": "course",
+      "code": "ENGL 3885W",
+      "sourceRef": "program",
+      "label": "Capstone Seminar in English"
+     },
+     {
+      "id": "r-4WE8oMAM",
+      "type": "course",
+      "code": "ENGW 3885W",
+      "sourceRef": "program",
+      "label": "Capstone Seminar in Creative Writing"
+     },
+     {
+      "id": "r-ImZDEQqD",
+      "type": "credits",
+      "courseSet": "set-ImZDEQqD",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Honors Thesis: magna cum laude or cum laude"
+     },
+     {
+      "id": "r-ARCQypMs",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-ARCQypMs-credits",
+        "type": "credits",
+        "courseSet": "set-ARCQypMs",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ARCQypMs-min",
+        "type": "count",
+        "courseSet": "set-ARCQypMs",
+        "minCourses": 2,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Honors Thesis: summa cum laude"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-027620217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-417116",
+    "type": "count",
+    "courseSet": "set-417116",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the English BA is ENGL.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or ENGL 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 15 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn a bachelor of arts in English and a minor in creative writing, or a minor in English and a minor in creative writing. Students may not earn a BA in English and a minor in English. Only one course may count toward both the major and minor or toward both minors. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Prospective majors are encouraged to complete an introductory course in literature, creative writing, and/or English language, chosen from ENGL 1001-1701 and ENGW 1101-1104, before officially declaring the major. To declare a major, a student schedules an appointment with the Undergraduate Studies Office (227 Lind Hall; 612-625-4592; englmaj@umn.edu), and completes a Major Program form which is filed in CLA, the department, and with the student. Advisors recommend that students declare the major during the second semester of the freshman year. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

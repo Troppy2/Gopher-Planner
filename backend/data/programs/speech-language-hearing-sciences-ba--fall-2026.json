@@ -1,0 +1,493 @@
+{
+ "schemaVersion": 2,
+ "id": "speech-language-hearing-sciences-ba",
+ "name": "Speech-Language-Hearing Sciences B.A.",
+ "officialName": "Speech-Language-Hearing Sciences B.A.",
+ "officialProgramId": "088620217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Speech-Language-Hearing Sciences B.A., revision 088620217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/088620217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/088620217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 088620217-2026-09-08"
+  },
+  "course-0000621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0000621",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 1301W, version 0000621-2022-01-18"
+  },
+  "course-7956201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7956201",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 1301V, version 7956201-2022-01-18"
+  },
+  "course-0000631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0000631",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 1401, version 0000631-2021-09-07"
+  },
+  "course-0000651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0000651",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 3302, version 0000651-2016-05-23"
+  },
+  "course-0000661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0000661",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 3303, version 0000661-2016-05-23"
+  },
+  "course-0065871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065871",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 3304, version 0065871-2022-01-18"
+  },
+  "course-0158051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0158051",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 4301, version 0158051-2021-05-17"
+  },
+  "course-7939631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939631",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 4402, version 7939631-2026-09-08"
+  },
+  "course-0000721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0000721",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 4801, version 0000721-2026-09-08"
+  },
+  "course-0000741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0000741",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 4802, version 0000741-2026-09-08"
+  },
+  "course-7953581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953581",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 1302, version 7953581-2022-05-16"
+  },
+  "course-7939641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939641",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 1402, version 7939641-2016-05-23"
+  },
+  "course-8271731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271731",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 1403, version 8271731-2024-09-03"
+  },
+  "course-8276771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8276771",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 4501, version 8276771-2025-09-02"
+  },
+  "course-0071741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0071741",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 3402W, version 0071741-2026-09-08"
+  },
+  "course-8079311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8079311",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 3402V, version 8079311-2026-09-08"
+  },
+  "course-0065231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065231",
+   "retrieved": "2026-11-23",
+   "section": "Course record SLHS 3305W, version 0065231-2026-09-08"
+  }
+ },
+ "courseSets": {
+  "set-dxdKAQbY": {
+   "codes": [
+    "SLHS 1301W",
+    "SLHS 1301V",
+    "SLHS 1401",
+    "SLHS 3302",
+    "SLHS 3303",
+    "SLHS 3304",
+    "SLHS 4301",
+    "SLHS 4402",
+    "SLHS 4801",
+    "SLHS 4802"
+   ],
+   "sourceRef": "program"
+  },
+  "set-i2bin1xW": {
+   "codes": [
+    "SLHS 1302",
+    "SLHS 1402",
+    "SLHS 1403",
+    "SLHS 4501"
+   ],
+   "sourceRef": "program"
+  },
+  "set-8gcQakEr": {
+   "codes": [
+    "SLHS 3402W",
+    "SLHS 3402V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-417426": {
+   "codes": [
+    "SLHS 3305W",
+    "SLHS 3402W",
+    "SLHS 3402V"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "SLHS 1301V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Physics and Biology of the Voice Honors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7956201"
+   },
+   "sourceRef": "course-7956201"
+  },
+  "SLHS 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Physics and Biology of the Voice",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0000621"
+   },
+   "sourceRef": "course-0000621"
+  },
+  "SLHS 1302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Rate Your World: Quantifying Judgments of Human Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7953581"
+   },
+   "sourceRef": "course-7953581"
+  },
+  "SLHS 1401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Speech-Language Pathology & Audiology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0000631"
+   },
+   "sourceRef": "course-0000631"
+  },
+  "SLHS 1402": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Talking Brain",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7939641"
+   },
+   "sourceRef": "course-7939641"
+  },
+  "SLHS 1403": {
+   "catalogTerm": "Fall 2026",
+   "title": "Neurodiversity and Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271731"
+   },
+   "sourceRef": "course-8271731"
+  },
+  "SLHS 3302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anatomy and Physiology of the Speech and Hearing Mechanisms",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0000651"
+   },
+   "sourceRef": "course-0000651"
+  },
+  "SLHS 3303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Language Acquisition and Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0000661"
+   },
+   "sourceRef": "course-0000661"
+  },
+  "SLHS 3304": {
+   "catalogTerm": "Fall 2026",
+   "title": "Phonetics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065871"
+   },
+   "sourceRef": "course-0065871"
+  },
+  "SLHS 3305W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Speech Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065231"
+   },
+   "sourceRef": "course-0065231"
+  },
+  "SLHS 3402V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Project in Speech-Language-Hearing Sciences Honors",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8079311"
+   },
+   "sourceRef": "course-8079311"
+  },
+  "SLHS 3402W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Project in Speech-Language-Hearing Sciences",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0071741"
+   },
+   "sourceRef": "course-0071741"
+  },
+  "SLHS 4301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to the Neuroscience of Human Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0158051"
+   },
+   "sourceRef": "course-0158051"
+  },
+  "SLHS 4402": {
+   "catalogTerm": "Fall 2026",
+   "title": "Clinical Methods in Speech-Language Pathology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1401, 3302, 3303, 3304, 4301 (either before registration for 4402 or concurrent registration is required (or allowed) in 4402)], or grad student, or instructor consent."
+    },
+    "sourceRef": "course-7939631"
+   },
+   "sourceRef": "course-7939631"
+  },
+  "SLHS 4501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Electrophysiology of the Mind",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8276771"
+   },
+   "sourceRef": "course-8276771"
+  },
+  "SLHS 4801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Clinical methods in assessing auditory function and disorders",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[SLHS 3302, SLHS 3307W] or instr consent"
+    },
+    "sourceRef": "course-0000721"
+   },
+   "sourceRef": "course-0000721"
+  },
+  "SLHS 4802": {
+   "catalogTerm": "Fall 2026",
+   "title": "Clinical Methods for Treating Hearing Disorders",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "SLHS 4801"
+    },
+    "sourceRef": "course-0000741"
+   },
+   "sourceRef": "course-0000741"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-dbkIsDhs",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-dxdKAQbY",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-dxdKAQbY-listed",
+      "type": "credits",
+      "courseSet": "set-dxdKAQbY",
+      "minCredits": 31,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-dxdKAQbY-unresolved",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Some listed course options could not be resolved to current official course records. Verify this requirement with your advisor or APAS."
+     }
+    ],
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-sJsl8UcU",
+   "label": "Elective Course",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-i2bin1xW",
+    "type": "credits",
+    "courseSet": "set-i2bin1xW",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Elective Course"
+   }
+  },
+  {
+   "id": "g-PGllhoa1",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-8gcQakEr",
+    "type": "credits",
+    "courseSet": "set-8gcQakEr",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-088620217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-417426",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-417426-listed",
+      "type": "count",
+      "courseSet": "set-417426",
+      "maxCourses": 1,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-417426-unresolved",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Some listed course options could not be resolved to current official course records. Verify this requirement with your advisor or APAS."
+     }
+    ],
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Speech-Language-Hearing Sciences BA is SLHS.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 18 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nMajors are advised to select additional courses beyond those needed to satisfy the liberal education requirements in the behavioral, biological, cognitive, physical, and social sciences.\nStudents may earn a BA or a minor in speech-language-hearing sciences, but not both. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

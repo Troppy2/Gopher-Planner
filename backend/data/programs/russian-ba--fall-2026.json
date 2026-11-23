@@ -1,0 +1,734 @@
+{
+ "schemaVersion": 2,
+ "id": "russian-ba",
+ "name": "Russian B.A.",
+ "officialName": "Russian B.A.",
+ "officialProgramId": "084020217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Russian B.A., revision 084020217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/084020217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/084020217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 084020217-2026-09-08"
+  },
+  "course-0070411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070411",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3101, version 0070411-2026-01-20"
+  },
+  "course-0070431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070431",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3102, version 0070431-2026-01-20"
+  },
+  "course-0035411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035411",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3421W, version 0035411-2026-09-08"
+  },
+  "course-0035461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035461",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 5421, version 0035461-2021-05-17"
+  },
+  "course-0070471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070471",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3422W, version 0070471-2026-09-08"
+  },
+  "course-0070481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070481",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 5422W, version 0070481-2026-09-08"
+  },
+  "course-0070491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070491",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3512, version 0070491-2021-05-17"
+  },
+  "course-8097311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097311",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3264, version 8097311-2021-05-17"
+  },
+  "course-0100781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0100781",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5264, version 0100781-2021-05-17"
+  },
+  "course-8097321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097321",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3265, version 8097321-2021-05-17"
+  },
+  "course-0100941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0100941",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5265, version 0100941-2021-05-17"
+  },
+  "course-0034541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034541",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3271, version 0034541-2021-09-07"
+  },
+  "course-8251711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251711",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3271, version 8251711-2021-09-07"
+  },
+  "course-7963321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7963321",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5271, version 7963321-2021-09-07"
+  },
+  "course-8251721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251721",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 5271, version 8251721-2021-09-07"
+  },
+  "course-0100621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0100621",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3637, version 0100621-2021-05-17"
+  },
+  "course-0035381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035381",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3105, version 0035381-2026-01-20"
+  },
+  "course-0035441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035441",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3404, version 0035441-2021-05-17"
+  },
+  "course-0035391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035391",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 5404, version 0035391-2021-05-17"
+  },
+  "course-0035401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035401",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3411, version 0035401-2026-01-20"
+  },
+  "course-0035451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035451",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 5411, version 0035451-2026-01-20"
+  },
+  "course-8192001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8192001",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3604, version 8192001-2021-05-17"
+  },
+  "course-8192011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8192011",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 5604, version 8192011-2021-05-17"
+  },
+  "course-0070521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070521",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3900, version 0070521-2025-05-19"
+  },
+  "course-0070461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070461",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3311W, version 0070461-2021-05-17"
+  },
+  "course-7887111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887111",
+   "retrieved": "2026-11-23",
+   "section": "Course record RUSS 3311V, version 7887111-2021-05-17"
+  }
+ },
+ "courseSets": {
+  "set-Bjzs6aUt": {
+   "codes": [
+    "RUSS 3101",
+    "RUSS 3102"
+   ],
+   "sourceRef": "program"
+  },
+  "set-XslWbkEe": {
+   "codes": [
+    "RUSS 3421W",
+    "RUSS 5421",
+    "RUSS 3422W",
+    "RUSS 5422W",
+    "RUSS 3512"
+   ],
+   "sourceRef": "program"
+  },
+  "set-rT5nlxe1": {
+   "codes": [
+    "HIST 3264",
+    "HIST 5264",
+    "HIST 3265",
+    "HIST 5265",
+    "HIST 3271",
+    "MEST 3271",
+    "HIST 5271",
+    "MEST 5271",
+    "HIST 3637",
+    "RUSS 3105",
+    "RUSS 3404",
+    "RUSS 5404",
+    "RUSS 3411",
+    "RUSS 5411",
+    "RUSS 3604",
+    "RUSS 5604",
+    "RUSS 3900"
+   ],
+   "sourceRef": "program"
+  },
+  "set-G7xFqCe6": {
+   "codes": [
+    "HIST 3264",
+    "HIST 5264",
+    "HIST 3265",
+    "HIST 5265",
+    "HIST 3271",
+    "MEST 3271",
+    "HIST 5271",
+    "MEST 5271",
+    "HIST 3637",
+    "RUSS 3105",
+    "RUSS 3404",
+    "RUSS 5404",
+    "RUSS 3411",
+    "RUSS 5411",
+    "RUSS 3604",
+    "RUSS 5604",
+    "RUSS 3900"
+   ],
+   "sourceRef": "program"
+  },
+  "set-lZEWCACn": {
+   "codes": [
+    "RUSS 3311W",
+    "RUSS 3311V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-417239": {
+   "codes": [
+    "RUSS 3311W",
+    "RUSS 3311V",
+    "RUSS 3421W",
+    "RUSS 3422W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "HIST 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Imperial Russia: Formation and Expansion of the Russian Empire in the 18th and 19th Centuries",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097311"
+   },
+   "sourceRef": "course-8097311"
+  },
+  "HIST 3265": {
+   "catalogTerm": "Fall 2026",
+   "title": "20th-Century Russia: The Collapse of Imperial Russia, the Revolutions, and the Soviet Regime",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097321"
+   },
+   "sourceRef": "course-8097321"
+  },
+  "HIST 3271": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Viking World: Story, History, and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0034541"
+   },
+   "sourceRef": "course-0034541"
+  },
+  "HIST 3637": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Russia: From Peter the Great to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0100621"
+   },
+   "sourceRef": "course-0100621"
+  },
+  "HIST 5264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Imperial Russia: Formation and Expansion of the Russian Empire in the 18th and 19th Centuries",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0100781"
+   },
+   "sourceRef": "course-0100781"
+  },
+  "HIST 5265": {
+   "catalogTerm": "Fall 2026",
+   "title": "20th-Century Russia: The Collapse of Imperial Russia, the Revolutions, and the Soviet Regime",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0100941"
+   },
+   "sourceRef": "course-0100941"
+  },
+  "HIST 5271": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Viking World: Story, History, and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7963321"
+   },
+   "sourceRef": "course-7963321"
+  },
+  "MEST 3271": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Viking World: Story, History, and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251711"
+   },
+   "sourceRef": "course-8251711"
+  },
+  "MEST 5271": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Viking World: Story, History, and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251721"
+   },
+   "sourceRef": "course-8251721"
+  },
+  "RUSS 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Russian I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3002 or 4104 or instr consent"
+    },
+    "sourceRef": "course-0070411"
+   },
+   "sourceRef": "course-0070411"
+  },
+  "RUSS 3102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Russian II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3101 or 4111 or instr consent"
+    },
+    "sourceRef": "course-0070431"
+   },
+   "sourceRef": "course-0070431"
+  },
+  "RUSS 3105": {
+   "catalogTerm": "Fall 2026",
+   "title": "Russian Poetry and Prose",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Russ 3102 or concurrent enrollment in Russ 3102 or permission"
+    },
+    "sourceRef": "course-0035381"
+   },
+   "sourceRef": "course-0035381"
+  },
+  "RUSS 3311V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Major Project in Russian",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Advanced Russian major"
+    },
+    "sourceRef": "course-7887111"
+   },
+   "sourceRef": "course-7887111"
+  },
+  "RUSS 3311W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Russian Major Project",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Advanced Russian major"
+    },
+    "sourceRef": "course-0070461"
+   },
+   "sourceRef": "course-0070461"
+  },
+  "RUSS 3404": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tolstoy in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035441"
+   },
+   "sourceRef": "course-0035441"
+  },
+  "RUSS 3411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dostoevsky in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035401"
+   },
+   "sourceRef": "course-0035401"
+  },
+  "RUSS 3421W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literature: Middle Ages to Dostoevsky in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035411"
+   },
+   "sourceRef": "course-0035411"
+  },
+  "RUSS 3422W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literature: Tolstoy to the Present in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0070471"
+   },
+   "sourceRef": "course-0070471"
+  },
+  "RUSS 3512": {
+   "catalogTerm": "Fall 2026",
+   "title": "Russian Art and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0070491"
+   },
+   "sourceRef": "course-0070491"
+  },
+  "RUSS 3604": {
+   "catalogTerm": "Fall 2026",
+   "title": "Russia At The Movies: A Survey Of The History Of Russian Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8192001"
+   },
+   "sourceRef": "course-8192001"
+  },
+  "RUSS 3900": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Russian Language, Literature, and Culture",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1102 for language topics"
+    },
+    "sourceRef": "course-0070521"
+   },
+   "sourceRef": "course-0070521"
+  },
+  "RUSS 5404": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tolstoy in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035391"
+   },
+   "sourceRef": "course-0035391"
+  },
+  "RUSS 5411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dostoevsky in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035451"
+   },
+   "sourceRef": "course-0035451"
+  },
+  "RUSS 5421": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literature: Middle Ages to Dostoevsky in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035461"
+   },
+   "sourceRef": "course-0035461"
+  },
+  "RUSS 5422W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literature: Tolstoy to the Present in Translation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0070481"
+   },
+   "sourceRef": "course-0070481"
+  },
+  "RUSS 5604": {
+   "catalogTerm": "Fall 2026",
+   "title": "Russia At The Movies: A Survey Of The History Of Russian Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8192011"
+   },
+   "sourceRef": "course-8192011"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-tSaomkD5",
+   "label": "Advanced Language Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Bjzs6aUt",
+    "type": "credits",
+    "courseSet": "set-Bjzs6aUt",
+    "minCredits": 8,
+    "sourceRef": "program",
+    "label": "Advanced Language Courses"
+   }
+  },
+  {
+   "id": "g-2sV9f2Cv",
+   "label": "Required Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-XslWbkEe",
+    "type": "credits",
+    "courseSet": "set-XslWbkEe",
+    "minCredits": 9,
+    "sourceRef": "program",
+    "label": "Required Courses"
+   }
+  },
+  {
+   "id": "g-cCkG9IgP",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-G7xFqCe6",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-G7xFqCe6-rules",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-rT5nlxe1",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-rT5nlxe1-listed",
+          "type": "credits",
+          "courseSet": "set-rT5nlxe1",
+          "minCredits": 8,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-rT5nlxe1-unresolved",
+          "type": "review",
+          "sourceRef": "program",
+          "message": "Some listed course options could not be resolved to current official course records. Verify this requirement with your advisor or APAS."
+         }
+        ],
+        "label": "Electives"
+       },
+       {
+        "id": "r-IE64XTKg",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Directed Studies: courses from this list count for at most 4 credits. Verify this requirement with your advisor or APAS.",
+        "label": "Directed Studies"
+       }
+      ]
+     },
+     {
+      "id": "r-G7xFqCe6-credits",
+      "type": "credits",
+      "courseSet": "set-G7xFqCe6",
+      "minCredits": 12,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-svZ78kRW",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-lZEWCACn",
+    "type": "credits",
+    "courseSet": "set-lZEWCACn",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-084020217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-417239",
+    "type": "count",
+    "courseSet": "set-417239",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Required Prerequisites",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-I9d693hh",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Beginning and Intermediate Russian: courses from this list count for at most 20 credits. Verify this requirement with your advisor or APAS.",
+    "label": "Beginning and Intermediate Russian"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Russian BA is RUSS.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996.\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nStudents are required to complete 4 semester(s) of Russian. with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nStudents may earn a BA or a minor in Russian, but not both.\nAt least 17 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

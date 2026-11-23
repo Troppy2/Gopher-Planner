@@ -1,0 +1,1798 @@
+{
+ "schemaVersion": 2,
+ "id": "psychology-ba",
+ "name": "Psychology B.A.",
+ "officialName": "Psychology B.A.",
+ "officialProgramId": "081220217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Psychology B.A., revision 081220217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/081220217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/081220217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 081220217-2026-09-08"
+  },
+  "course-0062651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001, version 0062651-2026-09-08"
+  },
+  "course-7990411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001H, version 7990411-2026-09-08"
+  },
+  "course-7989021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989021",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3801, version 7989021-2021-05-17"
+  },
+  "course-8003621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003621",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3801H, version 8003621-2021-05-17"
+  },
+  "course-7994401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7994401",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3001W, version 7994401-2021-05-17"
+  },
+  "course-8003631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003631",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3001V, version 8003631-2021-05-17"
+  },
+  "course-0062641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062641",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3011, version 0062641-2021-05-17"
+  },
+  "course-0063601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063601",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3031, version 0063601-2021-05-17"
+  },
+  "course-0064571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064571",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3051, version 0064571-2025-01-21"
+  },
+  "course-0064601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064601",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3061, version 0064601-2024-09-03"
+  },
+  "course-8165541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8165541",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4021, version 8165541-2021-05-17"
+  },
+  "course-8013681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013681",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4032, version 8013681-2025-09-02"
+  },
+  "course-0099881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099881",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4036, version 0099881-2021-05-17"
+  },
+  "course-0065091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065091",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5014, version 0065091-2021-05-17"
+  },
+  "course-0065101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065101",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5015, version 0065101-2021-05-17"
+  },
+  "course-7952351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7952351",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5018H, version 7952351-2021-05-17"
+  },
+  "course-8273541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8273541",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5022, version 8273541-2025-01-21"
+  },
+  "course-0065111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065111",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5031W, version 0065111-2021-05-17"
+  },
+  "course-0102781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102781",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5036, version 0102781-2026-01-20"
+  },
+  "course-0065131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065131",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5037, version 0065131-2021-05-17"
+  },
+  "course-0065141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065141",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5038W, version 0065141-2021-05-17"
+  },
+  "course-8190481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8190481",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5052, version 8190481-2021-05-17"
+  },
+  "course-0065161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065161",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5054, version 0065161-2021-05-17"
+  },
+  "course-0149101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0149101",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5062, version 0149101-2021-05-17"
+  },
+  "course-8063871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8063871",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5063, version 8063871-2021-05-17"
+  },
+  "course-7890311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7890311",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5064, version 7890311-2025-09-02"
+  },
+  "course-0034501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034501",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 3301, version 0034501-2024-09-03"
+  },
+  "course-8253431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253431",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 3301H, version 8253431-2024-09-03"
+  },
+  "course-0023591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023591",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4303, version 0023591-2025-05-19"
+  },
+  "course-0064751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064751",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3101, version 0064751-2021-05-17"
+  },
+  "course-0064841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064841",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3201, version 0064841-2021-05-17"
+  },
+  "course-8013671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013671",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3206, version 8013671-2021-05-17"
+  },
+  "course-0144591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144591",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3301, version 0144591-2021-05-17"
+  },
+  "course-0064931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064931",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3604, version 0064931-2023-01-17"
+  },
+  "course-0064971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064971",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3617, version 0064971-2021-05-17"
+  },
+  "course-0063731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063731",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3666, version 0063731-2021-05-17"
+  },
+  "course-8256071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256071",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4206, version 8256071-2022-01-18"
+  },
+  "course-8163761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163761",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4207, version 8163761-2021-05-17"
+  },
+  "course-0066101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066101",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5207, version 0066101-2021-05-17"
+  },
+  "course-8256771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256771",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4301, version 8256771-2022-01-18"
+  },
+  "course-0065181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065181",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5101H, version 0065181-2024-09-03"
+  },
+  "course-0065991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065991",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5202, version 0065991-2021-05-17"
+  },
+  "course-0066001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066001",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5204, version 0066001-2021-05-17"
+  },
+  "course-0066031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066031",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5205, version 0066031-2021-05-17"
+  },
+  "course-0066081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066081",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5206, version 0066081-2021-05-17"
+  },
+  "course-0065191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065191",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3121, version 0065191-2025-09-02"
+  },
+  "course-0064791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064791",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3135, version 0064791-2021-05-17"
+  },
+  "course-0065211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065211",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5135, version 0065211-2021-05-17"
+  },
+  "course-7972941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7972941",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3511, version 7972941-2021-05-17"
+  },
+  "course-0099351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099351",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3711, version 0099351-2025-09-02"
+  },
+  "course-0066141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066141",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4501, version 0066141-2021-05-17"
+  },
+  "course-8139731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8139731",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4521, version 8139731-2021-05-17"
+  },
+  "course-8266441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266441",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4802, version 8266441-2023-09-05"
+  },
+  "course-8272981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272981",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4803, version 8272981-2025-01-21"
+  },
+  "course-8273091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8273091",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4861, version 8273091-2025-01-21"
+  },
+  "course-0065221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065221",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5136, version 0065221-2021-05-17"
+  },
+  "course-0065201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065201",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5137, version 0065201-2021-05-17"
+  },
+  "course-0066121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066121",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5501, version 0066121-2022-09-06"
+  },
+  "course-0099441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099441",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5701, version 0099441-2021-05-17"
+  },
+  "course-0106131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0106131",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5703, version 0106131-2021-05-17"
+  },
+  "course-7914091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7914091",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5708, version 7914091-2021-05-17"
+  },
+  "course-0066251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066251",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5862, version 0066251-2021-09-07"
+  },
+  "course-0066271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066271",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5865, version 0066271-2024-01-16"
+  },
+  "course-8119041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8119041",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3901W, version 8119041-2022-05-16"
+  },
+  "course-0065001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065001",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3902W, version 0065001-2022-05-16"
+  },
+  "course-8119051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8119051",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3903W, version 8119051-2022-05-16"
+  },
+  "course-0066311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066311",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 4994V, version 0066311-2021-05-17"
+  },
+  "course-0066301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066301",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 5994, version 0066301-2023-09-05"
+  }
+ },
+ "courseSets": {
+  "set-PXCThsXt": {
+   "codes": [
+    "PSY 1001",
+    "PSY 1001H",
+    "PSY 3801",
+    "PSY 3801H",
+    "PSY 3001W",
+    "PSY 3001V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-6J3rfPMa": {
+   "codes": [
+    "PSY 3011",
+    "PSY 3031",
+    "PSY 3051",
+    "PSY 3061",
+    "PSY 4021",
+    "PSY 4032",
+    "PSY 4036",
+    "PSY 5014",
+    "PSY 5015",
+    "PSY 5018H",
+    "PSY 5022",
+    "PSY 5031W",
+    "PSY 5036",
+    "PSY 5037",
+    "PSY 5038W",
+    "PSY 5052",
+    "PSY 5054",
+    "PSY 5062",
+    "PSY 5063",
+    "PSY 5064"
+   ],
+   "sourceRef": "program"
+  },
+  "set-La0Gdx7c": {
+   "codes": [
+    "CPSY 3301",
+    "CPSY 3301H",
+    "CPSY 4303",
+    "PSY 3101",
+    "PSY 3201",
+    "PSY 3206",
+    "PSY 3301",
+    "PSY 3604",
+    "PSY 3617",
+    "PSY 3666",
+    "PSY 4206",
+    "PSY 4207",
+    "PSY 5207",
+    "PSY 4301",
+    "PSY 5101H",
+    "PSY 5202",
+    "PSY 5204",
+    "PSY 5205",
+    "PSY 5206"
+   ],
+   "sourceRef": "program"
+  },
+  "set-QFGZFjLG": {
+   "codes": [
+    "PSY 3121",
+    "PSY 3135",
+    "PSY 5135",
+    "PSY 3511",
+    "PSY 3711",
+    "PSY 4501",
+    "PSY 4521",
+    "PSY 4802",
+    "PSY 4803",
+    "PSY 4861",
+    "PSY 5136",
+    "PSY 5137",
+    "PSY 5501",
+    "PSY 5701",
+    "PSY 5703",
+    "PSY 5708",
+    "PSY 5862",
+    "PSY 5865"
+   ],
+   "sourceRef": "program"
+  },
+  "set-FikybKx5": {
+   "codes": [
+    "PSY 3901W",
+    "PSY 3902W",
+    "PSY 3903W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-F87VVgzJ": {
+   "codes": [
+    "PSY 4994V",
+    "PSY 5994"
+   ],
+   "sourceRef": "program"
+  },
+  "set-417355": {
+   "codes": [
+    "PSY 3001W",
+    "PSY 3001V",
+    "PSY 3901W",
+    "PSY 3902W",
+    "PSY 3903W",
+    "PSY 5031W",
+    "PSY 5038W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "CPSY 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Developmental Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0034501"
+   },
+   "sourceRef": "course-0034501"
+  },
+  "CPSY 3301H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Developmental Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253431"
+   },
+   "sourceRef": "course-8253431"
+  },
+  "CPSY 4303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Adolescent Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PSY 1001 or equivalent"
+    },
+    "sourceRef": "course-0023591"
+   },
+   "sourceRef": "course-0023591"
+  },
+  "PSY 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062651"
+   },
+   "sourceRef": "course-0062651"
+  },
+  "PSY 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors."
+    },
+    "sourceRef": "course-7990411"
+   },
+   "sourceRef": "course-7990411"
+  },
+  "PSY 3001V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Research Methods",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1001, [2081/3801 or equiv]]or dept consent, PSY major, honors student"
+    },
+    "sourceRef": "course-8003631"
+   },
+   "sourceRef": "course-8003631"
+  },
+  "PSY 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Research Methods",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1001, [2801 or 3801 or equiv]] or dept consent"
+    },
+    "sourceRef": "course-7994401"
+   },
+   "sourceRef": "course-7994401"
+  },
+  "PSY 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Learning and Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0062641"
+   },
+   "sourceRef": "course-0062641"
+  },
+  "PSY 3031": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Sensation and Perception",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "PSY 1001"
+    },
+    "sourceRef": "course-0063601"
+   },
+   "sourceRef": "course-0063601"
+  },
+  "PSY 3051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Cognitive Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0064571"
+   },
+   "sourceRef": "course-0064571"
+  },
+  "PSY 3061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Biological Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "PSY 1001"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1009"
+      },
+      {
+       "type": "course",
+       "course_code": "NSCI 2001"
+      },
+      {
+       "type": "course",
+       "course_code": "NSCI 2101"
+      }
+     ]
+    },
+    "sourceRef": "course-0064601"
+   },
+   "sourceRef": "course-0064601"
+  },
+  "PSY 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Personality",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0064751"
+   },
+   "sourceRef": "course-0064751"
+  },
+  "PSY 3121": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology: Past, Present, and Future",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065191"
+   },
+   "sourceRef": "course-0065191"
+  },
+  "PSY 3135": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Individual Differences",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1001, [3801 or equiv]] or instr consent"
+    },
+    "sourceRef": "course-0064791"
+   },
+   "sourceRef": "course-0064791"
+  },
+  "PSY 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Social Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or instr consent"
+    },
+    "sourceRef": "course-0064841"
+   },
+   "sourceRef": "course-0064841"
+  },
+  "PSY 3206": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Health Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-8013671"
+   },
+   "sourceRef": "course-8013671"
+  },
+  "PSY 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Cultural Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0144591"
+   },
+   "sourceRef": "course-0144591"
+  },
+  "PSY 3511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Counseling Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-7972941"
+   },
+   "sourceRef": "course-7972941"
+  },
+  "PSY 3604": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychopathology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0064931"
+   },
+   "sourceRef": "course-0064931"
+  },
+  "PSY 3617": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Clinical Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3604 or 5604H"
+    },
+    "sourceRef": "course-0064971"
+   },
+   "sourceRef": "course-0064971"
+  },
+  "PSY 3666": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Sexuality",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0063731"
+   },
+   "sourceRef": "course-0063731"
+  },
+  "PSY 3711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology in the Workplace",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099351"
+   },
+   "sourceRef": "course-0099351"
+  },
+  "PSY 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychological Measurement and Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra, [PSY 1001 or equiv]; intended for students who plan to major in psychology"
+    },
+    "sourceRef": "course-7989021"
+   },
+   "sourceRef": "course-7989021"
+  },
+  "PSY 3801H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychological Measurement and Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1001 or equiv], high school algebra, honors; intended for students who plan to major in psychology"
+    },
+    "sourceRef": "course-8003621"
+   },
+   "sourceRef": "course-8003621"
+  },
+  "PSY 3901W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone in Psychology - Research Laboratory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3801 or equiv], 3001W, completion of five courses from three distribution areas, PSY major, senio"
+    },
+    "sourceRef": "course-8119041"
+   },
+   "sourceRef": "course-8119041"
+  },
+  "PSY 3902W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone in Psychology - Individual Interests",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3801 or equiv], 3001W, completion of five courses from three distribution areas, PSY major, senior"
+    },
+    "sourceRef": "course-0065001"
+   },
+   "sourceRef": "course-0065001"
+  },
+  "PSY 3903W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone in Psychology - Community Engagement",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3801 or equiv], 3001W, completion of five courses from three distribution areas, PSY major, senior"
+    },
+    "sourceRef": "course-8119051"
+   },
+   "sourceRef": "course-8119051"
+  },
+  "PSY 4021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Creativity Sciences: Minds, Brains, and Innovation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "PSY 1001"
+    },
+    "sourceRef": "course-8165541"
+   },
+   "sourceRef": "course-8165541"
+  },
+  "PSY 4032": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Music",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8013681"
+   },
+   "sourceRef": "course-8013681"
+  },
+  "PSY 4036": {
+   "catalogTerm": "Fall 2026",
+   "title": "Perceptual Issues in Visual Impairment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or instr consent"
+    },
+    "sourceRef": "course-0099881"
+   },
+   "sourceRef": "course-0099881"
+  },
+  "PSY 4206": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interventions for Health and Wellness",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256071"
+   },
+   "sourceRef": "course-8256071"
+  },
+  "PSY 4207": {
+   "catalogTerm": "Fall 2026",
+   "title": "Personality and Social Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3101 or 3201 or honors or grad student or instr consent"
+    },
+    "sourceRef": "course-8163761"
+   },
+   "sourceRef": "course-8163761"
+  },
+  "PSY 4301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology & Diversity Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256771"
+   },
+   "sourceRef": "course-8256771"
+  },
+  "PSY 4501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Women and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[Jr or sr], psych major] or instr consent"
+    },
+    "sourceRef": "course-0066141"
+   },
+   "sourceRef": "course-0066141"
+  },
+  "PSY 4521": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Stress and Trauma",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PSY 1001 and 3001W or PSY 3001V or CPSY 3308W"
+    },
+    "sourceRef": "course-8139731"
+   },
+   "sourceRef": "course-8139731"
+  },
+  "PSY 4802": {
+   "catalogTerm": "Fall 2026",
+   "title": "Using R to Create Reproducible Research in Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266441"
+   },
+   "sourceRef": "course-8266441"
+  },
+  "PSY 4803": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Open Science and Replications in Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272981"
+   },
+   "sourceRef": "course-8272981"
+  },
+  "PSY 4861": {
+   "catalogTerm": "Fall 2026",
+   "title": "Measurement: Quantifying Individual Differences for Research and Applications",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8273091"
+   },
+   "sourceRef": "course-8273091"
+  },
+  "PSY 4994V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Research Practicum",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3001W or 3001V], psych major, honors"
+    },
+    "sourceRef": "course-0066311"
+   },
+   "sourceRef": "course-0066311"
+  },
+  "PSY 5014": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Human Learning and Memory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3011 or 3051 or honors or grad student"
+    },
+    "sourceRef": "course-0065091"
+   },
+   "sourceRef": "course-0065091"
+  },
+  "PSY 5015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cognition, Computation, and Brain",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Honors or grad] or [[jr or sr], [3011 or 3031 or 3051 or 3061]] or instr consent"
+    },
+    "sourceRef": "course-0065101"
+   },
+   "sourceRef": "course-0065101"
+  },
+  "PSY 5018H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mathematical Models of Human Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1271 or instr consent"
+    },
+    "sourceRef": "course-7952351"
+   },
+   "sourceRef": "course-7952351"
+  },
+  "PSY 5022": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Human Experience of Sensory Loss: Seeking Equitable and Effective Solutions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8273541"
+   },
+   "sourceRef": "course-8273541"
+  },
+  "PSY 5031W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Perception",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3031 or 3051 or instr consent"
+    },
+    "sourceRef": "course-0065111"
+   },
+   "sourceRef": "course-0065111"
+  },
+  "PSY 5036": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computational Vision",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[PSY 3031 or PSY 3051], [Math 1272 or equiv]] or instr consent"
+    },
+    "sourceRef": "course-0102781"
+   },
+   "sourceRef": "course-0102781"
+  },
+  "PSY 5037": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Hearing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Instructor permission"
+    },
+    "sourceRef": "course-0065131"
+   },
+   "sourceRef": "course-0065131"
+  },
+  "PSY 5038W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Neural Networks",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[3061 or NSC 3102], [MATH 1282 or 2243]] or  instr consent"
+    },
+    "sourceRef": "course-0065141"
+   },
+   "sourceRef": "course-0065141"
+  },
+  "PSY 5052": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Attention",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Psy 3051 or equivalent"
+    },
+    "sourceRef": "course-8190481"
+   },
+   "sourceRef": "course-8190481"
+  },
+  "PSY 5054": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Language",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad or [[jr or sr], [3011 or 3031 or 3051 or 3061]] or instr consent"
+    },
+    "sourceRef": "course-0065161"
+   },
+   "sourceRef": "course-0065161"
+  },
+  "PSY 5062": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cognitive Neuropsychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad or [[jr or sr], [3011 or 3031 or 3051 or 3061]] or instr consent"
+    },
+    "sourceRef": "course-0149101"
+   },
+   "sourceRef": "course-0149101"
+  },
+  "PSY 5063": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Functional MRI",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr or grad or instr consent"
+    },
+    "sourceRef": "course-8063871"
+   },
+   "sourceRef": "course-8063871"
+  },
+  "PSY 5064": {
+   "catalogTerm": "Fall 2026",
+   "title": "Brain and Emotion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3061, 3011, or Psy doctoral student"
+    },
+    "sourceRef": "course-7890311"
+   },
+   "sourceRef": "course-7890311"
+  },
+  "PSY 5101H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Personality: Current Theory and Research",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065181"
+   },
+   "sourceRef": "course-0065181"
+  },
+  "PSY 5135": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Individual Differences",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3001W or equiv] or [5862 or equiv] or  instr consent"
+    },
+    "sourceRef": "course-0065211"
+   },
+   "sourceRef": "course-0065211"
+  },
+  "PSY 5136": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Abilities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3001W or 3001V], [3135 or 5135], [5862 or equiv] or instr consent"
+    },
+    "sourceRef": "course-0065221"
+   },
+   "sourceRef": "course-0065221"
+  },
+  "PSY 5137": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Behavioral Genetics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001W or equiv or instr consent"
+    },
+    "sourceRef": "course-0065201"
+   },
+   "sourceRef": "course-0065201"
+  },
+  "PSY 5202": {
+   "catalogTerm": "Fall 2026",
+   "title": "Attitudes and Social Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3201 or instr consent"
+    },
+    "sourceRef": "course-0065991"
+   },
+   "sourceRef": "course-0065991"
+  },
+  "PSY 5204": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Interpersonal Relationships",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors or grad student or instr consent"
+    },
+    "sourceRef": "course-0066001"
+   },
+   "sourceRef": "course-0066001"
+  },
+  "PSY 5205": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Social Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3201 or grad student or instr consent"
+    },
+    "sourceRef": "course-0066031"
+   },
+   "sourceRef": "course-0066031"
+  },
+  "PSY 5206": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Psychology and Health Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066081"
+   },
+   "sourceRef": "course-0066081"
+  },
+  "PSY 5207": {
+   "catalogTerm": "Fall 2026",
+   "title": "Personality and Social Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3101 or 3201 or honors or grad student or instr consent"
+    },
+    "sourceRef": "course-0066101"
+   },
+   "sourceRef": "course-0066101"
+  },
+  "PSY 5501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Self, Society and Health - What's Work Got To Do With It?",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001W or equiv or instr consent"
+    },
+    "sourceRef": "course-0066121"
+   },
+   "sourceRef": "course-0066121"
+  },
+  "PSY 5701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Employee Selection and Staffing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099441"
+   },
+   "sourceRef": "course-0099441"
+  },
+  "PSY 5703": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Organizational Training and Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0106131"
+   },
+   "sourceRef": "course-0106131"
+  },
+  "PSY 5708": {
+   "catalogTerm": "Fall 2026",
+   "title": "Organizational Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Psy 3001W or 3001V and 3711 OR Psy grad"
+    },
+    "sourceRef": "course-7914091"
+   },
+   "sourceRef": "course-7914091"
+  },
+  "PSY 5862": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychological Measurement: Theory and Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3801H or MATH 1271 or grad student"
+    },
+    "sourceRef": "course-0066251"
+   },
+   "sourceRef": "course-0066251"
+  },
+  "PSY 5865": {
+   "catalogTerm": "Fall 2026",
+   "title": "Measurement of Latent Traits",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066271"
+   },
+   "sourceRef": "course-0066271"
+  },
+  "PSY 5994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research: Psy Honors Thesis",
+   "minimumCredits": 1,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066301"
+   },
+   "sourceRef": "course-0066301"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-Fyzcu682",
+   "label": "Major Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-lPbjblNZ",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Take 36 or more total credits including: Foundation Courses, Distribution Area Courses, Capstone and any Electives needed to reach the minimum 36 credits in Psychology coursework. 3 Foundation Courses, 5 Distribution Area Courses, and Capstone are all required. Verify this requirement with your advisor or APAS.",
+    "label": "Major Courses"
+   }
+  },
+  {
+   "id": "g-DSoSMovH",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-PXCThsXt",
+    "type": "credits",
+    "courseSet": "set-PXCThsXt",
+    "minCredits": 12,
+    "sourceRef": "program",
+    "label": "Foundation Courses"
+   }
+  },
+  {
+   "id": "g-uuV7hv6z",
+   "label": "Distribution Area Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-IFCQytwG",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-6J3rfPMa",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-6J3rfPMa-listed",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-6J3rfPMa-credits-listed",
+          "type": "credits",
+          "courseSet": "set-6J3rfPMa",
+          "minCredits": 6,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-6J3rfPMa-min-listed",
+          "type": "count",
+          "courseSet": "set-6J3rfPMa",
+          "minCourses": 2,
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-6J3rfPMa-unresolved",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Some listed course options could not be resolved to current official course records. Verify this requirement with your advisor or APAS."
+       }
+      ],
+      "label": "Distribution Area A: Cognitive and Brain Sciences"
+     },
+     {
+      "id": "r-La0Gdx7c",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-La0Gdx7c-credits",
+        "type": "credits",
+        "courseSet": "set-La0Gdx7c",
+        "minCredits": 6,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-La0Gdx7c-min",
+        "type": "count",
+        "courseSet": "set-La0Gdx7c",
+        "minCourses": 2,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Distribution Area B: Clinical, Personality, and Social"
+     },
+     {
+      "id": "r-QFGZFjLG",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-QFGZFjLG-credits",
+        "type": "credits",
+        "courseSet": "set-QFGZFjLG",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-QFGZFjLG-min",
+        "type": "count",
+        "courseSet": "set-QFGZFjLG",
+        "minCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Distribution Area C: Individual Differences, Quantitative, and Applied"
+     }
+    ],
+    "label": "Distribution Area Courses"
+   }
+  },
+  {
+   "id": "g-ma6E1YNZ",
+   "label": "Additional Elective Options",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-UaWHLSss",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-DM44IFSz",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Additional Electives Area A: courses from this list count for at most 6 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Additional Electives Area A"
+     },
+     {
+      "id": "r-zFwLGMra",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Additional Electives Area B: courses from this list count for at most 9 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Additional Electives Area B"
+     }
+    ],
+    "label": "Additional Elective Options"
+   }
+  },
+  {
+   "id": "g-C8ANkCzF",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-UN1DWrGt",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-FikybKx5",
+      "type": "credits",
+      "courseSet": "set-FikybKx5",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "General Sequence"
+     },
+     {
+      "id": "r-F87VVgzJ",
+      "type": "credits",
+      "courseSet": "set-F87VVgzJ",
+      "minCredits": 7,
+      "sourceRef": "program",
+      "label": "Honors Sequence"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-081220217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-417355",
+    "type": "count",
+    "courseSet": "set-417355",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Psychology BA is PSY.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or PSY 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 16 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn no more than one undergraduate degree in psychology: a BA or a BS or a minor. Students may combine the psychology BA with the developmental psychology minor, but not with the developmental psychology BA or BS. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Prospective majors are strongly encouraged to complete PSY 3801 (or a Department of Psychology approved equivalent) prior to formally declaring the major. To declare a major, students first complete the online Declaration Module (https://cla.umn.edu/psychology/undergraduate/majors-minors/declare-your-major) and then schedule an appointment with a Psychology Advisor (psyadvis@umn.edu). Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

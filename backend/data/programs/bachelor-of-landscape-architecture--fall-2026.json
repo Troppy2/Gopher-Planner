@@ -1,0 +1,947 @@
+{
+ "schemaVersion": 2,
+ "id": "bachelor-of-landscape-architecture",
+ "name": "Bachelor of Landscape Architecture",
+ "officialName": "Bachelor of Landscape Architecture",
+ "officialProgramId": "046822022",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Bachelor of Landscape Architecture, revision 046822022-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/046822022, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/046822022",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 046822022-2026-09-08"
+  },
+  "course-7976931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976931",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 1281, version 7976931-2019-09-03"
+  },
+  "course-7977191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977191",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 2281, version 7977191-2022-09-06"
+  },
+  "course-0130861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0130861",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3001, version 0130861-2025-01-21"
+  },
+  "course-7950831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7950831",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3002, version 7950831-2025-01-21"
+  },
+  "course-8037061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037061",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 4001, version 8037061-2022-01-18"
+  },
+  "course-8037291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037291",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 4002, version 8037291-2025-09-02"
+  },
+  "course-8251491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251491",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 4901, version 8251491-2026-01-20"
+  },
+  "course-8251501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251501",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 4902, version 8251501-2025-09-02"
+  },
+  "course-7911861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7911861",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3571, version 7911861-2015-01-20"
+  },
+  "course-8197571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197571",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3572, version 8197571-2024-01-16"
+  },
+  "course-8197591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197591",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 4573, version 8197591-2024-09-03"
+  },
+  "course-8037011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037011",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 2301, version 8037011-2021-09-07"
+  },
+  "course-8037021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037021",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 2302, version 8037021-2022-01-18"
+  },
+  "course-7971631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971631",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 1301, version 7971631-2015-01-20"
+  },
+  "course-0113411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0113411",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 2301, version 0113411-2026-09-08"
+  },
+  "course-0113731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0113731",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3711W, version 0113731-2015-01-20"
+  },
+  "course-7899031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7899031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3711V, version 7899031-2015-01-20"
+  },
+  "course-7971621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971621",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 1401, version 7971621-2025-01-21"
+  },
+  "course-8095371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8095371",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 1601, version 8095371-2013-09-03"
+  },
+  "course-8037031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037031",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3003, version 8037031-2017-09-05"
+  },
+  "course-0088771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088771",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3413, version 0088771-2022-09-06"
+  },
+  "course-0111481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0111481",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3501, version 0111481-2021-09-07"
+  },
+  "course-8037071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037071",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 4096, version 8037071-2024-09-03"
+  },
+  "course-8197581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197581",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 4501, version 8197581-2024-01-16"
+  },
+  "course-8197601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197601",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 5302, version 8197601-2025-01-21"
+  },
+  "course-7968371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7968371",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 1015, version 7968371-2026-09-08"
+  },
+  "course-8099951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099951",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1055, version 8099951-2026-09-08"
+  },
+  "course-0078851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078851",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 1001, version 0078851-2015-01-20"
+  },
+  "course-0073961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073961",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 1403, version 0073961-2015-01-20"
+  },
+  "course-7886831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7886831",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 1403H, version 7886831-2015-01-20"
+  },
+  "course-7976411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976411",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4701W, version 7976411-2018-01-16"
+  },
+  "course-0128471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128471",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4609W, version 0128471-2022-09-06"
+  },
+  "course-0129871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129871",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 4061W, version 0129871-2016-09-06"
+  },
+  "course-0066351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066351",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 4232W, version 0066351-2018-01-16"
+  },
+  "course-0042131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042131",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3371W, version 0042131-2019-01-22"
+  },
+  "course-0079891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079891",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 4061W, version 0079891-2020-09-08"
+  },
+  "course-8056941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8056941",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 3001W, version 8056941-2018-01-16"
+  }
+ },
+ "courseSets": {
+  "set-404865": {
+   "codes": [
+    "ARCH 1281",
+    "ARCH 2281",
+    "LA 3001",
+    "LA 3002",
+    "LA 4001",
+    "LA 4002",
+    "LA 4901",
+    "LA 4902"
+   ],
+   "sourceRef": "program"
+  },
+  "set-StejAuPu": {
+   "codes": [
+    "LA 3571",
+    "LA 3572",
+    "LA 4573"
+   ],
+   "sourceRef": "program"
+  },
+  "set-OwWxkoIu": {
+   "codes": [
+    "LA 2301",
+    "LA 2302"
+   ],
+   "sourceRef": "program"
+  },
+  "set-c7ZD9w2z": {
+   "codes": [
+    "LA 1301",
+    "ARCH 2301"
+   ],
+   "sourceRef": "program"
+  },
+  "set-xKhtcvSH": {
+   "codes": [
+    "ARCH 3711W",
+    "ARCH 3711V",
+    "LA 1401",
+    "LA 1601",
+    "LA 3003",
+    "LA 3413",
+    "LA 3501",
+    "LA 4096",
+    "LA 4501",
+    "LA 5302",
+    "HORT 1015"
+   ],
+   "sourceRef": "program"
+  },
+  "set-vZqcIzRD": {
+   "codes": [
+    "BIOL 1055",
+    "HORT 1001",
+    "GEOG 1403",
+    "GEOG 1403H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qT9grZ9N": {
+   "codes": [
+    "ARCH 3711V",
+    "ARCH 3711W",
+    "ARCH 4701W",
+    "EEB 4609W",
+    "ESPM 4061W",
+    "FNRM 4232W",
+    "GEOG 3371W",
+    "HORT 4061W",
+    "URBS 3001W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ARCH 1281": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design Fundamentals I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976931"
+   },
+   "sourceRef": "course-7976931"
+  },
+  "ARCH 2281": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design Fundamentals II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977191"
+   },
+   "sourceRef": "course-7977191"
+  },
+  "ARCH 2301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Drawing and Critical Thinking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0113411"
+   },
+   "sourceRef": "course-0113411"
+  },
+  "ARCH 3711V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Environmental Design and the Sociocultural Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors, [soph or above]"
+    },
+    "sourceRef": "course-7899031"
+   },
+   "sourceRef": "course-7899031"
+  },
+  "ARCH 3711W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Design and the Sociocultural Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or above"
+    },
+    "sourceRef": "course-0113731"
+   },
+   "sourceRef": "course-0113731"
+  },
+  "ARCH 4701W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Urban Form and Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3411, 3412] or instr consent"
+    },
+    "sourceRef": "course-7976411"
+   },
+   "sourceRef": "course-7976411"
+  },
+  "BIOL 1055": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Biology: Science and Solutions with Laboratory",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8099951"
+   },
+   "sourceRef": "course-8099951"
+  },
+  "EEB 4609W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ecosystem Ecology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128471"
+   },
+   "sourceRef": "course-0128471"
+  },
+  "ESPM 4061W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Water Quality and Natural Resources",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129871"
+   },
+   "sourceRef": "course-0129871"
+  },
+  "FNRM 4232W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Managing Recreational Lands",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066351"
+   },
+   "sourceRef": "course-0066351"
+  },
+  "GEOG 1403": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biogeography of the Global Garden",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0073961"
+   },
+   "sourceRef": "course-0073961"
+  },
+  "GEOG 1403H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Biogeography of the Global Garden",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-7886831"
+   },
+   "sourceRef": "course-7886831"
+  },
+  "GEOG 3371W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cities, Citizens, and Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042131"
+   },
+   "sourceRef": "course-0042131"
+  },
+  "HORT 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Plant Propagation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0078851"
+   },
+   "sourceRef": "course-0078851"
+  },
+  "HORT 1015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Plant Families for Plant People",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7968371"
+   },
+   "sourceRef": "course-7968371"
+  },
+  "HORT 4061W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Turfgrass Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or instr consent"
+    },
+    "sourceRef": "course-0079891"
+   },
+   "sourceRef": "course-0079891"
+  },
+  "LA 1301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Landscape Architecture Drawing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971631"
+   },
+   "sourceRef": "course-7971631"
+  },
+  "LA 1401": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Designed Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971621"
+   },
+   "sourceRef": "course-7971621"
+  },
+  "LA 1601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design and Equity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8095371"
+   },
+   "sourceRef": "course-8095371"
+  },
+  "LA 2301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mixed Analog and Digital Representation Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "LA 1301 OR GDES 1311 OR instructor consent"
+    },
+    "sourceRef": "course-8037011"
+   },
+   "sourceRef": "course-8037011"
+  },
+  "LA 2302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer-Aided Representation for Environmental Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8037021"
+   },
+   "sourceRef": "course-8037021"
+  },
+  "LA 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding and Creating Landscape Space",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0130861"
+   },
+   "sourceRef": "course-0130861"
+  },
+  "LA 3002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Informants of Creating Landscape Space",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7950831"
+   },
+   "sourceRef": "course-7950831"
+  },
+  "LA 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Climate Change Adaptation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8037031"
+   },
+   "sourceRef": "course-8037031"
+  },
+  "LA 3413": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Landscape Architectural History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0088771"
+   },
+   "sourceRef": "course-0088771"
+  },
+  "LA 3501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Design and Its Biological and Physical Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0111481"
+   },
+   "sourceRef": "course-0111481"
+  },
+  "LA 3571": {
+   "catalogTerm": "Fall 2026",
+   "title": "Landscape Construction: Site Systems and Engineering",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BED major or BED minor or instr consent"
+    },
+    "sourceRef": "course-7911861"
+   },
+   "sourceRef": "course-7911861"
+  },
+  "LA 3572": {
+   "catalogTerm": "Fall 2026",
+   "title": "Landscape Construction: Materials, Assemblies and Performance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197571"
+   },
+   "sourceRef": "course-8197571"
+  },
+  "LA 4001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Landscape Design and Planning Practices Studio",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "LA 2302 and LA 3002 or instructor consent."
+    },
+    "sourceRef": "course-8037061"
+   },
+   "sourceRef": "course-8037061"
+  },
+  "LA 4002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design of Urban Landscapes",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "LA 2302"
+      },
+      {
+       "type": "course",
+       "course_code": "LA 3002"
+      }
+     ]
+    },
+    "sourceRef": "course-8037291"
+   },
+   "sourceRef": "course-8037291"
+  },
+  "LA 4096": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship in Landscape Design and Planning",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1301, 2301, 2302, 3001, 3002, 3003"
+    },
+    "sourceRef": "course-8037071"
+   },
+   "sourceRef": "course-8037071"
+  },
+  "LA 4501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Landscape Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197581"
+   },
+   "sourceRef": "course-8197581"
+  },
+  "LA 4573": {
+   "catalogTerm": "Fall 2026",
+   "title": "Landscape Construction: Plant and Soil Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197591"
+   },
+   "sourceRef": "course-8197591"
+  },
+  "LA 4901": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design of Regional Landscapes",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251491"
+   },
+   "sourceRef": "course-8251491"
+  },
+  "LA 4902": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Landscape Architecture Design",
+   "minimumCredits": 6,
+   "maximumCredits": 6,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251501"
+   },
+   "sourceRef": "course-8251501"
+  },
+  "LA 5302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Professional Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197601"
+   },
+   "sourceRef": "course-8197601"
+  },
+  "URBS 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Urban Studies: The Complexity of Metropolitan Life",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8056941"
+   },
+   "sourceRef": "course-8056941"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-046822022",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-046822022",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-404865",
+      "type": "credits",
+      "courseSet": "set-404865",
+      "minCredits": 38,
+      "sourceRef": "program",
+      "label": "Studio Courses"
+     },
+     {
+      "id": "r-StejAuPu",
+      "type": "credits",
+      "courseSet": "set-StejAuPu",
+      "minCredits": 9,
+      "sourceRef": "program",
+      "label": "Technical Courses"
+     },
+     {
+      "id": "r-OwWxkoIu",
+      "type": "credits",
+      "courseSet": "set-OwWxkoIu",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Representation Courses"
+     },
+     {
+      "id": "r-c7ZD9w2z",
+      "type": "credits",
+      "courseSet": "set-c7ZD9w2z",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Drawing Courses"
+     },
+     {
+      "id": "r-xKhtcvSH",
+      "type": "credits",
+      "courseSet": "set-xKhtcvSH",
+      "minCredits": 29,
+      "sourceRef": "program",
+      "label": "Additional Major Courses"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-8QuZ6w0a",
+   "label": "Biology Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-vZqcIzRD",
+    "type": "credits",
+    "courseSet": "set-vZqcIzRD",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Biology Elective"
+   }
+  },
+  {
+   "id": "g-Pt1WDmHL",
+   "label": "Upper Division Writing Intensive Within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-qT9grZ9N",
+    "type": "count",
+    "courseSet": "set-qT9grZ9N",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive Within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nAt least 28 upper division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nThe core curriculum is guided by the accreditation standards for professional curriculum as set forth by the Landscape Architecture Accreditation Board (LAAB) latest standards. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

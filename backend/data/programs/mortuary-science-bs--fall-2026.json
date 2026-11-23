@@ -1,0 +1,733 @@
+{
+ "schemaVersion": 2,
+ "id": "mortuary-science-bs",
+ "name": "Mortuary Science B.S.",
+ "officialName": "Mortuary Science B.S.",
+ "officialProgramId": "057220111",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Mortuary Science B.S., revision 057220111-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/057220111, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/057220111",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 057220111-2026-09-08"
+  },
+  "course-0149551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0149551",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHAR 1002, version 0149551-2021-05-17"
+  },
+  "course-8190851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8190851",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 2171, version 8190851-2020-05-18"
+  },
+  "course-7896271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7896271",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3047, version 7896271-2026-09-08"
+  },
+  "course-7919541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7919541",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3049, version 7919541-2026-09-08"
+  },
+  "course-0144281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144281",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3051, version 0144281-2022-01-18"
+  },
+  "course-0144311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144311",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3061, version 0144311-2020-05-18"
+  },
+  "course-7900581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7900581",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3065, version 7900581-2025-09-02"
+  },
+  "course-0144291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144291",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3151, version 0144291-2020-05-18"
+  },
+  "course-0144321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144321",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3161, version 0144321-2020-05-18"
+  },
+  "course-7943131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7943131",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3171, version 7943131-2023-01-17"
+  },
+  "course-8256221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256221",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3009, version 8256221-2025-01-21"
+  },
+  "course-0144191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144191",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3012W, version 0144191-2025-09-02"
+  },
+  "course-0144231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144231",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3016, version 0144231-2020-05-18"
+  },
+  "course-0144251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144251",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3018, version 0144251-2020-05-18"
+  },
+  "course-7968321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7968321",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3019, version 7968321-2020-05-18"
+  },
+  "course-7904811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7904811",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3022W, version 7904811-2020-05-18"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-0062651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001, version 0062651-2026-09-08"
+  },
+  "course-0029431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029431",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 1001, version 0029431-2021-05-17"
+  },
+  "course-7904801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7904801",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3021W, version 7904801-2020-05-18"
+  },
+  "course-0144371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144371",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3371, version 0144371-2021-09-07"
+  },
+  "course-0144211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144211",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3014, version 0144211-2020-05-18"
+  },
+  "course-0144171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144171",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3025, version 0144171-2020-05-18"
+  },
+  "course-7919531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7919531",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3031, version 7919531-2020-05-18"
+  },
+  "course-7908031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908031",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3379, version 7908031-2020-05-18"
+  },
+  "course-8256721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256721",
+   "retrieved": "2026-11-23",
+   "section": "Course record MORT 3384, version 8256721-2022-01-18"
+  }
+ },
+ "courseSets": {
+  "set-IIk9P9ko": {
+   "codes": [
+    "PHAR 1002",
+    "MORT 2171",
+    "MORT 3047",
+    "MORT 3049",
+    "MORT 3051",
+    "MORT 3061",
+    "MORT 3065",
+    "MORT 3151",
+    "MORT 3161",
+    "MORT 3171"
+   ],
+   "sourceRef": "program"
+  },
+  "set-HCyqB4dA": {
+   "codes": [
+    "MORT 3009",
+    "MORT 3012W",
+    "MORT 3016",
+    "MORT 3018",
+    "MORT 3019",
+    "MORT 3022W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-E4H9kbos": {
+   "codes": [
+    "COMM 1101",
+    "PSY 1001",
+    "SOC 1001",
+    "MORT 3021W",
+    "MORT 3371"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Af8xAF9x": {
+   "codes": [
+    "MORT 3014",
+    "MORT 3025",
+    "MORT 3031"
+   ],
+   "sourceRef": "program"
+  },
+  "set-sqkXBKDq": {
+   "codes": [
+    "MORT 3379"
+   ],
+   "sourceRef": "program"
+  },
+  "set-6DS5Q3e6": {
+   "codes": [
+    "MORT 3012W",
+    "MORT 3021W",
+    "MORT 3022W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "MORT 2171": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Anatomy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8190851"
+   },
+   "sourceRef": "course-8190851"
+  },
+  "MORT 3009": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Accounting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1031 or CI 1806 or EPSY 3264; and MortSci student"
+    },
+    "sourceRef": "course-8256221"
+   },
+   "sourceRef": "course-8256221"
+  },
+  "MORT 3012W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Organization and Management of Funeral Business",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(or coreq) MORT 3009;  Mort Sci student"
+    },
+    "sourceRef": "course-0144191"
+   },
+   "sourceRef": "course-0144191"
+  },
+  "MORT 3014": {
+   "catalogTerm": "Fall 2026",
+   "title": "Funeral Service Rules and Regulations",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0144211"
+   },
+   "sourceRef": "course-0144211"
+  },
+  "MORT 3016": {
+   "catalogTerm": "Fall 2026",
+   "title": "Funeral Service Marketing and Merchandising",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0144231"
+   },
+   "sourceRef": "course-0144231"
+  },
+  "MORT 3018": {
+   "catalogTerm": "Fall 2026",
+   "title": "Funeral Service Practice I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0144251"
+   },
+   "sourceRef": "course-0144251"
+  },
+  "MORT 3019": {
+   "catalogTerm": "Fall 2026",
+   "title": "Funeral Service Practice II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7968321"
+   },
+   "sourceRef": "course-7968321"
+  },
+  "MORT 3021W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Funeral Service Psychology and Arrangements Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7904801"
+   },
+   "sourceRef": "course-7904801"
+  },
+  "MORT 3022W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Funeral Service Arrangements Laboratory",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7904811"
+   },
+   "sourceRef": "course-7904811"
+  },
+  "MORT 3025": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business Law",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0144171"
+   },
+   "sourceRef": "course-0144171"
+  },
+  "MORT 3031": {
+   "catalogTerm": "Fall 2026",
+   "title": "Funeral Service Law",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7919531"
+   },
+   "sourceRef": "course-7919531"
+  },
+  "MORT 3047": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pathology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7896271"
+   },
+   "sourceRef": "course-7896271"
+  },
+  "MORT 3049": {
+   "catalogTerm": "Fall 2026",
+   "title": "Microbiology",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7919541"
+   },
+   "sourceRef": "course-7919541"
+  },
+  "MORT 3051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Restorative Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0144281"
+   },
+   "sourceRef": "course-0144281"
+  },
+  "MORT 3061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Embalming Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0144311"
+   },
+   "sourceRef": "course-0144311"
+  },
+  "MORT 3065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Thanatochemistry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7900581"
+   },
+   "sourceRef": "course-7900581"
+  },
+  "MORT 3151": {
+   "catalogTerm": "Fall 2026",
+   "title": "Restorative Art Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0144291"
+   },
+   "sourceRef": "course-0144291"
+  },
+  "MORT 3161": {
+   "catalogTerm": "Fall 2026",
+   "title": "Embalming Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0144321"
+   },
+   "sourceRef": "course-0144321"
+  },
+  "MORT 3171": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Anatomy Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7943131"
+   },
+   "sourceRef": "course-7943131"
+  },
+  "MORT 3371": {
+   "catalogTerm": "Fall 2026",
+   "title": "Funeral Service Rites, Customs, and Ceremonies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0144371"
+   },
+   "sourceRef": "course-0144371"
+  },
+  "MORT 3379": {
+   "catalogTerm": "Fall 2026",
+   "title": "Clinical Funeral Service Rotation",
+   "minimumCredits": 1,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7908031"
+   },
+   "sourceRef": "course-7908031"
+  },
+  "MORT 3384": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mortuary Science Practice in the US: An Integrative Capstone Course For Professional Practice",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256721"
+   },
+   "sourceRef": "course-8256721"
+  },
+  "PHAR 1002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medical Terminology",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0149551"
+   },
+   "sourceRef": "course-0149551"
+  },
+  "PSY 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062651"
+   },
+   "sourceRef": "course-0062651"
+  },
+  "SOC 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Sociology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc Majors/Minors must register A-F"
+    },
+    "sourceRef": "course-0029431"
+   },
+   "sourceRef": "course-0029431"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-jo1P7QnB",
+   "label": "Public Health and Technical Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-IIk9P9ko",
+    "type": "credits",
+    "courseSet": "set-IIk9P9ko",
+    "minCredits": 22,
+    "sourceRef": "program",
+    "label": "Public Health and Technical Courses"
+   }
+  },
+  {
+   "id": "g-9aSlz5FY",
+   "label": "Business Management and Professional Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-HCyqB4dA",
+    "type": "credits",
+    "courseSet": "set-HCyqB4dA",
+    "minCredits": 19,
+    "sourceRef": "program",
+    "label": "Business Management and Professional Courses"
+   }
+  },
+  {
+   "id": "g-RLi3kebX",
+   "label": "Social Science/Humanities Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-E4H9kbos",
+    "type": "credits",
+    "courseSet": "set-E4H9kbos",
+    "minCredits": 17,
+    "sourceRef": "program",
+    "label": "Social Science/Humanities Courses"
+   }
+  },
+  {
+   "id": "g-Bwk4M3Zb",
+   "label": "Legal, Ethical, Regulatory Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Af8xAF9x",
+    "type": "credits",
+    "courseSet": "set-Af8xAF9x",
+    "minCredits": 7,
+    "sourceRef": "program",
+    "label": "Legal, Ethical, Regulatory Courses"
+   }
+  },
+  {
+   "id": "g-yNLx8Kf6",
+   "label": "Clinical Rotations",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sqkXBKDq",
+    "type": "credits",
+    "courseSet": "set-sqkXBKDq",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "Clinical Rotations"
+   }
+  },
+  {
+   "id": "g-uvtg2eyq",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-7V5cz9V1",
+    "type": "course",
+    "code": "MORT 3384",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-bL0dyjXY",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-6DS5Q3e6",
+    "type": "count",
+    "courseSet": "set-6DS5Q3e6",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Applicants must have completed or in progress\u00a026 or more transferable credits with a GPA of 2.0 or higher\u00a0at the time of application.\nFor information about University of Minnesota admission requirements, visit the Office of Admissions website .\nUpon admission, students are required to submit proof of certain immunizations, vaccinations, and health insurance per Academic Health Sciences policy .\nStudents must complete 26 credits before admission to the program. Credits that do not transfer to the University of Minnesota typically include vocational or technical courses, skills-based classes, and courses in subjects not offered at the Twin Cities campus. Other non-transferable credits include those from unaccredited institutions, courses with a grade lower than a \"D,\" or military occupational specialty (MOS) credit. Some specific religion courses and courses from institutions without proper accreditation may also not transfer. Please contact the Program of Mortuary Science Office if you have questions about whether a mortuary science course completed at a different institution may be considered for transferability to meet our degree completion requirements. The University does not accept for transfer credit mortuary science courses taken at other ABFSE-accredited institutions that do not also hold accreditation from Institutional Accrediting organizations . Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nPrior to being cleared for graduation, all students are required to take the National Board Examination (NBE) prepared by the International Conference of Funeral Service Examining Boards (i.e., \"The Conference\"). Students must take the NBE within 45 days of completing their degree requirements for a major in Mortuary Science, as part of required course MORT 3384. Students who do not take the NBE within 45 days of completing their degree requirements (including MORT 3384) may be required to retake MORT 3384 before they will be cleared by the Program to sit for the NBE.\nAt least 28 upper division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nWhereas the majority of the program\u2019s courses are only offered in-person on the Twin Cities campus, some program courses may be offered using online modalities.\u00a0 A course\u2019s delivery modality is noted in Schedule Builder .\u00a0 Prospective students are encouraged to contact the program with questions about courses that are offered online.\u00a0 For more information about potential challenges of distance learning, as well computer / hardware recommendations for online courses, please refer to the program's Student Handbook, which can be accessed either through the program's website , or by contacting the program office via email: mortsci@umn.edu .\nView a sample plan for this major here: https://sampleplan.umn.edu/node/781 Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

@@ -1,0 +1,1452 @@
+{
+ "schemaVersion": 2,
+ "id": "youth-studies-bs",
+ "name": "Youth Studies B.S.",
+ "officialName": "Youth Studies B.S.",
+ "officialProgramId": "505520106",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Youth Studies B.S., revision 505520106-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/505520106, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/505520106",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 505520106-2026-09-08"
+  },
+  "course-7979051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7979051",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 1001, version 7979051-2021-09-07"
+  },
+  "course-8164481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164481",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1461, version 8164481-2022-01-18"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-7887411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887411",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101H, version 7887411-2026-09-08"
+  },
+  "course-8164831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164831",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 1461, version 8164831-2016-09-06"
+  },
+  "course-8094821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094821",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3325W, version 8094821-2024-05-13"
+  },
+  "course-8094811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094811",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3324W, version 8094811-2017-05-22"
+  },
+  "course-8004541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8004541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3027W, version 8004541-2021-09-07"
+  },
+  "course-0026681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026681",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562W, version 0026681-2021-05-17"
+  },
+  "course-8158401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8158401",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562V, version 8158401-2021-05-17"
+  },
+  "course-8016981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016981",
+   "retrieved": "2026-11-23",
+   "section": "Course record EDHD 1525W, version 8016981-2021-09-07"
+  },
+  "course-8054041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054041",
+   "retrieved": "2026-11-23",
+   "section": "Course record EDHD 1525V, version 8054041-2021-09-07"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-8164031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164031",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 1261, version 8164031-2019-09-03"
+  },
+  "course-0016161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016161",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 1001, version 0016161-2023-01-17"
+  },
+  "course-8164821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164821",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1211, version 8164821-2018-01-16"
+  },
+  "course-0029431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029431",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 1001, version 0029431-2021-05-17"
+  },
+  "course-8162821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162821",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 1281, version 8162821-2020-01-21"
+  },
+  "course-0047661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047661",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 1301W, version 0047661-2015-01-20"
+  },
+  "course-0062651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001, version 0062651-2026-09-08"
+  },
+  "course-7990411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001H, version 7990411-2026-09-08"
+  },
+  "course-0087121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087121",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 1003W, version 0087121-2026-05-18"
+  },
+  "course-0089911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0089911",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 1003V, version 0089911-2026-05-18"
+  },
+  "course-7978921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7978921",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 2101, version 7978921-2026-09-08"
+  },
+  "course-7979041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7979041",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 2241, version 7979041-2024-05-13"
+  },
+  "course-7883881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7883881",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3001, version 7883881-2025-09-02"
+  },
+  "course-7978911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7978911",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3032, version 7978911-2026-09-08"
+  },
+  "course-0042821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042821",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3101, version 0042821-2025-09-02"
+  },
+  "course-8006671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006671",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4325, version 8006671-2025-09-02"
+  },
+  "course-7946321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7946321",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 2105, version 7946321-2026-01-20"
+  },
+  "course-0032051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032051",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3801, version 0032051-2021-09-07"
+  },
+  "course-8177141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8177141",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3011, version 8177141-2018-01-16"
+  },
+  "course-8273501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8273501",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3012, version 8273501-2025-01-21"
+  },
+  "course-8117101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8117101",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4201, version 8117101-2021-09-07"
+  },
+  "course-7985841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7985841",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4301, version 7985841-2024-05-13"
+  },
+  "course-8005831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8005831",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4314, version 8005831-2015-01-20"
+  },
+  "course-7979091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7979091",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4315, version 7979091-2024-05-13"
+  },
+  "course-8006561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006561",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4316, version 8006561-2024-05-13"
+  },
+  "course-8006571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006571",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4317, version 8006571-2024-05-13"
+  },
+  "course-7977931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977931",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4319, version 7977931-2024-05-13"
+  },
+  "course-7985851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7985851",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4321, version 7985851-2024-05-13"
+  },
+  "course-7985861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7985861",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4322, version 7985861-2024-05-13"
+  },
+  "course-7985871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7985871",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4323, version 7985871-2026-09-08"
+  },
+  "course-7977951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977951",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4401W, version 7977951-2024-05-13"
+  },
+  "course-8278271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278271",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4195, version 8278271-2026-01-20"
+  },
+  "course-8006551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006551",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4196, version 8006551-2026-01-20"
+  },
+  "course-7978931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7978931",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4411, version 7978931-2026-01-20"
+  }
+ },
+ "courseSets": {
+  "set-2pHvAszN": {
+   "codes": [
+    "FSOS 1461",
+    "COMM 1101",
+    "COMM 1101H",
+    "OLPD 1461"
+   ],
+   "sourceRef": "program"
+  },
+  "set-IZMiEADt": {
+   "codes": [
+    "YOST 3325W",
+    "OLPD 3324W",
+    "ENGL 3027W",
+    "WRIT 3562W",
+    "WRIT 3562V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-9cpr3LZb": {
+   "codes": [
+    "EDHD 1525W",
+    "EDHD 1525V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ae4DvHX9": {
+   "codes": [
+    "EPSY 3264",
+    "EPSY 1261",
+    "STAT 1001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-JkkpXHBK": {
+   "codes": [
+    "FSOS 1211",
+    "SOC 1001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ALlm582Y": {
+   "codes": [
+    "EPSY 1281",
+    "GEOG 1301W",
+    "PSY 1001",
+    "PSY 1001H",
+    "ANTH 1003W",
+    "ANTH 1003V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-7U3gL6E2": {
+   "codes": [
+    "YOST 2101",
+    "YOST 2241",
+    "YOST 3001",
+    "YOST 3032",
+    "YOST 3101",
+    "YOST 4325",
+    "FSOS 2105",
+    "SOC 3801"
+   ],
+   "sourceRef": "program"
+  },
+  "set-xAFkQKsI": {
+   "codes": [
+    "YOST 3011",
+    "YOST 3012",
+    "YOST 4201",
+    "YOST 4301",
+    "YOST 4314",
+    "YOST 4315",
+    "YOST 4316",
+    "YOST 4317",
+    "YOST 4319",
+    "YOST 4321",
+    "YOST 4322",
+    "YOST 4323",
+    "YOST 4401W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-6piF0TE0": {
+   "codes": [
+    "YOST 4195",
+    "YOST 4196",
+    "YOST 4411"
+   ],
+   "sourceRef": "program"
+  },
+  "set-LPoFzDNZ": {
+   "codes": [
+    "YOST 3325W",
+    "YOST 4401W",
+    "OLPD 3324W",
+    "ENGL 3027W",
+    "WRIT 3562W",
+    "WRIT 3562V"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ANTH 1003V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Cultures: Honors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-0089911"
+   },
+   "sourceRef": "course-0089911"
+  },
+  "ANTH 1003W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Cultures",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087121"
+   },
+   "sourceRef": "course-0087121"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "COMM 1101H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-7887411"
+   },
+   "sourceRef": "course-7887411"
+  },
+  "EDHD 1525V": {
+   "catalogTerm": "Fall 2026",
+   "title": "CEHD First Year Experience",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CEHD student, honors, 1st-term fr"
+    },
+    "sourceRef": "course-8054041"
+   },
+   "sourceRef": "course-8054041"
+  },
+  "EDHD 1525W": {
+   "catalogTerm": "Fall 2026",
+   "title": "CEHD First Year Experience",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8016981"
+   },
+   "sourceRef": "course-8016981"
+  },
+  "ENGL 3027W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Essay",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8004541"
+   },
+   "sourceRef": "course-8004541"
+  },
+  "EPSY 1261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Data Stories through Visualization & Computing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164031"
+   },
+   "sourceRef": "course-8164031"
+  },
+  "EPSY 1281": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychological Science Applied",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162821"
+   },
+   "sourceRef": "course-8162821"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "FSOS 1211": {
+   "catalogTerm": "Fall 2026",
+   "title": "An Interdisciplinary Look at the Family in Multicultural America",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164821"
+   },
+   "sourceRef": "course-8164821"
+  },
+  "FSOS 1461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Presentations at Work: Families, Communities, Nonprofits, and Schools",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164481"
+   },
+   "sourceRef": "course-8164481"
+  },
+  "FSOS 2105": {
+   "catalogTerm": "Fall 2026",
+   "title": "Methods in Family Research",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "STAT 3011 or PSTL 1004 or STAT 1001 or ESPY 3264 or ESPY 1261 or SOC 3811 or SOC 2550 or PSY 3801 or instr consent"
+    },
+    "sourceRef": "course-7946321"
+   },
+   "sourceRef": "course-7946321"
+  },
+  "GEOG 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Our Globalizing World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0047661"
+   },
+   "sourceRef": "course-0047661"
+  },
+  "OLPD 1461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Presentations in Work Settings: Business & Marketing Education and Human Resource Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164831"
+   },
+   "sourceRef": "course-8164831"
+  },
+  "OLPD 3324W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing in the Workplace for Education and Human Development Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "60+ undergraduate credits, declared major"
+    },
+    "sourceRef": "course-8094811"
+   },
+   "sourceRef": "course-8094811"
+  },
+  "PSY 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062651"
+   },
+   "sourceRef": "course-0062651"
+  },
+  "PSY 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors."
+    },
+    "sourceRef": "course-7990411"
+   },
+   "sourceRef": "course-7990411"
+  },
+  "SOC 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Sociology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc Majors/Minors must register A-F"
+    },
+    "sourceRef": "course-0029431"
+   },
+   "sourceRef": "course-0029431"
+  },
+  "SOC 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sociological Research Methods",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors must register A-F"
+    },
+    "sourceRef": "course-0032051"
+   },
+   "sourceRef": "course-0032051"
+  },
+  "STAT 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to the Ideas of Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Mathematics requirement for admission to University"
+    },
+    "sourceRef": "course-0016161"
+   },
+   "sourceRef": "course-0016161"
+  },
+  "WRIT 3562V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8158401"
+   },
+   "sourceRef": "course-8158401"
+  },
+  "WRIT 3562W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026681"
+   },
+   "sourceRef": "course-0026681"
+  },
+  "YOST 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Seeing Youth, Thinking Youth: Media, Popular Media, and Scholarship",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7979051"
+   },
+   "sourceRef": "course-7979051"
+  },
+  "YOST 2101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban Youth and Youth Issues",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7978921"
+   },
+   "sourceRef": "course-7978921"
+  },
+  "YOST 2241": {
+   "catalogTerm": "Fall 2026",
+   "title": "Experiential Learning",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7979041"
+   },
+   "sourceRef": "course-7979041"
+  },
+  "YOST 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to History & Philosophy of Youthwork",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7883881"
+   },
+   "sourceRef": "course-7883881"
+  },
+  "YOST 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Young Voices: The Fight for Social Change in Croatia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8177141"
+   },
+   "sourceRef": "course-8177141"
+  },
+  "YOST 3012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Decolonizing Ireland: Youth and Community Revitalization",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8273501"
+   },
+   "sourceRef": "course-8273501"
+  },
+  "YOST 3032": {
+   "catalogTerm": "Fall 2026",
+   "title": "Adolescent and Youth Development for Youth workers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7978911"
+   },
+   "sourceRef": "course-7978911"
+  },
+  "YOST 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Youthwork: Orientations and Approaches",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042821"
+   },
+   "sourceRef": "course-0042821"
+  },
+  "YOST 3325W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Project-Based Writing For Education and Human Development Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "jr or sr level"
+    },
+    "sourceRef": "course-8094821"
+   },
+   "sourceRef": "course-8094821"
+  },
+  "YOST 4195": {
+   "catalogTerm": "Fall 2026",
+   "title": "Professional Youthwork: Preparation for Fieldwork",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278271"
+   },
+   "sourceRef": "course-8278271"
+  },
+  "YOST 4196": {
+   "catalogTerm": "Fall 2026",
+   "title": "Youth work Internship",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Declaration of youth studies major, or instr consent"
+    },
+    "sourceRef": "course-8006551"
+   },
+   "sourceRef": "course-8006551"
+  },
+  "YOST 4201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Facilitating Outdoor Experiences",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8117101"
+   },
+   "sourceRef": "course-8117101"
+  },
+  "YOST 4301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communicating with Adolescents About Sexuality",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7985841"
+   },
+   "sourceRef": "course-7985841"
+  },
+  "YOST 4314": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theater Activities in Youthwork and Education",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or 2101"
+    },
+    "sourceRef": "course-8005831"
+   },
+   "sourceRef": "course-8005831"
+  },
+  "YOST 4315": {
+   "catalogTerm": "Fall 2026",
+   "title": "Youthwork in Schools",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7979091"
+   },
+   "sourceRef": "course-7979091"
+  },
+  "YOST 4316": {
+   "catalogTerm": "Fall 2026",
+   "title": "Media and Youth: Learning, Teaching, and Doing",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8006561"
+   },
+   "sourceRef": "course-8006561"
+  },
+  "YOST 4317": {
+   "catalogTerm": "Fall 2026",
+   "title": "Youth Work in Contested Spaces",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8006571"
+   },
+   "sourceRef": "course-8006571"
+  },
+  "YOST 4319": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Youth Subcultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977931"
+   },
+   "sourceRef": "course-7977931"
+  },
+  "YOST 4321": {
+   "catalogTerm": "Fall 2026",
+   "title": "Conversational and Relational Practices with Young People",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7985851"
+   },
+   "sourceRef": "course-7985851"
+  },
+  "YOST 4322": {
+   "catalogTerm": "Fall 2026",
+   "title": "Work with Youth: Families",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7985861"
+   },
+   "sourceRef": "course-7985861"
+  },
+  "YOST 4323": {
+   "catalogTerm": "Fall 2026",
+   "title": "Work with Youth: Groups",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7985871"
+   },
+   "sourceRef": "course-7985871"
+  },
+  "YOST 4325": {
+   "catalogTerm": "Fall 2026",
+   "title": "Improving Everyday Youthwork: Practical Program Evaluation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8006671"
+   },
+   "sourceRef": "course-8006671"
+  },
+  "YOST 4401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Young People's Spirituality and Youth Work: An Introduction",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977951"
+   },
+   "sourceRef": "course-7977951"
+  },
+  "YOST 4411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Youth Research and Youth Program Evaluation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7978931"
+   },
+   "sourceRef": "course-7978931"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-pIwYGEBl",
+   "label": "YOST Required Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-WZOwKaNH",
+    "type": "course",
+    "code": "YOST 1001",
+    "sourceRef": "program",
+    "label": "YOST Required Course:"
+   }
+  },
+  {
+   "id": "g-jktfvunn",
+   "label": "College Communication Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-jktfvunn",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-2pHvAszN",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-2pHvAszN-credits",
+        "type": "credits",
+        "courseSet": "set-2pHvAszN",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-2pHvAszN-min",
+        "type": "count",
+        "courseSet": "set-2pHvAszN",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-2pHvAszN-max",
+        "type": "count",
+        "courseSet": "set-2pHvAszN",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Oral"
+     },
+     {
+      "id": "r-IZMiEADt",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-IZMiEADt-credits",
+        "type": "credits",
+        "courseSet": "set-IZMiEADt",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-IZMiEADt-min",
+        "type": "count",
+        "courseSet": "set-IZMiEADt",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-IZMiEADt-max",
+        "type": "count",
+        "courseSet": "set-IZMiEADt",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Written Communication within the Major"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-4hkv9D19",
+   "label": "First Year Experience",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-9cpr3LZb",
+    "type": "count",
+    "courseSet": "set-9cpr3LZb",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "First Year Experience"
+   }
+  },
+  {
+   "id": "g-33q4Xgxv",
+   "label": "Statistics Requirement",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ae4DvHX9",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-ae4DvHX9-credits",
+      "type": "credits",
+      "courseSet": "set-ae4DvHX9",
+      "minCredits": 3,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-ae4DvHX9-min",
+      "type": "count",
+      "courseSet": "set-ae4DvHX9",
+      "minCourses": 1,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-ae4DvHX9-max",
+      "type": "count",
+      "courseSet": "set-ae4DvHX9",
+      "maxCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Statistics Requirement"
+   }
+  },
+  {
+   "id": "g-Xa38kUiI",
+   "label": "Admissions Prerequisites",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Xa38kUiI",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-JkkpXHBK",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-JkkpXHBK-credits",
+        "type": "credits",
+        "courseSet": "set-JkkpXHBK",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-JkkpXHBK-min",
+        "type": "count",
+        "courseSet": "set-JkkpXHBK",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-JkkpXHBK-max",
+        "type": "count",
+        "courseSet": "set-JkkpXHBK",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Admissions Prerequisite Group 1"
+     },
+     {
+      "id": "r-ALlm582Y",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-ALlm582Y-credits",
+        "type": "credits",
+        "courseSet": "set-ALlm582Y",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ALlm582Y-min",
+        "type": "count",
+        "courseSet": "set-ALlm582Y",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ALlm582Y-max",
+        "type": "count",
+        "courseSet": "set-ALlm582Y",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Admissions Prerequisite Group 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-mXxMs6d3",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-7U3gL6E2",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-7U3gL6E2-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-7U3gL6E2-g1-1",
+        "type": "course",
+        "code": "YOST 2101",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-7U3gL6E2-g2-1",
+        "type": "course",
+        "code": "YOST 2241",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-7U3gL6E2-g3-1",
+        "type": "course",
+        "code": "YOST 3001",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-7U3gL6E2-g4-1",
+        "type": "course",
+        "code": "YOST 3032",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-7U3gL6E2-g5-1",
+        "type": "course",
+        "code": "YOST 3101",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-7U3gL6E2-g6",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-7U3gL6E2-g6-1",
+          "type": "course",
+          "code": "YOST 4325",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-7U3gL6E2-g6-2",
+          "type": "course",
+          "code": "FSOS 2105",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-7U3gL6E2-g6-3",
+          "type": "course",
+          "code": "SOC 3801",
+          "sourceRef": "program"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "r-7U3gL6E2-credits",
+      "type": "credits",
+      "minCredits": 23,
+      "courseSet": "set-7U3gL6E2",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Foundation Courses"
+   }
+  },
+  {
+   "id": "g-SGS18wh7",
+   "label": "Professional Core",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-xAFkQKsI",
+    "type": "credits",
+    "courseSet": "set-xAFkQKsI",
+    "minCredits": 9,
+    "sourceRef": "program",
+    "label": "Professional Core"
+   }
+  },
+  {
+   "id": "g-De4K4V0W",
+   "label": "Advanced/Applied Skills",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-6piF0TE0",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-6piF0TE0-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-6piF0TE0-g1-1",
+        "type": "course",
+        "code": "YOST 4195",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-6piF0TE0-g2-1",
+        "type": "course",
+        "code": "YOST 4196",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-6piF0TE0-g3-1",
+        "type": "course",
+        "code": "YOST 4411",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-6piF0TE0-credits",
+      "type": "credits",
+      "minCredits": 8,
+      "courseSet": "set-6piF0TE0",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Advanced/Applied Skills"
+   }
+  },
+  {
+   "id": "g-vFV7YtQ2",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-LPoFzDNZ",
+    "type": "count",
+    "courseSet": "set-LPoFzDNZ",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University's Liberal Education requirements .\nAt least 19 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

@@ -1,0 +1,803 @@
+{
+ "schemaVersion": 2,
+ "id": "art-history-ba",
+ "name": "Art History B.A.",
+ "officialName": "Art History B.A.",
+ "officialProgramId": "010420217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Art History B.A., revision 010420217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/010420217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/010420217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 010420217-2026-09-08"
+  },
+  "course-8262561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262561",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3933, version 8262561-2023-09-05"
+  },
+  "course-0051591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1101, version 0051591-2026-09-08"
+  },
+  "course-0055531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0055531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1102, version 0055531-2026-09-08"
+  },
+  "course-7987321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7987321",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1103, version 7987321-2026-09-08"
+  },
+  "course-0051351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051351",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1701, version 0051351-2026-09-08"
+  },
+  "course-0054571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054571",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1704, version 0054571-2026-09-08"
+  },
+  "course-0052631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052631",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1801, version 0052631-2026-09-08"
+  },
+  "course-0052511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052511",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1802, version 0052511-2026-09-08"
+  },
+  "course-0027671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0027671",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3014W, version 0027671-2022-09-06"
+  },
+  "course-8029261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029261",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3415W, version 8029261-2024-09-03"
+  },
+  "course-7928921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7928921",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3401W, version 7928921-2022-09-06"
+  },
+  "course-8083831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3434, version 8083831-2023-01-17"
+  },
+  "course-0166651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0166651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3464, version 0166651-2022-09-06"
+  },
+  "course-0083941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0083941",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3921W, version 0083941-2024-01-16"
+  },
+  "course-7877831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7877831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5466, version 7877831-2025-01-21"
+  },
+  "course-7953531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 1002W, version 7953531-2024-01-16"
+  },
+  "course-0160651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3940, version 0160651-2025-05-19"
+  },
+  "course-0098061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0098061",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3896, version 0098061-2026-09-08"
+  },
+  "course-0160611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160611",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3993, version 0160611-2015-01-20"
+  },
+  "course-0160581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160581",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3994, version 0160581-2015-01-20"
+  },
+  "course-0082201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5950, version 0082201-2024-05-13"
+  },
+  "course-0160681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160681",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5993, version 0160681-2023-01-17"
+  },
+  "course-0160731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160731",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5994, version 0160731-2015-01-20"
+  },
+  "course-0098031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0098031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3971W, version 0098031-2018-01-16"
+  },
+  "course-0168521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0168521",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3971V, version 0168521-2018-01-16"
+  }
+ },
+ "courseSets": {
+  "set-phIiJeA5": {
+   "codes": [
+    "ARTS 1101",
+    "ARTS 1102",
+    "ARTS 1103",
+    "ARTS 1701",
+    "ARTS 1704",
+    "ARTS 1801",
+    "ARTS 1802"
+   ],
+   "sourceRef": "program"
+  },
+  "set-beCRJgv3": {
+   "codes": [
+    "ARTH 3971W",
+    "ARTH 3971V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-437921": {
+   "codes": [
+    "ARTH 3014W",
+    "RELS 3415W",
+    "ARTH 3401W",
+    "ARTH 3921W",
+    "ARTH 3971W",
+    "ARTH 3971V"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ARTH 1002W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Why Art Matters",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7953531"
+   },
+   "sourceRef": "course-7953531"
+  },
+  "ARTH 3014W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art of India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0027671"
+   },
+   "sourceRef": "course-0027671"
+  },
+  "ARTH 3401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art on Trial",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7928921"
+   },
+   "sourceRef": "course-7928921"
+  },
+  "ARTH 3434": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art and the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8083831"
+   },
+   "sourceRef": "course-8083831"
+  },
+  "ARTH 3464": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art Since 1945",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0166651"
+   },
+   "sourceRef": "course-0166651"
+  },
+  "ARTH 3896": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship in Museums & Collections",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instructor consent."
+    },
+    "sourceRef": "course-0098061"
+   },
+   "sourceRef": "course-0098061"
+  },
+  "ARTH 3921W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art of the Film",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0083941"
+   },
+   "sourceRef": "course-0083941"
+  },
+  "ARTH 3933": {
+   "catalogTerm": "Fall 2026",
+   "title": "What Art Historians Do: Undergraduate Theory and Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262561"
+   },
+   "sourceRef": "course-8262561"
+  },
+  "ARTH 3940": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Art History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0160651"
+   },
+   "sourceRef": "course-0160651"
+  },
+  "ARTH 3971V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Art History Capstone",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0168521"
+   },
+   "sourceRef": "course-0168521"
+  },
+  "ARTH 3971W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art History Capstone",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ArtH major, instr consent"
+    },
+    "sourceRef": "course-0098031"
+   },
+   "sourceRef": "course-0098031"
+  },
+  "ARTH 3993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0160611"
+   },
+   "sourceRef": "course-0160611"
+  },
+  "ARTH 3994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0160581"
+   },
+   "sourceRef": "course-0160581"
+  },
+  "ARTH 5466": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7877831"
+   },
+   "sourceRef": "course-7877831"
+  },
+  "ARTH 5950": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics: Art History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082201"
+   },
+   "sourceRef": "course-0082201"
+  },
+  "ARTH 5993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0160681"
+   },
+   "sourceRef": "course-0160681"
+  },
+  "ARTH 5994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0160731"
+   },
+   "sourceRef": "course-0160731"
+  },
+  "ARTS 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Drawing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0051591"
+   },
+   "sourceRef": "course-0051591"
+  },
+  "ARTS 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Painting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0055531"
+   },
+   "sourceRef": "course-0055531"
+  },
+  "ARTS 1103": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Printmaking: Relief, Screen and Digital Processes",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7987321"
+   },
+   "sourceRef": "course-7987321"
+  },
+  "ARTS 1701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Photography",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0051351"
+   },
+   "sourceRef": "course-0051351"
+  },
+  "ARTS 1704": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Filmmaking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054571"
+   },
+   "sourceRef": "course-0054571"
+  },
+  "ARTS 1801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Ceramics: Wheel-Throwing and Hand-Building Techniques",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0052631"
+   },
+   "sourceRef": "course-0052631"
+  },
+  "ARTS 1802": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Sculpture: Understanding the Fundamentals of the Practice of Sculpture",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0052511"
+   },
+   "sourceRef": "course-0052511"
+  },
+  "RELS 3415W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art of India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029261"
+   },
+   "sourceRef": "course-8029261"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-0dvAV0Ok",
+   "label": "Art History Foundation",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-yA9C1pBV",
+    "type": "course",
+    "code": "ARTH 3933",
+    "sourceRef": "program",
+    "label": "Art History Foundation"
+   }
+  },
+  {
+   "id": "g-82hJvAmu",
+   "label": "Art Practice",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-phIiJeA5",
+    "type": "credits",
+    "courseSet": "set-phIiJeA5",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Art Practice"
+   }
+  },
+  {
+   "id": "g-QJqmWxBl",
+   "label": "Art History Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-xrNIJIOW",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-dzUH1DOr",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-X1QEGz3K",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Area: North America and Europe states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+        "label": "Area: North America and Europe"
+       },
+       {
+        "id": "r-ipniFRG7",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Area: Middle East and/or Islamic World states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+        "label": "Area: Middle East and/or Islamic World"
+       },
+       {
+        "id": "r-PzX1FOfa",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Area: South and/or East Asia states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+        "label": "Area: South and/or East Asia"
+       }
+      ],
+      "label": "Era I: Ancient to ca. 1300"
+     },
+     {
+      "id": "r-MNcwPCz1",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-sViqL2xK",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Area: North America and Europe states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+        "label": "Area: North America and Europe"
+       },
+       {
+        "id": "r-XcXk2aM8",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Area: South and/or East Asia states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+        "label": "Area: South and/or East Asia"
+       }
+      ],
+      "label": "Era II: ca .1300 to 1800"
+     },
+     {
+      "id": "r-TXhFjHtw",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-2hHnFe69",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Area: North America and Europe states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+        "label": "Area: North America and Europe"
+       },
+       {
+        "id": "r-RDDwdbzk",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-RDDwdbzk-1",
+          "type": "course",
+          "code": "ARTH 3434",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-RDDwdbzk-2",
+          "type": "course",
+          "code": "ARTH 3464",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-RDDwdbzk-3",
+          "type": "course",
+          "code": "ARTH 5466",
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Area: Middle East and/or Islamic World"
+       },
+       {
+        "id": "r-GOfmTfSe",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Area: South and/or East Asia states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+        "label": "Area: South and/or East Asia"
+       }
+      ],
+      "label": "Era III: 1800 to Present"
+     },
+     {
+      "id": "r-L9ei8UwK",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-L9ei8UwK-1",
+        "type": "course",
+        "code": "ARTH 1002W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-L9ei8UwK-2",
+        "type": "course",
+        "code": "ARTH 3940",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-L9ei8UwK-3",
+        "type": "course",
+        "code": "ARTH 3896",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-L9ei8UwK-4",
+        "type": "course",
+        "code": "ARTH 3993",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-L9ei8UwK-5",
+        "type": "course",
+        "code": "ARTH 3994",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-L9ei8UwK-6",
+        "type": "course",
+        "code": "ARTH 5950",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-L9ei8UwK-7",
+        "type": "course",
+        "code": "ARTH 5993",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-L9ei8UwK-8",
+        "type": "course",
+        "code": "ARTH 5994",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Courses Requiring an Advising Appointment for Application to the Distribution Requirements"
+     }
+    ],
+    "label": "Art History Electives"
+   }
+  },
+  {
+   "id": "g-MonHjT3g",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-beCRJgv3",
+    "type": "credits",
+    "courseSet": "set-beCRJgv3",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-010420217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-437921",
+    "type": "count",
+    "courseSet": "set-437921",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Art History BA is ARTH.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or ARTH 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 13 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn a BA or a minor in art history, but not both. Students may, however, earn both a BA in Art History and a minor in Museum and Curatorial Studies. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

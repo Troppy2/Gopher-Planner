@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 2,
+  "id": "rich-synthetic",
+  "name": "Rich Synthetic B.S.",
+  "officialName": "Rich Synthetic Bachelor of Science",
+  "officialProgramId": "rich-synthetic",
+  "catalogTerm": "Fall 2026",
+  "totalCredits": 30,
+  "source": "Synthetic test source, 2026-11-22",
+  "sources": {
+    "synthetic": {"url": "https://example.invalid/rich", "retrieved": "2026-11-22", "section": "Synthetic requirements"}
+  },
+  "catalogCompatibility": [
+    {"catalogVersion": "synthetic-2026", "catalogTerm": "Fall 2026", "sourceRef": "synthetic"}
+  ],
+  "courseSets": {
+    "electives": {"codes": ["TEST 3001", "TEST 3002", "TEST 3003", "MATH 3001", "TEST 3900", "TEST 3901"], "sourceRef": "synthetic"},
+    "test-upper": {"codes": ["TEST 3001", "TEST 3002", "TEST 3003", "TEST 3900", "TEST 3901"], "sourceRef": "synthetic"},
+    "math-electives": {"codes": ["MATH 3001"], "sourceRef": "synthetic"},
+    "capped": {"codes": ["TEST 3900", "TEST 3901"], "sourceRef": "synthetic"}
+  },
+  "courseMetadata": {
+    "TEST 1001": {"catalogTerm": "Fall 2026", "title": "Synthetic intro A", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Fall", "Spring"], "prerequisites": {"expression": null, "sourceRef": "synthetic"}, "sourceRef": "synthetic"},
+    "TEST 1002": {"catalogTerm": "Fall 2026", "title": "Synthetic intro B", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Spring"], "prerequisites": {"expression": {"type": "course", "course_code": "TEST 1001"}, "sourceRef": "synthetic"}, "sourceRef": "synthetic"},
+    "TEST 1003": {"catalogTerm": "Fall 2026", "title": "Synthetic intro substitute", "minimumCredits": 4, "maximumCredits": 4,
+                  "offered": ["Fall"], "prerequisites": {"expression": null, "sourceRef": "synthetic"}, "sourceRef": "synthetic"},
+    "MATH 1001": {"catalogTerm": "Fall 2026", "title": "Synthetic calculus", "minimumCredits": 4, "maximumCredits": 4,
+                  "offered": ["Fall", "Spring"], "prerequisites": {"expression": null, "sourceRef": "synthetic"}, "sourceRef": "synthetic"},
+    "TEST 3001": {"catalogTerm": "Fall 2026", "title": "Synthetic upper A", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Fall"], "prerequisites": {"expression": {"type": "all_of", "requirements": [
+                    {"type": "course", "course_code": "TEST 1002"}, {"type": "condition", "text": "Synthetic standing"}]}, "sourceRef": "synthetic"}, "sourceRef": "synthetic"},
+    "TEST 3002": {"catalogTerm": "Fall 2026", "title": "Synthetic upper B", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Spring"], "prerequisites": {"expression": {"type": "any_of", "requirements": [
+                    {"type": "course", "course_code": "TEST 1002"}, {"type": "course", "course_code": "TEST 1003"}]}, "sourceRef": "synthetic"}, "sourceRef": "synthetic"},
+    "TEST 3003": {"catalogTerm": "Fall 2026", "title": "Synthetic upper C", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Fall", "Spring"], "prerequisites": null, "sourceRef": "synthetic"},
+    "MATH 3001": {"catalogTerm": "Fall 2026", "title": "Synthetic math elective", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": null, "prerequisites": {"expression": {"type": "course", "course_code": "MATH 1001"}, "sourceRef": "synthetic"}, "sourceRef": "synthetic"},
+    "TEST 3900": {"catalogTerm": "Fall 2026", "title": "Synthetic capped topics", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Fall", "Spring"], "prerequisites": {"expression": {"type": "condition", "text": "Synthetic instructor consent"}, "sourceRef": "synthetic"}, "sourceRef": "synthetic"}
+,
+    "TEST 3901": {"catalogTerm": "Fall 2026", "title": "Synthetic capped seminar", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Fall", "Spring"], "prerequisites": {"expression": null, "sourceRef": "synthetic"}, "sourceRef": "synthetic"}
+  },
+  "groups": [
+    {
+      "id": "core", "label": "Synthetic core", "category": "Major core", "sourceRef": "synthetic",
+      "gradePolicy": {"minGrade": "C-", "allowS": false, "sourceRef": "synthetic"},
+      "rule": {"id": "intro-options", "type": "any", "sourceRef": "synthetic", "children": [
+        {"id": "sequence-a", "type": "all", "allowReuse": false, "sourceRef": "synthetic", "label": "Sequence A", "children": [
+          {"id": "a1", "type": "course", "code": "TEST 1001", "sourceRef": "synthetic"},
+          {"id": "a2", "type": "course", "code": "TEST 1002", "sourceRef": "synthetic"}
+        ]},
+        {"id": "sequence-b", "type": "course", "code": "TEST 1003", "sourceRef": "synthetic", "label": "Substitution route"}
+      ]}
+    },
+    {
+      "id": "math", "label": "Synthetic math", "category": "Math and stats", "sourceRef": "synthetic",
+      "gradePolicy": {"minGrade": "C-", "allowS": false, "sourceRef": "synthetic"},
+      "rule": {"id": "math-all", "type": "all", "allowReuse": false, "sourceRef": "synthetic", "children": [
+        {"id": "calc", "type": "course", "code": "MATH 1001", "sourceRef": "synthetic"},
+        {"id": "placement", "type": "review", "message": "Synthetic placement requirement", "sourceRef": "synthetic"}
+      ]}
+    },
+    {
+      "id": "electives", "label": "Synthetic electives", "category": "Elective", "sourceRef": "synthetic",
+      "gradePolicy": {"minGrade": "C-", "allowS": true, "sourceRef": "synthetic"},
+      "rule": {"id": "elective-all", "type": "all", "allowReuse": true, "sourceRef": "synthetic", "children": [
+        {"id": "elective-total", "type": "credits", "courseSet": "electives", "minCredits": 9, "sourceRef": "synthetic"},
+        {"id": "test-minimum", "type": "credits", "courseSet": "test-upper", "minCredits": 6, "sourceRef": "synthetic"},
+        {"id": "math-elective", "type": "count", "courseSet": "math-electives", "minCourses": 1, "sourceRef": "synthetic"},
+        {"id": "capped-topics", "type": "count", "courseSet": "capped", "maxCourses": 1, "sourceRef": "synthetic"}
+      ]}
+    },
+    {
+      "id": "libed", "label": "Synthetic liberal education", "category": "Liberal ed", "sourceRef": "synthetic",
+      "rule": {"id": "libed-review", "type": "review", "message": "Synthetic liberal education review", "sourceRef": "synthetic"}
+    }
+  ],
+  "sharing": [{"groups": ["math", "electives"], "sourceRef": "synthetic"}],
+  "adjustments": [
+    {"id": "substitution-waiver", "sourceRef": "synthetic", "whenAnySatisfied": ["sequence-b"],
+     "effects": [{"targetId": "elective-total", "reduceMinCredits": 3}]}
+  ]
+}

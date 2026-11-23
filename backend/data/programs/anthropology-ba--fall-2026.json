@@ -1,0 +1,1971 @@
+{
+ "schemaVersion": 2,
+ "id": "anthropology-ba",
+ "name": "Anthropology B.A.",
+ "officialName": "Anthropology B.A.",
+ "officialProgramId": "008020217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Anthropology B.A., revision 008020217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/008020217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/008020217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 008020217-2026-09-08"
+  },
+  "course-0087111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 1001, version 0087111-2025-09-02"
+  },
+  "course-0089901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0089901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 1001H, version 0089901-2025-09-02"
+  },
+  "course-0087121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087121",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 1003W, version 0087121-2026-05-18"
+  },
+  "course-0089911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0089911",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 1003V, version 0089911-2026-05-18"
+  },
+  "course-0087131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087131",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3001, version 0087131-2021-01-19"
+  },
+  "course-7954131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7954131",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3002, version 7954131-2015-01-20"
+  },
+  "course-8018741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018741",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3002, version 8018741-2015-01-20"
+  },
+  "course-8015751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015751",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3401, version 8015751-2024-09-03"
+  },
+  "course-8015761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015761",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5401, version 8015761-2024-09-03"
+  },
+  "course-0087141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087141",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3003, version 0087141-2015-01-20"
+  },
+  "course-0087171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087171",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3005W, version 0087171-2024-09-03"
+  },
+  "course-8266611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266611",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4002, version 8266611-2023-09-05"
+  },
+  "course-8266691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266691",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5002, version 8266691-2023-09-05"
+  },
+  "course-0087151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087151",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4003W, version 0087151-2016-01-19"
+  },
+  "course-8272371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272371",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4004, version 8272371-2024-09-03"
+  },
+  "course-0087181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4007, version 0087181-2025-01-21"
+  },
+  "course-0087191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087191",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4019, version 0087191-2026-09-08"
+  },
+  "course-8282251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282251",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4022, version 8282251-2026-09-08"
+  },
+  "course-8102521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8102521",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4029W, version 8102521-2026-09-08"
+  },
+  "course-0087251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087251",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4031W, version 0087251-2016-09-06"
+  },
+  "course-0087271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087271",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4035, version 0087271-2021-01-19"
+  },
+  "course-0087391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087391",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4043, version 0087391-2017-01-17"
+  },
+  "course-8164781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164781",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 4043, version 8164781-2017-01-17"
+  },
+  "course-0087411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087411",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4047, version 0087411-2024-09-03"
+  },
+  "course-0087431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087431",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4049, version 0087431-2024-09-03"
+  },
+  "course-8026721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8026721",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 4049, version 8026721-2024-09-03"
+  },
+  "course-0087461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087461",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4053, version 0087461-2013-09-03"
+  },
+  "course-7974271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974271",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4077W, version 7974271-2025-01-21"
+  },
+  "course-8272471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272471",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5077W, version 8272471-2025-01-21"
+  },
+  "course-8034401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8034401",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4101, version 8034401-2026-09-08"
+  },
+  "course-8282971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282971",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4101, version 8282971-2026-09-08"
+  },
+  "course-8075441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8075441",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4329, version 8075441-2024-09-03"
+  },
+  "course-7919201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7919201",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4329, version 7919201-2024-09-03"
+  },
+  "course-7999261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7999261",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4344, version 7999261-2020-09-08"
+  },
+  "course-8085251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8085251",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 4344, version 8085251-2020-09-08"
+  },
+  "course-0087541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4980, version 0087541-2025-05-19"
+  },
+  "course-7953981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953981",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5008, version 7953981-2024-09-03"
+  },
+  "course-8260431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260431",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5016, version 8260431-2025-01-21"
+  },
+  "course-8275941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275941",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5018, version 8275941-2026-01-20"
+  },
+  "course-8017071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5021W, version 8017071-2023-09-05"
+  },
+  "course-8276011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8276011",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5024, version 8276011-2026-09-08"
+  },
+  "course-0087621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087621",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5027W, version 0087621-2024-01-16"
+  },
+  "course-8165511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8165511",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5028, version 8165511-2021-01-19"
+  },
+  "course-8257891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8257891",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5037, version 8257891-2022-05-16"
+  },
+  "course-0098481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0098481",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5045W, version 0098481-2019-01-22"
+  },
+  "course-8115011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115011",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5112, version 8115011-2015-01-20"
+  },
+  "course-7919881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7919881",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5128, version 7919881-2014-01-21"
+  },
+  "course-0006501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0006501",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 5128, version 0006501-2015-05-26"
+  },
+  "course-7930551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7930551",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5221, version 7930551-2016-09-06"
+  },
+  "course-7905821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905821",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5244, version 7905821-2022-01-18"
+  },
+  "course-7937211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7937211",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5269, version 7937211-2016-01-19"
+  },
+  "course-8189891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189891",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5327W, version 8189891-2019-09-03"
+  },
+  "course-8054391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054391",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5402, version 8054391-2026-01-20"
+  },
+  "course-8030731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8030731",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5405, version 8030731-2024-01-16"
+  },
+  "course-8178321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178321",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5412, version 8178321-2026-01-20"
+  },
+  "course-8178301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178301",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5412, version 8178301-2026-01-20"
+  },
+  "course-8178311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178311",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 5412, version 8178311-2026-01-20"
+  },
+  "course-8176031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176031",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 5412, version 8176031-2026-01-20"
+  },
+  "course-8002171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8002171",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5442, version 8002171-2026-09-08"
+  },
+  "course-8079491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8079491",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5444, version 8079491-2026-09-08"
+  },
+  "course-8084181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5448, version 8084181-2013-01-22"
+  },
+  "course-8160281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8160281",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5501, version 8160281-2021-01-19"
+  },
+  "course-8101221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5601, version 8101221-2026-09-08"
+  },
+  "course-8189721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189721",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5602, version 8189721-2026-09-08"
+  },
+  "course-8271201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5910, version 8271201-2025-05-19"
+  },
+  "course-7887961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887961",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5980, version 7887961-2026-01-20"
+  },
+  "course-7914771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7914771",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3021W, version 7914771-2023-09-05"
+  },
+  "course-0087361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087361",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3027W, version 0087361-2024-01-16"
+  },
+  "course-8100121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100121",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3067W, version 8100121-2024-01-16"
+  },
+  "course-7982821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982821",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3046W, version 7982821-2013-09-03"
+  },
+  "course-0087441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087441",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3047W, version 0087441-2025-01-21"
+  },
+  "course-8181891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181891",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3145W, version 8181891-2019-01-22"
+  },
+  "course-8017051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017051",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3242W, version 8017051-2026-09-08"
+  },
+  "course-7975471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975471",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3306W, version 7975471-2023-01-17"
+  },
+  "course-8189911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189911",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3327W, version 8189911-2019-09-03"
+  },
+  "course-0087871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087871",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4994W, version 0087871-2015-01-20"
+  },
+  "course-0087531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3993, version 0087531-2023-01-17"
+  },
+  "course-0089941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0089941",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4013W, version 0089941-2025-01-21"
+  },
+  "course-8068381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8068381",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4013V, version 8068381-2025-01-21"
+  },
+  "course-8190141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8190141",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4093, version 8190141-2019-09-03"
+  }
+ },
+ "courseSets": {
+  "set-0C483a42": {
+   "codes": [
+    "ANTH 1001",
+    "ANTH 1001H",
+    "ANTH 1003W",
+    "ANTH 1003V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-IwJF9BKR": {
+   "codes": [
+    "ANTH 3002",
+    "EEB 3002",
+    "ANTH 3401",
+    "ANTH 5401"
+   ],
+   "sourceRef": "program"
+  },
+  "set-29jqnKnL": {
+   "codes": [
+    "ANTH 4002",
+    "ANTH 5002",
+    "ANTH 4003W",
+    "ANTH 4004",
+    "ANTH 4007",
+    "ANTH 4019",
+    "ANTH 4022",
+    "ANTH 4029W",
+    "ANTH 4031W",
+    "ANTH 4035",
+    "ANTH 4043",
+    "MEST 4043",
+    "ANTH 4047",
+    "ANTH 4049",
+    "RELS 4049",
+    "ANTH 4053",
+    "ANTH 4077W",
+    "ANTH 5077W",
+    "ANTH 4101",
+    "AMIN 4101",
+    "ANTH 4329",
+    "EEB 4329",
+    "ANTH 4344",
+    "GLOS 4344",
+    "ANTH 4980",
+    "ANTH 5008",
+    "ANTH 5016",
+    "ANTH 5018",
+    "ANTH 5021W",
+    "ANTH 5024",
+    "ANTH 5027W",
+    "ANTH 5028",
+    "ANTH 5037",
+    "ANTH 5045W",
+    "ANTH 5112",
+    "ANTH 5128",
+    "OLPD 5128",
+    "ANTH 5221",
+    "ANTH 5244",
+    "ANTH 5269",
+    "ANTH 5327W",
+    "ANTH 5401",
+    "ANTH 5402",
+    "ANTH 5405",
+    "ANTH 5412",
+    "AMIN 5412",
+    "AMST 5412",
+    "CHLS 5412",
+    "ANTH 5442",
+    "ANTH 5444",
+    "ANTH 5448",
+    "ANTH 5501",
+    "ANTH 5601",
+    "AMIN 5602",
+    "ANTH 5910",
+    "ANTH 5980"
+   ],
+   "sourceRef": "program"
+  },
+  "set-esm0xqTD": {
+   "codes": [
+    "ANTH 3993",
+    "ANTH 4013W",
+    "ANTH 4013V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Tv3ZeH9m": {
+   "codes": [
+    "ANTH 4093"
+   ],
+   "sourceRef": "program"
+  },
+  "set-417722": {
+   "codes": [
+    "ANTH 3005W",
+    "ANTH 3021W",
+    "ANTH 5021W",
+    "ANTH 3027W",
+    "ANTH 5027W",
+    "HIST 3067W",
+    "ANTH 3046W",
+    "ANTH 3047W",
+    "ANTH 3145W",
+    "ANTH 3242W",
+    "ANTH 3306W",
+    "ANTH 3327W",
+    "ANTH 4003W",
+    "ANTH 4013W",
+    "ANTH 4013V",
+    "ANTH 4029W",
+    "ANTH 4031W",
+    "ANTH 4077W",
+    "ANTH 5077W",
+    "ANTH 4994W",
+    "ANTH 5045W",
+    "ANTH 5327W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AMIN 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Decolonizing Archives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8282971"
+   },
+   "sourceRef": "course-8282971"
+  },
+  "AMIN 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178301"
+   },
+   "sourceRef": "course-8178301"
+  },
+  "AMIN 5602": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology and Native Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8189721"
+   },
+   "sourceRef": "course-8189721"
+  },
+  "AMST 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178311"
+   },
+   "sourceRef": "course-8178311"
+  },
+  "ANTH 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Evolution",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087111"
+   },
+   "sourceRef": "course-0087111"
+  },
+  "ANTH 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Human Evolution",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "honors"
+    },
+    "sourceRef": "course-0089901"
+   },
+   "sourceRef": "course-0089901"
+  },
+  "ANTH 1003V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Cultures: Honors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-0089911"
+   },
+   "sourceRef": "course-0089911"
+  },
+  "ANTH 1003W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Cultures",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087121"
+   },
+   "sourceRef": "course-0087121"
+  },
+  "ANTH 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Archaeology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087131"
+   },
+   "sourceRef": "course-0087131"
+  },
+  "ANTH 3002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sex, Evolution, and Behavior:  Examining Human Evolutionary Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7954131"
+   },
+   "sourceRef": "course-7954131"
+  },
+  "ANTH 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cultural Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087141"
+   },
+   "sourceRef": "course-0087141"
+  },
+  "ANTH 3005W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Language, Culture, and Power",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087171"
+   },
+   "sourceRef": "course-0087171"
+  },
+  "ANTH 3021W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anthropology of the Middle East",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7914771"
+   },
+   "sourceRef": "course-7914771"
+  },
+  "ANTH 3027W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology of Prehistoric Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087361"
+   },
+   "sourceRef": "course-0087361"
+  },
+  "ANTH 3046W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Romance and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7982821"
+   },
+   "sourceRef": "course-7982821"
+  },
+  "ANTH 3047W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anthropology of Sex, Gender and Sexuality",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087441"
+   },
+   "sourceRef": "course-0087441"
+  },
+  "ANTH 3145W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181891"
+   },
+   "sourceRef": "course-8181891"
+  },
+  "ANTH 3242W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hero, Savage, or Equal? Representations of Non-Western Peoples in the Movies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8017051"
+   },
+   "sourceRef": "course-8017051"
+  },
+  "ANTH 3306W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medical Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or 1005 or entry level soc sci course recommended"
+    },
+    "sourceRef": "course-7975471"
+   },
+   "sourceRef": "course-7975471"
+  },
+  "ANTH 3327W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Inca, Aztec & Maya Civilizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8189911"
+   },
+   "sourceRef": "course-8189911"
+  },
+  "ANTH 3401": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Human Fossil Record",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ANTH 1001 or instr consent"
+    },
+    "sourceRef": "course-8015751"
+   },
+   "sourceRef": "course-8015751"
+  },
+  "ANTH 3993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study for Capstone Project Preparation",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Jr or sr] anth major, instr consent"
+    },
+    "sourceRef": "course-0087531"
+   },
+   "sourceRef": "course-0087531"
+  },
+  "ANTH 4002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Epidemics in Human Evolution",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266611"
+   },
+   "sourceRef": "course-8266611"
+  },
+  "ANTH 4003W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Perspectives in Cultural Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1003 or 1005],  or instr consent"
+    },
+    "sourceRef": "course-0087151"
+   },
+   "sourceRef": "course-0087151"
+  },
+  "ANTH 4004": {
+   "catalogTerm": "Fall 2026",
+   "title": "Experimental Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272371"
+   },
+   "sourceRef": "course-8272371"
+  },
+  "ANTH 4007": {
+   "catalogTerm": "Fall 2026",
+   "title": "Laboratory Techniques in Archaeology",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0087181"
+   },
+   "sourceRef": "course-0087181"
+  },
+  "ANTH 4013V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Project Writing Seminar",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Sr major, honors student, instr consent"
+    },
+    "sourceRef": "course-8068381"
+   },
+   "sourceRef": "course-8068381"
+  },
+  "ANTH 4013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Project Writing Seminar",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "sr major, instr consent"
+    },
+    "sourceRef": "course-0089941"
+   },
+   "sourceRef": "course-0089941"
+  },
+  "ANTH 4019": {
+   "catalogTerm": "Fall 2026",
+   "title": "Symbolic Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087191"
+   },
+   "sourceRef": "course-0087191"
+  },
+  "ANTH 4022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Talking Evidence: A linguistic/anthropological approach to evidence and evidentiality",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8282251"
+   },
+   "sourceRef": "course-8282251"
+  },
+  "ANTH 4029W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anthropology of Social Class",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8102521"
+   },
+   "sourceRef": "course-8102521"
+  },
+  "ANTH 4031W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anthropology and Social Justice",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or 1005 or 4003 or grad student or instr consent"
+    },
+    "sourceRef": "course-0087251"
+   },
+   "sourceRef": "course-0087251"
+  },
+  "ANTH 4035": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ethnographic Research Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or 1005 or grad student"
+    },
+    "sourceRef": "course-0087271"
+   },
+   "sourceRef": "course-0087271"
+  },
+  "ANTH 4043": {
+   "catalogTerm": "Fall 2026",
+   "title": "Romans, Anglo-Saxons and Vikings: Archaeology of Northern Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087391"
+   },
+   "sourceRef": "course-0087391"
+  },
+  "ANTH 4047": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anthropology of American Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087411"
+   },
+   "sourceRef": "course-0087411"
+  },
+  "ANTH 4049": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087431"
+   },
+   "sourceRef": "course-0087431"
+  },
+  "ANTH 4053": {
+   "catalogTerm": "Fall 2026",
+   "title": "Economy, Culture, and Critique",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087461"
+   },
+   "sourceRef": "course-0087461"
+  },
+  "ANTH 4077W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Neanderthals: Biology and Culture of Humanity's Nearest Relative",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974271"
+   },
+   "sourceRef": "course-7974271"
+  },
+  "ANTH 4093": {
+   "catalogTerm": "Fall 2026",
+   "title": "In-Class Capstone Project",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8190141"
+   },
+   "sourceRef": "course-8190141"
+  },
+  "ANTH 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Decolonizing Archives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8034401"
+   },
+   "sourceRef": "course-8034401"
+  },
+  "ANTH 4329": {
+   "catalogTerm": "Fall 2026",
+   "title": "Primate Ecology and Social Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1009 or 1951 or 3411 or ANTH 1001 or instr consent"
+    },
+    "sourceRef": "course-8075441"
+   },
+   "sourceRef": "course-8075441"
+  },
+  "ANTH 4344": {
+   "catalogTerm": "Fall 2026",
+   "title": "Europe and its Margins",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One course in [ANTH or GLOS]"
+    },
+    "sourceRef": "course-7999261"
+   },
+   "sourceRef": "course-7999261"
+  },
+  "ANTH 4980": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Sociocultural Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087541"
+   },
+   "sourceRef": "course-0087541"
+  },
+  "ANTH 4994W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0087871"
+   },
+   "sourceRef": "course-0087871"
+  },
+  "ANTH 5002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Epidemics in Human Evolution",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266691"
+   },
+   "sourceRef": "course-8266691"
+  },
+  "ANTH 5008": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Flintknapping",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Exclude fr or soph 5000 level courses. Take ANTH 3008 or ANTH5269 or Instructor Permission."
+    },
+    "sourceRef": "course-7953981"
+   },
+   "sourceRef": "course-7953981"
+  },
+  "ANTH 5016": {
+   "catalogTerm": "Fall 2026",
+   "title": "Africa and African Diaspora Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8260431"
+   },
+   "sourceRef": "course-8260431"
+  },
+  "ANTH 5018": {
+   "catalogTerm": "Fall 2026",
+   "title": "Bioarchaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275941"
+   },
+   "sourceRef": "course-8275941"
+  },
+  "ANTH 5021W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anthropology of the Middle East",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8017071"
+   },
+   "sourceRef": "course-8017071"
+  },
+  "ANTH 5024": {
+   "catalogTerm": "Fall 2026",
+   "title": "Forensic Anthropology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8276011"
+   },
+   "sourceRef": "course-8276011"
+  },
+  "ANTH 5027W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology of Prehistoric Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087621"
+   },
+   "sourceRef": "course-0087621"
+  },
+  "ANTH 5028": {
+   "catalogTerm": "Fall 2026",
+   "title": "Historical Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8165511"
+   },
+   "sourceRef": "course-8165511"
+  },
+  "ANTH 5037": {
+   "catalogTerm": "Fall 2026",
+   "title": "Food Sovereignty in Africa",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8257891"
+   },
+   "sourceRef": "course-8257891"
+  },
+  "ANTH 5045W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0098481"
+   },
+   "sourceRef": "course-0098481"
+  },
+  "ANTH 5077W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Neanderthals: Biology and Culture of Humanity\u2019s Nearest Relative",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272471"
+   },
+   "sourceRef": "course-8272471"
+  },
+  "ANTH 5112": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reconstructing Hominin Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Previous coursework in Biological Anthropology or Archaeology"
+    },
+    "sourceRef": "course-8115011"
+   },
+   "sourceRef": "course-8115011"
+  },
+  "ANTH 5128": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anthropology of Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7919881"
+   },
+   "sourceRef": "course-7919881"
+  },
+  "ANTH 5221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anthropology of Material Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7930551"
+   },
+   "sourceRef": "course-7930551"
+  },
+  "ANTH 5244": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interpreting Ancient Bone",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7905821"
+   },
+   "sourceRef": "course-7905821"
+  },
+  "ANTH 5269": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of Stone Tool Technology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7937211"
+   },
+   "sourceRef": "course-7937211"
+  },
+  "ANTH 5327W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Inca, Aztec & Maya Civilizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8189891"
+   },
+   "sourceRef": "course-8189891"
+  },
+  "ANTH 5401": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Human Fossil Record",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ANTH 1001 or instr consent"
+    },
+    "sourceRef": "course-8015761"
+   },
+   "sourceRef": "course-8015761"
+  },
+  "ANTH 5402": {
+   "catalogTerm": "Fall 2026",
+   "title": "Zooarchaeology Laboratory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8054391"
+   },
+   "sourceRef": "course-8054391"
+  },
+  "ANTH 5405": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Skeletal Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8030731"
+   },
+   "sourceRef": "course-8030731"
+  },
+  "ANTH 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178321"
+   },
+   "sourceRef": "course-8178321"
+  },
+  "ANTH 5442": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology of the British Isles",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8002171"
+   },
+   "sourceRef": "course-8002171"
+  },
+  "ANTH 5444": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeological Ceramics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001 or instr consent"
+    },
+    "sourceRef": "course-8079491"
+   },
+   "sourceRef": "course-8079491"
+  },
+  "ANTH 5448": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Heritage Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8084181"
+   },
+   "sourceRef": "course-8084181"
+  },
+  "ANTH 5501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Managing Museum Collections",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8160281"
+   },
+   "sourceRef": "course-8160281"
+  },
+  "ANTH 5601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology and Native Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101221"
+   },
+   "sourceRef": "course-8101221"
+  },
+  "ANTH 5910": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics: Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271201"
+   },
+   "sourceRef": "course-8271201"
+  },
+  "ANTH 5980": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7887961"
+   },
+   "sourceRef": "course-7887961"
+  },
+  "CHLS 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176031"
+   },
+   "sourceRef": "course-8176031"
+  },
+  "EEB 3002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sex, Evolution, and Behavior:  Examining Human Evolutionary Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018741"
+   },
+   "sourceRef": "course-8018741"
+  },
+  "EEB 4329": {
+   "catalogTerm": "Fall 2026",
+   "title": "Primate Ecology and Social Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1009 or BIOL 1951 or BIOL 3411 or ANTH 1001 or instr consent"
+    },
+    "sourceRef": "course-7919201"
+   },
+   "sourceRef": "course-7919201"
+  },
+  "GLOS 4344": {
+   "catalogTerm": "Fall 2026",
+   "title": "Europe and its Margins",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One course in [ANTH or GLOS]"
+    },
+    "sourceRef": "course-8085251"
+   },
+   "sourceRef": "course-8085251"
+  },
+  "HIST 3067W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology of Prehistoric Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100121"
+   },
+   "sourceRef": "course-8100121"
+  },
+  "MEST 4043": {
+   "catalogTerm": "Fall 2026",
+   "title": "Romans, Anglo-Saxons and Vikings: Archaeology of Northern Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164781"
+   },
+   "sourceRef": "course-8164781"
+  },
+  "OLPD 5128": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anthropology of Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0006501"
+   },
+   "sourceRef": "course-0006501"
+  },
+  "RELS 4049": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8026721"
+   },
+   "sourceRef": "course-8026721"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-jF9WWIaY",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-0C483a42",
+    "type": "credits",
+    "courseSet": "set-0C483a42",
+    "minCredits": 8,
+    "sourceRef": "program",
+    "label": "Foundation Courses"
+   }
+  },
+  {
+   "id": "g-qjBWvd9C",
+   "label": "Subfield Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-3TsBB35X",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-3TsBB35X-c1",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-wzsgo7mP-c1",
+        "type": "course",
+        "code": "ANTH 3001",
+        "sourceRef": "program",
+        "label": "Archeology"
+       },
+       {
+        "id": "r-IwJF9BKR-c1",
+        "type": "credits",
+        "courseSet": "set-IwJF9BKR",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Biological Anthropolgy"
+       },
+       {
+        "id": "r-OGwmKqRI-c1",
+        "type": "course",
+        "code": "ANTH 3003",
+        "sourceRef": "program",
+        "label": "Sociocultural Anthropolgy"
+       }
+      ]
+     },
+     {
+      "id": "r-3TsBB35X-c2",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-wzsgo7mP-c2",
+        "type": "course",
+        "code": "ANTH 3001",
+        "sourceRef": "program",
+        "label": "Archeology"
+       },
+       {
+        "id": "r-IwJF9BKR-c2",
+        "type": "credits",
+        "courseSet": "set-IwJF9BKR",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Biological Anthropolgy"
+       },
+       {
+        "id": "r-NAUBRXXD-c2",
+        "type": "course",
+        "code": "ANTH 3005W",
+        "sourceRef": "program",
+        "label": "Linguistic Anthropology"
+       }
+      ]
+     },
+     {
+      "id": "r-3TsBB35X-c3",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-wzsgo7mP-c3",
+        "type": "course",
+        "code": "ANTH 3001",
+        "sourceRef": "program",
+        "label": "Archeology"
+       },
+       {
+        "id": "r-OGwmKqRI-c3",
+        "type": "course",
+        "code": "ANTH 3003",
+        "sourceRef": "program",
+        "label": "Sociocultural Anthropolgy"
+       },
+       {
+        "id": "r-NAUBRXXD-c3",
+        "type": "course",
+        "code": "ANTH 3005W",
+        "sourceRef": "program",
+        "label": "Linguistic Anthropology"
+       }
+      ]
+     },
+     {
+      "id": "r-3TsBB35X-c4",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-IwJF9BKR-c4",
+        "type": "credits",
+        "courseSet": "set-IwJF9BKR",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Biological Anthropolgy"
+       },
+       {
+        "id": "r-OGwmKqRI-c4",
+        "type": "course",
+        "code": "ANTH 3003",
+        "sourceRef": "program",
+        "label": "Sociocultural Anthropolgy"
+       },
+       {
+        "id": "r-NAUBRXXD-c4",
+        "type": "course",
+        "code": "ANTH 3005W",
+        "sourceRef": "program",
+        "label": "Linguistic Anthropology"
+       }
+      ]
+     }
+    ],
+    "label": "Subfield Core Courses"
+   }
+  },
+  {
+   "id": "g-RkwIvxlu",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-npYCZz6V",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-29jqnKnL",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-29jqnKnL-credits",
+        "type": "credits",
+        "courseSet": "set-29jqnKnL",
+        "minCredits": 9,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-29jqnKnL-min",
+        "type": "count",
+        "courseSet": "set-29jqnKnL",
+        "minCourses": 3,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "ANTH 4xxx-5xxx"
+     },
+     {
+      "id": "r-EPoaXKxE",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "ANTH 3xxx states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+      "label": "ANTH 3xxx"
+     },
+     {
+      "id": "r-v3mJRET6",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Directed Studies, Reading and Research Courses: courses from this list count for at most 6 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Directed Studies, Reading and Research Courses"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-849lrGN5",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-zFrNO58M",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-esm0xqTD",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-esm0xqTD-sequence",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-esm0xqTD-g1-1",
+          "type": "course",
+          "code": "ANTH 3993",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-esm0xqTD-g2",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-esm0xqTD-g2-1",
+            "type": "course",
+            "code": "ANTH 4013W",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-esm0xqTD-g2-2",
+            "type": "course",
+            "code": "ANTH 4013V",
+            "sourceRef": "program"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "r-esm0xqTD-credits",
+        "type": "credits",
+        "minCredits": 4,
+        "courseSet": "set-esm0xqTD",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "id": "r-Tv3ZeH9m",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-Tv3ZeH9m-credits",
+        "type": "credits",
+        "courseSet": "set-Tv3ZeH9m",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-Tv3ZeH9m-min",
+        "type": "count",
+        "courseSet": "set-Tv3ZeH9m",
+        "minCourses": 2,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-008020217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-417722",
+    "type": "count",
+    "courseSet": "set-417722",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Anthropology BA is ANTH.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or ANTH 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 14 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn a BS, BA, or a minor in anthropology, but cannot earn more than one major or minor in anthropology. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

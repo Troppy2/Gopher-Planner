@@ -1,0 +1,739 @@
+{
+ "schemaVersion": 2,
+ "id": "sustainable-systems-management-bs",
+ "name": "Sustainable Systems Management B.S.",
+ "officialName": "Sustainable Systems Management B.S.",
+ "officialProgramId": "100820130",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Sustainable Systems Management B.S., revision 100820130-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/100820130, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/100820130",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 100820130-2026-09-08"
+  },
+  "course-8142431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8142431",
+   "retrieved": "2026-11-23",
+   "section": "Course record SSM 1004, version 8142431-2015-09-08"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0016221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016221",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3021, version 0016221-2025-01-21"
+  },
+  "course-7953031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953031",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 3102, version 7953031-2025-09-02"
+  },
+  "course-7995071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7995071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3012, version 7995071-2024-01-16"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-0054191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054191",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1001, version 0054191-2020-09-08"
+  },
+  "course-0054161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009, version 0054161-2020-09-08"
+  },
+  "course-0082071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3241W, version 0082071-2011-01-18"
+  },
+  "course-0093761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093761",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSCI 3244, version 0093761-2017-09-05"
+  },
+  "course-0145331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0145331",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSCI 5244, version 0145331-2017-09-05"
+  },
+  "course-0062811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062811",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1101, version 0062811-2024-09-03"
+  },
+  "course-0099201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1101, version 0099201-2024-09-03"
+  },
+  "course-0053691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053691",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3261, version 0053691-2024-01-16"
+  },
+  "course-7975901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3603, version 7975901-2021-09-07"
+  },
+  "course-8154171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8154171",
+   "retrieved": "2026-11-23",
+   "section": "Course record SSM 4506W, version 8154171-2024-09-03"
+  },
+  "course-8141521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8141521",
+   "retrieved": "2026-11-23",
+   "section": "Course record SSM 2003, version 8141521-2015-09-08"
+  },
+  "course-7989281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989281",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 2021, version 7989281-2020-09-08"
+  },
+  "course-7990781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990781",
+   "retrieved": "2026-11-23",
+   "section": "Course record SSM 4407W, version 7990781-2024-01-16"
+  },
+  "course-7956941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7956941",
+   "retrieved": "2026-11-23",
+   "section": "Course record SSM 4504W, version 7956941-2024-01-16"
+  },
+  "course-0125311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0125311",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3607, version 0125311-2013-01-22"
+  },
+  "course-0161251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0161251",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3601, version 0161251-2019-01-22"
+  }
+ },
+ "courseSets": {
+  "set-z2Ti94Hi": {
+   "codes": [
+    "STAT 3011",
+    "STAT 3021",
+    "CEGE 3102",
+    "ESPM 3012"
+   ],
+   "sourceRef": "program"
+  },
+  "set-khLgGoTw": {
+   "codes": [
+    "CHEM 1061",
+    "CHEM 1065",
+    "BIOL 1001",
+    "BIOL 1009"
+   ],
+   "sourceRef": "program"
+  },
+  "set-yfwraJTG": {
+   "codes": [
+    "ESPM 3241W",
+    "HSCI 3244",
+    "HSCI 5244"
+   ],
+   "sourceRef": "program"
+  },
+  "set-VLClhmh6": {
+   "codes": [
+    "APEC 1101",
+    "ECON 1101",
+    "ESPM 3261"
+   ],
+   "sourceRef": "program"
+  },
+  "set-8KQsn7fW": {
+   "codes": [
+    "ESPM 3603",
+    "SSM 4506W",
+    "SSM 2003",
+    "ESPM 2021"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Hy4eRV3n": {
+   "codes": [
+    "SSM 4407W",
+    "SSM 4504W",
+    "ESPM 3607",
+    "ESPM 3601"
+   ],
+   "sourceRef": "program"
+  },
+  "set-SyWy9S9D": {
+   "codes": [
+    "SSM 4407W",
+    "SSM 4504W",
+    "SSM 4506W",
+    "ESPM 3241W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "APEC 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062811"
+   },
+   "sourceRef": "course-0062811"
+  },
+  "BIOL 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Biology: Evolutionary and Ecological Perspectives",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054191"
+   },
+   "sourceRef": "course-0054191"
+  },
+  "BIOL 1009": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054161"
+   },
+   "sourceRef": "course-0054161"
+  },
+  "CEGE 3102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Uncertainty and Decision Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1372 or equivalent"
+    },
+    "sourceRef": "course-7953031"
+   },
+   "sourceRef": "course-7953031"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "ECON 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099201"
+   },
+   "sourceRef": "course-0099201"
+  },
+  "ESPM 2021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Sciences: Integrated Problem Solving",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1011, ESPM major"
+    },
+    "sourceRef": "course-7989281"
+   },
+   "sourceRef": "course-7989281"
+  },
+  "ESPM 3012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Statistical Methods for Environmental Scientists and Managers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7995071"
+   },
+   "sourceRef": "course-7995071"
+  },
+  "ESPM 3241W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Natural Resource and Environmental Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082071"
+   },
+   "sourceRef": "course-0082071"
+  },
+  "ESPM 3261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Economics and Natural Resources Management",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053691"
+   },
+   "sourceRef": "course-0053691"
+  },
+  "ESPM 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Housing--Community, Environment, and Technology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0161251"
+   },
+   "sourceRef": "course-0161251"
+  },
+  "ESPM 3603": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Life Cycle Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975901"
+   },
+   "sourceRef": "course-7975901"
+  },
+  "ESPM 3607": {
+   "catalogTerm": "Fall 2026",
+   "title": "Natural Resources Consumption and Sustainability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0125311"
+   },
+   "sourceRef": "course-0125311"
+  },
+  "HSCI 3244": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nature's History: Science, Humans, and the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093761"
+   },
+   "sourceRef": "course-0093761"
+  },
+  "HSCI 5244": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nature's History: Science, Humans, and the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0145331"
+   },
+   "sourceRef": "course-0145331"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "SSM 1004": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Systems Management Orientation",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8142431"
+   },
+   "sourceRef": "course-8142431"
+  },
+  "SSM 2003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Systems Thinking: Development and Applications in Sustainability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8141521"
+   },
+   "sourceRef": "course-8141521"
+  },
+  "SSM 4407W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Manufacturing Principles and Practices",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7990781"
+   },
+   "sourceRef": "course-7990781"
+  },
+  "SSM 4504W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Products Systems Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7956941"
+   },
+   "sourceRef": "course-7956941"
+  },
+  "SSM 4506W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Systems Management Capstone",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ESPM 3603, Senior within two semesters of graduation."
+    },
+    "sourceRef": "course-8154171"
+   },
+   "sourceRef": "course-8154171"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "STAT 3021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Probability and Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1272"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1472"
+      }
+     ]
+    },
+    "sourceRef": "course-0016221"
+   },
+   "sourceRef": "course-0016221"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-kavFD0nt",
+   "label": "Orientation",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-wHI01bqS",
+    "type": "course",
+    "code": "SSM 1004",
+    "sourceRef": "program",
+    "label": "Orientation"
+   }
+  },
+  {
+   "id": "g-BvxhtOXL",
+   "label": "Mathematical Thinking",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-naGo9iti",
+    "type": "course",
+    "code": "MATH 1271",
+    "sourceRef": "program",
+    "label": "Mathematical Thinking"
+   }
+  },
+  {
+   "id": "g-RNoD4d8z",
+   "label": "Statistics",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-z2Ti94Hi",
+    "type": "credits",
+    "courseSet": "set-z2Ti94Hi",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Statistics"
+   }
+  },
+  {
+   "id": "g-rn6yDvVU",
+   "label": "Chemical and Biological Sciences",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-khLgGoTw",
+    "type": "credits",
+    "courseSet": "set-khLgGoTw",
+    "minCredits": 8,
+    "sourceRef": "program",
+    "label": "Chemical and Biological Sciences"
+   }
+  },
+  {
+   "id": "g-IDb1CcHT",
+   "label": "Social Sciences and Historical Perspectives",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-yfwraJTG",
+    "type": "credits",
+    "courseSet": "set-yfwraJTG",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "Social Sciences and Historical Perspectives"
+   }
+  },
+  {
+   "id": "g-FzfkrO3M",
+   "label": "Economics",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-VLClhmh6",
+    "type": "credits",
+    "courseSet": "set-VLClhmh6",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Economics"
+   }
+  },
+  {
+   "id": "g-KM8Pwc6B",
+   "label": "Skills Based Integrated Core",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-8KQsn7fW",
+    "type": "credits",
+    "courseSet": "set-8KQsn7fW",
+    "minCredits": 9,
+    "sourceRef": "program",
+    "label": "Skills Based Integrated Core"
+   }
+  },
+  {
+   "id": "g-KV2mMdYl",
+   "label": "Content Based Integrated Core",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Hy4eRV3n",
+    "type": "credits",
+    "courseSet": "set-Hy4eRV3n",
+    "minCredits": 12,
+    "sourceRef": "program",
+    "label": "Content Based Integrated Core"
+   }
+  },
+  {
+   "id": "g-7rhBmMts",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-SyWy9S9D",
+    "type": "count",
+    "courseSet": "set-SyWy9S9D",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nCollegiate Requirements:\nAll CFANS undergraduate students must complete an Experiential Learning (EL) requirement. Experiential learning is a way to learn by doing, or learn by experiencing. Instead of acquiring information from a classroom lecture or book, experiential learning gives you active, hands-on experience in the real world. Examples of experiential learning options within CFANS include: off-campus study programs, field-based research, service-learning classes, internships, volunteer work related to your studies, and more.\nAll CFANS undergraduate students must complete an Interdisciplinary (ID) Learning Requirement. An interdisciplinary (ID) course addresses issues from at least two different academic disciplines (two fields/departments within the university). By integrating two disciplines into one class, students have the opportunity to develop integrated problem-solving skills.\nTo determine which of your major classes fulfill the EL and ID requirements, see your APAS report. Students are encouraged to work with their academic advisor to identify EL and ID requirements in their graduation planning.\nAt least 23 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nView sample plans for this program here: https://sampleplan.umn.edu/node/296 Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Sustainable Products Business Management, Building Science and Technology, Corporate Sustainability Systems, Energy Systems, Integrated B.S. Sustainable Systems Management/M.S. Bioproducts & Biosystems Science, Eng & Mgmt. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

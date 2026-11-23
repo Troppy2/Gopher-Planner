@@ -1,0 +1,1580 @@
+{
+ "schemaVersion": 2,
+ "id": "family-social-science-bs",
+ "name": "Family Social Science B.S.",
+ "officialName": "Family Social Science B.S.",
+ "officialProgramId": "029620106",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Family Social Science B.S., revision 029620106-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/029620106, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/029620106",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 029620106-2026-09-08"
+  },
+  "course-8164031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164031",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 1261, version 8164031-2019-09-03"
+  },
+  "course-0016161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016161",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 1001, version 0016161-2023-01-17"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-0011481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3811, version 0011481-2024-05-13"
+  },
+  "course-0074261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074261",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1101, version 0074261-2026-01-20"
+  },
+  "course-7946301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7946301",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1201, version 7946301-2025-09-02"
+  },
+  "course-8164821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164821",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1211, version 8164821-2018-01-16"
+  },
+  "course-8164481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164481",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1461, version 8164481-2022-01-18"
+  },
+  "course-8164831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164831",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 1461, version 8164831-2016-09-06"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-7887411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887411",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101H, version 7887411-2026-09-08"
+  },
+  "course-8094821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094821",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3325W, version 8094821-2024-05-13"
+  },
+  "course-8094811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094811",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3324W, version 8094811-2017-05-22"
+  },
+  "course-8004541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8004541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3027W, version 8004541-2021-09-07"
+  },
+  "course-8017961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017961",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3029W, version 8017961-2026-09-08"
+  },
+  "course-0026681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026681",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562W, version 0026681-2021-05-17"
+  },
+  "course-8158401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8158401",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562V, version 8158401-2021-05-17"
+  },
+  "course-7946321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7946321",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 2105, version 7946321-2026-01-20"
+  },
+  "course-0074331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074331",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3102, version 0074331-2026-01-20"
+  },
+  "course-8171431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171431",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3105, version 8171431-2025-01-21"
+  },
+  "course-0074411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074411",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4104, version 0074411-2018-09-04"
+  },
+  "course-8173421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173421",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4109W, version 8173421-2026-01-20"
+  },
+  "course-8170931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170931",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 2107, version 8170931-2025-05-19"
+  },
+  "course-7946311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7946311",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 2103, version 7946311-2026-01-20"
+  },
+  "course-8170851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170851",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4107, version 8170851-2026-01-20"
+  },
+  "course-8171441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171441",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4108, version 8171441-2024-09-03"
+  },
+  "course-0073351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073351",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 2101, version 0073351-2026-01-20"
+  },
+  "course-0075711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0075711",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3429, version 0075711-2025-09-02"
+  },
+  "course-0075721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0075721",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 5429, version 0075721-2014-01-21"
+  },
+  "course-8170941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170941",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4111, version 8170941-2026-01-20"
+  },
+  "course-0075331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0075331",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3426, version 0075331-2022-01-18"
+  },
+  "course-0112901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0112901",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 5426, version 0112901-2014-01-21"
+  },
+  "course-0074271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074271",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4101, version 0074271-2025-09-02"
+  },
+  "course-0074561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074561",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 2106, version 0074561-2025-01-21"
+  },
+  "course-0074601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074601",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3101, version 0074601-2026-01-20"
+  },
+  "course-0158131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0158131",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4153, version 0158131-2026-01-20"
+  },
+  "course-0076811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0076811",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3191, version 0076811-2026-09-08"
+  },
+  "course-8187971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187971",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3222W, version 8187971-2020-01-21"
+  },
+  "course-0075761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0075761",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 3431, version 0075761-2025-09-02"
+  },
+  "course-0073941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073941",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4152, version 0073941-2023-05-15"
+  },
+  "course-0074651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074651",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4155, version 0074651-2025-09-02"
+  },
+  "course-8178651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178651",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4158, version 8178651-2018-01-16"
+  },
+  "course-0076821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0076821",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4191, version 0076821-2015-01-20"
+  },
+  "course-7929231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7929231",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 5150, version 7929231-2026-09-08"
+  },
+  "course-8158551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8158551",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 5701, version 8158551-2024-09-03"
+  },
+  "course-8268791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8268791",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4295, version 8268791-2024-01-16"
+  },
+  "course-0073891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073891",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4296, version 0073891-2025-05-19"
+  },
+  "course-0077051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077051",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4294, version 0077051-2026-09-08"
+  },
+  "course-7986721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7986721",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4193, version 7986721-2026-09-08"
+  }
+ },
+ "courseSets": {
+  "set-muwhnI5j": {
+   "codes": [
+    "EPSY 1261",
+    "STAT 1001",
+    "STAT 3011",
+    "EPSY 3264",
+    "SOC 3811"
+   ],
+   "sourceRef": "program"
+  },
+  "set-wVn4csKW": {
+   "codes": [
+    "FSOS 1101",
+    "FSOS 1201",
+    "FSOS 1211"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ykUSwkPv": {
+   "codes": [
+    "FSOS 1461",
+    "OLPD 1461",
+    "COMM 1101",
+    "COMM 1101H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-6jSJrq8b": {
+   "codes": [
+    "YOST 3325W",
+    "OLPD 3324W",
+    "ENGL 3027W",
+    "WRIT 3029W",
+    "WRIT 3562W",
+    "WRIT 3562V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-loTCflA4": {
+   "codes": [
+    "FSOS 2105",
+    "FSOS 3102",
+    "FSOS 3105",
+    "FSOS 4104",
+    "FSOS 4109W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-iJRVzmIJ": {
+   "codes": [
+    "FSOS 2107",
+    "FSOS 2103",
+    "FSOS 4107",
+    "FSOS 4108"
+   ],
+   "sourceRef": "program"
+  },
+  "set-uOhiJLS9": {
+   "codes": [
+    "FSOS 2101",
+    "FSOS 3429",
+    "FSOS 5429",
+    "FSOS 4111",
+    "FSOS 3426",
+    "FSOS 5426",
+    "FSOS 4101"
+   ],
+   "sourceRef": "program"
+  },
+  "set-DpnIlRyA": {
+   "codes": [
+    "FSOS 2106",
+    "FSOS 3101",
+    "FSOS 4153",
+    "FSOS 2101",
+    "FSOS 2107"
+   ],
+   "sourceRef": "program"
+  },
+  "set-TygMDmKR": {
+   "codes": [
+    "FSOS 3101",
+    "FSOS 3191",
+    "FSOS 3222W",
+    "FSOS 3426",
+    "FSOS 3429",
+    "FSOS 3431",
+    "FSOS 4101",
+    "FSOS 4107",
+    "FSOS 4108",
+    "FSOS 4111",
+    "FSOS 4152",
+    "FSOS 4153",
+    "FSOS 4155",
+    "FSOS 4158",
+    "FSOS 4191",
+    "FSOS 5150",
+    "FSOS 5701"
+   ],
+   "sourceRef": "program"
+  },
+  "set-gUND9e7u": {
+   "codes": [
+    "FSOS 3101",
+    "FSOS 3191",
+    "FSOS 3222W",
+    "FSOS 3426",
+    "FSOS 3429",
+    "FSOS 3431",
+    "FSOS 4101",
+    "FSOS 4107",
+    "FSOS 4108",
+    "FSOS 4111",
+    "FSOS 4152",
+    "FSOS 4153",
+    "FSOS 4155",
+    "FSOS 4158",
+    "FSOS 4191",
+    "FSOS 5150",
+    "FSOS 5701"
+   ],
+   "sourceRef": "program"
+  },
+  "set-eI33bW6j": {
+   "codes": [
+    "FSOS 4295",
+    "FSOS 4296",
+    "FSOS 4294",
+    "FSOS 4193"
+   ],
+   "sourceRef": "program"
+  },
+  "set-DWJFpr9R": {
+   "codes": [
+    "FSOS 4109W",
+    "FSOS 3222W",
+    "YOST 3325W",
+    "OLPD 3324W",
+    "ENGL 3027W",
+    "WRIT 3029W",
+    "WRIT 3562W",
+    "WRIT 3562V"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "COMM 1101H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-7887411"
+   },
+   "sourceRef": "course-7887411"
+  },
+  "ENGL 3027W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Essay",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8004541"
+   },
+   "sourceRef": "course-8004541"
+  },
+  "EPSY 1261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Data Stories through Visualization & Computing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164031"
+   },
+   "sourceRef": "course-8164031"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "FSOS 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intimate Relationships",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074261"
+   },
+   "sourceRef": "course-0074261"
+  },
+  "FSOS 1201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Development in Families: Lifespan",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7946301"
+   },
+   "sourceRef": "course-7946301"
+  },
+  "FSOS 1211": {
+   "catalogTerm": "Fall 2026",
+   "title": "An Interdisciplinary Look at the Family in Multicultural America",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164821"
+   },
+   "sourceRef": "course-8164821"
+  },
+  "FSOS 1461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Presentations at Work: Families, Communities, Nonprofits, and Schools",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164481"
+   },
+   "sourceRef": "course-8164481"
+  },
+  "FSOS 2101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Preparation for Working With Families",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0073351"
+   },
+   "sourceRef": "course-0073351"
+  },
+  "FSOS 2103": {
+   "catalogTerm": "Fall 2026",
+   "title": "Family Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7946311"
+   },
+   "sourceRef": "course-7946311"
+  },
+  "FSOS 2105": {
+   "catalogTerm": "Fall 2026",
+   "title": "Methods in Family Research",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "STAT 3011 or PSTL 1004 or STAT 1001 or ESPY 3264 or ESPY 1261 or SOC 3811 or SOC 2550 or PSY 3801 or instr consent"
+    },
+    "sourceRef": "course-7946321"
+   },
+   "sourceRef": "course-7946321"
+  },
+  "FSOS 2106": {
+   "catalogTerm": "Fall 2026",
+   "title": "Family Resources and Economic Justice: Building Wealth in Multicultural America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074561"
+   },
+   "sourceRef": "course-0074561"
+  },
+  "FSOS 2107": {
+   "catalogTerm": "Fall 2026",
+   "title": "Preparation for Family and Community Engagement",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170931"
+   },
+   "sourceRef": "course-8170931"
+  },
+  "FSOS 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Personal and Family Finances",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074601"
+   },
+   "sourceRef": "course-0074601"
+  },
+  "FSOS 3102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Family Systems and Diversity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "soph or jr or sr or grad"
+    },
+    "sourceRef": "course-0074331"
+   },
+   "sourceRef": "course-0074331"
+  },
+  "FSOS 3105": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technology in Parenting and Family Relationships",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171431"
+   },
+   "sourceRef": "course-8171431"
+  },
+  "FSOS 3191": {
+   "catalogTerm": "Fall 2026",
+   "title": "Independent Study in Family Social Science",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr, instr consent"
+    },
+    "sourceRef": "course-0076811"
+   },
+   "sourceRef": "course-0076811"
+  },
+  "FSOS 3222W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Our Addicted World: Going Beyond the Individual in Looking at the Addiction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187971"
+   },
+   "sourceRef": "course-8187971"
+  },
+  "FSOS 3426": {
+   "catalogTerm": "Fall 2026",
+   "title": "Alcohol and Drugs: Families and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0075331"
+   },
+   "sourceRef": "course-0075331"
+  },
+  "FSOS 3429": {
+   "catalogTerm": "Fall 2026",
+   "title": "Counseling Skills Practicum I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0075711"
+   },
+   "sourceRef": "course-0075711"
+  },
+  "FSOS 3431": {
+   "catalogTerm": "Fall 2026",
+   "title": "Counseling Skills Practicum II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0075761"
+   },
+   "sourceRef": "course-0075761"
+  },
+  "FSOS 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sexuality and Gender in Families and Close Relationships",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least jr or instr consent"
+    },
+    "sourceRef": "course-0074271"
+   },
+   "sourceRef": "course-0074271"
+  },
+  "FSOS 4104": {
+   "catalogTerm": "Fall 2026",
+   "title": "Family Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074411"
+   },
+   "sourceRef": "course-0074411"
+  },
+  "FSOS 4107": {
+   "catalogTerm": "Fall 2026",
+   "title": "Traumatic Stress and Resilience in Vulnerable Families Across the Lifespan",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170851"
+   },
+   "sourceRef": "course-8170851"
+  },
+  "FSOS 4108": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding and Working with Immigrants and Refugee Families",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171441"
+   },
+   "sourceRef": "course-8171441"
+  },
+  "FSOS 4109W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Family Theories",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173421"
+   },
+   "sourceRef": "course-8173421"
+  },
+  "FSOS 4111": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Family Therapy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170941"
+   },
+   "sourceRef": "course-8170941"
+  },
+  "FSOS 4152": {
+   "catalogTerm": "Fall 2026",
+   "title": "Queer Families",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0073941"
+   },
+   "sourceRef": "course-0073941"
+  },
+  "FSOS 4153": {
+   "catalogTerm": "Fall 2026",
+   "title": "Family Financial Counseling",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0158131"
+   },
+   "sourceRef": "course-0158131"
+  },
+  "FSOS 4155": {
+   "catalogTerm": "Fall 2026",
+   "title": "Parent-Child Relationships",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074651"
+   },
+   "sourceRef": "course-0074651"
+  },
+  "FSOS 4158": {
+   "catalogTerm": "Fall 2026",
+   "title": "Thailand: Global Change, Communities and Families",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178651"
+   },
+   "sourceRef": "course-8178651"
+  },
+  "FSOS 4191": {
+   "catalogTerm": "Fall 2026",
+   "title": "Independent Study in Family Social Science",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Sr, instr consent"
+    },
+    "sourceRef": "course-0076821"
+   },
+   "sourceRef": "course-0076821"
+  },
+  "FSOS 4193": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Capstone Project",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7986721"
+   },
+   "sourceRef": "course-7986721"
+  },
+  "FSOS 4294": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[FSOS major, at least jr] or instr consent"
+    },
+    "sourceRef": "course-0077051"
+   },
+   "sourceRef": "course-0077051"
+  },
+  "FSOS 4295": {
+   "catalogTerm": "Fall 2026",
+   "title": "Preparation for Capstone",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8268791"
+   },
+   "sourceRef": "course-8268791"
+  },
+  "FSOS 4296": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Study: Working With Families",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0073891"
+   },
+   "sourceRef": "course-0073891"
+  },
+  "FSOS 5150": {
+   "catalogTerm": "Fall 2026",
+   "title": "Special Topics in Family Social Science",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-7929231"
+   },
+   "sourceRef": "course-7929231"
+  },
+  "FSOS 5426": {
+   "catalogTerm": "Fall 2026",
+   "title": "Alcohol and Drugs: Families and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0112901"
+   },
+   "sourceRef": "course-0112901"
+  },
+  "FSOS 5429": {
+   "catalogTerm": "Fall 2026",
+   "title": "Counseling Skills Practicum I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0075721"
+   },
+   "sourceRef": "course-0075721"
+  },
+  "FSOS 5701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Prevention Science: Principles and Practices",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8158551"
+   },
+   "sourceRef": "course-8158551"
+  },
+  "OLPD 1461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Presentations in Work Settings: Business & Marketing Education and Human Resource Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164831"
+   },
+   "sourceRef": "course-8164831"
+  },
+  "OLPD 3324W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing in the Workplace for Education and Human Development Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "60+ undergraduate credits, declared major"
+    },
+    "sourceRef": "course-8094811"
+   },
+   "sourceRef": "course-8094811"
+  },
+  "SOC 3811": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergraduates with strong math background are encouraged to register for 5811 in lieu of 3811 (Soc 5811 offered Fall terms only). Soc Majors/Minors must register A-F."
+    },
+    "sourceRef": "course-0011481"
+   },
+   "sourceRef": "course-0011481"
+  },
+  "STAT 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to the Ideas of Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Mathematics requirement for admission to University"
+    },
+    "sourceRef": "course-0016161"
+   },
+   "sourceRef": "course-0016161"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "WRIT 3029W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business and Professional Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8017961"
+   },
+   "sourceRef": "course-8017961"
+  },
+  "WRIT 3562V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8158401"
+   },
+   "sourceRef": "course-8158401"
+  },
+  "WRIT 3562W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026681"
+   },
+   "sourceRef": "course-0026681"
+  },
+  "YOST 3325W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Project-Based Writing For Education and Human Development Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "jr or sr level"
+    },
+    "sourceRef": "course-8094821"
+   },
+   "sourceRef": "course-8094821"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-A2gYc9NP",
+   "label": "Preparatory Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-A2gYc9NP",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-muwhnI5j",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-muwhnI5j-credits",
+        "type": "credits",
+        "courseSet": "set-muwhnI5j",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-muwhnI5j-min",
+        "type": "count",
+        "courseSet": "set-muwhnI5j",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-muwhnI5j-max",
+        "type": "count",
+        "courseSet": "set-muwhnI5j",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Statistics"
+     },
+     {
+      "id": "r-wVn4csKW",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-wVn4csKW-credits",
+        "type": "credits",
+        "courseSet": "set-wVn4csKW",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-wVn4csKW-min",
+        "type": "count",
+        "courseSet": "set-wVn4csKW",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-wVn4csKW-max",
+        "type": "count",
+        "courseSet": "set-wVn4csKW",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Additional Prep Course"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-RgoE7GyM",
+   "label": "Communication Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-RgoE7GyM",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-ykUSwkPv",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-ykUSwkPv-credits",
+        "type": "credits",
+        "courseSet": "set-ykUSwkPv",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ykUSwkPv-min",
+        "type": "count",
+        "courseSet": "set-ykUSwkPv",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ykUSwkPv-max",
+        "type": "count",
+        "courseSet": "set-ykUSwkPv",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Communication Course"
+     },
+     {
+      "id": "r-6jSJrq8b",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-6jSJrq8b-credits",
+        "type": "credits",
+        "courseSet": "set-6jSJrq8b",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-6jSJrq8b-min",
+        "type": "count",
+        "courseSet": "set-6jSJrq8b",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-6jSJrq8b-max",
+        "type": "count",
+        "courseSet": "set-6jSJrq8b",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Advanced Technical Writing"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-J48d1lfa",
+   "label": "Required Major Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-loTCflA4",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-loTCflA4-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-loTCflA4-g1-1",
+        "type": "course",
+        "code": "FSOS 2105",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-loTCflA4-g2-1",
+        "type": "course",
+        "code": "FSOS 3102",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-loTCflA4-g3-1",
+        "type": "course",
+        "code": "FSOS 3105",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-loTCflA4-g4-1",
+        "type": "course",
+        "code": "FSOS 4104",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-loTCflA4-g5-1",
+        "type": "course",
+        "code": "FSOS 4109W",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-loTCflA4-credits",
+      "type": "credits",
+      "minCredits": 15,
+      "courseSet": "set-loTCflA4",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Major Courses"
+   }
+  },
+  {
+   "id": "g-VUxl7mt5",
+   "label": "Concentration Areas",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-qwERe7vo",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-iJRVzmIJ",
+      "type": "credits",
+      "courseSet": "set-iJRVzmIJ",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Family and Community Engagement"
+     },
+     {
+      "id": "r-uOhiJLS9",
+      "type": "credits",
+      "courseSet": "set-uOhiJLS9",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Family Therapy"
+     },
+     {
+      "id": "r-DpnIlRyA",
+      "type": "credits",
+      "courseSet": "set-DpnIlRyA",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Family Financial Studies"
+     }
+    ],
+    "label": "Concentration Areas"
+   }
+  },
+  {
+   "id": "g-LfYW3gDP",
+   "label": "Family Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-gUND9e7u",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-gUND9e7u-rules",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-TygMDmKR",
+        "type": "credits",
+        "courseSet": "set-TygMDmKR",
+        "minCredits": 6,
+        "sourceRef": "program",
+        "label": "Upper Division Family Electives"
+       },
+       {
+        "id": "r-HFL0aT77",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Lower Division Family Electives: courses from this list count for at most 6 credits. Verify this requirement with your advisor or APAS.",
+        "label": "Lower Division Family Electives"
+       }
+      ]
+     },
+     {
+      "id": "r-gUND9e7u-credits",
+      "type": "credits",
+      "courseSet": "set-gUND9e7u",
+      "minCredits": 6,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Family Electives"
+   }
+  },
+  {
+   "id": "g-5K0xbH2n",
+   "label": "Advanced/Applied Skills",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-eI33bW6j",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-eI33bW6j-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-eI33bW6j-g1-1",
+        "type": "course",
+        "code": "FSOS 4295",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-eI33bW6j-g2",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-eI33bW6j-g2-1",
+          "type": "course",
+          "code": "FSOS 4296",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-eI33bW6j-g2-2",
+          "type": "course",
+          "code": "FSOS 4294",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-eI33bW6j-g2-3",
+          "type": "course",
+          "code": "FSOS 4193",
+          "sourceRef": "program"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "r-eI33bW6j-credits",
+      "type": "credits",
+      "minCredits": 4,
+      "courseSet": "set-eI33bW6j",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Advanced/Applied Skills"
+   }
+  },
+  {
+   "id": "g-I1jj3qLI",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-DWJFpr9R",
+    "type": "count",
+    "courseSet": "set-DWJFpr9R",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "First Year Experience",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-411025",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "First Year Expereince: courses from this list count for at most 4 credits. Verify this requirement with your advisor or APAS.",
+    "label": "First Year Expereince"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's Liberal Education requirements.\nCollegiate Requirements:\nAt least 13 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

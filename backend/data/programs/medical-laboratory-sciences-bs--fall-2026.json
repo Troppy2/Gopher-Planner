@@ -1,0 +1,1744 @@
+{
+ "schemaVersion": 2,
+ "id": "medical-laboratory-sciences-bs",
+ "name": "Medical Laboratory Sciences B.S.",
+ "officialName": "Medical Laboratory Sciences B.S.",
+ "officialProgramId": "230820115",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Medical Laboratory Sciences B.S., revision 230820115-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/230820115, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/230820115",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 230820115-2026-09-08"
+  },
+  "course-0054161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009, version 0054161-2020-09-08"
+  },
+  "course-7908161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009H, version 7908161-2020-09-08"
+  },
+  "course-8171961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171961",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1951, version 8171961-2026-09-08"
+  },
+  "course-8171881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171881",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1951H, version 8171881-2026-09-08"
+  },
+  "course-0001191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001191",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1142, version 0001191-2021-05-17"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0036921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036921",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1371, version 0036921-2025-09-02"
+  },
+  "course-0036961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-0016211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016211",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3022, version 0016211-2025-09-02"
+  },
+  "course-8066611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8066611",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3272, version 8066611-2021-09-07"
+  },
+  "course-0105661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0105661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHSL 3051, version 0105661-2015-01-20"
+  },
+  "course-0130771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0130771",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3211, version 0130771-2026-01-20"
+  },
+  "course-0052701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052701",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3385, version 0052701-2023-05-15"
+  },
+  "course-0023921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023921",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2301, version 0023921-2026-09-08"
+  },
+  "course-8081851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081851",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2331H, version 8081851-2026-09-08"
+  },
+  "course-0023931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023931",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2302, version 0023931-2015-09-08"
+  },
+  "course-8081861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081861",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2332H, version 8081861-2015-09-08"
+  },
+  "course-8152861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152861",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2081, version 8152861-2024-09-03"
+  },
+  "course-8270901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8270901",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 2022, version 8270901-2025-01-21"
+  },
+  "course-8107931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8107931",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5011W, version 8107931-2023-09-05"
+  },
+  "course-8106081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106081",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5311, version 8106081-2024-01-16"
+  },
+  "course-8106111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106111",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5511, version 8106111-2023-09-05"
+  },
+  "course-0092671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092671",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 4131, version 0092671-2024-09-03"
+  },
+  "course-0142901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0142901",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 3021, version 0142901-2024-05-13"
+  },
+  "course-8155901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8155901",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 3022, version 8155901-2020-05-18"
+  },
+  "course-0029451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029451",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 4331, version 0029451-2017-09-05"
+  },
+  "course-0062711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062711",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 3022, version 0062711-2024-09-03"
+  },
+  "course-0094891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0094891",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 4003, version 0094891-2026-01-20"
+  },
+  "course-0086591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086591",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 3301, version 0086591-2025-09-02"
+  },
+  "course-0129761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129761",
+   "retrieved": "2026-11-23",
+   "section": "Course record VBS 2032, version 0129761-2015-01-20"
+  },
+  "course-8105991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8105991",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5012, version 8105991-2024-01-16"
+  },
+  "course-8106001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106001",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5013, version 8106001-2023-09-05"
+  },
+  "course-8106011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106011",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5111, version 8106011-2025-01-21"
+  },
+  "course-8106021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106021",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5112, version 8106021-2023-09-05"
+  },
+  "course-8106031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106031",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5113, version 8106031-2024-01-16"
+  },
+  "course-8106041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106041",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5211, version 8106041-2025-01-21"
+  },
+  "course-8106051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106051",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5212, version 8106051-2023-09-05"
+  },
+  "course-8106061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106061",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5213, version 8106061-2023-09-05"
+  },
+  "course-8106071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106071",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5214, version 8106071-2023-09-05"
+  },
+  "course-8106091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106091",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5312, version 8106091-2023-09-05"
+  },
+  "course-8106101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106101",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5313, version 8106101-2025-01-21"
+  },
+  "course-8106161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106161",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5513, version 8106161-2023-09-05"
+  },
+  "course-8106171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106171",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5514, version 8106171-2023-09-05"
+  },
+  "course-8106331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106331",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5014W, version 8106331-2023-09-05"
+  },
+  "course-8106181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106181",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5701, version 8106181-2023-09-05"
+  },
+  "course-8106201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5702, version 8106201-2023-09-05"
+  },
+  "course-8106211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106211",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5703, version 8106211-2023-09-05"
+  },
+  "course-8106221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106221",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5704, version 8106221-2023-09-05"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8152521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1081, version 8152521-2024-09-03"
+  },
+  "course-8077581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077581",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1071H, version 8077581-2026-09-08"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-8077561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077561",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1062, version 8077561-2026-09-08"
+  },
+  "course-8152841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152841",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1082, version 8152841-2023-05-15"
+  },
+  "course-8077551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077551",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1072H, version 8077551-2025-01-21"
+  },
+  "course-8077541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077541",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1066, version 8077541-2026-09-08"
+  },
+  "course-8152831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152831",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1086, version 8152831-2025-01-21"
+  }
+ },
+ "courseSets": {
+  "set-aOOiFCTc": {
+   "codes": [
+    "BIOL 1009",
+    "BIOL 1009H",
+    "BIOL 1951",
+    "BIOL 1951H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-5R6sjkAU": {
+   "codes": [
+    "MATH 1142",
+    "MATH 1271",
+    "MATH 1371",
+    "MATH 1571H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-xfEPDzP9": {
+   "codes": [
+    "STAT 3011",
+    "EPSY 3264",
+    "STAT 3022",
+    "BIOL 3272"
+   ],
+   "sourceRef": "program"
+  },
+  "set-JU3fGzHN": {
+   "codes": [
+    "PHSL 3051",
+    "BIOL 3211",
+    "KIN 3385"
+   ],
+   "sourceRef": "program"
+  },
+  "set-2nBp23P7": {
+   "codes": [
+    "CHEM 2301",
+    "CHEM 2331H",
+    "CHEM 2302",
+    "CHEM 2332H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-V0h8iTIl": {
+   "codes": [
+    "MLSP 2022",
+    "MLSP 5011W",
+    "MLSP 5311",
+    "MLSP 5511",
+    "MICB 4131"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Q16iv7aF": {
+   "codes": [
+    "BIOC 3021",
+    "BIOC 3022",
+    "BIOC 4331"
+   ],
+   "sourceRef": "program"
+  },
+  "set-4HApDGBm": {
+   "codes": [
+    "GCD 3022",
+    "BIOL 4003"
+   ],
+   "sourceRef": "program"
+  },
+  "set-fSrBKJIE": {
+   "codes": [
+    "MICB 3301",
+    "VBS 2032"
+   ],
+   "sourceRef": "program"
+  },
+  "set-j1KhSjHA": {
+   "codes": [
+    "MLSP 5012",
+    "MLSP 5013",
+    "MLSP 5111",
+    "MLSP 5112",
+    "MLSP 5113",
+    "MLSP 5211",
+    "MLSP 5212",
+    "MLSP 5213",
+    "MLSP 5214",
+    "MLSP 5312",
+    "MLSP 5313",
+    "MLSP 5513",
+    "MLSP 5514"
+   ],
+   "sourceRef": "program"
+  },
+  "set-YG1tkthM": {
+   "codes": [
+    "MLSP 5014W",
+    "MLSP 5701",
+    "MLSP 5702",
+    "MLSP 5703",
+    "MLSP 5704"
+   ],
+   "sourceRef": "program"
+  },
+  "set-4tssPgr7": {
+   "codes": [
+    "MLSP 5011W",
+    "MLSP 5014W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-3A1toRPy": {
+   "codes": [
+    "CHEM 1061",
+    "CHEM 1081",
+    "CHEM 1071H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-MUJDYgEc": {
+   "codes": [
+    "CHEM 1062",
+    "CHEM 1082",
+    "CHEM 1072H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qxjJIC1K": {
+   "codes": [
+    "CHEM 1066",
+    "CHEM 1086"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ePyGFAtX": {
+   "codes": [
+    "BIOL 1009",
+    "BIOL 1951",
+    "BIOL 1009H",
+    "BIOL 1951H",
+    "MATH 1142",
+    "MATH 1271",
+    "MATH 1371",
+    "MATH 1571H",
+    "STAT 3011",
+    "EPSY 3264",
+    "STAT 3022",
+    "BIOL 3272"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "BIOC 3021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biochemistry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0142901"
+   },
+   "sourceRef": "course-0142901"
+  },
+  "BIOC 3022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biochemistry for Life Scientists",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CHEM 2301 or CHEM 2081/2085 or equivalent"
+    },
+    "sourceRef": "course-8155901"
+   },
+   "sourceRef": "course-8155901"
+  },
+  "BIOC 4331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biochemistry I: Structure, Catalysis, and Metabolism in Biological Systems",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(BIOL 1009 or 2003 or equiv) AND (Chem 2302 or CHEM 2081/2085 or equiv)"
+    },
+    "sourceRef": "course-0029451"
+   },
+   "sourceRef": "course-0029451"
+  },
+  "BIOL 1009": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054161"
+   },
+   "sourceRef": "course-0054161"
+  },
+  "BIOL 1009H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7908161"
+   },
+   "sourceRef": "course-7908161"
+  },
+  "BIOL 1951": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lecture I for Biological Sciences Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171961"
+   },
+   "sourceRef": "course-8171961"
+  },
+  "BIOL 1951H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lecture I for Biological Sciences Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171881"
+   },
+   "sourceRef": "course-8171881"
+  },
+  "BIOL 3211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Physiology of Humans and Other Animals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1009 or 2003], [CHEM 1062/1066 or 1082/1086], [2005 is recommended]"
+    },
+    "sourceRef": "course-0130771"
+   },
+   "sourceRef": "course-0130771"
+  },
+  "BIOL 3272": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Biostatistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra; BIOL 2003 recommended"
+    },
+    "sourceRef": "course-8066611"
+   },
+   "sourceRef": "course-8066611"
+  },
+  "BIOL 4003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Genetics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Biol 2003/2003H or BioC 3021 or BioC 4331 or grad"
+    },
+    "sourceRef": "course-0094891"
+   },
+   "sourceRef": "course-0094891"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1062": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in 1061 or equiv, concurrent registration is required (or allowed) in 1066; registration for 1066 must precede registration for 1062"
+    },
+    "sourceRef": "course-8077561"
+   },
+   "sourceRef": "course-8077561"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "CHEM 1066": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles II Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1062, 1072, 1072H"
+    },
+    "sourceRef": "course-8077541"
+   },
+   "sourceRef": "course-8077541"
+  },
+  "CHEM 1071H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8077581"
+   },
+   "sourceRef": "course-8077581"
+  },
+  "CHEM 1072H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Chemistry II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student or permission of University Honors Program."
+    },
+    "sourceRef": "course-8077551"
+   },
+   "sourceRef": "course-8077551"
+  },
+  "CHEM 1081": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8152521"
+   },
+   "sourceRef": "course-8152521"
+  },
+  "CHEM 1082": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8152841"
+   },
+   "sourceRef": "course-8152841"
+  },
+  "CHEM 1086": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences II Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "grade of a C- or better in CHEM 1081 or 1061 or 1071H and CHEM 1065 (lab). Concurrent registration in CHEM 1082 is required."
+    },
+    "sourceRef": "course-8152831"
+   },
+   "sourceRef": "course-8152831"
+  },
+  "CHEM 2081": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences III",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "grade of a C- or better in CHEM 1082 (lecture) and CHEM 1086 (lab)"
+    },
+    "sourceRef": "course-8152861"
+   },
+   "sourceRef": "course-8152861"
+  },
+  "CHEM 2301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Organic Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "C- or better in CHEM 1062/1072/1072H or equivalent"
+    },
+    "sourceRef": "course-0023921"
+   },
+   "sourceRef": "course-0023921"
+  },
+  "CHEM 2302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Organic Chemistry II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in 2301"
+    },
+    "sourceRef": "course-0023931"
+   },
+   "sourceRef": "course-0023931"
+  },
+  "CHEM 2331H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Elementary Organic Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least B+ in 1072H, honors student or instructor consent"
+    },
+    "sourceRef": "course-8081851"
+   },
+   "sourceRef": "course-8081851"
+  },
+  "CHEM 2332H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Elementary Organic Chemistry II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least C- in 2331H, UHP student"
+    },
+    "sourceRef": "course-8081861"
+   },
+   "sourceRef": "course-8081861"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "GCD 3022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Genetics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062711"
+   },
+   "sourceRef": "course-0062711"
+  },
+  "KIN 3385": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Physiology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[KIN 3027 or ANAT 3001 or ANAT 3601 or ANAT 3611 or ANAT 3651 or ANAT 3658H ] and [Kin or Physical Activity and Health Promotion Major] or instr consent"
+    },
+    "sourceRef": "course-0052701"
+   },
+   "sourceRef": "course-0052701"
+  },
+  "MATH 1142": {
+   "catalogTerm": "Fall 2026",
+   "title": "Short Calculus",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]"
+    },
+    "sourceRef": "course-0001191"
+   },
+   "sourceRef": "course-0001191"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "MATH 1371": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0036921"
+   },
+   "sourceRef": "course-0036921"
+  },
+  "MATH 1571H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0036961"
+   },
+   "sourceRef": "course-0036961"
+  },
+  "MICB 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biology of Microorganisms",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Biol 1961 and Biol 2003] or Biol 1009 or instructor permission"
+    },
+    "sourceRef": "course-0086591"
+   },
+   "sourceRef": "course-0086591"
+  },
+  "MICB 4131": {
+   "catalogTerm": "Fall 2026",
+   "title": "Immunology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Biol 2003 or Biol 1009 and [Junior or senior]"
+    },
+    "sourceRef": "course-0092671"
+   },
+   "sourceRef": "course-0092671"
+  },
+  "MLSP 2022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cracking the Code: The Crucial Role of Laboratories in Diagnosing and Understanding Diseases",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8270901"
+   },
+   "sourceRef": "course-8270901"
+  },
+  "MLSP 5011W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Professional Issues in the Health Care Community",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8107931"
+   },
+   "sourceRef": "course-8107931"
+  },
+  "MLSP 5012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Educational Methods and Interprofessional Practice",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8105991"
+   },
+   "sourceRef": "course-8105991"
+  },
+  "MLSP 5013": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scholarly Inquiry and Analysis in Medical Laboratory Sciences",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106001"
+   },
+   "sourceRef": "course-8106001"
+  },
+  "MLSP 5014W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Laboratory Operations and Management in Health Care Systems",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106331"
+   },
+   "sourceRef": "course-8106331"
+  },
+  "MLSP 5111": {
+   "catalogTerm": "Fall 2026",
+   "title": "Concepts of Diagnostic Microbiology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106011"
+   },
+   "sourceRef": "course-8106011"
+  },
+  "MLSP 5112": {
+   "catalogTerm": "Fall 2026",
+   "title": "Application of Diagnostic Microbiology Principles",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106021"
+   },
+   "sourceRef": "course-8106021"
+  },
+  "MLSP 5113": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Concepts in Diagnostic Microbiology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106031"
+   },
+   "sourceRef": "course-8106031"
+  },
+  "MLSP 5211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals in Hematology and Hemostasis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106041"
+   },
+   "sourceRef": "course-8106041"
+  },
+  "MLSP 5212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Application of Hematology & Hemostasis Principles",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106051"
+   },
+   "sourceRef": "course-8106051"
+  },
+  "MLSP 5213": {
+   "catalogTerm": "Fall 2026",
+   "title": "Diagnostic Hematology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106061"
+   },
+   "sourceRef": "course-8106061"
+  },
+  "MLSP 5214": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Hematology Morphology",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106071"
+   },
+   "sourceRef": "course-8106071"
+  },
+  "MLSP 5311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamental Biomedical Laboratory Techniques",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106081"
+   },
+   "sourceRef": "course-8106081"
+  },
+  "MLSP 5312": {
+   "catalogTerm": "Fall 2026",
+   "title": "Body Fluid Analysis",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106091"
+   },
+   "sourceRef": "course-8106091"
+  },
+  "MLSP 5313": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Analysis in Health and Disease",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BioC 3021 or equivalent"
+    },
+    "sourceRef": "course-8106101"
+   },
+   "sourceRef": "course-8106101"
+  },
+  "MLSP 5511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Immunobiology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106111"
+   },
+   "sourceRef": "course-8106111"
+  },
+  "MLSP 5513": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transfusion Medicine Principles and Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106161"
+   },
+   "sourceRef": "course-8106161"
+  },
+  "MLSP 5514": {
+   "catalogTerm": "Fall 2026",
+   "title": "Application of Transfusion Medicine Principles",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106171"
+   },
+   "sourceRef": "course-8106171"
+  },
+  "MLSP 5701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Clinical Experience in Microbiology",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106181"
+   },
+   "sourceRef": "course-8106181"
+  },
+  "MLSP 5702": {
+   "catalogTerm": "Fall 2026",
+   "title": "Clinical Experience in Hematology and Hemostasis",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106201"
+   },
+   "sourceRef": "course-8106201"
+  },
+  "MLSP 5703": {
+   "catalogTerm": "Fall 2026",
+   "title": "Clinical Experience in Clinical Chemistry and Urinalysis",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106211"
+   },
+   "sourceRef": "course-8106211"
+  },
+  "MLSP 5704": {
+   "catalogTerm": "Fall 2026",
+   "title": "Clinical Experience in Transfusion Medicine",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106221"
+   },
+   "sourceRef": "course-8106221"
+  },
+  "PHSL 3051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Physiology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1009 or 1 yr college biol], 1 yr college chem"
+    },
+    "sourceRef": "course-0105661"
+   },
+   "sourceRef": "course-0105661"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "STAT 3022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3011"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3021"
+      },
+      {
+       "type": "course",
+       "course_code": "SOC 3811"
+      },
+      {
+       "type": "course",
+       "course_code": "BA 2551"
+      }
+     ]
+    },
+    "sourceRef": "course-0016211"
+   },
+   "sourceRef": "course-0016211"
+  },
+  "VBS 2032": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Microbiology With Laboratory",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One semester each of college chemistry, biology"
+    },
+    "sourceRef": "course-0129761"
+   },
+   "sourceRef": "course-0129761"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-F4TWWSRb",
+   "label": "Preparatory Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-F4TWWSRb",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-aOOiFCTc",
+      "type": "credits",
+      "courseSet": "set-aOOiFCTc",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Biology"
+     },
+     {
+      "id": "r-5R6sjkAU",
+      "type": "credits",
+      "courseSet": "set-5R6sjkAU",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Math"
+     },
+     {
+      "id": "r-xfEPDzP9",
+      "type": "credits",
+      "courseSet": "set-xfEPDzP9",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Statistics"
+     },
+     {
+      "id": "r-JU3fGzHN",
+      "type": "credits",
+      "courseSet": "set-JU3fGzHN",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Human Physiology"
+     },
+     {
+      "id": "r-wuFg3J8s",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-2nBp23P7",
+        "type": "credits",
+        "courseSet": "set-2nBp23P7",
+        "minCredits": 6,
+        "sourceRef": "program",
+        "label": "Organic Chemistry - Option 1"
+       },
+       {
+        "id": "r-QQ3frLCi",
+        "type": "course",
+        "code": "CHEM 2081",
+        "sourceRef": "program",
+        "label": "Organic Chemistry - Option 2"
+       }
+      ],
+      "label": "Organic Chemistry"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-wSdwnvod",
+   "label": "Pre-Professional Year/Foundational Courses (Sophomore/Junior Years)",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-wSdwnvod",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-V0h8iTIl",
+      "type": "credits",
+      "courseSet": "set-V0h8iTIl",
+      "minCredits": 9,
+      "sourceRef": "program",
+      "label": "MLSP Foundational Courses"
+     },
+     {
+      "id": "r-Q16iv7aF",
+      "type": "credits",
+      "courseSet": "set-Q16iv7aF",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Biochemistry"
+     },
+     {
+      "id": "r-4HApDGBm",
+      "type": "credits",
+      "courseSet": "set-4HApDGBm",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Genetics"
+     },
+     {
+      "id": "r-fSrBKJIE",
+      "type": "credits",
+      "courseSet": "set-fSrBKJIE",
+      "minCredits": 5,
+      "sourceRef": "program",
+      "label": "Microbiology"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-t7fXBQvL",
+   "label": "Professional Year Courses (Senior Year)",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-j1KhSjHA",
+    "type": "credits",
+    "courseSet": "set-j1KhSjHA",
+    "minCredits": 28,
+    "sourceRef": "program",
+    "label": "Professional Year Courses (Senior Year)"
+   }
+  },
+  {
+   "id": "g-USEmDJSJ",
+   "label": "Clinical Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-YG1tkthM",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-YG1tkthM-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-YG1tkthM-g1-1",
+        "type": "course",
+        "code": "MLSP 5014W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-YG1tkthM-g2-1",
+        "type": "course",
+        "code": "MLSP 5701",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-YG1tkthM-g3-1",
+        "type": "course",
+        "code": "MLSP 5702",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-YG1tkthM-g4-1",
+        "type": "course",
+        "code": "MLSP 5703",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-YG1tkthM-g5-1",
+        "type": "course",
+        "code": "MLSP 5704",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-YG1tkthM-credits",
+      "type": "credits",
+      "minCredits": 10,
+      "courseSet": "set-YG1tkthM",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Clinical Courses"
+   }
+  },
+  {
+   "id": "g-NLIFC5lI",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-4tssPgr7",
+    "type": "count",
+    "courseSet": "set-4tssPgr7",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-y0vUA6iV",
+   "label": "Basic Requirements: Chemistry",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-y0vUA6iV",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-3A1toRPy",
+      "type": "credits",
+      "courseSet": "set-3A1toRPy",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Chemistry Principles I - Lecture"
+     },
+     {
+      "id": "r-CPRzMlZr",
+      "type": "course",
+      "code": "CHEM 1065",
+      "sourceRef": "program",
+      "label": "Chemistry Principles I - Lab"
+     },
+     {
+      "id": "r-MUJDYgEc",
+      "type": "credits",
+      "courseSet": "set-MUJDYgEc",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Chemistry Principles II - Lecture"
+     },
+     {
+      "id": "r-qxjJIC1K",
+      "type": "credits",
+      "courseSet": "set-qxjJIC1K",
+      "minCredits": 1,
+      "sourceRef": "program",
+      "label": "Chemistry Principles II - Lab"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-iRZaT9QV",
+   "label": "Basic Requirements: Math, Biology or Statistics",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ePyGFAtX",
+    "type": "credits",
+    "courseSet": "set-ePyGFAtX",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Basic Requirements: Math, Biology or Statistics"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Requirements for ALL MLS BS Learners: Cumulative and prerequisite GPA must be \u2265 2.75 upon admission.\nStudents must comply with the Technical Standard (Essential Functions) requirements of the program.\nAdmitted students are required to pass a criminal background check and submit proof of immunizations required for University of Minnesota Academic Health Science students. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students will work with their Academic Advisor on course sequencing and planning.\nAll students must have liberal education requirements completed by the end of the spring semester before beginning the Year 4 curriculum.\nIn accordance with Minnesota law, a criminal background check is required of each student before clinical courses. The program arranges this background check.\nStudents are placed in a variety of clinical settings during their clinical coursework which may be in Minnesota or surrounding states.\nStudents are required to submit an exit survey as a condition of completion of the program.\nAt least 32 upper division credits must be taken on the University of Minnesota Twin Cities campus.\nA sample plan is available. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

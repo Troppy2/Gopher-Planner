@@ -1,0 +1,147 @@
+{
+ "schemaVersion": 2,
+ "id": "inter-college-program-bs",
+ "name": "Inter-College Program B.S.",
+ "officialName": "Inter-College Program B.S.",
+ "officialProgramId": "203720118",
+ "catalogTerm": "Spring 2027",
+ "totalCredits": 120,
+ "source": "Inter-College Program B.S., revision 203720118-2027-01-19, https://umtc.catalog.prod.coursedog.com/programs/203720118, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/203720118",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 203720118-2027-01-19"
+  },
+  "course-8102251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8102251",
+   "retrieved": "2026-11-23",
+   "section": "Course record ICP 3101W, version 8102251-2022-01-18"
+  },
+  "course-8269231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8269231",
+   "retrieved": "2026-11-23",
+   "section": "Course record ICP 4101, version 8269231-2024-01-16"
+  }
+ },
+ "courseSets": {},
+ "courseMetadata": {
+  "ICP 3101W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Proposal Development",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Admission to the Inter-College Program or Health and Wellbeing Sciences major"
+    },
+    "sourceRef": "course-8102251"
+   },
+   "sourceRef": "course-8102251"
+  },
+  "ICP 4101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Senior Experience",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8269231"
+   },
+   "sourceRef": "course-8269231"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-203720118",
+   "label": "Program Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-203720118",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-408483",
+      "type": "course",
+      "code": "ICP 3101W",
+      "sourceRef": "program",
+      "label": "ICP Proposal Development Requirement"
+     },
+     {
+      "id": "r-408484",
+      "type": "course",
+      "code": "ICP 3101W",
+      "sourceRef": "program",
+      "label": "Upper Division Writing Intensive in the major"
+     },
+     {
+      "id": "r-408485",
+      "type": "course",
+      "code": "ICP 4101",
+      "sourceRef": "program",
+      "label": "Inter-College Program Career Readiness Requirement"
+     },
+     {
+      "id": "r-408486",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Earn at least 50 credits from the following: Verify this requirement with your advisor or APAS.",
+      "label": "Two Area Cross-College Program"
+     },
+     {
+      "id": "r-408487",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Earn at least 50 credits from the following: Verify this requirement with your advisor or APAS.",
+      "label": "Three Area Cross-College Program"
+     },
+     {
+      "id": "r-408488",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Earn at least 50 credits from the following: Verify this requirement with your advisor or APAS.",
+      "label": "Thematic Cross-College Program"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students must earn 50 upper division credits in the degree. At least half of the upper division credits required for the major must be taken at University of Minnesota-Twin Cities. (25 crs).\nAll degree-seeking students must complete the University's Liberal Education requirements . Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students are considered for admission based on a review of their application. The review includes factors such as GPA, grade trends, performance in coursework relevant to proposed areas of study, and demonstrated ability to meet curricular and developmental expectations of individualized undergraduate education. Students must have attended a program information session and an initial degree planning appointment with an advisor.\nPreferred benchmarks are 2.50 GPA and 50 semester credits completed.\nStudents must develop a degree plan that includes\n* Academic and career goals.\n* Courses proposed for the program, from at least two colleges.\n* Approval of the plan from at least two faculty or departmental advisers. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

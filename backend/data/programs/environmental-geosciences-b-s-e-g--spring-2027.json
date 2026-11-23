@@ -1,0 +1,2664 @@
+{
+ "schemaVersion": 2,
+ "id": "environmental-geosciences-b-s-e-g",
+ "name": "Environmental Geosciences B S E G",
+ "officialName": "Environmental Geosciences B S E G",
+ "officialProgramId": "02652A107",
+ "catalogTerm": "Spring 2027",
+ "totalCredits": 120,
+ "source": "Environmental Geosciences B S E G, revision 02652A107-2027-01-19, https://umtc.catalog.prod.coursedog.com/programs/02652A107, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/02652A107",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 02652A107-2027-01-19"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0016221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016221",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3021, version 0016221-2025-01-21"
+  },
+  "course-0016211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016211",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3022, version 0016211-2025-09-02"
+  },
+  "course-0039521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039521",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 2201, version 0039521-2015-01-20"
+  },
+  "course-0039551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039551",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 3303W, version 0039551-2021-09-07"
+  },
+  "course-0053901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4203, version 0053901-2018-09-04"
+  },
+  "course-0039581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039581",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4501, version 0039581-2022-09-06"
+  },
+  "course-0039591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4602, version 0039591-2022-01-18"
+  },
+  "course-0053971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053971",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4701, version 0053971-2019-09-03"
+  },
+  "course-8015941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015941",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4702, version 8015941-2017-01-17"
+  },
+  "course-8038671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8038671",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4801, version 8038671-2023-01-17"
+  },
+  "course-8177451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8177451",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 5805, version 8177451-2025-01-21"
+  },
+  "course-0065781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065781",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOIL 2125, version 0065781-2016-05-23"
+  },
+  "course-0054071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4401, version 0054071-2017-01-17"
+  },
+  "course-8257051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8257051",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4404, version 8257051-2022-01-18"
+  },
+  "course-0071661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0071661",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3561, version 0071661-2024-01-16"
+  },
+  "course-0048841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048841",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 3131, version 0048841-2023-09-05"
+  },
+  "course-0052151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052151",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 5601, version 0052151-2015-01-20"
+  },
+  "course-8038651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8038651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 2202, version 8038651-2024-01-16"
+  },
+  "course-8048951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8048951",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 2203, version 8048951-2020-09-08"
+  },
+  "course-0039541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 2302, version 0039541-2020-09-08"
+  },
+  "course-0053781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053781",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 3002, version 0053781-2011-09-06"
+  },
+  "course-0053821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053821",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 3005, version 0053821-2015-01-20"
+  },
+  "course-0053831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 3006, version 0053831-2020-01-21"
+  },
+  "course-0062731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062731",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 3093, version 0062731-2020-01-21"
+  },
+  "course-0039561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039561",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 3202, version 0039561-2026-09-08"
+  },
+  "course-8024171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8024171",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 3402, version 8024171-2021-01-19"
+  },
+  "course-0053861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053861",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 3890, version 0053861-2024-05-13"
+  },
+  "course-8183671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8183671",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 3896, version 8183671-2018-09-04"
+  },
+  "course-0062751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062751",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4093, version 0062751-2025-01-21"
+  },
+  "course-0062761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062761",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4094, version 0062761-2015-01-20"
+  },
+  "course-7926141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7926141",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4102W, version 7926141-2015-01-20"
+  },
+  "course-7941771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7941771",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4103W, version 7941771-2011-09-06"
+  },
+  "course-8202541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8202541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4104, version 8202541-2020-09-08"
+  },
+  "course-0053911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053911",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4204, version 0053911-2015-01-20"
+  },
+  "course-0053851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053851",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4212, version 0053851-2021-01-19"
+  },
+  "course-7983891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7983891",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4402, version 7983891-2020-09-08"
+  },
+  "course-0053951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053951",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4502, version 0053951-2015-01-20"
+  },
+  "course-0053991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053991",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4703, version 0053991-2024-01-16"
+  },
+  "course-0054031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 5201, version 0054031-2015-01-20"
+  },
+  "course-0054061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054061",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 5203, version 0054061-2015-01-20"
+  },
+  "course-7974001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974001",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 5204, version 7974001-2015-01-20"
+  },
+  "course-0054081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054081",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 5302, version 0054081-2015-01-20"
+  },
+  "course-8031631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8031631",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 5503, version 8031631-2015-01-20"
+  },
+  "course-0053981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053981",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 5705, version 0053981-2015-01-20"
+  },
+  "course-8064351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064351",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 5980, version 8064351-2026-09-08"
+  },
+  "course-8053571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8053571",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3425, version 8053571-2020-09-08"
+  },
+  "course-0042261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042261",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 3501, version 0042261-2026-01-20"
+  },
+  "course-0045501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045501",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 4562, version 0045501-2021-09-07"
+  },
+  "course-8055071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8055071",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 5511, version 8055071-2019-09-03"
+  },
+  "course-0045591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045591",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 5541, version 0045591-2021-09-07"
+  },
+  "course-0036691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036691",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1113, version 0036691-2024-09-03"
+  },
+  "course-8096661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096661",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133, version 8096661-2024-09-03"
+  },
+  "course-8110721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8110721",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133H, version 8110721-2023-09-05"
+  },
+  "course-0097361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0097361",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3211, version 0097361-2024-01-16"
+  },
+  "course-0055321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0055321",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 3521, version 0055321-2023-09-05"
+  },
+  "course-0036951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036951",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2374, version 0036951-2021-05-17"
+  },
+  "course-0002821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002821",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2263, version 0002821-2021-05-17"
+  },
+  "course-0036981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036981",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2573H, version 0036981-2023-09-05"
+  },
+  "course-7991841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7991841",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2472, version 7991841-2021-05-17"
+  },
+  "course-0148631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148631",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2473, version 0148631-2021-05-17"
+  },
+  "course-8145241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8145241",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3032, version 8145241-2024-09-03"
+  },
+  "course-0093181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3011W, version 0093181-2017-01-17"
+  },
+  "course-0082071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3241W, version 0082071-2011-01-18"
+  },
+  "course-0053691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053691",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3261, version 0053691-2024-01-16"
+  },
+  "course-0093761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093761",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSCI 3244, version 0093761-2017-09-05"
+  },
+  "course-0092941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092941",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSCI 3401, version 0092941-2025-09-02"
+  },
+  "course-7901791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7901791",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3301, version 7901791-2021-05-17"
+  },
+  "course-0030241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0030241",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3152W, version 0030241-2026-09-08"
+  },
+  "course-0026261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026261",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3315, version 0026261-2021-05-17"
+  },
+  "course-8191271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8191271",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSCI 1585, version 8191271-2019-09-03"
+  },
+  "course-8152551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152551",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCC 5008, version 8152551-2019-05-20"
+  },
+  "course-8079501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8079501",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3312, version 8079501-2026-09-08"
+  },
+  "course-8101861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101861",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3602, version 8101861-2026-09-08"
+  },
+  "course-0101961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0101961",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3711, version 0101961-2013-09-03"
+  },
+  "course-7922831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922831",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3872, version 7922831-2015-01-20"
+  },
+  "course-8197611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197611",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3014, version 8197611-2020-09-08"
+  },
+  "course-0000391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0000391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AST 1001, version 0000391-2026-09-08"
+  },
+  "course-0000431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0000431",
+   "retrieved": "2026-11-23",
+   "section": "Course record AST 2001, version 0000431-2024-09-03"
+  },
+  "course-7905411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 2503, version 7905411-2024-01-16"
+  },
+  "course-0023921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023921",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2301, version 0023921-2026-09-08"
+  },
+  "course-0023931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023931",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2302, version 0023931-2015-09-08"
+  },
+  "course-0023951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023951",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2311, version 0023951-2019-09-03"
+  },
+  "course-0054001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054001",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4911, version 0054001-2015-01-20"
+  },
+  "course-0054021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054021",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 4971W, version 0054021-2015-01-20"
+  },
+  "course-0074021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074021",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3401W, version 0074021-2024-01-16"
+  },
+  "course-0036921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036921",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1371, version 0036921-2025-09-02"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0036961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "course-0148561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148561",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1471, version 0148561-2021-05-17"
+  },
+  "course-0036931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036931",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1372, version 0036931-2021-05-17"
+  },
+  "course-0001211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001211",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1272, version 0001211-2021-09-07"
+  },
+  "course-0036971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1572H, version 0036971-2023-09-05"
+  },
+  "course-0148611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148611",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1472, version 0148611-2021-05-17"
+  },
+  "course-8271261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271261",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1071, version 8271261-2026-09-08"
+  },
+  "course-8077581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077581",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1071H, version 8077581-2026-09-08"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8152521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1081, version 8152521-2024-09-03"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-0020701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020701",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1301W, version 0020701-2022-05-16"
+  },
+  "course-0020731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020731",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1401V, version 0020731-2023-09-05"
+  },
+  "course-8179641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179641",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1221, version 8179641-2021-05-17"
+  },
+  "course-0039531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 2301, version 0039531-2015-01-20"
+  }
+ },
+ "courseSets": {
+  "set-AcpfbZnP": {
+   "codes": [
+    "STAT 3011",
+    "STAT 3021",
+    "STAT 3022"
+   ],
+   "sourceRef": "program"
+  },
+  "set-GrJxCNNH": {
+   "codes": [
+    "ESCI 2201",
+    "ESCI 3303W",
+    "ESCI 4203",
+    "ESCI 4501",
+    "ESCI 4602",
+    "ESCI 4701",
+    "ESCI 4702",
+    "ESCI 4801",
+    "ESCI 5805",
+    "SOIL 2125"
+   ],
+   "sourceRef": "program"
+  },
+  "set-eabTqJIN": {
+   "codes": [
+    "ESCI 4401",
+    "ESCI 4404"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ZzlEjFTs": {
+   "codes": [
+    "GEOG 3561",
+    "FNRM 3131"
+   ],
+   "sourceRef": "program"
+  },
+  "set-N7IzYfyq": {
+   "codes": [
+    "EEB 5601",
+    "ESCI 2202",
+    "ESCI 2203",
+    "ESCI 2302",
+    "ESCI 3002",
+    "ESCI 3005",
+    "ESCI 3006",
+    "ESCI 3093",
+    "ESCI 3202",
+    "ESCI 3402",
+    "ESCI 3890",
+    "ESCI 3896",
+    "ESCI 4093",
+    "ESCI 4094",
+    "ESCI 4102W",
+    "ESCI 4103W",
+    "ESCI 4104",
+    "ESCI 4204",
+    "ESCI 4212",
+    "ESCI 4402",
+    "ESCI 4502",
+    "ESCI 4703",
+    "ESCI 5201",
+    "ESCI 5203",
+    "ESCI 5204",
+    "ESCI 5302",
+    "ESCI 5503",
+    "ESCI 5705",
+    "ESCI 5980",
+    "ESPM 3425",
+    "CEGE 3501",
+    "CEGE 4562",
+    "CEGE 5511",
+    "CEGE 5541",
+    "CSCI 1113",
+    "CSCI 1133",
+    "CSCI 1133H",
+    "ESPM 3211",
+    "IE 3521",
+    "MATH 2374",
+    "MATH 2263",
+    "MATH 2573H",
+    "MATH 2472",
+    "MATH 2473",
+    "STAT 3021",
+    "STAT 3022",
+    "STAT 3032",
+    "ESPM 3011W",
+    "ESPM 3241W",
+    "ESPM 3261",
+    "HSCI 3244",
+    "HSCI 3401",
+    "PHIL 3301",
+    "WRIT 3152W",
+    "WRIT 3315",
+    "FNRM 3131",
+    "GEOG 3561",
+    "HSCI 1585",
+    "GCC 5008",
+    "AMIN 3312",
+    "AMIN 3602",
+    "AMIN 3711",
+    "AMIN 3872",
+    "ESPM 3014",
+    "AST 1001",
+    "AST 2001",
+    "PHYS 2503",
+    "CHEM 2301",
+    "CHEM 2302",
+    "CHEM 2311"
+   ],
+   "sourceRef": "program"
+  },
+  "set-XcTH1AiW": {
+   "codes": [
+    "ESCI 4093",
+    "ESCI 4094",
+    "ESCI 4911",
+    "ESCI 4971W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-H31Q6Sij": {
+   "codes": [
+    "ESCI 3303W",
+    "ESCI 4102W",
+    "ESCI 4103W",
+    "ESCI 4971W",
+    "ESPM 3011W",
+    "GEOG 3401W",
+    "WRIT 3152W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-vo0rBRoY": {
+   "codes": [
+    "MATH 1371",
+    "MATH 1271",
+    "MATH 1571H",
+    "MATH 1471"
+   ],
+   "sourceRef": "program"
+  },
+  "set-tkcdw9xx": {
+   "codes": [
+    "MATH 1372",
+    "MATH 1272",
+    "MATH 1572H",
+    "MATH 1472"
+   ],
+   "sourceRef": "program"
+  },
+  "set-m8HDknhj": {
+   "codes": [
+    "CHEM 1071",
+    "CHEM 1071H",
+    "CHEM 1061",
+    "CHEM 1081",
+    "CHEM 1065"
+   ],
+   "sourceRef": "program"
+  },
+  "set-uBQtVuMs": {
+   "codes": [
+    "PHYS 1301W",
+    "PHYS 1401V",
+    "PHYS 1221"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AMIN 3312": {
+   "catalogTerm": "Spring 2027",
+   "title": "American Indian Environmental Issues and Ecological Perspectives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8079501"
+   },
+   "sourceRef": "course-8079501"
+  },
+  "AMIN 3602": {
+   "catalogTerm": "Spring 2027",
+   "title": "Archaeology and Native Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101861"
+   },
+   "sourceRef": "course-8101861"
+  },
+  "AMIN 3711": {
+   "catalogTerm": "Spring 2027",
+   "title": "Dakota Culture and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0101961"
+   },
+   "sourceRef": "course-0101961"
+  },
+  "AMIN 3872": {
+   "catalogTerm": "Spring 2027",
+   "title": "American Indian History: 1830 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922831"
+   },
+   "sourceRef": "course-7922831"
+  },
+  "AST 1001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Exploring the Universe",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0000391"
+   },
+   "sourceRef": "course-0000391"
+  },
+  "AST 2001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Fundamental Astrophysics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[One yr calculus, PHYS 1302] or instr consent"
+    },
+    "sourceRef": "course-0000431"
+   },
+   "sourceRef": "course-0000431"
+  },
+  "CEGE 3501": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Environmental Engineering",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Chem 1071 or equivalent,  CHEM 1072 or equivalent, Phys 1302W or equivalent, Math 1372 or equivalent"
+    },
+    "sourceRef": "course-0042261"
+   },
+   "sourceRef": "course-0042261"
+  },
+  "CEGE 4562": {
+   "catalogTerm": "Spring 2027",
+   "title": "Environmental Remediation Technologies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0045501"
+   },
+   "sourceRef": "course-0045501"
+  },
+  "CEGE 5511": {
+   "catalogTerm": "Spring 2027",
+   "title": "Urban Hydrology and Water Quality",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CEGE 4501or BBE 5513, upper division CSE or grad student or instructor consent"
+    },
+    "sourceRef": "course-8055071"
+   },
+   "sourceRef": "course-8055071"
+  },
+  "CEGE 5541": {
+   "catalogTerm": "Spring 2027",
+   "title": "Environmental Water Chemistry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CEGE 3501, Chem 1061, Chem 1062 or Chem 1071H/1072H, upper division CSE or grad student or instructor consent"
+    },
+    "sourceRef": "course-0045591"
+   },
+   "sourceRef": "course-0045591"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Spring 2027",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Spring 2027",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "CHEM 1071": {
+   "catalogTerm": "Spring 2027",
+   "title": "General Chemistry I for Physical Scientists and Engineers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "A strong understanding of College Algebra or Precalculus is recommended. Prerequisite: Concurrent registration is required (or allowed in) CHEM 1065; registration for 1065 must precede registration for 1071."
+    },
+    "sourceRef": "course-8271261"
+   },
+   "sourceRef": "course-8271261"
+  },
+  "CHEM 1071H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8077581"
+   },
+   "sourceRef": "course-8077581"
+  },
+  "CHEM 1081": {
+   "catalogTerm": "Spring 2027",
+   "title": "Chemistry for the Life Sciences I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8152521"
+   },
+   "sourceRef": "course-8152521"
+  },
+  "CHEM 2301": {
+   "catalogTerm": "Spring 2027",
+   "title": "Organic Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "C- or better in CHEM 1062/1072/1072H or equivalent"
+    },
+    "sourceRef": "course-0023921"
+   },
+   "sourceRef": "course-0023921"
+  },
+  "CHEM 2302": {
+   "catalogTerm": "Spring 2027",
+   "title": "Organic Chemistry II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in 2301"
+    },
+    "sourceRef": "course-0023931"
+   },
+   "sourceRef": "course-0023931"
+  },
+  "CHEM 2311": {
+   "catalogTerm": "Spring 2027",
+   "title": "Organic Lab",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in [2302] or [concurrent registration is required (or allowed) in 2302"
+    },
+    "sourceRef": "course-0023951"
+   },
+   "sourceRef": "course-0023951"
+  },
+  "CSCI 1113": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to C/C++ Programming for Scientists and Engineers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1271 or Math 1371 or Math 1571H or instr consent."
+    },
+    "sourceRef": "course-0036691"
+   },
+   "sourceRef": "course-0036691"
+  },
+  "CSCI 1133": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8096661"
+   },
+   "sourceRef": "course-8096661"
+  },
+  "CSCI 1133H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[concurrent registration is required (or allowed) in MATH 1271 or concurrent registration is required (or allowed) in MATH 1371 or concurrent registration is required (or allowed) in MATH 1571H], CSci majors, pre-majors in CSE/CLA, honors student"
+    },
+    "sourceRef": "course-8110721"
+   },
+   "sourceRef": "course-8110721"
+  },
+  "EEB 5601": {
+   "catalogTerm": "Spring 2027",
+   "title": "Limnology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-0052151"
+   },
+   "sourceRef": "course-0052151"
+  },
+  "ESCI 2201": {
+   "catalogTerm": "Spring 2027",
+   "title": "Solid Earth Dynamics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in PHYS 1301 or instr consent"
+    },
+    "sourceRef": "course-0039521"
+   },
+   "sourceRef": "course-0039521"
+  },
+  "ESCI 2202": {
+   "catalogTerm": "Spring 2027",
+   "title": "Earth History",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[2201, 2301] or instr consent"
+    },
+    "sourceRef": "course-8038651"
+   },
+   "sourceRef": "course-8038651"
+  },
+  "ESCI 2203": {
+   "catalogTerm": "Spring 2027",
+   "title": "Earth Surface Dynamics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8048951"
+   },
+   "sourceRef": "course-8048951"
+  },
+  "ESCI 2301": {
+   "catalogTerm": "Spring 2027",
+   "title": "Mineralogy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[concurrent registration is required (or allowed) in CHEM 1061, concurrent registration is required (or allowed) in CHEM 1065, concurrent registration is required (or allowed) in MATH 1271] or instr consent"
+    },
+    "sourceRef": "course-0039531"
+   },
+   "sourceRef": "course-0039531"
+  },
+  "ESCI 2302": {
+   "catalogTerm": "Spring 2027",
+   "title": "Petrology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2301 or instr consent"
+    },
+    "sourceRef": "course-0039541"
+   },
+   "sourceRef": "course-0039541"
+  },
+  "ESCI 3002": {
+   "catalogTerm": "Spring 2027",
+   "title": "Climate Change and Human History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053781"
+   },
+   "sourceRef": "course-0053781"
+  },
+  "ESCI 3005": {
+   "catalogTerm": "Spring 2027",
+   "title": "Earth Resources",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053821"
+   },
+   "sourceRef": "course-0053821"
+  },
+  "ESCI 3006": {
+   "catalogTerm": "Spring 2027",
+   "title": "Rocks and Stars: Introduction to Planetary Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "An interest in the solar system and planets."
+    },
+    "sourceRef": "course-0053831"
+   },
+   "sourceRef": "course-0053831"
+  },
+  "ESCI 3093": {
+   "catalogTerm": "Spring 2027",
+   "title": "Directed Studies in Earth & Environmental Sciences: Junior",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0062731"
+   },
+   "sourceRef": "course-0062731"
+  },
+  "ESCI 3202": {
+   "catalogTerm": "Spring 2027",
+   "title": "Fluid Earth Dynamics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039561"
+   },
+   "sourceRef": "course-0039561"
+  },
+  "ESCI 3303W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Geochemical Principles",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[concurrent registration is required (or allowed) in CHEM 1061, concurrent registration is required (or allowed) in CHEM 1065] or instr consent"
+    },
+    "sourceRef": "course-0039551"
+   },
+   "sourceRef": "course-0039551"
+  },
+  "ESCI 3402": {
+   "catalogTerm": "Spring 2027",
+   "title": "Science and Politics of Global Warming",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8024171"
+   },
+   "sourceRef": "course-8024171"
+  },
+  "ESCI 3890": {
+   "catalogTerm": "Spring 2027",
+   "title": "Field Workshop",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053861"
+   },
+   "sourceRef": "course-0053861"
+  },
+  "ESCI 3896": {
+   "catalogTerm": "Spring 2027",
+   "title": "Internship in Earth and Environmental Sciences",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8183671"
+   },
+   "sourceRef": "course-8183671"
+  },
+  "ESCI 4093": {
+   "catalogTerm": "Spring 2027",
+   "title": "Directed Studies in Earth & Environmental Sciences: Senior",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0062751"
+   },
+   "sourceRef": "course-0062751"
+  },
+  "ESCI 4094": {
+   "catalogTerm": "Spring 2027",
+   "title": "Senior Thesis",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Sr, Geo or ESci major, instr consent"
+    },
+    "sourceRef": "course-0062761"
+   },
+   "sourceRef": "course-0062761"
+  },
+  "ESCI 4102W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Vertebrate Paleontology: Evolutionary History and Fossil Records of Vertebrates",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or 1002 or Biol 1001 or Biol 1002 or Biol 1009 or instr consent"
+    },
+    "sourceRef": "course-7926141"
+   },
+   "sourceRef": "course-7926141"
+  },
+  "ESCI 4103W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Fossil Record of Mammals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7941771"
+   },
+   "sourceRef": "course-7941771"
+  },
+  "ESCI 4104": {
+   "catalogTerm": "Spring 2027",
+   "title": "Evolution and Paleobiology of Fossil Reptiles",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8202541"
+   },
+   "sourceRef": "course-8202541"
+  },
+  "ESCI 4203": {
+   "catalogTerm": "Spring 2027",
+   "title": "Environmental Geophysics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "PHYS 1301"
+    },
+    "sourceRef": "course-0053901"
+   },
+   "sourceRef": "course-0053901"
+  },
+  "ESCI 4204": {
+   "catalogTerm": "Spring 2027",
+   "title": "Geomagnetism and Paleomagnetism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2201, Phys 1302, Math 1272 or instr consent"
+    },
+    "sourceRef": "course-0053911"
+   },
+   "sourceRef": "course-0053911"
+  },
+  "ESCI 4212": {
+   "catalogTerm": "Spring 2027",
+   "title": "Geodynamics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053851"
+   },
+   "sourceRef": "course-0053851"
+  },
+  "ESCI 4401": {
+   "catalogTerm": "Spring 2027",
+   "title": "Aqueous Environmental Geochemistry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054071"
+   },
+   "sourceRef": "course-0054071"
+  },
+  "ESCI 4402": {
+   "catalogTerm": "Spring 2027",
+   "title": "Biogeochemical Cycles in the Ocean",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[CHEM 1021, CHEM 1022] or instr consent"
+    },
+    "sourceRef": "course-7983891"
+   },
+   "sourceRef": "course-7983891"
+  },
+  "ESCI 4404": {
+   "catalogTerm": "Spring 2027",
+   "title": "Analytical geochemistry for aqueous solutions and geological materials",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8257051"
+   },
+   "sourceRef": "course-8257051"
+  },
+  "ESCI 4501": {
+   "catalogTerm": "Spring 2027",
+   "title": "Structural Geology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039581"
+   },
+   "sourceRef": "course-0039581"
+  },
+  "ESCI 4502": {
+   "catalogTerm": "Spring 2027",
+   "title": "Tectonic Styles",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4501 or instr consent"
+    },
+    "sourceRef": "course-0053951"
+   },
+   "sourceRef": "course-0053951"
+  },
+  "ESCI 4602": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sedimentology and Stratigraphy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ESci 2301 or instr consent"
+    },
+    "sourceRef": "course-0039591"
+   },
+   "sourceRef": "course-0039591"
+  },
+  "ESCI 4701": {
+   "catalogTerm": "Spring 2027",
+   "title": "Geomorphology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053971"
+   },
+   "sourceRef": "course-0053971"
+  },
+  "ESCI 4702": {
+   "catalogTerm": "Spring 2027",
+   "title": "General Hydrogeology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[concurrent registration is required (or allowed) in CHEM 1062, concurrent registration is required (or allowed) in CHEM 1066, MATH 1271, PHYS 1201] or instr consent"
+    },
+    "sourceRef": "course-8015941"
+   },
+   "sourceRef": "course-8015941"
+  },
+  "ESCI 4703": {
+   "catalogTerm": "Spring 2027",
+   "title": "Glacial Geology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or instr consent"
+    },
+    "sourceRef": "course-0053991"
+   },
+   "sourceRef": "course-0053991"
+  },
+  "ESCI 4801": {
+   "catalogTerm": "Spring 2027",
+   "title": "Geomicrobiology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8038671"
+   },
+   "sourceRef": "course-8038671"
+  },
+  "ESCI 4911": {
+   "catalogTerm": "Spring 2027",
+   "title": "Advanced Field Geology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3911, instr consent"
+    },
+    "sourceRef": "course-0054001"
+   },
+   "sourceRef": "course-0054001"
+  },
+  "ESCI 4971W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Field Hydrogeology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0054021"
+   },
+   "sourceRef": "course-0054021"
+  },
+  "ESCI 5201": {
+   "catalogTerm": "Spring 2027",
+   "title": "Time-Series Analysis of Geological Phenomena",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 2263 or instr consent"
+    },
+    "sourceRef": "course-0054031"
+   },
+   "sourceRef": "course-0054031"
+  },
+  "ESCI 5203": {
+   "catalogTerm": "Spring 2027",
+   "title": "Mineral and Rock Physics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2201, Phys 1302"
+    },
+    "sourceRef": "course-0054061"
+   },
+   "sourceRef": "course-0054061"
+  },
+  "ESCI 5204": {
+   "catalogTerm": "Spring 2027",
+   "title": "Geostatistics and Inverse Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Stat 3011 or instr consent"
+    },
+    "sourceRef": "course-7974001"
+   },
+   "sourceRef": "course-7974001"
+  },
+  "ESCI 5302": {
+   "catalogTerm": "Spring 2027",
+   "title": "Isotope Geology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3303W or instr consent"
+    },
+    "sourceRef": "course-0054081"
+   },
+   "sourceRef": "course-0054081"
+  },
+  "ESCI 5503": {
+   "catalogTerm": "Spring 2027",
+   "title": "Advanced Petrology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2302, CHEM 1061, CHEM 1065, [MATH 1372 or MATH 1272 or MATH 1572]"
+    },
+    "sourceRef": "course-8031631"
+   },
+   "sourceRef": "course-8031631"
+  },
+  "ESCI 5705": {
+   "catalogTerm": "Spring 2027",
+   "title": "Limnogeology and Paleoenvironment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0053981"
+   },
+   "sourceRef": "course-0053981"
+  },
+  "ESCI 5805": {
+   "catalogTerm": "Spring 2027",
+   "title": "Standards and Practices for Professional Geoscientists",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8177451"
+   },
+   "sourceRef": "course-8177451"
+  },
+  "ESCI 5980": {
+   "catalogTerm": "Spring 2027",
+   "title": "Seminar: Current Topics in Earth Sciences",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8064351"
+   },
+   "sourceRef": "course-8064351"
+  },
+  "ESPM 3011W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Ethics in Natural Resources",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093181"
+   },
+   "sourceRef": "course-0093181"
+  },
+  "ESPM 3014": {
+   "catalogTerm": "Spring 2027",
+   "title": "Tribal and Indigenous Natural Resource Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197611"
+   },
+   "sourceRef": "course-8197611"
+  },
+  "ESPM 3211": {
+   "catalogTerm": "Spring 2027",
+   "title": "Survey, Measurement, and Modeling for Environmental Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0097361"
+   },
+   "sourceRef": "course-0097361"
+  },
+  "ESPM 3241W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Natural Resource and Environmental Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082071"
+   },
+   "sourceRef": "course-0082071"
+  },
+  "ESPM 3261": {
+   "catalogTerm": "Spring 2027",
+   "title": "Economics and Natural Resources Management",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053691"
+   },
+   "sourceRef": "course-0053691"
+  },
+  "ESPM 3425": {
+   "catalogTerm": "Spring 2027",
+   "title": "Atmospheric Pollution: From Smog to Climate Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[CHEM 1061, PHYS 1101W, MATH 1142 or 1271] or equiv or instr consent"
+    },
+    "sourceRef": "course-8053571"
+   },
+   "sourceRef": "course-8053571"
+  },
+  "FNRM 3131": {
+   "catalogTerm": "Spring 2027",
+   "title": "Geographical Information Systems (GIS) for Natural Resources",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or jr or sr or UHP fr"
+    },
+    "sourceRef": "course-0048841"
+   },
+   "sourceRef": "course-0048841"
+  },
+  "GCC 5008": {
+   "catalogTerm": "Spring 2027",
+   "title": "Policy and Science of Global Environmental Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8152551"
+   },
+   "sourceRef": "course-8152551"
+  },
+  "GEOG 3401W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Geography of Environmental Systems and Global Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074021"
+   },
+   "sourceRef": "course-0074021"
+  },
+  "GEOG 3561": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Geographic Information Science",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "soph., jr. sr."
+    },
+    "sourceRef": "course-0071661"
+   },
+   "sourceRef": "course-0071661"
+  },
+  "HSCI 1585": {
+   "catalogTerm": "Spring 2027",
+   "title": "Mammoths, Minerals, Monoculture: History of Earth and Environmental Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8191271"
+   },
+   "sourceRef": "course-8191271"
+  },
+  "HSCI 3244": {
+   "catalogTerm": "Spring 2027",
+   "title": "Nature's History: Science, Humans, and the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093761"
+   },
+   "sourceRef": "course-0093761"
+  },
+  "HSCI 3401": {
+   "catalogTerm": "Spring 2027",
+   "title": "Ethics in Science and Technology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0092941"
+   },
+   "sourceRef": "course-0092941"
+  },
+  "IE 3521": {
+   "catalogTerm": "Spring 2027",
+   "title": "Statistics, Quality, and Reliability",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MATH 1372 or equiv"
+    },
+    "sourceRef": "course-0055321"
+   },
+   "sourceRef": "course-0055321"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Spring 2027",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "MATH 1272": {
+   "catalogTerm": "Spring 2027",
+   "title": "Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1271 or equiv] with grade of at least C-"
+    },
+    "sourceRef": "course-0001211"
+   },
+   "sourceRef": "course-0001211"
+  },
+  "MATH 1371": {
+   "catalogTerm": "Spring 2027",
+   "title": "CSE Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0036921"
+   },
+   "sourceRef": "course-0036921"
+  },
+  "MATH 1372": {
+   "catalogTerm": "Spring 2027",
+   "title": "CSE Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in [1371 or equiv], CSE or pre-Bioprod/Biosys Engr"
+    },
+    "sourceRef": "course-0036931"
+   },
+   "sourceRef": "course-0036931"
+  },
+  "MATH 1471": {
+   "catalogTerm": "Spring 2027",
+   "title": "UM Talented Youth Mathematics Program--Calculus I, First Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148561"
+   },
+   "sourceRef": "course-0148561"
+  },
+  "MATH 1472": {
+   "catalogTerm": "Spring 2027",
+   "title": "UM Talented Youth Mathematics Program--Calculus I, Second Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148611"
+   },
+   "sourceRef": "course-0148611"
+  },
+  "MATH 1571H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0036961"
+   },
+   "sourceRef": "course-0036961"
+  },
+  "MATH 1572H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1571H (or equivalent)  honors student"
+    },
+    "sourceRef": "course-0036971"
+   },
+   "sourceRef": "course-0036971"
+  },
+  "MATH 2263": {
+   "catalogTerm": "Spring 2027",
+   "title": "Multivariable Calculus",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1372 or 1572] w/grade of at least C-"
+    },
+    "sourceRef": "course-0002821"
+   },
+   "sourceRef": "course-0002821"
+  },
+  "MATH 2374": {
+   "catalogTerm": "Spring 2027",
+   "title": "CSE Multivariable Calculus and Vector Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bioprod/Biosys Engr"
+    },
+    "sourceRef": "course-0036951"
+   },
+   "sourceRef": "course-0036951"
+  },
+  "MATH 2472": {
+   "catalogTerm": "Spring 2027",
+   "title": "UM Talented Youth Mathematics Program--Calculus III, First Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7991841"
+   },
+   "sourceRef": "course-7991841"
+  },
+  "MATH 2473": {
+   "catalogTerm": "Spring 2027",
+   "title": "UM Talented Youth Mathematics Program--Calculus III, Second Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148631"
+   },
+   "sourceRef": "course-0148631"
+  },
+  "MATH 2573H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors Calculus III",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1572H (or equivalent), honors student"
+    },
+    "sourceRef": "course-0036981"
+   },
+   "sourceRef": "course-0036981"
+  },
+  "PHIL 3301": {
+   "catalogTerm": "Spring 2027",
+   "title": "Environmental Ethics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7901791"
+   },
+   "sourceRef": "course-7901791"
+  },
+  "PHYS 1221": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introductory Physics for Life Science Majors I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High School or College Calculus"
+    },
+    "sourceRef": "course-8179641"
+   },
+   "sourceRef": "course-8179641"
+  },
+  "PHYS 1301W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introductory Physics for Science and Engineering I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020701"
+   },
+   "sourceRef": "course-0020701"
+  },
+  "PHYS 1401V": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors Physics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors program or with permission, Prereq or Concurrent: MATH 1271/1371/1571H or equivalent"
+    },
+    "sourceRef": "course-0020731"
+   },
+   "sourceRef": "course-0020731"
+  },
+  "PHYS 2503": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introductory Physics for Science and Engineering III",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1302W or equivalent"
+    },
+    "sourceRef": "course-7905411"
+   },
+   "sourceRef": "course-7905411"
+  },
+  "SOIL 2125": {
+   "catalogTerm": "Spring 2027",
+   "title": "Basic Soil Science",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[CHEM 1015, CHEM 1017] or CHEM 1021 or equiv"
+    },
+    "sourceRef": "course-0065781"
+   },
+   "sourceRef": "course-0065781"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "STAT 3021": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Probability and Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1272"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1472"
+      }
+     ]
+    },
+    "sourceRef": "course-0016221"
+   },
+   "sourceRef": "course-0016221"
+  },
+  "STAT 3022": {
+   "catalogTerm": "Spring 2027",
+   "title": "Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3011"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3021"
+      },
+      {
+       "type": "course",
+       "course_code": "SOC 3811"
+      },
+      {
+       "type": "course",
+       "course_code": "BA 2551"
+      }
+     ]
+    },
+    "sourceRef": "course-0016211"
+   },
+   "sourceRef": "course-0016211"
+  },
+  "STAT 3032": {
+   "catalogTerm": "Spring 2027",
+   "title": "Regression and Correlated Data",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3011"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3021"
+      }
+     ]
+    },
+    "sourceRef": "course-8145241"
+   },
+   "sourceRef": "course-8145241"
+  },
+  "WRIT 3152W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Writing on Issues of Science and Technology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0030241"
+   },
+   "sourceRef": "course-0030241"
+  },
+  "WRIT 3315": {
+   "catalogTerm": "Spring 2027",
+   "title": "Writing on Issues of Land and the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026261"
+   },
+   "sourceRef": "course-0026261"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-xGbS7TM7",
+   "label": "Statistics",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-AcpfbZnP",
+    "type": "credits",
+    "courseSet": "set-AcpfbZnP",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Statistics"
+   }
+  },
+  {
+   "id": "g-rfIraVHa",
+   "label": "Major Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-GrJxCNNH",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-GrJxCNNH-listed",
+      "type": "credits",
+      "courseSet": "set-GrJxCNNH",
+      "minCredits": 39,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-GrJxCNNH-unresolved",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Some listed course options could not be resolved to current official course records. Verify this requirement with your advisor or APAS."
+     }
+    ],
+    "label": "Major Courses"
+   }
+  },
+  {
+   "id": "g-RRWOslDE",
+   "label": "Core Analytical Geochemistry",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-eabTqJIN",
+    "type": "credits",
+    "courseSet": "set-eabTqJIN",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Core Analytical Geochemistry"
+   }
+  },
+  {
+   "id": "g-JAJAcizL",
+   "label": "Geographic Information Science",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ZzlEjFTs",
+    "type": "credits",
+    "courseSet": "set-ZzlEjFTs",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Geographic Information Science"
+   }
+  },
+  {
+   "id": "g-Mpjc5Wmw",
+   "label": "Major Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-N7IzYfyq",
+    "type": "credits",
+    "courseSet": "set-N7IzYfyq",
+    "minCredits": 12,
+    "sourceRef": "program",
+    "label": "Major Electives"
+   }
+  },
+  {
+   "id": "g-UHWbusbw",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-XcTH1AiW",
+    "type": "credits",
+    "courseSet": "set-XcTH1AiW",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-hcbif8SR",
+   "label": "Upper-Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-H31Q6Sij",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-H31Q6Sij-credits",
+      "type": "credits",
+      "courseSet": "set-H31Q6Sij",
+      "minCredits": 3,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-H31Q6Sij-max",
+      "type": "count",
+      "courseSet": "set-H31Q6Sij",
+      "maxCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Upper-Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-mSYcJqGy",
+   "label": "Mathematics I & II",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-mSYcJqGy",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-vo0rBRoY",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-vo0rBRoY-credits",
+        "type": "credits",
+        "courseSet": "set-vo0rBRoY",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-vo0rBRoY-min",
+        "type": "count",
+        "courseSet": "set-vo0rBRoY",
+        "minCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Calculus I"
+     },
+     {
+      "id": "r-tkcdw9xx",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-tkcdw9xx-credits",
+        "type": "credits",
+        "courseSet": "set-tkcdw9xx",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-tkcdw9xx-min",
+        "type": "count",
+        "courseSet": "set-tkcdw9xx",
+        "minCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Calculus II"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-ggyO8HUo",
+   "label": "Chemistry I",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-m8HDknhj",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-m8HDknhj-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-m8HDknhj-g1",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-m8HDknhj-g1-1",
+          "type": "course",
+          "code": "CHEM 1071",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-m8HDknhj-g1-2",
+          "type": "course",
+          "code": "CHEM 1071H",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-m8HDknhj-g1-3",
+          "type": "course",
+          "code": "CHEM 1061",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-m8HDknhj-g1-4",
+          "type": "course",
+          "code": "CHEM 1081",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-m8HDknhj-g2-1",
+        "type": "course",
+        "code": "CHEM 1065",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-m8HDknhj-credits",
+      "type": "credits",
+      "minCredits": 4,
+      "courseSet": "set-m8HDknhj",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Chemistry I Lecture & Lab"
+   }
+  },
+  {
+   "id": "g-F8km1nCM",
+   "label": "Physics I",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-uBQtVuMs",
+    "type": "credits",
+    "courseSet": "set-uBQtVuMs",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Physics I"
+   }
+  },
+  {
+   "id": "g-EIxspzbm",
+   "label": "Mineralogy",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Ga7Wnih9",
+    "type": "course",
+    "code": "ESCI 2301",
+    "sourceRef": "program",
+    "label": "Mineralogy"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University's\u00a0 Liberal Education requirements .\nAll freshmen in the College of Science and Engineering must complete CSE 1001: First-Year Experience.\nAt least 27 upper division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nView\u00a0 Four-year Plans \u00a0for the College of Science and Engineering. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

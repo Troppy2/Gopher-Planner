@@ -1,0 +1,1276 @@
+{
+ "schemaVersion": 2,
+ "id": "interior-design-bs",
+ "name": "Interior Design B.S.",
+ "officialName": "Interior Design B.S.",
+ "officialProgramId": "044220122",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Interior Design B.S., revision 044220122-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/044220122, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/044220122",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 044220122-2026-09-08"
+  },
+  "course-8004541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8004541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3027W, version 8004541-2021-09-07"
+  },
+  "course-8017961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017961",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3029W, version 8017961-2026-09-08"
+  },
+  "course-0026681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026681",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562W, version 0026681-2021-05-17"
+  },
+  "course-8158401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8158401",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562V, version 8158401-2021-05-17"
+  },
+  "course-7906721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7906721",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3577W, version 7906721-2023-09-05"
+  },
+  "course-0062651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001, version 0062651-2026-09-08"
+  },
+  "course-7990411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001H, version 7990411-2026-09-08"
+  },
+  "course-0128241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128241",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 2213, version 0128241-2023-09-05"
+  },
+  "course-8037091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037091",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 3201, version 8037091-2021-09-07"
+  },
+  "course-7986701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7986701",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 4165, version 7986701-2022-01-18"
+  },
+  "course-0129281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129281",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 2603, version 0129281-2015-01-20"
+  },
+  "course-0129291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129291",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 2604, version 0129291-2020-01-21"
+  },
+  "course-0128941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128941",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 2612, version 0128941-2020-01-21"
+  },
+  "course-0129301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129301",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 2613, version 0129301-2022-09-06"
+  },
+  "course-8083891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083891",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 2622, version 8083891-2020-01-21"
+  },
+  "course-0092561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092561",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 3161, version 0092561-2023-01-17"
+  },
+  "course-0092581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092581",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 3162, version 0092581-2020-01-21"
+  },
+  "course-0129461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129461",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 3605, version 0129461-2021-09-07"
+  },
+  "course-0129471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129471",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 3606, version 0129471-2021-09-07"
+  },
+  "course-8083921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083921",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 3612, version 8083921-2022-01-18"
+  },
+  "course-0128951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128951",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 3614, version 0128951-2015-01-20"
+  },
+  "course-8083961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083961",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 3622, version 8083961-2020-01-21"
+  },
+  "course-8047901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8047901",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 4196, version 8047901-2021-09-07"
+  },
+  "course-0093031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093031",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 4607, version 0093031-2021-09-07"
+  },
+  "course-0093041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093041",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 4608, version 0093041-2020-01-21"
+  },
+  "course-7946251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7946251",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 4615W, version 7946251-2020-01-21"
+  },
+  "course-0113161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0113161",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3412W, version 0113161-2020-01-21"
+  },
+  "course-8205331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8205331",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3412V, version 8205331-2021-01-19"
+  },
+  "course-0113731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0113731",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3711W, version 0113731-2015-01-20"
+  },
+  "course-7899031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7899031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3711V, version 7899031-2015-01-20"
+  },
+  "course-0099181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 1001, version 0099181-2026-01-20"
+  },
+  "course-0099391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099391",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3009, version 0099391-2026-09-08"
+  },
+  "course-0025291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025291",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3012, version 0025291-2024-09-03"
+  },
+  "course-0027671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0027671",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3014W, version 0027671-2022-09-06"
+  },
+  "course-8029261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029261",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3415W, version 8029261-2024-09-03"
+  },
+  "course-8200521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8200521",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3019, version 8200521-2023-01-17"
+  },
+  "course-8065201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8065201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3182, version 8065201-2025-01-21"
+  },
+  "course-8067071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8067071",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3182, version 8067071-2022-01-18"
+  },
+  "course-8169821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169821",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3182, version 8169821-2024-09-03"
+  },
+  "course-8171281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171281",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3216W, version 8171281-2026-01-20"
+  },
+  "course-8171061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171061",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3216W, version 8171061-2026-01-20"
+  },
+  "course-8006221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3309, version 8006221-2015-01-20"
+  },
+  "course-7998821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7998821",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3315, version 7998821-2026-09-08"
+  },
+  "course-8013781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013781",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3708, version 8013781-2026-09-08"
+  },
+  "course-8197221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3778, version 8197221-2021-01-19"
+  },
+  "course-0121371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0121371",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 1311, version 0121371-2025-09-02"
+  },
+  "course-0121581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0121581",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 1312, version 0121581-2025-09-02"
+  },
+  "course-0129261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129261",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 1601, version 0129261-2020-01-21"
+  },
+  "course-0129271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129271",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDES 1602, version 0129271-2020-01-21"
+  },
+  "course-0129251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129251",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 1101W, version 0129251-2018-01-16"
+  },
+  "course-7977911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977911",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 1101V, version 7977911-2018-01-16"
+  }
+ },
+ "courseSets": {
+  "set-SWdiZGRB": {
+   "codes": [
+    "ENGL 3027W",
+    "WRIT 3029W",
+    "WRIT 3562W",
+    "WRIT 3562V",
+    "WRIT 3577W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-tVfVH8re": {
+   "codes": [
+    "PSY 1001",
+    "PSY 1001H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-419430": {
+   "codes": [
+    "ADES 2213",
+    "DES 3201",
+    "DES 4165",
+    "IDES 2603",
+    "IDES 2604",
+    "IDES 2612",
+    "IDES 2613",
+    "IDES 2622",
+    "IDES 3161",
+    "IDES 3162",
+    "IDES 3605",
+    "IDES 3606",
+    "IDES 3612",
+    "IDES 3614",
+    "IDES 3622",
+    "IDES 4196",
+    "IDES 4607",
+    "IDES 4608",
+    "IDES 4615W",
+    "ARCH 3412W",
+    "ARCH 3412V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-cvvRSOM8": {
+   "codes": [
+    "ARCH 3711W",
+    "ARCH 3711V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-bJfiy7QN": {
+   "codes": [
+    "ARTH 1001",
+    "ARTH 3009",
+    "ARTH 3012",
+    "ARTH 3014W",
+    "RELS 3415W",
+    "ARTH 3019",
+    "ARTH 3182",
+    "CNRC 3182",
+    "RELS 3182",
+    "ARTH 3216W",
+    "CHLS 3216W",
+    "ARTH 3309",
+    "ARTH 3315",
+    "HIST 3708",
+    "ARTH 3778"
+   ],
+   "sourceRef": "program"
+  },
+  "set-3UAK8Eo1": {
+   "codes": [
+    "IDES 4615W",
+    "ENGL 3027W",
+    "WRIT 3029W",
+    "WRIT 3562W",
+    "WRIT 3562V",
+    "WRIT 3577W",
+    "ARCH 3711W",
+    "ARCH 3711V",
+    "ARTH 3014W",
+    "RELS 3415W",
+    "ARTH 3216W",
+    "CHLS 3216W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-419426": {
+   "codes": [
+    "DESI 1311",
+    "GDES 1312",
+    "IDES 1601",
+    "IDES 1602",
+    "DES 1101W",
+    "DES 1101V"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ADES 2213": {
+   "catalogTerm": "Fall 2026",
+   "title": "Textile Product Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128241"
+   },
+   "sourceRef": "course-0128241"
+  },
+  "ARCH 3412V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Architectural History Since 1750",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or above"
+    },
+    "sourceRef": "course-8205331"
+   },
+   "sourceRef": "course-8205331"
+  },
+  "ARCH 3412W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Architectural History Since 1750",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or above"
+    },
+    "sourceRef": "course-0113161"
+   },
+   "sourceRef": "course-0113161"
+  },
+  "ARCH 3711V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Environmental Design and the Sociocultural Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors, [soph or above]"
+    },
+    "sourceRef": "course-7899031"
+   },
+   "sourceRef": "course-7899031"
+  },
+  "ARCH 3711W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Design and the Sociocultural Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or above"
+    },
+    "sourceRef": "course-0113731"
+   },
+   "sourceRef": "course-0113731"
+  },
+  "ARTH 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Western Art",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099181"
+   },
+   "sourceRef": "course-0099181"
+  },
+  "ARTH 3009": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Art from Below",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099391"
+   },
+   "sourceRef": "course-0099391"
+  },
+  "ARTH 3012": {
+   "catalogTerm": "Fall 2026",
+   "title": "19th and 20th-Century Art: Identity & Representation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025291"
+   },
+   "sourceRef": "course-0025291"
+  },
+  "ARTH 3014W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art of India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0027671"
+   },
+   "sourceRef": "course-0027671"
+  },
+  "ARTH 3019": {
+   "catalogTerm": "Fall 2026",
+   "title": "Buddhist Art and Architecture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8200521"
+   },
+   "sourceRef": "course-8200521"
+  },
+  "ARTH 3182": {
+   "catalogTerm": "Fall 2026",
+   "title": "Egypt and Western Asia: Art and Archaeology of Ancient Egypt and Western Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8065201"
+   },
+   "sourceRef": "course-8065201"
+  },
+  "ARTH 3216W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Power of Chicana/o/x Art: 1960s to the present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171281"
+   },
+   "sourceRef": "course-8171281"
+  },
+  "ARTH 3309": {
+   "catalogTerm": "Fall 2026",
+   "title": "Renaissance Art in Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8006221"
+   },
+   "sourceRef": "course-8006221"
+  },
+  "ARTH 3315": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Curiosity: Art, Science & Technology in Europe, 1400-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7998821"
+   },
+   "sourceRef": "course-7998821"
+  },
+  "ARTH 3778": {
+   "catalogTerm": "Fall 2026",
+   "title": "Traditions of South Asian Painting: Past to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197221"
+   },
+   "sourceRef": "course-8197221"
+  },
+  "CHLS 3216W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Power of Chicana/o/x Art: 1960s to the present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171061"
+   },
+   "sourceRef": "course-8171061"
+  },
+  "CNRC 3182": {
+   "catalogTerm": "Fall 2026",
+   "title": "Egypt and Western Asia: Art and Archaeology of Ancient Egypt and Western Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8067071"
+   },
+   "sourceRef": "course-8067071"
+  },
+  "DES 1101V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Introduction to Design Thinking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student"
+    },
+    "sourceRef": "course-7977911"
+   },
+   "sourceRef": "course-7977911"
+  },
+  "DES 1101W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Design Thinking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129251"
+   },
+   "sourceRef": "course-0129251"
+  },
+  "DES 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Career and Internship Preparation for Design",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8037091"
+   },
+   "sourceRef": "course-8037091"
+  },
+  "DES 4165": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design and Globalization",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr"
+    },
+    "sourceRef": "course-7986701"
+   },
+   "sourceRef": "course-7986701"
+  },
+  "DESI 1311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Visual Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0121371"
+   },
+   "sourceRef": "course-0121371"
+  },
+  "ENGL 3027W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Essay",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8004541"
+   },
+   "sourceRef": "course-8004541"
+  },
+  "GDES 1312": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations: Color and Design in Two and Three Dimensions",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0121581"
+   },
+   "sourceRef": "course-0121581"
+  },
+  "HIST 3708": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Curiosity: Art, Science & Technology in Europe, 1400-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8013781"
+   },
+   "sourceRef": "course-8013781"
+  },
+  "IDES 1601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Design Studio I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Interior design pre-major or interior environments minor"
+    },
+    "sourceRef": "course-0129261"
+   },
+   "sourceRef": "course-0129261"
+  },
+  "IDES 1602": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Design Studio II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1601 or DHA 1601] with grade of at least C-, interior design pre-major"
+    },
+    "sourceRef": "course-0129271"
+   },
+   "sourceRef": "course-0129271"
+  },
+  "IDES 2603": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Design Studio III",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1602 or DHA 1602] with grade of at least C-, pass portfolio review, interior design major"
+    },
+    "sourceRef": "course-0129281"
+   },
+   "sourceRef": "course-0129281"
+  },
+  "IDES 2604": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Design Studio IV",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[2603 or DHA 2603], 2613"
+    },
+    "sourceRef": "course-0129291"
+   },
+   "sourceRef": "course-0129291"
+  },
+  "IDES 2612": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Materials and Specifications",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Pass portfolio review, interior design major] or interior environments minor or design minor or instr consent"
+    },
+    "sourceRef": "course-0128941"
+   },
+   "sourceRef": "course-0128941"
+  },
+  "IDES 2613": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Structures, Systems, and Life Safety",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129301"
+   },
+   "sourceRef": "course-0129301"
+  },
+  "IDES 2622": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer Applications I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Interior design major"
+    },
+    "sourceRef": "course-8083891"
+   },
+   "sourceRef": "course-8083891"
+  },
+  "IDES 3161": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Interiors and Furnishings: Ancient to 1750",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0092561"
+   },
+   "sourceRef": "course-0092561"
+  },
+  "IDES 3162": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Interiors and Furnishings: 1750 to Present",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0092581"
+   },
+   "sourceRef": "course-0092581"
+  },
+  "IDES 3605": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Design Studio V",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129461"
+   },
+   "sourceRef": "course-0129461"
+  },
+  "IDES 3606": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Design Studio VI",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "IDES 3605"
+    },
+    "sourceRef": "course-0129471"
+   },
+   "sourceRef": "course-0129471"
+  },
+  "IDES 3612": {
+   "catalogTerm": "Fall 2026",
+   "title": "Lighting Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8083921"
+   },
+   "sourceRef": "course-8083921"
+  },
+  "IDES 3614": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Design Ethics and Professional Practice",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2604 or DHA 2604; or Interior Environments Minor"
+    },
+    "sourceRef": "course-0128951"
+   },
+   "sourceRef": "course-0128951"
+  },
+  "IDES 3622": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer Applications II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2622"
+    },
+    "sourceRef": "course-8083961"
+   },
+   "sourceRef": "course-8083961"
+  },
+  "IDES 4196": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship in Interior Design",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4607, instr consent"
+    },
+    "sourceRef": "course-8047901"
+   },
+   "sourceRef": "course-8047901"
+  },
+  "IDES 4607": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Design Studio VII",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[IDes 2604] or [DHA 2604]] with grade of at least C-"
+    },
+    "sourceRef": "course-0093031"
+   },
+   "sourceRef": "course-0093031"
+  },
+  "IDES 4608": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Design Thesis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[4615W or DHA 4615W], [4607 or DHA 4607] with grade of at least C-"
+    },
+    "sourceRef": "course-0093041"
+   },
+   "sourceRef": "course-0093041"
+  },
+  "IDES 4615W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interior Design Research",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3605 or DHA 3605"
+    },
+    "sourceRef": "course-7946251"
+   },
+   "sourceRef": "course-7946251"
+  },
+  "PSY 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062651"
+   },
+   "sourceRef": "course-0062651"
+  },
+  "PSY 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors."
+    },
+    "sourceRef": "course-7990411"
+   },
+   "sourceRef": "course-7990411"
+  },
+  "RELS 3182": {
+   "catalogTerm": "Fall 2026",
+   "title": "Egypt and Western Asia: Art and Archaeology of Ancient Egypt and Western Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8169821"
+   },
+   "sourceRef": "course-8169821"
+  },
+  "RELS 3415W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art of India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029261"
+   },
+   "sourceRef": "course-8029261"
+  },
+  "WRIT 3029W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business and Professional Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8017961"
+   },
+   "sourceRef": "course-8017961"
+  },
+  "WRIT 3562V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8158401"
+   },
+   "sourceRef": "course-8158401"
+  },
+  "WRIT 3562W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026681"
+   },
+   "sourceRef": "course-0026681"
+  },
+  "WRIT 3577W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Rhetoric, Technology, and the Internet",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7906721"
+   },
+   "sourceRef": "course-7906721"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-OBiPFpXr",
+   "label": "Communication Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-SWdiZGRB",
+    "type": "credits",
+    "courseSet": "set-SWdiZGRB",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Communication Course"
+   }
+  },
+  {
+   "id": "g-ywHtoeJu",
+   "label": "Psychology Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-tVfVH8re",
+    "type": "credits",
+    "courseSet": "set-tVfVH8re",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Psycology Course:"
+   }
+  },
+  {
+   "id": "g-044220122",
+   "label": "Major Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-044220122",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-419430",
+      "type": "credits",
+      "courseSet": "set-419430",
+      "minCredits": 66,
+      "sourceRef": "program",
+      "label": "Core Major Courses"
+     },
+     {
+      "id": "r-cvvRSOM8",
+      "type": "credits",
+      "courseSet": "set-cvvRSOM8",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Environmental Design and the Sociocultural Context Course"
+     },
+     {
+      "id": "r-bJfiy7QN",
+      "type": "credits",
+      "courseSet": "set-bJfiy7QN",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Art History"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-wEgEt8Gc",
+   "label": "Upper Division Writing Intensive Within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-3UAK8Eo1",
+    "type": "count",
+    "courseSet": "set-3UAK8Eo1",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive Within the Major:"
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Admission Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-419426",
+    "type": "credits",
+    "courseSet": "set-419426",
+    "minCredits": 19,
+    "sourceRef": "program",
+    "label": "Pre-Interior Design Courses"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Admission to the pre-major status is done by a competitive holistic review. Students must maintain a GPA of 2.80 during pre-major coursework. In addition, students must receive a minimum grade of C- or better in the required pre-major courses before going through portfolio review (not just a 2.80 GPA). Once students have achieved major status, they must maintain a GPA of 2.00. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nAt least 25 upper division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

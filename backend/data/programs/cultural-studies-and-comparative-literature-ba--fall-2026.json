@@ -1,0 +1,986 @@
+{
+ "schemaVersion": 2,
+ "id": "cultural-studies-and-comparative-literature-ba",
+ "name": "Cultural Studies and Comparative Literature B.A.",
+ "officialName": "Cultural Studies and Comparative Literature B.A.",
+ "officialProgramId": "023020217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Cultural Studies and Comparative Literature B.A., revision 023020217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/023020217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/023020217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 023020217-2026-09-08"
+  },
+  "course-0035781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035781",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 1001W, version 0035781-2025-09-02"
+  },
+  "course-0091291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091291",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 1101W, version 0091291-2020-09-08"
+  },
+  "course-0091311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091311",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 1201W, version 0091311-2019-09-03"
+  },
+  "course-8192571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8192571",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 1201V, version 8192571-2019-09-03"
+  },
+  "course-7908441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908441",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCMC 1201W, version 7908441-2019-09-03"
+  },
+  "course-8192591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8192591",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCMC 1201V, version 8192591-2019-09-03"
+  },
+  "course-8143221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8143221",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 1202W, version 8143221-2018-09-04"
+  },
+  "course-8142571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8142571",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCMC 1202W, version 8142571-2018-09-04"
+  },
+  "course-0035791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035791",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 1301W, version 0035791-2016-09-06"
+  },
+  "course-0094851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0094851",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 1401W, version 0094851-2016-09-06"
+  },
+  "course-0160781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160781",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 1501W, version 0160781-2016-09-06"
+  },
+  "course-8141091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8141091",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3005, version 8141091-2015-09-08"
+  },
+  "course-7910261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910261",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3111W, version 7910261-2017-09-05"
+  },
+  "course-7910271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910271",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3117, version 7910271-2019-01-22"
+  },
+  "course-7910211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910211",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3122, version 7910211-2021-01-19"
+  },
+  "course-7973971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7973971",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3131W, version 7973971-2026-09-08"
+  },
+  "course-8190101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8190101",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3141, version 8190101-2019-09-03"
+  },
+  "course-7996191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7996191",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3212W, version 7996191-2019-09-03"
+  },
+  "course-8163351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163351",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3220W, version 8163351-2020-01-21"
+  },
+  "course-8166101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8166101",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCMC 3220W, version 8166101-2020-01-21"
+  },
+  "course-0035951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035951",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3350W, version 0035951-2018-05-21"
+  },
+  "course-8022781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8022781",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLBT 3456W, version 8022781-2025-01-21"
+  },
+  "course-8164051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164051",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3352W, version 8164051-2018-09-04"
+  },
+  "course-0035901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035901",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3412W, version 0035901-2019-09-03"
+  },
+  "course-0035861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035861",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3425W, version 0035861-2026-09-08"
+  },
+  "course-8185431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185431",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3896, version 8185431-2019-05-20"
+  },
+  "course-7903491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7903491",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 3993, version 7903491-2015-01-20"
+  },
+  "course-8185261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185261",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCMC 3896, version 8185261-2019-01-22"
+  },
+  "course-0036071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036071",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 5302, version 0036071-2019-09-03"
+  },
+  "course-8252211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8252211",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 5303, version 8252211-2021-09-07"
+  },
+  "course-8254861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8254861",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCMC 5303, version 8254861-2021-09-07"
+  },
+  "course-8084301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084301",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 5305, version 8084301-2019-09-03"
+  },
+  "course-0108801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0108801",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 5331, version 0108801-2011-01-18"
+  },
+  "course-8018621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018621",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 5411, version 8018621-2026-01-20"
+  },
+  "course-8280541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8280541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5414, version 8280541-2026-01-20"
+  },
+  "course-0138631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138631",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 5555, version 0138631-2019-09-03"
+  },
+  "course-8065671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8065671",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 5833, version 8065671-2010-09-07"
+  },
+  "course-0036151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036151",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 5910, version 0036151-2026-09-08"
+  },
+  "course-0095511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0095511",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCL 5993, version 0095511-2020-05-18"
+  }
+ },
+ "courseSets": {
+  "set-DQJ8EoJH": {
+   "codes": [
+    "CSCL 1001W",
+    "CSCL 1101W",
+    "CSCL 1201W",
+    "CSCL 1201V",
+    "SCMC 1201W",
+    "SCMC 1201V",
+    "CSCL 1202W",
+    "SCMC 1202W",
+    "CSCL 1301W",
+    "CSCL 1401W",
+    "CSCL 1501W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-IHOQHlwl": {
+   "codes": [
+    "CSCL 3896",
+    "CSCL 3993",
+    "SCMC 3896"
+   ],
+   "sourceRef": "program"
+  },
+  "set-SfQhBZyM": {
+   "codes": [
+    "CSCL 5302",
+    "CSCL 5303",
+    "SCMC 5303",
+    "CSCL 5305",
+    "CSCL 5331",
+    "CSCL 5411",
+    "ARTH 5414",
+    "CSCL 5555",
+    "CSCL 5833",
+    "CSCL 5910",
+    "CSCL 5993"
+   ],
+   "sourceRef": "program"
+  },
+  "set-404609": {
+   "codes": [
+    "CSCL 3111W",
+    "CSCL 3131W",
+    "CSCL 3212W",
+    "CSCL 3350W",
+    "GLBT 3456W",
+    "CSCL 3352W",
+    "CSCL 3412W",
+    "CSCL 3425W",
+    "CSCL 3220W",
+    "SCMC 3220W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ARTH 5414": {
+   "catalogTerm": "Fall 2026",
+   "title": "Avant Garde Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8280541"
+   },
+   "sourceRef": "course-8280541"
+  },
+  "CSCL 1001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Cultural Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035781"
+   },
+   "sourceRef": "course-0035781"
+  },
+  "CSCL 1101W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0091291"
+   },
+   "sourceRef": "course-0091291"
+  },
+  "CSCL 1201V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Course: Cinema",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8192571"
+   },
+   "sourceRef": "course-8192571"
+  },
+  "CSCL 1201W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cinema",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0091311"
+   },
+   "sourceRef": "course-0091311"
+  },
+  "CSCL 1202W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Media: Word, Image, Sound",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8143221"
+   },
+   "sourceRef": "course-8143221"
+  },
+  "CSCL 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reading Culture: Theory and Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035791"
+   },
+   "sourceRef": "course-0035791"
+  },
+  "CSCL 1401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reading Literature: Theory and Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0094851"
+   },
+   "sourceRef": "course-0094851"
+  },
+  "CSCL 1501W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reading History: Theory and Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0160781"
+   },
+   "sourceRef": "course-0160781"
+  },
+  "CSCL 3005": {
+   "catalogTerm": "Fall 2026",
+   "title": "Seminar in Critical Thought",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8141091"
+   },
+   "sourceRef": "course-8141091"
+  },
+  "CSCL 3111W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Close Reading",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7910261"
+   },
+   "sourceRef": "course-7910261"
+  },
+  "CSCL 3117": {
+   "catalogTerm": "Fall 2026",
+   "title": "Concepts of Literary Study",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7910271"
+   },
+   "sourceRef": "course-7910271"
+  },
+  "CSCL 3122": {
+   "catalogTerm": "Fall 2026",
+   "title": "Movements and Manifestos",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7910211"
+   },
+   "sourceRef": "course-7910211"
+  },
+  "CSCL 3131W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Colonial and Postcolonial Literatures and Theory: 1700 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7973971"
+   },
+   "sourceRef": "course-7973971"
+  },
+  "CSCL 3141": {
+   "catalogTerm": "Fall 2026",
+   "title": "Classics of World Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8190101"
+   },
+   "sourceRef": "course-8190101"
+  },
+  "CSCL 3212W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Documentary Cinema: History and Politics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7996191"
+   },
+   "sourceRef": "course-7996191"
+  },
+  "CSCL 3220W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Screen Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8163351"
+   },
+   "sourceRef": "course-8163351"
+  },
+  "CSCL 3350W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sexuality and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035951"
+   },
+   "sourceRef": "course-0035951"
+  },
+  "CSCL 3352W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Queer Aesthetics & Queer Critique",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164051"
+   },
+   "sourceRef": "course-8164051"
+  },
+  "CSCL 3412W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychoanalysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035901"
+   },
+   "sourceRef": "course-0035901"
+  },
+  "CSCL 3425W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Critical Theory and Social Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035861"
+   },
+   "sourceRef": "course-0035861"
+  },
+  "CSCL 3896": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship for Academic Credit",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8185431"
+   },
+   "sourceRef": "course-8185431"
+  },
+  "CSCL 3993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7903491"
+   },
+   "sourceRef": "course-7903491"
+  },
+  "CSCL 5302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Aesthetics and the Valuation of Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036071"
+   },
+   "sourceRef": "course-0036071"
+  },
+  "CSCL 5303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sound Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8252211"
+   },
+   "sourceRef": "course-8252211"
+  },
+  "CSCL 5305": {
+   "catalogTerm": "Fall 2026",
+   "title": "Vision and Visuality: An Intellectual History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8084301"
+   },
+   "sourceRef": "course-8084301"
+  },
+  "CSCL 5331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Discourse of the Novel",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0108801"
+   },
+   "sourceRef": "course-0108801"
+  },
+  "CSCL 5411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Avant-Garde Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018621"
+   },
+   "sourceRef": "course-8018621"
+  },
+  "CSCL 5555": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Semiotics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0138631"
+   },
+   "sourceRef": "course-0138631"
+  },
+  "CSCL 5833": {
+   "catalogTerm": "Fall 2026",
+   "title": "Marx, Freud, Nietzsche: Intellectual Foundations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8065671"
+   },
+   "sourceRef": "course-8065671"
+  },
+  "CSCL 5910": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Cultural Studies and Comparative Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036151"
+   },
+   "sourceRef": "course-0036151"
+  },
+  "CSCL 5993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0095511"
+   },
+   "sourceRef": "course-0095511"
+  },
+  "GLBT 3456W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sexuality and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8022781"
+   },
+   "sourceRef": "course-8022781"
+  },
+  "SCMC 1201V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Course: Cinema",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8192591"
+   },
+   "sourceRef": "course-8192591"
+  },
+  "SCMC 1201W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cinema",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7908441"
+   },
+   "sourceRef": "course-7908441"
+  },
+  "SCMC 1202W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Media: Word, Image, Sound",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8142571"
+   },
+   "sourceRef": "course-8142571"
+  },
+  "SCMC 3220W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Screen Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8166101"
+   },
+   "sourceRef": "course-8166101"
+  },
+  "SCMC 3896": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship for Academic Credit",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8185261"
+   },
+   "sourceRef": "course-8185261"
+  },
+  "SCMC 5303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sound Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8254861"
+   },
+   "sourceRef": "course-8254861"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-ECiJ6BKN",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-DQJ8EoJH",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-DQJ8EoJH-credits",
+      "type": "credits",
+      "courseSet": "set-DQJ8EoJH",
+      "minCredits": 6,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-DQJ8EoJH-min",
+      "type": "count",
+      "courseSet": "set-DQJ8EoJH",
+      "minCourses": 2,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-DQJ8EoJH-max",
+      "type": "count",
+      "courseSet": "set-DQJ8EoJH",
+      "maxCourses": 3,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Foundation Courses"
+   }
+  },
+  {
+   "id": "g-GtR6JQfQ",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-tQMz40gp",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-rjfkUV5g",
+      "type": "course",
+      "code": "CSCL 3005",
+      "sourceRef": "program",
+      "label": "Gateway Course"
+     },
+     {
+      "id": "r-2jJ8M2sc",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-2jJ8M2sc-1",
+        "type": "course",
+        "code": "CSCL 3111W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-2jJ8M2sc-2",
+        "type": "course",
+        "code": "CSCL 3117",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-2jJ8M2sc-3",
+        "type": "course",
+        "code": "CSCL 3122",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-2jJ8M2sc-4",
+        "type": "course",
+        "code": "CSCL 3131W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-2jJ8M2sc-5",
+        "type": "course",
+        "code": "CSCL 3141",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Literature"
+     },
+     {
+      "id": "r-mTyjuhpM",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Cinema, Media, and Sounds states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+      "label": "Cinema, Media, and Sounds"
+     },
+     {
+      "id": "r-vaQQrBfJ",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Culture states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+      "label": "Culture"
+     },
+     {
+      "id": "r-J6IU5btw",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Theory states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+      "label": "Theory"
+     },
+     {
+      "id": "r-IHOQHlwl",
+      "type": "count",
+      "courseSet": "set-IHOQHlwl",
+      "maxCourses": 2,
+      "sourceRef": "program",
+      "label": "Experiential Learning"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-uXL9n88M",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-SfQhBZyM",
+    "type": "credits",
+    "courseSet": "set-SfQhBZyM",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-023020217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-404609",
+    "type": "count",
+    "courseSet": "set-404609",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Cultural Studies and Comparative Literature BA is CSCL.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, CSCL 3896, or SCMC 3896.\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 10 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nIn exceptional cases, courses from other units may be substituted for department major courses if approved by the undergraduate adviser or the director of undergraduate studies.\nStudents may earn a BA or a minor in cultural studies and comparative literature, but not both.\nView sample plans for this program here: https://sampleplan.umn.edu/node/396 Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

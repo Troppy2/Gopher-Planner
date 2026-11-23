@@ -1,0 +1,2461 @@
+{
+ "schemaVersion": 2,
+ "id": "political-science-ba",
+ "name": "Political Science B.A.",
+ "officialName": "Political Science B.A.",
+ "officialProgramId": "071220217",
+ "catalogTerm": "Spring 2027",
+ "totalCredits": 120,
+ "source": "Political Science B.A., revision 071220217-2027-01-19, https://umtc.catalog.prod.coursedog.com/programs/071220217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/071220217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 071220217-2027-01-19"
+  },
+  "course-0066751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066751",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3210, version 0066751-2026-09-08"
+  },
+  "course-0066801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066801",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3225, version 0066801-2019-09-03"
+  },
+  "course-0066811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066811",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3235W, version 0066811-2022-09-06"
+  },
+  "course-0066861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066861",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3251W, version 0066861-2019-01-22"
+  },
+  "course-0066871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066871",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3252W, version 0066871-2019-09-03"
+  },
+  "course-8112871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8112871",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3265, version 8112871-2019-09-03"
+  },
+  "course-8170731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170731",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3272, version 8170731-2021-09-07"
+  },
+  "course-8253701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253701",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3282, version 8253701-2021-09-07"
+  },
+  "course-0161711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0161711",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4210, version 0161711-2026-09-08"
+  },
+  "course-8188311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8188311",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4255, version 8188311-2019-09-03"
+  },
+  "course-8170741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170741",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4267, version 8170741-2017-09-05"
+  },
+  "course-0069031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069031",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4275, version 0069031-2022-01-18"
+  },
+  "course-0102801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102801",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4501, version 0102801-2019-01-22"
+  },
+  "course-0065311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065311",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3306, version 0065311-2020-01-21"
+  },
+  "course-8006771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006771",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3308, version 8006771-2021-01-19"
+  },
+  "course-8006841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006841",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3309, version 8006841-2020-09-08"
+  },
+  "course-8016941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016941",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3310, version 8016941-2026-09-08"
+  },
+  "course-8188711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8188711",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3311, version 8188711-2019-05-20"
+  },
+  "course-7937031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7937031",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3319, version 7937031-2019-01-22"
+  },
+  "course-0055201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0055201",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3321, version 0055201-2019-01-22"
+  },
+  "course-0055211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0055211",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3323, version 0055211-2019-09-03"
+  },
+  "course-8020821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020821",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3325, version 8020821-2012-09-04"
+  },
+  "course-8182411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8182411",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3329, version 8182411-2019-01-22"
+  },
+  "course-8116091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8116091",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3733, version 8116091-2015-01-20"
+  },
+  "course-0065421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065421",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3737, version 0065421-2026-01-20"
+  },
+  "course-7988971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7988971",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3752, version 7988971-2026-01-20"
+  },
+  "course-7975291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975291",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3852, version 7975291-2026-01-20"
+  },
+  "course-0055461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0055461",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3766, version 0055461-2025-01-21"
+  },
+  "course-8275791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275791",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3766H, version 8275791-2025-01-21"
+  },
+  "course-7957971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7957971",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3767, version 7957971-2019-09-03"
+  },
+  "course-0065441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065441",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3769, version 0065441-2019-09-03"
+  },
+  "course-8186551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8186551",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3786, version 8186551-2021-09-07"
+  },
+  "course-0002451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002451",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3786, version 0002451-2021-09-07"
+  },
+  "course-0065361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065361",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4315W, version 0065361-2026-09-08"
+  },
+  "course-7899201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7899201",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 5315, version 7899201-2021-05-17"
+  },
+  "course-8173371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173371",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4335, version 8173371-2021-09-07"
+  },
+  "course-8173351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173351",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 4335, version 8173351-2024-09-03"
+  },
+  "course-0065381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065381",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4501W, version 0065381-2019-01-22"
+  },
+  "course-0065391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065391",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4502W, version 0065391-2022-01-18"
+  },
+  "course-7898391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7898391",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4525W, version 7898391-2019-01-22"
+  },
+  "course-7889791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4525W, version 7889791-2019-01-22"
+  },
+  "course-0065431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065431",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4766, version 0065431-2026-01-20"
+  },
+  "course-7927631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7927631",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4771, version 7927631-2018-09-04"
+  },
+  "course-8021081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021081",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4773W, version 8021081-2019-09-03"
+  },
+  "course-8187591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187591",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3409, version 8187591-2025-01-21"
+  },
+  "course-8275421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275421",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3409, version 8275421-2025-01-21"
+  },
+  "course-8016901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016901",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3410, version 8016901-2026-01-20"
+  },
+  "course-8169801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169801",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3423, version 8169801-2020-01-21"
+  },
+  "course-8164091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164091",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3431, version 8164091-2019-09-03"
+  },
+  "course-8256211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256211",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3435, version 8256211-2023-01-17"
+  },
+  "course-8177391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8177391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3435, version 8177391-2023-01-17"
+  },
+  "course-0141361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0141361",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3451W, version 0141361-2019-01-22"
+  },
+  "course-0065281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065281",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3462, version 0065281-2023-09-05"
+  },
+  "course-8084641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084641",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3464, version 8084641-2022-09-06"
+  },
+  "course-8084651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084651",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3475, version 8084651-2022-01-18"
+  },
+  "course-0063651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0063651",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3476, version 0063651-2024-01-16"
+  },
+  "course-0069671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069671",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3477, version 0069671-2023-05-15"
+  },
+  "course-0069801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069801",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3478W, version 0069801-2023-09-05"
+  },
+  "course-7938481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938481",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3478W, version 7938481-2023-09-05"
+  },
+  "course-0065611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065611",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3479, version 0065611-2019-09-03"
+  },
+  "course-7990161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990161",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3489W, version 7990161-2022-09-06"
+  },
+  "course-7990641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990641",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4403W, version 7990641-2020-09-08"
+  },
+  "course-7990651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990651",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 5403, version 7990651-2020-09-08"
+  },
+  "course-8001361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8001361",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4463, version 8001361-2019-09-03"
+  },
+  "course-7990151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990151",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4465, version 7990151-2018-09-04"
+  },
+  "course-7989071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989071",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 5465, version 7989071-2018-09-04"
+  },
+  "course-8156391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8156391",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4474W, version 8156391-2019-09-03"
+  },
+  "course-0065621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065621",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4481, version 0065621-2018-09-04"
+  },
+  "course-0069821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069821",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4487, version 0069821-2025-09-02"
+  },
+  "course-8084671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084671",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4492, version 8084671-2022-09-06"
+  },
+  "course-8163041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163041",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 5492, version 8163041-2022-09-06"
+  },
+  "course-8114351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114351",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4497W, version 8114351-2022-09-06"
+  },
+  "course-8016971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016971",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3810, version 8016971-2025-09-02"
+  },
+  "course-0065881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065881",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3833, version 0065881-2019-01-22"
+  },
+  "course-0054721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054721",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3835, version 0054721-2023-05-15"
+  },
+  "course-8195821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8195821",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3841, version 8195821-2022-09-06"
+  },
+  "course-8253771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253771",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3843W, version 8253771-2022-01-18"
+  },
+  "course-8277801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277801",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3875, version 8277801-2026-09-08"
+  },
+  "course-8252281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8252281",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3879, version 8252281-2021-09-07"
+  },
+  "course-0065841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065841",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4810, version 0065841-2025-09-02"
+  },
+  "course-8256511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256511",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4845, version 8256511-2022-09-06"
+  },
+  "course-0065901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065901",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4881W, version 0065901-2022-01-18"
+  },
+  "course-0065961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065961",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4885W, version 0065961-2022-09-06"
+  },
+  "course-8177461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8177461",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4891, version 8177461-2025-01-21"
+  },
+  "course-8272071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272071",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5828, version 8272071-2024-05-13"
+  },
+  "course-8274341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8274341",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4892, version 8274341-2025-01-21"
+  },
+  "course-8272111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272111",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5888, version 8272111-2025-01-21"
+  },
+  "course-8167511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8167511",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3065, version 8167511-2019-05-20"
+  },
+  "course-0052611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052611",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3085, version 0052611-2026-05-18"
+  },
+  "course-8076421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8076421",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3108H, version 8076421-2020-09-08"
+  },
+  "course-0055181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0055181",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3994, version 0055181-2020-05-18"
+  },
+  "course-8173521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173521",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4085, version 8173521-2026-01-20"
+  },
+  "course-0053761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053761",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4087, version 0053761-2024-01-16"
+  },
+  "course-0071831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0071831",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4994, version 0071831-2020-09-08"
+  },
+  "course-8179401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179401",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4991, version 8179401-2026-05-18"
+  },
+  "course-7898011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7898011",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4993, version 7898011-2025-09-02"
+  }
+ },
+ "courseSets": {
+  "set-JTJGEnhv": {
+   "codes": [
+    "POL 3210",
+    "POL 3225",
+    "POL 3235W",
+    "POL 3251W",
+    "POL 3252W",
+    "POL 3265",
+    "POL 3272",
+    "POL 3282",
+    "POL 4210",
+    "POL 4255",
+    "POL 4267",
+    "POL 4275"
+   ],
+   "sourceRef": "program"
+  },
+  "set-I8SRB1gP": {
+   "codes": [
+    "AMIN 4501",
+    "POL 3306",
+    "POL 3308",
+    "POL 3309",
+    "POL 3310",
+    "POL 3311",
+    "POL 3319",
+    "POL 3321",
+    "POL 3323",
+    "POL 3325",
+    "POL 3329",
+    "POL 3733",
+    "POL 3737",
+    "POL 3752",
+    "CHLS 3852",
+    "POL 3766",
+    "POL 3766H",
+    "POL 3767",
+    "POL 3769",
+    "POL 3786",
+    "JOUR 3786",
+    "POL 4315W",
+    "POL 5315",
+    "POL 4335",
+    "AFRO 4335",
+    "POL 4501W",
+    "POL 4502W",
+    "POL 4525W",
+    "AMIN 4525W",
+    "POL 4766",
+    "POL 4771",
+    "POL 4773W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-KNDvnF4V": {
+   "codes": [
+    "POL 3409",
+    "AFRO 3409",
+    "POL 3410",
+    "POL 3423",
+    "POL 3431",
+    "POL 3435",
+    "AFRO 3435",
+    "POL 3451W",
+    "POL 3462",
+    "POL 3464",
+    "POL 3475",
+    "POL 3476",
+    "POL 3477",
+    "POL 3478W",
+    "AFRO 3478W",
+    "POL 3479",
+    "POL 3489W",
+    "POL 4403W",
+    "POL 5403",
+    "POL 4463",
+    "POL 4465",
+    "POL 5465",
+    "POL 4474W",
+    "POL 4481",
+    "POL 4487",
+    "POL 4492",
+    "POL 5492",
+    "POL 4497W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-KKXLGPNx": {
+   "codes": [
+    "POL 3810",
+    "POL 3833",
+    "POL 3835",
+    "POL 3841",
+    "POL 3843W",
+    "POL 3875",
+    "POL 3879",
+    "POL 4810",
+    "POL 4845",
+    "POL 4881W",
+    "POL 4885W",
+    "POL 4891",
+    "PA 5828",
+    "POL 4892",
+    "PA 5888"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qETMk105": {
+   "codes": [
+    "POL 4993"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Z4kdnSfs": {
+   "codes": [
+    "POL 3235W",
+    "POL 3251W",
+    "POL 3252W",
+    "POL 3451W",
+    "POL 3478W",
+    "AFRO 3478W",
+    "POL 3489W",
+    "POL 3843W",
+    "POL 4315W",
+    "POL 4403W",
+    "POL 4474W",
+    "POL 4497W",
+    "POL 4501W",
+    "POL 4502W",
+    "POL 4525W",
+    "AMIN 4525W",
+    "POL 4773W",
+    "POL 4881W",
+    "POL 4885W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AFRO 3409": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Authoritarian Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275421"
+   },
+   "sourceRef": "course-8275421"
+  },
+  "AFRO 3435": {
+   "catalogTerm": "Spring 2027",
+   "title": "Political Dynamics in the Horn of Africa",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8177391"
+   },
+   "sourceRef": "course-8177391"
+  },
+  "AFRO 3478W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Contemporary Politics in Africa and the Colonial Legacy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938481"
+   },
+   "sourceRef": "course-7938481"
+  },
+  "AFRO 4335": {
+   "catalogTerm": "Spring 2027",
+   "title": "African American Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173351"
+   },
+   "sourceRef": "course-8173351"
+  },
+  "AMIN 4501": {
+   "catalogTerm": "Spring 2027",
+   "title": "Law, Sovereignty, and Treaty Rights",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0102801"
+   },
+   "sourceRef": "course-0102801"
+  },
+  "AMIN 4525W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Federal Indian Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889791"
+   },
+   "sourceRef": "course-7889791"
+  },
+  "CHLS 3852": {
+   "catalogTerm": "Spring 2027",
+   "title": "Radicals, Moderates, and Vendidos: Chicano/a Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975291"
+   },
+   "sourceRef": "course-7975291"
+  },
+  "JOUR 3786": {
+   "catalogTerm": "Spring 2027",
+   "title": "Media and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002451"
+   },
+   "sourceRef": "course-0002451"
+  },
+  "PA 5828": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Politics of Nuclear Weapons",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272071"
+   },
+   "sourceRef": "course-8272071"
+  },
+  "PA 5888": {
+   "catalogTerm": "Spring 2027",
+   "title": "Human Rights, Business, and Governance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272111"
+   },
+   "sourceRef": "course-8272111"
+  },
+  "POL 3065": {
+   "catalogTerm": "Spring 2027",
+   "title": "Political Engagement Careers: Planning and Preparing For Your Future",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8167511"
+   },
+   "sourceRef": "course-8167511"
+  },
+  "POL 3085": {
+   "catalogTerm": "Spring 2027",
+   "title": "Quantitative Analysis in Political Science",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0052611"
+   },
+   "sourceRef": "course-0052611"
+  },
+  "POL 3108H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors Tutorial: Thesis Preparation and Political Science Inquiry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Pol sci major, honors"
+    },
+    "sourceRef": "course-8076421"
+   },
+   "sourceRef": "course-8076421"
+  },
+  "POL 3210": {
+   "catalogTerm": "Spring 2027",
+   "title": "Topics in Political Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066751"
+   },
+   "sourceRef": "course-0066751"
+  },
+  "POL 3225": {
+   "catalogTerm": "Spring 2027",
+   "title": "American Political Thought",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066801"
+   },
+   "sourceRef": "course-0066801"
+  },
+  "POL 3235W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Democracy and Citizenship",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Suggested prerequisite 1201"
+    },
+    "sourceRef": "course-0066811"
+   },
+   "sourceRef": "course-0066811"
+  },
+  "POL 3251W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Power, Virtue, and Vice: Ancient and Early Modern Political Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066861"
+   },
+   "sourceRef": "course-0066861"
+  },
+  "POL 3252W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Revolution, Democracy, and Empire: Modern Political Thought",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Suggested prerequisite 1201"
+    },
+    "sourceRef": "course-0066871"
+   },
+   "sourceRef": "course-0066871"
+  },
+  "POL 3265": {
+   "catalogTerm": "Spring 2027",
+   "title": "Ideas and Protest in French Postwar Thought",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8112871"
+   },
+   "sourceRef": "course-8112871"
+  },
+  "POL 3272": {
+   "catalogTerm": "Spring 2027",
+   "title": "Colonial Encounters",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170731"
+   },
+   "sourceRef": "course-8170731"
+  },
+  "POL 3282": {
+   "catalogTerm": "Spring 2027",
+   "title": "Black Political Thought: Conceptions of Freedom",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253701"
+   },
+   "sourceRef": "course-8253701"
+  },
+  "POL 3306": {
+   "catalogTerm": "Spring 2027",
+   "title": "Presidential Leadership and American Democracy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065311"
+   },
+   "sourceRef": "course-0065311"
+  },
+  "POL 3308": {
+   "catalogTerm": "Spring 2027",
+   "title": "Congressional Politics and Institutions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8006771"
+   },
+   "sourceRef": "course-8006771"
+  },
+  "POL 3309": {
+   "catalogTerm": "Spring 2027",
+   "title": "U.S. Supreme Court Decision-Making, Process, and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8006841"
+   },
+   "sourceRef": "course-8006841"
+  },
+  "POL 3310": {
+   "catalogTerm": "Spring 2027",
+   "title": "Topics in American Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8016941"
+   },
+   "sourceRef": "course-8016941"
+  },
+  "POL 3311": {
+   "catalogTerm": "Spring 2027",
+   "title": "Law and Justice: The View From Hollywood",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8188711"
+   },
+   "sourceRef": "course-8188711"
+  },
+  "POL 3319": {
+   "catalogTerm": "Spring 2027",
+   "title": "Education and the American Dream",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7937031"
+   },
+   "sourceRef": "course-7937031"
+  },
+  "POL 3321": {
+   "catalogTerm": "Spring 2027",
+   "title": "Issues in American Public Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0055201"
+   },
+   "sourceRef": "course-0055201"
+  },
+  "POL 3323": {
+   "catalogTerm": "Spring 2027",
+   "title": "Political Tolerance in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0055211"
+   },
+   "sourceRef": "course-0055211"
+  },
+  "POL 3325": {
+   "catalogTerm": "Spring 2027",
+   "title": "U.S. Campaigns and Elections",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8020821"
+   },
+   "sourceRef": "course-8020821"
+  },
+  "POL 3329": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Balance of Power: Federalism & Community in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8182411"
+   },
+   "sourceRef": "course-8182411"
+  },
+  "POL 3409": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Authoritarian Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187591"
+   },
+   "sourceRef": "course-8187591"
+  },
+  "POL 3410": {
+   "catalogTerm": "Spring 2027",
+   "title": "Topics in Comparative Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8016901"
+   },
+   "sourceRef": "course-8016901"
+  },
+  "POL 3423": {
+   "catalogTerm": "Spring 2027",
+   "title": "Politics of Disruption: Violence and Its Alternatives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8169801"
+   },
+   "sourceRef": "course-8169801"
+  },
+  "POL 3431": {
+   "catalogTerm": "Spring 2027",
+   "title": "Politics of India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164091"
+   },
+   "sourceRef": "course-8164091"
+  },
+  "POL 3435": {
+   "catalogTerm": "Spring 2027",
+   "title": "Political Dynamics in the Horn of Africa",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256211"
+   },
+   "sourceRef": "course-8256211"
+  },
+  "POL 3451W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Politics and Society in the New Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0141361"
+   },
+   "sourceRef": "course-0141361"
+  },
+  "POL 3462": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Politics of Race, Class, and Ethnicity in the United States, South Africa and Cuba",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065281"
+   },
+   "sourceRef": "course-0065281"
+  },
+  "POL 3464": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Politics of Economic Inequality",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8084641"
+   },
+   "sourceRef": "course-8084641"
+  },
+  "POL 3475": {
+   "catalogTerm": "Spring 2027",
+   "title": "Islamist Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8084651"
+   },
+   "sourceRef": "course-8084651"
+  },
+  "POL 3476": {
+   "catalogTerm": "Spring 2027",
+   "title": "Chinese Politics: History and Contemporary Issues",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0063651"
+   },
+   "sourceRef": "course-0063651"
+  },
+  "POL 3477": {
+   "catalogTerm": "Spring 2027",
+   "title": "Political Economy of Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0069671"
+   },
+   "sourceRef": "course-0069671"
+  },
+  "POL 3478W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Contemporary Politics in Africa and the Colonial Legacy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0069801"
+   },
+   "sourceRef": "course-0069801"
+  },
+  "POL 3479": {
+   "catalogTerm": "Spring 2027",
+   "title": "Latin American Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065611"
+   },
+   "sourceRef": "course-0065611"
+  },
+  "POL 3489W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Citizens, Consumers, and Corporations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7990161"
+   },
+   "sourceRef": "course-7990161"
+  },
+  "POL 3733": {
+   "catalogTerm": "Spring 2027",
+   "title": "From Suffragettes to Senators: Gender, Politics & Policy in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8116091"
+   },
+   "sourceRef": "course-8116091"
+  },
+  "POL 3737": {
+   "catalogTerm": "Spring 2027",
+   "title": "American Political Parties",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065421"
+   },
+   "sourceRef": "course-0065421"
+  },
+  "POL 3752": {
+   "catalogTerm": "Spring 2027",
+   "title": "Radicals, Moderates, and Vendidos: Chicano/a Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7988971"
+   },
+   "sourceRef": "course-7988971"
+  },
+  "POL 3766": {
+   "catalogTerm": "Spring 2027",
+   "title": "Political Psychology of Mass Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0055461"
+   },
+   "sourceRef": "course-0055461"
+  },
+  "POL 3766H": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Political Psychology of Mass Behavior: Honors",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275791"
+   },
+   "sourceRef": "course-8275791"
+  },
+  "POL 3767": {
+   "catalogTerm": "Spring 2027",
+   "title": "Political Psychology of Elite Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7957971"
+   },
+   "sourceRef": "course-7957971"
+  },
+  "POL 3769": {
+   "catalogTerm": "Spring 2027",
+   "title": "Public Opinion and Voting Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065441"
+   },
+   "sourceRef": "course-0065441"
+  },
+  "POL 3786": {
+   "catalogTerm": "Spring 2027",
+   "title": "Media and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8186551"
+   },
+   "sourceRef": "course-8186551"
+  },
+  "POL 3810": {
+   "catalogTerm": "Spring 2027",
+   "title": "Topics in International Relations and Foreign Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8016971"
+   },
+   "sourceRef": "course-8016971"
+  },
+  "POL 3833": {
+   "catalogTerm": "Spring 2027",
+   "title": "The United States and the Global Economy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065881"
+   },
+   "sourceRef": "course-0065881"
+  },
+  "POL 3835": {
+   "catalogTerm": "Spring 2027",
+   "title": "International Relations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054721"
+   },
+   "sourceRef": "course-0054721"
+  },
+  "POL 3841": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Consequences of War",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8195821"
+   },
+   "sourceRef": "course-8195821"
+  },
+  "POL 3843W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Night Raids, Detention, Torture, and Drones: Methods of War",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253771"
+   },
+   "sourceRef": "course-8253771"
+  },
+  "POL 3875": {
+   "catalogTerm": "Spring 2027",
+   "title": "Global Politics of Climate Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277801"
+   },
+   "sourceRef": "course-8277801"
+  },
+  "POL 3879": {
+   "catalogTerm": "Spring 2027",
+   "title": "Critical Humanitarianism: Policy and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8252281"
+   },
+   "sourceRef": "course-8252281"
+  },
+  "POL 3994": {
+   "catalogTerm": "Spring 2027",
+   "title": "Directed Research: Distinguished Undergraduate Research Program",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0055181"
+   },
+   "sourceRef": "course-0055181"
+  },
+  "POL 4085": {
+   "catalogTerm": "Spring 2027",
+   "title": "Advanced Political Data Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173521"
+   },
+   "sourceRef": "course-8173521"
+  },
+  "POL 4087": {
+   "catalogTerm": "Spring 2027",
+   "title": "Thinking Strategically About Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053761"
+   },
+   "sourceRef": "course-0053761"
+  },
+  "POL 4210": {
+   "catalogTerm": "Spring 2027",
+   "title": "Topics in Political Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0161711"
+   },
+   "sourceRef": "course-0161711"
+  },
+  "POL 4255": {
+   "catalogTerm": "Spring 2027",
+   "title": "Comparative Real Time Political Analysis: Marxist versus Liberal Perspectives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8188311"
+   },
+   "sourceRef": "course-8188311"
+  },
+  "POL 4267": {
+   "catalogTerm": "Spring 2027",
+   "title": "Imperialism and Modern Political Thought",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170741"
+   },
+   "sourceRef": "course-8170741"
+  },
+  "POL 4275": {
+   "catalogTerm": "Spring 2027",
+   "title": "Domination, Exclusion, and Justice: Contemporary Political Thought",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1201 recommended"
+    },
+    "sourceRef": "course-0069031"
+   },
+   "sourceRef": "course-0069031"
+  },
+  "POL 4315W": {
+   "catalogTerm": "Spring 2027",
+   "title": "State Governments: Laboratories of Democracy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or equiv, non-pol sci grad major or instr consent"
+    },
+    "sourceRef": "course-0065361"
+   },
+   "sourceRef": "course-0065361"
+  },
+  "POL 4335": {
+   "catalogTerm": "Spring 2027",
+   "title": "African American Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173371"
+   },
+   "sourceRef": "course-8173371"
+  },
+  "POL 4403W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Constitutions, Democracy, and Rights: Comparative Perspectives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7990641"
+   },
+   "sourceRef": "course-7990641"
+  },
+  "POL 4463": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Cuban Revolution Through the Words of Cuban Revolutionaries",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8001361"
+   },
+   "sourceRef": "course-8001361"
+  },
+  "POL 4465": {
+   "catalogTerm": "Spring 2027",
+   "title": "Democracy and Dictatorship in Southeast Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7990151"
+   },
+   "sourceRef": "course-7990151"
+  },
+  "POL 4474W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Russian Politics: From Soviet Empire to Post-Soviet State",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8156391"
+   },
+   "sourceRef": "course-8156391"
+  },
+  "POL 4481": {
+   "catalogTerm": "Spring 2027",
+   "title": "Comparative Political Economy: Governments and Markets",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065621"
+   },
+   "sourceRef": "course-0065621"
+  },
+  "POL 4487": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Ballot or the Streets - or Both? History of the Democratic Quest",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0069821"
+   },
+   "sourceRef": "course-0069821"
+  },
+  "POL 4492": {
+   "catalogTerm": "Spring 2027",
+   "title": "Law and (In)Justice in Latin America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8084671"
+   },
+   "sourceRef": "course-8084671"
+  },
+  "POL 4497W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Patronage & Corruption",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8114351"
+   },
+   "sourceRef": "course-8114351"
+  },
+  "POL 4501W": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Supreme Court and Constitutional Interpretation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065381"
+   },
+   "sourceRef": "course-0065381"
+  },
+  "POL 4502W": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Supreme Court, Civil Liberties, and Civil Rights",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065391"
+   },
+   "sourceRef": "course-0065391"
+  },
+  "POL 4525W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Federal Indian Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7898391"
+   },
+   "sourceRef": "course-7898391"
+  },
+  "POL 4766": {
+   "catalogTerm": "Spring 2027",
+   "title": "Culture War Politics in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065431"
+   },
+   "sourceRef": "course-0065431"
+  },
+  "POL 4771": {
+   "catalogTerm": "Spring 2027",
+   "title": "Race and Politics in America: Making Sense of Racial Attitudes in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7927631"
+   },
+   "sourceRef": "course-7927631"
+  },
+  "POL 4773W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Advocacy Organizations, Social Movements, and the Politics of Identity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8021081"
+   },
+   "sourceRef": "course-8021081"
+  },
+  "POL 4810": {
+   "catalogTerm": "Spring 2027",
+   "title": "Topics in International Politics and Foreign Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065841"
+   },
+   "sourceRef": "course-0065841"
+  },
+  "POL 4845": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Laws of War in International Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256511"
+   },
+   "sourceRef": "course-8256511"
+  },
+  "POL 4881W": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Politics of International Law and Global Governance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065901"
+   },
+   "sourceRef": "course-0065901"
+  },
+  "POL 4885W": {
+   "catalogTerm": "Spring 2027",
+   "title": "International Conflict and Security",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065961"
+   },
+   "sourceRef": "course-0065961"
+  },
+  "POL 4891": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Politics of Nuclear Weapons",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8177461"
+   },
+   "sourceRef": "course-8177461"
+  },
+  "POL 4892": {
+   "catalogTerm": "Spring 2027",
+   "title": "Human Rights, Business, and Governance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8274341"
+   },
+   "sourceRef": "course-8274341"
+  },
+  "POL 4991": {
+   "catalogTerm": "Spring 2027",
+   "title": "Political Science Capstone",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8179401"
+   },
+   "sourceRef": "course-8179401"
+  },
+  "POL 4993": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors Thesis: Directed Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7898011"
+   },
+   "sourceRef": "course-7898011"
+  },
+  "POL 4994": {
+   "catalogTerm": "Spring 2027",
+   "title": "Directed Research: Individual",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0071831"
+   },
+   "sourceRef": "course-0071831"
+  },
+  "POL 5315": {
+   "catalogTerm": "Spring 2027",
+   "title": "State Governments: Laboratories of Democracy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "grad student or instr consent"
+    },
+    "sourceRef": "course-7899201"
+   },
+   "sourceRef": "course-7899201"
+  },
+  "POL 5403": {
+   "catalogTerm": "Spring 2027",
+   "title": "Constitutions, Democracy, and Rights: Comparative Perspectives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7990651"
+   },
+   "sourceRef": "course-7990651"
+  },
+  "POL 5465": {
+   "catalogTerm": "Spring 2027",
+   "title": "Democracy and Dictatorship in Southeast Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7989071"
+   },
+   "sourceRef": "course-7989071"
+  },
+  "POL 5492": {
+   "catalogTerm": "Spring 2027",
+   "title": "Law and (In)Justice in Latin America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8163041"
+   },
+   "sourceRef": "course-8163041"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-071220217",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-qqosloG1",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Foundation Courses: courses from this list count for at most 9 credits. Verify this requirement with your advisor or APAS.",
+    "label": "Foundation Courses"
+   }
+  },
+  {
+   "id": "g-rKylKSkH",
+   "label": "Upper Division",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-P4aepI6U",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-hXc0oVpm",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-hXc0oVpm-c1",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-JTJGEnhv-c1",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-JTJGEnhv-credits-c1",
+            "type": "credits",
+            "courseSet": "set-JTJGEnhv",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-JTJGEnhv-min-c1",
+            "type": "count",
+            "courseSet": "set-JTJGEnhv",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "Political Theory Focus Area"
+         },
+         {
+          "id": "r-I8SRB1gP-c1",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-I8SRB1gP-credits-c1",
+            "type": "credits",
+            "courseSet": "set-I8SRB1gP",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-I8SRB1gP-min-c1",
+            "type": "count",
+            "courseSet": "set-I8SRB1gP",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "American Government Focus Area"
+         },
+         {
+          "id": "r-KNDvnF4V-c1",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-KNDvnF4V-credits-c1",
+            "type": "credits",
+            "courseSet": "set-KNDvnF4V",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-KNDvnF4V-min-c1",
+            "type": "count",
+            "courseSet": "set-KNDvnF4V",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "Comparative Government Focus Area"
+         }
+        ]
+       },
+       {
+        "id": "r-hXc0oVpm-c2",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-JTJGEnhv-c2",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-JTJGEnhv-credits-c2",
+            "type": "credits",
+            "courseSet": "set-JTJGEnhv",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-JTJGEnhv-min-c2",
+            "type": "count",
+            "courseSet": "set-JTJGEnhv",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "Political Theory Focus Area"
+         },
+         {
+          "id": "r-I8SRB1gP-c2",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-I8SRB1gP-credits-c2",
+            "type": "credits",
+            "courseSet": "set-I8SRB1gP",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-I8SRB1gP-min-c2",
+            "type": "count",
+            "courseSet": "set-I8SRB1gP",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "American Government Focus Area"
+         },
+         {
+          "id": "r-KKXLGPNx-c2",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-KKXLGPNx-credits-c2",
+            "type": "credits",
+            "courseSet": "set-KKXLGPNx",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-KKXLGPNx-min-c2",
+            "type": "count",
+            "courseSet": "set-KKXLGPNx",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "International Relations Focus Area"
+         }
+        ]
+       },
+       {
+        "id": "r-hXc0oVpm-c3",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-JTJGEnhv-c3",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-JTJGEnhv-credits-c3",
+            "type": "credits",
+            "courseSet": "set-JTJGEnhv",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-JTJGEnhv-min-c3",
+            "type": "count",
+            "courseSet": "set-JTJGEnhv",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "Political Theory Focus Area"
+         },
+         {
+          "id": "r-KNDvnF4V-c3",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-KNDvnF4V-credits-c3",
+            "type": "credits",
+            "courseSet": "set-KNDvnF4V",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-KNDvnF4V-min-c3",
+            "type": "count",
+            "courseSet": "set-KNDvnF4V",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "Comparative Government Focus Area"
+         },
+         {
+          "id": "r-KKXLGPNx-c3",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-KKXLGPNx-credits-c3",
+            "type": "credits",
+            "courseSet": "set-KKXLGPNx",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-KKXLGPNx-min-c3",
+            "type": "count",
+            "courseSet": "set-KKXLGPNx",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "International Relations Focus Area"
+         }
+        ]
+       },
+       {
+        "id": "r-hXc0oVpm-c4",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-I8SRB1gP-c4",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-I8SRB1gP-credits-c4",
+            "type": "credits",
+            "courseSet": "set-I8SRB1gP",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-I8SRB1gP-min-c4",
+            "type": "count",
+            "courseSet": "set-I8SRB1gP",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "American Government Focus Area"
+         },
+         {
+          "id": "r-KNDvnF4V-c4",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-KNDvnF4V-credits-c4",
+            "type": "credits",
+            "courseSet": "set-KNDvnF4V",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-KNDvnF4V-min-c4",
+            "type": "count",
+            "courseSet": "set-KNDvnF4V",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "Comparative Government Focus Area"
+         },
+         {
+          "id": "r-KKXLGPNx-c4",
+          "type": "all",
+          "allowReuse": true,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-KKXLGPNx-credits-c4",
+            "type": "credits",
+            "courseSet": "set-KKXLGPNx",
+            "minCredits": 3,
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-KKXLGPNx-min-c4",
+            "type": "count",
+            "courseSet": "set-KKXLGPNx",
+            "minCourses": 1,
+            "sourceRef": "program"
+           }
+          ],
+          "label": "International Relations Focus Area"
+         }
+        ]
+       }
+      ],
+      "label": "Focus Areas"
+     },
+     {
+      "id": "r-OXDKSdrx",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-OXDKSdrx-1",
+        "type": "course",
+        "code": "POL 3065",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OXDKSdrx-2",
+        "type": "course",
+        "code": "POL 3085",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OXDKSdrx-3",
+        "type": "course",
+        "code": "POL 3108H",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OXDKSdrx-4",
+        "type": "course",
+        "code": "POL 3994",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OXDKSdrx-5",
+        "type": "course",
+        "code": "POL 4085",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OXDKSdrx-6",
+        "type": "course",
+        "code": "POL 4087",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OXDKSdrx-7",
+        "type": "course",
+        "code": "POL 4994",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Additional Courses"
+     },
+     {
+      "id": "r-40QH3mxV",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Faculty-Supervised Internship: courses from this list count for at most 6 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Faculty-Supervised Internship"
+     }
+    ],
+    "label": "Upper Division"
+   }
+  },
+  {
+   "id": "g-Ur57T66W",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-xa4KXjqx",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-DNWEmUXX",
+      "type": "course",
+      "code": "POL 4991",
+      "sourceRef": "program",
+      "label": "Capstone"
+     },
+     {
+      "id": "r-qETMk105",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-qETMk105-credits",
+        "type": "credits",
+        "courseSet": "set-qETMk105",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-qETMk105-min",
+        "type": "count",
+        "courseSet": "set-qETMk105",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-qETMk105-max",
+        "type": "count",
+        "courseSet": "set-qETMk105",
+        "maxCourses": 2,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Honors Capstone"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-MKgzlfd0",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Z4kdnSfs",
+    "type": "count",
+    "courseSet": "set-Z4kdnSfs",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Political Science BA is POL.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or POL 3080).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 15 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn a BA or a minor in political science but not both. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "It is strongly recommended that students complete one POL 1xxx course prior to admission to the major. See \"Preparatory Courses\" under program requirements for suggested courses. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

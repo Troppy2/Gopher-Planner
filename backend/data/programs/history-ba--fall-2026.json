@@ -1,0 +1,5990 @@
+{
+ "schemaVersion": 2,
+ "id": "history-ba",
+ "name": "History B.A.",
+ "officialName": "History B.A.",
+ "officialProgramId": "038020217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "History B.A., revision 038020217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/038020217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/038020217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 038020217-2026-09-08"
+  },
+  "course-8261351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8261351",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3023, version 8261351-2023-09-05"
+  },
+  "course-8021111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021111",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1000, version 8021111-2026-09-08"
+  },
+  "course-0154121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0154121",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1011W, version 0154121-2026-01-20"
+  },
+  "course-0077751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077751",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1012W, version 0077751-2026-09-08"
+  },
+  "course-7886641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7886641",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1015W, version 7886641-2026-09-08"
+  },
+  "course-7877901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7877901",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 1015W, version 7877901-2015-01-20"
+  },
+  "course-0079961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079961",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1031W, version 0079961-2021-05-17"
+  },
+  "course-0071861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0071861",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1032W, version 0071861-2026-09-08"
+  },
+  "course-8176931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1081W, version 8176931-2025-01-21"
+  },
+  "course-8139461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8139461",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3081W, version 8139461-2021-05-17"
+  },
+  "course-8175571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8175571",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1082, version 8175571-2023-09-05"
+  },
+  "course-0091061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091061",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 1082, version 0091061-2023-09-05"
+  },
+  "course-7971041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971041",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 1082, version 7971041-2024-09-03"
+  },
+  "course-8107741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8107741",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1102, version 8107741-2021-05-17"
+  },
+  "course-8107751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8107751",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3102, version 8107751-2021-05-17"
+  },
+  "course-8084731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084731",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 1002, version 8084731-2014-01-21"
+  },
+  "course-0094591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0094591",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1301W, version 0094591-2021-05-17"
+  },
+  "course-0160921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160921",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1307, version 0160921-2026-09-08"
+  },
+  "course-0033591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033591",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1302W, version 0033591-2021-05-17"
+  },
+  "course-0154111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0154111",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1308, version 0154111-2021-05-17"
+  },
+  "course-8278831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278831",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1351W, version 8278831-2026-09-08"
+  },
+  "course-8162091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162091",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1361W, version 8162091-2021-05-17"
+  },
+  "course-8166661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8166661",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1362, version 8166661-2021-05-17"
+  },
+  "course-8184951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8184951",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1364, version 8184951-2021-05-17"
+  },
+  "course-8195561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8195561",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1365, version 8195561-2021-05-17"
+  },
+  "course-8265211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8265211",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1366W, version 8265211-2024-09-03"
+  },
+  "course-8262821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262821",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1463, version 8262821-2024-01-16"
+  },
+  "course-8263721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8263721",
+   "retrieved": "2026-11-23",
+   "section": "Course record EAS 1463, version 8263721-2024-01-16"
+  },
+  "course-8115151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115151",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1534, version 8115151-2021-05-17"
+  },
+  "course-0105551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0105551",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 1034, version 0105551-2025-01-21"
+  },
+  "course-7971441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971441",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 1034, version 7971441-2024-09-03"
+  },
+  "course-8267781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8267781",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1807, version 8267781-2024-01-16"
+  },
+  "course-8170201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170201",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1809, version 8170201-2021-05-17"
+  },
+  "course-8181721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181721",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1811, version 8181721-2024-05-13"
+  },
+  "course-7933701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7933701",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3001, version 7933701-2022-09-06"
+  },
+  "course-8164611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164611",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3001, version 8164611-2022-09-06"
+  },
+  "course-7976781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976781",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3003, version 7976781-2022-09-06"
+  },
+  "course-0033131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033131",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3051, version 0033131-2021-05-17"
+  },
+  "course-0033091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033091",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3052, version 0033091-2021-05-17"
+  },
+  "course-0033101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033101",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3053, version 0033101-2021-05-17"
+  },
+  "course-8082531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8082531",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3054, version 8082531-2024-01-16"
+  },
+  "course-7972931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7972931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3061, version 7972931-2021-05-17"
+  },
+  "course-8141601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8141601",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3061, version 8141601-2022-01-18"
+  },
+  "course-8100111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100111",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3066, version 8100111-2024-09-03"
+  },
+  "course-0087161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087161",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3009, version 0087161-2024-09-03"
+  },
+  "course-8100121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100121",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3067W, version 8100121-2024-01-16"
+  },
+  "course-0087361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087361",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3027W, version 0087361-2024-01-16"
+  },
+  "course-0087621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087621",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5027W, version 0087621-2024-01-16"
+  },
+  "course-8150311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8150311",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3544W, version 8150311-2024-09-03"
+  },
+  "course-8176951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176951",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3081W, version 8176951-2025-01-21"
+  },
+  "course-8162981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162981",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3082W, version 8162981-2023-01-17"
+  },
+  "course-8168461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168461",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3545W, version 8168461-2024-09-03"
+  },
+  "course-0078841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078841",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3101, version 0078841-2021-05-17"
+  },
+  "course-8140671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8140671",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3001, version 8140671-2015-09-08"
+  },
+  "course-8084741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084741",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3002, version 8084741-2014-01-21"
+  },
+  "course-0033081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033081",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3151W, version 0033081-2021-05-17"
+  },
+  "course-0033071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033071",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3152, version 0033071-2021-05-17"
+  },
+  "course-7888731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888731",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3211, version 7888731-2025-09-02"
+  },
+  "course-8080091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8080091",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLBT 3211, version 8080091-2025-09-02"
+  },
+  "course-7933711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7933711",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3212, version 7933711-2021-05-17"
+  },
+  "course-7976791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3212, version 7976791-2025-01-21"
+  },
+  "course-8024521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8024521",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLBT 3212, version 8024521-2025-01-21"
+  },
+  "course-0109081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0109081",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3244, version 0109081-2024-09-03"
+  },
+  "course-8097311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097311",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3264, version 8097311-2021-05-17"
+  },
+  "course-0100781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0100781",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5264, version 0100781-2021-05-17"
+  },
+  "course-8097321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097321",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3265, version 8097321-2021-05-17"
+  },
+  "course-0100941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0100941",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5265, version 0100941-2021-05-17"
+  },
+  "course-0034541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034541",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3271, version 0034541-2021-09-07"
+  },
+  "course-7963321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7963321",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5271, version 7963321-2021-09-07"
+  },
+  "course-0035271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035271",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3281W, version 0035271-2026-09-08"
+  },
+  "course-0047631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047631",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3282W, version 0047631-2026-09-08"
+  },
+  "course-8116971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8116971",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3283, version 8116971-2021-05-17"
+  },
+  "course-8135581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8135581",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3284W, version 8135581-2021-05-17"
+  },
+  "course-8143701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8143701",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3285, version 8143701-2022-09-06"
+  },
+  "course-8154311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8154311",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3625, version 8154311-2024-09-03"
+  },
+  "course-8256031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256031",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3287, version 8256031-2022-01-18"
+  },
+  "course-0033611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033611",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3348, version 0033611-2025-01-21"
+  },
+  "course-7933721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7933721",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3349, version 7933721-2021-05-17"
+  },
+  "course-8138651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8138651",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3549, version 8138651-2015-09-08"
+  },
+  "course-8163741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163741",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3361W, version 8163741-2021-05-17"
+  },
+  "course-8165261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8165261",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3362, version 8165261-2021-05-17"
+  },
+  "course-8160471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8160471",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3363, version 8160471-2021-05-17"
+  },
+  "course-0085251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085251",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3401W, version 0085251-2023-09-05"
+  },
+  "course-7970911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7970911",
+   "retrieved": "2026-11-23",
+   "section": "Course record LAS 3401W, version 7970911-2023-09-05"
+  },
+  "course-0085401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085401",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3402W, version 0085401-2021-05-17"
+  },
+  "course-7970931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7970931",
+   "retrieved": "2026-11-23",
+   "section": "Course record LAS 3402W, version 7970931-2015-01-20"
+  },
+  "course-8109841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8109841",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3412, version 8109841-2021-05-17"
+  },
+  "course-8171551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171551",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3413, version 8171551-2021-05-17"
+  },
+  "course-7991821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7991821",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3415, version 7991821-2023-01-17"
+  },
+  "course-8097251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097251",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3416, version 8097251-2021-05-17"
+  },
+  "course-8018241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018241",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3417W, version 8018241-2026-01-20"
+  },
+  "course-8018251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018251",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3418, version 8018251-2024-05-13"
+  },
+  "course-7909211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7909211",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3419, version 7909211-2021-05-17"
+  },
+  "course-7901591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7901591",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3423, version 7901591-2021-05-17"
+  },
+  "course-7900161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7900161",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3423, version 7900161-2026-01-20"
+  },
+  "course-0085271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085271",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3425, version 0085271-2023-01-17"
+  },
+  "course-7955741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7955741",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3425, version 7955741-2026-01-20"
+  },
+  "course-8078781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8078781",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3426, version 8078781-2023-09-05"
+  },
+  "course-8251741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251741",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3426, version 8251741-2025-01-21"
+  },
+  "course-7943301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7943301",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3436, version 7943301-2022-09-06"
+  },
+  "course-7977881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977881",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3436, version 7977881-2022-09-06"
+  },
+  "course-7975301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975301",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3429, version 7975301-2021-05-17"
+  },
+  "course-8055641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8055641",
+   "retrieved": "2026-11-23",
+   "section": "Course record LAS 3429, version 8055641-2015-01-20"
+  },
+  "course-0032381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032381",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3431, version 0032381-2026-09-08"
+  },
+  "course-7920781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920781",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3431, version 7920781-2026-09-08"
+  },
+  "course-0032391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032391",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3432, version 0032391-2021-05-17"
+  },
+  "course-7920791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3432, version 7920791-2015-01-20"
+  },
+  "course-7901611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7901611",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3435, version 7901611-2022-09-06"
+  },
+  "course-0053421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053421",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3205, version 0053421-2022-09-06"
+  },
+  "course-8107791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8107791",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3446, version 8107791-2026-01-20"
+  },
+  "course-7982081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982081",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3446, version 7982081-2026-01-20"
+  },
+  "course-8100711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100711",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3455, version 8100711-2021-05-17"
+  },
+  "course-0022791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0022791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3002, version 0022791-2013-01-22"
+  },
+  "course-8101621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101621",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3456, version 8101621-2021-05-17"
+  },
+  "course-7953421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953421",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3120, version 7953421-2013-09-03"
+  },
+  "course-0033671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033671",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3461, version 0033671-2026-09-08"
+  },
+  "course-7920861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920861",
+   "retrieved": "2026-11-23",
+   "section": "Course record EAS 3461, version 7920861-2026-09-08"
+  },
+  "course-0033651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033651",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3462, version 0033651-2021-05-17"
+  },
+  "course-7920851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920851",
+   "retrieved": "2026-11-23",
+   "section": "Course record EAS 3462, version 7920851-2015-01-20"
+  },
+  "course-8270831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8270831",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3463, version 8270831-2025-01-21"
+  },
+  "course-8013431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013431",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3466, version 8013431-2021-05-17"
+  },
+  "course-7972831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7972831",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3373, version 7972831-2024-09-03"
+  },
+  "course-8013811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013811",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3373, version 8013811-2024-09-03"
+  },
+  "course-0033701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033701",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3468, version 0033701-2026-01-20"
+  },
+  "course-7920881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920881",
+   "retrieved": "2026-11-23",
+   "section": "Course record EAS 3468, version 7920881-2026-01-20"
+  },
+  "course-8018921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018921",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3469, version 8018921-2026-09-08"
+  },
+  "course-8026691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8026691",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3372, version 8026691-2026-09-08"
+  },
+  "course-0033681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033681",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3471, version 0033681-2021-05-17"
+  },
+  "course-8085781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8085781",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3478, version 8085781-2020-01-21"
+  },
+  "course-7920871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920871",
+   "retrieved": "2026-11-23",
+   "section": "Course record EAS 3471, version 7920871-2012-09-04"
+  },
+  "course-7962351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7962351",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3476, version 7962351-2021-05-17"
+  },
+  "course-7967851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7967851",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3457, version 7967851-2020-01-21"
+  },
+  "course-8014151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8014151",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3477, version 8014151-2021-05-17"
+  },
+  "course-8097531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097531",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3478, version 8097531-2021-05-17"
+  },
+  "course-8110731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8110731",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5478, version 8110731-2021-05-17"
+  },
+  "course-8018931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3483, version 8018931-2021-05-17"
+  },
+  "course-8056041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8056041",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3483, version 8056041-2021-05-17"
+  },
+  "course-0035041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035041",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3485, version 0035041-2021-05-17"
+  },
+  "course-8083791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3771, version 8083791-2020-01-21"
+  },
+  "course-8097261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097261",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3486, version 8097261-2021-05-17"
+  },
+  "course-8106321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106321",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3486, version 8106321-2014-01-21"
+  },
+  "course-8018941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018941",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3487, version 8018941-2024-01-16"
+  },
+  "course-8269911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8269911",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3786, version 8269911-2024-01-16"
+  },
+  "course-0035021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035021",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3489, version 0035021-2026-09-08"
+  },
+  "course-8094841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094841",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3969, version 8094841-2026-09-08"
+  },
+  "course-8099081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099081",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3495, version 8099081-2026-01-20"
+  },
+  "course-0085571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085571",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3671, version 0085571-2025-09-02"
+  },
+  "course-7999191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7999191",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3671, version 7999191-2026-01-20"
+  },
+  "course-7902831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7902831",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3549W, version 7902831-2026-01-20"
+  },
+  "course-8099931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099931",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3871W, version 8099931-2025-09-02"
+  },
+  "course-7922601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922601",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3712W, version 7922601-2026-01-20"
+  },
+  "course-8031251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8031251",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3504, version 8031251-2021-05-17"
+  },
+  "course-8104231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8104231",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3872, version 8104231-2020-01-21"
+  },
+  "course-8107231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8107231",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3708, version 8107231-2024-09-03"
+  },
+  "course-7907931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7907931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3502W, version 7907931-2026-01-20"
+  },
+  "course-0108011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0108011",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3502W, version 0108011-2026-01-20"
+  },
+  "course-8063011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8063011",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3502W, version 8063011-2026-01-20"
+  },
+  "course-7907941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7907941",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3502W, version 7907941-2026-01-20"
+  },
+  "course-7889321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889321",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 5502W, version 7889321-2026-01-20"
+  },
+  "course-7922651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922651",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3505, version 7922651-2024-09-03"
+  },
+  "course-8100071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100071",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3876, version 8100071-2024-09-03"
+  },
+  "course-8018261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018261",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3507, version 8018261-2021-05-17"
+  },
+  "course-8260991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260991",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3508W, version 8260991-2023-01-17"
+  },
+  "course-8018271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018271",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3509, version 8018271-2021-05-17"
+  },
+  "course-8038331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8038331",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3511, version 8038331-2021-05-17"
+  },
+  "course-8071221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8071221",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3511, version 8071221-2025-01-21"
+  },
+  "course-8039701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8039701",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3079, version 8039701-2024-09-03"
+  },
+  "course-8069831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069831",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3512, version 8069831-2024-09-03"
+  },
+  "course-8071231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8071231",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3512, version 8071231-2024-09-03"
+  },
+  "course-8155041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8155041",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3113, version 8155041-2024-09-03"
+  },
+  "course-8109241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8109241",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3513, version 8109241-2021-05-17"
+  },
+  "course-8151051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8151051",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5513, version 8151051-2021-05-17"
+  },
+  "course-8151071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8151071",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3721, version 8151071-2024-09-03"
+  },
+  "course-8184611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8184611",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3514W, version 8184611-2024-09-03"
+  },
+  "course-8115161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115161",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3534, version 8115161-2021-05-17"
+  },
+  "course-7971451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971451",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3034, version 7971451-2025-01-21"
+  },
+  "course-7971431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971431",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3034, version 7971431-2024-09-03"
+  },
+  "course-8019961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8019961",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3546, version 8019961-2021-05-17"
+  },
+  "course-7922611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922611",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3547, version 7922611-2021-05-17"
+  },
+  "course-8176971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176971",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3722, version 8176971-2024-09-03"
+  },
+  "course-8034891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8034891",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3606, version 8034891-2021-09-07"
+  },
+  "course-8087591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8087591",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3606, version 8087591-2021-09-07"
+  },
+  "course-8251921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251921",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3606, version 8251921-2021-09-07"
+  },
+  "course-8087601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8087601",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3717, version 8087601-2024-09-03"
+  },
+  "course-0037541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0037541",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3609, version 0037541-2022-09-06"
+  },
+  "course-0032291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032291",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3611, version 0032291-2024-09-03"
+  },
+  "course-8163371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163371",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3611, version 8163371-2024-01-16"
+  },
+  "course-7880011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7880011",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3613, version 7880011-2026-01-20"
+  },
+  "course-8141611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8141611",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3613, version 8141611-2026-01-20"
+  },
+  "course-8030191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8030191",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3715, version 8030191-2026-01-20"
+  },
+  "course-0053581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053581",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3615W, version 0053581-2021-05-17"
+  },
+  "course-0032231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032231",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3616, version 0032231-2022-01-18"
+  },
+  "course-8162641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162641",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3616, version 8162641-2022-01-18"
+  },
+  "course-8132181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8132181",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3617, version 8132181-2026-09-08"
+  },
+  "course-8173941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173941",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3617, version 8173941-2026-09-08"
+  },
+  "course-8140021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8140021",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3617, version 8140021-2026-09-08"
+  },
+  "course-8140081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8140081",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3543, version 8140081-2026-09-08"
+  },
+  "course-0034851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034851",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3621, version 0034851-2026-09-08"
+  },
+  "course-0034711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034711",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3623W, version 0034711-2026-09-08"
+  },
+  "course-0100621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0100621",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3637, version 0100621-2021-05-17"
+  },
+  "course-0032951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032951",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3681, version 0032951-2021-05-17"
+  },
+  "course-7901631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7901631",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3689, version 7901631-2026-01-20"
+  },
+  "course-0036261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036261",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3704W, version 0036261-2021-05-17"
+  },
+  "course-8013781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013781",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3708, version 8013781-2026-09-08"
+  },
+  "course-8199001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8199001",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5708, version 8199001-2026-09-08"
+  },
+  "course-7998821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7998821",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3315, version 7998821-2026-09-08"
+  },
+  "course-8198991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198991",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5315, version 8198991-2026-09-08"
+  },
+  "course-8189591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189591",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3711, version 8189591-2022-09-06"
+  },
+  "course-8271631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271631",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3713W, version 8271631-2026-09-08"
+  },
+  "course-8276321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8276321",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3718, version 8276321-2026-01-20"
+  },
+  "course-7998841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7998841",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3719, version 7998841-2024-01-16"
+  },
+  "course-0042221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042221",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3721, version 0042221-2024-05-13"
+  },
+  "course-0041941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0041941",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3722, version 0041941-2021-05-17"
+  },
+  "course-8259531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8259531",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3726W, version 8259531-2022-09-06"
+  },
+  "course-8055351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8055351",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3727, version 8055351-2021-05-17"
+  },
+  "course-8056091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8056091",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3520, version 8056091-2025-01-21"
+  },
+  "course-8056101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8056101",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3520, version 8056101-2024-09-03"
+  },
+  "course-7886771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7886771",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3729, version 7886771-2021-05-17"
+  },
+  "course-8141101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8141101",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3746, version 8141101-2021-05-17"
+  },
+  "course-8258261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8258261",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3749, version 8258261-2022-09-06"
+  },
+  "course-0102041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102041",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3767, version 0102041-2021-05-17"
+  },
+  "course-8029331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029331",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3611, version 8029331-2024-09-03"
+  },
+  "course-0033001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033001",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3797, version 0033001-2021-05-17"
+  },
+  "course-8149781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8149781",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3811, version 8149781-2021-09-07"
+  },
+  "course-0032311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032311",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3812, version 0032311-2021-05-17"
+  },
+  "course-8254841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8254841",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3813W, version 8254841-2022-01-18"
+  },
+  "course-0088691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088691",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3821, version 0088691-2021-05-17"
+  },
+  "course-0091191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091191",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3822, version 0091191-2021-05-17"
+  },
+  "course-7886791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7886791",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3834, version 7886791-2021-05-17"
+  },
+  "course-7888501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888501",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3835, version 7888501-2021-05-17"
+  },
+  "course-8084331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084331",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3838, version 8084331-2026-09-08"
+  },
+  "course-8274301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8274301",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3848, version 8274301-2025-01-21"
+  },
+  "course-8274611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8274611",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3849, version 8274611-2025-01-21"
+  },
+  "course-0044211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044211",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3852, version 0044211-2026-01-20"
+  },
+  "course-8036371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8036371",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3853, version 8036371-2021-09-07"
+  },
+  "course-8250621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8250621",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3854, version 8250621-2021-09-07"
+  },
+  "course-8101031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101031",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3856, version 8101031-2021-05-17"
+  },
+  "course-7938471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938471",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3866, version 7938471-2010-09-07"
+  },
+  "course-7953481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953481",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5866, version 7953481-2014-09-02"
+  },
+  "course-8250631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8250631",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3857, version 8250631-2021-09-07"
+  },
+  "course-8261001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8261001",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3858, version 8261001-2023-09-05"
+  },
+  "course-8271841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271841",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3859, version 8271841-2024-09-03"
+  },
+  "course-8263481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8263481",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3661, version 8263481-2024-09-03"
+  },
+  "course-8271571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271571",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3661, version 8271571-2024-09-03"
+  },
+  "course-0043441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043441",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3862, version 0043441-2026-01-20"
+  },
+  "course-8078221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8078221",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3862, version 8078221-2026-01-20"
+  },
+  "course-8078021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8078021",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3862, version 8078021-2026-01-20"
+  },
+  "course-0164171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0164171",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3864, version 0164171-2021-05-17"
+  },
+  "course-0023371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023371",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3864, version 0023371-2024-09-03"
+  },
+  "course-0164141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0164141",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3865, version 0164141-2021-05-17"
+  },
+  "course-0023381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023381",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3865, version 0023381-2016-05-23"
+  },
+  "course-7975531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975531",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3868W, version 7975531-2021-05-17"
+  },
+  "course-7977891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977891",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3868W, version 7977891-2024-09-03"
+  },
+  "course-0073331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073331",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3871, version 0073331-2021-05-17"
+  },
+  "course-7922841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922841",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3871, version 7922841-2010-09-07"
+  },
+  "course-0072931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3872, version 0072931-2021-05-17"
+  },
+  "course-7922831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922831",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3872, version 7922831-2015-01-20"
+  },
+  "course-0161271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0161271",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3875W, version 0161271-2021-05-17"
+  },
+  "course-8047891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8047891",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3875W, version 8047891-2016-01-19"
+  },
+  "course-8272481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272481",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3876, version 8272481-2025-01-21"
+  },
+  "course-8181591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181591",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3361, version 8181591-2025-01-21"
+  },
+  "course-8182981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8182981",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3361, version 8182981-2025-01-21"
+  },
+  "course-0161291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0161291",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3877, version 0161291-2021-05-17"
+  },
+  "course-7974631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974631",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3877, version 7974631-2011-01-18"
+  },
+  "course-8201791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8201791",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3886, version 8201791-2021-05-17"
+  },
+  "course-0044081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044081",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3887, version 0044081-2026-01-20"
+  },
+  "course-7976901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976901",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5053, version 7976901-2021-05-17"
+  },
+  "course-8160221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8160221",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5286, version 8160221-2021-05-17"
+  },
+  "course-7896201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7896201",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5547, version 7896201-2021-05-17"
+  },
+  "course-0077941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077941",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5801, version 0077941-2024-01-16"
+  },
+  "course-8002451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8002451",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5802, version 8002451-2021-05-17"
+  },
+  "course-8013371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013371",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5831, version 8013371-2021-05-17"
+  },
+  "course-7999751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7999751",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 8231, version 7999751-2013-05-28"
+  },
+  "course-0043831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043831",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5862, version 0043831-2023-01-17"
+  },
+  "course-0078121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078121",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5890, version 0078121-2021-05-17"
+  },
+  "course-7970711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7970711",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5890, version 7970711-2025-01-21"
+  },
+  "course-0085421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085421",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5901, version 0085421-2021-05-17"
+  },
+  "course-0146661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0146661",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5902, version 0146661-2021-05-17"
+  },
+  "course-0083831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0083831",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5910, version 0083831-2024-05-13"
+  },
+  "course-0042661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042661",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5932, version 0042661-2021-05-17"
+  },
+  "course-8100061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100061",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5932, version 8100061-2015-01-20"
+  },
+  "course-8021131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021131",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 4011W, version 8021131-2023-09-05"
+  },
+  "course-8114301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114301",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 4011V, version 8114301-2025-01-21"
+  },
+  "course-0032931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 4961W, version 0032931-2026-09-08"
+  },
+  "course-7990401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990401",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 4961V, version 7990401-2026-09-08"
+  }
+ },
+ "courseSets": {
+  "set-422702": {
+   "codes": [
+    "HIST 1000",
+    "HIST 1011W",
+    "HIST 1012W",
+    "HIST 1015W",
+    "GLOS 1015W",
+    "HIST 1031W",
+    "HIST 1032W",
+    "HIST 1081W",
+    "HIST 3081W",
+    "HIST 1082",
+    "CNRC 1082",
+    "RELS 1082",
+    "HIST 1102",
+    "HIST 3102",
+    "MEST 1002",
+    "HIST 1301W",
+    "HIST 1307",
+    "HIST 1302W",
+    "HIST 1308",
+    "HIST 1351W",
+    "HIST 1361W",
+    "HIST 1362",
+    "HIST 1364",
+    "HIST 1365",
+    "HIST 1366W",
+    "HIST 1463",
+    "EAS 1463",
+    "HIST 1534",
+    "JWST 1034",
+    "RELS 1034",
+    "HIST 1807",
+    "HIST 1809",
+    "HIST 1811"
+   ],
+   "sourceRef": "program"
+  },
+  "set-422710": {
+   "codes": [
+    "HIST 3001",
+    "AMIN 3001",
+    "AMST 3003",
+    "HIST 3051",
+    "HIST 3052",
+    "HIST 3053",
+    "HIST 3054",
+    "HIST 3061",
+    "CNRC 3061",
+    "HIST 3066",
+    "ANTH 3009",
+    "HIST 3067W",
+    "ANTH 3027W",
+    "ANTH 5027W",
+    "HIST 3081W",
+    "RELS 3544W",
+    "MEST 3081W",
+    "HIST 3082W",
+    "RELS 3545W",
+    "HIST 3101",
+    "MEST 3001",
+    "HIST 3102",
+    "MEST 3002",
+    "HIST 3151W",
+    "HIST 3152",
+    "HIST 3211",
+    "GLBT 3211",
+    "HIST 3212",
+    "AMST 3212",
+    "GLBT 3212",
+    "HIST 3244",
+    "HIST 3264",
+    "HIST 5264",
+    "HIST 3265",
+    "HIST 5265",
+    "HIST 3271",
+    "HIST 5271",
+    "HIST 3281W",
+    "HIST 3282W",
+    "HIST 3283",
+    "HIST 3284W",
+    "HIST 3285",
+    "RELS 3625",
+    "HIST 3287",
+    "HIST 3348",
+    "HIST 3349",
+    "GWSS 3549",
+    "HIST 3361W",
+    "HIST 3362",
+    "HIST 3363",
+    "HIST 3401W",
+    "LAS 3401W",
+    "HIST 3402W",
+    "LAS 3402W",
+    "HIST 3412",
+    "HIST 3413",
+    "HIST 3415",
+    "HIST 3416",
+    "HIST 3417W",
+    "HIST 3418",
+    "HIST 3419",
+    "HIST 3423",
+    "CHLS 3423",
+    "HIST 3425",
+    "CHLS 3425",
+    "HIST 3426",
+    "MEST 3426",
+    "HIST 3436",
+    "AFRO 3436",
+    "HIST 3429",
+    "LAS 3429",
+    "HIST 3431",
+    "AFRO 3431",
+    "HIST 3432",
+    "AFRO 3432",
+    "HIST 3435",
+    "AFRO 3205",
+    "HIST 3446",
+    "CHLS 3446",
+    "HIST 3455",
+    "AFRO 3002",
+    "HIST 3456",
+    "AFRO 3120",
+    "HIST 3461",
+    "EAS 3461",
+    "HIST 3462",
+    "EAS 3462",
+    "HIST 3463",
+    "HIST 3466",
+    "AMES 3373",
+    "RELS 3373",
+    "HIST 3468",
+    "EAS 3468",
+    "HIST 3469",
+    "AMES 3372",
+    "HIST 3471",
+    "AMES 3478",
+    "EAS 3471",
+    "HIST 3476",
+    "AMES 3457",
+    "HIST 3477",
+    "HIST 3478",
+    "HIST 5478",
+    "HIST 3483",
+    "AAS 3483",
+    "HIST 3485",
+    "AMES 3771",
+    "HIST 3486",
+    "AAS 3486",
+    "HIST 3487",
+    "AMES 3786",
+    "HIST 3489",
+    "GLOS 3969",
+    "HIST 3495",
+    "AMES 3671",
+    "RELS 3671",
+    "HIST 3549W",
+    "AMES 3871W",
+    "RELS 3712W",
+    "HIST 3504",
+    "AMES 3872",
+    "RELS 3708",
+    "HIST 3502W",
+    "CNRC 3502W",
+    "JWST 3502W",
+    "RELS 3502W",
+    "CNRC 5502W",
+    "HIST 3505",
+    "AMES 3876",
+    "HIST 3507",
+    "HIST 3508W",
+    "HIST 3509",
+    "HIST 3511",
+    "JWST 3511",
+    "RELS 3079",
+    "HIST 3512",
+    "JWST 3512",
+    "RELS 3113",
+    "HIST 3513",
+    "HIST 5513",
+    "RELS 3721",
+    "HIST 3514W",
+    "HIST 3534",
+    "JWST 3034",
+    "RELS 3034",
+    "HIST 3546",
+    "HIST 3547",
+    "RELS 3722",
+    "HIST 3606",
+    "JWST 3606",
+    "MEST 3606",
+    "RELS 3717",
+    "HIST 3609",
+    "HIST 3611",
+    "MEST 3611",
+    "HIST 3613",
+    "MEST 3613",
+    "RELS 3715",
+    "HIST 3615W",
+    "HIST 3616",
+    "MEST 3616",
+    "HIST 3617",
+    "CNRC 3617",
+    "MEST 3617",
+    "RELS 3543",
+    "HIST 3621",
+    "HIST 3623W",
+    "HIST 3637",
+    "HIST 3681",
+    "HIST 3689",
+    "HIST 3704W",
+    "HIST 3708",
+    "HIST 5708",
+    "ARTH 3315",
+    "ARTH 5315",
+    "HIST 3711",
+    "HIST 3713W",
+    "HIST 3718",
+    "HIST 3719",
+    "HIST 3721",
+    "HIST 3722",
+    "HIST 3726W",
+    "HIST 3727",
+    "JWST 3520",
+    "RELS 3520",
+    "HIST 3729",
+    "HIST 3746",
+    "HIST 3749",
+    "HIST 3767",
+    "RELS 3611",
+    "HIST 3797",
+    "HIST 3811",
+    "HIST 3812",
+    "HIST 3813W",
+    "HIST 3821",
+    "HIST 3822",
+    "HIST 3834",
+    "HIST 3835",
+    "HIST 3838",
+    "HIST 3848",
+    "HIST 3849",
+    "HIST 3852",
+    "HIST 3853",
+    "HIST 3854",
+    "HIST 3856",
+    "AFRO 3866",
+    "AFRO 5866",
+    "HIST 3857",
+    "HIST 3858",
+    "HIST 3859",
+    "GER 3661",
+    "AMST 3661",
+    "HIST 3862",
+    "AAS 3862",
+    "CHLS 3862",
+    "HIST 3864",
+    "AFRO 3864",
+    "HIST 3865",
+    "AFRO 3865",
+    "HIST 3868W",
+    "AFRO 3868W",
+    "HIST 3871",
+    "AMIN 3871",
+    "HIST 3872",
+    "AMIN 3872",
+    "HIST 3875W",
+    "AAS 3875W",
+    "HIST 3876",
+    "AAS 3361",
+    "AMST 3361",
+    "HIST 3877",
+    "AAS 3877",
+    "HIST 3886",
+    "HIST 3887",
+    "HIST 5053",
+    "HIST 5286",
+    "HIST 5547",
+    "HIST 5801",
+    "HIST 5802",
+    "HIST 5831",
+    "AMST 8231",
+    "HIST 5862",
+    "HIST 5890",
+    "AMIN 5890",
+    "HIST 5901",
+    "HIST 5902",
+    "HIST 5910",
+    "HIST 5932",
+    "AFRO 5932"
+   ],
+   "sourceRef": "program"
+  },
+  "set-422701": {
+   "codes": [
+    "HIST 1000",
+    "HIST 1011W",
+    "HIST 1012W",
+    "HIST 1015W",
+    "GLOS 1015W",
+    "HIST 1031W",
+    "HIST 1032W",
+    "HIST 1081W",
+    "HIST 3081W",
+    "HIST 1082",
+    "CNRC 1082",
+    "RELS 1082",
+    "HIST 1102",
+    "HIST 3102",
+    "MEST 1002",
+    "HIST 1301W",
+    "HIST 1307",
+    "HIST 1302W",
+    "HIST 1308",
+    "HIST 1351W",
+    "HIST 1361W",
+    "HIST 1362",
+    "HIST 1364",
+    "HIST 1365",
+    "HIST 1366W",
+    "HIST 1463",
+    "EAS 1463",
+    "HIST 1534",
+    "JWST 1034",
+    "RELS 1034",
+    "HIST 1807",
+    "HIST 1809",
+    "HIST 1811",
+    "HIST 3001",
+    "AMIN 3001",
+    "AMST 3003",
+    "HIST 3051",
+    "HIST 3052",
+    "HIST 3053",
+    "HIST 3054",
+    "HIST 3061",
+    "CNRC 3061",
+    "HIST 3066",
+    "ANTH 3009",
+    "HIST 3067W",
+    "ANTH 3027W",
+    "ANTH 5027W",
+    "RELS 3544W",
+    "MEST 3081W",
+    "HIST 3082W",
+    "RELS 3545W",
+    "HIST 3101",
+    "MEST 3001",
+    "MEST 3002",
+    "HIST 3151W",
+    "HIST 3152",
+    "HIST 3211",
+    "GLBT 3211",
+    "HIST 3212",
+    "AMST 3212",
+    "GLBT 3212",
+    "HIST 3244",
+    "HIST 3264",
+    "HIST 5264",
+    "HIST 3265",
+    "HIST 5265",
+    "HIST 3271",
+    "HIST 5271",
+    "HIST 3281W",
+    "HIST 3282W",
+    "HIST 3283",
+    "HIST 3284W",
+    "HIST 3285",
+    "RELS 3625",
+    "HIST 3287",
+    "HIST 3348",
+    "HIST 3349",
+    "GWSS 3549",
+    "HIST 3361W",
+    "HIST 3362",
+    "HIST 3363",
+    "HIST 3401W",
+    "LAS 3401W",
+    "HIST 3402W",
+    "LAS 3402W",
+    "HIST 3412",
+    "HIST 3413",
+    "HIST 3415",
+    "HIST 3416",
+    "HIST 3417W",
+    "HIST 3418",
+    "HIST 3419",
+    "HIST 3423",
+    "CHLS 3423",
+    "HIST 3425",
+    "CHLS 3425",
+    "HIST 3426",
+    "MEST 3426",
+    "HIST 3436",
+    "AFRO 3436",
+    "HIST 3429",
+    "LAS 3429",
+    "HIST 3431",
+    "AFRO 3431",
+    "HIST 3432",
+    "AFRO 3432",
+    "HIST 3435",
+    "AFRO 3205",
+    "HIST 3446",
+    "CHLS 3446",
+    "HIST 3455",
+    "AFRO 3002",
+    "HIST 3456",
+    "AFRO 3120",
+    "HIST 3461",
+    "EAS 3461",
+    "HIST 3462",
+    "EAS 3462",
+    "HIST 3463",
+    "HIST 3466",
+    "AMES 3373",
+    "RELS 3373",
+    "HIST 3468",
+    "EAS 3468",
+    "HIST 3469",
+    "AMES 3372",
+    "HIST 3471",
+    "AMES 3478",
+    "EAS 3471",
+    "HIST 3476",
+    "AMES 3457",
+    "HIST 3477",
+    "HIST 3478",
+    "HIST 5478",
+    "HIST 3483",
+    "AAS 3483",
+    "HIST 3485",
+    "AMES 3771",
+    "HIST 3486",
+    "AAS 3486",
+    "HIST 3487",
+    "AMES 3786",
+    "HIST 3489",
+    "GLOS 3969",
+    "HIST 3495",
+    "AMES 3671",
+    "RELS 3671",
+    "HIST 3549W",
+    "AMES 3871W",
+    "RELS 3712W",
+    "HIST 3504",
+    "AMES 3872",
+    "RELS 3708",
+    "HIST 3502W",
+    "CNRC 3502W",
+    "JWST 3502W",
+    "RELS 3502W",
+    "CNRC 5502W",
+    "HIST 3505",
+    "AMES 3876",
+    "HIST 3507",
+    "HIST 3508W",
+    "HIST 3509",
+    "HIST 3511",
+    "JWST 3511",
+    "RELS 3079",
+    "HIST 3512",
+    "JWST 3512",
+    "RELS 3113",
+    "HIST 3513",
+    "HIST 5513",
+    "RELS 3721",
+    "HIST 3514W",
+    "HIST 3534",
+    "JWST 3034",
+    "RELS 3034",
+    "HIST 3546",
+    "HIST 3547",
+    "RELS 3722",
+    "HIST 3606",
+    "JWST 3606",
+    "MEST 3606",
+    "RELS 3717",
+    "HIST 3609",
+    "HIST 3611",
+    "MEST 3611",
+    "HIST 3613",
+    "MEST 3613",
+    "RELS 3715",
+    "HIST 3615W",
+    "HIST 3616",
+    "MEST 3616",
+    "HIST 3617",
+    "CNRC 3617",
+    "MEST 3617",
+    "RELS 3543",
+    "HIST 3621",
+    "HIST 3623W",
+    "HIST 3637",
+    "HIST 3681",
+    "HIST 3689",
+    "HIST 3704W",
+    "HIST 3708",
+    "HIST 5708",
+    "ARTH 3315",
+    "ARTH 5315",
+    "HIST 3711",
+    "HIST 3713W",
+    "HIST 3718",
+    "HIST 3719",
+    "HIST 3721",
+    "HIST 3722",
+    "HIST 3726W",
+    "HIST 3727",
+    "JWST 3520",
+    "RELS 3520",
+    "HIST 3729",
+    "HIST 3746",
+    "HIST 3749",
+    "HIST 3767",
+    "RELS 3611",
+    "HIST 3797",
+    "HIST 3811",
+    "HIST 3812",
+    "HIST 3813W",
+    "HIST 3821",
+    "HIST 3822",
+    "HIST 3834",
+    "HIST 3835",
+    "HIST 3838",
+    "HIST 3848",
+    "HIST 3849",
+    "HIST 3852",
+    "HIST 3853",
+    "HIST 3854",
+    "HIST 3856",
+    "AFRO 3866",
+    "AFRO 5866",
+    "HIST 3857",
+    "HIST 3858",
+    "HIST 3859",
+    "GER 3661",
+    "AMST 3661",
+    "HIST 3862",
+    "AAS 3862",
+    "CHLS 3862",
+    "HIST 3864",
+    "AFRO 3864",
+    "HIST 3865",
+    "AFRO 3865",
+    "HIST 3868W",
+    "AFRO 3868W",
+    "HIST 3871",
+    "AMIN 3871",
+    "HIST 3872",
+    "AMIN 3872",
+    "HIST 3875W",
+    "AAS 3875W",
+    "HIST 3876",
+    "AAS 3361",
+    "AMST 3361",
+    "HIST 3877",
+    "AAS 3877",
+    "HIST 3886",
+    "HIST 3887",
+    "HIST 5053",
+    "HIST 5286",
+    "HIST 5547",
+    "HIST 5801",
+    "HIST 5802",
+    "HIST 5831",
+    "AMST 8231",
+    "HIST 5862",
+    "HIST 5890",
+    "AMIN 5890",
+    "HIST 5901",
+    "HIST 5902",
+    "HIST 5910",
+    "HIST 5932",
+    "AFRO 5932"
+   ],
+   "sourceRef": "program"
+  },
+  "set-MbB5XN42": {
+   "codes": [
+    "HIST 4011W",
+    "HIST 4011V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-3QiluRro": {
+   "codes": [
+    "HIST 4961W",
+    "HIST 4961V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-oA66Paxm": {
+   "codes": [
+    "HIST 3067W",
+    "ANTH 3027W",
+    "ANTH 5027W",
+    "HIST 3081W",
+    "MEST 3081W",
+    "RELS 3544W",
+    "HIST 3082W",
+    "RELS 3545W",
+    "HIST 3151W",
+    "HIST 3284W",
+    "HIST 3361W",
+    "HIST 3401W",
+    "LAS 3401W",
+    "HIST 3417W",
+    "HIST 3402W",
+    "LAS 3402W",
+    "HIST 3502W",
+    "CNRC 3502W",
+    "JWST 3502W",
+    "RELS 3502W",
+    "CNRC 5502W",
+    "HIST 3508W",
+    "HIST 3514W",
+    "HIST 3615W",
+    "HIST 3623W",
+    "HIST 3704W",
+    "HIST 3726W",
+    "HIST 3813W",
+    "HIST 3868W",
+    "AFRO 3868W",
+    "HIST 3875W",
+    "AAS 3875W",
+    "HIST 4011W",
+    "HIST 4011V",
+    "HIST 4961W",
+    "HIST 4961V"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AAS 3361": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian Americans and Food",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181591"
+   },
+   "sourceRef": "course-8181591"
+  },
+  "AAS 3483": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hmong History Across the Globe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8056041"
+   },
+   "sourceRef": "course-8056041"
+  },
+  "AAS 3486": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hmong Refugees from the Secret War:  Becoming Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106321"
+   },
+   "sourceRef": "course-8106321"
+  },
+  "AAS 3862": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Immigration History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8078221"
+   },
+   "sourceRef": "course-8078221"
+  },
+  "AAS 3875W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Race and Ethnicity in U.S. History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8047891"
+   },
+   "sourceRef": "course-8047891"
+  },
+  "AAS 3877": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American History, 1850 to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974631"
+   },
+   "sourceRef": "course-7974631"
+  },
+  "AFRO 3002": {
+   "catalogTerm": "Fall 2026",
+   "title": "West African History: 1800 to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0022791"
+   },
+   "sourceRef": "course-0022791"
+  },
+  "AFRO 3120": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social and Intellectual Movements in the African Diaspora",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7953421"
+   },
+   "sourceRef": "course-7953421"
+  },
+  "AFRO 3205": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of South Africa from 1910: Anti-Racism, Youth Politics, Pandemics & Gender (Based Violence)",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053421"
+   },
+   "sourceRef": "course-0053421"
+  },
+  "AFRO 3431": {
+   "catalogTerm": "Fall 2026",
+   "title": "Early Africa and Its Global Connections",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7920781"
+   },
+   "sourceRef": "course-7920781"
+  },
+  "AFRO 3432": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Africa in a Changing World",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7920791"
+   },
+   "sourceRef": "course-7920791"
+  },
+  "AFRO 3436": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fighting for History:Historical Roots of Contemporary Crises in Africa",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977881"
+   },
+   "sourceRef": "course-7977881"
+  },
+  "AFRO 3864": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American History: 1619 to 1865",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023371"
+   },
+   "sourceRef": "course-0023371"
+  },
+  "AFRO 3865": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American History: 1865 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023381"
+   },
+   "sourceRef": "course-0023381"
+  },
+  "AFRO 3866": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Civil Rights and Black Power Movement, 1954-1984",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938471"
+   },
+   "sourceRef": "course-7938471"
+  },
+  "AFRO 3868W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Race, War, and Race Wars in American History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977891"
+   },
+   "sourceRef": "course-7977891"
+  },
+  "AFRO 5866": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Civil Rights and Black Power Movement, 1954-1984",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7953481"
+   },
+   "sourceRef": "course-7953481"
+  },
+  "AFRO 5932": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Production of Knowledge, Negotiating the Past, and the Writing of African Histories",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-8100061"
+   },
+   "sourceRef": "course-8100061"
+  },
+  "AMES 3372": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Women and Family in China, 1550-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8026691"
+   },
+   "sourceRef": "course-8026691"
+  },
+  "AMES 3373": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion and Society in Imperial China",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7972831"
+   },
+   "sourceRef": "course-7972831"
+  },
+  "AMES 3457": {
+   "catalogTerm": "Fall 2026",
+   "title": "War and Peace in Japan Through Popular Culture",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7967851"
+   },
+   "sourceRef": "course-7967851"
+  },
+  "AMES 3478": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Japan, Meiji to the Present (1868-2000)",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8085781"
+   },
+   "sourceRef": "course-8085781"
+  },
+  "AMES 3671": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hinduism and the Making of Modern India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0085571"
+   },
+   "sourceRef": "course-0085571"
+  },
+  "AMES 3771": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Southeast Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8083791"
+   },
+   "sourceRef": "course-8083791"
+  },
+  "AMES 3786": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Vietnam Wars: French Colonialism and US Intervention in Indochina",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8269911"
+   },
+   "sourceRef": "course-8269911"
+  },
+  "AMES 3871W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islam: Religion and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8099931"
+   },
+   "sourceRef": "course-8099931"
+  },
+  "AMES 3872": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Cultures of the Silk Road",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8104231"
+   },
+   "sourceRef": "course-8104231"
+  },
+  "AMES 3876": {
+   "catalogTerm": "Fall 2026",
+   "title": "Survey of the Modern Middle East",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100071"
+   },
+   "sourceRef": "course-8100071"
+  },
+  "AMIN 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164611"
+   },
+   "sourceRef": "course-8164611"
+  },
+  "AMIN 3871": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: Pre-Contact to 1830",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922841"
+   },
+   "sourceRef": "course-7922841"
+  },
+  "AMIN 3872": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: 1830 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922831"
+   },
+   "sourceRef": "course-7922831"
+  },
+  "AMIN 5890": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in American Indian and Indigenous History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Advanced undergrad with instr consent or grad student"
+    },
+    "sourceRef": "course-7970711"
+   },
+   "sourceRef": "course-7970711"
+  },
+  "AMST 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976781"
+   },
+   "sourceRef": "course-7976781"
+  },
+  "AMST 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dissident Sexualities in U.S. History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976791"
+   },
+   "sourceRef": "course-7976791"
+  },
+  "AMST 3361": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian Americans and Food",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8182981"
+   },
+   "sourceRef": "course-8182981"
+  },
+  "AMST 3661": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Americans in Germany",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271571"
+   },
+   "sourceRef": "course-8271571"
+  },
+  "AMST 8231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cultural Fallout: The Cold War and Its Legacy, Readings",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7999751"
+   },
+   "sourceRef": "course-7999751"
+  },
+  "ANTH 3009": {
+   "catalogTerm": "Fall 2026",
+   "title": "Prehistoric Pathways to World Civilizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087161"
+   },
+   "sourceRef": "course-0087161"
+  },
+  "ANTH 3027W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology of Prehistoric Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087361"
+   },
+   "sourceRef": "course-0087361"
+  },
+  "ANTH 5027W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology of Prehistoric Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087621"
+   },
+   "sourceRef": "course-0087621"
+  },
+  "ARTH 3315": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Curiosity: Art, Science & Technology in Europe, 1400-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7998821"
+   },
+   "sourceRef": "course-7998821"
+  },
+  "ARTH 5315": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Curiosity: Art, Science & Technology in Europe, 1400-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8198991"
+   },
+   "sourceRef": "course-8198991"
+  },
+  "CHLS 3423": {
+   "catalogTerm": "Fall 2026",
+   "title": "Central American Revolutions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7900161"
+   },
+   "sourceRef": "course-7900161"
+  },
+  "CHLS 3425": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Modern Mexico",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7955741"
+   },
+   "sourceRef": "course-7955741"
+  },
+  "CHLS 3446": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chicana and Chicano History II: WWII, El Movimiento, and the New Millennium",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7982081"
+   },
+   "sourceRef": "course-7982081"
+  },
+  "CHLS 3862": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Immigration History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8078021"
+   },
+   "sourceRef": "course-8078021"
+  },
+  "CNRC 1082": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jesus in History, Art & Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0091061"
+   },
+   "sourceRef": "course-0091061"
+  },
+  "CNRC 3061": {
+   "catalogTerm": "Fall 2026",
+   "title": "\"Bread and Circuses:\" Spectacles and Mass Culture in Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8141601"
+   },
+   "sourceRef": "course-8141601"
+  },
+  "CNRC 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0108011"
+   },
+   "sourceRef": "course-0108011"
+  },
+  "CNRC 3617": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pagans, Christians, Barbarians: The World of Late Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173941"
+   },
+   "sourceRef": "course-8173941"
+  },
+  "CNRC 5502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889321"
+   },
+   "sourceRef": "course-7889321"
+  },
+  "EAS 1463": {
+   "catalogTerm": "Fall 2026",
+   "title": "An Introduction to Imperialism in Asia, 1850-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8263721"
+   },
+   "sourceRef": "course-8263721"
+  },
+  "EAS 3461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to East Asia I: The Imperial Age",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7920861"
+   },
+   "sourceRef": "course-7920861"
+  },
+  "EAS 3462": {
+   "catalogTerm": "Fall 2026",
+   "title": "From Subjects to Citizens: The History of East Asia From 1500 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7920851"
+   },
+   "sourceRef": "course-7920851"
+  },
+  "EAS 3468": {
+   "catalogTerm": "Fall 2026",
+   "title": "China in the Twentieth-Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7920881"
+   },
+   "sourceRef": "course-7920881"
+  },
+  "EAS 3471": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Japan, Meiji to the Present (1868-2000)",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7920871"
+   },
+   "sourceRef": "course-7920871"
+  },
+  "GER 3661": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Americans in Germany",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8263481"
+   },
+   "sourceRef": "course-8263481"
+  },
+  "GLBT 3211": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Sexuality in Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8080091"
+   },
+   "sourceRef": "course-8080091"
+  },
+  "GLBT 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dissident Sexualities in U.S. History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8024521"
+   },
+   "sourceRef": "course-8024521"
+  },
+  "GLOS 1015W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Globalization: Issues and Challenges",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7877901"
+   },
+   "sourceRef": "course-7877901"
+  },
+  "GLOS 3969": {
+   "catalogTerm": "Fall 2026",
+   "title": "Democracy and Popular Politics in India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8094841"
+   },
+   "sourceRef": "course-8094841"
+  },
+  "GWSS 3549": {
+   "catalogTerm": "Fall 2026",
+   "title": "U.S. Women's Legal History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or jr or sr"
+    },
+    "sourceRef": "course-8138651"
+   },
+   "sourceRef": "course-8138651"
+  },
+  "HIST 1000": {
+   "catalogTerm": "Fall 2026",
+   "title": "New Topics in History",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8021111"
+   },
+   "sourceRef": "course-8021111"
+  },
+  "HIST 1011W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Civilization and the Environment: World History to 1500",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Fr or soph or non-hist major"
+    },
+    "sourceRef": "course-0154121"
+   },
+   "sourceRef": "course-0154121"
+  },
+  "HIST 1012W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Revolution, Capitalism, and Empire",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0077751"
+   },
+   "sourceRef": "course-0077751"
+  },
+  "HIST 1015W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Global History of the Twentieth Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7886641"
+   },
+   "sourceRef": "course-7886641"
+  },
+  "HIST 1031W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Europe and the World: Expansion, Encounter, and Exchange to 1500",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Fr or soph or non-hist major"
+    },
+    "sourceRef": "course-0079961"
+   },
+   "sourceRef": "course-0079961"
+  },
+  "HIST 1032W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Europe and the World: Expansion, Encounter, and Exchange from 1500 to Present",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0071861"
+   },
+   "sourceRef": "course-0071861"
+  },
+  "HIST 1081W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Martyrs, Monks, Crusaders: World Christianity, 100-1400",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176931"
+   },
+   "sourceRef": "course-8176931"
+  },
+  "HIST 1082": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jesus in History, Art & Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8175571"
+   },
+   "sourceRef": "course-8175571"
+  },
+  "HIST 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Tales and their Modern Echoes",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8107741"
+   },
+   "sourceRef": "course-8107741"
+  },
+  "HIST 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Authority and Rebellion: American History to 1865",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Fr or soph or non-hist major"
+    },
+    "sourceRef": "course-0094591"
+   },
+   "sourceRef": "course-0094591"
+  },
+  "HIST 1302W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global America: U.S. History Since 1865",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Fr or soph or non-hist major"
+    },
+    "sourceRef": "course-0033591"
+   },
+   "sourceRef": "course-0033591"
+  },
+  "HIST 1307": {
+   "catalogTerm": "Fall 2026",
+   "title": "Authority and Rebellion: American History to 1865",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0160921"
+   },
+   "sourceRef": "course-0160921"
+  },
+  "HIST 1308": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global America: U.S. History Since 1865",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0154111"
+   },
+   "sourceRef": "course-0154111"
+  },
+  "HIST 1351W": {
+   "catalogTerm": "Fall 2026",
+   "title": "A History of Evil: From the Babylonians to Hitler",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278831"
+   },
+   "sourceRef": "course-8278831"
+  },
+  "HIST 1361W": {
+   "catalogTerm": "Fall 2026",
+   "title": "World War I: A Global History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162091"
+   },
+   "sourceRef": "course-8162091"
+  },
+  "HIST 1362": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global History of World War II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8166661"
+   },
+   "sourceRef": "course-8166661"
+  },
+  "HIST 1364": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Global Environmental History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8184951"
+   },
+   "sourceRef": "course-8184951"
+  },
+  "HIST 1365": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global Tourism and the Environment from the late 18th Century to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8195561"
+   },
+   "sourceRef": "course-8195561"
+  },
+  "HIST 1366W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Radical Environmentalism in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8265211"
+   },
+   "sourceRef": "course-8265211"
+  },
+  "HIST 1463": {
+   "catalogTerm": "Fall 2026",
+   "title": "An Introduction to Imperialism in Asia, 1850-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262821"
+   },
+   "sourceRef": "course-8262821"
+  },
+  "HIST 1534": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115151"
+   },
+   "sourceRef": "course-8115151"
+  },
+  "HIST 1807": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Constitution: A People's History from the Founding to Now",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8267781"
+   },
+   "sourceRef": "course-8267781"
+  },
+  "HIST 1809": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Presidency: Power, Politics, and Policy in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170201"
+   },
+   "sourceRef": "course-8170201"
+  },
+  "HIST 1811": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Sixties: History & Memory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181721"
+   },
+   "sourceRef": "course-8181721"
+  },
+  "HIST 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7933701"
+   },
+   "sourceRef": "course-7933701"
+  },
+  "HIST 3023": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hands-On History: Methods Seminar",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8261351"
+   },
+   "sourceRef": "course-8261351"
+  },
+  "HIST 3051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Civilization: Near East and Egypt",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033131"
+   },
+   "sourceRef": "course-0033131"
+  },
+  "HIST 3052": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Civilization: Greece",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033091"
+   },
+   "sourceRef": "course-0033091"
+  },
+  "HIST 3053": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Civilization: Rome",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033101"
+   },
+   "sourceRef": "course-0033101"
+  },
+  "HIST 3054": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Egypt and its Neighbors",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8082531"
+   },
+   "sourceRef": "course-8082531"
+  },
+  "HIST 3061": {
+   "catalogTerm": "Fall 2026",
+   "title": "\"Bread and Circuses\": Spectacles and Mass Culture in Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7972931"
+   },
+   "sourceRef": "course-7972931"
+  },
+  "HIST 3066": {
+   "catalogTerm": "Fall 2026",
+   "title": "Prehistoric Pathways to World Civilization",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100111"
+   },
+   "sourceRef": "course-8100111"
+  },
+  "HIST 3067W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology of Prehistoric Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100121"
+   },
+   "sourceRef": "course-8100121"
+  },
+  "HIST 3081W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Martyrs, Monks, Crusaders: World Christianity, 100-1400",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8139461"
+   },
+   "sourceRef": "course-8139461"
+  },
+  "HIST 3082W": {
+   "catalogTerm": "Fall 2026",
+   "title": "World Christianity, 1300-1800 Reformers, Radicals and Revolutionaries",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162981"
+   },
+   "sourceRef": "course-8162981"
+  },
+  "HIST 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Medieval History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0078841"
+   },
+   "sourceRef": "course-0078841"
+  },
+  "HIST 3102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Tales and their Modern Echoes",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8107751"
+   },
+   "sourceRef": "course-8107751"
+  },
+  "HIST 3151W": {
+   "catalogTerm": "Fall 2026",
+   "title": "British History to the 17th Century",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033081"
+   },
+   "sourceRef": "course-0033081"
+  },
+  "HIST 3152": {
+   "catalogTerm": "Fall 2026",
+   "title": "British History From the Seventeenth Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033071"
+   },
+   "sourceRef": "course-0033071"
+  },
+  "HIST 3211": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Sexuality in Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7888731"
+   },
+   "sourceRef": "course-7888731"
+  },
+  "HIST 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dissident Sexualities in U.S. History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7933711"
+   },
+   "sourceRef": "course-7933711"
+  },
+  "HIST 3244": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Eastern Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0109081"
+   },
+   "sourceRef": "course-0109081"
+  },
+  "HIST 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Imperial Russia: Formation and Expansion of the Russian Empire in the 18th and 19th Centuries",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097311"
+   },
+   "sourceRef": "course-8097311"
+  },
+  "HIST 3265": {
+   "catalogTerm": "Fall 2026",
+   "title": "20th-Century Russia: The Collapse of Imperial Russia, the Revolutions, and the Soviet Regime",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097321"
+   },
+   "sourceRef": "course-8097321"
+  },
+  "HIST 3271": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Viking World: Story, History, and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0034541"
+   },
+   "sourceRef": "course-0034541"
+  },
+  "HIST 3281W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Excellent Adventure of Western Philosophy Part I \u2013 Antiquity to 1750",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035271"
+   },
+   "sourceRef": "course-0035271"
+  },
+  "HIST 3282W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Excellent Adventure of Western Philosophy Part II \u2013 The Enlightenment to the Present",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0047631"
+   },
+   "sourceRef": "course-0047631"
+  },
+  "HIST 3283": {
+   "catalogTerm": "Fall 2026",
+   "title": "Marx, Capital, and History:  An Introduction to Marxist Theory and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8116971"
+   },
+   "sourceRef": "course-8116971"
+  },
+  "HIST 3284W": {
+   "catalogTerm": "Fall 2026",
+   "title": "History through Memoir",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8135581"
+   },
+   "sourceRef": "course-8135581"
+  },
+  "HIST 3285": {
+   "catalogTerm": "Fall 2026",
+   "title": "Magic and Medicine",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8143701"
+   },
+   "sourceRef": "course-8143701"
+  },
+  "HIST 3287": {
+   "catalogTerm": "Fall 2026",
+   "title": "Seeing History through Comics: New Perspectives on the Contentious Past",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256031"
+   },
+   "sourceRef": "course-8256031"
+  },
+  "HIST 3348": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women and Gender in Modern America",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033611"
+   },
+   "sourceRef": "course-0033611"
+  },
+  "HIST 3349": {
+   "catalogTerm": "Fall 2026",
+   "title": "U.S. Women's Legal History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or jr or sr"
+    },
+    "sourceRef": "course-7933721"
+   },
+   "sourceRef": "course-7933721"
+  },
+  "HIST 3361W": {
+   "catalogTerm": "Fall 2026",
+   "title": "World War I: A Global History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8163741"
+   },
+   "sourceRef": "course-8163741"
+  },
+  "HIST 3362": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global History of World War II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8165261"
+   },
+   "sourceRef": "course-8165261"
+  },
+  "HIST 3363": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global History of the Cold War",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8160471"
+   },
+   "sourceRef": "course-8160471"
+  },
+  "HIST 3401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Early Latin America to 1825",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0085251"
+   },
+   "sourceRef": "course-0085251"
+  },
+  "HIST 3402W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Latin America 1825 to Present",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0085401"
+   },
+   "sourceRef": "course-0085401"
+  },
+  "HIST 3412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Soccer: Around the World with the Beautiful Game",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8109841"
+   },
+   "sourceRef": "course-8109841"
+  },
+  "HIST 3413": {
+   "catalogTerm": "Fall 2026",
+   "title": "War in History: Preparing and Making War in World History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171551"
+   },
+   "sourceRef": "course-8171551"
+  },
+  "HIST 3415": {
+   "catalogTerm": "Fall 2026",
+   "title": "Migrations in Modern Global History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7991821"
+   },
+   "sourceRef": "course-7991821"
+  },
+  "HIST 3416": {
+   "catalogTerm": "Fall 2026",
+   "title": "Imperialism and its Critics:  Ethical Issues, Literary Representations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097251"
+   },
+   "sourceRef": "course-8097251"
+  },
+  "HIST 3417W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Food in History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018241"
+   },
+   "sourceRef": "course-8018241"
+  },
+  "HIST 3418": {
+   "catalogTerm": "Fall 2026",
+   "title": "Drink in History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018251"
+   },
+   "sourceRef": "course-8018251"
+  },
+  "HIST 3419": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Capitalism: Uneven Development Since 1500",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7909211"
+   },
+   "sourceRef": "course-7909211"
+  },
+  "HIST 3423": {
+   "catalogTerm": "Fall 2026",
+   "title": "Central American Revolutions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7901591"
+   },
+   "sourceRef": "course-7901591"
+  },
+  "HIST 3425": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Modern Mexico",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0085271"
+   },
+   "sourceRef": "course-0085271"
+  },
+  "HIST 3426": {
+   "catalogTerm": "Fall 2026",
+   "title": "Piracy in the Mediterranean: The World of Merchants and Pirates",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8078781"
+   },
+   "sourceRef": "course-8078781"
+  },
+  "HIST 3429": {
+   "catalogTerm": "Fall 2026",
+   "title": "Latin American History in Film and Text",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975301"
+   },
+   "sourceRef": "course-7975301"
+  },
+  "HIST 3431": {
+   "catalogTerm": "Fall 2026",
+   "title": "Early Africa and Its Global Connections",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0032381"
+   },
+   "sourceRef": "course-0032381"
+  },
+  "HIST 3432": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Africa in a Changing World",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0032391"
+   },
+   "sourceRef": "course-0032391"
+  },
+  "HIST 3435": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of South Africa from 1910: Anti-Racism, Youth Politics, Pandemics & Gender (Based Violence)",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7901611"
+   },
+   "sourceRef": "course-7901611"
+  },
+  "HIST 3436": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fighting for History:Historical Roots of Contemporary Crises in Africa",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7943301"
+   },
+   "sourceRef": "course-7943301"
+  },
+  "HIST 3446": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chicana and Chicano History II: WWII, El Movimiento, and the New Millennium",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8107791"
+   },
+   "sourceRef": "course-8107791"
+  },
+  "HIST 3455": {
+   "catalogTerm": "Fall 2026",
+   "title": "West African History: 1800 to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100711"
+   },
+   "sourceRef": "course-8100711"
+  },
+  "HIST 3456": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social and Intellectual Movements in the African Diaspora",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101621"
+   },
+   "sourceRef": "course-8101621"
+  },
+  "HIST 3461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to East Asia I: The Imperial Age",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033671"
+   },
+   "sourceRef": "course-0033671"
+  },
+  "HIST 3462": {
+   "catalogTerm": "Fall 2026",
+   "title": "From Subjects to Citizens: The History of East Asia From 1500 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033651"
+   },
+   "sourceRef": "course-0033651"
+  },
+  "HIST 3463": {
+   "catalogTerm": "Fall 2026",
+   "title": "China's Rise and American Power in the Twenty-first Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8270831"
+   },
+   "sourceRef": "course-8270831"
+  },
+  "HIST 3466": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion and Society in Imperial China",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8013431"
+   },
+   "sourceRef": "course-8013431"
+  },
+  "HIST 3468": {
+   "catalogTerm": "Fall 2026",
+   "title": "China in the Twentieth-Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033701"
+   },
+   "sourceRef": "course-0033701"
+  },
+  "HIST 3469": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Women and Family in China, 1550-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018921"
+   },
+   "sourceRef": "course-8018921"
+  },
+  "HIST 3471": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Japan, Meiji to the Present (1868-2000)",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033681"
+   },
+   "sourceRef": "course-0033681"
+  },
+  "HIST 3476": {
+   "catalogTerm": "Fall 2026",
+   "title": "War and Peace in Japan Through Popular Culture",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7962351"
+   },
+   "sourceRef": "course-7962351"
+  },
+  "HIST 3477": {
+   "catalogTerm": "Fall 2026",
+   "title": "Samurai, Geisha, and How They Became Japanese",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8014151"
+   },
+   "sourceRef": "course-8014151"
+  },
+  "HIST 3478": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tigers and Dragons:  The Rise of the East Asian Economies, 1930-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097531"
+   },
+   "sourceRef": "course-8097531"
+  },
+  "HIST 3483": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hmong History Across the Globe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018931"
+   },
+   "sourceRef": "course-8018931"
+  },
+  "HIST 3485": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Southeast Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035041"
+   },
+   "sourceRef": "course-0035041"
+  },
+  "HIST 3486": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hmong Refugees from the Secret War:  Becoming Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097261"
+   },
+   "sourceRef": "course-8097261"
+  },
+  "HIST 3487": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Vietnam Wars: French Colonialism and U.S. Intervention in Indochina",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018941"
+   },
+   "sourceRef": "course-8018941"
+  },
+  "HIST 3489": {
+   "catalogTerm": "Fall 2026",
+   "title": "Democracy and Popular Politics in India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035021"
+   },
+   "sourceRef": "course-0035021"
+  },
+  "HIST 3495": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hinduism and the Making of Modern India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8099081"
+   },
+   "sourceRef": "course-8099081"
+  },
+  "HIST 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7907931"
+   },
+   "sourceRef": "course-7907931"
+  },
+  "HIST 3504": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Cultures of the Silk Road",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8031251"
+   },
+   "sourceRef": "course-8031251"
+  },
+  "HIST 3505": {
+   "catalogTerm": "Fall 2026",
+   "title": "Survey of the Modern Middle East",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922651"
+   },
+   "sourceRef": "course-7922651"
+  },
+  "HIST 3507": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Modern Egypt",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018261"
+   },
+   "sourceRef": "course-8018261"
+  },
+  "HIST 3508W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Turkey: From Empire to Republic",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8260991"
+   },
+   "sourceRef": "course-8260991"
+  },
+  "HIST 3509": {
+   "catalogTerm": "Fall 2026",
+   "title": "Approaches to the Study of the Middle East",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018271"
+   },
+   "sourceRef": "course-8018271"
+  },
+  "HIST 3511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Muslims and Jews: Conflict and Co-existence in the Middle East and North Africa since 1700",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8038331"
+   },
+   "sourceRef": "course-8038331"
+  },
+  "HIST 3512": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Modern Israel/Palestine: Society, Culture, and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8069831"
+   },
+   "sourceRef": "course-8069831"
+  },
+  "HIST 3513": {
+   "catalogTerm": "Fall 2026",
+   "title": "North Africa since 1500:  Islam, Colonialism, and Independence",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8109241"
+   },
+   "sourceRef": "course-8109241"
+  },
+  "HIST 3514W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Water and Oil: An Environmental History of the Middle East",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8184611"
+   },
+   "sourceRef": "course-8184611"
+  },
+  "HIST 3534": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115161"
+   },
+   "sourceRef": "course-8115161"
+  },
+  "HIST 3546": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islam and the West",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8019961"
+   },
+   "sourceRef": "course-8019961"
+  },
+  "HIST 3547": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Ottoman Empire",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922611"
+   },
+   "sourceRef": "course-7922611"
+  },
+  "HIST 3549W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islam: Religion and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7902831"
+   },
+   "sourceRef": "course-7902831"
+  },
+  "HIST 3606": {
+   "catalogTerm": "Fall 2026",
+   "title": "Christians, Muslims, and Jews in the Middle Ages",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8034891"
+   },
+   "sourceRef": "course-8034891"
+  },
+  "HIST 3609": {
+   "catalogTerm": "Fall 2026",
+   "title": "Military History of Premodern Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0037541"
+   },
+   "sourceRef": "course-0037541"
+  },
+  "HIST 3611": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Cities of Europe: 500-1500",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0032291"
+   },
+   "sourceRef": "course-0032291"
+  },
+  "HIST 3613": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the Crusades",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7880011"
+   },
+   "sourceRef": "course-7880011"
+  },
+  "HIST 3615W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women in European History: 1500 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053581"
+   },
+   "sourceRef": "course-0053581"
+  },
+  "HIST 3616": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Hundred Years War: France and England in the Middle Ages",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0032231"
+   },
+   "sourceRef": "course-0032231"
+  },
+  "HIST 3617": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pagans, Christians, Barbarians: The World of Late Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8132181"
+   },
+   "sourceRef": "course-8132181"
+  },
+  "HIST 3621": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Renaissance: Creating the Modern World in Medieval Europe 1200-1600",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0034851"
+   },
+   "sourceRef": "course-0034851"
+  },
+  "HIST 3623W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reformation World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0034711"
+   },
+   "sourceRef": "course-0034711"
+  },
+  "HIST 3637": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Russia: From Peter the Great to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0100621"
+   },
+   "sourceRef": "course-0100621"
+  },
+  "HIST 3681": {
+   "catalogTerm": "Fall 2026",
+   "title": "Irish History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0032951"
+   },
+   "sourceRef": "course-0032951"
+  },
+  "HIST 3689": {
+   "catalogTerm": "Fall 2026",
+   "title": "The British Empire",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7901631"
+   },
+   "sourceRef": "course-7901631"
+  },
+  "HIST 3704W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Daily Life in Europe: 1300-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036261"
+   },
+   "sourceRef": "course-0036261"
+  },
+  "HIST 3708": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Curiosity: Art, Science & Technology in Europe, 1400-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8013781"
+   },
+   "sourceRef": "course-8013781"
+  },
+  "HIST 3711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cognitive History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8189591"
+   },
+   "sourceRef": "course-8189591"
+  },
+  "HIST 3713W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Enlightenment: European Art and Culture in the 18th Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271631"
+   },
+   "sourceRef": "course-8271631"
+  },
+  "HIST 3718": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sites of Reckoning: Berlin\u2019s History in Memorials",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8276321"
+   },
+   "sourceRef": "course-8276321"
+  },
+  "HIST 3719": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Making of Contemporary Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7998841"
+   },
+   "sourceRef": "course-7998841"
+  },
+  "HIST 3721": {
+   "catalogTerm": "Fall 2026",
+   "title": "Studies in 20th-Century Europe From the Turn of the Century to the End of World War II: 1900-45",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042221"
+   },
+   "sourceRef": "course-0042221"
+  },
+  "HIST 3722": {
+   "catalogTerm": "Fall 2026",
+   "title": "Studies in 20th-Century Europe From the End of World War II to the End of the Cold War: 1945-91",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0041941"
+   },
+   "sourceRef": "course-0041941"
+  },
+  "HIST 3726W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Century of Refugees: A Global History of Forced Migration, 1900s-2000s",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8259531"
+   },
+   "sourceRef": "course-8259531"
+  },
+  "HIST 3727": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the Holocaust",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8055351"
+   },
+   "sourceRef": "course-8055351"
+  },
+  "HIST 3729": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nazi Germany and Hitler's Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7886771"
+   },
+   "sourceRef": "course-7886771"
+  },
+  "HIST 3746": {
+   "catalogTerm": "Fall 2026",
+   "title": "Game of Thrones: Emperors, Knights and Witches in Central Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8141101"
+   },
+   "sourceRef": "course-8141101"
+  },
+  "HIST 3749": {
+   "catalogTerm": "Fall 2026",
+   "title": "Central and Eastern European Migrants in Minnesota",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8258261"
+   },
+   "sourceRef": "course-8258261"
+  },
+  "HIST 3767": {
+   "catalogTerm": "Fall 2026",
+   "title": "Eastern Orthodoxy: History and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0102041"
+   },
+   "sourceRef": "course-0102041"
+  },
+  "HIST 3797": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Population",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033001"
+   },
+   "sourceRef": "course-0033001"
+  },
+  "HIST 3811": {
+   "catalogTerm": "Fall 2026",
+   "title": "Antebellum America: Slavery, Expansion and the Development of a Divided Nation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8149781"
+   },
+   "sourceRef": "course-8149781"
+  },
+  "HIST 3812": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Civil War and Reconstruction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0032311"
+   },
+   "sourceRef": "course-0032311"
+  },
+  "HIST 3813W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Slavery and the Making of America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8254841"
+   },
+   "sourceRef": "course-8254841"
+  },
+  "HIST 3821": {
+   "catalogTerm": "Fall 2026",
+   "title": "United States in the 20th Century to 1945",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0088691"
+   },
+   "sourceRef": "course-0088691"
+  },
+  "HIST 3822": {
+   "catalogTerm": "Fall 2026",
+   "title": "Making America Modern: 1945 to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0091191"
+   },
+   "sourceRef": "course-0091191"
+  },
+  "HIST 3834": {
+   "catalogTerm": "Fall 2026",
+   "title": "Law in American Life, Colonial Era to Civil War",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7886791"
+   },
+   "sourceRef": "course-7886791"
+  },
+  "HIST 3835": {
+   "catalogTerm": "Fall 2026",
+   "title": "Law in American Life: 1865 to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7888501"
+   },
+   "sourceRef": "course-7888501"
+  },
+  "HIST 3838": {
+   "catalogTerm": "Fall 2026",
+   "title": "Genealogy and Family History in America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8084331"
+   },
+   "sourceRef": "course-8084331"
+  },
+  "HIST 3848": {
+   "catalogTerm": "Fall 2026",
+   "title": "The 1970s: Stayin' Alive in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8274301"
+   },
+   "sourceRef": "course-8274301"
+  },
+  "HIST 3849": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Histories of Student Activism in the United States",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8274611"
+   },
+   "sourceRef": "course-8274611"
+  },
+  "HIST 3852": {
+   "catalogTerm": "Fall 2026",
+   "title": "U.S. Labor and Working-Class History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0044211"
+   },
+   "sourceRef": "course-0044211"
+  },
+  "HIST 3853": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Protest in Twentieth Century America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8036371"
+   },
+   "sourceRef": "course-8036371"
+  },
+  "HIST 3854": {
+   "catalogTerm": "Fall 2026",
+   "title": "Race and Sport",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8250621"
+   },
+   "sourceRef": "course-8250621"
+  },
+  "HIST 3856": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Civil Rights and Black Power Movement, 1954-1984",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101031"
+   },
+   "sourceRef": "course-8101031"
+  },
+  "HIST 3857": {
+   "catalogTerm": "Fall 2026",
+   "title": "Race: The History of An Idea in North America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8250631"
+   },
+   "sourceRef": "course-8250631"
+  },
+  "HIST 3858": {
+   "catalogTerm": "Fall 2026",
+   "title": "Policing, Surveillance, and Social Movements in 20th Century U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8261001"
+   },
+   "sourceRef": "course-8261001"
+  },
+  "HIST 3859": {
+   "catalogTerm": "Fall 2026",
+   "title": "African Americans in Germany",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271841"
+   },
+   "sourceRef": "course-8271841"
+  },
+  "HIST 3862": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Immigration History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0043441"
+   },
+   "sourceRef": "course-0043441"
+  },
+  "HIST 3864": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American History: 1619-1865",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0164171"
+   },
+   "sourceRef": "course-0164171"
+  },
+  "HIST 3865": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American History, 1865 to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0164141"
+   },
+   "sourceRef": "course-0164141"
+  },
+  "HIST 3868W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Race, War, and Race Wars in American History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975531"
+   },
+   "sourceRef": "course-7975531"
+  },
+  "HIST 3871": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: Pre-Contact to 1830",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0073331"
+   },
+   "sourceRef": "course-0073331"
+  },
+  "HIST 3872": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: 1830 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0072931"
+   },
+   "sourceRef": "course-0072931"
+  },
+  "HIST 3875W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Race and Ethnicity in US History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0161271"
+   },
+   "sourceRef": "course-0161271"
+  },
+  "HIST 3876": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian Americans and Food",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272481"
+   },
+   "sourceRef": "course-8272481"
+  },
+  "HIST 3877": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American History, 1850-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0161291"
+   },
+   "sourceRef": "course-0161291"
+  },
+  "HIST 3886": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Atlantic Revolutions, 1765-1830",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8201791"
+   },
+   "sourceRef": "course-8201791"
+  },
+  "HIST 3887": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Military History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0044081"
+   },
+   "sourceRef": "course-0044081"
+  },
+  "HIST 4011V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Capstone Research",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr history major, honors, or instr consent"
+    },
+    "sourceRef": "course-8114301"
+   },
+   "sourceRef": "course-8114301"
+  },
+  "HIST 4011W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Research",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or Sr history major or instr consent"
+    },
+    "sourceRef": "course-8021131"
+   },
+   "sourceRef": "course-8021131"
+  },
+  "HIST 4961V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Senior Thesis Workshop",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Department Consent Required"
+    },
+    "sourceRef": "course-7990401"
+   },
+   "sourceRef": "course-7990401"
+  },
+  "HIST 4961W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Thesis Workshop",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0032931"
+   },
+   "sourceRef": "course-0032931"
+  },
+  "HIST 5053": {
+   "catalogTerm": "Fall 2026",
+   "title": "Doing Roman History: Sources, Methods, and Trends",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-7976901"
+   },
+   "sourceRef": "course-7976901"
+  },
+  "HIST 5264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Imperial Russia: Formation and Expansion of the Russian Empire in the 18th and 19th Centuries",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0100781"
+   },
+   "sourceRef": "course-0100781"
+  },
+  "HIST 5265": {
+   "catalogTerm": "Fall 2026",
+   "title": "20th-Century Russia: The Collapse of Imperial Russia, the Revolutions, and the Soviet Regime",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0100941"
+   },
+   "sourceRef": "course-0100941"
+  },
+  "HIST 5271": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Viking World: Story, History, and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7963321"
+   },
+   "sourceRef": "course-7963321"
+  },
+  "HIST 5286": {
+   "catalogTerm": "Fall 2026",
+   "title": "Galileo and the Beginnings of Modern Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8160221"
+   },
+   "sourceRef": "course-8160221"
+  },
+  "HIST 5478": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tigers and Dragons: The Rise of the East Asian Economies, 1930-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student"
+    },
+    "sourceRef": "course-8110731"
+   },
+   "sourceRef": "course-8110731"
+  },
+  "HIST 5513": {
+   "catalogTerm": "Fall 2026",
+   "title": "North Africa since 1500: Islam, Colonialism, and Independence",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8151051"
+   },
+   "sourceRef": "course-8151051"
+  },
+  "HIST 5547": {
+   "catalogTerm": "Fall 2026",
+   "title": "Empire and Nations in the Middle East",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-7896201"
+   },
+   "sourceRef": "course-7896201"
+  },
+  "HIST 5708": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Curiosity: Art, Science & Technology in Europe, 1400-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8199001"
+   },
+   "sourceRef": "course-8199001"
+  },
+  "HIST 5801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Seminar in American History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0077941"
+   },
+   "sourceRef": "course-0077941"
+  },
+  "HIST 5802": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in American History, 1848-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8002451"
+   },
+   "sourceRef": "course-8002451"
+  },
+  "HIST 5831": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cultural Fallout: The Cold War and Its Legacy:  Readings",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8013371"
+   },
+   "sourceRef": "course-8013371"
+  },
+  "HIST 5862": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of American Immigration",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0043831"
+   },
+   "sourceRef": "course-0043831"
+  },
+  "HIST 5890": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in American Indian and Indigenous History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Advanced undergrad with instr consent or grad student"
+    },
+    "sourceRef": "course-0078121"
+   },
+   "sourceRef": "course-0078121"
+  },
+  "HIST 5901": {
+   "catalogTerm": "Fall 2026",
+   "title": "Latin America Proseminar: Colonial",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0085421"
+   },
+   "sourceRef": "course-0085421"
+  },
+  "HIST 5902": {
+   "catalogTerm": "Fall 2026",
+   "title": "Latin America Proseminar: Modern",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0146661"
+   },
+   "sourceRef": "course-0146661"
+  },
+  "HIST 5910": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in U.S. History",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad or advanced undergrad student with instr consent"
+    },
+    "sourceRef": "course-0083831"
+   },
+   "sourceRef": "course-0083831"
+  },
+  "HIST 5932": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Production of Knowledge, Negotiating the Past, and the Writing of African Histories",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042661"
+   },
+   "sourceRef": "course-0042661"
+  },
+  "JWST 1034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0105551"
+   },
+   "sourceRef": "course-0105551"
+  },
+  "JWST 3034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971451"
+   },
+   "sourceRef": "course-7971451"
+  },
+  "JWST 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8063011"
+   },
+   "sourceRef": "course-8063011"
+  },
+  "JWST 3511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Muslims and Jews: Conflict and Co-existence in the Middle East and North Africa since 1700",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8071221"
+   },
+   "sourceRef": "course-8071221"
+  },
+  "JWST 3512": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Modern Israel/Palestine: Society, Culture, and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8071231"
+   },
+   "sourceRef": "course-8071231"
+  },
+  "JWST 3520": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the Holocaust",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8056091"
+   },
+   "sourceRef": "course-8056091"
+  },
+  "JWST 3606": {
+   "catalogTerm": "Fall 2026",
+   "title": "Christians, Muslims, and Jews in the Middle Ages",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8087591"
+   },
+   "sourceRef": "course-8087591"
+  },
+  "LAS 3401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Early Latin America to 1825",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7970911"
+   },
+   "sourceRef": "course-7970911"
+  },
+  "LAS 3402W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Latin America 1825 to Present",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7970931"
+   },
+   "sourceRef": "course-7970931"
+  },
+  "LAS 3429": {
+   "catalogTerm": "Fall 2026",
+   "title": "Latin American History in Film and Text",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8055641"
+   },
+   "sourceRef": "course-8055641"
+  },
+  "MEST 1002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Tales and their Modern Echoes",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8084731"
+   },
+   "sourceRef": "course-8084731"
+  },
+  "MEST 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Medieval History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8140671"
+   },
+   "sourceRef": "course-8140671"
+  },
+  "MEST 3002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Tales and their Modern Echoes",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8084741"
+   },
+   "sourceRef": "course-8084741"
+  },
+  "MEST 3081W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Martyrs, Monks, Crusaders: World Christianity, 100-1400",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176951"
+   },
+   "sourceRef": "course-8176951"
+  },
+  "MEST 3426": {
+   "catalogTerm": "Fall 2026",
+   "title": "Piracy in the Mediterranean: The World of Merchants and Pirates",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251741"
+   },
+   "sourceRef": "course-8251741"
+  },
+  "MEST 3606": {
+   "catalogTerm": "Fall 2026",
+   "title": "Christians, Muslims, and Jews in the Middle Ages",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251921"
+   },
+   "sourceRef": "course-8251921"
+  },
+  "MEST 3611": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Cities of Europe: 500-1500",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8163371"
+   },
+   "sourceRef": "course-8163371"
+  },
+  "MEST 3613": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the Crusades",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8141611"
+   },
+   "sourceRef": "course-8141611"
+  },
+  "MEST 3616": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Hundred Years War: France and England in the Middle Ages",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162641"
+   },
+   "sourceRef": "course-8162641"
+  },
+  "MEST 3617": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pagans, Christians, Barbarians: The World of Late Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8140021"
+   },
+   "sourceRef": "course-8140021"
+  },
+  "RELS 1034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971441"
+   },
+   "sourceRef": "course-7971441"
+  },
+  "RELS 1082": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jesus in History, Art & Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971041"
+   },
+   "sourceRef": "course-7971041"
+  },
+  "RELS 3034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971431"
+   },
+   "sourceRef": "course-7971431"
+  },
+  "RELS 3079": {
+   "catalogTerm": "Fall 2026",
+   "title": "Muslims and Jews: Conflict and Co-existence in the Middle East and North Africa since 1700",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8039701"
+   },
+   "sourceRef": "course-8039701"
+  },
+  "RELS 3113": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Modern Israel/Palestine: Society, Culture, and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8155041"
+   },
+   "sourceRef": "course-8155041"
+  },
+  "RELS 3373": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion and Society in Imperial China",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8013811"
+   },
+   "sourceRef": "course-8013811"
+  },
+  "RELS 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7907941"
+   },
+   "sourceRef": "course-7907941"
+  },
+  "RELS 3520": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the Holocaust",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8056101"
+   },
+   "sourceRef": "course-8056101"
+  },
+  "RELS 3543": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pagans, Christians, Barbarians: The World of Late Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8140081"
+   },
+   "sourceRef": "course-8140081"
+  },
+  "RELS 3544W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Martyrs, Monks, Crusaders: World Christianity, 100-1400",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8150311"
+   },
+   "sourceRef": "course-8150311"
+  },
+  "RELS 3545W": {
+   "catalogTerm": "Fall 2026",
+   "title": "World Christianity, 1300-1800 Reformers, Radicals and Revolutionaries",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168461"
+   },
+   "sourceRef": "course-8168461"
+  },
+  "RELS 3611": {
+   "catalogTerm": "Fall 2026",
+   "title": "Eastern Orthodoxy: History and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029331"
+   },
+   "sourceRef": "course-8029331"
+  },
+  "RELS 3625": {
+   "catalogTerm": "Fall 2026",
+   "title": "Magic and Medicine",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8154311"
+   },
+   "sourceRef": "course-8154311"
+  },
+  "RELS 3671": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hinduism and the Making of Modern India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7999191"
+   },
+   "sourceRef": "course-7999191"
+  },
+  "RELS 3708": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Cultures of the Silk Road",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8107231"
+   },
+   "sourceRef": "course-8107231"
+  },
+  "RELS 3712W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islam: Religion and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922601"
+   },
+   "sourceRef": "course-7922601"
+  },
+  "RELS 3715": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the Crusades",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8030191"
+   },
+   "sourceRef": "course-8030191"
+  },
+  "RELS 3717": {
+   "catalogTerm": "Fall 2026",
+   "title": "Christians, Muslims, and Jews in the Middle Ages",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8087601"
+   },
+   "sourceRef": "course-8087601"
+  },
+  "RELS 3721": {
+   "catalogTerm": "Fall 2026",
+   "title": "North Africa since 1500: Islam, Colonialism, and Independence",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8151071"
+   },
+   "sourceRef": "course-8151071"
+  },
+  "RELS 3722": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Ottoman Empire",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176971"
+   },
+   "sourceRef": "course-8176971"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-jj1MFcj4",
+   "label": "Hands-on History Methods Seminar",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-GlMeHcGb",
+    "type": "course",
+    "code": "HIST 3023",
+    "sourceRef": "program",
+    "label": "Hands-on History Methods Seminar"
+   }
+  },
+  {
+   "id": "g-038020217",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-422701",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-422701-rules",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-422702",
+        "type": "count",
+        "courseSet": "set-422702",
+        "maxCourses": 3,
+        "sourceRef": "program",
+        "label": "Lower-Division"
+       },
+       {
+        "id": "r-422710",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-422710-credits",
+          "type": "credits",
+          "courseSet": "set-422710",
+          "minCredits": 18,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-422710-min",
+          "type": "count",
+          "courseSet": "set-422710",
+          "minCourses": 6,
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Upper-Division"
+       }
+      ]
+     },
+     {
+      "id": "r-422701-credits",
+      "type": "credits",
+      "courseSet": "set-422701",
+      "minCredits": 27,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-lbkp6SiK",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sw7fm4Gk",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-MbB5XN42",
+      "type": "credits",
+      "courseSet": "set-MbB5XN42",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Seminar"
+     },
+     {
+      "id": "r-3QiluRro",
+      "type": "credits",
+      "courseSet": "set-3QiluRro",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Directed Study"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-tTgOwy2I",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-oA66Paxm",
+    "type": "count",
+    "courseSet": "set-oA66Paxm",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the History BA is HIST.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 13 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents create their degree program around an area of concentration of their own choosing, which can center on a historical theme (race, ethnicity, and diaspora, for example) or a combination of geography and chronology (e.g. medieval Mediterranean).\nHistory majors are required to complete at least two Writing Intensive (WI) courses in the major. One of those WI courses will be the capstone course. The second WI course will be selected at at either the 1xxx or 3xxx level. Double majors completing their capstone experience in their non-history major complete both of their major WI requirements at either the 1xxx or 3xxx level.\nAs many as two AP courses may count as 1xxx-level courses towards the Electives requirement in the History BA.\nStudents may earn a BA or a minor in history, but not both. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

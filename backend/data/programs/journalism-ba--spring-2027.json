@@ -1,0 +1,1548 @@
+{
+ "schemaVersion": 2,
+ "id": "journalism-ba",
+ "name": "Journalism B.A.",
+ "officialName": "Journalism B.A.",
+ "officialProgramId": "046020217",
+ "catalogTerm": "Spring 2027",
+ "totalCredits": 120,
+ "source": "Journalism B.A., revision 046020217-2027-01-19, https://umtc.catalog.prod.coursedog.com/programs/046020217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/046020217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 046020217-2027-01-19"
+  },
+  "course-0002231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002231",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3004, version 0002231-2023-01-17"
+  },
+  "course-7967981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7967981",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3004H, version 7967981-2023-01-17"
+  },
+  "course-0002291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002291",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3101W, version 0002291-2023-01-17"
+  },
+  "course-7905441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905441",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3102, version 7905441-2023-01-17"
+  },
+  "course-0002441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002441",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3776, version 0002441-2022-09-06"
+  },
+  "course-8055031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8055031",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3776H, version 8055031-2022-09-06"
+  },
+  "course-8102381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8102381",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3103, version 8102381-2023-01-17"
+  },
+  "course-0002301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002301",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3121, version 0002301-2023-01-17"
+  },
+  "course-0002331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002331",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3173W, version 0002331-2023-05-15"
+  },
+  "course-0002401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002401",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3451, version 0002401-2023-01-17"
+  },
+  "course-0002321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002321",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3155, version 0002321-2023-01-17"
+  },
+  "course-8195941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8195941",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4173, version 8195941-2023-01-17"
+  },
+  "course-0002491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002491",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4174, version 0002491-2025-01-21"
+  },
+  "course-7907181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7907181",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4302, version 7907181-2023-01-17"
+  },
+  "course-7982181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982181",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4196, version 7982181-2025-01-21"
+  },
+  "course-0002461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002461",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4131, version 0002461-2026-09-08"
+  },
+  "course-8189211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189211",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4172, version 8189211-2023-01-17"
+  },
+  "course-7929271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7929271",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4175, version 7929271-2023-01-17"
+  },
+  "course-8018981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018981",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4303, version 8018981-2023-01-17"
+  },
+  "course-0002571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002571",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4452, version 0002571-2023-01-17"
+  },
+  "course-8003701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003701",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3005, version 8003701-2026-09-08"
+  },
+  "course-0002251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002251",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3006, version 0002251-2018-09-04"
+  },
+  "course-0002261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002261",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3007, version 0002261-2020-09-08"
+  },
+  "course-0002361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002361",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3201, version 0002361-2023-01-17"
+  },
+  "course-7905681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905681",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3551, version 7905681-2018-09-04"
+  },
+  "course-8203471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8203471",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3553, version 8203471-2024-09-03"
+  },
+  "course-8282941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282941",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3556, version 8282941-2026-09-08"
+  },
+  "course-7982161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982161",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3590, version 7982161-2026-09-08"
+  },
+  "course-0005461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0005461",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3614, version 0005461-2018-09-04"
+  },
+  "course-0002411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002411",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3741, version 0002411-2024-05-13"
+  },
+  "course-0002431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002431",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3745, version 0002431-2022-09-06"
+  },
+  "course-7905481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905481",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3751, version 7905481-2020-05-18"
+  },
+  "course-8179661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179661",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3757, version 8179661-2018-09-04"
+  },
+  "course-8271321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271321",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3758, version 8271321-2024-09-03"
+  },
+  "course-0005521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0005521",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3771, version 0005521-2020-09-08"
+  },
+  "course-8082331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8082331",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3775, version 8082331-2022-09-06"
+  },
+  "course-0002451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002451",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3786, version 0002451-2021-09-07"
+  },
+  "course-8186551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8186551",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3786, version 8186551-2021-09-07"
+  },
+  "course-0002501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002501",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4251, version 0002501-2022-05-16"
+  },
+  "course-7905471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905471",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4272, version 7905471-2021-01-19"
+  },
+  "course-0002531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002531",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4274W, version 0002531-2022-05-16"
+  },
+  "course-0002591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002591",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4501, version 0002591-2025-01-21"
+  },
+  "course-7905631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905631",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4552, version 7905631-2025-01-21"
+  },
+  "course-7982171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982171",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4590, version 7982171-2026-05-18"
+  },
+  "course-8270821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8270821",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4601, version 8270821-2024-09-03"
+  },
+  "course-0002611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002611",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4605W, version 0002611-2026-09-08"
+  },
+  "course-0002621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002621",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4606W, version 0002621-2025-05-19"
+  },
+  "course-0002651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002651",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4721, version 0002651-2018-09-04"
+  },
+  "course-8017151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017151",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4721H, version 8017151-2018-09-04"
+  },
+  "course-8041111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8041111",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4733V, version 8041111-2023-01-17"
+  },
+  "course-0002701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002701",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4801, version 0002701-2018-09-04"
+  },
+  "course-0002601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002601",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 5541, version 0002601-2023-01-17"
+  },
+  "course-0002691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002691",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 5777, version 0002691-2023-01-17"
+  },
+  "course-0002221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002221",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 1001, version 0002221-2020-05-18"
+  },
+  "course-8033081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8033081",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 1001H, version 8033081-2023-01-17"
+  }
+ },
+ "courseSets": {
+  "set-pzbK1ods": {
+   "codes": [
+    "JOUR 3004",
+    "JOUR 3004H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-IzWLpIiU": {
+   "codes": [
+    "JOUR 3776",
+    "JOUR 3776H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Zt5CmqFl": {
+   "codes": [
+    "JOUR 3103",
+    "JOUR 3121",
+    "JOUR 3173W",
+    "JOUR 3451"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Y8Ac9WGj": {
+   "codes": [
+    "JOUR 3155",
+    "JOUR 4173",
+    "JOUR 4174",
+    "JOUR 4302",
+    "JOUR 4196",
+    "JOUR 4131",
+    "JOUR 4172",
+    "JOUR 4175",
+    "JOUR 4303",
+    "JOUR 4452"
+   ],
+   "sourceRef": "program"
+  },
+  "set-QOAkIHoE": {
+   "codes": [
+    "JOUR 3005",
+    "JOUR 3006",
+    "JOUR 3007",
+    "JOUR 3201",
+    "JOUR 3551",
+    "JOUR 3553",
+    "JOUR 3556",
+    "JOUR 3590",
+    "JOUR 3614",
+    "JOUR 3741",
+    "JOUR 3745",
+    "JOUR 3751",
+    "JOUR 3757",
+    "JOUR 3758",
+    "JOUR 3771",
+    "JOUR 3775",
+    "JOUR 3786",
+    "POL 3786"
+   ],
+   "sourceRef": "program"
+  },
+  "set-pdZErfJ0": {
+   "codes": [
+    "JOUR 4251",
+    "JOUR 4272",
+    "JOUR 4274W",
+    "JOUR 4501",
+    "JOUR 4552",
+    "JOUR 4590",
+    "JOUR 4601",
+    "JOUR 4605W",
+    "JOUR 4606W",
+    "JOUR 4721",
+    "JOUR 4721H",
+    "JOUR 4733V",
+    "JOUR 4801",
+    "JOUR 5541",
+    "JOUR 5777"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ZEGJKozW": {
+   "codes": [
+    "JOUR 3005",
+    "JOUR 3006",
+    "JOUR 3007",
+    "JOUR 3201",
+    "JOUR 3551",
+    "JOUR 3553",
+    "JOUR 3556",
+    "JOUR 3590",
+    "JOUR 3614",
+    "JOUR 3741",
+    "JOUR 3745",
+    "JOUR 3751",
+    "JOUR 3757",
+    "JOUR 3758",
+    "JOUR 3771",
+    "JOUR 3775",
+    "JOUR 3786",
+    "POL 3786",
+    "JOUR 4251",
+    "JOUR 4272",
+    "JOUR 4274W",
+    "JOUR 4501",
+    "JOUR 4552",
+    "JOUR 4590",
+    "JOUR 4601",
+    "JOUR 4605W",
+    "JOUR 4606W",
+    "JOUR 4721",
+    "JOUR 4721H",
+    "JOUR 4733V",
+    "JOUR 4801",
+    "JOUR 5541",
+    "JOUR 5777"
+   ],
+   "sourceRef": "program"
+  },
+  "set-aUmyfVUy": {
+   "codes": [
+    "JOUR 4131",
+    "JOUR 4172",
+    "JOUR 4175",
+    "JOUR 4196",
+    "JOUR 4303",
+    "JOUR 4452"
+   ],
+   "sourceRef": "program"
+  },
+  "set-nxGzeNEO": {
+   "codes": [
+    "JOUR 3101W",
+    "JOUR 3173W",
+    "JOUR 4274W",
+    "JOUR 4605W",
+    "JOUR 4606W",
+    "JOUR 4733V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-418264": {
+   "codes": [
+    "JOUR 1001",
+    "JOUR 1001H"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "JOUR 1001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Media in a Changing World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002221"
+   },
+   "sourceRef": "course-0002221"
+  },
+  "JOUR 1001H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Media in a Changing World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8033081"
+   },
+   "sourceRef": "course-8033081"
+  },
+  "JOUR 3004": {
+   "catalogTerm": "Spring 2027",
+   "title": "Information for Mass Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 1001 or JOUR 100H], [JOUR major, Strat Comm major, Media and Information major or Media and Information minor or approved BIS/IDIM/ICP program]"
+    },
+    "sourceRef": "course-0002231"
+   },
+   "sourceRef": "course-0002231"
+  },
+  "JOUR 3004H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Information for Mass Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors, [JOUR 1001 or JOUR100H], [Jour major, Strat Comm major, Media and Information major or Media and Information minor or approved BIS/IDIM/ICP program]"
+    },
+    "sourceRef": "course-7967981"
+   },
+   "sourceRef": "course-7967981"
+  },
+  "JOUR 3005": {
+   "catalogTerm": "Spring 2027",
+   "title": "Media Effects",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8003701"
+   },
+   "sourceRef": "course-8003701"
+  },
+  "JOUR 3006": {
+   "catalogTerm": "Spring 2027",
+   "title": "Visual Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002251"
+   },
+   "sourceRef": "course-0002251"
+  },
+  "JOUR 3007": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Media in American History and Law: Case Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002261"
+   },
+   "sourceRef": "course-0002261"
+  },
+  "JOUR 3101W": {
+   "catalogTerm": "Spring 2027",
+   "title": "News Reporting and Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H or concurrent registration], Jour major"
+    },
+    "sourceRef": "course-0002291"
+   },
+   "sourceRef": "course-0002291"
+  },
+  "JOUR 3102": {
+   "catalogTerm": "Spring 2027",
+   "title": "Multimedia Production and Storytelling",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H or coreq], [JOUR  3101 or coreq or JOUR  3279 or coreq or JOUR  3241 or coreq], [JOUR major or Strat Comm major]"
+    },
+    "sourceRef": "course-7905441"
+   },
+   "sourceRef": "course-7905441"
+  },
+  "JOUR 3103": {
+   "catalogTerm": "Spring 2027",
+   "title": "Interactive and Data Journalism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H], JOUR 3101, JOUR major"
+    },
+    "sourceRef": "course-8102381"
+   },
+   "sourceRef": "course-8102381"
+  },
+  "JOUR 3121": {
+   "catalogTerm": "Spring 2027",
+   "title": "Intermediate News Reporting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H], JOUR 3101, Jour major"
+    },
+    "sourceRef": "course-0002301"
+   },
+   "sourceRef": "course-0002301"
+  },
+  "JOUR 3155": {
+   "catalogTerm": "Spring 2027",
+   "title": "Editing for Print and Digital Audiences",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H], JOUR 3101, Jour major"
+    },
+    "sourceRef": "course-0002321"
+   },
+   "sourceRef": "course-0002321"
+  },
+  "JOUR 3173W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Magazine & Feature Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H], JOUR 3101, Jour major"
+    },
+    "sourceRef": "course-0002331"
+   },
+   "sourceRef": "course-0002331"
+  },
+  "JOUR 3201": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Strategic Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H or concurrent registration], [Jour major, Strat Comm major, Media & Information major or Media & Information minor or approved BIS/IDIM/ICP program]"
+    },
+    "sourceRef": "course-0002361"
+   },
+   "sourceRef": "course-0002361"
+  },
+  "JOUR 3451": {
+   "catalogTerm": "Spring 2027",
+   "title": "TV, Radio and Digital News Reporting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H], JOUR 3101, JOUR 3102, Jour major"
+    },
+    "sourceRef": "course-0002401"
+   },
+   "sourceRef": "course-0002401"
+  },
+  "JOUR 3551": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Business of Digital Media: Innovation, Disruption, and Adaptation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7905681"
+   },
+   "sourceRef": "course-7905681"
+  },
+  "JOUR 3553": {
+   "catalogTerm": "Spring 2027",
+   "title": "Mobile Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8203471"
+   },
+   "sourceRef": "course-8203471"
+  },
+  "JOUR 3556": {
+   "catalogTerm": "Spring 2027",
+   "title": "Artificial Intelligence in Strategic Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8282941"
+   },
+   "sourceRef": "course-8282941"
+  },
+  "JOUR 3590": {
+   "catalogTerm": "Spring 2027",
+   "title": "Special Topics in Mass Communication: Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7982161"
+   },
+   "sourceRef": "course-7982161"
+  },
+  "JOUR 3614": {
+   "catalogTerm": "Spring 2027",
+   "title": "History of Media Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0005461"
+   },
+   "sourceRef": "course-0005461"
+  },
+  "JOUR 3741": {
+   "catalogTerm": "Spring 2027",
+   "title": "Diversity and Media",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002411"
+   },
+   "sourceRef": "course-0002411"
+  },
+  "JOUR 3745": {
+   "catalogTerm": "Spring 2027",
+   "title": "Media and Popular Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002431"
+   },
+   "sourceRef": "course-0002431"
+  },
+  "JOUR 3751": {
+   "catalogTerm": "Spring 2027",
+   "title": "Digital Media and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7905481"
+   },
+   "sourceRef": "course-7905481"
+  },
+  "JOUR 3757": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Health Communication Strategy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8179661"
+   },
+   "sourceRef": "course-8179661"
+  },
+  "JOUR 3758": {
+   "catalogTerm": "Spring 2027",
+   "title": "Kids, Media, and Information",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271321"
+   },
+   "sourceRef": "course-8271321"
+  },
+  "JOUR 3771": {
+   "catalogTerm": "Spring 2027",
+   "title": "Media Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0005521"
+   },
+   "sourceRef": "course-0005521"
+  },
+  "JOUR 3775": {
+   "catalogTerm": "Spring 2027",
+   "title": "Strategic Communication Law",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8082331"
+   },
+   "sourceRef": "course-8082331"
+  },
+  "JOUR 3776": {
+   "catalogTerm": "Spring 2027",
+   "title": "Media Law",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002441"
+   },
+   "sourceRef": "course-0002441"
+  },
+  "JOUR 3776H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Media Law",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-8055031"
+   },
+   "sourceRef": "course-8055031"
+  },
+  "JOUR 3786": {
+   "catalogTerm": "Spring 2027",
+   "title": "Media and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002451"
+   },
+   "sourceRef": "course-0002451"
+  },
+  "JOUR 4131": {
+   "catalogTerm": "Spring 2027",
+   "title": "In-Depth Reporting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(Jour 3004 or 3004H), Jour 3101, (Jour 3121 or 3103] , Jour major"
+    },
+    "sourceRef": "course-0002461"
+   },
+   "sourceRef": "course-0002461"
+  },
+  "JOUR 4172": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sports Reporting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H], JOUR 3101, JOUR 3121 or instructor permission, Jour major"
+    },
+    "sourceRef": "course-8189211"
+   },
+   "sourceRef": "course-8189211"
+  },
+  "JOUR 4173": {
+   "catalogTerm": "Spring 2027",
+   "title": "Podcast Production and Storytelling",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H], JOUR 3101, JOUR 3102, Jour major"
+    },
+    "sourceRef": "course-8195941"
+   },
+   "sourceRef": "course-8195941"
+  },
+  "JOUR 4174": {
+   "catalogTerm": "Spring 2027",
+   "title": "Magazine Editing and Production",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H], JOUR 3101, [JOUR 3155 or JOUR 3173 or JOUR 3321 or JOUR 4171 or JOUR 4302],  Jour major.  Strat Comm majors who have completed Jour 3279W or Jour 3241W may take this class and will need to contact sjmcugs@umn.edu for a permission number."
+    },
+    "sourceRef": "course-0002491"
+   },
+   "sourceRef": "course-0002491"
+  },
+  "JOUR 4175": {
+   "catalogTerm": "Spring 2027",
+   "title": "Brovald-Sim Community Journalism Practicum",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H], JOUR 3101, [JOUR 3103 or JOUR 3121 or JOUR 3155 or JOUR 3173 or JOUR 4302], Jour major"
+    },
+    "sourceRef": "course-7929271"
+   },
+   "sourceRef": "course-7929271"
+  },
+  "JOUR 4196": {
+   "catalogTerm": "Spring 2027",
+   "title": "Field Based Practicum",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jour major and instructor permission"
+    },
+    "sourceRef": "course-7982181"
+   },
+   "sourceRef": "course-7982181"
+  },
+  "JOUR 4251": {
+   "catalogTerm": "Spring 2027",
+   "title": "Psychology of Advertising",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002501"
+   },
+   "sourceRef": "course-0002501"
+  },
+  "JOUR 4272": {
+   "catalogTerm": "Spring 2027",
+   "title": "Digital Advertising: Theory and Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7905471"
+   },
+   "sourceRef": "course-7905471"
+  },
+  "JOUR 4274W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Advertising in Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002531"
+   },
+   "sourceRef": "course-0002531"
+  },
+  "JOUR 4302": {
+   "catalogTerm": "Spring 2027",
+   "title": "Photojournalism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H], JOUR 3101, JOUR 3102, Jour major"
+    },
+    "sourceRef": "course-7907181"
+   },
+   "sourceRef": "course-7907181"
+  },
+  "JOUR 4303": {
+   "catalogTerm": "Spring 2027",
+   "title": "Advanced Visual Storytelling",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[JOUR 3004 or 3004H], JOUR 3101, JOUR 3102, Jour major"
+    },
+    "sourceRef": "course-8018981"
+   },
+   "sourceRef": "course-8018981"
+  },
+  "JOUR 4452": {
+   "catalogTerm": "Spring 2027",
+   "title": "Newscast Producing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Jour 3004 or 3004H], Jour 3101, Jour 3102, Jour 3451 [Jour major, Mass Comm major or approved BIS/IDIM/ICP program]"
+    },
+    "sourceRef": "course-0002571"
+   },
+   "sourceRef": "course-0002571"
+  },
+  "JOUR 4501": {
+   "catalogTerm": "Spring 2027",
+   "title": "Communication, Public Opinion, and Social Media",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002591"
+   },
+   "sourceRef": "course-0002591"
+  },
+  "JOUR 4552": {
+   "catalogTerm": "Spring 2027",
+   "title": "Law of Internet Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7905631"
+   },
+   "sourceRef": "course-7905631"
+  },
+  "JOUR 4590": {
+   "catalogTerm": "Spring 2027",
+   "title": "Special Topics in Mass Communication: Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7982171"
+   },
+   "sourceRef": "course-7982171"
+  },
+  "JOUR 4601": {
+   "catalogTerm": "Spring 2027",
+   "title": "Trauma-informed journalism: Reporting with empathy and self-care",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8270821"
+   },
+   "sourceRef": "course-8270821"
+  },
+  "JOUR 4605W": {
+   "catalogTerm": "Spring 2027",
+   "title": "History of Journalism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002611"
+   },
+   "sourceRef": "course-0002611"
+  },
+  "JOUR 4606W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Literary Aspects of Journalism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002621"
+   },
+   "sourceRef": "course-0002621"
+  },
+  "JOUR 4721": {
+   "catalogTerm": "Spring 2027",
+   "title": "Mass Media and U.S. Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002651"
+   },
+   "sourceRef": "course-0002651"
+  },
+  "JOUR 4721H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Mass Media and U.S. Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "honors"
+    },
+    "sourceRef": "course-8017151"
+   },
+   "sourceRef": "course-8017151"
+  },
+  "JOUR 4733V": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors Thesis Seminar",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors, [Jour major, Strat Comm major, or Media and Information major]"
+    },
+    "sourceRef": "course-8041111"
+   },
+   "sourceRef": "course-8041111"
+  },
+  "JOUR 4801": {
+   "catalogTerm": "Spring 2027",
+   "title": "Global Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002701"
+   },
+   "sourceRef": "course-0002701"
+  },
+  "JOUR 5541": {
+   "catalogTerm": "Spring 2027",
+   "title": "Mass Communication and Public Health",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "JOUR 3005 or JOUR 3757 or Mass Communication grad"
+    },
+    "sourceRef": "course-0002601"
+   },
+   "sourceRef": "course-0002601"
+  },
+  "JOUR 5777": {
+   "catalogTerm": "Spring 2027",
+   "title": "Contemporary Problems in Freedom of Speech and Press",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jour major, Strat Comm major, Media and Information major or Media and Information minor or approved BIS/IDIM/ICP program or graduate or law student status. Course is open to students have previously taken a relevant law course - contact instructor for permission."
+    },
+    "sourceRef": "course-0002691"
+   },
+   "sourceRef": "course-0002691"
+  },
+  "POL 3786": {
+   "catalogTerm": "Spring 2027",
+   "title": "Media and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8186551"
+   },
+   "sourceRef": "course-8186551"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-eu0bGdPK",
+   "label": "Information for Mass Communication",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-pzbK1ods",
+    "type": "credits",
+    "courseSet": "set-pzbK1ods",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Information for Mass Communication"
+   }
+  },
+  {
+   "id": "g-yo9cwKxK",
+   "label": "News Reporting and Writing",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-nCGrHWCk",
+    "type": "course",
+    "code": "JOUR 3101W",
+    "sourceRef": "program",
+    "label": "News Reporting and Writing"
+   }
+  },
+  {
+   "id": "g-YxhmB0UF",
+   "label": "Multimedia Production",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-kLFswACV",
+    "type": "course",
+    "code": "JOUR 3102",
+    "sourceRef": "program",
+    "label": "Multimedia Production"
+   }
+  },
+  {
+   "id": "g-hvN212qY",
+   "label": "Mass Communication Law",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-IzWLpIiU",
+    "type": "credits",
+    "courseSet": "set-IzWLpIiU",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Mass Communication Law"
+   }
+  },
+  {
+   "id": "g-1BGdA7tw",
+   "label": "Reporting and Storytelling",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Zt5CmqFl",
+    "type": "credits",
+    "courseSet": "set-Zt5CmqFl",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "Reporting and Storytelling"
+   }
+  },
+  {
+   "id": "g-g7qZM4id",
+   "label": "Specialized Skills",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Y8Ac9WGj",
+    "type": "credits",
+    "courseSet": "set-Y8Ac9WGj",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Specialized Skills Courses"
+   }
+  },
+  {
+   "id": "g-Z5WLnMAv",
+   "label": "Context Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ZEGJKozW",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-ZEGJKozW-rules",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-QOAkIHoE",
+        "type": "count",
+        "courseSet": "set-QOAkIHoE",
+        "maxCourses": 2,
+        "sourceRef": "program",
+        "label": "3xxx Context Courses"
+       },
+       {
+        "id": "r-pdZErfJ0",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-pdZErfJ0-credits",
+          "type": "credits",
+          "courseSet": "set-pdZErfJ0",
+          "minCredits": 3,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-pdZErfJ0-min",
+          "type": "count",
+          "courseSet": "set-pdZErfJ0",
+          "minCourses": 1,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-pdZErfJ0-max",
+          "type": "count",
+          "courseSet": "set-pdZErfJ0",
+          "maxCourses": 3,
+          "sourceRef": "program"
+         }
+        ],
+        "label": "4xxx / 5xxx Context Courses"
+       }
+      ]
+     },
+     {
+      "id": "r-ZEGJKozW-credits",
+      "type": "credits",
+      "courseSet": "set-ZEGJKozW",
+      "minCredits": 9,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Context Courses"
+   }
+  },
+  {
+   "id": "g-iBRdF39z",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-aUmyfVUy",
+    "type": "credits",
+    "courseSet": "set-aUmyfVUy",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-eW7A1gQG",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-nxGzeNEO",
+    "type": "count",
+    "courseSet": "set-nxGzeNEO",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Prerequisite",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-418264",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-418264-credits",
+      "type": "credits",
+      "courseSet": "set-418264",
+      "minCredits": 3,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-418264-min",
+      "type": "count",
+      "courseSet": "set-418264",
+      "minCourses": 1,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-418264-max",
+      "type": "count",
+      "courseSet": "set-418264",
+      "maxCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Preparatory Course"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students must apply to the major. To apply, students must have completed, or be enrolled in, JOUR 1001 and have completed at least 12 graded credits (A-F). Students write answers to application questions that provide information about academic interests, professional goals, and mass communication or related experience, if any; the responses function as a writing sample for the Admissions Committee. The Admissions Committee is looking for a GPA of 3.0 or higher but will consider a GPA below 3.0 if grades have shown recent improvement. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Journalism BA is JOUR.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 17 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may combine the Journalism BA with the Digital Media Studies minor, but not with the Media and Information minor.\nStudents may earn no more than one undergraduate major in Journalism, Strategic Communication: Advertising and Public Relations, and Media and Information. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

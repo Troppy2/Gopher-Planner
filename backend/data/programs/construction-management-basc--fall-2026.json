@@ -1,0 +1,1097 @@
+{
+ "schemaVersion": 2,
+ "id": "construction-management-basc",
+ "name": "Construction Management B.A.Sc.",
+ "officialName": "Construction Management B.A.Sc.",
+ "officialProgramId": "100624618",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Construction Management B.A.Sc., revision 100624618-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/100624618, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/100624618",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 100624618-2026-09-08"
+  },
+  "course-7889131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889131",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 3001W, version 7889131-2017-01-17"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-0038931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038931",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1313W, version 0038931-2026-01-20"
+  },
+  "course-0102561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102561",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3402, version 0102561-2024-05-13"
+  },
+  "course-0038981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038981",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3411, version 0038981-2024-09-03"
+  },
+  "course-7887411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887411",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101H, version 7887411-2026-09-08"
+  },
+  "course-0062811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062811",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1101, version 0062811-2024-09-03"
+  },
+  "course-0062861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062861",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1102, version 0062861-2020-09-08"
+  },
+  "course-0099201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1101, version 0099201-2024-09-03"
+  },
+  "course-0099231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099231",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1102, version 0099231-2016-01-19"
+  },
+  "course-0150831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4022W, version 0150831-2026-09-08"
+  },
+  "course-0131331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131331",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3001, version 0131331-2021-05-17"
+  },
+  "course-0131031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ACCT 2051, version 0131031-2022-09-06"
+  },
+  "course-0062871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062871",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1251, version 0062871-2016-09-06"
+  },
+  "course-8174891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8174891",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1042, version 8174891-2021-05-17"
+  },
+  "course-0001191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001191",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1142, version 0001191-2021-05-17"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0036921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036921",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1371, version 0036921-2025-09-02"
+  },
+  "course-0020661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1101W, version 0020661-2021-05-17"
+  },
+  "course-7989031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989031",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1107, version 7989031-2022-09-06"
+  },
+  "course-0020701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020701",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1301W, version 0020701-2022-05-16"
+  },
+  "course-0020731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020731",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1401V, version 0020731-2023-09-05"
+  },
+  "course-7916981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7916981",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 3011, version 7916981-2008-09-02"
+  },
+  "course-8114491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114491",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4013W, version 8114491-2016-01-19"
+  },
+  "course-0150931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150931",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4101, version 0150931-2015-01-20"
+  },
+  "course-0131131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131131",
+   "retrieved": "2026-11-23",
+   "section": "Course record ACCT 3001, version 0131131-2026-01-20"
+  },
+  "course-0131181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131181",
+   "retrieved": "2026-11-23",
+   "section": "Course record FINA 3001, version 0131181-2024-09-03"
+  },
+  "course-8205651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8205651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4545, version 8205651-2025-05-19"
+  },
+  "course-0136881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0136881",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 4011, version 0136881-2015-01-20"
+  },
+  "course-0137221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0137221",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 4021, version 0137221-2026-09-08"
+  },
+  "course-0137261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0137261",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 4022, version 0137261-2026-09-08"
+  },
+  "course-0162471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0162471",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 4031, version 0162471-2015-01-20"
+  },
+  "course-0162451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0162451",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 4041W, version 0162451-2015-01-20"
+  },
+  "course-0137301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0137301",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 4196, version 0137301-2020-01-21"
+  },
+  "course-8271741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271741",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 4421, version 8271741-2024-09-03"
+  },
+  "course-8078001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8078001",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 4422, version 8078001-2015-01-20"
+  },
+  "course-8074271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8074271",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 4471, version 8074271-2012-01-17"
+  },
+  "course-8064201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064201",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 4861, version 8064201-2019-01-22"
+  }
+ },
+ "courseSets": {
+  "set-412992": {
+   "codes": [
+    "COMM 1101",
+    "COMM 1313W",
+    "COMM 3402",
+    "COMM 3411",
+    "COMM 1101H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-412993": {
+   "codes": [
+    "APEC 1101",
+    "APEC 1102",
+    "ECON 1101",
+    "ECON 1102"
+   ],
+   "sourceRef": "program"
+  },
+  "set-412994": {
+   "codes": [
+    "ABUS 4022W",
+    "MGMT 3001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Y3g7injv": {
+   "codes": [
+    "ACCT 2051",
+    "APEC 1251"
+   ],
+   "sourceRef": "program"
+  },
+  "set-2ZrKqMh8": {
+   "codes": [
+    "MATH 1042",
+    "MATH 1142",
+    "MATH 1271",
+    "MATH 1371"
+   ],
+   "sourceRef": "program"
+  },
+  "set-MphdN0Wo": {
+   "codes": [
+    "PHYS 1101W",
+    "PHYS 1107",
+    "PHYS 1301W",
+    "PHYS 1401V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-412995-subrule": {
+   "codes": [
+    "ABUS 4013W",
+    "ABUS 4101",
+    "ACCT 3001",
+    "FINA 3001",
+    "ABUS 4545",
+    "CMGT 4011",
+    "CMGT 4021",
+    "CMGT 4022",
+    "CMGT 4031",
+    "CMGT 4041W",
+    "CMGT 4196",
+    "CMGT 4421",
+    "CMGT 4422",
+    "CMGT 4471",
+    "CMGT 4861"
+   ],
+   "sourceRef": "program"
+  },
+  "set-412997": {
+   "codes": [
+    "ABUS 4013W",
+    "ABUS 4022W",
+    "CMGT 3001W",
+    "CMGT 4041W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ABUS 4013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Legal, Ethical, and Risk Issues for Managers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CMgt 4011 recommended for CMgt students, 45 semester credits"
+    },
+    "sourceRef": "course-8114491"
+   },
+   "sourceRef": "course-8114491"
+  },
+  "ABUS 4022W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategic Management and Leadership",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 credits completed. Students will have better success if they have successfully taken and completed a technical writing or English composition course at the University level and can apply good writing techniques in this class."
+    },
+    "sourceRef": "course-0150831"
+   },
+   "sourceRef": "course-0150831"
+  },
+  "ABUS 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Accounting and Finance for Managers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Financial accounting, 45 cr"
+    },
+    "sourceRef": "course-0150931"
+   },
+   "sourceRef": "course-0150931"
+  },
+  "ABUS 4545": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mitigating Bias in the Workplace",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8205651"
+   },
+   "sourceRef": "course-8205651"
+  },
+  "ACCT 2051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Financial Reporting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131031"
+   },
+   "sourceRef": "course-0131031"
+  },
+  "ACCT 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategic Management Accounting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "ACCT 2051"
+      },
+      {
+       "type": "course",
+       "course_code": "ACCT 2051H"
+      },
+      {
+       "type": "course",
+       "course_code": "ACCT 2050"
+      }
+     ]
+    },
+    "sourceRef": "course-0131131"
+   },
+   "sourceRef": "course-0131131"
+  },
+  "APEC 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062811"
+   },
+   "sourceRef": "course-0062811"
+  },
+  "APEC 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Macroeconomics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101 or Econ 1101"
+    },
+    "sourceRef": "course-0062861"
+   },
+   "sourceRef": "course-0062861"
+  },
+  "APEC 1251": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Accounting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062871"
+   },
+   "sourceRef": "course-0062871"
+  },
+  "CMGT 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Construction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889131"
+   },
+   "sourceRef": "course-7889131"
+  },
+  "CMGT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Construction Plan Reading",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7916981"
+   },
+   "sourceRef": "course-7916981"
+  },
+  "CMGT 4011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Construction Documents and Contracts",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001, 45 sem cr"
+    },
+    "sourceRef": "course-0136881"
+   },
+   "sourceRef": "course-0136881"
+  },
+  "CMGT 4021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Construction Planning and Scheduling",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0137221"
+   },
+   "sourceRef": "course-0137221"
+  },
+  "CMGT 4022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Construction Cost Estimating",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CMGT 3001W, 3011. For the Real Estate Development and Management cert/minor, only CMGT 3011 is required (3001W is recommended)."
+    },
+    "sourceRef": "course-0137261"
+   },
+   "sourceRef": "course-0137261"
+  },
+  "CMGT 4031": {
+   "catalogTerm": "Fall 2026",
+   "title": "Construction Safety and Loss Control",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001, 45 sem cr"
+    },
+    "sourceRef": "course-0162471"
+   },
+   "sourceRef": "course-0162471"
+  },
+  "CMGT 4041W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Specifications and Technical Writing for Construction Professionals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4011 or concurrent registration is required (or allowed) in 4011"
+    },
+    "sourceRef": "course-0162451"
+   },
+   "sourceRef": "course-0162451"
+  },
+  "CMGT 4196": {
+   "catalogTerm": "Fall 2026",
+   "title": "Construction Management Internship",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[CMgt] major or minor or certificate student], [jr or sr], dept consent"
+    },
+    "sourceRef": "course-0137301"
+   },
+   "sourceRef": "course-0137301"
+  },
+  "CMGT 4421": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Construction Scheduling",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271741"
+   },
+   "sourceRef": "course-8271741"
+  },
+  "CMGT 4422": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Construction Cost Estimating",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CMGT 4022 or instr consent"
+    },
+    "sourceRef": "course-8078001"
+   },
+   "sourceRef": "course-8078001"
+  },
+  "CMGT 4471": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainability for Construction Managers",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8074271"
+   },
+   "sourceRef": "course-8074271"
+  },
+  "CMGT 4861": {
+   "catalogTerm": "Fall 2026",
+   "title": "Construction Management Capstone",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8064201"
+   },
+   "sourceRef": "course-8064201"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "COMM 1101H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-7887411"
+   },
+   "sourceRef": "course-7887411"
+  },
+  "COMM 1313W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of Argument",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038931"
+   },
+   "sourceRef": "course-0038931"
+  },
+  "COMM 3402": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Interpersonal Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0102561"
+   },
+   "sourceRef": "course-0102561"
+  },
+  "COMM 3411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Small Group and Team Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038981"
+   },
+   "sourceRef": "course-0038981"
+  },
+  "ECON 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099201"
+   },
+   "sourceRef": "course-0099201"
+  },
+  "ECON 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Macroeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1101 or equiv], knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099231"
+   },
+   "sourceRef": "course-0099231"
+  },
+  "FINA 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Finance Fundamentals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ACCT 2050 or ACCT 2051 or ACCT 2051H; SCO 2550 or BA 2551 or equivalent statistics course"
+    },
+    "sourceRef": "course-0131181"
+   },
+   "sourceRef": "course-0131181"
+  },
+  "MATH 1042": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mathematics of Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]"
+    },
+    "sourceRef": "course-8174891"
+   },
+   "sourceRef": "course-8174891"
+  },
+  "MATH 1142": {
+   "catalogTerm": "Fall 2026",
+   "title": "Short Calculus",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]"
+    },
+    "sourceRef": "course-0001191"
+   },
+   "sourceRef": "course-0001191"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "MATH 1371": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0036921"
+   },
+   "sourceRef": "course-0036921"
+  },
+  "MGMT 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals of Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131331"
+   },
+   "sourceRef": "course-0131331"
+  },
+  "PHYS 1101W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory College Physics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra, plane geometry, trigonometry; primarily for students interested in technical areas"
+    },
+    "sourceRef": "course-0020661"
+   },
+   "sourceRef": "course-0020661"
+  },
+  "PHYS 1107": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics Online I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra, plane geometry, trigonometry"
+    },
+    "sourceRef": "course-7989031"
+   },
+   "sourceRef": "course-7989031"
+  },
+  "PHYS 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Science and Engineering I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020701"
+   },
+   "sourceRef": "course-0020701"
+  },
+  "PHYS 1401V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Physics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors program or with permission, Prereq or Concurrent: MATH 1271/1371/1571H or equivalent"
+    },
+    "sourceRef": "course-0020731"
+   },
+   "sourceRef": "course-0020731"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-100624618",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-100624618",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-412989",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-412991",
+        "type": "course",
+        "code": "CMGT 3001W",
+        "sourceRef": "program",
+        "label": "Introduction to Construction"
+       },
+       {
+        "id": "r-412992",
+        "type": "credits",
+        "courseSet": "set-412992",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Public Speaking or Interpersonal Communication"
+       },
+       {
+        "id": "r-412993",
+        "type": "credits",
+        "courseSet": "set-412993",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Economics"
+       },
+       {
+        "id": "r-412994",
+        "type": "credits",
+        "courseSet": "set-412994",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Introduction to Management"
+       },
+       {
+        "id": "r-Y3g7injv",
+        "type": "credits",
+        "courseSet": "set-Y3g7injv",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Introduction to Financial Reporting"
+       },
+       {
+        "id": "r-2ZrKqMh8",
+        "type": "credits",
+        "courseSet": "set-2ZrKqMh8",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Mathematics"
+       },
+       {
+        "id": "r-MphdN0Wo",
+        "type": "credits",
+        "courseSet": "set-MphdN0Wo",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Physics"
+       },
+       {
+        "id": "r-YGP7HEGz",
+        "type": "course",
+        "code": "CMGT 3011",
+        "sourceRef": "program",
+        "label": "Construction Plan Reading"
+       }
+      ],
+      "label": "Foundation Courses for All Subplans"
+     },
+     {
+      "id": "r-412995",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-412995-subrule",
+        "type": "credits",
+        "courseSet": "set-412995-subrule",
+        "minCredits": 32,
+        "sourceRef": "program",
+        "label": "CMGT Major Core"
+       }
+      ],
+      "label": "Major Core Courses for All Subplans"
+     },
+     {
+      "id": "r-412997",
+      "type": "count",
+      "courseSet": "set-412997",
+      "maxCourses": 1,
+      "sourceRef": "program",
+      "label": "Upper Division Writing Intensive within the major"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students with 30 transferable semester credits, a minimum GPA of 2.50, and a strong interest in the major may be admitted. Each application for admission is individually reviewed in a holistic context. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University's Liberal Education requirements .\nAt least half the upper division credits required for the major must be taken at the University of Minnesota Twin Cities (29 crs). Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Commercial, Environmental Health and Safety, Facility Management, Highway Heavy and Civil Works, Residential. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

@@ -1,0 +1,4154 @@
+{
+ "schemaVersion": 2,
+ "id": "acting-bfa",
+ "name": "Acting B.F.A.",
+ "officialName": "Acting B.F.A.",
+ "officialProgramId": "205220917",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Acting B.F.A., revision 205220917-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/205220917, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/205220917",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 205220917-2026-09-08"
+  },
+  "course-7896381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7896381",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 1391, version 7896381-2015-01-20"
+  },
+  "course-7948201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948201",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 1395, version 7948201-2015-01-20"
+  },
+  "course-7941601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7941601",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 2391, version 7941601-2015-01-20"
+  },
+  "course-7948311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948311",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 2395, version 7948311-2015-01-20"
+  },
+  "course-7903631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7903631",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3391, version 7903631-2013-05-28"
+  },
+  "course-7899021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7899021",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 1392, version 7899021-2015-01-20"
+  },
+  "course-7948211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948211",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 1396, version 7948211-2015-01-20"
+  },
+  "course-7939141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939141",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 2392, version 7939141-2015-01-20"
+  },
+  "course-7948321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948321",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 2396, version 7948321-2015-01-20"
+  },
+  "course-7903641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7903641",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3392, version 7903641-2013-05-28"
+  },
+  "course-7903601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7903601",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 1393, version 7903601-2015-01-20"
+  },
+  "course-7948221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948221",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 1397, version 7948221-2015-01-20"
+  },
+  "course-7939151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939151",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 2393, version 7939151-2015-01-20"
+  },
+  "course-7948331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948331",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 2397, version 7948331-2015-01-20"
+  },
+  "course-7939131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939131",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3393, version 7939131-2015-01-20"
+  },
+  "course-8033211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8033211",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 1501, version 8033211-2023-01-17"
+  },
+  "course-8035361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8035361",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3521, version 8035361-2022-01-18"
+  },
+  "course-8053791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8053791",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3531, version 8053791-2015-01-20"
+  },
+  "course-8064111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064111",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3541, version 8064111-2022-01-18"
+  },
+  "course-8033221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8033221",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3571, version 8033221-2024-01-16"
+  },
+  "course-0083951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0083951",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4532, version 0083951-2009-09-08"
+  },
+  "course-7948361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948361",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3395, version 7948361-2015-01-20"
+  },
+  "course-7903651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7903651",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4391, version 7903651-2015-01-20"
+  },
+  "course-7948391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948391",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4395, version 7948391-2015-01-20"
+  },
+  "course-7948371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948371",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3398, version 7948371-2015-01-20"
+  },
+  "course-7948381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948381",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3399, version 7948381-2015-01-20"
+  },
+  "course-7940191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7940191",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4393, version 7940191-2015-01-20"
+  },
+  "course-7940201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7940201",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4394, version 7940201-2015-01-20"
+  },
+  "course-7948411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948411",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4399, version 7948411-2015-01-20"
+  },
+  "course-0024291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0024291",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 1181W, version 0024291-2024-09-03"
+  },
+  "course-0029221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3007, version 0029221-2024-09-03"
+  },
+  "course-0165431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165431",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3007H, version 0165431-2024-09-03"
+  },
+  "course-0082521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082521",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3171, version 0082521-2022-01-18"
+  },
+  "course-0082531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082531",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3172, version 0082531-2023-01-17"
+  },
+  "course-8175921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8175921",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3239, version 8175921-2022-01-18"
+  },
+  "course-8175491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8175491",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3152W, version 8175491-2026-09-08"
+  },
+  "course-0082621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082621",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4177W, version 0082621-2026-09-08"
+  },
+  "course-7939181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939181",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5179W, version 7939181-2015-01-20"
+  },
+  "course-8101061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101061",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5182W, version 8101061-2022-01-18"
+  },
+  "course-7971911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971911",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5182W, version 7971911-2024-09-03"
+  },
+  "course-8097031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097031",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3210, version 8097031-2022-01-18"
+  },
+  "course-8097041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097041",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3211, version 8097041-2022-01-18"
+  },
+  "course-7924691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7924691",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3213, version 7924691-2022-01-18"
+  },
+  "course-8074411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8074411",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3215, version 8074411-2022-01-18"
+  },
+  "course-8077651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077651",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3217W, version 8077651-2022-01-18"
+  },
+  "course-8080011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8080011",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3218, version 8080011-2022-01-18"
+  },
+  "course-8089581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8089581",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3219, version 8089581-2022-01-18"
+  },
+  "course-8114321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114321",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3221W, version 8114321-2022-01-18"
+  },
+  "course-8119431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8119431",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3222, version 8119431-2022-01-18"
+  },
+  "course-8119471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8119471",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3226, version 8119471-2022-01-18"
+  },
+  "course-8152781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152781",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3230, version 8152781-2022-01-18"
+  },
+  "course-8160061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8160061",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3232, version 8160061-2022-01-18"
+  },
+  "course-8152801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152801",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3233, version 8152801-2022-01-18"
+  },
+  "course-8152821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152821",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3235, version 8152821-2022-01-18"
+  },
+  "course-8172771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172771",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3236, version 8172771-2022-01-18"
+  },
+  "course-8172781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172781",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3237, version 8172781-2022-01-18"
+  },
+  "course-8175911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8175911",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3238, version 8175911-2022-01-18"
+  },
+  "course-8175941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8175941",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3242, version 8175941-2022-01-18"
+  },
+  "course-8175931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8175931",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3243, version 8175931-2022-01-18"
+  },
+  "course-8179221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179221",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3245, version 8179221-2022-01-18"
+  },
+  "course-8187241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187241",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3251, version 8187241-2022-01-18"
+  },
+  "course-8198151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198151",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3255, version 8198151-2022-01-18"
+  },
+  "course-8200871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8200871",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3256, version 8200871-2022-01-18"
+  },
+  "course-7924701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7924701",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3323, version 7924701-2022-01-18"
+  },
+  "course-7924711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7924711",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3324, version 7924711-2022-01-18"
+  },
+  "course-7925071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7925071",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3328, version 7925071-2022-01-18"
+  },
+  "course-7925081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7925081",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3333, version 7925081-2022-01-18"
+  },
+  "course-7925091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7925091",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3342, version 7925091-2022-01-18"
+  },
+  "course-7925131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7925131",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3432, version 7925131-2022-01-18"
+  },
+  "course-8160071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8160071",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3500, version 8160071-2022-01-18"
+  },
+  "course-7925141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7925141",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3523, version 7925141-2022-01-18"
+  },
+  "course-8015691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015691",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3530, version 8015691-2022-01-18"
+  },
+  "course-8015701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015701",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3531, version 8015701-2022-01-18"
+  },
+  "course-8012811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8012811",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3532, version 8012811-2022-01-18"
+  },
+  "course-7925161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7925161",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3533, version 7925161-2022-01-18"
+  },
+  "course-8012881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8012881",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3534, version 8012881-2022-01-18"
+  },
+  "course-8012891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8012891",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3536, version 8012891-2022-01-18"
+  },
+  "course-8064941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064941",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3613, version 8064941-2022-01-18"
+  },
+  "course-8064951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064951",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3614, version 8064951-2022-01-18"
+  },
+  "course-8064961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064961",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3615, version 8064961-2022-01-18"
+  },
+  "course-7925171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7925171",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3733, version 7925171-2022-01-18"
+  },
+  "course-7925181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7925181",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3752, version 7925181-2022-01-18"
+  },
+  "course-7925191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7925191",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3753, version 7925191-2022-01-18"
+  },
+  "course-7974861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974861",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3754, version 7974861-2022-01-18"
+  },
+  "course-7974881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974881",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3756, version 7974881-2022-01-18"
+  },
+  "course-7974891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974891",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3757, version 7974891-2022-01-18"
+  },
+  "course-7976971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976971",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3758, version 7976971-2022-01-18"
+  },
+  "course-8029621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029621",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3759, version 8029621-2022-01-18"
+  },
+  "course-8173001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173001",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3311, version 8173001-2022-09-06"
+  },
+  "course-0082511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082511",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3100, version 0082511-2022-01-18"
+  },
+  "course-0086161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086161",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3115, version 0086161-2015-01-20"
+  },
+  "course-8006661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006661",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3316, version 8006661-2015-01-20"
+  },
+  "course-0082541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082541",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3321, version 0082541-2020-09-08"
+  },
+  "course-7911751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7911751",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3325, version 7911751-2026-01-20"
+  },
+  "course-8030151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8030151",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3332, version 8030151-2013-05-28"
+  },
+  "course-0082801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082801",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3361, version 0082801-2024-09-03"
+  },
+  "course-7915411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7915411",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3381, version 7915411-2024-09-03"
+  },
+  "course-8108581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8108581",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3559, version 8108581-2015-01-20"
+  },
+  "course-0082461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082461",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3711, version 0082461-2024-01-16"
+  },
+  "course-8049211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8049211",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3716, version 8049211-2015-01-20"
+  },
+  "course-0082581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082581",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3950, version 0082581-2025-05-19"
+  },
+  "course-7988221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7988221",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4115, version 7988221-2015-01-20"
+  },
+  "course-0082731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082731",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4322, version 0082731-2024-09-03"
+  },
+  "course-7954931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7954931",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4380, version 7954931-2026-09-08"
+  },
+  "course-0082921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082921",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4555, version 0082921-2015-01-20"
+  },
+  "course-7887381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887381",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4711, version 7887381-2023-01-17"
+  },
+  "course-0082651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082651",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5100, version 0082651-2015-01-20"
+  },
+  "course-7937771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7937771",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5117, version 7937771-2015-01-20"
+  },
+  "course-8030161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8030161",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5330, version 8030161-2017-01-17"
+  },
+  "course-8031501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8031501",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5340, version 8031501-2023-09-05"
+  },
+  "course-7911761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7911761",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5355, version 7911761-2025-01-21"
+  },
+  "course-0082811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082811",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5500, version 0082811-2015-09-08"
+  },
+  "course-0082821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082821",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5510, version 0082821-2015-09-08"
+  },
+  "course-0082851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082851",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5520, version 0082851-2015-09-08"
+  },
+  "course-0082861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082861",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5530, version 0082861-2015-09-08"
+  },
+  "course-0082871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082871",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5540, version 0082871-2015-01-20"
+  },
+  "course-0082911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082911",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5545, version 0082911-2015-01-20"
+  },
+  "course-0082881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082881",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5559, version 0082881-2015-01-20"
+  },
+  "course-0082831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082831",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5560, version 0082831-2015-01-20"
+  },
+  "course-0082901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082901",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5570, version 0082901-2015-01-20"
+  },
+  "course-0082891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082891",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5580, version 0082891-2026-09-08"
+  },
+  "course-0082951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082951",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5590, version 0082951-2015-01-20"
+  },
+  "course-0082961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082961",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5711, version 0082961-2015-01-20"
+  },
+  "course-0082991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082991",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5716, version 0082991-2015-01-20"
+  },
+  "course-0083021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0083021",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5760, version 0083021-2025-09-02"
+  },
+  "course-0083041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0083041",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5950, version 0083041-2026-05-18"
+  },
+  "course-0086921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086921",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1001, version 0086921-2018-09-04"
+  },
+  "course-0088331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088331",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1010, version 0088331-2018-09-04"
+  },
+  "course-0088501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088501",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1020, version 0088501-2018-09-04"
+  },
+  "course-8006231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006231",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1040, version 8006231-2015-01-20"
+  },
+  "course-0078371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078371",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1110, version 0078371-2015-01-20"
+  },
+  "course-0085801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085801",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1120, version 0085801-2015-01-20"
+  },
+  "course-0090831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090831",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1210, version 0090831-2015-01-20"
+  },
+  "course-7910941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910941",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1331, version 7910941-2013-05-28"
+  },
+  "course-8049181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8049181",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1343, version 8049181-2018-09-04"
+  },
+  "course-8049191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8049191",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1345, version 8049191-2015-09-08"
+  },
+  "course-7910981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910981",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1349, version 7910981-2013-05-28"
+  },
+  "course-0085831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085831",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3110, version 0085831-2015-01-20"
+  },
+  "course-0085841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085841",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3120, version 0085841-2015-01-20"
+  },
+  "course-0090891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090891",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 3220, version 0090891-2015-01-20"
+  },
+  "course-0086321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086321",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5110, version 0086321-2015-01-20"
+  },
+  "course-0086341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086341",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 5120, version 0086341-2015-01-20"
+  },
+  "course-0026231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026231",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1007, version 0026231-2026-01-20"
+  },
+  "course-8008401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8008401",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1012, version 8008401-2026-01-20"
+  },
+  "course-0026251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026251",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1014, version 0026251-2026-01-20"
+  },
+  "course-0026271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026271",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1015, version 0026271-2026-01-20"
+  },
+  "course-0042871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042871",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1016, version 0042871-2026-01-20"
+  },
+  "course-0026631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026631",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1031, version 0026631-2026-01-20"
+  },
+  "course-0025521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025521",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1032, version 0025521-2026-01-20"
+  },
+  "course-0026611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026611",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1033, version 0026611-2026-01-20"
+  },
+  "course-0025541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025541",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1035, version 0025541-2026-01-20"
+  },
+  "course-0025561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025561",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1036, version 0025561-2026-01-20"
+  },
+  "course-0025571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025571",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1037, version 0025571-2024-09-03"
+  },
+  "course-0026571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026571",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1038, version 0026571-2026-01-20"
+  },
+  "course-0025591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025591",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1044, version 0025591-2026-01-20"
+  },
+  "course-7918961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7918961",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1045, version 7918961-2026-01-20"
+  },
+  "course-7906381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7906381",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1046, version 7906381-2026-01-20"
+  },
+  "course-0026291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026291",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1048, version 0026291-2026-01-20"
+  },
+  "course-0045611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045611",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1057, version 0045611-2026-01-20"
+  },
+  "course-7896781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7896781",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1058, version 7896781-2022-01-18"
+  },
+  "course-0026381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026381",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1067, version 0026381-2026-01-20"
+  },
+  "course-7961661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7961661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1071, version 7961661-2026-01-20"
+  },
+  "course-0036821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036821",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1072, version 0036821-2026-01-20"
+  },
+  "course-0026501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026501",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1074, version 0026501-2026-01-20"
+  },
+  "course-8049261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8049261",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1076, version 8049261-2026-01-20"
+  },
+  "course-0025621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025621",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1205, version 0025621-2026-01-20"
+  },
+  "course-8022821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8022821",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1262, version 8022821-2026-01-20"
+  },
+  "course-7906231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7906231",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3993, version 7906231-2015-01-20"
+  },
+  "course-0083051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0083051",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5993, version 0083051-2015-01-20"
+  },
+  "course-7948401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948401",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4398, version 7948401-2015-01-20"
+  },
+  "course-8098521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8098521",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3212W, version 8098521-2022-01-18"
+  },
+  "course-8114311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114311",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3220W, version 8114311-2022-01-18"
+  },
+  "course-8187231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187231",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3249W, version 8187231-2022-01-18"
+  },
+  "course-8198421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198421",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3253W, version 8198421-2022-01-18"
+  },
+  "course-8198861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198861",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3254W, version 8198861-2022-01-18"
+  },
+  "course-7925101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7925101",
+   "retrieved": "2026-11-23",
+   "section": "Course record LNDN 3343W, version 7925101-2022-01-18"
+  }
+ },
+ "courseSets": {
+  "set-nCELjV1T": {
+   "codes": [
+    "TH 1391",
+    "TH 1395",
+    "TH 2391",
+    "TH 2395",
+    "TH 3391"
+   ],
+   "sourceRef": "program"
+  },
+  "set-vOegW2bq": {
+   "codes": [
+    "TH 1392",
+    "TH 1396",
+    "TH 2392",
+    "TH 2396",
+    "TH 3392"
+   ],
+   "sourceRef": "program"
+  },
+  "set-CZsF80jh": {
+   "codes": [
+    "TH 1393",
+    "TH 1397",
+    "TH 2393",
+    "TH 2397",
+    "TH 3393"
+   ],
+   "sourceRef": "program"
+  },
+  "set-KyugsNmL": {
+   "codes": [
+    "TH 1501",
+    "TH 3521",
+    "TH 3531",
+    "TH 3541",
+    "TH 3571"
+   ],
+   "sourceRef": "program"
+  },
+  "set-SKDp7sXu": {
+   "codes": [
+    "TH 3395",
+    "TH 4391",
+    "TH 4395"
+   ],
+   "sourceRef": "program"
+  },
+  "set-gaEiWnBY": {
+   "codes": [
+    "TH 3398",
+    "TH 3399",
+    "TH 4393",
+    "TH 4394",
+    "TH 4399"
+   ],
+   "sourceRef": "program"
+  },
+  "set-cCGcK2Gi": {
+   "codes": [
+    "ENGL 1181W",
+    "ENGL 3007",
+    "ENGL 3007H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ZfbewRkD": {
+   "codes": [
+    "TH 3171",
+    "TH 3172",
+    "LNDN 3239"
+   ],
+   "sourceRef": "program"
+  },
+  "set-QLu6TlYb": {
+   "codes": [
+    "TH 3152W",
+    "TH 4177W",
+    "TH 5179W",
+    "TH 5182W",
+    "AFRO 5182W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-fuykiIJe": {
+   "codes": [
+    "LNDN 3210",
+    "LNDN 3211",
+    "LNDN 3213",
+    "LNDN 3215",
+    "LNDN 3217W",
+    "LNDN 3218",
+    "LNDN 3219",
+    "LNDN 3221W",
+    "LNDN 3222",
+    "LNDN 3226",
+    "LNDN 3230",
+    "LNDN 3232",
+    "LNDN 3233",
+    "LNDN 3235",
+    "LNDN 3236",
+    "LNDN 3237",
+    "LNDN 3238",
+    "LNDN 3242",
+    "LNDN 3243",
+    "LNDN 3245",
+    "LNDN 3251",
+    "LNDN 3255",
+    "LNDN 3256",
+    "LNDN 3323",
+    "LNDN 3324",
+    "LNDN 3328",
+    "LNDN 3333",
+    "LNDN 3342",
+    "LNDN 3432",
+    "LNDN 3500",
+    "LNDN 3523",
+    "LNDN 3530",
+    "LNDN 3531",
+    "LNDN 3532",
+    "LNDN 3533",
+    "LNDN 3534",
+    "LNDN 3536",
+    "LNDN 3613",
+    "LNDN 3614",
+    "LNDN 3615",
+    "LNDN 3733",
+    "LNDN 3752",
+    "LNDN 3753",
+    "LNDN 3754",
+    "LNDN 3756",
+    "LNDN 3757",
+    "LNDN 3758",
+    "LNDN 3759"
+   ],
+   "sourceRef": "program"
+  },
+  "set-H1Ag1M9h": {
+   "codes": [
+    "AAS 3311",
+    "TH 3100",
+    "TH 3115",
+    "TH 3152W",
+    "TH 3316",
+    "TH 3321",
+    "TH 3325",
+    "TH 3332",
+    "TH 3361",
+    "TH 3381",
+    "TH 3521",
+    "TH 3531",
+    "TH 3541",
+    "TH 3559",
+    "TH 3571",
+    "TH 3711",
+    "TH 3716",
+    "TH 3950",
+    "TH 4115",
+    "TH 4177W",
+    "TH 4322",
+    "TH 4380",
+    "TH 4555",
+    "TH 4711",
+    "TH 5100",
+    "TH 5117",
+    "TH 5179W",
+    "TH 5182W",
+    "AFRO 5182W",
+    "TH 5330",
+    "TH 5340",
+    "TH 5355",
+    "TH 5500",
+    "TH 5510",
+    "TH 5520",
+    "TH 5530",
+    "TH 5540",
+    "TH 5545",
+    "TH 5559",
+    "TH 5560",
+    "TH 5570",
+    "TH 5580",
+    "TH 5590",
+    "TH 5711",
+    "TH 5716",
+    "TH 5760",
+    "TH 5950"
+   ],
+   "sourceRef": "program"
+  },
+  "set-391786": {
+   "codes": [
+    "DNCE 1001",
+    "DNCE 1010",
+    "DNCE 1020",
+    "DNCE 1040",
+    "DNCE 1110",
+    "DNCE 1120",
+    "DNCE 1210",
+    "DNCE 1331",
+    "DNCE 1343",
+    "DNCE 1345",
+    "DNCE 1349",
+    "DNCE 3110",
+    "DNCE 3120",
+    "DNCE 3220",
+    "DNCE 5110",
+    "DNCE 5120",
+    "PE 1007",
+    "PE 1012",
+    "PE 1014",
+    "PE 1015",
+    "PE 1016",
+    "PE 1031",
+    "PE 1032",
+    "PE 1033",
+    "PE 1035",
+    "PE 1036",
+    "PE 1037",
+    "PE 1038",
+    "PE 1044",
+    "PE 1045",
+    "PE 1046",
+    "PE 1048",
+    "PE 1057",
+    "PE 1058",
+    "PE 1067",
+    "PE 1071",
+    "PE 1072",
+    "PE 1074",
+    "PE 1076",
+    "PE 1205",
+    "PE 1262",
+    "TH 3993",
+    "TH 5993"
+   ],
+   "sourceRef": "program"
+  },
+  "set-w3rF6nvg": {
+   "codes": [
+    "LNDN 3212W",
+    "LNDN 3220W",
+    "LNDN 3221W",
+    "LNDN 3249W",
+    "LNDN 3253W",
+    "LNDN 3254W",
+    "LNDN 3343W",
+    "TH 3152W",
+    "TH 4177W",
+    "TH 5179W",
+    "TH 5182W",
+    "AFRO 5182W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AAS 3311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Asian American Theater",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173001"
+   },
+   "sourceRef": "course-8173001"
+  },
+  "AFRO 5182W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Black Drama and Dramaturgies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971911"
+   },
+   "sourceRef": "course-7971911"
+  },
+  "DNCE 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern/Contemporary Dance Technique 1",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0086921"
+   },
+   "sourceRef": "course-0086921"
+  },
+  "DNCE 1010": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern/Contemporary Dance Technique 3",
+   "minimumCredits": 1,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0088331"
+   },
+   "sourceRef": "course-0088331"
+  },
+  "DNCE 1020": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern/Contemporary Dance Technique 4",
+   "minimumCredits": 1,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1010, dept consent, audition"
+    },
+    "sourceRef": "course-0088501"
+   },
+   "sourceRef": "course-0088501"
+  },
+  "DNCE 1040": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Dance Partnering Technique",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Dance major or instr consent"
+    },
+    "sourceRef": "course-8006231"
+   },
+   "sourceRef": "course-8006231"
+  },
+  "DNCE 1110": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 3",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0078371"
+   },
+   "sourceRef": "course-0078371"
+  },
+  "DNCE 1120": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 4",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1110, dept consent, audition"
+    },
+    "sourceRef": "course-0085801"
+   },
+   "sourceRef": "course-0085801"
+  },
+  "DNCE 1210": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jazz Technique 3",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0090831"
+   },
+   "sourceRef": "course-0090831"
+  },
+  "DNCE 1331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Yoga",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7910941"
+   },
+   "sourceRef": "course-7910941"
+  },
+  "DNCE 1343": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban & Street Dance Forms 1: Introduction",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8049181"
+   },
+   "sourceRef": "course-8049181"
+  },
+  "DNCE 1345": {
+   "catalogTerm": "Fall 2026",
+   "title": "Alexander Technique for Movement Artists",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8049191"
+   },
+   "sourceRef": "course-8049191"
+  },
+  "DNCE 1349": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contact Improvisation",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7910981"
+   },
+   "sourceRef": "course-7910981"
+  },
+  "DNCE 3110": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 5",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0085831"
+   },
+   "sourceRef": "course-0085831"
+  },
+  "DNCE 3120": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 6",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3110, dept consent, audition"
+    },
+    "sourceRef": "course-0085841"
+   },
+   "sourceRef": "course-0085841"
+  },
+  "DNCE 3220": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jazz Technique 6",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3210, dept consent, audition"
+    },
+    "sourceRef": "course-0090891"
+   },
+   "sourceRef": "course-0090891"
+  },
+  "DNCE 5110": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 7",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent, audition"
+    },
+    "sourceRef": "course-0086321"
+   },
+   "sourceRef": "course-0086321"
+  },
+  "DNCE 5120": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ballet Technique 8",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5110, dept consent, audition"
+    },
+    "sourceRef": "course-0086341"
+   },
+   "sourceRef": "course-0086341"
+  },
+  "ENGL 1181W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Shakespeare",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0024291"
+   },
+   "sourceRef": "course-0024291"
+  },
+  "ENGL 3007": {
+   "catalogTerm": "Fall 2026",
+   "title": "Shakespeare",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0029221"
+   },
+   "sourceRef": "course-0029221"
+  },
+  "ENGL 3007H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Shakespeare",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0165431"
+   },
+   "sourceRef": "course-0165431"
+  },
+  "LNDN 3210": {
+   "catalogTerm": "Fall 2026",
+   "title": "Historical Backgrounds of English Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097031"
+   },
+   "sourceRef": "course-8097031"
+  },
+  "LNDN 3211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Terror and the Witch: Fictions of Witchcraft from Shakespeare to Harry Potter",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097041"
+   },
+   "sourceRef": "course-8097041"
+  },
+  "LNDN 3212W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Travel Writing: Topics in Composition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8098521"
+   },
+   "sourceRef": "course-8098521"
+  },
+  "LNDN 3213": {
+   "catalogTerm": "Fall 2026",
+   "title": "20th and 21st Century Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7924691"
+   },
+   "sourceRef": "course-7924691"
+  },
+  "LNDN 3215": {
+   "catalogTerm": "Fall 2026",
+   "title": "British Theatre Now and Then",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8074411"
+   },
+   "sourceRef": "course-8074411"
+  },
+  "LNDN 3217W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing the City: London",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8077651"
+   },
+   "sourceRef": "course-8077651"
+  },
+  "LNDN 3218": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary British Film",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8080011"
+   },
+   "sourceRef": "course-8080011"
+  },
+  "LNDN 3219": {
+   "catalogTerm": "Fall 2026",
+   "title": "London Across History, Literature and Film",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8089581"
+   },
+   "sourceRef": "course-8089581"
+  },
+  "LNDN 3220W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary World Architecture in London",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8114311"
+   },
+   "sourceRef": "course-8114311"
+  },
+  "LNDN 3221W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing a Play",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8114321"
+   },
+   "sourceRef": "course-8114321"
+  },
+  "LNDN 3222": {
+   "catalogTerm": "Fall 2026",
+   "title": "Detective Fiction: Crime and the City",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8119431"
+   },
+   "sourceRef": "course-8119431"
+  },
+  "LNDN 3226": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion in Modern Britain: A Comparative Perspective",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8119471"
+   },
+   "sourceRef": "course-8119471"
+  },
+  "LNDN 3230": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Aesthetics of Power, Prestige and Social Change: A Survey of Renaissance through Modern Art Hist",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8152781"
+   },
+   "sourceRef": "course-8152781"
+  },
+  "LNDN 3232": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Art in London: From the Sublime to the Ridiculous",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8160061"
+   },
+   "sourceRef": "course-8160061"
+  },
+  "LNDN 3233": {
+   "catalogTerm": "Fall 2026",
+   "title": "Queer Studies and LGBTQ Life in London and the Global World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8152801"
+   },
+   "sourceRef": "course-8152801"
+  },
+  "LNDN 3235": {
+   "catalogTerm": "Fall 2026",
+   "title": "Witchcraft and Magical Performance in London",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8152821"
+   },
+   "sourceRef": "course-8152821"
+  },
+  "LNDN 3236": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Law of Wrongful Convictions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172771"
+   },
+   "sourceRef": "course-8172771"
+  },
+  "LNDN 3237": {
+   "catalogTerm": "Fall 2026",
+   "title": "International Comparative Studies of Issues Impacting Education Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172781"
+   },
+   "sourceRef": "course-8172781"
+  },
+  "LNDN 3238": {
+   "catalogTerm": "Fall 2026",
+   "title": "Literature and the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8175911"
+   },
+   "sourceRef": "course-8175911"
+  },
+  "LNDN 3239": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theatre in the City",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8175921"
+   },
+   "sourceRef": "course-8175921"
+  },
+  "LNDN 3242": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global Perspectives on Human Rights in Action",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8175941"
+   },
+   "sourceRef": "course-8175941"
+  },
+  "LNDN 3243": {
+   "catalogTerm": "Fall 2026",
+   "title": "London Museums: Introduction to British Museology, Society and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8175931"
+   },
+   "sourceRef": "course-8175931"
+  },
+  "LNDN 3245": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Health Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8179221"
+   },
+   "sourceRef": "course-8179221"
+  },
+  "LNDN 3249W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Experiencing Globalization: Society, Space and Everyday Life in London",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187231"
+   },
+   "sourceRef": "course-8187231"
+  },
+  "LNDN 3251": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategic Communication and Social Media: Theory and Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187241"
+   },
+   "sourceRef": "course-8187241"
+  },
+  "LNDN 3253W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Issues through Community Engagement: Social Dynamics of London",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8198421"
+   },
+   "sourceRef": "course-8198421"
+  },
+  "LNDN 3254W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Science Fiction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8198861"
+   },
+   "sourceRef": "course-8198861"
+  },
+  "LNDN 3255": {
+   "catalogTerm": "Fall 2026",
+   "title": "Moving Images Editing: Theory and Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8198151"
+   },
+   "sourceRef": "course-8198151"
+  },
+  "LNDN 3256": {
+   "catalogTerm": "Fall 2026",
+   "title": "Digital Media Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8200871"
+   },
+   "sourceRef": "course-8200871"
+  },
+  "LNDN 3323": {
+   "catalogTerm": "Fall 2026",
+   "title": "Shakespeare in London",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7924701"
+   },
+   "sourceRef": "course-7924701"
+  },
+  "LNDN 3324": {
+   "catalogTerm": "Fall 2026",
+   "title": "20th Century British Fiction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7924711"
+   },
+   "sourceRef": "course-7924711"
+  },
+  "LNDN 3328": {
+   "catalogTerm": "Fall 2026",
+   "title": "British Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7925071"
+   },
+   "sourceRef": "course-7925071"
+  },
+  "LNDN 3333": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Modern Britain",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7925081"
+   },
+   "sourceRef": "course-7925081"
+  },
+  "LNDN 3342": {
+   "catalogTerm": "Fall 2026",
+   "title": "European Economic History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7925091"
+   },
+   "sourceRef": "course-7925091"
+  },
+  "LNDN 3343W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Post War Popular Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7925101"
+   },
+   "sourceRef": "course-7925101"
+  },
+  "LNDN 3432": {
+   "catalogTerm": "Fall 2026",
+   "title": "Western European Government and Politics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7925131"
+   },
+   "sourceRef": "course-7925131"
+  },
+  "LNDN 3500": {
+   "catalogTerm": "Fall 2026",
+   "title": "CAPA Seminar in London",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8160071"
+   },
+   "sourceRef": "course-8160071"
+  },
+  "LNDN 3523": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theatricality: Understanding the Possibilities in Theater",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7925141"
+   },
+   "sourceRef": "course-7925141"
+  },
+  "LNDN 3530": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ethical Issues and the Media",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8015691"
+   },
+   "sourceRef": "course-8015691"
+  },
+  "LNDN 3531": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advertising and Marketing in Britain",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8015701"
+   },
+   "sourceRef": "course-8015701"
+  },
+  "LNDN 3532": {
+   "catalogTerm": "Fall 2026",
+   "title": "Visualizing Britain: Film and Television Documentaries",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8012811"
+   },
+   "sourceRef": "course-8012811"
+  },
+  "LNDN 3533": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women in Britain in the 21st Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7925161"
+   },
+   "sourceRef": "course-7925161"
+  },
+  "LNDN 3534": {
+   "catalogTerm": "Fall 2026",
+   "title": "Criminal London: Aspects of Crime and Criminal Justice in Britain",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8012881"
+   },
+   "sourceRef": "course-8012881"
+  },
+  "LNDN 3536": {
+   "catalogTerm": "Fall 2026",
+   "title": "Child Development in a British Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8012891"
+   },
+   "sourceRef": "course-8012891"
+  },
+  "LNDN 3613": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analyzing and Exploring the Global City: London--Modernity, Empire, and Globalization",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8064941"
+   },
+   "sourceRef": "course-8064941"
+  },
+  "LNDN 3614": {
+   "catalogTerm": "Fall 2026",
+   "title": "Citizenship and Gender in Modern Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8064951"
+   },
+   "sourceRef": "course-8064951"
+  },
+  "LNDN 3615": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban Underworlds in Medieval and Early Modern London: A Literary Exploration",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8064961"
+   },
+   "sourceRef": "course-8064961"
+  },
+  "LNDN 3733": {
+   "catalogTerm": "Fall 2026",
+   "title": "International Finance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7925171"
+   },
+   "sourceRef": "course-7925171"
+  },
+  "LNDN 3752": {
+   "catalogTerm": "Fall 2026",
+   "title": "International Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7925181"
+   },
+   "sourceRef": "course-7925181"
+  },
+  "LNDN 3753": {
+   "catalogTerm": "Fall 2026",
+   "title": "International Economics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7925191"
+   },
+   "sourceRef": "course-7925191"
+  },
+  "LNDN 3754": {
+   "catalogTerm": "Fall 2026",
+   "title": "Creative Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974861"
+   },
+   "sourceRef": "course-7974861"
+  },
+  "LNDN 3756": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in London",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974881"
+   },
+   "sourceRef": "course-7974881"
+  },
+  "LNDN 3757": {
+   "catalogTerm": "Fall 2026",
+   "title": "British History in the 20th Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974891"
+   },
+   "sourceRef": "course-7974891"
+  },
+  "LNDN 3758": {
+   "catalogTerm": "Fall 2026",
+   "title": "International Business Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976971"
+   },
+   "sourceRef": "course-7976971"
+  },
+  "LNDN 3759": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islam, Politics, and Britain: A Case Study of London's East End",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029621"
+   },
+   "sourceRef": "course-8029621"
+  },
+  "PE 1007": {
+   "catalogTerm": "Fall 2026",
+   "title": "Swimming For Beginners",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026231"
+   },
+   "sourceRef": "course-0026231"
+  },
+  "PE 1012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Running for Beginners",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8008401"
+   },
+   "sourceRef": "course-8008401"
+  },
+  "PE 1014": {
+   "catalogTerm": "Fall 2026",
+   "title": "Conditioning",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026251"
+   },
+   "sourceRef": "course-0026251"
+  },
+  "PE 1015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Weight Training",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026271"
+   },
+   "sourceRef": "course-0026271"
+  },
+  "PE 1016": {
+   "catalogTerm": "Fall 2026",
+   "title": "Posture and Individual Exercise",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042871"
+   },
+   "sourceRef": "course-0042871"
+  },
+  "PE 1031": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sabre Fencing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026631"
+   },
+   "sourceRef": "course-0026631"
+  },
+  "PE 1032": {
+   "catalogTerm": "Fall 2026",
+   "title": "Badminton",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025521"
+   },
+   "sourceRef": "course-0025521"
+  },
+  "PE 1033": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foil Fencing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026611"
+   },
+   "sourceRef": "course-0026611"
+  },
+  "PE 1035": {
+   "catalogTerm": "Fall 2026",
+   "title": "Karate",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025541"
+   },
+   "sourceRef": "course-0025541"
+  },
+  "PE 1036": {
+   "catalogTerm": "Fall 2026",
+   "title": "Racquetball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025561"
+   },
+   "sourceRef": "course-0025561"
+  },
+  "PE 1037": {
+   "catalogTerm": "Fall 2026",
+   "title": "Squash",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025571"
+   },
+   "sourceRef": "course-0025571"
+  },
+  "PE 1038": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tennis",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026571"
+   },
+   "sourceRef": "course-0026571"
+  },
+  "PE 1044": {
+   "catalogTerm": "Fall 2026",
+   "title": "Self-Defense",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025591"
+   },
+   "sourceRef": "course-0025591"
+  },
+  "PE 1045": {
+   "catalogTerm": "Fall 2026",
+   "title": "Rock Climbing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7918961"
+   },
+   "sourceRef": "course-7918961"
+  },
+  "PE 1046": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tae Kwon Do",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7906381"
+   },
+   "sourceRef": "course-7906381"
+  },
+  "PE 1048": {
+   "catalogTerm": "Fall 2026",
+   "title": "Bowling",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026291"
+   },
+   "sourceRef": "course-0026291"
+  },
+  "PE 1057": {
+   "catalogTerm": "Fall 2026",
+   "title": "Skiing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0045611"
+   },
+   "sourceRef": "course-0045611"
+  },
+  "PE 1058": {
+   "catalogTerm": "Fall 2026",
+   "title": "Snowboarding",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7896781"
+   },
+   "sourceRef": "course-7896781"
+  },
+  "PE 1067": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basketball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026381"
+   },
+   "sourceRef": "course-0026381"
+  },
+  "PE 1071": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Cricket",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7961661"
+   },
+   "sourceRef": "course-7961661"
+  },
+  "PE 1072": {
+   "catalogTerm": "Fall 2026",
+   "title": "Soccer",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036821"
+   },
+   "sourceRef": "course-0036821"
+  },
+  "PE 1074": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Volleyball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026501"
+   },
+   "sourceRef": "course-0026501"
+  },
+  "PE 1076": {
+   "catalogTerm": "Fall 2026",
+   "title": "Flag Football",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8049261"
+   },
+   "sourceRef": "course-8049261"
+  },
+  "PE 1205": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scuba and Skin Diving",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025621"
+   },
+   "sourceRef": "course-0025621"
+  },
+  "PE 1262": {
+   "catalogTerm": "Fall 2026",
+   "title": "Marathon Training",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8022821"
+   },
+   "sourceRef": "course-8022821"
+  },
+  "TH 1391": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Acting I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Accepted into BFA acting program"
+    },
+    "sourceRef": "course-7896381"
+   },
+   "sourceRef": "course-7896381"
+  },
+  "TH 1392": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Voice and Speech I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Accepted into BFA acting prog"
+    },
+    "sourceRef": "course-7899021"
+   },
+   "sourceRef": "course-7899021"
+  },
+  "TH 1393": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Movement I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA-acting major"
+    },
+    "sourceRef": "course-7903601"
+   },
+   "sourceRef": "course-7903601"
+  },
+  "TH 1395": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Acting II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1391"
+    },
+    "sourceRef": "course-7948201"
+   },
+   "sourceRef": "course-7948201"
+  },
+  "TH 1396": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Voice and Speech II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1392"
+    },
+    "sourceRef": "course-7948211"
+   },
+   "sourceRef": "course-7948211"
+  },
+  "TH 1397": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Movement II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1393"
+    },
+    "sourceRef": "course-7948221"
+   },
+   "sourceRef": "course-7948221"
+  },
+  "TH 1501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Design for the Theatre",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8033211"
+   },
+   "sourceRef": "course-8033211"
+  },
+  "TH 2391": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Acting III",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA student in theatre arts"
+    },
+    "sourceRef": "course-7941601"
+   },
+   "sourceRef": "course-7941601"
+  },
+  "TH 2392": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Voice and Speech III",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA student in theatre arts"
+    },
+    "sourceRef": "course-7939141"
+   },
+   "sourceRef": "course-7939141"
+  },
+  "TH 2393": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Movement III",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA student in theatre arts"
+    },
+    "sourceRef": "course-7939151"
+   },
+   "sourceRef": "course-7939151"
+  },
+  "TH 2395": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Acting IV",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA-Acting sophomore"
+    },
+    "sourceRef": "course-7948311"
+   },
+   "sourceRef": "course-7948311"
+  },
+  "TH 2396": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Voice and Speech IV",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA-acting, sophmore"
+    },
+    "sourceRef": "course-7948321"
+   },
+   "sourceRef": "course-7948321"
+  },
+  "TH 2397": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Movement IV",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA-acting sophmore"
+    },
+    "sourceRef": "course-7948331"
+   },
+   "sourceRef": "course-7948331"
+  },
+  "TH 3100": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theatre Lab Practicum",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082511"
+   },
+   "sourceRef": "course-0082511"
+  },
+  "TH 3115": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Playwriting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0086161"
+   },
+   "sourceRef": "course-0086161"
+  },
+  "TH 3152W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art Under Authoritarianism: Theatre and Music in the Global South",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8175491"
+   },
+   "sourceRef": "course-8175491"
+  },
+  "TH 3171": {
+   "catalogTerm": "Fall 2026",
+   "title": "Western Theatre & Performance Historiography: Part I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082521"
+   },
+   "sourceRef": "course-0082521"
+  },
+  "TH 3172": {
+   "catalogTerm": "Fall 2026",
+   "title": "Western Theatre & Performance Historiography: Part II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082531"
+   },
+   "sourceRef": "course-0082531"
+  },
+  "TH 3316": {
+   "catalogTerm": "Fall 2026",
+   "title": "Voice for the Actor",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101, 1321, 1322"
+    },
+    "sourceRef": "course-8006661"
+   },
+   "sourceRef": "course-8006661"
+  },
+  "TH 3321": {
+   "catalogTerm": "Fall 2026",
+   "title": "Acting I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082541"
+   },
+   "sourceRef": "course-0082541"
+  },
+  "TH 3325": {
+   "catalogTerm": "Fall 2026",
+   "title": "Acting II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7911751"
+   },
+   "sourceRef": "course-7911751"
+  },
+  "TH 3332": {
+   "catalogTerm": "Fall 2026",
+   "title": "Circus Performance",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8030151"
+   },
+   "sourceRef": "course-8030151"
+  },
+  "TH 3361": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Musical Theatre",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082801"
+   },
+   "sourceRef": "course-0082801"
+  },
+  "TH 3381": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theater Storytelling",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7915411"
+   },
+   "sourceRef": "course-7915411"
+  },
+  "TH 3391": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Acting V",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7903631"
+   },
+   "sourceRef": "course-7903631"
+  },
+  "TH 3392": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Voice and Speech V",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7903641"
+   },
+   "sourceRef": "course-7903641"
+  },
+  "TH 3393": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Movement V",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA student in theatre arts"
+    },
+    "sourceRef": "course-7939131"
+   },
+   "sourceRef": "course-7939131"
+  },
+  "TH 3395": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Intensive I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA-acting jr"
+    },
+    "sourceRef": "course-7948361"
+   },
+   "sourceRef": "course-7948361"
+  },
+  "TH 3398": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Rehearsal & Performance I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA-acting jr"
+    },
+    "sourceRef": "course-7948371"
+   },
+   "sourceRef": "course-7948371"
+  },
+  "TH 3399": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Rehearsal and Performance II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA-acting jr"
+    },
+    "sourceRef": "course-7948381"
+   },
+   "sourceRef": "course-7948381"
+  },
+  "TH 3521": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Scenic Design for Theatre and Performance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8035361"
+   },
+   "sourceRef": "course-8035361"
+  },
+  "TH 3531": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Theatrical Costume Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "TH 3571"
+    },
+    "sourceRef": "course-8053791"
+   },
+   "sourceRef": "course-8053791"
+  },
+  "TH 3541": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Lighting Design for the Theatre",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8064111"
+   },
+   "sourceRef": "course-8064111"
+  },
+  "TH 3559": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Sound Design for the Theatre",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1501"
+    },
+    "sourceRef": "course-8108581"
+   },
+   "sourceRef": "course-8108581"
+  },
+  "TH 3571": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Technology for the Theatre",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1501"
+    },
+    "sourceRef": "course-8033221"
+   },
+   "sourceRef": "course-8033221"
+  },
+  "TH 3711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Directing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082461"
+   },
+   "sourceRef": "course-0082461"
+  },
+  "TH 3716": {
+   "catalogTerm": "Fall 2026",
+   "title": "Stage Management",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1501 or instr consent"
+    },
+    "sourceRef": "course-8049211"
+   },
+   "sourceRef": "course-8049211"
+  },
+  "TH 3950": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Theatre",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082581"
+   },
+   "sourceRef": "course-0082581"
+  },
+  "TH 3993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "6 Th cr, instr consent, dept consent, college consent"
+    },
+    "sourceRef": "course-7906231"
+   },
+   "sourceRef": "course-7906231"
+  },
+  "TH 4115": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Playwriting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3115 or [writing sample, instr consent]"
+    },
+    "sourceRef": "course-7988221"
+   },
+   "sourceRef": "course-7988221"
+  },
+  "TH 4177W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of Dramatic Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082621"
+   },
+   "sourceRef": "course-0082621"
+  },
+  "TH 4322": {
+   "catalogTerm": "Fall 2026",
+   "title": "Acting for the Camera",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082731"
+   },
+   "sourceRef": "course-0082731"
+  },
+  "TH 4380": {
+   "catalogTerm": "Fall 2026",
+   "title": "BA Studio Production:  Creative Collaboration",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7954931"
+   },
+   "sourceRef": "course-7954931"
+  },
+  "TH 4391": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Intensive II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA student in theatre arts"
+    },
+    "sourceRef": "course-7903651"
+   },
+   "sourceRef": "course-7903651"
+  },
+  "TH 4393": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Rehearsal and Performance III",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA student in theatre arts"
+    },
+    "sourceRef": "course-7940191"
+   },
+   "sourceRef": "course-7940191"
+  },
+  "TH 4394": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Rehearsal and Performance IV",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA student in theatre arts"
+    },
+    "sourceRef": "course-7940201"
+   },
+   "sourceRef": "course-7940201"
+  },
+  "TH 4395": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Intensive III",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA-acting sr"
+    },
+    "sourceRef": "course-7948391"
+   },
+   "sourceRef": "course-7948391"
+  },
+  "TH 4398": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Rehearsal and Performance V",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA-acting sr"
+    },
+    "sourceRef": "course-7948401"
+   },
+   "sourceRef": "course-7948401"
+  },
+  "TH 4399": {
+   "catalogTerm": "Fall 2026",
+   "title": "BFA Rehearsal and Performance VI",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BFA-acting sr"
+    },
+    "sourceRef": "course-7948411"
+   },
+   "sourceRef": "course-7948411"
+  },
+  "TH 4532": {
+   "catalogTerm": "Fall 2026",
+   "title": "Makeup for the Actor",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0083951"
+   },
+   "sourceRef": "course-0083951"
+  },
+  "TH 4555": {
+   "catalogTerm": "Fall 2026",
+   "title": "Audio Technology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1501 or instr consent"
+    },
+    "sourceRef": "course-0082921"
+   },
+   "sourceRef": "course-0082921"
+  },
+  "TH 4711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Stage Direction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7887381"
+   },
+   "sourceRef": "course-7887381"
+  },
+  "TH 5100": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theatre Practicum",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent, dept consent; 4 cr of 3100 for undergrads"
+    },
+    "sourceRef": "course-0082651"
+   },
+   "sourceRef": "course-0082651"
+  },
+  "TH 5117": {
+   "catalogTerm": "Fall 2026",
+   "title": "Performance and Social Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr or grad student"
+    },
+    "sourceRef": "course-7937771"
+   },
+   "sourceRef": "course-7937771"
+  },
+  "TH 5179W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Text and Performance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1322, [3171 or 3172]] or grad student"
+    },
+    "sourceRef": "course-7939181"
+   },
+   "sourceRef": "course-7939181"
+  },
+  "TH 5182W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Black Drama and Dramaturgies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101061"
+   },
+   "sourceRef": "course-8101061"
+  },
+  "TH 5330": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comedy: Advanced Physical Performance Studio",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3330, audition"
+    },
+    "sourceRef": "course-8030161"
+   },
+   "sourceRef": "course-8030161"
+  },
+  "TH 5340": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Acting Studio:  Tragedy/Poetry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8031501"
+   },
+   "sourceRef": "course-8031501"
+  },
+  "TH 5355": {
+   "catalogTerm": "Fall 2026",
+   "title": "Puppetry: Techniques and Practice in Contemporary Theater",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7911761"
+   },
+   "sourceRef": "course-7911761"
+  },
+  "TH 5500": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theatre Design Practicum",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Th 3521, 3531, or 3541"
+    },
+    "sourceRef": "course-0082811"
+   },
+   "sourceRef": "course-0082811"
+  },
+  "TH 5510": {
+   "catalogTerm": "Fall 2026",
+   "title": "Drawing, Rendering, and Painting for the Theatre Designer I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1501 or grad"
+    },
+    "sourceRef": "course-0082821"
+   },
+   "sourceRef": "course-0082821"
+  },
+  "TH 5520": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scene Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3521"
+    },
+    "sourceRef": "course-0082851"
+   },
+   "sourceRef": "course-0082851"
+  },
+  "TH 5530": {
+   "catalogTerm": "Fall 2026",
+   "title": "Costume Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3531"
+    },
+    "sourceRef": "course-0082861"
+   },
+   "sourceRef": "course-0082861"
+  },
+  "TH 5540": {
+   "catalogTerm": "Fall 2026",
+   "title": "Lighting Design for the Theatre",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3541"
+    },
+    "sourceRef": "course-0082871"
+   },
+   "sourceRef": "course-0082871"
+  },
+  "TH 5545": {
+   "catalogTerm": "Fall 2026",
+   "title": "Stage Lighting Technology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3515 or grad or instr consent"
+    },
+    "sourceRef": "course-0082911"
+   },
+   "sourceRef": "course-0082911"
+  },
+  "TH 5559": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sound Design for Performance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4555 or instr consent"
+    },
+    "sourceRef": "course-0082881"
+   },
+   "sourceRef": "course-0082881"
+  },
+  "TH 5560": {
+   "catalogTerm": "Fall 2026",
+   "title": "Drawing, Rendering, and Painting for the Theatre Designer II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5510"
+    },
+    "sourceRef": "course-0082831"
+   },
+   "sourceRef": "course-0082831"
+  },
+  "TH 5570": {
+   "catalogTerm": "Fall 2026",
+   "title": "Properties/Scenery Technology",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3515 or grad or instr consent"
+    },
+    "sourceRef": "course-0082901"
+   },
+   "sourceRef": "course-0082901"
+  },
+  "TH 5580": {
+   "catalogTerm": "Fall 2026",
+   "title": "Costume Technology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3571 or grad or instr consent"
+    },
+    "sourceRef": "course-0082891"
+   },
+   "sourceRef": "course-0082891"
+  },
+  "TH 5590": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theatre Technology Practicum",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3515, instr consent, dept consent;  4 cr max for undergrads"
+    },
+    "sourceRef": "course-0082951"
+   },
+   "sourceRef": "course-0082951"
+  },
+  "TH 5711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Stage Direction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[4711, instr consent] or grad student"
+    },
+    "sourceRef": "course-0082961"
+   },
+   "sourceRef": "course-0082961"
+  },
+  "TH 5716": {
+   "catalogTerm": "Fall 2026",
+   "title": "Stage Management for the Theatre",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1101, 1321, soph] or grad"
+    },
+    "sourceRef": "course-0082991"
+   },
+   "sourceRef": "course-0082991"
+  },
+  "TH 5760": {
+   "catalogTerm": "Fall 2026",
+   "title": "Stage Management Practicum",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0083021"
+   },
+   "sourceRef": "course-0083021"
+  },
+  "TH 5950": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Theatre",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0083041"
+   },
+   "sourceRef": "course-0083041"
+  },
+  "TH 5993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0083051"
+   },
+   "sourceRef": "course-0083051"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-MoGhVENw",
+   "label": "Acting",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-nCELjV1T",
+    "type": "credits",
+    "courseSet": "set-nCELjV1T",
+    "minCredits": 15,
+    "sourceRef": "program",
+    "label": "Acting"
+   }
+  },
+  {
+   "id": "g-j2HYy8kU",
+   "label": "Voice and Speech",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-vOegW2bq",
+    "type": "credits",
+    "courseSet": "set-vOegW2bq",
+    "minCredits": 10,
+    "sourceRef": "program",
+    "label": "Voice and Speech"
+   }
+  },
+  {
+   "id": "g-9IQOFFFS",
+   "label": "Movement",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-CZsF80jh",
+    "type": "credits",
+    "courseSet": "set-CZsF80jh",
+    "minCredits": 10,
+    "sourceRef": "program",
+    "label": "Movement"
+   }
+  },
+  {
+   "id": "g-g1PiE2pm",
+   "label": "Design and Technology",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-KyugsNmL",
+    "type": "credits",
+    "courseSet": "set-KyugsNmL",
+    "minCredits": 5,
+    "sourceRef": "program",
+    "label": "Design and Technology"
+   }
+  },
+  {
+   "id": "g-YEQFEllr",
+   "label": "Makeup",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-L4RJ56Ia",
+    "type": "course",
+    "code": "TH 4532",
+    "sourceRef": "program",
+    "label": "Makeup"
+   }
+  },
+  {
+   "id": "g-XxvMYJ7l",
+   "label": "Intensive",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-SKDp7sXu",
+    "type": "credits",
+    "courseSet": "set-SKDp7sXu",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "Intensive"
+   }
+  },
+  {
+   "id": "g-cUAqkSGk",
+   "label": "Rehearsal and Performance",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-gaEiWnBY",
+    "type": "credits",
+    "courseSet": "set-gaEiWnBY",
+    "minCredits": 10,
+    "sourceRef": "program",
+    "label": "Rehearsal and Performance"
+   }
+  },
+  {
+   "id": "g-syiGos1S",
+   "label": "Shakespeare",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-cCGcK2Gi",
+    "type": "credits",
+    "courseSet": "set-cCGcK2Gi",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Shakespeare"
+   }
+  },
+  {
+   "id": "g-SQasZwpT",
+   "label": "History of the Theatre",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ZfbewRkD",
+    "type": "credits",
+    "courseSet": "set-ZfbewRkD",
+    "minCredits": 9,
+    "sourceRef": "program",
+    "label": "History of the Theatre"
+   }
+  },
+  {
+   "id": "g-JWowC4wX",
+   "label": "Theatre Literature",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-QLu6TlYb",
+    "type": "credits",
+    "courseSet": "set-QLu6TlYb",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Theatre Literature"
+   }
+  },
+  {
+   "id": "g-vRFhSEv8",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-RiLdWIHW",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-fuykiIJe",
+      "type": "credits",
+      "courseSet": "set-fuykiIJe",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "London Elective"
+     },
+     {
+      "id": "r-H1Ag1M9h",
+      "type": "credits",
+      "courseSet": "set-H1Ag1M9h",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "On-Campus Elective"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-205220917",
+   "label": "Movement Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-391786",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-391786-credits",
+      "type": "credits",
+      "courseSet": "set-391786",
+      "minCredits": 2,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-391786-min",
+      "type": "count",
+      "courseSet": "set-391786",
+      "minCourses": 2,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-391786-max",
+      "type": "count",
+      "courseSet": "set-391786",
+      "maxCourses": 2,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Movement Electives"
+   }
+  },
+  {
+   "id": "g-7r2k1ITW",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-wmUKJGlu",
+    "type": "course",
+    "code": "TH 4398",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-szJ2I3Y7",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-w3rF6nvg",
+    "type": "count",
+    "courseSet": "set-w3rF6nvg",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 28 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn no more than one undergraduate degree from the Theatre Arts Program: a BA in Theatre Arts, or a BFA in Acting, or a minor in Theatre Arts.\nAll Acting BFA students participate in the London Study Abroad program during the Fall semester of their junior year. The courses taken in London are included in these requirements.\nView sample plans for this program here: https://sampleplan.umn.edu/node/301 Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Entry into the BFA acting program is by audition only. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

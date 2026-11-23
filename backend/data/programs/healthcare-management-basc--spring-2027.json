@@ -1,0 +1,2485 @@
+{
+ "schemaVersion": 2,
+ "id": "healthcare-management-basc",
+ "name": "Healthcare Management B.A.Sc.",
+ "officialName": "Healthcare Management B.A.Sc.",
+ "officialProgramId": "231724618",
+ "catalogTerm": "Spring 2027",
+ "totalCredits": 120,
+ "source": "Healthcare Management B.A.Sc., revision 231724618-2027-01-19, https://umtc.catalog.prod.coursedog.com/programs/231724618, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/231724618",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 231724618-2027-01-19"
+  },
+  "course-8276541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8276541",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 3001, version 8276541-2025-09-02"
+  },
+  "course-0099201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1101, version 0099201-2024-09-03"
+  },
+  "course-0062811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062811",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1101, version 0062811-2024-09-03"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-0011481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3811, version 0011481-2024-05-13"
+  },
+  "course-0016161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016161",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 1001, version 0016161-2023-01-17"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0138051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138051",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2551, version 0138051-2022-09-06"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-0131031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ACCT 2051, version 0131031-2022-09-06"
+  },
+  "course-0062871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062871",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1251, version 0062871-2016-09-06"
+  },
+  "course-8076631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8076631",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 3106, version 8076631-2021-05-17"
+  },
+  "course-8180911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8180911",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1201, version 8180911-2021-01-19"
+  },
+  "course-0133311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133311",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2051, version 0133311-2024-09-03"
+  },
+  "course-7954861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7954861",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 3521, version 7954861-2025-09-02"
+  },
+  "course-7963381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7963381",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4561W, version 7963381-2025-09-02"
+  },
+  "course-8181381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181381",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 3051, version 8181381-2025-09-02"
+  },
+  "course-8135241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8135241",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4531, version 8135241-2025-09-02"
+  },
+  "course-7963371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7963371",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4541, version 7963371-2025-09-02"
+  },
+  "course-8139811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8139811",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4591, version 8139811-2025-09-02"
+  },
+  "course-8168761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168761",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4301, version 8168761-2025-09-02"
+  },
+  "course-8181371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181371",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4043, version 8181371-2026-01-20"
+  },
+  "course-8190041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8190041",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4041, version 8190041-2026-01-20"
+  },
+  "course-8180811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8180811",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4575, version 8180811-2026-01-20"
+  },
+  "course-8176801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176801",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4065, version 8176801-2025-09-02"
+  },
+  "course-8254441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8254441",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4101, version 8254441-2026-01-20"
+  },
+  "course-8205291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8205291",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4521W, version 8205291-2026-09-08"
+  },
+  "course-8152871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152871",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4596, version 8152871-2025-09-02"
+  },
+  "course-8181761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181761",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4582, version 8181761-2026-05-18"
+  },
+  "course-8162211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162211",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4861, version 8162211-2026-09-08"
+  },
+  "course-8114971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114971",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 3510, version 8114971-2014-09-02"
+  },
+  "course-8114491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114491",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4013W, version 8114491-2016-01-19"
+  },
+  "course-0150831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4022W, version 0150831-2026-09-08"
+  },
+  "course-0150841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150841",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4023W, version 0150841-2025-05-19"
+  },
+  "course-8275691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275691",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4027, version 8275691-2025-09-02"
+  },
+  "course-8277841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277841",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4028, version 8277841-2025-09-02"
+  },
+  "course-8197261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197261",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4105, version 8197261-2025-05-19"
+  },
+  "course-8275681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275681",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4107, version 8275681-2025-01-21"
+  },
+  "course-8275711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275711",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4108, version 8275711-2025-01-21"
+  },
+  "course-8085031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8085031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4211, version 8085031-2018-09-04"
+  },
+  "course-8085211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8085211",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4213, version 8085211-2025-05-19"
+  },
+  "course-8084981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084981",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4217, version 8084981-2025-09-02"
+  },
+  "course-8189931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189931",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4218, version 8189931-2025-09-02"
+  },
+  "course-0162441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0162441",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4501, version 0162441-2018-05-21"
+  },
+  "course-0165761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165761",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4515, version 0165761-2015-01-20"
+  },
+  "course-8205651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8205651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4545, version 8205651-2025-05-19"
+  },
+  "course-8093271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8093271",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4571W, version 8093271-2024-05-13"
+  },
+  "course-7965801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7965801",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4701, version 7965801-2015-01-20"
+  },
+  "course-8182311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8182311",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4702, version 8182311-2018-05-21"
+  },
+  "course-8051851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8051851",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4703, version 8051851-2018-09-04"
+  },
+  "course-0131131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131131",
+   "retrieved": "2026-11-23",
+   "section": "Course record ACCT 3001, version 0131131-2026-01-20"
+  },
+  "course-7975471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975471",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3306W, version 7975471-2023-01-17"
+  },
+  "course-0133221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133221",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 3033W, version 0133221-2025-01-21"
+  },
+  "course-8181691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181691",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 4301, version 8181691-2021-09-07"
+  },
+  "course-8141851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8141851",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5805, version 8141851-2021-09-07"
+  },
+  "course-8141861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8141861",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5806, version 8141861-2021-09-07"
+  },
+  "course-0072591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 3101, version 0072591-2024-09-03"
+  },
+  "course-0131181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131181",
+   "retrieved": "2026-11-23",
+   "section": "Course record FINA 3001, version 0131181-2024-09-03"
+  },
+  "course-8160601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8160601",
+   "retrieved": "2026-11-23",
+   "section": "Course record FINA 3001H, version 8160601-2024-09-03"
+  },
+  "course-0042021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042021",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3381W, version 0042021-2020-09-08"
+  },
+  "course-0053701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053701",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3411W, version 0053701-2026-09-08"
+  },
+  "course-0072271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072271",
+   "retrieved": "2026-11-23",
+   "section": "Course record HINF 5430, version 0072271-2021-01-19"
+  },
+  "course-0072281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072281",
+   "retrieved": "2026-11-23",
+   "section": "Course record HINF 5431, version 0072281-2017-09-05"
+  },
+  "course-8107721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8107721",
+   "retrieved": "2026-11-23",
+   "section": "Course record HINF 5531, version 8107721-2017-09-05"
+  },
+  "course-0131341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131341",
+   "retrieved": "2026-11-23",
+   "section": "Course record HRIR 3021, version 0131341-2022-09-06"
+  },
+  "course-8112691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8112691",
+   "retrieved": "2026-11-23",
+   "section": "Course record HRIR 3021H, version 8112691-2023-01-17"
+  },
+  "course-8027311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8027311",
+   "retrieved": "2026-11-23",
+   "section": "Course record IBUS 3021, version 8027311-2022-09-06"
+  },
+  "course-7913471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7913471",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 3040, version 7913471-2019-05-20"
+  },
+  "course-8201231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8201231",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 3350, version 8201231-2026-05-18"
+  },
+  "course-8281781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8281781",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4042, version 8281781-2026-01-20"
+  },
+  "course-8205301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8205301",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4586, version 8205301-2021-01-19"
+  },
+  "course-8282141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282141",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4675, version 8282141-2026-09-08"
+  },
+  "course-8260561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260561",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4682, version 8260561-2022-09-06"
+  },
+  "course-8260571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260571",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4683, version 8260571-2022-09-06"
+  },
+  "course-8260581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260581",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4684, version 8260581-2022-09-06"
+  },
+  "course-0159081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0159081",
+   "retrieved": "2026-11-23",
+   "section": "Course record LEAD 3961, version 0159081-2025-01-21"
+  },
+  "course-7902111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7902111",
+   "retrieved": "2026-11-23",
+   "section": "Course record LEAD 3971, version 7902111-2026-09-08"
+  },
+  "course-0167551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0167551",
+   "retrieved": "2026-11-23",
+   "section": "Course record LEAD 4961W, version 0167551-2021-01-19"
+  },
+  "course-0131331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131331",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3001, version 0131331-2021-05-17"
+  },
+  "course-8074191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8074191",
+   "retrieved": "2026-11-23",
+   "section": "Course record MILI 3585, version 8074191-2024-09-03"
+  },
+  "course-8082681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8082681",
+   "retrieved": "2026-11-23",
+   "section": "Course record MILI 3589, version 8082681-2019-01-22"
+  },
+  "course-8190841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8190841",
+   "retrieved": "2026-11-23",
+   "section": "Course record MILI 3963, version 8190841-2025-01-21"
+  },
+  "course-0131271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131271",
+   "retrieved": "2026-11-23",
+   "section": "Course record MKTG 3001, version 0131271-2022-09-06"
+  },
+  "course-8085121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8085121",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 3002, version 8085121-2013-09-03"
+  },
+  "course-7974551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974551",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 3003, version 7974551-2023-01-17"
+  },
+  "course-7979301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7979301",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 4101, version 7979301-2022-05-16"
+  },
+  "course-0149551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0149551",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHAR 1002, version 0149551-2021-05-17"
+  },
+  "course-7984871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7984871",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHAR 4204W, version 7984871-2023-05-15"
+  },
+  "course-0054821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054821",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3305, version 0054821-2021-05-17"
+  },
+  "course-8013671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013671",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3206, version 8013671-2021-05-17"
+  },
+  "course-0144591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144591",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3301, version 0144591-2021-05-17"
+  },
+  "course-0099351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099351",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3711, version 0099351-2025-09-02"
+  },
+  "course-0098091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0098091",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 3001, version 0098091-2021-09-07"
+  },
+  "course-7900251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7900251",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 3102, version 7900251-2021-05-17"
+  },
+  "course-8069491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069491",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 3351, version 8069491-2026-09-08"
+  },
+  "course-8090981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8090981",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 3601, version 8090981-2025-01-21"
+  },
+  "course-0131311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131311",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCO 3001, version 0131311-2022-09-06"
+  },
+  "course-0025111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025111",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4147, version 0025111-2021-05-17"
+  },
+  "course-7953701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953701",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4246, version 7953701-2021-05-17"
+  },
+  "course-8017961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017961",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3029W, version 8017961-2026-09-08"
+  },
+  "course-8094041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094041",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3405W, version 8094041-2025-05-19"
+  },
+  "course-0030311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0030311",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 4573W, version 0030311-2023-05-15"
+  },
+  "course-0074021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074021",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3401W, version 0074021-2024-01-16"
+  },
+  "course-8107931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8107931",
+   "retrieved": "2026-11-23",
+   "section": "Course record MLSP 5011W, version 8107931-2023-09-05"
+  },
+  "course-8081681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081681",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 4664W, version 8081681-2026-01-20"
+  }
+ },
+ "courseSets": {
+  "set-fxySjHgg": {
+   "codes": [
+    "HSM 3001",
+    "ECON 1101",
+    "APEC 1101",
+    "EPSY 3264",
+    "SOC 3811",
+    "STAT 1001",
+    "STAT 3011",
+    "BA 2551",
+    "COMM 1101",
+    "ACCT 2051",
+    "APEC 1251",
+    "PUBH 3106",
+    "APEC 1201",
+    "BA 2051"
+   ],
+   "sourceRef": "program"
+  },
+  "set-431523-subrule": {
+   "codes": [
+    "HSM 3521",
+    "HSM 4561W",
+    "HSM 3051",
+    "HSM 4531",
+    "HSM 4541",
+    "HSM 4591"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ZaxxRuHP": {
+   "codes": [
+    "HSM 4301",
+    "HSM 4043",
+    "HSM 4041",
+    "HSM 4575",
+    "HSM 4065",
+    "HSM 4101",
+    "HSM 4521W",
+    "HSM 4596",
+    "HSM 4582",
+    "HSM 4861"
+   ],
+   "sourceRef": "program"
+  },
+  "set-VVVQs6An": {
+   "codes": [
+    "ABUS 3510",
+    "ABUS 4013W",
+    "ABUS 4022W",
+    "ABUS 4023W",
+    "ABUS 4027",
+    "ABUS 4028",
+    "ABUS 4105",
+    "ABUS 4107",
+    "ABUS 4108",
+    "ABUS 4211",
+    "ABUS 4213",
+    "ABUS 4217",
+    "ABUS 4218",
+    "ABUS 4501",
+    "ABUS 4515",
+    "ABUS 4545",
+    "ABUS 4571W",
+    "ABUS 4701",
+    "ABUS 4702",
+    "ABUS 4703",
+    "ACCT 3001",
+    "ANTH 3306W",
+    "BA 3033W",
+    "CMGT 4301",
+    "CSPH 5805",
+    "CSPH 5806",
+    "ECON 3101",
+    "FINA 3001",
+    "FINA 3001H",
+    "GEOG 3381W",
+    "GEOG 3411W",
+    "HINF 5430",
+    "HINF 5431",
+    "HINF 5531",
+    "HRIR 3021",
+    "HRIR 3021H",
+    "IBUS 3021",
+    "HSM 3040",
+    "HSM 3350",
+    "HSM 4041",
+    "HSM 4042",
+    "HSM 4043",
+    "HSM 4575",
+    "HSM 4582",
+    "HSM 4586",
+    "HSM 4675",
+    "HSM 4682",
+    "HSM 4683",
+    "HSM 4684",
+    "LEAD 3961",
+    "LEAD 3971",
+    "LEAD 4961W",
+    "MGMT 3001",
+    "MILI 3585",
+    "MILI 3589",
+    "MILI 3963",
+    "MKTG 3001",
+    "PA 3002",
+    "PA 3003",
+    "PA 4101",
+    "PHAR 1002",
+    "PHAR 4204W",
+    "PHIL 3305",
+    "PSY 3206",
+    "PSY 3301",
+    "PSY 3711",
+    "PUBH 3001",
+    "PUBH 3102",
+    "PUBH 3351",
+    "PUBH 3601",
+    "SCO 3001",
+    "SOC 4147",
+    "SOC 4246",
+    "WRIT 3029W",
+    "WRIT 3405W",
+    "WRIT 4573W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qzLAFXF3": {
+   "codes": [
+    "ABUS 4013W",
+    "ABUS 4022W",
+    "ABUS 4023W",
+    "ABUS 4571W",
+    "ANTH 3306W",
+    "BA 3033W",
+    "GEOG 3381W",
+    "GEOG 3401W",
+    "GEOG 3411W",
+    "HSM 4521W",
+    "HSM 4561W",
+    "LEAD 4961W",
+    "MLSP 5011W",
+    "PHAR 4204W",
+    "WRIT 3029W",
+    "WRIT 3405W",
+    "WRIT 4573W",
+    "WRIT 4664W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ABUS 3510": {
+   "catalogTerm": "Spring 2027",
+   "title": "Communicating Virtually Across Global Teams in Applied Business Settings",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8114971"
+   },
+   "sourceRef": "course-8114971"
+  },
+  "ABUS 4013W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Legal, Ethical, and Risk Issues for Managers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CMgt 4011 recommended for CMgt students, 45 semester credits"
+    },
+    "sourceRef": "course-8114491"
+   },
+   "sourceRef": "course-8114491"
+  },
+  "ABUS 4022W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Strategic Management and Leadership",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 credits completed. Students will have better success if they have successfully taken and completed a technical writing or English composition course at the University level and can apply good writing techniques in this class."
+    },
+    "sourceRef": "course-0150831"
+   },
+   "sourceRef": "course-0150831"
+  },
+  "ABUS 4023W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Communicating for Strategic Results",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 cr recommended"
+    },
+    "sourceRef": "course-0150841"
+   },
+   "sourceRef": "course-0150841"
+  },
+  "ABUS 4027": {
+   "catalogTerm": "Spring 2027",
+   "title": "Core Technologies for the Business Professional",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275691"
+   },
+   "sourceRef": "course-8275691"
+  },
+  "ABUS 4028": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Excel Analytics for Business Decision-Making",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277841"
+   },
+   "sourceRef": "course-8277841"
+  },
+  "ABUS 4105": {
+   "catalogTerm": "Spring 2027",
+   "title": "Becoming an Authentic Leader in an Applied Business Setting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197261"
+   },
+   "sourceRef": "course-8197261"
+  },
+  "ABUS 4107": {
+   "catalogTerm": "Spring 2027",
+   "title": "The Trauma-Informed Workplace",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275681"
+   },
+   "sourceRef": "course-8275681"
+  },
+  "ABUS 4108": {
+   "catalogTerm": "Spring 2027",
+   "title": "Personal Ethics and Decision Making",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275711"
+   },
+   "sourceRef": "course-8275711"
+  },
+  "ABUS 4211": {
+   "catalogTerm": "Spring 2027",
+   "title": "Facility Asset Management, Finance, and Budgeting",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8085031"
+   },
+   "sourceRef": "course-8085031"
+  },
+  "ABUS 4213": {
+   "catalogTerm": "Spring 2027",
+   "title": "Owning and Managing a Building",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8085211"
+   },
+   "sourceRef": "course-8085211"
+  },
+  "ABUS 4217": {
+   "catalogTerm": "Spring 2027",
+   "title": "Real Estate Development: Process and Tools",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "30 credits.  Familiarity with finance and accounting concepts helpful."
+    },
+    "sourceRef": "course-8084981"
+   },
+   "sourceRef": "course-8084981"
+  },
+  "ABUS 4218": {
+   "catalogTerm": "Spring 2027",
+   "title": "Real Estate Finance",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8189931"
+   },
+   "sourceRef": "course-8189931"
+  },
+  "ABUS 4501": {
+   "catalogTerm": "Spring 2027",
+   "title": "Building and Running a Small Business Enterprise",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0162441"
+   },
+   "sourceRef": "course-0162441"
+  },
+  "ABUS 4515": {
+   "catalogTerm": "Spring 2027",
+   "title": "Strategy and Management for a Sustainable Future",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 cr completed"
+    },
+    "sourceRef": "course-0165761"
+   },
+   "sourceRef": "course-0165761"
+  },
+  "ABUS 4545": {
+   "catalogTerm": "Spring 2027",
+   "title": "Mitigating Bias in the Workplace",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8205651"
+   },
+   "sourceRef": "course-8205651"
+  },
+  "ABUS 4571W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Grant Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8093271"
+   },
+   "sourceRef": "course-8093271"
+  },
+  "ABUS 4701": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Macroeconomics or microeconomics], 45 cr"
+    },
+    "sourceRef": "course-7965801"
+   },
+   "sourceRef": "course-7965801"
+  },
+  "ABUS 4702": {
+   "catalogTerm": "Spring 2027",
+   "title": "Applied Digital Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8182311"
+   },
+   "sourceRef": "course-8182311"
+  },
+  "ABUS 4703": {
+   "catalogTerm": "Spring 2027",
+   "title": "Marketing for the Professional Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 semester cr recommended"
+    },
+    "sourceRef": "course-8051851"
+   },
+   "sourceRef": "course-8051851"
+  },
+  "ACCT 2051": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Financial Reporting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131031"
+   },
+   "sourceRef": "course-0131031"
+  },
+  "ACCT 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Strategic Management Accounting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "ACCT 2051"
+      },
+      {
+       "type": "course",
+       "course_code": "ACCT 2051H"
+      },
+      {
+       "type": "course",
+       "course_code": "ACCT 2050"
+      }
+     ]
+    },
+    "sourceRef": "course-0131131"
+   },
+   "sourceRef": "course-0131131"
+  },
+  "ANTH 3306W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Medical Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or 1005 or entry level soc sci course recommended"
+    },
+    "sourceRef": "course-7975471"
+   },
+   "sourceRef": "course-7975471"
+  },
+  "APEC 1101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062811"
+   },
+   "sourceRef": "course-0062811"
+  },
+  "APEC 1201": {
+   "catalogTerm": "Spring 2027",
+   "title": "Applications of Excel in Economics and Management",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8180911"
+   },
+   "sourceRef": "course-8180911"
+  },
+  "APEC 1251": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Accounting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062871"
+   },
+   "sourceRef": "course-0062871"
+  },
+  "BA 2051": {
+   "catalogTerm": "Spring 2027",
+   "title": "Modeling Business Scenarios in Excel",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0133311"
+   },
+   "sourceRef": "course-0133311"
+  },
+  "BA 2551": {
+   "catalogTerm": "Spring 2027",
+   "title": "Business Statistics in R",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Math 1031 or equiv]"
+    },
+    "sourceRef": "course-0138051"
+   },
+   "sourceRef": "course-0138051"
+  },
+  "BA 3033W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Business Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "First Year Writing, CSOM mjr or NONM"
+    },
+    "sourceRef": "course-0133221"
+   },
+   "sourceRef": "course-0133221"
+  },
+  "CMGT 4301": {
+   "catalogTerm": "Spring 2027",
+   "title": "Occupational Health and Safety Principles",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 credits"
+    },
+    "sourceRef": "course-8181691"
+   },
+   "sourceRef": "course-8181691"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "CSPH 5805": {
+   "catalogTerm": "Spring 2027",
+   "title": "Wellbeing in the Workplace",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "jr or sr or grad, or instructor consent"
+    },
+    "sourceRef": "course-8141851"
+   },
+   "sourceRef": "course-8141851"
+  },
+  "CSPH 5806": {
+   "catalogTerm": "Spring 2027",
+   "title": "Wellbeing and Resiliency for Health Professionals",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "jr or sr or grad, or instructor consent"
+    },
+    "sourceRef": "course-8141861"
+   },
+   "sourceRef": "course-8141861"
+  },
+  "ECON 1101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099201"
+   },
+   "sourceRef": "course-0099201"
+  },
+  "ECON 3101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Intermediate Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ECON 1101, 1102, and MATH 1271 or equivalent courses approved by the Economics Department."
+    },
+    "sourceRef": "course-0072591"
+   },
+   "sourceRef": "course-0072591"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Spring 2027",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "FINA 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Finance Fundamentals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ACCT 2050 or ACCT 2051 or ACCT 2051H; SCO 2550 or BA 2551 or equivalent statistics course"
+    },
+    "sourceRef": "course-0131181"
+   },
+   "sourceRef": "course-0131181"
+  },
+  "FINA 3001H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Finance Fundamentals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Acct 2050 or Acct 2051, SCO 2550 or BA 2551 or equivalent statistics course"
+    },
+    "sourceRef": "course-8160601"
+   },
+   "sourceRef": "course-8160601"
+  },
+  "GEOG 3381W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Population in an Interacting World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042021"
+   },
+   "sourceRef": "course-0042021"
+  },
+  "GEOG 3401W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Geography of Environmental Systems and Global Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074021"
+   },
+   "sourceRef": "course-0074021"
+  },
+  "GEOG 3411W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Geography of Health and Health Care",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053701"
+   },
+   "sourceRef": "course-0053701"
+  },
+  "HINF 5430": {
+   "catalogTerm": "Spring 2027",
+   "title": "Foundations of Health Informatics I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Junior, senior, grad student, professional student, or instr consent"
+    },
+    "sourceRef": "course-0072271"
+   },
+   "sourceRef": "course-0072271"
+  },
+  "HINF 5431": {
+   "catalogTerm": "Spring 2027",
+   "title": "Foundations of Health Informatics II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Junior, senior, grad student, professional student, or instr consent"
+    },
+    "sourceRef": "course-0072281"
+   },
+   "sourceRef": "course-0072281"
+  },
+  "HINF 5531": {
+   "catalogTerm": "Spring 2027",
+   "title": "Health Data Analytics and Data Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Junior or senior or professional student or grad student or instr consent"
+    },
+    "sourceRef": "course-8107721"
+   },
+   "sourceRef": "course-8107721"
+  },
+  "HRIR 3021": {
+   "catalogTerm": "Spring 2027",
+   "title": "Human Capital Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131341"
+   },
+   "sourceRef": "course-0131341"
+  },
+  "HRIR 3021H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Human Capital Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8112691"
+   },
+   "sourceRef": "course-8112691"
+  },
+  "HSM 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Exploration of Healthcare Management Careers",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8276541"
+   },
+   "sourceRef": "course-8276541"
+  },
+  "HSM 3040": {
+   "catalogTerm": "Spring 2027",
+   "title": "Dying and Death in Contemporary Society: Implications for Intervention",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7913471"
+   },
+   "sourceRef": "course-7913471"
+  },
+  "HSM 3051": {
+   "catalogTerm": "Spring 2027",
+   "title": "Career and Internship Skills in Healthcare Management",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181381"
+   },
+   "sourceRef": "course-8181381"
+  },
+  "HSM 3350": {
+   "catalogTerm": "Spring 2027",
+   "title": "Special Topics in Health Services Management",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8201231"
+   },
+   "sourceRef": "course-8201231"
+  },
+  "HSM 3521": {
+   "catalogTerm": "Spring 2027",
+   "title": "Healthcare Delivery Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7954861"
+   },
+   "sourceRef": "course-7954861"
+  },
+  "HSM 4041": {
+   "catalogTerm": "Spring 2027",
+   "title": "Leadership in Healthcare Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8190041"
+   },
+   "sourceRef": "course-8190041"
+  },
+  "HSM 4042": {
+   "catalogTerm": "Spring 2027",
+   "title": "Medical Group Practice Management",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8281781"
+   },
+   "sourceRef": "course-8281781"
+  },
+  "HSM 4043": {
+   "catalogTerm": "Spring 2027",
+   "title": "Project and Program Management in Healthcare Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181371"
+   },
+   "sourceRef": "course-8181371"
+  },
+  "HSM 4065": {
+   "catalogTerm": "Spring 2027",
+   "title": "Information Privacy and Security in Healthcare Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176801"
+   },
+   "sourceRef": "course-8176801"
+  },
+  "HSM 4101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Applied Healthcare Management Economics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "HSM 3521"
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "ECON 1101"
+        },
+        {
+         "type": "course",
+         "course_code": "APEC 1101"
+        }
+       ]
+      }
+     ]
+    },
+    "sourceRef": "course-8254441"
+   },
+   "sourceRef": "course-8254441"
+  },
+  "HSM 4301": {
+   "catalogTerm": "Spring 2027",
+   "title": "Quality and Patient Safety in Healthcare Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168761"
+   },
+   "sourceRef": "course-8168761"
+  },
+  "HSM 4521W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Inclusive Excellence:  Equity and Performance in Healthcare",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8205291"
+   },
+   "sourceRef": "course-8205291"
+  },
+  "HSM 4531": {
+   "catalogTerm": "Spring 2027",
+   "title": "Human Resources in Healthcare Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8135241"
+   },
+   "sourceRef": "course-8135241"
+  },
+  "HSM 4541": {
+   "catalogTerm": "Spring 2027",
+   "title": "Healthcare Management Finance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7963371"
+   },
+   "sourceRef": "course-7963371"
+  },
+  "HSM 4561W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Management of Healthcare Organizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7963381"
+   },
+   "sourceRef": "course-7963381"
+  },
+  "HSM 4575": {
+   "catalogTerm": "Spring 2027",
+   "title": "AI, Innovation, and Sustainability in Healthcare Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8180811"
+   },
+   "sourceRef": "course-8180811"
+  },
+  "HSM 4582": {
+   "catalogTerm": "Spring 2027",
+   "title": "Practicum in Long Term Care",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181761"
+   },
+   "sourceRef": "course-8181761"
+  },
+  "HSM 4586": {
+   "catalogTerm": "Spring 2027",
+   "title": "Management in Assisted Living and Senior Care Settings",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8205301"
+   },
+   "sourceRef": "course-8205301"
+  },
+  "HSM 4591": {
+   "catalogTerm": "Spring 2027",
+   "title": "Law & Ethics in Healthcare Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8139811"
+   },
+   "sourceRef": "course-8139811"
+  },
+  "HSM 4596": {
+   "catalogTerm": "Spring 2027",
+   "title": "Healthcare Management Internship",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8152871"
+   },
+   "sourceRef": "course-8152871"
+  },
+  "HSM 4675": {
+   "catalogTerm": "Spring 2027",
+   "title": "Transforming Healthcare Management with Data and AI",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8282141"
+   },
+   "sourceRef": "course-8282141"
+  },
+  "HSM 4682": {
+   "catalogTerm": "Spring 2027",
+   "title": "Long Term Care, Services, and Supports",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8260561"
+   },
+   "sourceRef": "course-8260561"
+  },
+  "HSM 4683": {
+   "catalogTerm": "Spring 2027",
+   "title": "Long Term Care Environment and quality",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8260571"
+   },
+   "sourceRef": "course-8260571"
+  },
+  "HSM 4684": {
+   "catalogTerm": "Spring 2027",
+   "title": "Long Term Care Leadership and Strategy",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8260581"
+   },
+   "sourceRef": "course-8260581"
+  },
+  "HSM 4861": {
+   "catalogTerm": "Spring 2027",
+   "title": "Strategic Planning in Healthcare Management: Capstone",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162211"
+   },
+   "sourceRef": "course-8162211"
+  },
+  "IBUS 3021": {
+   "catalogTerm": "Spring 2027",
+   "title": "Human Capital Management",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8027311"
+   },
+   "sourceRef": "course-8027311"
+  },
+  "LEAD 3961": {
+   "catalogTerm": "Spring 2027",
+   "title": "Leadership, You, and Your Community",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0159081"
+   },
+   "sourceRef": "course-0159081"
+  },
+  "LEAD 3971": {
+   "catalogTerm": "Spring 2027",
+   "title": "Leadership Minor: Field Experience",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7902111"
+   },
+   "sourceRef": "course-7902111"
+  },
+  "LEAD 4961W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Leadership for Global Citizenship",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0167551"
+   },
+   "sourceRef": "course-0167551"
+  },
+  "MGMT 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Fundamentals of Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131331"
+   },
+   "sourceRef": "course-0131331"
+  },
+  "MILI 3585": {
+   "catalogTerm": "Spring 2027",
+   "title": "Business of Healthcare Markets",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8074191"
+   },
+   "sourceRef": "course-8074191"
+  },
+  "MILI 3589": {
+   "catalogTerm": "Spring 2027",
+   "title": "Medical Technology and Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8082681"
+   },
+   "sourceRef": "course-8082681"
+  },
+  "MILI 3963": {
+   "catalogTerm": "Spring 2027",
+   "title": "Health Market Analytics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BA 2551 or equivalent stats course"
+    },
+    "sourceRef": "course-8190841"
+   },
+   "sourceRef": "course-8190841"
+  },
+  "MKTG 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "ECON 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 1165"
+      }
+     ]
+    },
+    "sourceRef": "course-0131271"
+   },
+   "sourceRef": "course-0131271"
+  },
+  "MLSP 5011W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Professional Issues in the Health Care Community",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8107931"
+   },
+   "sourceRef": "course-8107931"
+  },
+  "PA 3002": {
+   "catalogTerm": "Spring 2027",
+   "title": "Basic Methods of Policy Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8085121"
+   },
+   "sourceRef": "course-8085121"
+  },
+  "PA 3003": {
+   "catalogTerm": "Spring 2027",
+   "title": "Nonprofit and Public Financial Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr"
+    },
+    "sourceRef": "course-7974551"
+   },
+   "sourceRef": "course-7974551"
+  },
+  "PA 4101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Nonprofit Management and Governance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7979301"
+   },
+   "sourceRef": "course-7979301"
+  },
+  "PHAR 1002": {
+   "catalogTerm": "Spring 2027",
+   "title": "Medical Terminology",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0149551"
+   },
+   "sourceRef": "course-0149551"
+  },
+  "PHAR 4204W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Drugs and the U.S. Healthcare System",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7984871"
+   },
+   "sourceRef": "course-7984871"
+  },
+  "PHIL 3305": {
+   "catalogTerm": "Spring 2027",
+   "title": "Medical Ethics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054821"
+   },
+   "sourceRef": "course-0054821"
+  },
+  "PSY 3206": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Health Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-8013671"
+   },
+   "sourceRef": "course-8013671"
+  },
+  "PSY 3301": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Cultural Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0144591"
+   },
+   "sourceRef": "course-0144591"
+  },
+  "PSY 3711": {
+   "catalogTerm": "Spring 2027",
+   "title": "Psychology in the Workplace",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099351"
+   },
+   "sourceRef": "course-0099351"
+  },
+  "PUBH 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Personal and Community Health",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0098091"
+   },
+   "sourceRef": "course-0098091"
+  },
+  "PUBH 3102": {
+   "catalogTerm": "Spring 2027",
+   "title": "Issues in Environmental and Occupational Health",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7900251"
+   },
+   "sourceRef": "course-7900251"
+  },
+  "PUBH 3106": {
+   "catalogTerm": "Spring 2027",
+   "title": "Making Sense of Health Studies",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8076631"
+   },
+   "sourceRef": "course-8076631"
+  },
+  "PUBH 3351": {
+   "catalogTerm": "Spring 2027",
+   "title": "Epidemiology: People, Places, and Disease",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergrad statistics course is recommended"
+    },
+    "sourceRef": "course-8069491"
+   },
+   "sourceRef": "course-8069491"
+  },
+  "PUBH 3601": {
+   "catalogTerm": "Spring 2027",
+   "title": "Global Public Health Issues",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8090981"
+   },
+   "sourceRef": "course-8090981"
+  },
+  "SCO 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sustainable Supply Chain and Operations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131311"
+   },
+   "sourceRef": "course-0131311"
+  },
+  "SOC 3811": {
+   "catalogTerm": "Spring 2027",
+   "title": "Social Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergraduates with strong math background are encouraged to register for 5811 in lieu of 3811 (Soc 5811 offered Fall terms only). Soc Majors/Minors must register A-F."
+    },
+    "sourceRef": "course-0011481"
+   },
+   "sourceRef": "course-0011481"
+  },
+  "SOC 4147": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Mental Health & Illness",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc 1001 recommended, Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0025111"
+   },
+   "sourceRef": "course-0025111"
+  },
+  "SOC 4246": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Health and Illness",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One sociology course recommended; soph or above; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7953701"
+   },
+   "sourceRef": "course-7953701"
+  },
+  "STAT 1001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to the Ideas of Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Mathematics requirement for admission to University"
+    },
+    "sourceRef": "course-0016161"
+   },
+   "sourceRef": "course-0016161"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "WRIT 3029W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Business and Professional Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8017961"
+   },
+   "sourceRef": "course-8017961"
+  },
+  "WRIT 3405W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Humanistic Healthcare and Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8094041"
+   },
+   "sourceRef": "course-8094041"
+  },
+  "WRIT 4573W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Writing Proposals and Grant Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0030311"
+   },
+   "sourceRef": "course-0030311"
+  },
+  "WRIT 4664W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Science, Medical, and Health Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8081681"
+   },
+   "sourceRef": "course-8081681"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-aUxTk50r",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-fxySjHgg",
+    "type": "credits",
+    "courseSet": "set-fxySjHgg",
+    "minCredits": 18,
+    "sourceRef": "program",
+    "label": "Foundation Courses"
+   }
+  },
+  {
+   "id": "g-231724618",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-431523",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-431523-subrule",
+      "type": "credits",
+      "courseSet": "set-431523-subrule",
+      "minCredits": 17,
+      "sourceRef": "program",
+      "label": "Core Courses - Internship Prerequisites"
+     },
+     {
+      "id": "r-ZaxxRuHP",
+      "type": "credits",
+      "courseSet": "set-ZaxxRuHP",
+      "minCredits": 19,
+      "sourceRef": "program",
+      "label": "Additional Core Courses"
+     }
+    ],
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-caAcX9Bg",
+   "label": "Major Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-VVVQs6An",
+    "type": "credits",
+    "courseSet": "set-VVVQs6An",
+    "minCredits": 22,
+    "sourceRef": "program",
+    "label": "Major Electives"
+   }
+  },
+  {
+   "id": "g-KJVA9CIa",
+   "label": "Upper-Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-qzLAFXF3",
+    "type": "count",
+    "courseSet": "set-qzLAFXF3",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper-Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University's Liberal Education requirements .\nAt least half of the upper division credits required for the major must be taken at University of Minnesota Twin Cities. (36 crs) Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "There are no required courses for admission, only a 30-credit requirement. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

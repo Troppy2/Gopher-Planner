@@ -1,0 +1,2769 @@
+{
+ "schemaVersion": 2,
+ "id": "physical-activity-and-health-promotion-bs",
+ "name": "Physical Activity and Health Promotion B.S.",
+ "officialName": "Physical Activity and Health Promotion B.S.",
+ "officialProgramId": "246220106",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Physical Activity and Health Promotion B.S., revision 246220106-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/246220106, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/246220106",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 246220106-2026-09-08"
+  },
+  "course-0062651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001, version 0062651-2026-09-08"
+  },
+  "course-7990411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001H, version 7990411-2026-09-08"
+  },
+  "course-8162821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162821",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 1281, version 8162821-2020-01-21"
+  },
+  "course-0054191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054191",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1001, version 0054191-2020-09-08"
+  },
+  "course-8031771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8031771",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1001H, version 8031771-2020-09-08"
+  },
+  "course-0054161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009, version 0054161-2020-09-08"
+  },
+  "course-7908161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009H, version 7908161-2020-09-08"
+  },
+  "course-8050431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8050431",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1012, version 8050431-2023-09-05"
+  },
+  "course-8164401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164401",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1015, version 8164401-2020-09-08"
+  },
+  "course-0075421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0075421",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSCN 2021, version 0075421-2011-01-18"
+  },
+  "course-8171961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171961",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1951, version 8171961-2026-09-08"
+  },
+  "course-8172001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172001",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1961, version 8172001-2026-09-08"
+  },
+  "course-8171881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171881",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1951H, version 8171881-2026-09-08"
+  },
+  "course-8283871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8283871",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1001, version 8283871-2026-09-08"
+  },
+  "course-7976151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976151",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1017, version 7976151-2026-05-18"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-8271261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271261",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1071, version 8271261-2026-09-08"
+  },
+  "course-8077581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077581",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1071H, version 8077581-2026-09-08"
+  },
+  "course-8152521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1081, version 8152521-2024-09-03"
+  },
+  "course-0044681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044681",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 1871, version 0044681-2023-01-17"
+  },
+  "course-8016981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016981",
+   "retrieved": "2026-11-23",
+   "section": "Course record EDHD 1525W, version 8016981-2021-09-07"
+  },
+  "course-8054041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054041",
+   "retrieved": "2026-11-23",
+   "section": "Course record EDHD 1525V, version 8054041-2021-09-07"
+  },
+  "course-0042841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042841",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3001, version 0042841-2026-01-20"
+  },
+  "course-7889931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889931",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3027, version 7889931-2024-09-03"
+  },
+  "course-0052701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052701",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3385, version 0052701-2023-05-15"
+  },
+  "course-8104101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8104101",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3982, version 8104101-2026-01-20"
+  },
+  "course-8020851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020851",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 4214, version 8020851-2022-09-06"
+  },
+  "course-0045451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045451",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 4385, version 0045451-2022-01-18"
+  },
+  "course-0045241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045241",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3696, version 0045241-2025-09-02"
+  },
+  "course-8177071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8177071",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3801, version 8177071-2018-01-16"
+  },
+  "course-7978241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7978241",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 5142, version 7978241-2016-01-19"
+  },
+  "course-0074681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074681",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSCN 1112, version 0074681-2018-09-04"
+  },
+  "course-0074791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074791",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSCN 3612, version 0074791-2021-09-07"
+  },
+  "course-0074941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074941",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSCN 4614W, version 0074941-2017-01-17"
+  },
+  "course-0047771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047771",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3501, version 0047771-2025-05-19"
+  },
+  "course-8053701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8053701",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3501H, version 8053701-2015-01-20"
+  },
+  "course-0026231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026231",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1007, version 0026231-2026-01-20"
+  },
+  "course-8008401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8008401",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1012, version 8008401-2026-01-20"
+  },
+  "course-0026251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026251",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1014, version 0026251-2026-01-20"
+  },
+  "course-0026271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026271",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1015, version 0026271-2026-01-20"
+  },
+  "course-0042871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042871",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1016, version 0042871-2026-01-20"
+  },
+  "course-0026631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026631",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1031, version 0026631-2026-01-20"
+  },
+  "course-0025521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025521",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1032, version 0025521-2026-01-20"
+  },
+  "course-0026611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026611",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1033, version 0026611-2026-01-20"
+  },
+  "course-0025541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025541",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1035, version 0025541-2026-01-20"
+  },
+  "course-0025561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025561",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1036, version 0025561-2026-01-20"
+  },
+  "course-0025571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025571",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1037, version 0025571-2024-09-03"
+  },
+  "course-0026571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026571",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1038, version 0026571-2026-01-20"
+  },
+  "course-8262291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262291",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1039, version 8262291-2023-01-17"
+  },
+  "course-0025591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025591",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1044, version 0025591-2026-01-20"
+  },
+  "course-7918961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7918961",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1045, version 7918961-2026-01-20"
+  },
+  "course-7906381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7906381",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1046, version 7906381-2026-01-20"
+  },
+  "course-0026291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026291",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1048, version 0026291-2026-01-20"
+  },
+  "course-8262301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262301",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1052, version 8262301-2023-01-17"
+  },
+  "course-0045611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045611",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1057, version 0045611-2026-01-20"
+  },
+  "course-7896781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7896781",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1058, version 7896781-2022-01-18"
+  },
+  "course-0026381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026381",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1067, version 0026381-2026-01-20"
+  },
+  "course-8264021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8264021",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1068, version 8264021-2023-09-05"
+  },
+  "course-7961661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7961661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1071, version 7961661-2026-01-20"
+  },
+  "course-0036821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036821",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1072, version 0036821-2026-01-20"
+  },
+  "course-0026501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026501",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1074, version 0026501-2026-01-20"
+  },
+  "course-8049261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8049261",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1076, version 8049261-2026-01-20"
+  },
+  "course-8267661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8267661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1115, version 8267661-2024-01-16"
+  },
+  "course-0025621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025621",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1205, version 0025621-2026-01-20"
+  },
+  "course-8022821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8022821",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1262, version 8022821-2026-01-20"
+  },
+  "course-7895551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7895551",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1720, version 7895551-2026-09-08"
+  },
+  "course-7910941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910941",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1331, version 7910941-2013-05-28"
+  },
+  "course-7910961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910961",
+   "retrieved": "2026-11-23",
+   "section": "Course record DNCE 1335, version 7910961-2013-05-28"
+  },
+  "course-0038581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038581",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3131W, version 0038581-2025-09-02"
+  },
+  "course-0150831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4022W, version 0150831-2026-09-08"
+  },
+  "course-8094811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094811",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3324W, version 8094811-2017-05-22"
+  },
+  "course-8094821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094821",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3325W, version 8094821-2024-05-13"
+  },
+  "course-8017961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017961",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3029W, version 8017961-2026-09-08"
+  },
+  "course-0026681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026681",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562W, version 0026681-2021-05-17"
+  },
+  "course-8158401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8158401",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562V, version 8158401-2021-05-17"
+  },
+  "course-0049911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049911",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3993, version 0049911-2025-09-02"
+  },
+  "course-7919631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7919631",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 4001H, version 7919631-2025-01-21"
+  },
+  "course-7969861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7969861",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 4520, version 7969861-2026-01-20"
+  },
+  "course-8005581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8005581",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 4641, version 8005581-2022-05-16"
+  },
+  "course-0025391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025391",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 5104, version 0025391-2015-05-26"
+  },
+  "course-8039371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8039371",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 5123, version 8039371-2022-01-18"
+  },
+  "course-8169061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169061",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 5125, version 8169061-2022-01-18"
+  },
+  "course-0025501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025501",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 5141, version 0025501-2015-01-20"
+  },
+  "course-8081661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081661",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 5202, version 8081661-2013-05-28"
+  },
+  "course-8081671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081671",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 5203, version 8081671-2015-01-20"
+  },
+  "course-0045291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045291",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 5365, version 0045291-2025-01-21"
+  },
+  "course-7906191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7906191",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 5485, version 7906191-2018-09-04"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-7887411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887411",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101H, version 7887411-2026-09-08"
+  },
+  "course-0169801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0169801",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5111, version 0169801-2025-09-02"
+  },
+  "course-7974251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974251",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5115, version 7974251-2018-09-04"
+  },
+  "course-8167751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8167751",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5118, version 8167751-2018-09-04"
+  },
+  "course-8058821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8058821",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5121, version 8058821-2022-09-06"
+  },
+  "course-8126821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8126821",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5706, version 8126821-2022-09-06"
+  },
+  "course-7961701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7961701",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5431, version 7961701-2021-09-07"
+  },
+  "course-8126841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8126841",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5708, version 8126841-2025-01-21"
+  },
+  "course-8172271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172271",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5713, version 8172271-2022-05-16"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-8164481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164481",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1461, version 8164481-2022-01-18"
+  },
+  "course-8171441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171441",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 4108, version 8171441-2024-09-03"
+  },
+  "course-7950811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7950811",
+   "retrieved": "2026-11-23",
+   "section": "Course record NURS 2001, version 7950811-2018-01-16"
+  },
+  "course-0078851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078851",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 1001, version 0078851-2015-01-20"
+  },
+  "course-0098091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0098091",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 3001, version 0098091-2021-09-07"
+  },
+  "course-7989021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989021",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3801, version 7989021-2021-05-17"
+  },
+  "course-8003621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003621",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3801H, version 8003621-2021-05-17"
+  },
+  "course-8265841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8265841",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3181, version 8265841-2025-09-02"
+  },
+  "course-0011481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3811, version 0011481-2024-05-13"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-7979041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7979041",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 2241, version 7979041-2024-05-13"
+  },
+  "course-8117101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8117101",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 4201, version 8117101-2021-09-07"
+  }
+ },
+ "courseSets": {
+  "set-d8TKTzaY": {
+   "codes": [
+    "PSY 1001",
+    "PSY 1001H",
+    "EPSY 1281"
+   ],
+   "sourceRef": "program"
+  },
+  "set-PTz2QTx1": {
+   "codes": [
+    "BIOL 1001",
+    "BIOL 1001H",
+    "BIOL 1009",
+    "BIOL 1009H",
+    "BIOL 1012",
+    "BIOL 1015",
+    "FSCN 2021",
+    "BIOL 1951",
+    "BIOL 1961",
+    "BIOL 1951H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-fL14OLls": {
+   "codes": [
+    "CHEM 1001",
+    "CHEM 1017"
+   ],
+   "sourceRef": "program"
+  },
+  "set-OOMEjpWm": {
+   "codes": [
+    "CHEM 1061",
+    "CHEM 1065"
+   ],
+   "sourceRef": "program"
+  },
+  "set-i4O4lcHe": {
+   "codes": [
+    "CHEM 1071",
+    "CHEM 1065"
+   ],
+   "sourceRef": "program"
+  },
+  "set-uZfwzcLX": {
+   "codes": [
+    "CHEM 1071H",
+    "CHEM 1065"
+   ],
+   "sourceRef": "program"
+  },
+  "set-a1hjWCfi": {
+   "codes": [
+    "CHEM 1081",
+    "CHEM 1065"
+   ],
+   "sourceRef": "program"
+  },
+  "set-jvsZJGQ4": {
+   "codes": [
+    "EDHD 1525W",
+    "EDHD 1525V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-DMyO2RK7": {
+   "codes": [
+    "KIN 3001",
+    "KIN 3027",
+    "KIN 3385",
+    "KIN 3982",
+    "KIN 4214",
+    "KIN 4385",
+    "KIN 3696",
+    "EPSY 3801"
+   ],
+   "sourceRef": "program"
+  },
+  "set-pem5Oli5": {
+   "codes": [
+    "KIN 5142",
+    "FSCN 1112",
+    "FSCN 3612",
+    "FSCN 4614W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-eyJ6odVY": {
+   "codes": [
+    "SMGT 3501",
+    "SMGT 3501H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-xx2WpoX1": {
+   "codes": [
+    "PE 1007",
+    "PE 1012",
+    "PE 1014",
+    "PE 1015",
+    "PE 1016",
+    "PE 1031",
+    "PE 1032",
+    "PE 1033",
+    "PE 1035",
+    "PE 1036",
+    "PE 1037",
+    "PE 1038",
+    "PE 1039",
+    "PE 1044",
+    "PE 1045",
+    "PE 1046",
+    "PE 1048",
+    "PE 1052",
+    "PE 1057",
+    "PE 1058",
+    "PE 1067",
+    "PE 1068",
+    "PE 1071",
+    "PE 1072",
+    "PE 1074",
+    "PE 1076",
+    "PE 1115",
+    "PE 1205",
+    "PE 1262",
+    "PE 1720",
+    "DNCE 1331",
+    "DNCE 1335"
+   ],
+   "sourceRef": "program"
+  },
+  "set-18PhaVzx": {
+   "codes": [
+    "KIN 3131W",
+    "ABUS 4022W",
+    "FSCN 4614W",
+    "OLPD 3324W",
+    "YOST 3325W",
+    "WRIT 3029W",
+    "WRIT 3562W",
+    "WRIT 3562V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-JFV6cB8M": {
+   "codes": [
+    "KIN 3993",
+    "KIN 4001H",
+    "KIN 4520",
+    "KIN 4641",
+    "KIN 5104",
+    "KIN 5123",
+    "KIN 5125",
+    "KIN 5141",
+    "KIN 5202",
+    "KIN 5203",
+    "KIN 5365",
+    "KIN 5485",
+    "COMM 1101",
+    "COMM 1101H",
+    "CSPH 5111",
+    "CSPH 5115",
+    "CSPH 5118",
+    "CSPH 5121",
+    "CSPH 5706",
+    "CSPH 5431",
+    "CSPH 5708",
+    "CSPH 5713",
+    "EPSY 3264",
+    "FSOS 1461",
+    "FSOS 4108",
+    "NURS 2001",
+    "HORT 1001",
+    "PUBH 3001",
+    "PSY 3801",
+    "PSY 3801H",
+    "SMGT 3181",
+    "SOC 3811",
+    "STAT 3011",
+    "YOST 2241",
+    "YOST 4201",
+    "KIN 3131W",
+    "ABUS 4022W",
+    "FSCN 4614W",
+    "OLPD 3324W",
+    "WRIT 3029W",
+    "WRIT 3562W",
+    "YOST 3325W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ABUS 4022W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategic Management and Leadership",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 credits completed. Students will have better success if they have successfully taken and completed a technical writing or English composition course at the University level and can apply good writing techniques in this class."
+    },
+    "sourceRef": "course-0150831"
+   },
+   "sourceRef": "course-0150831"
+  },
+  "BIOL 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Biology: Evolutionary and Ecological Perspectives",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054191"
+   },
+   "sourceRef": "course-0054191"
+  },
+  "BIOL 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Biology I: Evolutionary and Ecological Perspectives",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8031771"
+   },
+   "sourceRef": "course-8031771"
+  },
+  "BIOL 1009": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054161"
+   },
+   "sourceRef": "course-0054161"
+  },
+  "BIOL 1009H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7908161"
+   },
+   "sourceRef": "course-7908161"
+  },
+  "BIOL 1012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Biology: Concepts and Current Ethical Issues",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8050431"
+   },
+   "sourceRef": "course-8050431"
+  },
+  "BIOL 1015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Physiology, Technology, and Medical Devices",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164401"
+   },
+   "sourceRef": "course-8164401"
+  },
+  "BIOL 1951": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lecture I for Biological Sciences Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171961"
+   },
+   "sourceRef": "course-8171961"
+  },
+  "BIOL 1951H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lecture I for Biological Sciences Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171881"
+   },
+   "sourceRef": "course-8171881"
+  },
+  "BIOL 1961": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lab I for Biological Sciences Majors",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172001"
+   },
+   "sourceRef": "course-8172001"
+  },
+  "CHEM 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry of Life and Death",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8283871"
+   },
+   "sourceRef": "course-8283871"
+  },
+  "CHEM 1017": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Chemistry: Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976151"
+   },
+   "sourceRef": "course-7976151"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "CHEM 1071": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Chemistry I for Physical Scientists and Engineers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "A strong understanding of College Algebra or Precalculus is recommended. Prerequisite: Concurrent registration is required (or allowed in) CHEM 1065; registration for 1065 must precede registration for 1071."
+    },
+    "sourceRef": "course-8271261"
+   },
+   "sourceRef": "course-8271261"
+  },
+  "CHEM 1071H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8077581"
+   },
+   "sourceRef": "course-8077581"
+  },
+  "CHEM 1081": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8152521"
+   },
+   "sourceRef": "course-8152521"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "COMM 1101H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-7887411"
+   },
+   "sourceRef": "course-7887411"
+  },
+  "CSPH 5111": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cultural Ways of Thinking about Health",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "jr, sr, grad, or instr consent"
+    },
+    "sourceRef": "course-0169801"
+   },
+   "sourceRef": "course-0169801"
+  },
+  "CSPH 5115": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cultural Awareness, Knowledge and Health",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr or grad student or instr consent"
+    },
+    "sourceRef": "course-7974251"
+   },
+   "sourceRef": "course-7974251"
+  },
+  "CSPH 5118": {
+   "catalogTerm": "Fall 2026",
+   "title": "Whole Person, Whole Community: The Reciprocity of Wellbeing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8167751"
+   },
+   "sourceRef": "course-8167751"
+  },
+  "CSPH 5121": {
+   "catalogTerm": "Fall 2026",
+   "title": "Planetary Health & Global Climate Change: A Whole Systems Healing Approach",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr or grad student, or instructor consent"
+    },
+    "sourceRef": "course-8058821"
+   },
+   "sourceRef": "course-8058821"
+  },
+  "CSPH 5431": {
+   "catalogTerm": "Fall 2026",
+   "title": "Functional Nutrition: An Expanded View of Nutrition, Chronic Disease, and Optimal Health",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Jr or sr or grad student] in Health Sciences or instr consent"
+    },
+    "sourceRef": "course-7961701"
+   },
+   "sourceRef": "course-7961701"
+  },
+  "CSPH 5706": {
+   "catalogTerm": "Fall 2026",
+   "title": "Lifestyle Medicine",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "jr or sr or grad, or inst consent"
+    },
+    "sourceRef": "course-8126821"
+   },
+   "sourceRef": "course-8126821"
+  },
+  "CSPH 5708": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intersectional Perspectives in DEI, Mental Health, and Trauma-Informed Care",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8126841"
+   },
+   "sourceRef": "course-8126841"
+  },
+  "CSPH 5713": {
+   "catalogTerm": "Fall 2026",
+   "title": "Health Coaching for Health Professionals",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Admitted to the Doctor of Nursing Practice-Integrative Health and Healing specialty; Admitted to other Doctor of Nursing Practice specialties; Graduate or professional students in health sciences programs; Practicing health professionals; or instructor consent."
+    },
+    "sourceRef": "course-8172271"
+   },
+   "sourceRef": "course-8172271"
+  },
+  "DNCE 1331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Yoga",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7910941"
+   },
+   "sourceRef": "course-7910941"
+  },
+  "DNCE 1335": {
+   "catalogTerm": "Fall 2026",
+   "title": "T'ai Chi Ch'uan",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7910961"
+   },
+   "sourceRef": "course-7910961"
+  },
+  "EDHD 1525V": {
+   "catalogTerm": "Fall 2026",
+   "title": "CEHD First Year Experience",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CEHD student, honors, 1st-term fr"
+    },
+    "sourceRef": "course-8054041"
+   },
+   "sourceRef": "course-8054041"
+  },
+  "EDHD 1525W": {
+   "catalogTerm": "Fall 2026",
+   "title": "CEHD First Year Experience",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8016981"
+   },
+   "sourceRef": "course-8016981"
+  },
+  "EPSY 1281": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychological Science Applied",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162821"
+   },
+   "sourceRef": "course-8162821"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "EPSY 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Science of Human Resilience and Wellbeing: Foundational Knowledge for Career and Life Success",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8177071"
+   },
+   "sourceRef": "course-8177071"
+  },
+  "FSCN 1112": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Nutrition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074681"
+   },
+   "sourceRef": "course-0074681"
+  },
+  "FSCN 2021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Microbiology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0075421"
+   },
+   "sourceRef": "course-0075421"
+  },
+  "FSCN 3612": {
+   "catalogTerm": "Fall 2026",
+   "title": "Life Cycle Nutrition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074791"
+   },
+   "sourceRef": "course-0074791"
+  },
+  "FSCN 4614W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Community Nutrition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074941"
+   },
+   "sourceRef": "course-0074941"
+  },
+  "FSOS 1461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Presentations at Work: Families, Communities, Nonprofits, and Schools",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164481"
+   },
+   "sourceRef": "course-8164481"
+  },
+  "FSOS 4108": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding and Working with Immigrants and Refugee Families",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171441"
+   },
+   "sourceRef": "course-8171441"
+  },
+  "HORT 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Plant Propagation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0078851"
+   },
+   "sourceRef": "course-0078851"
+  },
+  "KIN 1871": {
+   "catalogTerm": "Fall 2026",
+   "title": "Survey of Kinesiology, Physical Activity, Health Promotion, and Sport Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0044681"
+   },
+   "sourceRef": "course-0044681"
+  },
+  "KIN 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Lifetime Health and Wellness",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042841"
+   },
+   "sourceRef": "course-0042841"
+  },
+  "KIN 3027": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Anatomy for Kinesiology, Physical Activity, and Health Promotion",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889931"
+   },
+   "sourceRef": "course-7889931"
+  },
+  "KIN 3131W": {
+   "catalogTerm": "Fall 2026",
+   "title": "History & Philosophy of Sport & Physical Activity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Kinesiology Major or Physical Activity and Health Promotion Major"
+    },
+    "sourceRef": "course-0038581"
+   },
+   "sourceRef": "course-0038581"
+  },
+  "KIN 3385": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Physiology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[KIN 3027 or ANAT 3001 or ANAT 3601 or ANAT 3611 or ANAT 3651 or ANAT 3658H ] and [Kin or Physical Activity and Health Promotion Major] or instr consent"
+    },
+    "sourceRef": "course-0052701"
+   },
+   "sourceRef": "course-0052701"
+  },
+  "KIN 3696": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Professional Practice and Career Planning for KIN, PAHP, and SMGT",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Be declared kinesiology, physical activity health promotion, or sport management majors in the last year of their degree program Have an industry-specific field experience that they will be participating in for a minimum total of 60 hours during the semester (generally 4 hours of experience each week for 15 weeks)"
+    },
+    "sourceRef": "course-0045241"
+   },
+   "sourceRef": "course-0045241"
+  },
+  "KIN 3982": {
+   "catalogTerm": "Fall 2026",
+   "title": "Research Methods in Kinesiology, Physical Activity, Health Promotion, and Sport",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Kinesiology Major or Physical Activity and Health Promotion Major or Sport Management Major"
+    },
+    "sourceRef": "course-8104101"
+   },
+   "sourceRef": "course-8104101"
+  },
+  "KIN 3993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study in Kinesiology",
+   "minimumCredits": 1,
+   "maximumCredits": 10,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0049911"
+   },
+   "sourceRef": "course-0049911"
+  },
+  "KIN 4001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Seminar in KIN, PAHP, + SMGT",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student and Kinesiology major, PAHP major, or SMGT major"
+    },
+    "sourceRef": "course-7919631"
+   },
+   "sourceRef": "course-7919631"
+  },
+  "KIN 4214": {
+   "catalogTerm": "Fall 2026",
+   "title": "Health Promotion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8020851"
+   },
+   "sourceRef": "course-8020851"
+  },
+  "KIN 4385": {
+   "catalogTerm": "Fall 2026",
+   "title": "Exercise Physiology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "KIN 3385 or PHSL 3051 and Kinesiology Major or Physical Activity and Health Promotion Major"
+    },
+    "sourceRef": "course-0045451"
+   },
+   "sourceRef": "course-0045451"
+  },
+  "KIN 4520": {
+   "catalogTerm": "Fall 2026",
+   "title": "Current Topics in Kinesiology",
+   "minimumCredits": 2,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "KIN BS, PAHP BS, SMGT BS, or PAHP minor, or instructor consent."
+    },
+    "sourceRef": "course-7969861"
+   },
+   "sourceRef": "course-7969861"
+  },
+  "KIN 4641": {
+   "catalogTerm": "Fall 2026",
+   "title": "Training Theory & Analytics I for Exercise & Sport Performance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Enrolled in Kinesiology Major, Physical Activity and Health Promotion Major, Sports Coaching Minor, Physical Activity and Promotion Minor, Sport and Exercise Science M.Ed, Physical Activity and Health M.Ed, or Integrated Degree Program"
+    },
+    "sourceRef": "course-8005581"
+   },
+   "sourceRef": "course-8005581"
+  },
+  "KIN 5104": {
+   "catalogTerm": "Fall 2026",
+   "title": "Physical Activities for Persons with Disabilities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025391"
+   },
+   "sourceRef": "course-0025391"
+  },
+  "KIN 5123": {
+   "catalogTerm": "Fall 2026",
+   "title": "Motivational Interventions in Physical Activity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8039371"
+   },
+   "sourceRef": "course-8039371"
+  },
+  "KIN 5125": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advances in Physical Activity and Health",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8169061"
+   },
+   "sourceRef": "course-8169061"
+  },
+  "KIN 5141": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nutrition and Exercise for Health Promotion and Disease Prevention",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "FScN 1112 or equiv"
+    },
+    "sourceRef": "course-0025501"
+   },
+   "sourceRef": "course-0025501"
+  },
+  "KIN 5142": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Nutrition for Sport Performance and Optimal Health",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7978241"
+   },
+   "sourceRef": "course-7978241"
+  },
+  "KIN 5202": {
+   "catalogTerm": "Fall 2026",
+   "title": "Current Issues in Health",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8081661"
+   },
+   "sourceRef": "course-8081661"
+  },
+  "KIN 5203": {
+   "catalogTerm": "Fall 2026",
+   "title": "Health Media, Consumerism, and Communication",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8081671"
+   },
+   "sourceRef": "course-8081671"
+  },
+  "KIN 5365": {
+   "catalogTerm": "Fall 2026",
+   "title": "Health Promotion Program Design and Implementation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0045291"
+   },
+   "sourceRef": "course-0045291"
+  },
+  "KIN 5485": {
+   "catalogTerm": "Fall 2026",
+   "title": "Exercise Testing and Prescription",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3385, 4385] or instr consent"
+    },
+    "sourceRef": "course-7906191"
+   },
+   "sourceRef": "course-7906191"
+  },
+  "NURS 2001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Growth and Development: A Life Span Approach",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7950811"
+   },
+   "sourceRef": "course-7950811"
+  },
+  "OLPD 3324W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing in the Workplace for Education and Human Development Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "60+ undergraduate credits, declared major"
+    },
+    "sourceRef": "course-8094811"
+   },
+   "sourceRef": "course-8094811"
+  },
+  "PE 1007": {
+   "catalogTerm": "Fall 2026",
+   "title": "Swimming For Beginners",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026231"
+   },
+   "sourceRef": "course-0026231"
+  },
+  "PE 1012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Running for Beginners",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8008401"
+   },
+   "sourceRef": "course-8008401"
+  },
+  "PE 1014": {
+   "catalogTerm": "Fall 2026",
+   "title": "Conditioning",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026251"
+   },
+   "sourceRef": "course-0026251"
+  },
+  "PE 1015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Weight Training",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026271"
+   },
+   "sourceRef": "course-0026271"
+  },
+  "PE 1016": {
+   "catalogTerm": "Fall 2026",
+   "title": "Posture and Individual Exercise",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042871"
+   },
+   "sourceRef": "course-0042871"
+  },
+  "PE 1031": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sabre Fencing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026631"
+   },
+   "sourceRef": "course-0026631"
+  },
+  "PE 1032": {
+   "catalogTerm": "Fall 2026",
+   "title": "Badminton",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025521"
+   },
+   "sourceRef": "course-0025521"
+  },
+  "PE 1033": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foil Fencing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026611"
+   },
+   "sourceRef": "course-0026611"
+  },
+  "PE 1035": {
+   "catalogTerm": "Fall 2026",
+   "title": "Karate",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025541"
+   },
+   "sourceRef": "course-0025541"
+  },
+  "PE 1036": {
+   "catalogTerm": "Fall 2026",
+   "title": "Racquetball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025561"
+   },
+   "sourceRef": "course-0025561"
+  },
+  "PE 1037": {
+   "catalogTerm": "Fall 2026",
+   "title": "Squash",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025571"
+   },
+   "sourceRef": "course-0025571"
+  },
+  "PE 1038": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tennis",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026571"
+   },
+   "sourceRef": "course-0026571"
+  },
+  "PE 1039": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pickleball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262291"
+   },
+   "sourceRef": "course-8262291"
+  },
+  "PE 1044": {
+   "catalogTerm": "Fall 2026",
+   "title": "Self-Defense",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025591"
+   },
+   "sourceRef": "course-0025591"
+  },
+  "PE 1045": {
+   "catalogTerm": "Fall 2026",
+   "title": "Rock Climbing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7918961"
+   },
+   "sourceRef": "course-7918961"
+  },
+  "PE 1046": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tae Kwon Do",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7906381"
+   },
+   "sourceRef": "course-7906381"
+  },
+  "PE 1048": {
+   "catalogTerm": "Fall 2026",
+   "title": "Bowling",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026291"
+   },
+   "sourceRef": "course-0026291"
+  },
+  "PE 1052": {
+   "catalogTerm": "Fall 2026",
+   "title": "Curling",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262301"
+   },
+   "sourceRef": "course-8262301"
+  },
+  "PE 1057": {
+   "catalogTerm": "Fall 2026",
+   "title": "Skiing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0045611"
+   },
+   "sourceRef": "course-0045611"
+  },
+  "PE 1058": {
+   "catalogTerm": "Fall 2026",
+   "title": "Snowboarding",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7896781"
+   },
+   "sourceRef": "course-7896781"
+  },
+  "PE 1067": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basketball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026381"
+   },
+   "sourceRef": "course-0026381"
+  },
+  "PE 1068": {
+   "catalogTerm": "Fall 2026",
+   "title": "Wheelchair Basketball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8264021"
+   },
+   "sourceRef": "course-8264021"
+  },
+  "PE 1071": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Cricket",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7961661"
+   },
+   "sourceRef": "course-7961661"
+  },
+  "PE 1072": {
+   "catalogTerm": "Fall 2026",
+   "title": "Soccer",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036821"
+   },
+   "sourceRef": "course-0036821"
+  },
+  "PE 1074": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Volleyball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026501"
+   },
+   "sourceRef": "course-0026501"
+  },
+  "PE 1076": {
+   "catalogTerm": "Fall 2026",
+   "title": "Flag Football",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8049261"
+   },
+   "sourceRef": "course-8049261"
+  },
+  "PE 1115": {
+   "catalogTerm": "Fall 2026",
+   "title": "Personal Training",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8267661"
+   },
+   "sourceRef": "course-8267661"
+  },
+  "PE 1205": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scuba and Skin Diving",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025621"
+   },
+   "sourceRef": "course-0025621"
+  },
+  "PE 1262": {
+   "catalogTerm": "Fall 2026",
+   "title": "Marathon Training",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8022821"
+   },
+   "sourceRef": "course-8022821"
+  },
+  "PE 1720": {
+   "catalogTerm": "Fall 2026",
+   "title": "Special Activities in Physical Education",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7895551"
+   },
+   "sourceRef": "course-7895551"
+  },
+  "PSY 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062651"
+   },
+   "sourceRef": "course-0062651"
+  },
+  "PSY 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors."
+    },
+    "sourceRef": "course-7990411"
+   },
+   "sourceRef": "course-7990411"
+  },
+  "PSY 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychological Measurement and Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra, [PSY 1001 or equiv]; intended for students who plan to major in psychology"
+    },
+    "sourceRef": "course-7989021"
+   },
+   "sourceRef": "course-7989021"
+  },
+  "PSY 3801H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychological Measurement and Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1001 or equiv], high school algebra, honors; intended for students who plan to major in psychology"
+    },
+    "sourceRef": "course-8003621"
+   },
+   "sourceRef": "course-8003621"
+  },
+  "PUBH 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Personal and Community Health",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0098091"
+   },
+   "sourceRef": "course-0098091"
+  },
+  "SMGT 3181": {
+   "catalogTerm": "Fall 2026",
+   "title": "Esports Performance and Healthy Gaming",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8265841"
+   },
+   "sourceRef": "course-8265841"
+  },
+  "SMGT 3501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sport and Physical Activity in a Diverse Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0047771"
+   },
+   "sourceRef": "course-0047771"
+  },
+  "SMGT 3501H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sport in a Diverse Society: Honors",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student"
+    },
+    "sourceRef": "course-8053701"
+   },
+   "sourceRef": "course-8053701"
+  },
+  "SOC 3811": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergraduates with strong math background are encouraged to register for 5811 in lieu of 3811 (Soc 5811 offered Fall terms only). Soc Majors/Minors must register A-F."
+    },
+    "sourceRef": "course-0011481"
+   },
+   "sourceRef": "course-0011481"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "WRIT 3029W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business and Professional Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8017961"
+   },
+   "sourceRef": "course-8017961"
+  },
+  "WRIT 3562V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8158401"
+   },
+   "sourceRef": "course-8158401"
+  },
+  "WRIT 3562W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026681"
+   },
+   "sourceRef": "course-0026681"
+  },
+  "YOST 2241": {
+   "catalogTerm": "Fall 2026",
+   "title": "Experiential Learning",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7979041"
+   },
+   "sourceRef": "course-7979041"
+  },
+  "YOST 3325W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Project-Based Writing For Education and Human Development Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "jr or sr level"
+    },
+    "sourceRef": "course-8094821"
+   },
+   "sourceRef": "course-8094821"
+  },
+  "YOST 4201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Facilitating Outdoor Experiences",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8117101"
+   },
+   "sourceRef": "course-8117101"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-b5GIeJTj",
+   "label": "Psychology",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-d8TKTzaY",
+    "type": "credits",
+    "courseSet": "set-d8TKTzaY",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Psychology"
+   }
+  },
+  {
+   "id": "g-SOZx3vue",
+   "label": "Biology Course with Lab",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-PTz2QTx1",
+    "type": "credits",
+    "courseSet": "set-PTz2QTx1",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Biology Course with Lab"
+   }
+  },
+  {
+   "id": "g-7zIY7d0f",
+   "label": "Chemistry Course with Lab",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-n69RcGOT",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-fL14OLls",
+      "type": "credits",
+      "courseSet": "set-fL14OLls",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Chemistry with Lab"
+     },
+     {
+      "id": "r-OOMEjpWm",
+      "type": "credits",
+      "courseSet": "set-OOMEjpWm",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Chemistry with Lab"
+     },
+     {
+      "id": "r-i4O4lcHe",
+      "type": "credits",
+      "courseSet": "set-i4O4lcHe",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Chemistry with Lab"
+     },
+     {
+      "id": "r-uZfwzcLX",
+      "type": "credits",
+      "courseSet": "set-uZfwzcLX",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Chemistry with Lab"
+     },
+     {
+      "id": "r-a1hjWCfi",
+      "type": "credits",
+      "courseSet": "set-a1hjWCfi",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Chemistry with Lab"
+     }
+    ],
+    "label": "Chemistry Course"
+   }
+  },
+  {
+   "id": "g-fk5x879a",
+   "label": "Introduction to Kinesiology",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-mOB4zEhZ",
+    "type": "course",
+    "code": "KIN 1871",
+    "sourceRef": "program",
+    "label": "Introduction to Kinesiology"
+   }
+  },
+  {
+   "id": "g-r7hs3OIu",
+   "label": "First Year Experience",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-jvsZJGQ4",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-jvsZJGQ4-credits",
+      "type": "credits",
+      "courseSet": "set-jvsZJGQ4",
+      "minCredits": 4,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-jvsZJGQ4-max",
+      "type": "count",
+      "courseSet": "set-jvsZJGQ4",
+      "maxCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "First Year Experience"
+   }
+  },
+  {
+   "id": "g-056zIdv2",
+   "label": "Core Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-DMyO2RK7",
+    "type": "credits",
+    "courseSet": "set-DMyO2RK7",
+    "minCredits": 27,
+    "sourceRef": "program",
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-Zn24Q0Zc",
+   "label": "Applied Nutrition",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-pem5Oli5",
+    "type": "credits",
+    "courseSet": "set-pem5Oli5",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Applied Nutrition or Similar"
+   }
+  },
+  {
+   "id": "g-lP5TntAb",
+   "label": "Sport in a Diverse Society",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-eyJ6odVY",
+    "type": "credits",
+    "courseSet": "set-eyJ6odVY",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Sport in a Diverse Society or Similar"
+   }
+  },
+  {
+   "id": "g-94jGLtOg",
+   "label": "Physical Activity Course Requirement",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-xx2WpoX1",
+    "type": "credits",
+    "courseSet": "set-xx2WpoX1",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Physical Activity Courses"
+   }
+  },
+  {
+   "id": "g-osSXHCas",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-18PhaVzx",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-18PhaVzx-credits",
+      "type": "credits",
+      "courseSet": "set-18PhaVzx",
+      "minCredits": 3,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-18PhaVzx-max",
+      "type": "count",
+      "courseSet": "set-18PhaVzx",
+      "maxCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-5JCd8Rdb",
+   "label": "Focus Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-JFV6cB8M",
+    "type": "credits",
+    "courseSet": "set-JFV6cB8M",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "Focus Electives"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's Liberal Education requirements .\nCollegiate Requirements:\nAll incoming CEHD Freshmen must complete the First-Year Experience course.\nAt least 21 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "To be eligible to apply to the major, students must have at least 30 credits completed or in progress and have completed one course from 3 of the 4 prerequisite course categories.\nStudents must complete 30 credits before admission to the program.\nA GPA above 2.0 is required for admission to the major.\nFor information about University of Minnesota admission requirements, visit the Office of Admissions website. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Integrated BS-Physical Activity and Health Promotion/MA-Integrative Health and Wellbeing Coaching. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

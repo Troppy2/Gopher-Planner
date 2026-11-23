@@ -1,0 +1,4813 @@
+{
+ "schemaVersion": 2,
+ "id": "urban-studies-ba",
+ "name": "Urban Studies B.A.",
+ "officialName": "Urban Studies B.A.",
+ "officialProgramId": "093020217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Urban Studies B.A., revision 093020217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/093020217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/093020217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 093020217-2026-09-08"
+  },
+  "course-0088861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088861",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 1001W, version 0088861-2018-01-16"
+  },
+  "course-8056941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8056941",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 3001W, version 8056941-2018-01-16"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-0022501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0022501",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 5261, version 0022501-2020-09-08"
+  },
+  "course-7995071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7995071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3012, version 7995071-2024-01-16"
+  },
+  "course-0077861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077861",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5031, version 0077861-2018-09-04"
+  },
+  "course-0052611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052611",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3085, version 0052611-2026-05-18"
+  },
+  "course-0011481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3811, version 0011481-2024-05-13"
+  },
+  "course-0016161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016161",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 1001, version 0016161-2023-01-17"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0016221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016221",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3021, version 0016221-2025-01-21"
+  },
+  "course-0087271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087271",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4035, version 0087271-2021-01-19"
+  },
+  "course-0033241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033241",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 3101, version 0033241-2024-09-03"
+  },
+  "course-0048841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048841",
+   "retrieved": "2026-11-23",
+   "section": "Course record FNRM 3131, version 0048841-2023-09-05"
+  },
+  "course-0041671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0041671",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3511, version 0041671-2023-01-17"
+  },
+  "course-0076631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0076631",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3531, version 0076631-2025-09-02"
+  },
+  "course-7907311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7907311",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 5531, version 7907311-2025-09-02"
+  },
+  "course-8177621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8177621",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3541, version 8177621-2022-01-18"
+  },
+  "course-0071661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0071661",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3561, version 0071661-2024-01-16"
+  },
+  "course-8140491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8140491",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3573, version 8140491-2015-09-08"
+  },
+  "course-7994401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7994401",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3001W, version 7994401-2021-05-17"
+  },
+  "course-8003631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003631",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3001V, version 8003631-2021-05-17"
+  },
+  "course-0071671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0071671",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 5562, version 0071671-2015-09-08"
+  },
+  "course-0071681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0071681",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 5563, version 0071681-2015-01-20"
+  },
+  "course-0076601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0076601",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 5564, version 0076601-2020-01-21"
+  },
+  "course-0098471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0098471",
+   "retrieved": "2026-11-23",
+   "section": "Course record GIS 5571, version 0098471-2024-09-03"
+  },
+  "course-0100181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0100181",
+   "retrieved": "2026-11-23",
+   "section": "Course record GIS 5576, version 0100181-2023-01-17"
+  },
+  "course-0140161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0140161",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5022, version 0140161-2026-01-20"
+  },
+  "course-8256591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256591",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5263, version 8256591-2022-01-18"
+  },
+  "course-7974591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974591",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5271, version 7974591-2023-01-17"
+  },
+  "course-0032051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032051",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3801, version 0032051-2021-09-07"
+  },
+  "course-0016211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016211",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3022, version 0016211-2025-09-02"
+  },
+  "course-0064051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064051",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 4101, version 0064051-2025-01-21"
+  },
+  "course-0064061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064061",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 4102, version 0064061-2024-09-03"
+  },
+  "course-0064091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064091",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5102, version 0064091-2023-09-05"
+  },
+  "course-0016241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016241",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5021, version 0016241-2023-09-05"
+  },
+  "course-0036641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036641",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5401, version 0036641-2023-09-05"
+  },
+  "course-0043671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043671",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5421, version 0043671-2023-09-05"
+  },
+  "course-8164611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164611",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3001, version 8164611-2022-09-06"
+  },
+  "course-7976781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976781",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3003, version 7976781-2022-09-06"
+  },
+  "course-7933701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7933701",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3001, version 7933701-2022-09-06"
+  },
+  "course-0074021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074021",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3401W, version 0074021-2024-01-16"
+  },
+  "course-7957621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7957621",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 5401W, version 7957621-2024-01-16"
+  },
+  "course-0137681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0137681",
+   "retrieved": "2026-11-23",
+   "section": "Course record MKTG 3011, version 0137681-2025-09-02"
+  },
+  "course-8085121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8085121",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 3002, version 8085121-2013-09-03"
+  },
+  "course-7974551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974551",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 3003, version 7974551-2023-01-17"
+  },
+  "course-7979301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7979301",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 4101, version 7979301-2022-05-16"
+  },
+  "course-0077491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077491",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5113, version 0077491-2026-09-08"
+  },
+  "course-0145041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0145041",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5221, version 0145041-2019-05-20"
+  },
+  "course-0147061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0147061",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5511, version 0147061-2024-05-13"
+  },
+  "course-0077661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5521, version 0077661-2015-01-20"
+  },
+  "course-0030311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0030311",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 4573W, version 0030311-2023-05-15"
+  },
+  "course-0038981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038981",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3411, version 0038981-2024-09-03"
+  },
+  "course-0039041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039041",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5411, version 0039041-2021-05-17"
+  },
+  "course-0039101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039101",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5441, version 0039101-2021-05-17"
+  },
+  "course-7978461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7978461",
+   "retrieved": "2026-11-23",
+   "section": "Course record SW 3501, version 7978461-2026-09-08"
+  },
+  "course-8181891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181891",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3145W, version 8181891-2019-01-22"
+  },
+  "course-0113161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0113161",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3412W, version 0113161-2020-01-21"
+  },
+  "course-8205331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8205331",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3412V, version 8205331-2021-01-19"
+  },
+  "course-7976411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976411",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4701W, version 7976411-2018-01-16"
+  },
+  "course-8032021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8032021",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 3331, version 8032021-2015-01-20"
+  },
+  "course-0041921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0041921",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 1973, version 0041921-2023-09-05"
+  },
+  "course-0166601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0166601",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3973, version 0166601-2023-09-05"
+  },
+  "course-0042001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042001",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3161, version 0042001-2024-09-03"
+  },
+  "course-0042131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042131",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3371W, version 0042131-2019-01-22"
+  },
+  "course-0047701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047701",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3373, version 0047701-2014-01-21"
+  },
+  "course-8036991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8036991",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 3861, version 8036991-2018-01-16"
+  },
+  "course-8019531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8019531",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 3871, version 8019531-2010-09-07"
+  },
+  "course-7974901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974901",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 4231, version 7974901-2014-09-02"
+  },
+  "course-0103391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0103391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 4231, version 0103391-2014-09-02"
+  },
+  "course-7971341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971341",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4231, version 7971341-2014-09-02"
+  },
+  "course-7971351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971351",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 4231, version 7971351-2026-01-20"
+  },
+  "course-0023381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023381",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3865, version 0023381-2016-05-23"
+  },
+  "course-0164141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0164141",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3865, version 0164141-2021-05-17"
+  },
+  "course-7938471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7938471",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3866, version 7938471-2010-09-07"
+  },
+  "course-8101031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101031",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3856, version 8101031-2021-05-17"
+  },
+  "course-0050601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0050601",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 5910, version 0050601-2020-05-18"
+  },
+  "course-7922831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922831",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3872, version 7922831-2015-01-20"
+  },
+  "course-0072931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3872, version 0072931-2021-05-17"
+  },
+  "course-0086441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086441",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4511, version 0086441-2019-09-03"
+  },
+  "course-7976791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3212, version 7976791-2025-01-21"
+  },
+  "course-8024521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8024521",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLBT 3212, version 8024521-2025-01-21"
+  },
+  "course-7933711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7933711",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3212, version 7933711-2021-05-17"
+  },
+  "course-8165101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8165101",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 3101, version 8165101-2016-09-06"
+  },
+  "course-7976891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976891",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 4275, version 7976891-2026-01-20"
+  },
+  "course-0039001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039001",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3451W, version 0039001-2026-09-08"
+  },
+  "course-0039111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039111",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 5451, version 0039111-2026-09-08"
+  },
+  "course-8097271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097271",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3013, version 8097271-2025-01-21"
+  },
+  "course-8276721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8276721",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENGL 3047, version 8276721-2025-09-02"
+  },
+  "course-8204591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8204591",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3341, version 8204591-2021-01-19"
+  },
+  "course-8274291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8274291",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3372, version 8274291-2026-09-08"
+  },
+  "course-0047711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047711",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3374W, version 0047711-2019-01-22"
+  },
+  "course-7974961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974961",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3377, version 7974961-2022-01-18"
+  },
+  "course-8281631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8281631",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3771, version 8281631-2026-01-20"
+  },
+  "course-7998891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7998891",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3771, version 7998891-2026-01-20"
+  },
+  "course-0088691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088691",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3821, version 0088691-2021-05-17"
+  },
+  "course-0091191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091191",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3822, version 0091191-2021-05-17"
+  },
+  "course-0044211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044211",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3852, version 0044211-2026-01-20"
+  },
+  "course-8101351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101351",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5145, version 8101351-2026-01-20"
+  },
+  "course-8253511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253511",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5206, version 8253511-2026-01-20"
+  },
+  "course-8072831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8072831",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5281, version 8072831-2023-01-17"
+  },
+  "course-0101791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0101791",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5290, version 0101791-2026-09-08"
+  },
+  "course-0148601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148601",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5401, version 0148601-2015-01-20"
+  },
+  "course-0078691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078691",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5601, version 0078691-2017-09-05"
+  },
+  "course-8169801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169801",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3423, version 8169801-2020-01-21"
+  },
+  "course-0065281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065281",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3462, version 0065281-2023-09-05"
+  },
+  "course-8021081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021081",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4773W, version 8021081-2019-09-03"
+  },
+  "course-0064841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064841",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3201, version 0064841-2021-05-17"
+  },
+  "course-0031051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0031051",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3211W, version 0031051-2021-05-17"
+  },
+  "course-7920451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920451",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3251W, version 7920451-2021-05-17"
+  },
+  "course-8037101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037101",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3251W, version 8037101-2021-05-17"
+  },
+  "course-0023391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3251W, version 0023391-2026-09-08"
+  },
+  "course-0029091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029091",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3451W, version 0029091-2021-05-17"
+  },
+  "course-0081961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0081961",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3721, version 0081961-2024-05-13"
+  },
+  "course-0026071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026071",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4108, version 0026071-2021-05-17"
+  },
+  "course-8176981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176981",
+   "retrieved": "2026-11-23",
+   "section": "Course record SUST 3017, version 8176981-2018-01-16"
+  },
+  "course-0035981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035981",
+   "retrieved": "2026-11-23",
+   "section": "Course record SW 5101, version 0035981-2026-09-08"
+  },
+  "course-8204781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8204781",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3341, version 8204781-2021-01-19"
+  },
+  "course-0066971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066971",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 3611W, version 0066971-2015-09-08"
+  },
+  "course-8200891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8200891",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 4341W, version 8200891-2025-01-21"
+  },
+  "course-0073201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 4821, version 0073201-2025-01-21"
+  },
+  "course-0045511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045511",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3331, version 0045511-2023-09-05"
+  },
+  "course-8100101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100101",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3231, version 8100101-2025-01-21"
+  },
+  "course-0137571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0137571",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3605, version 0137571-2023-09-05"
+  },
+  "course-0092841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092841",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSG 5463, version 0092841-2015-01-20"
+  },
+  "course-0164371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0164371",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 4200, version 0164371-2008-09-02"
+  },
+  "course-0077901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077901",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5013, version 0077901-2023-05-15"
+  },
+  "course-8181191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181191",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5209, version 8181191-2018-09-04"
+  },
+  "course-8099041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099041",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5042, version 8099041-2015-01-20"
+  },
+  "course-0078131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078131",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5211, version 0078131-2021-01-19"
+  },
+  "course-8078991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8078991",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5242, version 8078991-2023-01-17"
+  },
+  "course-8201601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8201601",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5243, version 8201601-2023-01-17"
+  },
+  "course-7971071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971071",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5261, version 7971071-2016-09-06"
+  },
+  "course-8189151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189151",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5262, version 8189151-2019-09-03"
+  },
+  "course-0084211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084211",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5421, version 0084211-2026-01-20"
+  },
+  "course-0069671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069671",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3477, version 0069671-2023-05-15"
+  },
+  "course-7968711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7968711",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 3771, version 7968711-2009-05-26"
+  },
+  "course-0113731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0113731",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3711W, version 0113731-2015-01-20"
+  },
+  "course-7899031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7899031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 3711V, version 7899031-2015-01-20"
+  },
+  "course-7977411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977411",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4561, version 7977411-2015-01-20"
+  },
+  "course-8173201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 5518, version 8173201-2024-01-16"
+  },
+  "course-0121101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0121101",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 5672, version 0121101-2015-01-20"
+  },
+  "course-0154481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0154481",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 5673, version 0154481-2015-01-20"
+  },
+  "course-0122791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0122791",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 5711, version 0122791-2015-01-20"
+  },
+  "course-7942111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7942111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 5721, version 7942111-2015-01-20"
+  },
+  "course-0033351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033351",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 3201, version 0033351-2024-09-03"
+  },
+  "course-7982981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982981",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 4211, version 7982981-2023-09-05"
+  },
+  "course-0033401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033401",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 5211, version 0033401-2023-09-05"
+  },
+  "course-0045531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 4502, version 0045531-2026-01-20"
+  },
+  "course-0033411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033411",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 5212, version 0033411-2017-09-05"
+  },
+  "course-7974641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974641",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5232, version 7974641-2017-09-05"
+  },
+  "course-8097731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097731",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 5213, version 8097731-2025-01-21"
+  },
+  "course-0077981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077981",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5231, version 0077981-2023-01-17"
+  },
+  "course-0093181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3011W, version 0093181-2017-01-17"
+  },
+  "course-0067031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0067031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3245, version 0067031-2015-09-08"
+  },
+  "course-0066951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066951",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3251, version 0066951-2010-09-07"
+  },
+  "course-0161251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0161251",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3601, version 0161251-2019-01-22"
+  },
+  "course-0035601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035601",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3379, version 0035601-2024-09-03"
+  },
+  "course-7950831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7950831",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3002, version 7950831-2025-01-21"
+  },
+  "course-8037031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037031",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3003, version 8037031-2017-09-05"
+  },
+  "course-0111481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0111481",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 3501, version 0111481-2021-09-07"
+  },
+  "course-0097531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0097531",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 5204, version 0097531-2024-01-16"
+  },
+  "course-0144391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144391",
+   "retrieved": "2026-11-23",
+   "section": "Course record LA 5401, version 0144391-2015-01-20"
+  },
+  "course-0077401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077401",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5212, version 0077401-2023-01-17"
+  },
+  "course-8100451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100451",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5233, version 8100451-2023-01-17"
+  },
+  "course-0077251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077251",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5722, version 0077251-2021-09-07"
+  },
+  "course-7997011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7997011",
+   "retrieved": "2026-11-23",
+   "section": "Course record SUST 4004, version 7997011-2025-09-02"
+  },
+  "course-0090021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090021",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 3751, version 0090021-2012-09-04"
+  },
+  "course-7920791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3432, version 7920791-2015-01-20"
+  },
+  "course-0032391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032391",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3432, version 0032391-2021-05-17"
+  },
+  "course-8048261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8048261",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3433, version 8048261-2022-09-06"
+  },
+  "course-8049431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8049431",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 3061, version 8049431-2022-09-06"
+  },
+  "course-0087161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087161",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3009, version 0087161-2024-09-03"
+  },
+  "course-8100111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100111",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3066, version 8100111-2024-09-03"
+  },
+  "course-8093561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8093561",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 4674, version 8093561-2015-01-20"
+  },
+  "course-8173191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173191",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARCH 5413, version 8173191-2018-09-04"
+  },
+  "course-8038561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8038561",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARGN 3009, version 8038561-2023-01-17"
+  },
+  "course-7976861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976861",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3352, version 7976861-2026-09-08"
+  },
+  "course-7920881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920881",
+   "retrieved": "2026-11-23",
+   "section": "Course record EAS 3468, version 7920881-2026-01-20"
+  },
+  "course-0033701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033701",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3468, version 0033701-2026-01-20"
+  },
+  "course-0042021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042021",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3381W, version 0042021-2020-09-08"
+  },
+  "course-8036951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8036951",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3388, version 8036951-2024-01-16"
+  },
+  "course-0035571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0035571",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 5385, version 0035571-2015-01-20"
+  },
+  "course-0092391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092391",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3145, version 0092391-2020-09-08"
+  },
+  "course-0092401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092401",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3145H, version 0092401-2020-09-08"
+  },
+  "course-0085401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085401",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3402W, version 0085401-2021-05-17"
+  },
+  "course-7970931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7970931",
+   "retrieved": "2026-11-23",
+   "section": "Course record LAS 3402W, version 7970931-2015-01-20"
+  },
+  "course-8097531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097531",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3478, version 8097531-2021-05-17"
+  },
+  "course-0032291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032291",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3611, version 0032291-2024-09-03"
+  },
+  "course-8163371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163371",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3611, version 8163371-2024-01-16"
+  },
+  "course-0041941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0041941",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3722, version 0041941-2021-05-17"
+  },
+  "course-0148131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148131",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5522, version 0148131-2022-01-18"
+  },
+  "course-8079161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8079161",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5561, version 8079161-2015-01-20"
+  },
+  "course-8105881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8105881",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5880, version 8105881-2026-09-08"
+  },
+  "course-0141361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0141361",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3451W, version 0141361-2019-01-22"
+  },
+  "course-8084641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8084641",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3464, version 8084641-2022-09-06"
+  },
+  "course-8197831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197831",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 3200, version 8197831-2026-09-08"
+  },
+  "course-0089891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0089891",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 3500, version 0089891-2026-09-08"
+  },
+  "course-8185461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185461",
+   "retrieved": "2026-11-23",
+   "section": "Course record CLA 3896, version 8185461-2025-09-02"
+  },
+  "course-0103431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0103431",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 3896, version 0103431-2019-01-22"
+  },
+  "course-0090061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090061",
+   "retrieved": "2026-11-23",
+   "section": "Course record URBS 3955W, version 0090061-2026-09-08"
+  }
+ },
+ "courseSets": {
+  "set-8UsKEbeP": {
+   "codes": [
+    "URBS 1001W",
+    "URBS 3001W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-8xAdhaI3": {
+   "codes": [
+    "EPSY 3264",
+    "EPSY 5261",
+    "ESPM 3012",
+    "PA 5031",
+    "POL 3085",
+    "SOC 3811",
+    "STAT 1001",
+    "STAT 3011",
+    "STAT 3021"
+   ],
+   "sourceRef": "program"
+  },
+  "set-btYspQ42": {
+   "codes": [
+    "ANTH 4035",
+    "CEGE 3101",
+    "FNRM 3131",
+    "GEOG 3511",
+    "GEOG 3531",
+    "GEOG 5531",
+    "GEOG 3541",
+    "GEOG 3561",
+    "GEOG 3573",
+    "PSY 3001W",
+    "PSY 3001V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-L5x7sERi": {
+   "codes": [
+    "GEOG 5562",
+    "GEOG 5563",
+    "GEOG 5564",
+    "GIS 5571",
+    "GIS 5576",
+    "PA 5022",
+    "PA 5263",
+    "PA 5271",
+    "SOC 3801",
+    "STAT 3022",
+    "STAT 4101",
+    "STAT 4102",
+    "STAT 5102",
+    "STAT 5021",
+    "STAT 5401",
+    "STAT 5421"
+   ],
+   "sourceRef": "program"
+  },
+  "set-BjqotsN3": {
+   "codes": [
+    "AMIN 3001",
+    "AMST 3003",
+    "HIST 3001",
+    "GEOG 3401W",
+    "GEOG 5401W",
+    "MKTG 3011",
+    "PA 3002",
+    "PA 3003",
+    "PA 4101",
+    "PA 5113",
+    "PA 5221",
+    "PA 5511",
+    "PA 5521",
+    "WRIT 4573W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-XmIuXuM9": {
+   "codes": [
+    "COMM 3411",
+    "COMM 5411",
+    "COMM 5441",
+    "SW 3501"
+   ],
+   "sourceRef": "program"
+  },
+  "set-nKhoAUMi": {
+   "codes": [
+    "ANTH 3145W",
+    "ARCH 3412W",
+    "ARCH 3412V",
+    "ARCH 4701W",
+    "DES 3331",
+    "GEOG 1973",
+    "GEOG 3973",
+    "GEOG 3161",
+    "GEOG 3371W",
+    "GEOG 3373",
+    "URBS 3861",
+    "URBS 3871"
+   ],
+   "sourceRef": "program"
+  },
+  "set-H3Y6OajQ": {
+   "codes": [
+    "AAS 4231",
+    "AFRO 4231",
+    "AMIN 4231",
+    "CHLS 4231",
+    "AFRO 3865",
+    "HIST 3865",
+    "AFRO 3866",
+    "HIST 3856",
+    "AFRO 5910",
+    "AMIN 3872",
+    "HIST 3872",
+    "AMIN 4511",
+    "AMST 3212",
+    "GLBT 3212",
+    "HIST 3212",
+    "ANTH 3145W",
+    "CI 3101",
+    "CHLS 4275",
+    "COMM 3451W",
+    "COMM 5451",
+    "ENGL 3013",
+    "ENGL 3047",
+    "GEOG 3341",
+    "GEOG 3371W",
+    "GEOG 3372",
+    "GEOG 3374W",
+    "GEOG 3377",
+    "GEOG 3771",
+    "CHLS 3771",
+    "HIST 3821",
+    "HIST 3822",
+    "HIST 3852",
+    "PA 5145",
+    "PA 5206",
+    "PA 5281",
+    "PA 5290",
+    "PA 5401",
+    "PA 5601",
+    "POL 3423",
+    "POL 3462",
+    "POL 4773W",
+    "PSY 3201",
+    "SOC 3211W",
+    "SOC 3251W",
+    "AAS 3251W",
+    "AFRO 3251W",
+    "SOC 3451W",
+    "SOC 3721",
+    "SOC 4108",
+    "SUST 3017",
+    "SW 5101"
+   ],
+   "sourceRef": "program"
+  },
+  "set-CNXXbY19": {
+   "codes": [
+    "AFRO 3341",
+    "GEOG 3341",
+    "APEC 3611W",
+    "ECON 4341W",
+    "ECON 4821",
+    "GEOG 3331",
+    "GLOS 3231",
+    "GEOG 3371W",
+    "GEOG 3605",
+    "HSG 5463",
+    "PA 4200",
+    "PA 5013",
+    "PA 5145",
+    "PA 5206",
+    "PA 5209",
+    "PA 5042",
+    "PA 5211",
+    "PA 5221",
+    "PA 5242",
+    "PA 5243",
+    "PA 5261",
+    "PA 5262",
+    "PA 5263",
+    "PA 5281",
+    "PA 5290",
+    "PA 5421",
+    "PA 5511",
+    "POL 3423",
+    "POL 3462",
+    "POL 3477",
+    "POL 4773W",
+    "URBS 3771",
+    "URBS 3861",
+    "URBS 3871"
+   ],
+   "sourceRef": "program"
+  },
+  "set-29pefFx4": {
+   "codes": [
+    "APEC 3611W",
+    "ARCH 3711W",
+    "ARCH 3711V",
+    "ARCH 4561",
+    "ARCH 4701W",
+    "ARCH 5518",
+    "ARCH 5672",
+    "ARCH 5673",
+    "ARCH 5711",
+    "ARCH 5721",
+    "CEGE 3201",
+    "CEGE 4211",
+    "CEGE 5211",
+    "CEGE 4502",
+    "CEGE 5212",
+    "PA 5232",
+    "CEGE 5213",
+    "PA 5231",
+    "ESPM 3011W",
+    "ESPM 3245",
+    "ESPM 3251",
+    "ESPM 3601",
+    "GEOG 3379",
+    "LA 3002",
+    "LA 3003",
+    "LA 3501",
+    "LA 5204",
+    "LA 5401",
+    "PA 4200",
+    "PA 5013",
+    "PA 5212",
+    "PA 5233",
+    "PA 5421",
+    "PA 5722",
+    "SUST 3017",
+    "SUST 4004",
+    "URBS 3751",
+    "URBS 3771"
+   ],
+   "sourceRef": "program"
+  },
+  "set-0VDnok9Z": {
+   "codes": [
+    "AFRO 3432",
+    "HIST 3432",
+    "AFRO 3433",
+    "APEC 3061",
+    "ANTH 3009",
+    "HIST 3066",
+    "ARCH 4674",
+    "ARCH 5413",
+    "ARGN 3009",
+    "CHLS 3352",
+    "EAS 3468",
+    "HIST 3468",
+    "GEOG 3331",
+    "GLOS 3231",
+    "GEOG 3373",
+    "GEOG 3379",
+    "GEOG 3381W",
+    "GEOG 3388",
+    "GEOG 5385",
+    "GLOS 3145",
+    "GLOS 3145H",
+    "HIST 3402W",
+    "LAS 3402W",
+    "HIST 3478",
+    "HIST 3611",
+    "MEST 3611",
+    "HIST 3722",
+    "PA 5522",
+    "PA 5561",
+    "PA 5880",
+    "POL 3451W",
+    "POL 3462",
+    "POL 3464"
+   ],
+   "sourceRef": "program"
+  },
+  "set-xRS8nTJS": {
+   "codes": [
+    "URBS 3200"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Tms2HoVj": {
+   "codes": [
+    "URBS 3500"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Q2fsqbcu": {
+   "codes": [
+    "CLA 3896",
+    "URBS 3896"
+   ],
+   "sourceRef": "program"
+  },
+  "set-392690": {
+   "codes": [
+    "ANTH 3145W",
+    "APEC 3611W",
+    "ARCH 3412W",
+    "ARCH 3412V",
+    "ARCH 3711W",
+    "ARCH 3711V",
+    "ARCH 4701W",
+    "COMM 3451W",
+    "COMM 5451",
+    "ECON 4341W",
+    "ESPM 3011W",
+    "GEOG 3371W",
+    "GEOG 3374W",
+    "GEOG 3381W",
+    "GEOG 3401W",
+    "HIST 3402W",
+    "LAS 3402W",
+    "POL 3451W",
+    "POL 4773W",
+    "PSY 3001V",
+    "PSY 3001W",
+    "SOC 3211W",
+    "SOC 3251W",
+    "AAS 3251W",
+    "AFRO 3251W",
+    "SOC 3451W",
+    "URBS 3001W",
+    "URBS 3955W",
+    "WRIT 4573W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AAS 3251W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sociological Perspectives on Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8037101"
+   },
+   "sourceRef": "course-8037101"
+  },
+  "AAS 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974901"
+   },
+   "sourceRef": "course-7974901"
+  },
+  "AFRO 3251W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sociological Perspectives on Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023391"
+   },
+   "sourceRef": "course-0023391"
+  },
+  "AFRO 3341": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Geographies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8204781"
+   },
+   "sourceRef": "course-8204781"
+  },
+  "AFRO 3432": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Africa in a Changing World",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7920791"
+   },
+   "sourceRef": "course-7920791"
+  },
+  "AFRO 3433": {
+   "catalogTerm": "Fall 2026",
+   "title": "Economic Development in Contemporary Africa",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "APEC 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 1101"
+      }
+     ]
+    },
+    "sourceRef": "course-8048261"
+   },
+   "sourceRef": "course-8048261"
+  },
+  "AFRO 3865": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American History: 1865 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023381"
+   },
+   "sourceRef": "course-0023381"
+  },
+  "AFRO 3866": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Civil Rights and Black Power Movement, 1954-1984",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7938471"
+   },
+   "sourceRef": "course-7938471"
+  },
+  "AFRO 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0103391"
+   },
+   "sourceRef": "course-0103391"
+  },
+  "AFRO 5910": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in African American and African Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0050601"
+   },
+   "sourceRef": "course-0050601"
+  },
+  "AMIN 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164611"
+   },
+   "sourceRef": "course-8164611"
+  },
+  "AMIN 3872": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: 1830 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922831"
+   },
+   "sourceRef": "course-7922831"
+  },
+  "AMIN 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans, & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971341"
+   },
+   "sourceRef": "course-7971341"
+  },
+  "AMIN 4511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Political Economies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0086441"
+   },
+   "sourceRef": "course-0086441"
+  },
+  "AMST 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976781"
+   },
+   "sourceRef": "course-7976781"
+  },
+  "AMST 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dissident Sexualities in U.S. History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976791"
+   },
+   "sourceRef": "course-7976791"
+  },
+  "ANTH 3009": {
+   "catalogTerm": "Fall 2026",
+   "title": "Prehistoric Pathways to World Civilizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087161"
+   },
+   "sourceRef": "course-0087161"
+  },
+  "ANTH 3145W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban Anthropology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181891"
+   },
+   "sourceRef": "course-8181891"
+  },
+  "ANTH 4035": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ethnographic Research Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or 1005 or grad student"
+    },
+    "sourceRef": "course-0087271"
+   },
+   "sourceRef": "course-0087271"
+  },
+  "APEC 3061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Economic Development in Contemporary Africa",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101 or ECON 1101"
+    },
+    "sourceRef": "course-8049431"
+   },
+   "sourceRef": "course-8049431"
+  },
+  "APEC 3611W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental and Natural Resource Economics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101 or ECON 1101 or 1101H or ECON 1101H"
+    },
+    "sourceRef": "course-0066971"
+   },
+   "sourceRef": "course-0066971"
+  },
+  "ARCH 3412V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Architectural History Since 1750",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or above"
+    },
+    "sourceRef": "course-8205331"
+   },
+   "sourceRef": "course-8205331"
+  },
+  "ARCH 3412W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Architectural History Since 1750",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or above"
+    },
+    "sourceRef": "course-0113161"
+   },
+   "sourceRef": "course-0113161"
+  },
+  "ARCH 3711V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Environmental Design and the Sociocultural Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors, [soph or above]"
+    },
+    "sourceRef": "course-7899031"
+   },
+   "sourceRef": "course-7899031"
+  },
+  "ARCH 3711W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Design and the Sociocultural Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or above"
+    },
+    "sourceRef": "course-0113731"
+   },
+   "sourceRef": "course-0113731"
+  },
+  "ARCH 4561": {
+   "catalogTerm": "Fall 2026",
+   "title": "Architecture and Ecology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977411"
+   },
+   "sourceRef": "course-7977411"
+  },
+  "ARCH 4674": {
+   "catalogTerm": "Fall 2026",
+   "title": "World Heritage Conservation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr or instr consent"
+    },
+    "sourceRef": "course-8093561"
+   },
+   "sourceRef": "course-8093561"
+  },
+  "ARCH 4701W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Urban Form and Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3411, 3412] or instr consent"
+    },
+    "sourceRef": "course-7976411"
+   },
+   "sourceRef": "course-7976411"
+  },
+  "ARCH 5413": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern and Contemporary Global Architecture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173191"
+   },
+   "sourceRef": "course-8173191"
+  },
+  "ARCH 5518": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Technology: Integrative Ecological Design for Responsive Architecture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173201"
+   },
+   "sourceRef": "course-8173201"
+  },
+  "ARCH 5672": {
+   "catalogTerm": "Fall 2026",
+   "title": "Historic Building Conservation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3412, 5671 or instr consent"
+    },
+    "sourceRef": "course-0121101"
+   },
+   "sourceRef": "course-0121101"
+  },
+  "ARCH 5673": {
+   "catalogTerm": "Fall 2026",
+   "title": "Historic Property Research and Documentation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3412, 3641, 4671, 5671, 4672 or 5672] or instr consent"
+    },
+    "sourceRef": "course-0154481"
+   },
+   "sourceRef": "course-0154481"
+  },
+  "ARCH 5711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory and Principles of Urban Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "M Arch major or LA grad major or grad student or instr consent"
+    },
+    "sourceRef": "course-0122791"
+   },
+   "sourceRef": "course-0122791"
+  },
+  "ARCH 5721": {
+   "catalogTerm": "Fall 2026",
+   "title": "Case Studies in Urban Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-7942111"
+   },
+   "sourceRef": "course-7942111"
+  },
+  "ARGN 3009": {
+   "catalogTerm": "Fall 2026",
+   "title": "Argentina: Stereotypes and Identity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1004"
+    },
+    "sourceRef": "course-8038561"
+   },
+   "sourceRef": "course-8038561"
+  },
+  "CEGE 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer Applications I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MATH 1372 or equiv., PHYS 1301 or equiv., CSE or instructor consent"
+    },
+    "sourceRef": "course-0033241"
+   },
+   "sourceRef": "course-0033241"
+  },
+  "CEGE 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transportation Engineering",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PHYS 1301 or equivalent, (CEGE 3101, CEGE 3102 can be taken concurrently)"
+    },
+    "sourceRef": "course-0033351"
+   },
+   "sourceRef": "course-0033351"
+  },
+  "CEGE 4211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Highway Design and Traffic Operations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CEGE 3201, CEGE 3102 or equivalent, upper division CSE or instructor consent"
+    },
+    "sourceRef": "course-7982981"
+   },
+   "sourceRef": "course-7982981"
+  },
+  "CEGE 4502": {
+   "catalogTerm": "Fall 2026",
+   "title": "Water and Wastewater Treatment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CEGE 3501"
+      },
+      {
+       "type": "course",
+       "course_code": "CHEN 2001"
+      },
+      {
+       "type": "course",
+       "course_code": "BBE 3033"
+      }
+     ]
+    },
+    "sourceRef": "course-0045531"
+   },
+   "sourceRef": "course-0045531"
+  },
+  "CEGE 5211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Highway Design & Traffic Operations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CEGE 3201, CEGE 3102 or equivalent, Grad Student"
+    },
+    "sourceRef": "course-0033401"
+   },
+   "sourceRef": "course-0033401"
+  },
+  "CEGE 5212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transportation Policy, Planning, and Deployment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3201 or equiv, upper division CSE, or grad student"
+    },
+    "sourceRef": "course-0033411"
+   },
+   "sourceRef": "course-0033411"
+  },
+  "CEGE 5213": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transit Planning and Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Upper Division CE, EnvE, or GeoE student, CE or GeoE grad student, or instructor consent"
+    },
+    "sourceRef": "course-8097731"
+   },
+   "sourceRef": "course-8097731"
+  },
+  "CHLS 3352": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Southern Border: Boundary Policing and World-making",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976861"
+   },
+   "sourceRef": "course-7976861"
+  },
+  "CHLS 3771": {
+   "catalogTerm": "Fall 2026",
+   "title": "Latina/o/x Social Movements",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7998891"
+   },
+   "sourceRef": "course-7998891"
+  },
+  "CHLS 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971351"
+   },
+   "sourceRef": "course-7971351"
+  },
+  "CHLS 4275": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory in Action: Community Engagement in a Social Justice Framework",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976891"
+   },
+   "sourceRef": "course-7976891"
+  },
+  "CI 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Issues in Urban Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8165101"
+   },
+   "sourceRef": "course-8165101"
+  },
+  "CLA 3896": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship Reflection: Making Meaning of Your Experience",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8185461"
+   },
+   "sourceRef": "course-8185461"
+  },
+  "COMM 3411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Small Group and Team Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038981"
+   },
+   "sourceRef": "course-0038981"
+  },
+  "COMM 3451W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intercultural Communication: Theory and Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Planning an intercultural experience"
+    },
+    "sourceRef": "course-0039001"
+   },
+   "sourceRef": "course-0039001"
+  },
+  "COMM 5411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Small Group Communication Research",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3411 or instr consent"
+    },
+    "sourceRef": "course-0039041"
+   },
+   "sourceRef": "course-0039041"
+  },
+  "COMM 5441": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communication in Human Organizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039101"
+   },
+   "sourceRef": "course-0039101"
+  },
+  "COMM 5451": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intercultural Communication Processes",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039111"
+   },
+   "sourceRef": "course-0039111"
+  },
+  "DES 3331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Street Life Urban Design Seminar",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8032021"
+   },
+   "sourceRef": "course-8032021"
+  },
+  "EAS 3468": {
+   "catalogTerm": "Fall 2026",
+   "title": "China in the Twentieth-Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7920881"
+   },
+   "sourceRef": "course-7920881"
+  },
+  "ECON 4341W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Economics of Poverty and Income Inequality",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[MATH 1271, ECON 1101, ECON 1102, ECON 3011 & 3012, ECON 3023 & 3024] or equiv;"
+    },
+    "sourceRef": "course-8200891"
+   },
+   "sourceRef": "course-8200891"
+  },
+  "ECON 4821": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public Economics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3011 & 3012, (or ECON 3101), ECON 3023 & 3024, (or ECON 3102), MATH 1271 or equivalent courses approved by the Economics Department"
+    },
+    "sourceRef": "course-0073201"
+   },
+   "sourceRef": "course-0073201"
+  },
+  "ENGL 3013": {
+   "catalogTerm": "Fall 2026",
+   "title": "The City in Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097271"
+   },
+   "sourceRef": "course-8097271"
+  },
+  "ENGL 3047": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cinema and the City",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8276721"
+   },
+   "sourceRef": "course-8276721"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "EPSY 5261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Statistical Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0022501"
+   },
+   "sourceRef": "course-0022501"
+  },
+  "ESPM 3011W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ethics in Natural Resources",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093181"
+   },
+   "sourceRef": "course-0093181"
+  },
+  "ESPM 3012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Statistical Methods for Environmental Scientists and Managers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7995071"
+   },
+   "sourceRef": "course-7995071"
+  },
+  "ESPM 3245": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Land Use Planning and Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0067031"
+   },
+   "sourceRef": "course-0067031"
+  },
+  "ESPM 3251": {
+   "catalogTerm": "Fall 2026",
+   "title": "Natural Resources in Sustainable International Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066951"
+   },
+   "sourceRef": "course-0066951"
+  },
+  "ESPM 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Housing--Community, Environment, and Technology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0161251"
+   },
+   "sourceRef": "course-0161251"
+  },
+  "FNRM 3131": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geographical Information Systems (GIS) for Natural Resources",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or jr or sr or UHP fr"
+    },
+    "sourceRef": "course-0048841"
+   },
+   "sourceRef": "course-0048841"
+  },
+  "GEOG 1973": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geography of the Twin Cities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0041921"
+   },
+   "sourceRef": "course-0041921"
+  },
+  "GEOG 3161": {
+   "catalogTerm": "Fall 2026",
+   "title": "How the World Made Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042001"
+   },
+   "sourceRef": "course-0042001"
+  },
+  "GEOG 3331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geography of the World Economy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0045511"
+   },
+   "sourceRef": "course-0045511"
+  },
+  "GEOG 3341": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black Geographies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8204591"
+   },
+   "sourceRef": "course-8204591"
+  },
+  "GEOG 3371W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cities, Citizens, and Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042131"
+   },
+   "sourceRef": "course-0042131"
+  },
+  "GEOG 3372": {
+   "catalogTerm": "Fall 2026",
+   "title": "Imagining Urban Futures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8274291"
+   },
+   "sourceRef": "course-8274291"
+  },
+  "GEOG 3373": {
+   "catalogTerm": "Fall 2026",
+   "title": "Changing Form of the City",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0047701"
+   },
+   "sourceRef": "course-0047701"
+  },
+  "GEOG 3374W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The City in Film",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0047711"
+   },
+   "sourceRef": "course-0047711"
+  },
+  "GEOG 3377": {
+   "catalogTerm": "Fall 2026",
+   "title": "Music in the City",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974961"
+   },
+   "sourceRef": "course-7974961"
+  },
+  "GEOG 3379": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environment and Livelihoods in the Global South",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph or jr or sr"
+    },
+    "sourceRef": "course-0035601"
+   },
+   "sourceRef": "course-0035601"
+  },
+  "GEOG 3381W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Population in an Interacting World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042021"
+   },
+   "sourceRef": "course-0042021"
+  },
+  "GEOG 3388": {
+   "catalogTerm": "Fall 2026",
+   "title": "Going Places: Geographies of Travel and Tourism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8036951"
+   },
+   "sourceRef": "course-8036951"
+  },
+  "GEOG 3401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geography of Environmental Systems and Global Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074021"
+   },
+   "sourceRef": "course-0074021"
+  },
+  "GEOG 3511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Cartography",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3 cr in geog or instr consent"
+    },
+    "sourceRef": "course-0041671"
+   },
+   "sourceRef": "course-0041671"
+  },
+  "GEOG 3531": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Spatial Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "high-school algebra; Basic stats and linear algebra recommended"
+    },
+    "sourceRef": "course-0076631"
+   },
+   "sourceRef": "course-0076631"
+  },
+  "GEOG 3541": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Geocomputing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8177621"
+   },
+   "sourceRef": "course-8177621"
+  },
+  "GEOG 3561": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Geographic Information Science",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "soph., jr. sr."
+    },
+    "sourceRef": "course-0071661"
+   },
+   "sourceRef": "course-0071661"
+  },
+  "GEOG 3573": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Digital Mapping: ArcGIS Basis",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8140491"
+   },
+   "sourceRef": "course-8140491"
+  },
+  "GEOG 3605": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geographic Perspectives on Planning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0137571"
+   },
+   "sourceRef": "course-0137571"
+  },
+  "GEOG 3771": {
+   "catalogTerm": "Fall 2026",
+   "title": "Latina/o/x Social Movements",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8281631"
+   },
+   "sourceRef": "course-8281631"
+  },
+  "GEOG 3973": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geography of the Twin Cities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0166601"
+   },
+   "sourceRef": "course-0166601"
+  },
+  "GEOG 5385": {
+   "catalogTerm": "Fall 2026",
+   "title": "Globalization and Development: Political Economy",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Sr or grad or instr consent"
+    },
+    "sourceRef": "course-0035571"
+   },
+   "sourceRef": "course-0035571"
+  },
+  "GEOG 5401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geography of Environmental Systems and Global Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "grad student or instr consent"
+    },
+    "sourceRef": "course-7957621"
+   },
+   "sourceRef": "course-7957621"
+  },
+  "GEOG 5531": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Spatial Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "high-school algebra; Basic stats and linear algebra recommended"
+    },
+    "sourceRef": "course-7907311"
+   },
+   "sourceRef": "course-7907311"
+  },
+  "GEOG 5562": {
+   "catalogTerm": "Fall 2026",
+   "title": "GIS Development Practicum",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "GIS 5571 or instr consent"
+    },
+    "sourceRef": "course-0071671"
+   },
+   "sourceRef": "course-0071671"
+  },
+  "GEOG 5563": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Geographic Information Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "B or better in 3561 or 5561 or instr consent"
+    },
+    "sourceRef": "course-0071681"
+   },
+   "sourceRef": "course-0071681"
+  },
+  "GEOG 5564": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban Geographic Information Science and Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3561 or 5561"
+    },
+    "sourceRef": "course-0076601"
+   },
+   "sourceRef": "course-0076601"
+  },
+  "GIS 5571": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Spatial Data Science Applied with ArcGIS",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[GEOG 5561 or equiv, status in MGIS program, familiarity with computer operating systems] or instr consent"
+    },
+    "sourceRef": "course-0098471"
+   },
+   "sourceRef": "course-0098471"
+  },
+  "GIS 5576": {
+   "catalogTerm": "Fall 2026",
+   "title": "Spatial Digital Humanities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0100181"
+   },
+   "sourceRef": "course-0100181"
+  },
+  "GLBT 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dissident Sexualities in U.S. History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8024521"
+   },
+   "sourceRef": "course-8024521"
+  },
+  "GLOS 3145": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global Modernity, the Nation-State, and Capitalism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "soph, jr, or sr"
+    },
+    "sourceRef": "course-0092391"
+   },
+   "sourceRef": "course-0092391"
+  },
+  "GLOS 3145H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Global Modernity, the Nation-State, and Capitalism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors soph, jr, or sr Units: 3.00"
+    },
+    "sourceRef": "course-0092401"
+   },
+   "sourceRef": "course-0092401"
+  },
+  "GLOS 3231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geography of the World Economy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100101"
+   },
+   "sourceRef": "course-8100101"
+  },
+  "HIST 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7933701"
+   },
+   "sourceRef": "course-7933701"
+  },
+  "HIST 3066": {
+   "catalogTerm": "Fall 2026",
+   "title": "Prehistoric Pathways to World Civilization",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100111"
+   },
+   "sourceRef": "course-8100111"
+  },
+  "HIST 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dissident Sexualities in U.S. History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7933711"
+   },
+   "sourceRef": "course-7933711"
+  },
+  "HIST 3402W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Latin America 1825 to Present",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0085401"
+   },
+   "sourceRef": "course-0085401"
+  },
+  "HIST 3432": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Africa in a Changing World",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0032391"
+   },
+   "sourceRef": "course-0032391"
+  },
+  "HIST 3468": {
+   "catalogTerm": "Fall 2026",
+   "title": "China in the Twentieth-Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0033701"
+   },
+   "sourceRef": "course-0033701"
+  },
+  "HIST 3478": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tigers and Dragons:  The Rise of the East Asian Economies, 1930-Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097531"
+   },
+   "sourceRef": "course-8097531"
+  },
+  "HIST 3611": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Cities of Europe: 500-1500",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0032291"
+   },
+   "sourceRef": "course-0032291"
+  },
+  "HIST 3722": {
+   "catalogTerm": "Fall 2026",
+   "title": "Studies in 20th-Century Europe From the End of World War II to the End of the Cold War: 1945-91",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0041941"
+   },
+   "sourceRef": "course-0041941"
+  },
+  "HIST 3821": {
+   "catalogTerm": "Fall 2026",
+   "title": "United States in the 20th Century to 1945",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0088691"
+   },
+   "sourceRef": "course-0088691"
+  },
+  "HIST 3822": {
+   "catalogTerm": "Fall 2026",
+   "title": "Making America Modern: 1945 to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0091191"
+   },
+   "sourceRef": "course-0091191"
+  },
+  "HIST 3852": {
+   "catalogTerm": "Fall 2026",
+   "title": "U.S. Labor and Working-Class History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0044211"
+   },
+   "sourceRef": "course-0044211"
+  },
+  "HIST 3856": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Civil Rights and Black Power Movement, 1954-1984",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101031"
+   },
+   "sourceRef": "course-8101031"
+  },
+  "HIST 3865": {
+   "catalogTerm": "Fall 2026",
+   "title": "African American History, 1865 to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0164141"
+   },
+   "sourceRef": "course-0164141"
+  },
+  "HIST 3872": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: 1830 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0072931"
+   },
+   "sourceRef": "course-0072931"
+  },
+  "HSG 5463": {
+   "catalogTerm": "Fall 2026",
+   "title": "Housing Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[2401 or DHA 2401], [2463 or DHA 2463]] or instr consent"
+    },
+    "sourceRef": "course-0092841"
+   },
+   "sourceRef": "course-0092841"
+  },
+  "LA 3002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Informants of Creating Landscape Space",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7950831"
+   },
+   "sourceRef": "course-7950831"
+  },
+  "LA 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Climate Change Adaptation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8037031"
+   },
+   "sourceRef": "course-8037031"
+  },
+  "LA 3501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Design and Its Biological and Physical Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0111481"
+   },
+   "sourceRef": "course-0111481"
+  },
+  "LA 5204": {
+   "catalogTerm": "Fall 2026",
+   "title": "Metropolitan Landscape Ecology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "LA grad student or instr consent"
+    },
+    "sourceRef": "course-0097531"
+   },
+   "sourceRef": "course-0097531"
+  },
+  "LA 5401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies in Emerging Areas of Landscape Architecture",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0144391"
+   },
+   "sourceRef": "course-0144391"
+  },
+  "LAS 3402W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modern Latin America 1825 to Present",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7970931"
+   },
+   "sourceRef": "course-7970931"
+  },
+  "MEST 3611": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Cities of Europe: 500-1500",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8163371"
+   },
+   "sourceRef": "course-8163371"
+  },
+  "MKTG 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Marketing Research",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0137681"
+   },
+   "sourceRef": "course-0137681"
+  },
+  "PA 3002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic Methods of Policy Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8085121"
+   },
+   "sourceRef": "course-8085121"
+  },
+  "PA 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nonprofit and Public Financial Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr"
+    },
+    "sourceRef": "course-7974551"
+   },
+   "sourceRef": "course-7974551"
+  },
+  "PA 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nonprofit Management and Governance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7979301"
+   },
+   "sourceRef": "course-7979301"
+  },
+  "PA 4200": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban and Regional Planning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0164371"
+   },
+   "sourceRef": "course-0164371"
+  },
+  "PA 5013": {
+   "catalogTerm": "Fall 2026",
+   "title": "Law and Urban Land Use",
+   "minimumCredits": 1.5,
+   "maximumCredits": 1.5,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Major or minor in urban/regional planning or instr consent"
+    },
+    "sourceRef": "course-0077901"
+   },
+   "sourceRef": "course-0077901"
+  },
+  "PA 5022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applications of Economics for Policy Analysis",
+   "minimumCredits": 1.5,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5021 or equiv"
+    },
+    "sourceRef": "course-0140161"
+   },
+   "sourceRef": "course-0140161"
+  },
+  "PA 5031": {
+   "catalogTerm": "Fall 2026",
+   "title": "Statistics for Public Affairs",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0077861"
+   },
+   "sourceRef": "course-0077861"
+  },
+  "PA 5042": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban and Regional Economics",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Major or minor in urban and regional planning, microeconomics course] or instr consent"
+    },
+    "sourceRef": "course-8099041"
+   },
+   "sourceRef": "course-8099041"
+  },
+  "PA 5113": {
+   "catalogTerm": "Fall 2026",
+   "title": "State and Local Public Finance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0077491"
+   },
+   "sourceRef": "course-0077491"
+  },
+  "PA 5145": {
+   "catalogTerm": "Fall 2026",
+   "title": "Civic Participation in Public Affairs",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101351"
+   },
+   "sourceRef": "course-8101351"
+  },
+  "PA 5206": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban Inequalities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253511"
+   },
+   "sourceRef": "course-8253511"
+  },
+  "PA 5209": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban Planning and Health Equity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181191"
+   },
+   "sourceRef": "course-8181191"
+  },
+  "PA 5211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Land Use Planning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Major or minor in urban/regional planning or instr consent"
+    },
+    "sourceRef": "course-0078131"
+   },
+   "sourceRef": "course-0078131"
+  },
+  "PA 5212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Managing Urban Growth and Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-0077401"
+   },
+   "sourceRef": "course-0077401"
+  },
+  "PA 5221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Private Sector Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0145041"
+   },
+   "sourceRef": "course-0145041"
+  },
+  "PA 5231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transit Planning and Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or  instr consent"
+    },
+    "sourceRef": "course-0077981"
+   },
+   "sourceRef": "course-0077981"
+  },
+  "PA 5232": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transportation Policy, Planning, and Deployment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974641"
+   },
+   "sourceRef": "course-7974641"
+  },
+  "PA 5233": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Transportation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100451"
+   },
+   "sourceRef": "course-8100451"
+  },
+  "PA 5242": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Planning, Policy, and Decision Making",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad or instr consent"
+    },
+    "sourceRef": "course-8078991"
+   },
+   "sourceRef": "course-8078991"
+  },
+  "PA 5243": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Justice in Urban Planning & Public Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8201601"
+   },
+   "sourceRef": "course-8201601"
+  },
+  "PA 5261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Housing Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad or instr consent"
+    },
+    "sourceRef": "course-7971071"
+   },
+   "sourceRef": "course-7971071"
+  },
+  "PA 5262": {
+   "catalogTerm": "Fall 2026",
+   "title": "Neighborhood Revitalization Theories and Strategies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8189151"
+   },
+   "sourceRef": "course-8189151"
+  },
+  "PA 5263": {
+   "catalogTerm": "Fall 2026",
+   "title": "Financing Affordable Multi-Family Rental Hsg in US",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256591"
+   },
+   "sourceRef": "course-8256591"
+  },
+  "PA 5271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Geographic Information Systems: Applications in Planning and Policy Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Major in urban/regional planning or instr consent"
+    },
+    "sourceRef": "course-7974591"
+   },
+   "sourceRef": "course-7974591"
+  },
+  "PA 5281": {
+   "catalogTerm": "Fall 2026",
+   "title": "Immigrants, Urban Planning and Policymaking in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8072831"
+   },
+   "sourceRef": "course-8072831"
+  },
+  "PA 5290": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Planning",
+   "minimumCredits": 0.5,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0101791"
+   },
+   "sourceRef": "course-0101791"
+  },
+  "PA 5401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Poverty, Inequality, and Public Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad or instr consent"
+    },
+    "sourceRef": "course-0148601"
+   },
+   "sourceRef": "course-0148601"
+  },
+  "PA 5421": {
+   "catalogTerm": "Fall 2026",
+   "title": "Racial Inequality and Public Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad or instr consent"
+    },
+    "sourceRef": "course-0084211"
+   },
+   "sourceRef": "course-0084211"
+  },
+  "PA 5511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Planning for Equitable Economies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad or instr consent"
+    },
+    "sourceRef": "course-0147061"
+   },
+   "sourceRef": "course-0147061"
+  },
+  "PA 5521": {
+   "catalogTerm": "Fall 2026",
+   "title": "Development Planning and Policy Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5031 or equiv recommended or instr consent"
+    },
+    "sourceRef": "course-0077661"
+   },
+   "sourceRef": "course-0077661"
+  },
+  "PA 5522": {
+   "catalogTerm": "Fall 2026",
+   "title": "International Development Policy, Families, and Health",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-0148131"
+   },
+   "sourceRef": "course-0148131"
+  },
+  "PA 5561": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender and International Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad or instr consent"
+    },
+    "sourceRef": "course-8079161"
+   },
+   "sourceRef": "course-8079161"
+  },
+  "PA 5601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global Survey of Gender and Public Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0078691"
+   },
+   "sourceRef": "course-0078691"
+  },
+  "PA 5722": {
+   "catalogTerm": "Fall 2026",
+   "title": "Economics of Environmental Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0077251"
+   },
+   "sourceRef": "course-0077251"
+  },
+  "PA 5880": {
+   "catalogTerm": "Fall 2026",
+   "title": "Exploring Global Cities",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8105881"
+   },
+   "sourceRef": "course-8105881"
+  },
+  "POL 3085": {
+   "catalogTerm": "Fall 2026",
+   "title": "Quantitative Analysis in Political Science",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0052611"
+   },
+   "sourceRef": "course-0052611"
+  },
+  "POL 3423": {
+   "catalogTerm": "Fall 2026",
+   "title": "Politics of Disruption: Violence and Its Alternatives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8169801"
+   },
+   "sourceRef": "course-8169801"
+  },
+  "POL 3451W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Politics and Society in the New Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0141361"
+   },
+   "sourceRef": "course-0141361"
+  },
+  "POL 3462": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Politics of Race, Class, and Ethnicity in the United States, South Africa and Cuba",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065281"
+   },
+   "sourceRef": "course-0065281"
+  },
+  "POL 3464": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Politics of Economic Inequality",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8084641"
+   },
+   "sourceRef": "course-8084641"
+  },
+  "POL 3477": {
+   "catalogTerm": "Fall 2026",
+   "title": "Political Economy of Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0069671"
+   },
+   "sourceRef": "course-0069671"
+  },
+  "POL 4773W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advocacy Organizations, Social Movements, and the Politics of Identity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8021081"
+   },
+   "sourceRef": "course-8021081"
+  },
+  "PSY 3001V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Research Methods",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1001, [2081/3801 or equiv]]or dept consent, PSY major, honors student"
+    },
+    "sourceRef": "course-8003631"
+   },
+   "sourceRef": "course-8003631"
+  },
+  "PSY 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Research Methods",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1001, [2801 or 3801 or equiv]] or dept consent"
+    },
+    "sourceRef": "course-7994401"
+   },
+   "sourceRef": "course-7994401"
+  },
+  "PSY 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Social Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 or instr consent"
+    },
+    "sourceRef": "course-0064841"
+   },
+   "sourceRef": "course-0064841"
+  },
+  "SOC 3211W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Race and Racism in the US",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0031051"
+   },
+   "sourceRef": "course-0031051"
+  },
+  "SOC 3251W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sociological Perspectives on Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7920451"
+   },
+   "sourceRef": "course-7920451"
+  },
+  "SOC 3451W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cities & Social Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended, Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0029091"
+   },
+   "sourceRef": "course-0029091"
+  },
+  "SOC 3721": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Social Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0081961"
+   },
+   "sourceRef": "course-0081961"
+  },
+  "SOC 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sociological Research Methods",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors must register A-F"
+    },
+    "sourceRef": "course-0032051"
+   },
+   "sourceRef": "course-0032051"
+  },
+  "SOC 3811": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergraduates with strong math background are encouraged to register for 5811 in lieu of 3811 (Soc 5811 offered Fall terms only). Soc Majors/Minors must register A-F."
+    },
+    "sourceRef": "course-0011481"
+   },
+   "sourceRef": "course-0011481"
+  },
+  "SOC 4108": {
+   "catalogTerm": "Fall 2026",
+   "title": "Current Issues in Crime Control",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0026071"
+   },
+   "sourceRef": "course-0026071"
+  },
+  "STAT 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to the Ideas of Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Mathematics requirement for admission to University"
+    },
+    "sourceRef": "course-0016161"
+   },
+   "sourceRef": "course-0016161"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "STAT 3021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Probability and Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1272"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1472"
+      }
+     ]
+    },
+    "sourceRef": "course-0016221"
+   },
+   "sourceRef": "course-0016221"
+  },
+  "STAT 3022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3011"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3021"
+      },
+      {
+       "type": "course",
+       "course_code": "SOC 3811"
+      },
+      {
+       "type": "course",
+       "course_code": "BA 2551"
+      }
+     ]
+    },
+    "sourceRef": "course-0016211"
+   },
+   "sourceRef": "course-0016211"
+  },
+  "STAT 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory of Statistics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1272"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1372"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1472"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1572H"
+      }
+     ]
+    },
+    "sourceRef": "course-0064051"
+   },
+   "sourceRef": "course-0064051"
+  },
+  "STAT 4102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory of Statistics II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4101"
+    },
+    "sourceRef": "course-0064061"
+   },
+   "sourceRef": "course-0064061"
+  },
+  "STAT 5021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "college algebra or instr consent; credit will not be granted if credit has been received for STAT 3011"
+    },
+    "sourceRef": "course-0016241"
+   },
+   "sourceRef": "course-0016241"
+  },
+  "STAT 5102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory of Statistics II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5101 or Math 5651"
+    },
+    "sourceRef": "course-0064091"
+   },
+   "sourceRef": "course-0064091"
+  },
+  "STAT 5401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Multivariate Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036641"
+   },
+   "sourceRef": "course-0036641"
+  },
+  "STAT 5421": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of Categorical Data",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3022"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3032"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3301"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 5302"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 4051"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 8051"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 5102"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 4102"
+      }
+     ]
+    },
+    "sourceRef": "course-0043671"
+   },
+   "sourceRef": "course-0043671"
+  },
+  "SUST 3017": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Justice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176981"
+   },
+   "sourceRef": "course-8176981"
+  },
+  "SUST 4004": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7997011"
+   },
+   "sourceRef": "course-7997011"
+  },
+  "SW 3501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theories and Practices of Social Change Organizing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7978461"
+   },
+   "sourceRef": "course-7978461"
+  },
+  "SW 5101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Historical Origins and Contemporary Policies and Programs in Social Welfare",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0035981"
+   },
+   "sourceRef": "course-0035981"
+  },
+  "URBS 1001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Urban Studies: The Complexity of Metropolitan Life",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0088861"
+   },
+   "sourceRef": "course-0088861"
+  },
+  "URBS 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Urban Studies: The Complexity of Metropolitan Life",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8056941"
+   },
+   "sourceRef": "course-8056941"
+  },
+  "URBS 3200": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban Studies Colloquium",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent"
+    },
+    "sourceRef": "course-8197831"
+   },
+   "sourceRef": "course-8197831"
+  },
+  "URBS 3500": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban Studies Workshop",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0089891"
+   },
+   "sourceRef": "course-0089891"
+  },
+  "URBS 3751": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding the Urban Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0090021"
+   },
+   "sourceRef": "course-0090021"
+  },
+  "URBS 3771": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals of Transit",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7968711"
+   },
+   "sourceRef": "course-7968711"
+  },
+  "URBS 3861": {
+   "catalogTerm": "Fall 2026",
+   "title": "Financing Cities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8036991"
+   },
+   "sourceRef": "course-8036991"
+  },
+  "URBS 3871": {
+   "catalogTerm": "Fall 2026",
+   "title": "A Suburban World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8019531"
+   },
+   "sourceRef": "course-8019531"
+  },
+  "URBS 3896": {
+   "catalogTerm": "Fall 2026",
+   "title": "Urban Studies Internship Seminar",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Sr, internship placement, dept consent, instr consent"
+    },
+    "sourceRef": "course-0103431"
+   },
+   "sourceRef": "course-0103431"
+  },
+  "URBS 3955W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Paper Seminar",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "dept consent"
+    },
+    "sourceRef": "course-0090061"
+   },
+   "sourceRef": "course-0090061"
+  },
+  "WRIT 4573W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing Proposals and Grant Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0030311"
+   },
+   "sourceRef": "course-0030311"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-zzYTTQQk",
+   "label": "Introductory Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-8UsKEbeP",
+    "type": "credits",
+    "courseSet": "set-8UsKEbeP",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Introductory Course"
+   }
+  },
+  {
+   "id": "g-ZgWESYB3",
+   "label": "Introductory Course in Statistics",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-8xAdhaI3",
+    "type": "credits",
+    "courseSet": "set-8xAdhaI3",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Introductory Course in Statistics"
+   }
+  },
+  {
+   "id": "g-pJlI6Th3",
+   "label": "Skills and Methods Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-AJlMfljE",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-btYspQ42",
+      "type": "credits",
+      "courseSet": "set-btYspQ42",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Introductory Courses in Research & Spacial Analysis"
+     },
+     {
+      "id": "r-L5x7sERi",
+      "type": "credits",
+      "courseSet": "set-L5x7sERi",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Intermediate Courses in Statistics & Spatial Analysis"
+     },
+     {
+      "id": "r-BjqotsN3",
+      "type": "credits",
+      "courseSet": "set-BjqotsN3",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Other Methods Courses"
+     },
+     {
+      "id": "r-XmIuXuM9",
+      "type": "credits",
+      "courseSet": "set-XmIuXuM9",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Communication Courses"
+     }
+    ],
+    "label": "Skills and Methods Course"
+   }
+  },
+  {
+   "id": "g-CboqxzVW",
+   "label": "Urban Form and Society Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-nKhoAUMi",
+    "type": "credits",
+    "courseSet": "set-nKhoAUMi",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "Urban Form and Society Courses"
+   }
+  },
+  {
+   "id": "g-z2keG174",
+   "label": "Urban Studies Concentrations",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-n7kCVin4",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-H3Y6OajQ",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-H3Y6OajQ-credits",
+        "type": "credits",
+        "courseSet": "set-H3Y6OajQ",
+        "minCredits": 9,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-H3Y6OajQ-min",
+        "type": "count",
+        "courseSet": "set-H3Y6OajQ",
+        "minCourses": 3,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Social and Cultural Analysis of Urban Life"
+     },
+     {
+      "id": "r-CNXXbY19",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-CNXXbY19-credits",
+        "type": "credits",
+        "courseSet": "set-CNXXbY19",
+        "minCredits": 9,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-CNXXbY19-min",
+        "type": "count",
+        "courseSet": "set-CNXXbY19",
+        "minCourses": 3,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Urban Political Economy"
+     },
+     {
+      "id": "r-29pefFx4",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-29pefFx4-credits",
+        "type": "credits",
+        "courseSet": "set-29pefFx4",
+        "minCredits": 9,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-29pefFx4-min",
+        "type": "count",
+        "courseSet": "set-29pefFx4",
+        "minCourses": 3,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Urban Infrastructure and Environment"
+     },
+     {
+      "id": "r-0VDnok9Z",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-0VDnok9Z-credits",
+        "type": "credits",
+        "courseSet": "set-0VDnok9Z",
+        "minCredits": 9,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-0VDnok9Z-min",
+        "type": "count",
+        "courseSet": "set-0VDnok9Z",
+        "minCourses": 3,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "International Urban Issues"
+     }
+    ],
+    "label": "Urban Studies Concentrations"
+   }
+  },
+  {
+   "id": "g-tbBgI8p5",
+   "label": "Urban Studies Colloquia, Workshop, and Internship",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-qVhLnGz5",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-xRS8nTJS",
+      "type": "credits",
+      "courseSet": "set-xRS8nTJS",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Colloquia"
+     },
+     {
+      "id": "r-Tms2HoVj",
+      "type": "credits",
+      "courseSet": "set-Tms2HoVj",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Workshop"
+     },
+     {
+      "id": "r-Q2fsqbcu",
+      "type": "credits",
+      "courseSet": "set-Q2fsqbcu",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Internship"
+     }
+    ],
+    "label": "Urban Studies Colloquia, Workshop, and Internship"
+   }
+  },
+  {
+   "id": "g-0E6rz6vd",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sdpufHLs",
+    "type": "course",
+    "code": "URBS 3955W",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-093020217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-392690",
+    "type": "count",
+    "courseSet": "set-392690",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the urban studies BA is URBS.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or URBS 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 15 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn up to one undergraduate degree in Urban Studies: a BA, a BS, or a minor. Students who major or minor in Urban Studies often combine their degree with a major or minor in other departments such as geography, political science, public health, geographic information science, sustainability studies, civil engineering, landscape architecture, and others. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Integrated Urban Studies BA / Master of Urban and Regional Planning. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

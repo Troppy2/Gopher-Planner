@@ -1,0 +1,1674 @@
+{
+ "schemaVersion": 2,
+ "id": "product-design-bs",
+ "name": "Product Design B.S.",
+ "officialName": "Product Design B.S.",
+ "officialProgramId": "224020122",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Product Design B.S., revision 224020122-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/224020122, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/224020122",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 224020122-2026-09-08"
+  },
+  "course-8037091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037091",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 3201, version 8037091-2021-09-07"
+  },
+  "course-7977461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977461",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 5185, version 7977461-2026-09-08"
+  },
+  "course-7948151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948151",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3015, version 7948151-2022-09-06"
+  },
+  "course-8154751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8154751",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 2703, version 8154751-2020-01-21"
+  },
+  "course-8174251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8174251",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 2704, version 8174251-2024-09-03"
+  },
+  "course-8174241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8174241",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 2771, version 8174241-2024-09-03"
+  },
+  "course-8174381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8174381",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 2772, version 8174381-2024-09-03"
+  },
+  "course-8101131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101131",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3704, version 8101131-2024-09-03"
+  },
+  "course-8133241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8133241",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3705, version 8133241-2018-09-04"
+  },
+  "course-8141501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8141501",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3706, version 8141501-2019-09-03"
+  },
+  "course-8070001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8070001",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3711, version 8070001-2021-01-19"
+  },
+  "course-8202221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8202221",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3737, version 8202221-2020-09-08"
+  },
+  "course-8174411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8174411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3771, version 8174411-2020-09-08"
+  },
+  "course-8156981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8156981",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 4701W, version 8156981-2023-09-05"
+  },
+  "course-8159701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8159701",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 4702W, version 8159701-2023-09-05"
+  },
+  "course-0036671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036671",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1103, version 0036671-2015-01-20"
+  },
+  "course-0036691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036691",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1113, version 0036691-2024-09-03"
+  },
+  "course-8096661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096661",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133, version 8096661-2024-09-03"
+  },
+  "course-8110721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8110721",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133H, version 8110721-2023-09-05"
+  },
+  "course-0166341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0166341",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 1301, version 0166341-2020-09-08"
+  },
+  "course-8154561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8154561",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3196, version 8154561-2024-09-03"
+  },
+  "course-8275881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275881",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 1201, version 8275881-2025-09-02"
+  },
+  "course-8168601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168601",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3140, version 8168601-2026-09-08"
+  },
+  "course-8083881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083881",
+   "retrieved": "2026-11-23",
+   "section": "Course record UX 3131, version 8083881-2026-09-08"
+  },
+  "course-8168681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168681",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 4322, version 8168681-2026-09-08"
+  },
+  "course-8191541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8191541",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3714, version 8191541-2022-09-06"
+  },
+  "course-8083951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083951",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 5703, version 8083951-2019-09-03"
+  },
+  "course-0092601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092601",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 4215, version 0092601-2023-09-05"
+  },
+  "course-8188891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8188891",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 5901, version 8188891-2026-09-08"
+  },
+  "course-8189031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189031",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 5902, version 8189031-2022-09-06"
+  },
+  "course-8155701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8155701",
+   "retrieved": "2026-11-23",
+   "section": "Course record UX 3132, version 8155701-2026-09-08"
+  },
+  "course-8073501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8073501",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 2342, version 8073501-2024-09-03"
+  },
+  "course-0087271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087271",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4035, version 0087271-2021-01-19"
+  },
+  "course-7975901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3603, version 7975901-2021-09-07"
+  },
+  "course-8069981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069981",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 5701, version 8069981-2022-09-06"
+  },
+  "course-8162951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162951",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 5127W, version 8162951-2024-09-03"
+  },
+  "course-0050191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0050191",
+   "retrieved": "2026-11-23",
+   "section": "Course record ME 2011, version 0050191-2022-09-06"
+  },
+  "course-0131311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131311",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCO 3001, version 0131311-2022-09-06"
+  },
+  "course-8118011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8118011",
+   "retrieved": "2026-11-23",
+   "section": "Course record LAW 5026, version 8118011-2026-09-08"
+  },
+  "course-8025381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8025381",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4085, version 8025381-2026-01-20"
+  },
+  "course-8025391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8025391",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4171W, version 8025391-2025-09-02"
+  },
+  "course-8025401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8025401",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4172, version 8025401-2015-01-20"
+  },
+  "course-0126771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0126771",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 3353, version 0126771-2017-01-17"
+  },
+  "course-0131271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131271",
+   "retrieved": "2026-11-23",
+   "section": "Course record MKTG 3001, version 0131271-2022-09-06"
+  },
+  "course-8182431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8182431",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 1002, version 8182431-2018-01-16"
+  },
+  "course-8270801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8270801",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 4312, version 8270801-2024-09-03"
+  },
+  "course-8095351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8095351",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3715, version 8095351-2018-09-04"
+  },
+  "course-0121371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0121371",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 1311, version 0121371-2025-09-02"
+  },
+  "course-8015051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015051",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 2101, version 8015051-2025-09-02"
+  },
+  "course-8069961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069961",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 2701, version 8069961-2025-09-02"
+  },
+  "course-8069971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069971",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 2702, version 8069971-2020-01-21"
+  },
+  "course-8083941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083941",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 2777, version 8083941-2025-01-21"
+  },
+  "course-0020661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1101W, version 0020661-2021-05-17"
+  },
+  "course-0020701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020701",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1301W, version 0020701-2022-05-16"
+  },
+  "course-0020731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020731",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1401V, version 0020731-2023-09-05"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0036921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036921",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1371, version 0036921-2025-09-02"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  }
+ },
+ "courseSets": {
+  "set-431608": {
+   "codes": [
+    "DES 3201",
+    "DESI 5185",
+    "MGMT 3015",
+    "PDES 2703",
+    "PDES 2704",
+    "PDES 2771",
+    "PDES 2772",
+    "PDES 3704",
+    "PDES 3705",
+    "PDES 3706",
+    "PDES 3711",
+    "PDES 3737",
+    "PDES 3771",
+    "PDES 4701W",
+    "PDES 4702W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-JduxPj7N": {
+   "codes": [
+    "CSCI 1103",
+    "CSCI 1113",
+    "CSCI 1133",
+    "CSCI 1133H",
+    "EE 1301"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ohWWp615": {
+   "codes": [
+    "CSCI 5127W",
+    "MGMT 4171W",
+    "PDES 4701W",
+    "PDES 4702W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-uaHLblYu": {
+   "codes": [
+    "DESI 1311",
+    "DESI 2101",
+    "DESI 2701",
+    "PDES 2702",
+    "PDES 2777"
+   ],
+   "sourceRef": "program"
+  },
+  "set-liY31WjX": {
+   "codes": [
+    "PHYS 1101W",
+    "PHYS 1301W",
+    "PHYS 1401V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-uOvHngDD": {
+   "codes": [
+    "MATH 1271",
+    "MATH 1371",
+    "STAT 3011"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ADES 4215": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Development: Softlines",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2213 or DHA 2213 or apparel design major or clothing design major or retail merchandising major or instr consent"
+    },
+    "sourceRef": "course-0092601"
+   },
+   "sourceRef": "course-0092601"
+  },
+  "ANTH 4035": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ethnographic Research Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1003 or 1005 or grad student"
+    },
+    "sourceRef": "course-0087271"
+   },
+   "sourceRef": "course-0087271"
+  },
+  "ARTS 3140": {
+   "catalogTerm": "Fall 2026",
+   "title": "Figure Drawing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101"
+    },
+    "sourceRef": "course-8168601"
+   },
+   "sourceRef": "course-8168601"
+  },
+  "CSCI 1103": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computer Programming in Java",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036671"
+   },
+   "sourceRef": "course-0036671"
+  },
+  "CSCI 1113": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to C/C++ Programming for Scientists and Engineers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1271 or Math 1371 or Math 1571H or instr consent."
+    },
+    "sourceRef": "course-0036691"
+   },
+   "sourceRef": "course-0036691"
+  },
+  "CSCI 1133": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8096661"
+   },
+   "sourceRef": "course-8096661"
+  },
+  "CSCI 1133H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[concurrent registration is required (or allowed) in MATH 1271 or concurrent registration is required (or allowed) in MATH 1371 or concurrent registration is required (or allowed) in MATH 1571H], CSci majors, pre-majors in CSE/CLA, honors student"
+    },
+    "sourceRef": "course-8110721"
+   },
+   "sourceRef": "course-8110721"
+  },
+  "CSCI 5127W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Embodied Computing: Design & Prototyping",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162951"
+   },
+   "sourceRef": "course-8162951"
+  },
+  "DES 1002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Improvisation for Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8182431"
+   },
+   "sourceRef": "course-8182431"
+  },
+  "DES 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Career and Internship Preparation for Design",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8037091"
+   },
+   "sourceRef": "course-8037091"
+  },
+  "DES 5902": {
+   "catalogTerm": "Fall 2026",
+   "title": "Wearable Technology Laboratory Practicum",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8189031"
+   },
+   "sourceRef": "course-8189031"
+  },
+  "DESI 1201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design Justice, Ethics, & Sustainability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275881"
+   },
+   "sourceRef": "course-8275881"
+  },
+  "DESI 1311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Visual Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0121371"
+   },
+   "sourceRef": "course-0121371"
+  },
+  "DESI 2101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8015051"
+   },
+   "sourceRef": "course-8015051"
+  },
+  "DESI 2701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Creative Design Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8069961"
+   },
+   "sourceRef": "course-8069961"
+  },
+  "DESI 5185": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Factors in Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977461"
+   },
+   "sourceRef": "course-7977461"
+  },
+  "DESI 5901": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Wearable Technology",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8188891"
+   },
+   "sourceRef": "course-8188891"
+  },
+  "EE 1301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computing Systems",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0166341"
+   },
+   "sourceRef": "course-0166341"
+  },
+  "ESPM 3603": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Life Cycle Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975901"
+   },
+   "sourceRef": "course-7975901"
+  },
+  "GDES 2342": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interaction Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8073501"
+   },
+   "sourceRef": "course-8073501"
+  },
+  "GDES 3353": {
+   "catalogTerm": "Fall 2026",
+   "title": "Packaging and Display",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0126771"
+   },
+   "sourceRef": "course-0126771"
+  },
+  "LAW 5026": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intellectual Property In Practice",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8118011"
+   },
+   "sourceRef": "course-8118011"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "MATH 1371": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0036921"
+   },
+   "sourceRef": "course-0036921"
+  },
+  "ME 2011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Engineering",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE pre-major"
+    },
+    "sourceRef": "course-0050191"
+   },
+   "sourceRef": "course-0050191"
+  },
+  "MGMT 3015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Entrepreneurship",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7948151"
+   },
+   "sourceRef": "course-7948151"
+  },
+  "MGMT 4085": {
+   "catalogTerm": "Fall 2026",
+   "title": "Trends in Entrepreneurship",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8025381"
+   },
+   "sourceRef": "course-8025381"
+  },
+  "MGMT 4171W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Entrepreneurship in Action I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8025391"
+   },
+   "sourceRef": "course-8025391"
+  },
+  "MGMT 4172": {
+   "catalogTerm": "Fall 2026",
+   "title": "Entrepreneurship in Action II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4171"
+    },
+    "sourceRef": "course-8025401"
+   },
+   "sourceRef": "course-8025401"
+  },
+  "MKTG 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "ECON 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 1165"
+      }
+     ]
+    },
+    "sourceRef": "course-0131271"
+   },
+   "sourceRef": "course-0131271"
+  },
+  "PDES 2702": {
+   "catalogTerm": "Fall 2026",
+   "title": "Concept Sketching",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8069971"
+   },
+   "sourceRef": "course-8069971"
+  },
+  "PDES 2703": {
+   "catalogTerm": "Fall 2026",
+   "title": "Concept Visualization and Presentation 1",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8154751"
+   },
+   "sourceRef": "course-8154751"
+  },
+  "PDES 2704": {
+   "catalogTerm": "Fall 2026",
+   "title": "Concept Visualization and Presentation 2",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8174251"
+   },
+   "sourceRef": "course-8174251"
+  },
+  "PDES 2771": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Design Studio 1",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8174241"
+   },
+   "sourceRef": "course-8174241"
+  },
+  "PDES 2772": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Design Studio 2",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8174381"
+   },
+   "sourceRef": "course-8174381"
+  },
+  "PDES 2777": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Form and Model Making",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8083941"
+   },
+   "sourceRef": "course-8083941"
+  },
+  "PDES 3196": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Design Internship",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8154561"
+   },
+   "sourceRef": "course-8154561"
+  },
+  "PDES 3704": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer-Aided Design 1: Solid Modeling and Rendering",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101131"
+   },
+   "sourceRef": "course-8101131"
+  },
+  "PDES 3705": {
+   "catalogTerm": "Fall 2026",
+   "title": "History and Future of Product Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8133241"
+   },
+   "sourceRef": "course-8133241"
+  },
+  "PDES 3706": {
+   "catalogTerm": "Fall 2026",
+   "title": "Designing for Manufacture",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8141501"
+   },
+   "sourceRef": "course-8141501"
+  },
+  "PDES 3711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Innovation Lab",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PDes 2772 OR Junior/Senior (any major) or permission from instructor"
+    },
+    "sourceRef": "course-8070001"
+   },
+   "sourceRef": "course-8070001"
+  },
+  "PDES 3714": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer-Aided Design Methods 2: Surface Modeling and Rendering",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8191541"
+   },
+   "sourceRef": "course-8191541"
+  },
+  "PDES 3715": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design and Food",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8095351"
+   },
+   "sourceRef": "course-8095351"
+  },
+  "PDES 3737": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Design Portfolio",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8202221"
+   },
+   "sourceRef": "course-8202221"
+  },
+  "PDES 3771": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Design Studio 3",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8174411"
+   },
+   "sourceRef": "course-8174411"
+  },
+  "PDES 4312": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Footwear Design and Construction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8270801"
+   },
+   "sourceRef": "course-8270801"
+  },
+  "PDES 4322": {
+   "catalogTerm": "Fall 2026",
+   "title": "Furniture Design: From Concept to Production",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168681"
+   },
+   "sourceRef": "course-8168681"
+  },
+  "PDES 4701W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Design Studio 4",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8156981"
+   },
+   "sourceRef": "course-8156981"
+  },
+  "PDES 4702W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Design Studio",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8159701"
+   },
+   "sourceRef": "course-8159701"
+  },
+  "PDES 5701": {
+   "catalogTerm": "Fall 2026",
+   "title": "User-Centered Design Studio",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8069981"
+   },
+   "sourceRef": "course-8069981"
+  },
+  "PDES 5703": {
+   "catalogTerm": "Fall 2026",
+   "title": "Prototyping Methods",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8083951"
+   },
+   "sourceRef": "course-8083951"
+  },
+  "PHYS 1101W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory College Physics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra, plane geometry, trigonometry; primarily for students interested in technical areas"
+    },
+    "sourceRef": "course-0020661"
+   },
+   "sourceRef": "course-0020661"
+  },
+  "PHYS 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Science and Engineering I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020701"
+   },
+   "sourceRef": "course-0020701"
+  },
+  "PHYS 1401V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Physics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors program or with permission, Prereq or Concurrent: MATH 1271/1371/1571H or equivalent"
+    },
+    "sourceRef": "course-0020731"
+   },
+   "sourceRef": "course-0020731"
+  },
+  "SCO 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Supply Chain and Operations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131311"
+   },
+   "sourceRef": "course-0131311"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "UX 3131": {
+   "catalogTerm": "Fall 2026",
+   "title": "User Experience Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8083881"
+   },
+   "sourceRef": "course-8083881"
+  },
+  "UX 3132": {
+   "catalogTerm": "Fall 2026",
+   "title": "Service Design Studio",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8155701"
+   },
+   "sourceRef": "course-8155701"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-224020122",
+   "label": "Program Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-224020122",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-431608",
+      "type": "credits",
+      "courseSet": "set-431608",
+      "minCredits": 50,
+      "sourceRef": "program",
+      "label": "Product Design Core"
+     },
+     {
+      "id": "r-JduxPj7N",
+      "type": "credits",
+      "courseSet": "set-JduxPj7N",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Computer Programming"
+     },
+     {
+      "id": "r-kb6wEGCm",
+      "type": "course",
+      "code": "PDES 3196",
+      "sourceRef": "program",
+      "label": "Internship"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-byvO8Mpx",
+   "label": "Design Justice, Ethics, & Sustainability Requirement",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-X4PZzF4G",
+    "type": "course",
+    "code": "DESI 1201",
+    "sourceRef": "program",
+    "label": "Design Justice, Ethics, & Sustainability Requirement"
+   }
+  },
+  {
+   "id": "g-4OhUa3PN",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-CmwzQVzF",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-7Xs1mlY8",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-7Xs1mlY8-1",
+        "type": "course",
+        "code": "ARTS 3140",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-7Xs1mlY8-2",
+        "type": "course",
+        "code": "UX 3131",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-7Xs1mlY8-3",
+        "type": "course",
+        "code": "PDES 4322",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-7Xs1mlY8-4",
+        "type": "course",
+        "code": "PDES 3714",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-7Xs1mlY8-5",
+        "type": "course",
+        "code": "PDES 5703",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Traditional Industrial Design"
+     },
+     {
+      "id": "r-ZCfKdOar",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-ZCfKdOar-1",
+        "type": "course",
+        "code": "ADES 4215",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ZCfKdOar-2",
+        "type": "course",
+        "code": "ARTS 3140",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ZCfKdOar-3",
+        "type": "course",
+        "code": "DESI 5901",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ZCfKdOar-4",
+        "type": "course",
+        "code": "DES 5902",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Wearable Technology"
+     },
+     {
+      "id": "r-iTqJx4YJ",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-iTqJx4YJ-1",
+        "type": "course",
+        "code": "ARTS 3140",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-iTqJx4YJ-2",
+        "type": "course",
+        "code": "UX 3131",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-iTqJx4YJ-3",
+        "type": "course",
+        "code": "UX 3132",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-iTqJx4YJ-4",
+        "type": "course",
+        "code": "GDES 2342",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "User Experience"
+     },
+     {
+      "id": "r-gSZLYSMN",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-gSZLYSMN-1",
+        "type": "course",
+        "code": "ANTH 4035",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-gSZLYSMN-2",
+        "type": "course",
+        "code": "UX 3132",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-gSZLYSMN-3",
+        "type": "course",
+        "code": "ESPM 3603",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-gSZLYSMN-4",
+        "type": "course",
+        "code": "PDES 5701",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Design Research"
+     },
+     {
+      "id": "r-OYEbHGzG",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-OYEbHGzG-1",
+        "type": "course",
+        "code": "CSCI 5127W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OYEbHGzG-2",
+        "type": "course",
+        "code": "ESPM 3603",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OYEbHGzG-3",
+        "type": "course",
+        "code": "ME 2011",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OYEbHGzG-4",
+        "type": "course",
+        "code": "SCO 3001",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Product Engineering"
+     },
+     {
+      "id": "r-QhZ15gVh",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-QhZ15gVh-1",
+        "type": "course",
+        "code": "LAW 5026",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-QhZ15gVh-2",
+        "type": "course",
+        "code": "MGMT 4085",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-QhZ15gVh-3",
+        "type": "course",
+        "code": "MGMT 4171W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-QhZ15gVh-4",
+        "type": "course",
+        "code": "MGMT 4172",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Entrepreneurship"
+     },
+     {
+      "id": "r-3AmJHxek",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-3AmJHxek-1",
+        "type": "course",
+        "code": "UX 3131",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-3AmJHxek-2",
+        "type": "course",
+        "code": "GDES 3353",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-3AmJHxek-3",
+        "type": "course",
+        "code": "LAW 5026",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-3AmJHxek-4",
+        "type": "course",
+        "code": "MKTG 3001",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Packaging and Marketing"
+     },
+     {
+      "id": "r-XgEcN024",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-XgEcN024-1",
+        "type": "course",
+        "code": "DES 1002",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-XgEcN024-2",
+        "type": "course",
+        "code": "PDES 4312",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-XgEcN024-3",
+        "type": "course",
+        "code": "PDES 3715",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Other Product Design Electives"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-sLRZTYPb",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ohWWp615",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-ohWWp615-credits",
+      "type": "credits",
+      "courseSet": "set-ohWWp615",
+      "minCredits": 1,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-ohWWp615-min",
+      "type": "count",
+      "courseSet": "set-ohWWp615",
+      "minCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-ra3WrtrF",
+   "label": "Admission Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ZoFq1Hze",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-uaHLblYu",
+      "type": "credits",
+      "courseSet": "set-uaHLblYu",
+      "minCredits": 15,
+      "sourceRef": "program",
+      "label": "Product Design Pre-Major Courses"
+     },
+     {
+      "id": "r-liY31WjX",
+      "type": "credits",
+      "courseSet": "set-liY31WjX",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Physics"
+     },
+     {
+      "id": "r-uOvHngDD",
+      "type": "credits",
+      "courseSet": "set-uOvHngDD",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Calculus"
+     }
+    ],
+    "label": "Pre-Major Courses"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Admission to the full major status program is determined by a competitive holistic review, which includes an interview, GPA, and a portfolio review after completion of pre-major coursework.\nAll degree-seeking students must complete the University\u2019s Liberal Education requirements .\nAt least 18 credits upper division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nView a sample plan for this major here: https://sampleplan.umn.edu/node/161 Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

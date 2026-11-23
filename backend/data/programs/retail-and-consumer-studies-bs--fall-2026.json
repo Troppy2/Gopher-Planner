@@ -1,0 +1,1010 @@
+{
+ "schemaVersion": 2,
+ "id": "retail-and-consumer-studies-bs",
+ "name": "Retail and Consumer Studies B.S.",
+ "officialName": "Retail and Consumer Studies B.S.",
+ "officialProgramId": "093120122",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Retail and Consumer Studies B.S., revision 093120122-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/093120122, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/093120122",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 093120122-2026-09-08"
+  },
+  "course-0062811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062811",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1101, version 0062811-2024-09-03"
+  },
+  "course-0099201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1101, version 0099201-2024-09-03"
+  },
+  "course-0037021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0037021",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 1871, version 0037021-2016-09-06"
+  },
+  "course-0133311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133311",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2051, version 0133311-2024-09-03"
+  },
+  "course-0138051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138051",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2551, version 0138051-2022-09-06"
+  },
+  "course-0011481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3811, version 0011481-2024-05-13"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0016211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016211",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3022, version 0016211-2025-09-02"
+  },
+  "course-0131331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131331",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3001, version 0131331-2021-05-17"
+  },
+  "course-0131271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131271",
+   "retrieved": "2026-11-23",
+   "section": "Course record MKTG 3001, version 0131271-2022-09-06"
+  },
+  "course-8015051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015051",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 2101, version 8015051-2025-09-02"
+  },
+  "course-8069961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069961",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 2701, version 8069961-2025-09-02"
+  },
+  "course-0121371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0121371",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 1311, version 0121371-2025-09-02"
+  },
+  "course-8275881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275881",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 1201, version 8275881-2025-09-02"
+  },
+  "course-0140841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0140841",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 2215, version 0140841-2025-09-02"
+  },
+  "course-8153061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8153061",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 2234, version 8153061-2026-09-08"
+  },
+  "course-8069861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069861",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 3124, version 8069861-2023-09-05"
+  },
+  "course-7986681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7986681",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 3201, version 7986681-2025-09-02"
+  },
+  "course-0128761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128761",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 3242, version 0128761-2025-09-02"
+  },
+  "course-8014251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8014251",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 4117W, version 8014251-2025-09-02"
+  },
+  "course-8047961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8047961",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 4196, version 8047961-2026-09-08"
+  },
+  "course-0092631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092631",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 4217, version 0092631-2025-09-02"
+  },
+  "course-8114481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114481",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 4248, version 8114481-2023-09-05"
+  },
+  "course-0128241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128241",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 2213, version 0128241-2023-09-05"
+  },
+  "course-0128111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 2214, version 0128111-2025-01-21"
+  },
+  "course-0092531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 3121, version 0092531-2023-09-05"
+  },
+  "course-0128331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128331",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 3217, version 0128331-2023-09-05"
+  },
+  "course-0092601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092601",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 4215, version 0092601-2023-09-05"
+  },
+  "course-8083841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083841",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 4218W, version 8083841-2020-01-21"
+  },
+  "course-8047441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8047441",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 3196, version 8047441-2026-09-08"
+  },
+  "course-8047631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8047631",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 3170, version 8047631-2025-09-02"
+  },
+  "course-0141021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0141021",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 3243, version 0141021-2025-09-02"
+  },
+  "course-8205641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8205641",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 3244, version 8205641-2025-09-02"
+  },
+  "course-0092591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092591",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 4212W, version 0092591-2019-09-03"
+  },
+  "course-8006831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006831",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 4216, version 8006831-2025-09-02"
+  },
+  "course-8205361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8205361",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 4234, version 8205361-2026-09-08"
+  },
+  "course-8259871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8259871",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 4235, version 8259871-2024-09-03"
+  },
+  "course-7953791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953791",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 4247, version 7953791-2023-09-05"
+  },
+  "course-0131311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131311",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCO 3001, version 0131311-2022-09-06"
+  },
+  "course-8155701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8155701",
+   "retrieved": "2026-11-23",
+   "section": "Course record UX 3132, version 8155701-2026-09-08"
+  }
+ },
+ "courseSets": {
+  "set-424221": {
+   "codes": [
+    "APEC 1101",
+    "ECON 1101",
+    "CI 1871",
+    "BA 2051",
+    "BA 2551",
+    "SOC 3811",
+    "STAT 3011",
+    "STAT 3022",
+    "MGMT 3001",
+    "MKTG 3001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-om8nmh05": {
+   "codes": [
+    "DESI 2101",
+    "DESI 2701",
+    "DESI 1311",
+    "DESI 1201",
+    "RM 2215",
+    "RM 2234",
+    "RM 3124",
+    "RM 3201",
+    "RM 3242",
+    "RM 4117W",
+    "RM 4196",
+    "RM 4217",
+    "RM 4248"
+   ],
+   "sourceRef": "program"
+  },
+  "set-sNWb7mZT": {
+   "codes": [
+    "ADES 2213",
+    "ADES 2214",
+    "ADES 3121",
+    "ADES 3217",
+    "ADES 4215",
+    "ADES 4218W",
+    "DESI 3196",
+    "RM 3170",
+    "RM 3243",
+    "RM 3244",
+    "RM 4212W",
+    "RM 4216",
+    "RM 4234",
+    "RM 4235",
+    "RM 4247",
+    "SCO 3001",
+    "UX 3132"
+   ],
+   "sourceRef": "program"
+  },
+  "set-QLnKtliK": {
+   "codes": [
+    "ADES 4218W",
+    "RM 4117W",
+    "RM 4212W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ADES 2213": {
+   "catalogTerm": "Fall 2026",
+   "title": "Textile Product Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128241"
+   },
+   "sourceRef": "course-0128241"
+  },
+  "ADES 2214": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communicating Apparel Products",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128111"
+   },
+   "sourceRef": "course-0128111"
+  },
+  "ADES 3121": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Fashion, 19th to 21st Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0092531"
+   },
+   "sourceRef": "course-0092531"
+  },
+  "ADES 3217": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fashion: Trends and Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128331"
+   },
+   "sourceRef": "course-0128331"
+  },
+  "ADES 4215": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Development: Softlines",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2213 or DHA 2213 or apparel design major or clothing design major or retail merchandising major or instr consent"
+    },
+    "sourceRef": "course-0092601"
+   },
+   "sourceRef": "course-0092601"
+  },
+  "ADES 4218W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fashion, Design, and the Global Industry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Upper level undergraduate or grad student"
+    },
+    "sourceRef": "course-8083841"
+   },
+   "sourceRef": "course-8083841"
+  },
+  "APEC 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062811"
+   },
+   "sourceRef": "course-0062811"
+  },
+  "BA 2051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modeling Business Scenarios in Excel",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0133311"
+   },
+   "sourceRef": "course-0133311"
+  },
+  "BA 2551": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business Statistics in R",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Math 1031 or equiv]"
+    },
+    "sourceRef": "course-0138051"
+   },
+   "sourceRef": "course-0138051"
+  },
+  "CI 1871": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer Literacy and Problem Solving",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0037021"
+   },
+   "sourceRef": "course-0037021"
+  },
+  "DESI 1201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design Justice, Ethics, & Sustainability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275881"
+   },
+   "sourceRef": "course-8275881"
+  },
+  "DESI 1311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Visual Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0121371"
+   },
+   "sourceRef": "course-0121371"
+  },
+  "DESI 2101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8015051"
+   },
+   "sourceRef": "course-8015051"
+  },
+  "DESI 2701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Creative Design Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8069961"
+   },
+   "sourceRef": "course-8069961"
+  },
+  "DESI 3196": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Study: National or International",
+   "minimumCredits": 1,
+   "maximumCredits": 10,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-8047441"
+   },
+   "sourceRef": "course-8047441"
+  },
+  "ECON 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099201"
+   },
+   "sourceRef": "course-0099201"
+  },
+  "MGMT 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals of Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131331"
+   },
+   "sourceRef": "course-0131331"
+  },
+  "MKTG 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "ECON 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 1165"
+      }
+     ]
+    },
+    "sourceRef": "course-0131271"
+   },
+   "sourceRef": "course-0131271"
+  },
+  "RM 2215": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Retail and Consumer Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0140841"
+   },
+   "sourceRef": "course-0140841"
+  },
+  "RM 2234": {
+   "catalogTerm": "Fall 2026",
+   "title": "Retail and Innovation: Technology, Consumers, and Social Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8153061"
+   },
+   "sourceRef": "course-8153061"
+  },
+  "RM 3124": {
+   "catalogTerm": "Fall 2026",
+   "title": "Consumers of Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8069861"
+   },
+   "sourceRef": "course-8069861"
+  },
+  "RM 3170": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Retail and Consumer Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8047631"
+   },
+   "sourceRef": "course-8047631"
+  },
+  "RM 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Career and Internship Preparation for Retail and Consumer Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7986681"
+   },
+   "sourceRef": "course-7986681"
+  },
+  "RM 3242": {
+   "catalogTerm": "Fall 2026",
+   "title": "Retail Buying",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128761"
+   },
+   "sourceRef": "course-0128761"
+  },
+  "RM 3243": {
+   "catalogTerm": "Fall 2026",
+   "title": "Visual Merchandising",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2215 or instructor consent"
+    },
+    "sourceRef": "course-0141021"
+   },
+   "sourceRef": "course-0141021"
+  },
+  "RM 3244": {
+   "catalogTerm": "Fall 2026",
+   "title": "Virtual Reality in Design and Retailing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8205641"
+   },
+   "sourceRef": "course-8205641"
+  },
+  "RM 4117W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Omnichannel Environments and Shopper Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8014251"
+   },
+   "sourceRef": "course-8014251"
+  },
+  "RM 4196": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship in Retail and Consumer Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8047961"
+   },
+   "sourceRef": "course-8047961"
+  },
+  "RM 4212W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dress, Society, and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Jr or sr or grad student], [design major or minor or instr consent]"
+    },
+    "sourceRef": "course-0092591"
+   },
+   "sourceRef": "course-0092591"
+  },
+  "RM 4216": {
+   "catalogTerm": "Fall 2026",
+   "title": "Retail Brand Essentials",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8006831"
+   },
+   "sourceRef": "course-8006831"
+  },
+  "RM 4217": {
+   "catalogTerm": "Fall 2026",
+   "title": "International Retail Markets",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0092631"
+   },
+   "sourceRef": "course-0092631"
+  },
+  "RM 4234": {
+   "catalogTerm": "Fall 2026",
+   "title": "Digital Retail Analytics and Social Media",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8205361"
+   },
+   "sourceRef": "course-8205361"
+  },
+  "RM 4235": {
+   "catalogTerm": "Fall 2026",
+   "title": "Consumer and Design Insights: Data-Driven Decision Making",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8259871"
+   },
+   "sourceRef": "course-8259871"
+  },
+  "RM 4247": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Buying and Sourcing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7953791"
+   },
+   "sourceRef": "course-7953791"
+  },
+  "RM 4248": {
+   "catalogTerm": "Fall 2026",
+   "title": "Creative Leadership in Retailing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8114481"
+   },
+   "sourceRef": "course-8114481"
+  },
+  "SCO 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Supply Chain and Operations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131311"
+   },
+   "sourceRef": "course-0131311"
+  },
+  "SOC 3811": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergraduates with strong math background are encouraged to register for 5811 in lieu of 3811 (Soc 5811 offered Fall terms only). Soc Majors/Minors must register A-F."
+    },
+    "sourceRef": "course-0011481"
+   },
+   "sourceRef": "course-0011481"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "STAT 3022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3011"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3021"
+      },
+      {
+       "type": "course",
+       "course_code": "SOC 3811"
+      },
+      {
+       "type": "course",
+       "course_code": "BA 2551"
+      }
+     ]
+    },
+    "sourceRef": "course-0016211"
+   },
+   "sourceRef": "course-0016211"
+  },
+  "UX 3132": {
+   "catalogTerm": "Fall 2026",
+   "title": "Service Design Studio",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8155701"
+   },
+   "sourceRef": "course-8155701"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-093120122",
+   "label": "Basic Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-424221",
+    "type": "credits",
+    "courseSet": "set-424221",
+    "minCredits": 16,
+    "sourceRef": "program",
+    "label": "Retail and Consumer Studies Basic Courses"
+   }
+  },
+  {
+   "id": "g-BXePWmqK",
+   "label": "Core",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-om8nmh05",
+    "type": "credits",
+    "courseSet": "set-om8nmh05",
+    "minCredits": 35,
+    "sourceRef": "program",
+    "label": "Core"
+   }
+  },
+  {
+   "id": "g-NYtcDAv3",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sNWb7mZT",
+    "type": "credits",
+    "courseSet": "set-sNWb7mZT",
+    "minCredits": 21,
+    "sourceRef": "program",
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-jjE7caHf",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-QLnKtliK",
+    "type": "count",
+    "courseSet": "set-QLnKtliK",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nAt least 18 credits upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Admission is competitive and space is limited. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

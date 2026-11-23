@@ -1,0 +1,2003 @@
+{
+ "schemaVersion": 2,
+ "id": "bioproducts-and-biosystems-engineering-bbbe",
+ "name": "Bioproducts and Biosystems Engineering B.B.B.E.",
+ "officialName": "Bioproducts and Biosystems Engineering B.B.B.E.",
+ "officialProgramId": "216629107",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 125,
+ "source": "Bioproducts and Biosystems Engineering B.B.B.E., revision 216629107-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/216629107, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/216629107",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 216629107-2026-09-08"
+  },
+  "course-0036921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036921",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1371, version 0036921-2025-09-02"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0036961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "course-0148561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148561",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1471, version 0148561-2021-05-17"
+  },
+  "course-0036931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036931",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1372, version 0036931-2021-05-17"
+  },
+  "course-0001211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001211",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1272, version 0001211-2021-09-07"
+  },
+  "course-0036971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1572H, version 0036971-2023-09-05"
+  },
+  "course-0148611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148611",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1472, version 0148611-2021-05-17"
+  },
+  "course-0036941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036941",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2373, version 0036941-2021-05-17"
+  },
+  "course-0002801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002801",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2243, version 0002801-2021-05-17"
+  },
+  "course-0043111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043111",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2574H, version 0043111-2026-09-08"
+  },
+  "course-7909141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7909141",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1473, version 7909141-2021-05-17"
+  },
+  "course-8064971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2471, version 8064971-2021-05-17"
+  },
+  "course-0036951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036951",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2374, version 0036951-2021-05-17"
+  },
+  "course-0002821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002821",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2263, version 0002821-2021-05-17"
+  },
+  "course-0036981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036981",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2573H, version 0036981-2023-09-05"
+  },
+  "course-7991841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7991841",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2472, version 7991841-2021-05-17"
+  },
+  "course-0148631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148631",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2473, version 0148631-2021-05-17"
+  },
+  "course-0020701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020701",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1301W, version 0020701-2022-05-16"
+  },
+  "course-0020731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020731",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1401V, version 0020731-2023-09-05"
+  },
+  "course-8179641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179641",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1221, version 8179641-2021-05-17"
+  },
+  "course-0020711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020711",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1302W, version 0020711-2022-01-18"
+  },
+  "course-0020741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020741",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1402V, version 0020741-2021-09-07"
+  },
+  "course-8179651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1222, version 8179651-2021-05-17"
+  },
+  "course-8271261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271261",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1071, version 8271261-2026-09-08"
+  },
+  "course-8077581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077581",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1071H, version 8077581-2026-09-08"
+  },
+  "course-8152521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1081, version 8152521-2024-09-03"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-8271311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271311",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1072, version 8271311-2025-01-21"
+  },
+  "course-8077551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077551",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1072H, version 8077551-2025-01-21"
+  },
+  "course-8077561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077561",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1062, version 8077561-2026-09-08"
+  },
+  "course-8077541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077541",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1066, version 8077541-2026-09-08"
+  },
+  "course-8152841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152841",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1082, version 8152841-2023-05-15"
+  },
+  "course-8152831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152831",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1086, version 8152831-2025-01-21"
+  },
+  "course-0054161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009, version 0054161-2020-09-08"
+  },
+  "course-7908161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009H, version 7908161-2020-09-08"
+  },
+  "course-7956551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7956551",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 2001, version 7956551-2020-09-08"
+  },
+  "course-0043361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043361",
+   "retrieved": "2026-11-23",
+   "section": "Course record AEM 2021, version 0043361-2015-01-20"
+  },
+  "course-7956451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7956451",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 1001, version 7956451-2008-09-02"
+  },
+  "course-8172851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172851",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 2003, version 8172851-2024-01-16"
+  },
+  "course-8052181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8052181",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 3002, version 8052181-2022-09-06"
+  },
+  "course-8066641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8066641",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 3012, version 8066641-2020-01-21"
+  },
+  "course-0040101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0040101",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 3013, version 0040101-2023-09-05"
+  },
+  "course-7998661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7998661",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 3033, version 7998661-2023-09-05"
+  },
+  "course-8044821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8044821",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 3043, version 8044821-2023-09-05"
+  },
+  "course-0040121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0040121",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 4013, version 0040121-2025-09-02"
+  },
+  "course-0040131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0040131",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 4023W, version 0040131-2019-09-03"
+  },
+  "course-7956721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7956721",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 4303, version 7956721-2021-01-19"
+  },
+  "course-7956931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7956931",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 4502W, version 7956931-2021-01-19"
+  },
+  "course-7990781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990781",
+   "retrieved": "2026-11-23",
+   "section": "Course record SSM 4407W, version 7990781-2024-01-16"
+  },
+  "course-7956941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7956941",
+   "retrieved": "2026-11-23",
+   "section": "Course record SSM 4504W, version 7956941-2024-01-16"
+  },
+  "course-0142911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0142911",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 3007W, version 0142911-2018-09-04"
+  },
+  "course-0053671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053671",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3612W, version 0053671-2016-09-09"
+  },
+  "course-0052281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052281",
+   "retrieved": "2026-11-23",
+   "section": "Course record ME 4431W, version 0052281-2015-01-20"
+  }
+ },
+ "courseSets": {
+  "set-HlgKpfyN": {
+   "codes": [
+    "MATH 1371",
+    "MATH 1271",
+    "MATH 1571H",
+    "MATH 1471"
+   ],
+   "sourceRef": "program"
+  },
+  "set-QKMxX9S3": {
+   "codes": [
+    "MATH 1372",
+    "MATH 1272",
+    "MATH 1572H",
+    "MATH 1472"
+   ],
+   "sourceRef": "program"
+  },
+  "set-6VF5OESR": {
+   "codes": [
+    "MATH 2373",
+    "MATH 2243",
+    "MATH 2574H",
+    "MATH 1473",
+    "MATH 2471"
+   ],
+   "sourceRef": "program"
+  },
+  "set-zQH7M7jH": {
+   "codes": [
+    "MATH 2374",
+    "MATH 2263",
+    "MATH 2573H",
+    "MATH 2472",
+    "MATH 2473"
+   ],
+   "sourceRef": "program"
+  },
+  "set-8eFPoOkL": {
+   "codes": [
+    "PHYS 1301W",
+    "PHYS 1401V",
+    "PHYS 1221"
+   ],
+   "sourceRef": "program"
+  },
+  "set-zKC8esXA": {
+   "codes": [
+    "PHYS 1302W",
+    "PHYS 1402V",
+    "PHYS 1222"
+   ],
+   "sourceRef": "program"
+  },
+  "set-t8w02Fzx": {
+   "codes": [
+    "CHEM 1071",
+    "CHEM 1071H",
+    "CHEM 1081",
+    "CHEM 1061",
+    "CHEM 1065"
+   ],
+   "sourceRef": "program"
+  },
+  "set-DxJrYiM8": {
+   "codes": [
+    "CHEM 1072",
+    "CHEM 1072H",
+    "CHEM 1062",
+    "CHEM 1066"
+   ],
+   "sourceRef": "program"
+  },
+  "set-oRVvtXlW": {
+   "codes": [
+    "CHEM 1082",
+    "CHEM 1086"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Gg57t2sU": {
+   "codes": [
+    "BIOL 1009",
+    "BIOL 1009H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-3RsQkWKZ": {
+   "codes": [
+    "BBE 2001",
+    "AEM 2021"
+   ],
+   "sourceRef": "program"
+  },
+  "set-430861": {
+   "codes": [
+    "BBE 1001",
+    "BBE 2003",
+    "BBE 3002",
+    "BBE 3012",
+    "BBE 3013",
+    "BBE 3033",
+    "BBE 3043",
+    "BBE 4013",
+    "BBE 4023W",
+    "BBE 4303",
+    "BBE 4502W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-blZN0Z0Q": {
+   "codes": [
+    "MATH 2373",
+    "MATH 2243",
+    "MATH 2574H",
+    "MATH 1473",
+    "MATH 2471"
+   ],
+   "sourceRef": "program"
+  },
+  "set-A8WmH2yO": {
+   "codes": [
+    "MATH 2374",
+    "MATH 2263",
+    "MATH 2573H",
+    "MATH 2472",
+    "MATH 2473"
+   ],
+   "sourceRef": "program"
+  },
+  "set-UlgyBIMh": {
+   "codes": [
+    "BBE 4023W",
+    "BBE 4502W",
+    "SSM 4407W",
+    "SSM 4504W",
+    "PMB 3007W",
+    "ESPM 3612W",
+    "ME 4431W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AEM 2021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Statics and Dynamics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Phys 1301W, [concurrent registration is required (or allowed) in Math 2374 or equiv], CSE"
+    },
+    "sourceRef": "course-0043361"
+   },
+   "sourceRef": "course-0043361"
+  },
+  "BBE 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Bioproducts and Biosystems Engineering Orientation",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7956451"
+   },
+   "sourceRef": "course-7956451"
+  },
+  "BBE 2001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mechanics and Structural Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7956551"
+   },
+   "sourceRef": "course-7956551"
+  },
+  "BBE 2003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer Applications in Bioproducts and Biosystems Engineering",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(Math 1271 or Math 1371, Math 1272 or Math 1372, Concurrent registration in [{Math 2243 or 2373} OR {Math 2263 or 2374}]) CSE lower division or CSE Upper Division BBE Majors or CFANS Pre-BBE (Premajor) or instructor consent."
+    },
+    "sourceRef": "course-8172851"
+   },
+   "sourceRef": "course-8172851"
+  },
+  "BBE 3002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Engineering Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BBE 2003, Chem 1061, Math 2243 or Math 2373, BBE or Pre-BBE student or instr consent"
+    },
+    "sourceRef": "course-8052181"
+   },
+   "sourceRef": "course-8052181"
+  },
+  "BBE 3012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transport in Biological Processes I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BBE 1001 or concurrent registration and BBE 2001 and BBE 3033 and Math 2243 or Math 2373 or Math 2574H and Math 2263 or Math 2374 or Math 2573H and Phys 1302W or Phys 1402V"
+    },
+    "sourceRef": "course-8066641"
+   },
+   "sourceRef": "course-8066641"
+  },
+  "BBE 3013": {
+   "catalogTerm": "Fall 2026",
+   "title": "Engineering Principles of Molecular and Cellular Processes",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1009 or BIOL 2003; and CHEM 1062/CHEM 1066 or equivalent or CHEM 1082; MATH 1372 or MATH 1282"
+    },
+    "sourceRef": "course-0040101"
+   },
+   "sourceRef": "course-0040101"
+  },
+  "BBE 3033": {
+   "catalogTerm": "Fall 2026",
+   "title": "Material and Energy Balances in Biological Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CHEM 1062 or CHEM 1082, MATH 1372 or equivalent or MATH 1282 and PHYS 1302W or PHYS 1222"
+    },
+    "sourceRef": "course-7998661"
+   },
+   "sourceRef": "course-7998661"
+  },
+  "BBE 3043": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biological and Environmental Thermodynamics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1009 or BIOL 2003 and CHEM 1065 or equivalent or CHEM 1081, MATH 1372 or MATH 1282 and PHYS 1302W or PHYS 1222"
+    },
+    "sourceRef": "course-8044821"
+   },
+   "sourceRef": "course-8044821"
+  },
+  "BBE 4013": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transport in Biological Processes II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BBE 2003, 3012 and BBE 3043, upper div CSE or grad CSE"
+    },
+    "sourceRef": "course-0040121"
+   },
+   "sourceRef": "course-0040121"
+  },
+  "BBE 4023W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process Control and Instrumentation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Upper div CSE or grad student"
+    },
+    "sourceRef": "course-0040131"
+   },
+   "sourceRef": "course-0040131"
+  },
+  "BBE 4303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Bio-based Materials Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2001 or instr consent"
+    },
+    "sourceRef": "course-7956721"
+   },
+   "sourceRef": "course-7956721"
+  },
+  "BBE 4502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "BBE Capstone Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BBE 3002 and BBE 3012 and BBE 4013 and or concurrent with BBE 4013 and CSE Upper Division."
+    },
+    "sourceRef": "course-7956931"
+   },
+   "sourceRef": "course-7956931"
+  },
+  "BIOL 1009": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054161"
+   },
+   "sourceRef": "course-0054161"
+  },
+  "BIOL 1009H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7908161"
+   },
+   "sourceRef": "course-7908161"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1062": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in 1061 or equiv, concurrent registration is required (or allowed) in 1066; registration for 1066 must precede registration for 1062"
+    },
+    "sourceRef": "course-8077561"
+   },
+   "sourceRef": "course-8077561"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "CHEM 1066": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles II Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1062, 1072, 1072H"
+    },
+    "sourceRef": "course-8077541"
+   },
+   "sourceRef": "course-8077541"
+  },
+  "CHEM 1071": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Chemistry I for Physical Scientists and Engineers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "A strong understanding of College Algebra or Precalculus is recommended. Prerequisite: Concurrent registration is required (or allowed in) CHEM 1065; registration for 1065 must precede registration for 1071."
+    },
+    "sourceRef": "course-8271261"
+   },
+   "sourceRef": "course-8271261"
+  },
+  "CHEM 1071H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8077581"
+   },
+   "sourceRef": "course-8077581"
+  },
+  "CHEM 1072": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Chemistry II for Physical Scientists and Engineers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in 1071 or equivalent, concurrent registration is required in 1066; registration for 1066 must precede registration for 1072"
+    },
+    "sourceRef": "course-8271311"
+   },
+   "sourceRef": "course-8271311"
+  },
+  "CHEM 1072H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Chemistry II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student or permission of University Honors Program."
+    },
+    "sourceRef": "course-8077551"
+   },
+   "sourceRef": "course-8077551"
+  },
+  "CHEM 1081": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8152521"
+   },
+   "sourceRef": "course-8152521"
+  },
+  "CHEM 1082": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8152841"
+   },
+   "sourceRef": "course-8152841"
+  },
+  "CHEM 1086": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences II Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "grade of a C- or better in CHEM 1081 or 1061 or 1071H and CHEM 1065 (lab). Concurrent registration in CHEM 1082 is required."
+    },
+    "sourceRef": "course-8152831"
+   },
+   "sourceRef": "course-8152831"
+  },
+  "ESPM 3612W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Soil and Environmental Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Biol 1009 or equiv, Chem 1021 or equiv; SOIL 2125 recommended"
+    },
+    "sourceRef": "course-0053671"
+   },
+   "sourceRef": "course-0053671"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "MATH 1272": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1271 or equiv] with grade of at least C-"
+    },
+    "sourceRef": "course-0001211"
+   },
+   "sourceRef": "course-0001211"
+  },
+  "MATH 1371": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0036921"
+   },
+   "sourceRef": "course-0036921"
+  },
+  "MATH 1372": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in [1371 or equiv], CSE or pre-Bioprod/Biosys Engr"
+    },
+    "sourceRef": "course-0036931"
+   },
+   "sourceRef": "course-0036931"
+  },
+  "MATH 1471": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus I, First Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148561"
+   },
+   "sourceRef": "course-0148561"
+  },
+  "MATH 1472": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus I, Second Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148611"
+   },
+   "sourceRef": "course-0148611"
+  },
+  "MATH 1473": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus II, First Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7909141"
+   },
+   "sourceRef": "course-7909141"
+  },
+  "MATH 1571H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0036961"
+   },
+   "sourceRef": "course-0036961"
+  },
+  "MATH 1572H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1571H (or equivalent)  honors student"
+    },
+    "sourceRef": "course-0036971"
+   },
+   "sourceRef": "course-0036971"
+  },
+  "MATH 2243": {
+   "catalogTerm": "Fall 2026",
+   "title": "Linear Algebra and Differential Equations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-"
+    },
+    "sourceRef": "course-0002801"
+   },
+   "sourceRef": "course-0002801"
+  },
+  "MATH 2263": {
+   "catalogTerm": "Fall 2026",
+   "title": "Multivariable Calculus",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1372 or 1572] w/grade of at least C-"
+    },
+    "sourceRef": "course-0002821"
+   },
+   "sourceRef": "course-0002821"
+  },
+  "MATH 2373": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Linear Algebra and Differential Equations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bio Prod/Biosys Engr"
+    },
+    "sourceRef": "course-0036941"
+   },
+   "sourceRef": "course-0036941"
+  },
+  "MATH 2374": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Multivariable Calculus and Vector Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bioprod/Biosys Engr"
+    },
+    "sourceRef": "course-0036951"
+   },
+   "sourceRef": "course-0036951"
+  },
+  "MATH 2471": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus II, Second Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8064971"
+   },
+   "sourceRef": "course-8064971"
+  },
+  "MATH 2472": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus III, First Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7991841"
+   },
+   "sourceRef": "course-7991841"
+  },
+  "MATH 2473": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus III, Second Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148631"
+   },
+   "sourceRef": "course-0148631"
+  },
+  "MATH 2573H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus III",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1572H (or equivalent), honors student"
+    },
+    "sourceRef": "course-0036981"
+   },
+   "sourceRef": "course-0036981"
+  },
+  "MATH 2574H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Linear Algebra and Differential Equations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1572H or Math 2573H, honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0043111"
+   },
+   "sourceRef": "course-0043111"
+  },
+  "ME 4431W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Energy Conversion Systems Laboratory",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3333, 4031W, [ME upper div or grad student]"
+    },
+    "sourceRef": "course-0052281"
+   },
+   "sourceRef": "course-0052281"
+  },
+  "PHYS 1221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Life Science Majors I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High School or College Calculus"
+    },
+    "sourceRef": "course-8179641"
+   },
+   "sourceRef": "course-8179641"
+  },
+  "PHYS 1222": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Life Science Majors II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PHYS 1221 or equivalent"
+    },
+    "sourceRef": "course-8179651"
+   },
+   "sourceRef": "course-8179651"
+  },
+  "PHYS 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Science and Engineering I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020701"
+   },
+   "sourceRef": "course-0020701"
+  },
+  "PHYS 1302W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Science and Engineering II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PHYS 1301 or equivalent, Prereq or Concurrent: MATH 1272/1372/1572H or equivalent"
+    },
+    "sourceRef": "course-0020711"
+   },
+   "sourceRef": "course-0020711"
+  },
+  "PHYS 1401V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Physics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors program or with permission, Prereq or Concurrent: MATH 1271/1371/1571H or equivalent"
+    },
+    "sourceRef": "course-0020731"
+   },
+   "sourceRef": "course-0020731"
+  },
+  "PHYS 1402V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Physics II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020741"
+   },
+   "sourceRef": "course-0020741"
+  },
+  "PMB 3007W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Plant, Algal, and Fungal Diversity and Adaptation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One semester college biology"
+    },
+    "sourceRef": "course-0142911"
+   },
+   "sourceRef": "course-0142911"
+  },
+  "SSM 4407W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Manufacturing Principles and Practices",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7990781"
+   },
+   "sourceRef": "course-7990781"
+  },
+  "SSM 4504W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Products Systems Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7956941"
+   },
+   "sourceRef": "course-7956941"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-OgF9heky",
+   "label": "Mathematics",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-OgF9heky",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-HlgKpfyN",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-HlgKpfyN-credits",
+        "type": "credits",
+        "courseSet": "set-HlgKpfyN",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-HlgKpfyN-min",
+        "type": "count",
+        "courseSet": "set-HlgKpfyN",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-HlgKpfyN-max",
+        "type": "count",
+        "courseSet": "set-HlgKpfyN",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Calculus I"
+     },
+     {
+      "id": "r-QKMxX9S3",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-QKMxX9S3-credits",
+        "type": "credits",
+        "courseSet": "set-QKMxX9S3",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-QKMxX9S3-min",
+        "type": "count",
+        "courseSet": "set-QKMxX9S3",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-QKMxX9S3-max",
+        "type": "count",
+        "courseSet": "set-QKMxX9S3",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Calculus II"
+     },
+     {
+      "id": "r-KbLuWfSf",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-6VF5OESR",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-6VF5OESR-credits",
+          "type": "credits",
+          "courseSet": "set-6VF5OESR",
+          "minCredits": 4,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-6VF5OESR-min",
+          "type": "count",
+          "courseSet": "set-6VF5OESR",
+          "minCourses": 1,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-6VF5OESR-max",
+          "type": "count",
+          "courseSet": "set-6VF5OESR",
+          "maxCourses": 2,
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Linear Algebra & Differential Equations"
+       },
+       {
+        "id": "r-zQH7M7jH",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-zQH7M7jH-credits",
+          "type": "credits",
+          "courseSet": "set-zQH7M7jH",
+          "minCredits": 4,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-zQH7M7jH-min",
+          "type": "count",
+          "courseSet": "set-zQH7M7jH",
+          "minCourses": 1,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-zQH7M7jH-max",
+          "type": "count",
+          "courseSet": "set-zQH7M7jH",
+          "maxCourses": 2,
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Multivariable Calculus"
+       }
+      ],
+      "label": "Linear Algebra & Differential Equations OR Multivariable Calculus"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-wh2dNRrB",
+   "label": "Physics",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-wh2dNRrB",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-8eFPoOkL",
+      "type": "credits",
+      "courseSet": "set-8eFPoOkL",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Physics I"
+     },
+     {
+      "id": "r-zKC8esXA",
+      "type": "credits",
+      "courseSet": "set-zKC8esXA",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Physics II"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-ScWqraia",
+   "label": "Chemistry",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ScWqraia",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-t8w02Fzx",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-t8w02Fzx-sequence",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-t8w02Fzx-g1",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-t8w02Fzx-g1-1",
+            "type": "course",
+            "code": "CHEM 1071",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-t8w02Fzx-g1-2",
+            "type": "course",
+            "code": "CHEM 1071H",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-t8w02Fzx-g1-3",
+            "type": "course",
+            "code": "CHEM 1081",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-t8w02Fzx-g1-4",
+            "type": "course",
+            "code": "CHEM 1061",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-t8w02Fzx-g2-1",
+          "type": "course",
+          "code": "CHEM 1065",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-t8w02Fzx-credits",
+        "type": "credits",
+        "minCredits": 4,
+        "courseSet": "set-t8w02Fzx",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Chemistry I Lecture & Lab"
+     },
+     {
+      "id": "r-5mTC8Esr",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-DxJrYiM8",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-DxJrYiM8-sequence",
+          "type": "all",
+          "allowReuse": false,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-DxJrYiM8-g1",
+            "type": "any",
+            "sourceRef": "program",
+            "children": [
+             {
+              "id": "r-DxJrYiM8-g1-1",
+              "type": "course",
+              "code": "CHEM 1072",
+              "sourceRef": "program"
+             },
+             {
+              "id": "r-DxJrYiM8-g1-2",
+              "type": "course",
+              "code": "CHEM 1072H",
+              "sourceRef": "program"
+             },
+             {
+              "id": "r-DxJrYiM8-g1-3",
+              "type": "course",
+              "code": "CHEM 1062",
+              "sourceRef": "program"
+             }
+            ]
+           },
+           {
+            "id": "r-DxJrYiM8-g2-1",
+            "type": "course",
+            "code": "CHEM 1066",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-DxJrYiM8-credits",
+          "type": "credits",
+          "minCredits": 4,
+          "courseSet": "set-DxJrYiM8",
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Chemical Principles II Lecture & Lab"
+       },
+       {
+        "id": "r-oRVvtXlW",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-oRVvtXlW-credits",
+          "type": "credits",
+          "courseSet": "set-oRVvtXlW",
+          "minCredits": 4,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-oRVvtXlW-min",
+          "type": "count",
+          "courseSet": "set-oRVvtXlW",
+          "minCourses": 2,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-oRVvtXlW-max",
+          "type": "count",
+          "courseSet": "set-oRVvtXlW",
+          "maxCourses": 2,
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Chemistry II for the Life Sciences Lecture & Lab"
+       }
+      ],
+      "label": "Chemistry II"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-ntbSe7Z9",
+   "label": "Biological and Additional Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ntbSe7Z9",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-Gg57t2sU",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-Gg57t2sU-credits",
+        "type": "credits",
+        "courseSet": "set-Gg57t2sU",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-Gg57t2sU-min",
+        "type": "count",
+        "courseSet": "set-Gg57t2sU",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-Gg57t2sU-max",
+        "type": "count",
+        "courseSet": "set-Gg57t2sU",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Biology"
+     },
+     {
+      "id": "r-3RsQkWKZ",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-3RsQkWKZ-credits",
+        "type": "credits",
+        "courseSet": "set-3RsQkWKZ",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-3RsQkWKZ-min",
+        "type": "count",
+        "courseSet": "set-3RsQkWKZ",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-3RsQkWKZ-max",
+        "type": "count",
+        "courseSet": "set-3RsQkWKZ",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Additional Requirements"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-216629107",
+   "label": "Common Core",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-430861",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-430861-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-430861-g1-1",
+        "type": "course",
+        "code": "BBE 1001",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-430861-g2-1",
+        "type": "course",
+        "code": "BBE 2003",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-430861-g3-1",
+        "type": "course",
+        "code": "BBE 3002",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-430861-g4-1",
+        "type": "course",
+        "code": "BBE 3012",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-430861-g5-1",
+        "type": "course",
+        "code": "BBE 3013",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-430861-g6-1",
+        "type": "course",
+        "code": "BBE 3033",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-430861-g7-1",
+        "type": "course",
+        "code": "BBE 3043",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-430861-g8-1",
+        "type": "course",
+        "code": "BBE 4013",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-430861-g9-1",
+        "type": "course",
+        "code": "BBE 4023W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-430861-g10-1",
+        "type": "course",
+        "code": "BBE 4303",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-430861-g11-1",
+        "type": "course",
+        "code": "BBE 4502W",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-430861-credits",
+      "type": "credits",
+      "minCredits": 34,
+      "courseSet": "set-430861",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Common Core"
+   }
+  },
+  {
+   "id": "g-Nj4dPMJU",
+   "label": "Additional Mathematics",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-G0NyX12d",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-blZN0Z0Q",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-blZN0Z0Q-credits",
+        "type": "credits",
+        "courseSet": "set-blZN0Z0Q",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-blZN0Z0Q-min",
+        "type": "count",
+        "courseSet": "set-blZN0Z0Q",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-blZN0Z0Q-max",
+        "type": "count",
+        "courseSet": "set-blZN0Z0Q",
+        "maxCourses": 2,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Linear Algebra & Differential Equations"
+     },
+     {
+      "id": "r-A8WmH2yO",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-A8WmH2yO-credits",
+        "type": "credits",
+        "courseSet": "set-A8WmH2yO",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-A8WmH2yO-min",
+        "type": "count",
+        "courseSet": "set-A8WmH2yO",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-A8WmH2yO-max",
+        "type": "count",
+        "courseSet": "set-A8WmH2yO",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Multivariable Calculus"
+     }
+    ],
+    "label": "Linear Algebra & Differential Equations OR Multivariable Calculus"
+   }
+  },
+  {
+   "id": "g-TLRlq7kw",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-UlgyBIMh",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-UlgyBIMh-credits",
+      "type": "credits",
+      "courseSet": "set-UlgyBIMh",
+      "minCredits": 3,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-UlgyBIMh-max",
+      "type": "count",
+      "courseSet": "set-UlgyBIMh",
+      "maxCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Upper Division Writing Intensive in Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University's\u00a0 Liberal Education requirements .\nAll freshmen in the College of Science and Engineering must complete CSE 1001: First-Year Experience.\nAt least 30 upper division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nView\u00a0 Four-year Plans \u00a0for the College of Science and Engineering. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Bioproducts Engineering, Food Engineering, Environmental and Ecological Engineering, Integrated B.S. Bioproducts & Biosystems Eng/M.S. Bioproducts & Biosystems Sci, Eng & Mgmt. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

@@ -1,0 +1,562 @@
+{
+ "schemaVersion": 2,
+ "id": "theatre-arts-ba",
+ "name": "Theatre Arts B.A.",
+ "officialName": "Theatre Arts B.A.",
+ "officialProgramId": "092020217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Theatre Arts B.A., revision 092020217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/092020217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/092020217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 092020217-2026-09-08"
+  },
+  "course-0020931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020931",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 1101W, version 0020931-2022-01-18"
+  },
+  "course-7905141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905141",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 1101V, version 7905141-2022-01-18"
+  },
+  "course-7905251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905251",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 1322, version 7905251-2024-09-03"
+  },
+  "course-0082521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082521",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3171, version 0082521-2022-01-18"
+  },
+  "course-0082531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082531",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3172, version 0082531-2023-01-17"
+  },
+  "course-8033211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8033211",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 1501, version 8033211-2023-01-17"
+  },
+  "course-8033221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8033221",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3571, version 8033221-2024-01-16"
+  },
+  "course-0082511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082511",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3100, version 0082511-2022-01-18"
+  },
+  "course-8258551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8258551",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3300, version 8258551-2023-01-17"
+  },
+  "course-8258581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8258581",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3700, version 8258581-2022-09-06"
+  },
+  "course-8263421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8263421",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3900, version 8263421-2023-09-05"
+  },
+  "course-0082641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082641",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4901, version 0082641-2025-09-02"
+  },
+  "course-8265081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8265081",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4994, version 8265081-2023-09-05"
+  },
+  "course-8168201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168201",
+   "retrieved": "2026-11-23",
+   "section": "Course record DBLN 3010W, version 8168201-2023-01-17"
+  },
+  "course-8175491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8175491",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 3152W, version 8175491-2026-09-08"
+  },
+  "course-0082621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082621",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 4177W, version 0082621-2026-09-08"
+  },
+  "course-7939181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939181",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5179W, version 7939181-2015-01-20"
+  },
+  "course-8101061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101061",
+   "retrieved": "2026-11-23",
+   "section": "Course record TH 5182W, version 8101061-2022-01-18"
+  }
+ },
+ "courseSets": {
+  "set-v7cUP4w5": {
+   "codes": [
+    "TH 1101W",
+    "TH 1101V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-hfw4i9Pd": {
+   "codes": [
+    "TH 3171",
+    "TH 3172"
+   ],
+   "sourceRef": "program"
+  },
+  "set-LmRWxwlQ": {
+   "codes": [
+    "TH 1501",
+    "TH 3571"
+   ],
+   "sourceRef": "program"
+  },
+  "set-EV9ASh4N": {
+   "codes": [
+    "TH 3100"
+   ],
+   "sourceRef": "program"
+  },
+  "set-RPmar8et": {
+   "codes": [
+    "TH 3300",
+    "TH 3700",
+    "TH 3900"
+   ],
+   "sourceRef": "program"
+  },
+  "set-XOJRBAH6": {
+   "codes": [
+    "DBLN 3010W",
+    "TH 3152W",
+    "TH 4177W",
+    "TH 5179W",
+    "TH 5182W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "DBLN 3010W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Playwright in Practice: Writing for the Stage in 21st Century Ireland",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168201"
+   },
+   "sourceRef": "course-8168201"
+  },
+  "TH 1101V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Section: Introduction to the Theater",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student"
+    },
+    "sourceRef": "course-7905141"
+   },
+   "sourceRef": "course-7905141"
+  },
+  "TH 1101W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to the Theatre",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020931"
+   },
+   "sourceRef": "course-0020931"
+  },
+  "TH 1322": {
+   "catalogTerm": "Fall 2026",
+   "title": "Creating the Performance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7905251"
+   },
+   "sourceRef": "course-7905251"
+  },
+  "TH 1501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Design for the Theatre",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8033211"
+   },
+   "sourceRef": "course-8033211"
+  },
+  "TH 3100": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theatre Lab Practicum",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082511"
+   },
+   "sourceRef": "course-0082511"
+  },
+  "TH 3152W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art Under Authoritarianism: Theatre and Music in the Global South",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8175491"
+   },
+   "sourceRef": "course-8175491"
+  },
+  "TH 3171": {
+   "catalogTerm": "Fall 2026",
+   "title": "Western Theatre & Performance Historiography: Part I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082521"
+   },
+   "sourceRef": "course-0082521"
+  },
+  "TH 3172": {
+   "catalogTerm": "Fall 2026",
+   "title": "Western Theatre & Performance Historiography: Part II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082531"
+   },
+   "sourceRef": "course-0082531"
+  },
+  "TH 3300": {
+   "catalogTerm": "Fall 2026",
+   "title": "Performance Practicum",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8258551"
+   },
+   "sourceRef": "course-8258551"
+  },
+  "TH 3571": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Technology for the Theatre",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1501"
+    },
+    "sourceRef": "course-8033221"
+   },
+   "sourceRef": "course-8033221"
+  },
+  "TH 3700": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directing & Dramaturgy Practicum",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8258581"
+   },
+   "sourceRef": "course-8258581"
+  },
+  "TH 3900": {
+   "catalogTerm": "Fall 2026",
+   "title": "Production Practicum",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8263421"
+   },
+   "sourceRef": "course-8263421"
+  },
+  "TH 4177W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of Dramatic Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082621"
+   },
+   "sourceRef": "course-0082621"
+  },
+  "TH 4901": {
+   "catalogTerm": "Fall 2026",
+   "title": "Project Exploration & Development",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082641"
+   },
+   "sourceRef": "course-0082641"
+  },
+  "TH 4994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Project for Theatre:  Directed Research & Creative Activities",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8265081"
+   },
+   "sourceRef": "course-8265081"
+  },
+  "TH 5179W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Text and Performance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1322, [3171 or 3172]] or grad student"
+    },
+    "sourceRef": "course-7939181"
+   },
+   "sourceRef": "course-7939181"
+  },
+  "TH 5182W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Black Drama and Dramaturgies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101061"
+   },
+   "sourceRef": "course-8101061"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-CJh5FD5b",
+   "label": "Foundation Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-v7cUP4w5",
+    "type": "credits",
+    "courseSet": "set-v7cUP4w5",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Introduction to Theatre"
+   }
+  },
+  {
+   "id": "g-FwGBGBNL",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-FwGBGBNL",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-Wp9rYzl0",
+      "type": "course",
+      "code": "TH 1322",
+      "sourceRef": "program",
+      "label": "Performance"
+     },
+     {
+      "id": "r-hfw4i9Pd",
+      "type": "credits",
+      "courseSet": "set-hfw4i9Pd",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Historiography & Literature"
+     },
+     {
+      "id": "r-LmRWxwlQ",
+      "type": "credits",
+      "courseSet": "set-LmRWxwlQ",
+      "minCredits": 5,
+      "sourceRef": "program",
+      "label": "Design & Technology"
+     },
+     {
+      "id": "r-EV9ASh4N",
+      "type": "credits",
+      "courseSet": "set-EV9ASh4N",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Tech Practicum"
+     },
+     {
+      "id": "r-RPmar8et",
+      "type": "credits",
+      "courseSet": "set-RPmar8et",
+      "minCredits": 1,
+      "sourceRef": "program",
+      "label": "Production Practicum"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-E5act9QG",
+   "label": "Project Preparation",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-VocgTPKf",
+    "type": "course",
+    "code": "TH 4901",
+    "sourceRef": "program",
+    "label": "Project Preparation"
+   }
+  },
+  {
+   "id": "g-L86cGSOp",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sSK8swsu",
+    "type": "course",
+    "code": "TH 4994",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-LypxwBtH",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-XOJRBAH6",
+    "type": "count",
+    "courseSet": "set-XOJRBAH6",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the theatre arts BA is TH.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or TH 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nThe theatre arts BA consists of base requirements, common across all sub-plans, and a choice between specialization in one of five sub-plans: comprehensive, social justice/applied drama, directing/dramaturgy/playwriting/criticism, design/technology, or acting & performance. Each sub-plan carries a separate set of requirements to be completed in addition to the base requirements.\nAt least 14 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn no more than one undergraduate degree from the theatre arts program: a BA in theatre arts, a BFA in acting, or a minor in theatre arts. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Comprehensive, Social Justice/Applied Drama, Directing/Dramaturgy/Playwriting/Criticism, Design/Technology, Acting & Performance. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

@@ -1,0 +1,1199 @@
+{
+ "schemaVersion": 2,
+ "id": "developmental-psychology-bs",
+ "name": "Developmental Psychology B.S.",
+ "officialName": "Developmental Psychology B.S.",
+ "officialProgramId": "017220117",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Developmental Psychology B.S., revision 017220117-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/017220117, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/017220117",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 017220117-2026-09-08"
+  },
+  "course-0062651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001, version 0062651-2026-09-08"
+  },
+  "course-7990411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001H, version 7990411-2026-09-08"
+  },
+  "course-0023711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023711",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4331, version 0023711-2024-09-03"
+  },
+  "course-0023661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023661",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4336, version 0023661-2018-01-16"
+  },
+  "course-0023631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023631",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4341, version 0023631-2018-09-04"
+  },
+  "course-0023671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023671",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4343, version 0023671-2018-09-04"
+  },
+  "course-0023641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023641",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4345, version 0023641-2024-09-03"
+  },
+  "course-0023691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023691",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4329, version 0023691-2018-09-04"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-7989021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989021",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3801, version 7989021-2021-05-17"
+  },
+  "course-8003621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003621",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3801H, version 8003621-2021-05-17"
+  },
+  "course-0011481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3811, version 0011481-2024-05-13"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0023651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023651",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 3308W, version 0023651-2024-01-16"
+  },
+  "course-8164021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164021",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 1334, version 8164021-2022-09-06"
+  },
+  "course-8199131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8199131",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 3401, version 8199131-2024-01-16"
+  },
+  "course-8266451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266451",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 3501, version 8266451-2023-09-05"
+  },
+  "course-8176421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176421",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 3601, version 8176421-2024-01-16"
+  },
+  "course-0052051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052051",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4310, version 0052051-2025-01-21"
+  },
+  "course-8205311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8205311",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4314, version 8205311-2021-01-19"
+  },
+  "course-0023611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023611",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4311, version 0023611-2018-09-04"
+  },
+  "course-0023601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023601",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4313W, version 0023601-2019-05-20"
+  },
+  "course-0048971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048971",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4994, version 0048971-2020-01-21"
+  },
+  "course-8187921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187921",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 1301, version 8187921-2021-09-07"
+  },
+  "course-8268901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8268901",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 3701, version 8268901-2024-01-16"
+  },
+  "course-0023581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023581",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4302, version 0023581-2018-01-16"
+  },
+  "course-0023591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023591",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4303, version 0023591-2025-05-19"
+  },
+  "course-0048951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048951",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 5241, version 0048951-2024-09-03"
+  },
+  "course-0165101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165101",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 5251W, version 0165101-2024-09-03"
+  },
+  "course-0156221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0156221",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 5252, version 0156221-2024-09-03"
+  },
+  "course-0156231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0156231",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 5253, version 0156231-2021-09-07"
+  },
+  "course-8064181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064181",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 5254, version 8064181-2024-09-03"
+  },
+  "course-8172611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172611",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 5261, version 8172611-2017-05-22"
+  },
+  "course-7908601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908601",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4347W, version 7908601-2026-09-08"
+  },
+  "course-0137241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0137241",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 3360H, version 0137241-2026-09-08"
+  },
+  "course-8274601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8274601",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 4348H, version 8274601-2025-01-21"
+  },
+  "course-0023571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023571",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 2301, version 0023571-2024-09-03"
+  },
+  "course-0034501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034501",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 3301, version 0034501-2024-09-03"
+  },
+  "course-8253431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253431",
+   "retrieved": "2026-11-23",
+   "section": "Course record CPSY 3301H, version 8253431-2024-09-03"
+  }
+ },
+ "courseSets": {
+  "set-q6B3AHJP": {
+   "codes": [
+    "PSY 1001",
+    "PSY 1001H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-WVQvJJeC": {
+   "codes": [
+    "CPSY 4331",
+    "CPSY 4336"
+   ],
+   "sourceRef": "program"
+  },
+  "set-eKWv1RLJ": {
+   "codes": [
+    "CPSY 4341",
+    "CPSY 4343",
+    "CPSY 4345"
+   ],
+   "sourceRef": "program"
+  },
+  "set-HiTQgZ3J": {
+   "codes": [
+    "EPSY 3264",
+    "PSY 3801",
+    "PSY 3801H",
+    "SOC 3811",
+    "STAT 3011"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Ao9gOYuX": {
+   "codes": [
+    "CPSY 1334",
+    "CPSY 3401",
+    "CPSY 3501",
+    "CPSY 3601",
+    "CPSY 4310",
+    "CPSY 4314"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Wb0qPX1h": {
+   "codes": [
+    "CPSY 4311",
+    "CPSY 4313W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-7RwLgufI": {
+   "codes": [
+    "CPSY 4994"
+   ],
+   "sourceRef": "program"
+  },
+  "set-4P7t1TbG": {
+   "codes": [
+    "CPSY 1301",
+    "CPSY 1334",
+    "CPSY 3401",
+    "CPSY 3501",
+    "CPSY 3601",
+    "CPSY 3701",
+    "CPSY 4302",
+    "CPSY 4303",
+    "CPSY 4310",
+    "CPSY 4311",
+    "CPSY 4313W",
+    "CPSY 4314",
+    "CPSY 4329",
+    "CPSY 4331",
+    "CPSY 4336",
+    "CPSY 4341",
+    "CPSY 4343",
+    "CPSY 4345",
+    "CPSY 5241",
+    "CPSY 5251W",
+    "CPSY 5252",
+    "CPSY 5253",
+    "CPSY 5254",
+    "CPSY 5261"
+   ],
+   "sourceRef": "program"
+  },
+  "set-aEsow1FE": {
+   "codes": [
+    "CPSY 3360H",
+    "CPSY 4348H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-395747": {
+   "codes": [
+    "CPSY 3308W",
+    "CPSY 4313W",
+    "CPSY 4347W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-6rft6JF0": {
+   "codes": [
+    "CPSY 2301",
+    "CPSY 3301",
+    "CPSY 3301H"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "CPSY 1301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nature-Based Learning in Early Childhood",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187921"
+   },
+   "sourceRef": "course-8187921"
+  },
+  "CPSY 1334": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global Issues on Children and Youth in Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164021"
+   },
+   "sourceRef": "course-8164021"
+  },
+  "CPSY 2301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Developmental Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023571"
+   },
+   "sourceRef": "course-0023571"
+  },
+  "CPSY 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Developmental Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0034501"
+   },
+   "sourceRef": "course-0034501"
+  },
+  "CPSY 3301H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Developmental Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253431"
+   },
+   "sourceRef": "course-8253431"
+  },
+  "CPSY 3308W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Research Methods in Developmental Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "sophomore standing, Developmental Psychology major"
+    },
+    "sourceRef": "course-0023651"
+   },
+   "sourceRef": "course-0023651"
+  },
+  "CPSY 3360H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Developmental Psychology Honors Seminar",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Admission in the honors program; junior standing in your ICD major; completion or concurrent enrollment in CPSY Research Methods"
+    },
+    "sourceRef": "course-0137241"
+   },
+   "sourceRef": "course-0137241"
+  },
+  "CPSY 3401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Children, Youth, and Media",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8199131"
+   },
+   "sourceRef": "course-8199131"
+  },
+  "CPSY 3501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Infant and Early Childhood Mental Health",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266451"
+   },
+   "sourceRef": "course-8266451"
+  },
+  "CPSY 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Child Life Theory and Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Interested students should have at least an introductory course in psychology or developmental psychology."
+    },
+    "sourceRef": "course-8176421"
+   },
+   "sourceRef": "course-8176421"
+  },
+  "CPSY 3701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Racial Bias in Early Childhood",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8268901"
+   },
+   "sourceRef": "course-8268901"
+  },
+  "CPSY 4302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Infant Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 or equivalent or instructor consent"
+    },
+    "sourceRef": "course-0023581"
+   },
+   "sourceRef": "course-0023581"
+  },
+  "CPSY 4303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Adolescent Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PSY 1001 or equivalent"
+    },
+    "sourceRef": "course-0023591"
+   },
+   "sourceRef": "course-0023591"
+  },
+  "CPSY 4310": {
+   "catalogTerm": "Fall 2026",
+   "title": "Special Topics in Developmental Psychology",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0052051"
+   },
+   "sourceRef": "course-0052051"
+  },
+  "CPSY 4311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Behavioral and Emotional Problems of Children",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 / 3301 or equiv"
+    },
+    "sourceRef": "course-0023611"
+   },
+   "sourceRef": "course-0023611"
+  },
+  "CPSY 4313W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Disabilities and Development",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "PSY 1001"
+    },
+    "sourceRef": "course-0023601"
+   },
+   "sourceRef": "course-0023601"
+  },
+  "CPSY 4314": {
+   "catalogTerm": "Fall 2026",
+   "title": "Trauma-Informed Care Practices in Early Childhood",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8205311"
+   },
+   "sourceRef": "course-8205311"
+  },
+  "CPSY 4329": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biological Foundations of Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 / 3301 or equiv"
+    },
+    "sourceRef": "course-0023691"
+   },
+   "sourceRef": "course-0023691"
+  },
+  "CPSY 4331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social and Personality Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 / 3301 or equiv strongly recommended"
+    },
+    "sourceRef": "course-0023711"
+   },
+   "sourceRef": "course-0023711"
+  },
+  "CPSY 4336": {
+   "catalogTerm": "Fall 2026",
+   "title": "Development and Interpersonal Relationships",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023661"
+   },
+   "sourceRef": "course-0023661"
+  },
+  "CPSY 4341": {
+   "catalogTerm": "Fall 2026",
+   "title": "Perceptual Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 / 3301 or equiv"
+    },
+    "sourceRef": "course-0023631"
+   },
+   "sourceRef": "course-0023631"
+  },
+  "CPSY 4343": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cognitive Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 or 3301 or equivalent"
+    },
+    "sourceRef": "course-0023671"
+   },
+   "sourceRef": "course-0023671"
+  },
+  "CPSY 4345": {
+   "catalogTerm": "Fall 2026",
+   "title": "Language Development and Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 / 3301 or equiv"
+    },
+    "sourceRef": "course-0023641"
+   },
+   "sourceRef": "course-0023641"
+  },
+  "CPSY 4347W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Developmental Psychology Capstone",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Senior and completion of CPSY 3308W (or approved equiv)"
+    },
+    "sourceRef": "course-7908601"
+   },
+   "sourceRef": "course-7908601"
+  },
+  "CPSY 4348H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Thesis Seminar in Developmental Psychology",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 3360H or instructor approval, and CPSY 3308W or an equivalent undergraduate research methods course."
+    },
+    "sourceRef": "course-8274601"
+   },
+   "sourceRef": "course-8274601"
+  },
+  "CPSY 4994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research in Developmental Psychology",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0048971"
+   },
+   "sourceRef": "course-0048971"
+  },
+  "CPSY 5241": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Experience in Early Childhood Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2/3301 or equiv."
+    },
+    "sourceRef": "course-0048951"
+   },
+   "sourceRef": "course-0048951"
+  },
+  "CPSY 5251W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social and Philosophical Foundations of Early Childhood Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2/3301 or equiv."
+    },
+    "sourceRef": "course-0165101"
+   },
+   "sourceRef": "course-0165101"
+  },
+  "CPSY 5252": {
+   "catalogTerm": "Fall 2026",
+   "title": "Facilitating Social and Emotional Learning in Early Childhood Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 or equiv or inst consent. For Early Childhood or ECSE students."
+    },
+    "sourceRef": "course-0156221"
+   },
+   "sourceRef": "course-0156221"
+  },
+  "CPSY 5253": {
+   "catalogTerm": "Fall 2026",
+   "title": "Facilitating Cognitive and Language Learning in Early Childhood Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 or equiv or inst consent. For Early Childhood or ECSE students."
+    },
+    "sourceRef": "course-0156231"
+   },
+   "sourceRef": "course-0156231"
+  },
+  "CPSY 5254": {
+   "catalogTerm": "Fall 2026",
+   "title": "Facilitating Creative and Motor Learning in Early Childhood Education",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CPSY 2301 or equiv or inst consent. For Early Childhood and ECSE students."
+    },
+    "sourceRef": "course-8064181"
+   },
+   "sourceRef": "course-8064181"
+  },
+  "CPSY 5261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Early Learning in Infancy and Toddlerhood",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172611"
+   },
+   "sourceRef": "course-8172611"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "PSY 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062651"
+   },
+   "sourceRef": "course-0062651"
+  },
+  "PSY 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors."
+    },
+    "sourceRef": "course-7990411"
+   },
+   "sourceRef": "course-7990411"
+  },
+  "PSY 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychological Measurement and Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra, [PSY 1001 or equiv]; intended for students who plan to major in psychology"
+    },
+    "sourceRef": "course-7989021"
+   },
+   "sourceRef": "course-7989021"
+  },
+  "PSY 3801H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychological Measurement and Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1001 or equiv], high school algebra, honors; intended for students who plan to major in psychology"
+    },
+    "sourceRef": "course-8003621"
+   },
+   "sourceRef": "course-8003621"
+  },
+  "SOC 3811": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergraduates with strong math background are encouraged to register for 5811 in lieu of 3811 (Soc 5811 offered Fall terms only). Soc Majors/Minors must register A-F."
+    },
+    "sourceRef": "course-0011481"
+   },
+   "sourceRef": "course-0011481"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-WKxqwgpT",
+   "label": "General Psychology",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-q6B3AHJP",
+    "type": "credits",
+    "courseSet": "set-q6B3AHJP",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "General Psychology"
+   }
+  },
+  {
+   "id": "g-KHtoS9cH",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-CNfgbfhZ",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-WVQvJJeC",
+      "type": "credits",
+      "courseSet": "set-WVQvJJeC",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Social Development"
+     },
+     {
+      "id": "r-eKWv1RLJ",
+      "type": "credits",
+      "courseSet": "set-eKWv1RLJ",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Cognitive Development"
+     },
+     {
+      "id": "r-iFcKFl7H",
+      "type": "course",
+      "code": "CPSY 4329",
+      "sourceRef": "program",
+      "label": "Biological Development"
+     }
+    ],
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-IfR3Zkbi",
+   "label": "Statistical Analysis and Research Methods",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-hs16nccp",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-HiTQgZ3J",
+      "type": "credits",
+      "courseSet": "set-HiTQgZ3J",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Statistics"
+     },
+     {
+      "id": "r-MrzX8ovW",
+      "type": "course",
+      "code": "CPSY 3308W",
+      "sourceRef": "program",
+      "label": "Research Methods"
+     }
+    ],
+    "label": "Statistical Analysis and Research Methods"
+   }
+  },
+  {
+   "id": "g-3M1Ukc2Q",
+   "label": "Developmental Contexts and Applications",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Ao9gOYuX",
+    "type": "credits",
+    "courseSet": "set-Ao9gOYuX",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Developmental Contexts and Applications"
+   }
+  },
+  {
+   "id": "g-cuVUsrec",
+   "label": "Developmental Psychopathology Studies",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Wb0qPX1h",
+    "type": "credits",
+    "courseSet": "set-Wb0qPX1h",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Developmental Psychopathology Studies"
+   }
+  },
+  {
+   "id": "g-g3wUTphX",
+   "label": "Directed Research",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-7RwLgufI",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-7RwLgufI-credits",
+      "type": "credits",
+      "courseSet": "set-7RwLgufI",
+      "minCredits": 6,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-7RwLgufI-min",
+      "type": "count",
+      "courseSet": "set-7RwLgufI",
+      "minCourses": 2,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Directed Research"
+   }
+  },
+  {
+   "id": "g-raXki85x",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-cIJq1gPx",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-4P7t1TbG",
+      "type": "credits",
+      "courseSet": "set-4P7t1TbG",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Developmental Psychology Electives"
+     },
+     {
+      "id": "r-QfIJ8xUp",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Experiential Electives: courses from this list count for at most 3 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Experiential Electives"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-ihFN64Mw",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-vfebruR2",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-65Uh78gV",
+      "type": "course",
+      "code": "CPSY 4347W",
+      "sourceRef": "program",
+      "label": "Non-Honors Sequence"
+     },
+     {
+      "id": "r-aEsow1FE",
+      "type": "credits",
+      "courseSet": "set-aEsow1FE",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Honors Sequence"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-017220117",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-395747",
+    "type": "count",
+    "courseSet": "set-395747",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Admission Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-6rft6JF0",
+    "type": "credits",
+    "courseSet": "set-6rft6JF0",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Introduction to Developmental Psychology"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or CPSY 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 17 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn no more than one undergraduate degree in Developmental Psychology: a BA, a BS, or a minor. Students may combine the BA in Developmental Psychology with the minor in Psychology. CPSY majors may not also earn a second major or baccalaureate degree in psychology. Students also may not earn both an undergraduate degree in Developmental Psychology and a major in Early Childhood (as both are housed within the same academic department). Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

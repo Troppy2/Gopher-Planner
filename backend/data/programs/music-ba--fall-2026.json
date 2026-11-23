@@ -1,0 +1,521 @@
+{
+ "schemaVersion": 2,
+ "id": "music-ba",
+ "name": "Music B.A.",
+ "officialName": "Music B.A.",
+ "officialProgramId": "058020217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Music B.A., revision 058020217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/058020217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/058020217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 058020217-2026-09-08"
+  },
+  "course-0053381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053381",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1501, version 0053381-2023-09-05"
+  },
+  "course-0053391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053391",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1502, version 0053391-2023-09-05"
+  },
+  "course-7990261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990261",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1511, version 7990261-2023-09-05"
+  },
+  "course-7990271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990271",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1512, version 7990271-2023-09-05"
+  },
+  "course-8262661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262661",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 4571, version 8262661-2023-09-05"
+  },
+  "course-8262971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 4572, version 8262971-2023-09-05"
+  },
+  "course-8263911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8263911",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 4573, version 8263911-2023-09-05"
+  },
+  "course-8262981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262981",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 4574, version 8262981-2023-09-05"
+  },
+  "course-0079271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079271",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3601W, version 0079271-2020-09-08"
+  },
+  "course-0079281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079281",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3602W, version 0079281-2025-09-02"
+  },
+  "course-0079291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079291",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3603W, version 0079291-2025-09-02"
+  },
+  "course-0047331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047331",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1151, version 0047331-2025-09-02"
+  },
+  "course-0047841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047841",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1152, version 0047841-2026-01-20"
+  },
+  "course-0050011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0050011",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1155, version 0050011-2015-01-20"
+  },
+  "course-0070391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070391",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3995, version 0070391-2015-01-20"
+  }
+ },
+ "courseSets": {
+  "set-or8noZHw": {
+   "codes": [
+    "MUS 1501",
+    "MUS 1502",
+    "MUS 1511",
+    "MUS 1512"
+   ],
+   "sourceRef": "program"
+  },
+  "set-l3cNVYd8": {
+   "codes": [
+    "MUS 4571",
+    "MUS 4572",
+    "MUS 4573",
+    "MUS 4574"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Zktow88p": {
+   "codes": [
+    "MUS 3601W",
+    "MUS 3602W",
+    "MUS 3603W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-II5CmFCa": {
+   "codes": [
+    "MUS 1151",
+    "MUS 1152",
+    "MUS 1155"
+   ],
+   "sourceRef": "program"
+  },
+  "set-434053": {
+   "codes": [
+    "MUS 3601W",
+    "MUS 3602W",
+    "MUS 3603W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "MUS 1151": {
+   "catalogTerm": "Fall 2026",
+   "title": "Piano: Class Lessons I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "undergraduate music major or music minor status."
+    },
+    "sourceRef": "course-0047331"
+   },
+   "sourceRef": "course-0047331"
+  },
+  "MUS 1152": {
+   "catalogTerm": "Fall 2026",
+   "title": "Piano: Class Lessons II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "MUS 1151"
+    },
+    "sourceRef": "course-0047841"
+   },
+   "sourceRef": "course-0047841"
+  },
+  "MUS 1155": {
+   "catalogTerm": "Fall 2026",
+   "title": "Keyboard Skills I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Keyboard major or music major with extensive keyboard background or instr consent"
+    },
+    "sourceRef": "course-0050011"
+   },
+   "sourceRef": "course-0050011"
+  },
+  "MUS 1501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory and Analysis of Tonal Music I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "course must be taken concurrently w/ MUS 1511."
+    },
+    "sourceRef": "course-0053381"
+   },
+   "sourceRef": "course-0053381"
+  },
+  "MUS 1502": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory and Analysis of Tonal Music II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MUS 1501 and MUS 1511 with grade of at least C-"
+    },
+    "sourceRef": "course-0053391"
+   },
+   "sourceRef": "course-0053391"
+  },
+  "MUS 1511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ear-Training and Sight-Singing I",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "students must concurrently enroll in MUS 1501 Theory and Analysis of Tonal Music I"
+    },
+    "sourceRef": "course-7990261"
+   },
+   "sourceRef": "course-7990261"
+  },
+  "MUS 1512": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ear-Training and Sight-Singing II",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MUS 1501 and MUS 1511 with grades of at least C-; concurrently enroll in MUS 1502 Theory and Analysis of Tonal Music II"
+    },
+    "sourceRef": "course-7990271"
+   },
+   "sourceRef": "course-7990271"
+  },
+  "MUS 3601W": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Western Music I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MUS 1501"
+      },
+      {
+       "type": "course",
+       "course_code": "MUS 1511"
+      }
+     ]
+    },
+    "sourceRef": "course-0079271"
+   },
+   "sourceRef": "course-0079271"
+  },
+  "MUS 3602W": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Western Music II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MUS 1502, MUS 1512, and MUS 3601 OR instr consent"
+    },
+    "sourceRef": "course-0079281"
+   },
+   "sourceRef": "course-0079281"
+  },
+  "MUS 3603W": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Western Music III",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[MUS 3602W] with grades of at least C-"
+    },
+    "sourceRef": "course-0079291"
+   },
+   "sourceRef": "course-0079291"
+  },
+  "MUS 3995": {
+   "catalogTerm": "Fall 2026",
+   "title": "Major Project",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergrad music major in B.A. program, instr consent, dept consent"
+    },
+    "sourceRef": "course-0070391"
+   },
+   "sourceRef": "course-0070391"
+  },
+  "MUS 4571": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chromatic Harmony and Form in Western Art Music 1700-1900",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "undergraduate- MUS 1502 and MUS 1512 with grade of at least C- or higher"
+    },
+    "sourceRef": "course-8262661"
+   },
+   "sourceRef": "course-8262661"
+  },
+  "MUS 4572": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory and Analysis of Popular Music",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "undergraduate- MUS 1502 and MUS 1512 with grade of at least C- or higher"
+    },
+    "sourceRef": "course-8262971"
+   },
+   "sourceRef": "course-8262971"
+  },
+  "MUS 4573": {
+   "catalogTerm": "Fall 2026",
+   "title": "Post-Tonal Theory and Ear-Training",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "undergraduate- MUS 1502 and MUS 1512 with grade of at least C- or higher"
+    },
+    "sourceRef": "course-8263911"
+   },
+   "sourceRef": "course-8263911"
+  },
+  "MUS 4574": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jazz Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262981"
+   },
+   "sourceRef": "course-8262981"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-Gz7oiwaw",
+   "label": "Music Theory and Ear Training",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sladQvJo",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-or8noZHw",
+      "type": "credits",
+      "courseSet": "set-or8noZHw",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Lower Division Music Theory and Ear Training"
+     },
+     {
+      "id": "r-l3cNVYd8",
+      "type": "credits",
+      "courseSet": "set-l3cNVYd8",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Upper Division Theory"
+     }
+    ],
+    "label": "Music Theory and Ear Training"
+   }
+  },
+  {
+   "id": "g-VhKiZ53J",
+   "label": "Music History",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Zktow88p",
+    "type": "credits",
+    "courseSet": "set-Zktow88p",
+    "minCredits": 9,
+    "sourceRef": "program",
+    "label": "Music History"
+   }
+  },
+  {
+   "id": "g-ySY6ejke",
+   "label": "Keyboard",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-II5CmFCa",
+    "type": "credits",
+    "courseSet": "set-II5CmFCa",
+    "minCredits": 2,
+    "sourceRef": "program",
+    "label": "Keyboard"
+   }
+  },
+  {
+   "id": "g-rgoeoOve",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-fPeeuBjG",
+    "type": "course",
+    "code": "MUS 3995",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-058020217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-434053",
+    "type": "count",
+    "courseSet": "set-434053",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Music BA is MUS.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nFor students in the Academic Emphasis sub-plan, at least 12 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nFor students in the Applied Emphasis sub-plan, at least 13 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn no more than one undergraduate degree from the School of Music: a BA or a B.Mus or a minor. Students may earn more than one major within the B.Mus degree, but may not earn more than one emphasis within the BA degree.\nView sample plans for this program here: https://sampleplan.umn.edu/node/521 Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "The academic emphasis does not require an entrance audition to the School of Music. Admission to the applied emphasis is contingent upon passing an audition. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Academic Emphasis, Applied Emphasis. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

@@ -1,0 +1,2528 @@
+{
+ "schemaVersion": 2,
+ "id": "computer-engineering-bcompe",
+ "name": "Computer Engineering B.Comp.E.",
+ "officialName": "Computer Engineering B.Comp.E.",
+ "officialProgramId": "018326107",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 124,
+ "source": "Computer Engineering B.Comp.E., revision 018326107-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/018326107, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/018326107",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 018326107-2026-09-08"
+  },
+  "course-0036951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036951",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2374, version 0036951-2021-05-17"
+  },
+  "course-0002821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002821",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2263, version 0002821-2021-05-17"
+  },
+  "course-0036981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036981",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2573H, version 0036981-2023-09-05"
+  },
+  "course-7991841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7991841",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2472, version 7991841-2021-05-17"
+  },
+  "course-0148631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148631",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2473, version 0148631-2021-05-17"
+  },
+  "course-0036721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036721",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 2011, version 0036721-2024-09-03"
+  },
+  "course-8094491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094491",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 2011H, version 8094491-2025-01-21"
+  },
+  "course-0036751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036751",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 4041, version 0036751-2026-09-08"
+  },
+  "course-0021871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021871",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 4061, version 0021871-2024-09-03"
+  },
+  "course-8194131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8194131",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 2115, version 8194131-2020-01-21"
+  },
+  "course-0033711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033711",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 2361, version 0033711-2022-09-06"
+  },
+  "course-0044891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044891",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 3015, version 0044891-2020-03-09"
+  },
+  "course-0044911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044911",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 3101, version 0044911-2020-09-08"
+  },
+  "course-0044951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044951",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 3115, version 0044951-2020-09-08"
+  },
+  "course-0028741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0028741",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 3025, version 0028741-2017-01-17"
+  },
+  "course-8259491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8259491",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 3951W, version 8259491-2022-09-06"
+  },
+  "course-7932041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7932041",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4363, version 7932041-2025-01-21"
+  },
+  "course-0021731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021731",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 4203, version 0021731-2024-09-03"
+  },
+  "course-0048071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048071",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4951W, version 0048071-2015-01-20"
+  },
+  "course-0044961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044961",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4111, version 0044961-2015-01-20"
+  },
+  "course-8065231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8065231",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4163, version 8065231-2015-01-20"
+  },
+  "course-0045361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045361",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4235, version 0045361-2015-01-20"
+  },
+  "course-0046311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0046311",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4237, version 0046311-2015-01-20"
+  },
+  "course-0047051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047051",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4301, version 0047051-2015-01-20"
+  },
+  "course-0047041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047041",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4341, version 0047041-2015-01-20"
+  },
+  "course-0046411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0046411",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4505, version 0046411-2015-01-20"
+  },
+  "course-8266601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266601",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4545, version 8266601-2023-09-05"
+  },
+  "course-7914561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7914561",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4703, version 7914561-2015-01-20"
+  },
+  "course-7983031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7983031",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4722, version 7983031-2015-01-20"
+  },
+  "course-7914571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7914571",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4743, version 7914571-2015-01-20"
+  },
+  "course-8007501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8007501",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4930, version 8007501-2015-01-20"
+  },
+  "course-0044971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0044971",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 5141, version 0044971-2023-05-15"
+  },
+  "course-0045021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045021",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 5173, version 0045021-2025-09-02"
+  },
+  "course-0034101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034101",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 5327, version 0034101-2015-01-20"
+  },
+  "course-8172391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172391",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 5373, version 8172391-2017-09-05"
+  },
+  "course-0046441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0046441",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 5545, version 0046441-2023-05-15"
+  },
+  "course-0166391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0166391",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 5613, version 0166391-2015-01-20"
+  },
+  "course-0032541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032541",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 5622, version 0032541-2015-01-20"
+  },
+  "course-8039021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8039021",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 5707, version 8039021-2015-01-20"
+  },
+  "course-0048051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048051",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 5811, version 0048051-2023-05-15"
+  },
+  "course-8039561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8039561",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 4511W, version 8039561-2024-09-03"
+  },
+  "course-0021521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 5511, version 0021521-2024-09-03"
+  },
+  "course-0045181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045181",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 5551, version 0045181-2025-09-02"
+  },
+  "course-7998831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7998831",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4389W, version 7998831-2015-01-20"
+  },
+  "course-8162951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162951",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 5127W, version 8162951-2024-09-03"
+  },
+  "course-8252421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8252421",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSE 4896, version 8252421-2021-09-07"
+  },
+  "course-8254361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8254361",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSE 4996, version 8254361-2021-09-07"
+  },
+  "course-0048141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048141",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4981H, version 0048141-2015-01-20"
+  },
+  "course-0048151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048151",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 4982V, version 0048151-2015-01-20"
+  },
+  "course-0036921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036921",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1371, version 0036921-2025-09-02"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0036961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "course-0148561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148561",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1471, version 0148561-2021-05-17"
+  },
+  "course-0036931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036931",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1372, version 0036931-2021-05-17"
+  },
+  "course-0001211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001211",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1272, version 0001211-2021-09-07"
+  },
+  "course-0036971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1572H, version 0036971-2023-09-05"
+  },
+  "course-0148611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148611",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1472, version 0148611-2021-05-17"
+  },
+  "course-0036941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036941",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2373, version 0036941-2021-05-17"
+  },
+  "course-0002801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002801",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2243, version 0002801-2021-05-17"
+  },
+  "course-0043111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043111",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2574H, version 0043111-2026-09-08"
+  },
+  "course-7909141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7909141",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1473, version 7909141-2021-05-17"
+  },
+  "course-8064971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2471, version 8064971-2021-05-17"
+  },
+  "course-0020701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020701",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1301W, version 0020701-2022-05-16"
+  },
+  "course-0020731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020731",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1401V, version 0020731-2023-09-05"
+  },
+  "course-8179641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179641",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1221, version 8179641-2021-05-17"
+  },
+  "course-0020711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020711",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1302W, version 0020711-2022-01-18"
+  },
+  "course-0020741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020741",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1402V, version 0020741-2021-09-07"
+  },
+  "course-8179651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1222, version 8179651-2021-05-17"
+  },
+  "course-0166341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0166341",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 1301, version 0166341-2020-09-08"
+  },
+  "course-0036691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036691",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1113, version 0036691-2024-09-03"
+  },
+  "course-8096661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096661",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133, version 8096661-2024-09-03"
+  },
+  "course-8110721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8110721",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133H, version 8110721-2023-09-05"
+  },
+  "course-8189431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189431",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 2015, version 8189431-2024-09-03"
+  },
+  "course-0027391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0027391",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 2301, version 0027391-2020-09-08"
+  },
+  "course-8096671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096671",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1913, version 8096671-2026-01-20"
+  },
+  "course-8103461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8103461",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1933, version 8103461-2025-01-21"
+  },
+  "course-8166631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8166631",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1933H, version 8166631-2024-09-03"
+  }
+ },
+ "courseSets": {
+  "set-Q039ZzD2": {
+   "codes": [
+    "MATH 2374",
+    "MATH 2263",
+    "MATH 2573H",
+    "MATH 2472",
+    "MATH 2473"
+   ],
+   "sourceRef": "program"
+  },
+  "set-CRtIswlT": {
+   "codes": [
+    "CSCI 2011",
+    "CSCI 2011H",
+    "CSCI 4041",
+    "CSCI 4061"
+   ],
+   "sourceRef": "program"
+  },
+  "set-DTZBoUAO": {
+   "codes": [
+    "EE 2115",
+    "EE 2361",
+    "EE 3015",
+    "EE 3101",
+    "EE 3115",
+    "EE 3025",
+    "EE 3951W",
+    "EE 4363",
+    "CSCI 4203"
+   ],
+   "sourceRef": "program"
+  },
+  "set-bV0rvMgZ": {
+   "codes": [
+    "EE 4111",
+    "EE 4163",
+    "EE 4235",
+    "EE 4237",
+    "EE 4301",
+    "EE 4341",
+    "EE 4505",
+    "EE 4545",
+    "EE 4703",
+    "EE 4722",
+    "EE 4743",
+    "EE 4930",
+    "EE 5141",
+    "EE 5173",
+    "EE 5327",
+    "EE 5373",
+    "EE 5545",
+    "EE 5613",
+    "EE 5622",
+    "EE 5707",
+    "EE 5811",
+    "CSCI 4511W",
+    "CSCI 5511",
+    "CSCI 5551"
+   ],
+   "sourceRef": "program"
+  },
+  "set-6oGJTaoK": {
+   "codes": [
+    "CSE 4896",
+    "CSE 4996"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Opj7VLNj": {
+   "codes": [
+    "EE 4981H",
+    "EE 4982V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-90dvc8tp": {
+   "codes": [
+    "EE 3951W",
+    "EE 4951W",
+    "EE 4389W",
+    "CSCI 4511W",
+    "CSCI 5127W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qtVZafHw": {
+   "codes": [
+    "MATH 1371",
+    "MATH 1271",
+    "MATH 1571H",
+    "MATH 1471"
+   ],
+   "sourceRef": "program"
+  },
+  "set-8FtTkwNl": {
+   "codes": [
+    "MATH 1372",
+    "MATH 1272",
+    "MATH 1572H",
+    "MATH 1472"
+   ],
+   "sourceRef": "program"
+  },
+  "set-wVZpvH6y": {
+   "codes": [
+    "MATH 2373",
+    "MATH 2243",
+    "MATH 2574H",
+    "MATH 1473",
+    "MATH 2471"
+   ],
+   "sourceRef": "program"
+  },
+  "set-5V6R1a00": {
+   "codes": [
+    "PHYS 1301W",
+    "PHYS 1401V",
+    "PHYS 1221"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ur5BPCPT": {
+   "codes": [
+    "PHYS 1302W",
+    "PHYS 1402V",
+    "PHYS 1222"
+   ],
+   "sourceRef": "program"
+  },
+  "set-LbcW4Xwx": {
+   "codes": [
+    "EE 1301",
+    "CSCI 1113",
+    "CSCI 1133",
+    "CSCI 1133H",
+    "EE 2015",
+    "EE 2301",
+    "CSCI 1913",
+    "CSCI 1933",
+    "CSCI 1933H"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "CSCI 1113": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to C/C++ Programming for Scientists and Engineers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1271 or Math 1371 or Math 1571H or instr consent."
+    },
+    "sourceRef": "course-0036691"
+   },
+   "sourceRef": "course-0036691"
+  },
+  "CSCI 1133": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8096661"
+   },
+   "sourceRef": "course-8096661"
+  },
+  "CSCI 1133H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[concurrent registration is required (or allowed) in MATH 1271 or concurrent registration is required (or allowed) in MATH 1371 or concurrent registration is required (or allowed) in MATH 1571H], CSci majors, pre-majors in CSE/CLA, honors student"
+    },
+    "sourceRef": "course-8110721"
+   },
+   "sourceRef": "course-8110721"
+  },
+  "CSCI 1913": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Algorithms, Data Structures, and Program Development",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(CSCI 1103 or CSCI 1113 or EE 1301 or instr consent) AND (concurrent registration in MATH 1271 or MATH 1371 or MATH 1571H or MATH 1142 or instr consent)"
+    },
+    "sourceRef": "course-8096671"
+   },
+   "sourceRef": "course-8096671"
+  },
+  "CSCI 1933": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Algorithms and Data Structures",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Calc I (Math 1271 or Math 1371 or Math 1571H) as a corequisite, CSci 1133 as a prerequisite."
+    },
+    "sourceRef": "course-8103461"
+   },
+   "sourceRef": "course-8103461"
+  },
+  "CSCI 1933H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Algorithms and Data Structures",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8166631"
+   },
+   "sourceRef": "course-8166631"
+  },
+  "CSCI 2011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Discrete Structures of Computer Science",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1271"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1371"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1571H"
+      }
+     ]
+    },
+    "sourceRef": "course-0036721"
+   },
+   "sourceRef": "course-0036721"
+  },
+  "CSCI 2011H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Discrete Structures of Computer Science",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors Student AND [MATH 1271 or MATH 1371 or MATH 1571H]"
+    },
+    "sourceRef": "course-8094491"
+   },
+   "sourceRef": "course-8094491"
+  },
+  "CSCI 4041": {
+   "catalogTerm": "Fall 2026",
+   "title": "Algorithms and Data Structures",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[(CSCI 1913 or CSCI 1933 or CSCI 1933H) and CSCI 2011] or Graduate Student Standing"
+    },
+    "sourceRef": "course-0036751"
+   },
+   "sourceRef": "course-0036751"
+  },
+  "CSCI 4061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Operating Systems",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2021 or EE 2361; CS upper div, CompE upper div., EE upper div., EE grad, ITI upper div., or dept. permission; no cr for grads in CSci."
+    },
+    "sourceRef": "course-0021871"
+   },
+   "sourceRef": "course-0021871"
+  },
+  "CSCI 4203": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer Architecture",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "CSCI 2021"
+    },
+    "sourceRef": "course-0021731"
+   },
+   "sourceRef": "course-0021731"
+  },
+  "CSCI 4511W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Artificial Intelligence",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8039561"
+   },
+   "sourceRef": "course-8039561"
+  },
+  "CSCI 5127W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Embodied Computing: Design & Prototyping",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162951"
+   },
+   "sourceRef": "course-8162951"
+  },
+  "CSCI 5511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Artificial Intelligence I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "graduate student standing"
+    },
+    "sourceRef": "course-0021521"
+   },
+   "sourceRef": "course-0021521"
+  },
+  "CSCI 5551": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Intelligent Robotic Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSci 4551 or graduate student standing"
+    },
+    "sourceRef": "course-0045181"
+   },
+   "sourceRef": "course-0045181"
+  },
+  "CSE 4896": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cooperative Industrial Assignment I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8252421"
+   },
+   "sourceRef": "course-8252421"
+  },
+  "CSE 4996": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cooperative Industrial Assignment II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8254361"
+   },
+   "sourceRef": "course-8254361"
+  },
+  "EE 1301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computing Systems",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0166341"
+   },
+   "sourceRef": "course-0166341"
+  },
+  "EE 2015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Signals, Circuits and Electronics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in PHYS 1302, concurrent registration is required (or allowed) in (MATH 2243 or MATH 2373 or MATH 2573)"
+    },
+    "sourceRef": "course-8189431"
+   },
+   "sourceRef": "course-8189431"
+  },
+  "EE 2115": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analog and Digital Electronics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2015"
+    },
+    "sourceRef": "course-8194131"
+   },
+   "sourceRef": "course-8194131"
+  },
+  "EE 2301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Digital System Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[EE 1301 (preferred) or CSCI 1113 or CSCI 1103 or CSci 1133]"
+    },
+    "sourceRef": "course-0027391"
+   },
+   "sourceRef": "course-0027391"
+  },
+  "EE 2361": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Microcontrollers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "EE 2301"
+    },
+    "sourceRef": "course-0033711"
+   },
+   "sourceRef": "course-0033711"
+  },
+  "EE 3015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Signals and Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[2115, CSE Upper Division] or dept consent"
+    },
+    "sourceRef": "course-0044891"
+   },
+   "sourceRef": "course-0044891"
+  },
+  "EE 3025": {
+   "catalogTerm": "Fall 2026",
+   "title": "Statistical Methods in Electrical and Computer Engineering",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3015, CSE upper division] or instr approval"
+    },
+    "sourceRef": "course-0028741"
+   },
+   "sourceRef": "course-0028741"
+  },
+  "EE 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Signals, Circuits and Electronics Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[2115, &3015, &3115, CSE Upper Division] or dept consent"
+    },
+    "sourceRef": "course-0044911"
+   },
+   "sourceRef": "course-0044911"
+  },
+  "EE 3115": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analog Electronics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[EE 2115, &EE 3015, CSE upper division] or dept consent"
+    },
+    "sourceRef": "course-0044951"
+   },
+   "sourceRef": "course-0044951"
+  },
+  "EE 3951W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Junior Design Project",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8259491"
+   },
+   "sourceRef": "course-8259491"
+  },
+  "EE 4111": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Analog Electronics Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3015, 3115"
+    },
+    "sourceRef": "course-0044961"
+   },
+   "sourceRef": "course-0044961"
+  },
+  "EE 4163": {
+   "catalogTerm": "Fall 2026",
+   "title": "Energy Conversion and Storage Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 4161W"
+    },
+    "sourceRef": "course-8065231"
+   },
+   "sourceRef": "course-8065231"
+  },
+  "EE 4235": {
+   "catalogTerm": "Fall 2026",
+   "title": "Linear Control Systems Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4231 or concurrent registration is required (or allowed) in 4231"
+    },
+    "sourceRef": "course-0045361"
+   },
+   "sourceRef": "course-0045361"
+  },
+  "EE 4237": {
+   "catalogTerm": "Fall 2026",
+   "title": "State Space Control Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4233 or concurrent registration is required (or allowed) in  4233; no cr for [EE or CompE] grad students"
+    },
+    "sourceRef": "course-0046311"
+   },
+   "sourceRef": "course-0046311"
+  },
+  "EE 4301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Digital Design With Programmable Logic",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2301, [1301 or CSCI 1113 or CSCI 1901]"
+    },
+    "sourceRef": "course-0047051"
+   },
+   "sourceRef": "course-0047051"
+  },
+  "EE 4341": {
+   "catalogTerm": "Fall 2026",
+   "title": "Embedded System Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2301, 2361, upper div CSE"
+    },
+    "sourceRef": "course-0047041"
+   },
+   "sourceRef": "course-0047041"
+  },
+  "EE 4363": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer Architecture and Machine Organization",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "EE 2361"
+    },
+    "sourceRef": "course-7932041"
+   },
+   "sourceRef": "course-7932041"
+  },
+  "EE 4389W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Predictive Learning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3025, ECE student] or STAT 3022; computer programming or MATLAB or similar environment is recommended for ECE students"
+    },
+    "sourceRef": "course-7998831"
+   },
+   "sourceRef": "course-7998831"
+  },
+  "EE 4505": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communications Systems Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4501 or  concurrent registration is required (or allowed) in 4501"
+    },
+    "sourceRef": "course-0046411"
+   },
+   "sourceRef": "course-0046411"
+  },
+  "EE 4545": {
+   "catalogTerm": "Fall 2026",
+   "title": "Real-time Signal Processing Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266601"
+   },
+   "sourceRef": "course-8266601"
+  },
+  "EE 4703": {
+   "catalogTerm": "Fall 2026",
+   "title": "Electric Drives Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4701 or concurrent registration is required (or allowed) in  4701"
+    },
+    "sourceRef": "course-7914561"
+   },
+   "sourceRef": "course-7914561"
+  },
+  "EE 4722": {
+   "catalogTerm": "Fall 2026",
+   "title": "Power System Analysis Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4721 or concurrent registration is required (or allowed) in 4721"
+    },
+    "sourceRef": "course-7983031"
+   },
+   "sourceRef": "course-7983031"
+  },
+  "EE 4743": {
+   "catalogTerm": "Fall 2026",
+   "title": "Switch-Mode Power Electronics Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4741 or concurrent registration is required (or allowed) in  4741"
+    },
+    "sourceRef": "course-7914571"
+   },
+   "sourceRef": "course-7914571"
+  },
+  "EE 4930": {
+   "catalogTerm": "Fall 2026",
+   "title": "Special Topics in Electrical and Computer Engineering Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 2,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE sr or grad student or instr consent"
+    },
+    "sourceRef": "course-8007501"
+   },
+   "sourceRef": "course-8007501"
+  },
+  "EE 4951W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Design Project",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3015, 3115, 3102, attendance first day of class"
+    },
+    "sourceRef": "course-0048071"
+   },
+   "sourceRef": "course-0048071"
+  },
+  "EE 4981H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Honors Project I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ECE honors, sr, instr consent"
+    },
+    "sourceRef": "course-0048141"
+   },
+   "sourceRef": "course-0048141"
+  },
+  "EE 4982V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Honors Project II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4981"
+    },
+    "sourceRef": "course-0048151"
+   },
+   "sourceRef": "course-0048151"
+  },
+  "EE 5141": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Microsystem Technology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3161, 3601, CSE grad student] or dept consent"
+    },
+    "sourceRef": "course-0044971"
+   },
+   "sourceRef": "course-0044971"
+  },
+  "EE 5173": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic Microelectronic Fabrication Laboratory",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[5171 or concurrent registration is required (or allowed) in 5171], CSE grad student] or dept consent"
+    },
+    "sourceRef": "course-0045021"
+   },
+   "sourceRef": "course-0045021"
+  },
+  "EE 5327": {
+   "catalogTerm": "Fall 2026",
+   "title": "VLSI Design Laboratory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[4301, [5323 or concurrent registration is required (or allowed) in 5323], CSE grad student] or dept consent"
+    },
+    "sourceRef": "course-0034101"
+   },
+   "sourceRef": "course-0034101"
+  },
+  "EE 5373": {
+   "catalogTerm": "Fall 2026",
+   "title": "Data Modeling Using R",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172391"
+   },
+   "sourceRef": "course-8172391"
+  },
+  "EE 5545": {
+   "catalogTerm": "Fall 2026",
+   "title": "Digital Signal Processing Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[4541, CSE grad student] or dept consent"
+    },
+    "sourceRef": "course-0046441"
+   },
+   "sourceRef": "course-0046441"
+  },
+  "EE 5613": {
+   "catalogTerm": "Fall 2026",
+   "title": "RF/Microwave Circuit Design Laboratory",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[5601 or concurrent registration is required (or allowed) in 5601], CSE grad student] or dept consent"
+    },
+    "sourceRef": "course-0166391"
+   },
+   "sourceRef": "course-0166391"
+  },
+  "EE 5622": {
+   "catalogTerm": "Fall 2026",
+   "title": "Physical Optics Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[5621 or concurrent registration is required (or allowed) in 5621], CSE grad student] or dept consent"
+    },
+    "sourceRef": "course-0032541"
+   },
+   "sourceRef": "course-0032541"
+  },
+  "EE 5707": {
+   "catalogTerm": "Fall 2026",
+   "title": "Electric Drives in Sustainable Energy Systems Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5705 or concurrent registration is required (or allowed) in 5705"
+    },
+    "sourceRef": "course-8039021"
+   },
+   "sourceRef": "course-8039021"
+  },
+  "EE 5811": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biological Instrumentation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0048051"
+   },
+   "sourceRef": "course-0048051"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "MATH 1272": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1271 or equiv] with grade of at least C-"
+    },
+    "sourceRef": "course-0001211"
+   },
+   "sourceRef": "course-0001211"
+  },
+  "MATH 1371": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0036921"
+   },
+   "sourceRef": "course-0036921"
+  },
+  "MATH 1372": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in [1371 or equiv], CSE or pre-Bioprod/Biosys Engr"
+    },
+    "sourceRef": "course-0036931"
+   },
+   "sourceRef": "course-0036931"
+  },
+  "MATH 1471": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus I, First Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148561"
+   },
+   "sourceRef": "course-0148561"
+  },
+  "MATH 1472": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus I, Second Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148611"
+   },
+   "sourceRef": "course-0148611"
+  },
+  "MATH 1473": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus II, First Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7909141"
+   },
+   "sourceRef": "course-7909141"
+  },
+  "MATH 1571H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0036961"
+   },
+   "sourceRef": "course-0036961"
+  },
+  "MATH 1572H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1571H (or equivalent)  honors student"
+    },
+    "sourceRef": "course-0036971"
+   },
+   "sourceRef": "course-0036971"
+  },
+  "MATH 2243": {
+   "catalogTerm": "Fall 2026",
+   "title": "Linear Algebra and Differential Equations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-"
+    },
+    "sourceRef": "course-0002801"
+   },
+   "sourceRef": "course-0002801"
+  },
+  "MATH 2263": {
+   "catalogTerm": "Fall 2026",
+   "title": "Multivariable Calculus",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1372 or 1572] w/grade of at least C-"
+    },
+    "sourceRef": "course-0002821"
+   },
+   "sourceRef": "course-0002821"
+  },
+  "MATH 2373": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Linear Algebra and Differential Equations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bio Prod/Biosys Engr"
+    },
+    "sourceRef": "course-0036941"
+   },
+   "sourceRef": "course-0036941"
+  },
+  "MATH 2374": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Multivariable Calculus and Vector Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bioprod/Biosys Engr"
+    },
+    "sourceRef": "course-0036951"
+   },
+   "sourceRef": "course-0036951"
+  },
+  "MATH 2471": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus II, Second Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8064971"
+   },
+   "sourceRef": "course-8064971"
+  },
+  "MATH 2472": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus III, First Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7991841"
+   },
+   "sourceRef": "course-7991841"
+  },
+  "MATH 2473": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus III, Second Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148631"
+   },
+   "sourceRef": "course-0148631"
+  },
+  "MATH 2573H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus III",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1572H (or equivalent), honors student"
+    },
+    "sourceRef": "course-0036981"
+   },
+   "sourceRef": "course-0036981"
+  },
+  "MATH 2574H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Linear Algebra and Differential Equations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1572H or Math 2573H, honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0043111"
+   },
+   "sourceRef": "course-0043111"
+  },
+  "PHYS 1221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Life Science Majors I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High School or College Calculus"
+    },
+    "sourceRef": "course-8179641"
+   },
+   "sourceRef": "course-8179641"
+  },
+  "PHYS 1222": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Life Science Majors II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PHYS 1221 or equivalent"
+    },
+    "sourceRef": "course-8179651"
+   },
+   "sourceRef": "course-8179651"
+  },
+  "PHYS 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Science and Engineering I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020701"
+   },
+   "sourceRef": "course-0020701"
+  },
+  "PHYS 1302W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Science and Engineering II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PHYS 1301 or equivalent, Prereq or Concurrent: MATH 1272/1372/1572H or equivalent"
+    },
+    "sourceRef": "course-0020711"
+   },
+   "sourceRef": "course-0020711"
+  },
+  "PHYS 1401V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Physics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors program or with permission, Prereq or Concurrent: MATH 1271/1371/1571H or equivalent"
+    },
+    "sourceRef": "course-0020731"
+   },
+   "sourceRef": "course-0020731"
+  },
+  "PHYS 1402V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Physics II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020741"
+   },
+   "sourceRef": "course-0020741"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-Y1ymX8O6",
+   "label": "Multivariable Calculus",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Q039ZzD2",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-Q039ZzD2-credits",
+      "type": "credits",
+      "courseSet": "set-Q039ZzD2",
+      "minCredits": 4,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-Q039ZzD2-min",
+      "type": "count",
+      "courseSet": "set-Q039ZzD2",
+      "minCourses": 1,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-Q039ZzD2-max",
+      "type": "count",
+      "courseSet": "set-Q039ZzD2",
+      "maxCourses": 2,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Multivariable Calculus"
+   }
+  },
+  {
+   "id": "g-kVV0ArlT",
+   "label": "Required Core CSCI Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-CRtIswlT",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-CRtIswlT-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-CRtIswlT-g1",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-CRtIswlT-g1-1",
+          "type": "course",
+          "code": "CSCI 2011",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-CRtIswlT-g1-2",
+          "type": "course",
+          "code": "CSCI 2011H",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-CRtIswlT-g2-1",
+        "type": "course",
+        "code": "CSCI 4041",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-CRtIswlT-g3-1",
+        "type": "course",
+        "code": "CSCI 4061",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-CRtIswlT-credits",
+      "type": "credits",
+      "minCredits": 12,
+      "courseSet": "set-CRtIswlT",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Required Core CSCI Courses"
+   }
+  },
+  {
+   "id": "g-UzZ6iWJr",
+   "label": "Required Core EE Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-DTZBoUAO",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-DTZBoUAO-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-DTZBoUAO-g1-1",
+        "type": "course",
+        "code": "EE 2115",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-DTZBoUAO-g2-1",
+        "type": "course",
+        "code": "EE 2361",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-DTZBoUAO-g3-1",
+        "type": "course",
+        "code": "EE 3015",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-DTZBoUAO-g4-1",
+        "type": "course",
+        "code": "EE 3101",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-DTZBoUAO-g5-1",
+        "type": "course",
+        "code": "EE 3115",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-DTZBoUAO-g6-1",
+        "type": "course",
+        "code": "EE 3025",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-DTZBoUAO-g7-1",
+        "type": "course",
+        "code": "EE 3951W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-DTZBoUAO-g8",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-DTZBoUAO-g8-1",
+          "type": "course",
+          "code": "EE 4363",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-DTZBoUAO-g8-2",
+          "type": "course",
+          "code": "CSCI 4203",
+          "sourceRef": "program"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "r-DTZBoUAO-credits",
+      "type": "credits",
+      "minCredits": 24,
+      "courseSet": "set-DTZBoUAO",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Required Core EE Courses"
+   }
+  },
+  {
+   "id": "g-RWXN5T4H",
+   "label": "Computer Engineering Technical Elective Program",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-mvy9kfQy",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-3q6L9oKX",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-kKOPuSQF",
+        "type": "course",
+        "code": "EE 4951W",
+        "sourceRef": "program",
+        "label": "Senior Design Project"
+       },
+       {
+        "id": "r-bV0rvMgZ",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-bV0rvMgZ-credits",
+          "type": "credits",
+          "courseSet": "set-bV0rvMgZ",
+          "minCredits": 2,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-bV0rvMgZ-min",
+          "type": "count",
+          "courseSet": "set-bV0rvMgZ",
+          "minCourses": 2,
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Lab Courses"
+       },
+       {
+        "id": "r-DoHVBYZJ",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Breadth and Depth Requirements (Technical Specialty Areas) offers too many combinations to list. Verify this requirement with your advisor or APAS.",
+        "label": "Breadth and Depth Requirements (Technical Specialty Areas)"
+       },
+       {
+        "id": "r-eaLItCK1",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Complete additional 4xxx/5xxx EE and/or 4xxx/5xxx CSCI courses to meet the minimum 22 credits of required Core Department Electives. Verify this requirement with your advisor or APAS.",
+        "label": "Additional 4xxx/5xxx EE/CSCI courses"
+       }
+      ],
+      "label": "Core Department Electives"
+     },
+     {
+      "id": "r-sS4WiumZ",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-BwSgD9vE",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "This requirement: courses from this list count for at most 6 credits. Verify this requirement with your advisor or APAS.",
+        "label": "This requirement"
+       },
+       {
+        "id": "r-6oGJTaoK",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-6oGJTaoK-sequence",
+          "type": "all",
+          "allowReuse": false,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-6oGJTaoK-g1-1",
+            "type": "course",
+            "code": "CSE 4896",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-6oGJTaoK-g2-1",
+            "type": "course",
+            "code": "CSE 4996",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-6oGJTaoK-credits",
+          "type": "credits",
+          "minCredits": 4,
+          "courseSet": "set-6oGJTaoK",
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Cooperative Industrial Assignment"
+       },
+       {
+        "id": "r-VE53Jz0W",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Business, Law, and Entrepreneurial Related Courses: courses from this list count for at most 4 credits. Verify this requirement with your advisor or APAS.",
+        "label": "Business, Law, and Entrepreneurial Related Courses"
+       },
+       {
+        "id": "r-Opj7VLNj",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-Opj7VLNj-sequence",
+          "type": "all",
+          "allowReuse": false,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-Opj7VLNj-g1-1",
+            "type": "course",
+            "code": "EE 4981H",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-Opj7VLNj-g2-1",
+            "type": "course",
+            "code": "EE 4982V",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-Opj7VLNj-credits",
+          "type": "credits",
+          "minCredits": 4,
+          "courseSet": "set-Opj7VLNj",
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Honors Project"
+       }
+      ],
+      "label": "Additional Approved Technical Electives"
+     }
+    ],
+    "label": "Computer Engineering Technical Elective Program"
+   }
+  },
+  {
+   "id": "g-A8RebPv5",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-90dvc8tp",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-90dvc8tp-credits",
+      "type": "credits",
+      "courseSet": "set-90dvc8tp",
+      "minCredits": 2,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-90dvc8tp-max",
+      "type": "count",
+      "courseSet": "set-90dvc8tp",
+      "maxCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Upper Division Writing Intensive in the Major"
+   }
+  },
+  {
+   "id": "g-tOV9nXt7",
+   "label": "Admission Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-tOV9nXt7",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-qtVZafHw",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-qtVZafHw-credits",
+        "type": "credits",
+        "courseSet": "set-qtVZafHw",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-qtVZafHw-min",
+        "type": "count",
+        "courseSet": "set-qtVZafHw",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-qtVZafHw-max",
+        "type": "count",
+        "courseSet": "set-qtVZafHw",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Calculus I"
+     },
+     {
+      "id": "r-8FtTkwNl",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-8FtTkwNl-credits",
+        "type": "credits",
+        "courseSet": "set-8FtTkwNl",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-8FtTkwNl-min",
+        "type": "count",
+        "courseSet": "set-8FtTkwNl",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-8FtTkwNl-max",
+        "type": "count",
+        "courseSet": "set-8FtTkwNl",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Calculus II"
+     },
+     {
+      "id": "r-wVZpvH6y",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-wVZpvH6y-credits",
+        "type": "credits",
+        "courseSet": "set-wVZpvH6y",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-wVZpvH6y-min",
+        "type": "count",
+        "courseSet": "set-wVZpvH6y",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-wVZpvH6y-max",
+        "type": "count",
+        "courseSet": "set-wVZpvH6y",
+        "maxCourses": 2,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Linear Algebra and Differential Equations"
+     },
+     {
+      "id": "r-5V6R1a00",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-5V6R1a00-credits",
+        "type": "credits",
+        "courseSet": "set-5V6R1a00",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-5V6R1a00-min",
+        "type": "count",
+        "courseSet": "set-5V6R1a00",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-5V6R1a00-max",
+        "type": "count",
+        "courseSet": "set-5V6R1a00",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Physics I"
+     },
+     {
+      "id": "r-ur5BPCPT",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-ur5BPCPT-credits",
+        "type": "credits",
+        "courseSet": "set-ur5BPCPT",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ur5BPCPT-min",
+        "type": "count",
+        "courseSet": "set-ur5BPCPT",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ur5BPCPT-max",
+        "type": "count",
+        "courseSet": "set-ur5BPCPT",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Physics II"
+     },
+     {
+      "id": "r-LbcW4Xwx",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-LbcW4Xwx-sequence",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-LbcW4Xwx-g1",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-LbcW4Xwx-g1-1",
+            "type": "course",
+            "code": "EE 1301",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-LbcW4Xwx-g1-2",
+            "type": "course",
+            "code": "CSCI 1113",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-LbcW4Xwx-g1-3",
+            "type": "course",
+            "code": "CSCI 1133",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-LbcW4Xwx-g1-4",
+            "type": "course",
+            "code": "CSCI 1133H",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-LbcW4Xwx-g2-1",
+          "type": "course",
+          "code": "EE 2015",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-LbcW4Xwx-g3-1",
+          "type": "course",
+          "code": "EE 2301",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-LbcW4Xwx-g4",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-LbcW4Xwx-g4-1",
+            "type": "course",
+            "code": "CSCI 1913",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-LbcW4Xwx-g4-2",
+            "type": "course",
+            "code": "CSCI 1933",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-LbcW4Xwx-g4-3",
+            "type": "course",
+            "code": "CSCI 1933H",
+            "sourceRef": "program"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "r-LbcW4Xwx-credits",
+        "type": "credits",
+        "minCredits": 16,
+        "courseSet": "set-LbcW4Xwx",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Lower Division Core ECE Courses Required for Admission to the Major"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students interested in pursuing a degree in computer engineering or electrical engineering are encouraged to take EE 1001 in their first year. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University's\u00a0 Liberal Education requirements .\nAll freshmen in the College of Science & Engineering must complete CSE 1001: First-Year Experience.\nAt least 26 upper division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nView\u00a0 Four-year Plans \u00a0for the College of Science and Engineering. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Integrated Bachelor of Computer Eng/Master of Science in Electrical and Computer Eng., Integrated Bachelor of Computer Engineering/Master of Science in Computer Science and Eng, Integrated Bachelor of Computer Engineering/Master of Science in Robotics. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

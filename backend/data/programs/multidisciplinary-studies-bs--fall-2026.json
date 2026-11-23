@@ -1,0 +1,437 @@
+{
+ "schemaVersion": 2,
+ "id": "multidisciplinary-studies-bs",
+ "name": "Multidisciplinary Studies B.S.",
+ "officialName": "Multidisciplinary Studies B.S.",
+ "officialProgramId": "226320118",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Multidisciplinary Studies B.S., revision 226320118-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/226320118, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/226320118",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 226320118-2026-09-08"
+  },
+  "course-0150841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150841",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4023W, version 0150841-2025-05-19"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-0038931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038931",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1313W, version 0038931-2026-01-20"
+  },
+  "course-0038981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038981",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3411, version 0038981-2024-09-03"
+  },
+  "course-0039051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039051",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3605W, version 0039051-2026-09-08"
+  },
+  "course-0133221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133221",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 3033W, version 0133221-2025-01-21"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-0022501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0022501",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 5261, version 0022501-2020-09-08"
+  },
+  "course-7939031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939031",
+   "retrieved": "2026-11-23",
+   "section": "Course record NURS 3710, version 7939031-2015-01-20"
+  },
+  "course-0052611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052611",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 3085, version 0052611-2026-05-18"
+  },
+  "course-7989021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989021",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3801, version 7989021-2021-05-17"
+  },
+  "course-0011481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3811, version 0011481-2024-05-13"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-7984181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7984181",
+   "retrieved": "2026-11-23",
+   "section": "Course record MDS 3001W, version 7984181-2026-09-08"
+  }
+ },
+ "courseSets": {
+  "set-408493": {
+   "codes": [
+    "ABUS 4023W",
+    "COMM 1101",
+    "COMM 1313W",
+    "COMM 3411",
+    "COMM 3605W",
+    "BA 3033W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-408494": {
+   "codes": [
+    "EPSY 3264",
+    "EPSY 5261",
+    "NURS 3710",
+    "POL 3085",
+    "PSY 3801",
+    "SOC 3811",
+    "STAT 3011"
+   ],
+   "sourceRef": "program"
+  },
+  "set-408495": {
+   "codes": [
+    "MDS 3001W",
+    "ABUS 4023W",
+    "COMM 3605W",
+    "BA 3033W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ABUS 4023W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communicating for Strategic Results",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 cr recommended"
+    },
+    "sourceRef": "course-0150841"
+   },
+   "sourceRef": "course-0150841"
+  },
+  "BA 3033W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "First Year Writing, CSOM mjr or NONM"
+    },
+    "sourceRef": "course-0133221"
+   },
+   "sourceRef": "course-0133221"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "COMM 1313W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of Argument",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038931"
+   },
+   "sourceRef": "course-0038931"
+  },
+  "COMM 3411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Small Group and Team Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038981"
+   },
+   "sourceRef": "course-0038981"
+  },
+  "COMM 3605W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Persuasive Speaking and Speech Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101, soph"
+    },
+    "sourceRef": "course-0039051"
+   },
+   "sourceRef": "course-0039051"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "EPSY 5261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Statistical Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0022501"
+   },
+   "sourceRef": "course-0022501"
+  },
+  "MDS 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Multidisciplinary Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Admitted to multidisciplinary studies"
+    },
+    "sourceRef": "course-7984181"
+   },
+   "sourceRef": "course-7984181"
+  },
+  "NURS 3710": {
+   "catalogTerm": "Fall 2026",
+   "title": "Statistics for Clinical Practice and Research",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[High school algebra or instr consent], students enrolled in School of Nursing must take A/F option"
+    },
+    "sourceRef": "course-7939031"
+   },
+   "sourceRef": "course-7939031"
+  },
+  "POL 3085": {
+   "catalogTerm": "Fall 2026",
+   "title": "Quantitative Analysis in Political Science",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0052611"
+   },
+   "sourceRef": "course-0052611"
+  },
+  "PSY 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychological Measurement and Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra, [PSY 1001 or equiv]; intended for students who plan to major in psychology"
+    },
+    "sourceRef": "course-7989021"
+   },
+   "sourceRef": "course-7989021"
+  },
+  "SOC 3811": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergraduates with strong math background are encouraged to register for 5811 in lieu of 3811 (Soc 5811 offered Fall terms only). Soc Majors/Minors must register A-F."
+    },
+    "sourceRef": "course-0011481"
+   },
+   "sourceRef": "course-0011481"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-226320118",
+   "label": "Program Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-226320118",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-408493",
+      "type": "credits",
+      "courseSet": "set-408493",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Multidisciplinary Studies Oral Communication Requirement"
+     },
+     {
+      "id": "r-408494",
+      "type": "credits",
+      "courseSet": "set-408494",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Multidisciplinary Studies Quantitative or Critical Thinking Requirement"
+     },
+     {
+      "id": "r-408495",
+      "type": "count",
+      "courseSet": "set-408495",
+      "maxCourses": 1,
+      "sourceRef": "program",
+      "label": "Upper Division Writing Intensive in the major"
+     },
+     {
+      "id": "r-408496",
+      "type": "course",
+      "code": "MDS 3001W",
+      "sourceRef": "program",
+      "label": "Multidisciplinary Studies Requirements"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "In applicable departmental areas, successful completion of the following courses will count toward the 50 credits: CHEM 2302, CSCI 2021, DHA 2463, FW 2001, PSY 2801.\nAll degree-seeking students must complete the University's Liberal Education requirements .\nAt least half of the upper division credits required for the major must be taken at University of Minnesota-Twin Cities. (25crs)\nSample plans are available for this program: https://sampleplan.umn.edu/node/121 Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students with 30-49 transferable credits, a GPA of 2.5, and strong interest in the major may be admitted to premajor status.\nAdmission is based on GPA, grade trends, performance in relevant coursework, and demonstrated ability to meet expectations of individualized undergraduate education.\nStudents must have attended an information session and an advising appointment.\nPreferred program match factors include\n* A 2-year break in pursuit of a degree (need not be continuous)\n* A heavy, though not necessarily exclusive, reliance on evening and online/distance learning (ODL) course work\nAt a timely point after admission, students must enroll in MDS 3001W: Intro to Multidisciplinary Studies, a 3-credit course, to develop a written proposal with a rationale for the degree plan. When the instructor has determined that the proposal is complete, it is submitted to a review committee for approval. At that point, the student achieves major status. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

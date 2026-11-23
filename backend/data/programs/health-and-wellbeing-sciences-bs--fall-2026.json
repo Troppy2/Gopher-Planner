@@ -1,0 +1,2268 @@
+{
+ "schemaVersion": 2,
+ "id": "health-and-wellbeing-sciences-bs",
+ "name": "Health and Wellbeing Sciences B.S.",
+ "officialName": "Health and Wellbeing Sciences B.S.",
+ "officialProgramId": "241320118",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Health and Wellbeing Sciences B.S., revision 241320118-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/241320118, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/241320118",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 241320118-2026-09-08"
+  },
+  "course-8102251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8102251",
+   "retrieved": "2026-11-23",
+   "section": "Course record ICP 3101W, version 8102251-2022-01-18"
+  },
+  "course-0054161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009, version 0054161-2020-09-08"
+  },
+  "course-7908161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009H, version 7908161-2020-09-08"
+  },
+  "course-8171961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171961",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1951, version 8171961-2026-09-08"
+  },
+  "course-8171881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171881",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1951H, version 8171881-2026-09-08"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-8077561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077561",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1062, version 8077561-2026-09-08"
+  },
+  "course-8077541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077541",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1066, version 8077541-2026-09-08"
+  },
+  "course-8283871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8283871",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1001, version 8283871-2026-09-08"
+  },
+  "course-7976151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976151",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1017, version 7976151-2026-05-18"
+  },
+  "course-7882031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7882031",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 2011, version 7882031-2016-01-19"
+  },
+  "course-8152521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1081, version 8152521-2024-09-03"
+  },
+  "course-8152841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152841",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1082, version 8152841-2023-05-15"
+  },
+  "course-8152831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152831",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1086, version 8152831-2025-01-21"
+  },
+  "course-0062811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062811",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1101, version 0062811-2024-09-03"
+  },
+  "course-0062861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062861",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1102, version 0062861-2020-09-08"
+  },
+  "course-0099201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1101, version 0099201-2024-09-03"
+  },
+  "course-0099231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099231",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1102, version 0099231-2016-01-19"
+  },
+  "course-0074681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074681",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSCN 1112, version 0074681-2018-09-04"
+  },
+  "course-0087121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087121",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 1003W, version 0087121-2026-05-18"
+  },
+  "course-8162821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162821",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 1281, version 8162821-2020-01-21"
+  },
+  "course-0074261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074261",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1101, version 0074261-2026-01-20"
+  },
+  "course-7946301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7946301",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1201, version 7946301-2025-09-02"
+  },
+  "course-8164821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164821",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1211, version 8164821-2018-01-16"
+  },
+  "course-0047661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047661",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 1301W, version 0047661-2015-01-20"
+  },
+  "course-0062651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001, version 0062651-2026-09-08"
+  },
+  "course-0029431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029431",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 1001, version 0029431-2021-05-17"
+  },
+  "course-8269231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8269231",
+   "retrieved": "2026-11-23",
+   "section": "Course record ICP 4101, version 8269231-2024-01-16"
+  },
+  "course-7881551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7881551",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANAT 3001, version 7881551-2015-01-20"
+  },
+  "course-8260661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260661",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANAT 3651, version 8260661-2023-01-17"
+  },
+  "course-7889931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889931",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3027, version 7889931-2024-09-03"
+  },
+  "course-0150841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150841",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4023W, version 0150841-2025-05-19"
+  },
+  "course-8093271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8093271",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4571W, version 8093271-2024-05-13"
+  },
+  "course-8092841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8092841",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHAR 3206, version 8092841-2023-05-15"
+  },
+  "course-8017961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017961",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3029W, version 8017961-2026-09-08"
+  },
+  "course-0026411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026411",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3221W, version 0026411-2021-05-17"
+  },
+  "course-8094041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094041",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3405W, version 8094041-2025-05-19"
+  },
+  "course-0026681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026681",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562W, version 0026681-2021-05-17"
+  },
+  "course-7906721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7906721",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3577W, version 7906721-2023-09-05"
+  },
+  "course-7981721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7981721",
+   "retrieved": "2026-11-23",
+   "section": "Course record BTHX 5100, version 7981721-2025-01-21"
+  },
+  "course-7995571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7995571",
+   "retrieved": "2026-11-23",
+   "section": "Course record BTHX 5300, version 7995571-2015-01-20"
+  },
+  "course-0051521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051521",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3302W, version 0051521-2025-01-21"
+  },
+  "course-0054821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054821",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3305, version 0054821-2021-05-17"
+  },
+  "course-0170311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0170311",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3322W, version 0170311-2025-05-19"
+  },
+  "course-7984871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7984871",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHAR 4204W, version 7984871-2023-05-15"
+  },
+  "course-8126821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8126821",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5706, version 8126821-2022-09-06"
+  },
+  "course-0042841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042841",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3001, version 0042841-2026-01-20"
+  },
+  "course-7969971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7969971",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 1001, version 7969971-2023-09-05"
+  },
+  "course-8101311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101311",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 3001, version 8101311-2021-09-07"
+  },
+  "course-0169231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0169231",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5101, version 0169231-2025-01-21"
+  },
+  "course-0150831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4022W, version 0150831-2026-09-08"
+  },
+  "course-0162441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0162441",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4501, version 0162441-2018-05-21"
+  },
+  "course-8068281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8068281",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4705, version 8068281-2018-09-04"
+  },
+  "course-8051861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8051861",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4707, version 8051861-2018-09-04"
+  },
+  "course-8254441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8254441",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4101, version 8254441-2026-01-20"
+  },
+  "course-7954861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7954861",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 3521, version 7954861-2025-09-02"
+  },
+  "course-7963371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7963371",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4541, version 7963371-2025-09-02"
+  },
+  "course-7963381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7963381",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4561W, version 7963381-2025-09-02"
+  },
+  "course-0131331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131331",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3001, version 0131331-2021-05-17"
+  },
+  "course-7948151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948151",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3015, version 7948151-2022-09-06"
+  },
+  "course-8059191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8059191",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 3301, version 8059191-2021-09-07"
+  },
+  "course-7961701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7961701",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5431, version 7961701-2021-09-07"
+  },
+  "course-8163631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163631",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSPH 5905, version 8163631-2021-09-07"
+  },
+  "course-0074791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074791",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSCN 3612, version 0074791-2021-09-07"
+  },
+  "course-0074811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074811",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSCN 3614, version 0074811-2023-09-05"
+  },
+  "course-0074901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074901",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSCN 4612W, version 0074901-2018-09-04"
+  },
+  "course-0074941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074941",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSCN 4614W, version 0074941-2017-01-17"
+  },
+  "course-0134101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0134101",
+   "retrieved": "2026-11-23",
+   "section": "Course record LAMP 4177, version 0134101-2017-01-17"
+  },
+  "course-0130771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0130771",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3211, version 0130771-2026-01-20"
+  },
+  "course-0052701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052701",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3385, version 0052701-2023-05-15"
+  },
+  "course-0105661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0105661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHSL 3051, version 0105661-2015-01-20"
+  },
+  "course-0105111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0105111",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHSL 4061, version 0105111-2026-09-08"
+  },
+  "course-0098091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0098091",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 3001, version 0098091-2021-09-07"
+  },
+  "course-8260401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260401",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 1202, version 8260401-2023-09-05"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-7939031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939031",
+   "retrieved": "2026-11-23",
+   "section": "Course record NURS 3710, version 7939031-2015-01-20"
+  },
+  "course-7989021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989021",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3801, version 7989021-2021-05-17"
+  },
+  "course-0011481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3811, version 0011481-2024-05-13"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0016221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016221",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3021, version 0016221-2025-01-21"
+  },
+  "course-0149551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0149551",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHAR 1002, version 0149551-2021-05-17"
+  },
+  "course-0149561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0149561",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHAR 5201, version 0149561-2021-05-17"
+  }
+ },
+ "courseSets": {
+  "set-433760": {
+   "codes": [
+    "BIOL 1009",
+    "BIOL 1009H",
+    "BIOL 1951",
+    "BIOL 1951H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433762": {
+   "codes": [
+    "CHEM 1061",
+    "CHEM 1065",
+    "CHEM 1062",
+    "CHEM 1066"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433763": {
+   "codes": [
+    "CHEM 1001",
+    "CHEM 1017",
+    "BIOC 2011"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433764": {
+   "codes": [
+    "CHEM 1081",
+    "CHEM 1065",
+    "CHEM 1082",
+    "CHEM 1086"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433765": {
+   "codes": [
+    "APEC 1101",
+    "APEC 1102",
+    "ECON 1101",
+    "ECON 1102"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433767": {
+   "codes": [
+    "ANTH 1003W",
+    "EPSY 1281",
+    "FSOS 1101",
+    "FSOS 1201",
+    "FSOS 1211",
+    "GEOG 1301W",
+    "PSY 1001",
+    "SOC 1001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433770": {
+   "codes": [
+    "ANAT 3001",
+    "ANAT 3651",
+    "KIN 3027"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433771": {
+   "codes": [
+    "ABUS 4023W",
+    "ABUS 4571W",
+    "PHAR 3206",
+    "WRIT 3029W",
+    "WRIT 3221W",
+    "WRIT 3405W",
+    "WRIT 3562W",
+    "WRIT 3577W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433772": {
+   "codes": [
+    "BTHX 5100",
+    "BTHX 5300",
+    "PHIL 3302W",
+    "PHIL 3305",
+    "PHIL 3322W",
+    "PHAR 4204W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433773": {
+   "codes": [
+    "CSPH 5706",
+    "KIN 3001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433774": {
+   "codes": [
+    "CSPH 1001",
+    "CSPH 3001",
+    "CSPH 5101"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433775": {
+   "codes": [
+    "ABUS 4022W",
+    "ABUS 4501",
+    "ABUS 4705",
+    "ABUS 4707",
+    "HSM 4101",
+    "HSM 3521",
+    "HSM 4541",
+    "HSM 4561W",
+    "MGMT 3001",
+    "MGMT 3015"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433776": {
+   "codes": [
+    "CSPH 3301",
+    "CSPH 5431",
+    "CSPH 5905",
+    "FSCN 3612",
+    "FSCN 3614",
+    "FSCN 4612W",
+    "FSCN 4614W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433778": {
+   "codes": [
+    "BIOL 3211",
+    "KIN 3385",
+    "PHSL 3051",
+    "PHSL 4061"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433779": {
+   "codes": [
+    "PUBH 3001",
+    "PUBH 1202"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433780": {
+   "codes": [
+    "EPSY 3264",
+    "NURS 3710",
+    "PSY 3801",
+    "SOC 3811",
+    "STAT 3011",
+    "STAT 3021"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433781": {
+   "codes": [
+    "PHAR 1002",
+    "PHAR 5201"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433783": {
+   "codes": [
+    "ABUS 4022W",
+    "ABUS 4023W",
+    "ABUS 4571W",
+    "FSCN 4612W",
+    "FSCN 4614W",
+    "HSM 4561W",
+    "ICP 3101W",
+    "PHAR 4204W",
+    "PHIL 3302W",
+    "PHIL 3322W",
+    "WRIT 3029W",
+    "WRIT 3221W",
+    "WRIT 3405W",
+    "WRIT 3562W",
+    "WRIT 3577W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ABUS 4022W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategic Management and Leadership",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 credits completed. Students will have better success if they have successfully taken and completed a technical writing or English composition course at the University level and can apply good writing techniques in this class."
+    },
+    "sourceRef": "course-0150831"
+   },
+   "sourceRef": "course-0150831"
+  },
+  "ABUS 4023W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communicating for Strategic Results",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 cr recommended"
+    },
+    "sourceRef": "course-0150841"
+   },
+   "sourceRef": "course-0150841"
+  },
+  "ABUS 4501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Building and Running a Small Business Enterprise",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0162441"
+   },
+   "sourceRef": "course-0162441"
+  },
+  "ABUS 4571W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Grant Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8093271"
+   },
+   "sourceRef": "course-8093271"
+  },
+  "ABUS 4705": {
+   "catalogTerm": "Fall 2026",
+   "title": "Leadership and Management for the Professional Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 semester cr recommended"
+    },
+    "sourceRef": "course-8068281"
+   },
+   "sourceRef": "course-8068281"
+  },
+  "ABUS 4707": {
+   "catalogTerm": "Fall 2026",
+   "title": "Financial Management for the Professional Practice",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 semester cr recommended"
+    },
+    "sourceRef": "course-8051861"
+   },
+   "sourceRef": "course-8051861"
+  },
+  "ANAT 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Anatomy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1002W or BIOL 1009 or BIOL 2002 or equiv], at least soph"
+    },
+    "sourceRef": "course-7881551"
+   },
+   "sourceRef": "course-7881551"
+  },
+  "ANAT 3651": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Human Anatomy with Cadaver Laboratory",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1002 or BIOL 1009 or BIOL 2002 or equiv], at least soph"
+    },
+    "sourceRef": "course-8260661"
+   },
+   "sourceRef": "course-8260661"
+  },
+  "ANTH 1003W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Cultures",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087121"
+   },
+   "sourceRef": "course-0087121"
+  },
+  "APEC 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062811"
+   },
+   "sourceRef": "course-0062811"
+  },
+  "APEC 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Macroeconomics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101 or Econ 1101"
+    },
+    "sourceRef": "course-0062861"
+   },
+   "sourceRef": "course-0062861"
+  },
+  "BIOC 2011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biochemistry for the Agricultural and Health Sciences",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1015"
+      },
+      {
+       "type": "course",
+       "course_code": "BIO 1009"
+      }
+     ]
+    },
+    "sourceRef": "course-7882031"
+   },
+   "sourceRef": "course-7882031"
+  },
+  "BIOL 1009": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054161"
+   },
+   "sourceRef": "course-0054161"
+  },
+  "BIOL 1009H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7908161"
+   },
+   "sourceRef": "course-7908161"
+  },
+  "BIOL 1951": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lecture I for Biological Sciences Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171961"
+   },
+   "sourceRef": "course-8171961"
+  },
+  "BIOL 1951H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lecture I for Biological Sciences Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171881"
+   },
+   "sourceRef": "course-8171881"
+  },
+  "BIOL 3211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Physiology of Humans and Other Animals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1009 or 2003], [CHEM 1062/1066 or 1082/1086], [2005 is recommended]"
+    },
+    "sourceRef": "course-0130771"
+   },
+   "sourceRef": "course-0130771"
+  },
+  "BTHX 5100": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Clinical Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7981721"
+   },
+   "sourceRef": "course-7981721"
+  },
+  "BTHX 5300": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Bioethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or instr consent"
+    },
+    "sourceRef": "course-7995571"
+   },
+   "sourceRef": "course-7995571"
+  },
+  "CHEM 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry of Life and Death",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8283871"
+   },
+   "sourceRef": "course-8283871"
+  },
+  "CHEM 1017": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Chemistry: Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976151"
+   },
+   "sourceRef": "course-7976151"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1062": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in 1061 or equiv, concurrent registration is required (or allowed) in 1066; registration for 1066 must precede registration for 1062"
+    },
+    "sourceRef": "course-8077561"
+   },
+   "sourceRef": "course-8077561"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "CHEM 1066": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles II Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1062, 1072, 1072H"
+    },
+    "sourceRef": "course-8077541"
+   },
+   "sourceRef": "course-8077541"
+  },
+  "CHEM 1081": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8152521"
+   },
+   "sourceRef": "course-8152521"
+  },
+  "CHEM 1082": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8152841"
+   },
+   "sourceRef": "course-8152841"
+  },
+  "CHEM 1086": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences II Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "grade of a C- or better in CHEM 1081 or 1061 or 1071H and CHEM 1065 (lab). Concurrent registration in CHEM 1082 is required."
+    },
+    "sourceRef": "course-8152831"
+   },
+   "sourceRef": "course-8152831"
+  },
+  "CSPH 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Health and Wellbeing",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7969971"
+   },
+   "sourceRef": "course-7969971"
+  },
+  "CSPH 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Integrative Healing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Junior or senior undergraduates (60+ credits), or instructor consent."
+    },
+    "sourceRef": "course-8101311"
+   },
+   "sourceRef": "course-8101311"
+  },
+  "CSPH 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Food Choices: Healing the Earth, Healing Ourselves",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "junior or senior undergraduates (60+ credits) or instructor consent"
+    },
+    "sourceRef": "course-8059191"
+   },
+   "sourceRef": "course-8059191"
+  },
+  "CSPH 5101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Overview of Whole Health Models of Care & Integrative Practices",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr or grad student; or instructor consent"
+    },
+    "sourceRef": "course-0169231"
+   },
+   "sourceRef": "course-0169231"
+  },
+  "CSPH 5431": {
+   "catalogTerm": "Fall 2026",
+   "title": "Functional Nutrition: An Expanded View of Nutrition, Chronic Disease, and Optimal Health",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Jr or sr or grad student] in Health Sciences or instr consent"
+    },
+    "sourceRef": "course-7961701"
+   },
+   "sourceRef": "course-7961701"
+  },
+  "CSPH 5706": {
+   "catalogTerm": "Fall 2026",
+   "title": "Lifestyle Medicine",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "jr or sr or grad, or inst consent"
+    },
+    "sourceRef": "course-8126821"
+   },
+   "sourceRef": "course-8126821"
+  },
+  "CSPH 5905": {
+   "catalogTerm": "Fall 2026",
+   "title": "Food Matters: Cook Like Your Life Depends On It",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Graduate student in a health professions field, or instructor consent"
+    },
+    "sourceRef": "course-8163631"
+   },
+   "sourceRef": "course-8163631"
+  },
+  "ECON 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099201"
+   },
+   "sourceRef": "course-0099201"
+  },
+  "ECON 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Macroeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1101 or equiv], knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099231"
+   },
+   "sourceRef": "course-0099231"
+  },
+  "EPSY 1281": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychological Science Applied",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162821"
+   },
+   "sourceRef": "course-8162821"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "FSCN 1112": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Nutrition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074681"
+   },
+   "sourceRef": "course-0074681"
+  },
+  "FSCN 3612": {
+   "catalogTerm": "Fall 2026",
+   "title": "Life Cycle Nutrition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074791"
+   },
+   "sourceRef": "course-0074791"
+  },
+  "FSCN 3614": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nutrition Education and Counseling",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074811"
+   },
+   "sourceRef": "course-0074811"
+  },
+  "FSCN 4612W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Human Nutrition",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074901"
+   },
+   "sourceRef": "course-0074901"
+  },
+  "FSCN 4614W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Community Nutrition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074941"
+   },
+   "sourceRef": "course-0074941"
+  },
+  "FSOS 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intimate Relationships",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074261"
+   },
+   "sourceRef": "course-0074261"
+  },
+  "FSOS 1201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Development in Families: Lifespan",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7946301"
+   },
+   "sourceRef": "course-7946301"
+  },
+  "FSOS 1211": {
+   "catalogTerm": "Fall 2026",
+   "title": "An Interdisciplinary Look at the Family in Multicultural America",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164821"
+   },
+   "sourceRef": "course-8164821"
+  },
+  "GEOG 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Our Globalizing World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0047661"
+   },
+   "sourceRef": "course-0047661"
+  },
+  "HSM 3521": {
+   "catalogTerm": "Fall 2026",
+   "title": "Healthcare Delivery Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7954861"
+   },
+   "sourceRef": "course-7954861"
+  },
+  "HSM 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Healthcare Management Economics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "HSM 3521"
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "ECON 1101"
+        },
+        {
+         "type": "course",
+         "course_code": "APEC 1101"
+        }
+       ]
+      }
+     ]
+    },
+    "sourceRef": "course-8254441"
+   },
+   "sourceRef": "course-8254441"
+  },
+  "HSM 4541": {
+   "catalogTerm": "Fall 2026",
+   "title": "Healthcare Management Finance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7963371"
+   },
+   "sourceRef": "course-7963371"
+  },
+  "HSM 4561W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Management of Healthcare Organizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7963381"
+   },
+   "sourceRef": "course-7963381"
+  },
+  "ICP 3101W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Proposal Development",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Admission to the Inter-College Program or Health and Wellbeing Sciences major"
+    },
+    "sourceRef": "course-8102251"
+   },
+   "sourceRef": "course-8102251"
+  },
+  "ICP 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Experience",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8269231"
+   },
+   "sourceRef": "course-8269231"
+  },
+  "KIN 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Lifetime Health and Wellness",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042841"
+   },
+   "sourceRef": "course-0042841"
+  },
+  "KIN 3027": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Anatomy for Kinesiology, Physical Activity, and Health Promotion",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889931"
+   },
+   "sourceRef": "course-7889931"
+  },
+  "KIN 3385": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Physiology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[KIN 3027 or ANAT 3001 or ANAT 3601 or ANAT 3611 or ANAT 3651 or ANAT 3658H ] and [Kin or Physical Activity and Health Promotion Major] or instr consent"
+    },
+    "sourceRef": "course-0052701"
+   },
+   "sourceRef": "course-0052701"
+  },
+  "LAMP 4177": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nature of Disease: Pathology for Allied Health Students",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One anatomy course, one physiology course, or instr consent"
+    },
+    "sourceRef": "course-0134101"
+   },
+   "sourceRef": "course-0134101"
+  },
+  "MGMT 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals of Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131331"
+   },
+   "sourceRef": "course-0131331"
+  },
+  "MGMT 3015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Entrepreneurship",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7948151"
+   },
+   "sourceRef": "course-7948151"
+  },
+  "NURS 3710": {
+   "catalogTerm": "Fall 2026",
+   "title": "Statistics for Clinical Practice and Research",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[High school algebra or instr consent], students enrolled in School of Nursing must take A/F option"
+    },
+    "sourceRef": "course-7939031"
+   },
+   "sourceRef": "course-7939031"
+  },
+  "PHAR 1002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medical Terminology",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0149551"
+   },
+   "sourceRef": "course-0149551"
+  },
+  "PHAR 3206": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Health Literacy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8092841"
+   },
+   "sourceRef": "course-8092841"
+  },
+  "PHAR 4204W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Drugs and the U.S. Healthcare System",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7984871"
+   },
+   "sourceRef": "course-7984871"
+  },
+  "PHAR 5201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Medical Terminology",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Basic knowledge of human anatomy/physiology"
+    },
+    "sourceRef": "course-0149561"
+   },
+   "sourceRef": "course-0149561"
+  },
+  "PHIL 3302W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Moral Problems of Contemporary Society",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0051521"
+   },
+   "sourceRef": "course-0051521"
+  },
+  "PHIL 3305": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medical Ethics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054821"
+   },
+   "sourceRef": "course-0054821"
+  },
+  "PHIL 3322W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Moral Problems of Contemporary Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0170311"
+   },
+   "sourceRef": "course-0170311"
+  },
+  "PHSL 3051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Physiology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1009 or 1 yr college biol], 1 yr college chem"
+    },
+    "sourceRef": "course-0105661"
+   },
+   "sourceRef": "course-0105661"
+  },
+  "PHSL 4061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Human Physiology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1 year college chem and physics and math through integral calculus"
+    },
+    "sourceRef": "course-0105111"
+   },
+   "sourceRef": "course-0105111"
+  },
+  "PSY 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062651"
+   },
+   "sourceRef": "course-0062651"
+  },
+  "PSY 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychological Measurement and Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra, [PSY 1001 or equiv]; intended for students who plan to major in psychology"
+    },
+    "sourceRef": "course-7989021"
+   },
+   "sourceRef": "course-7989021"
+  },
+  "PUBH 1202": {
+   "catalogTerm": "Fall 2026",
+   "title": "What is Public Health?",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8260401"
+   },
+   "sourceRef": "course-8260401"
+  },
+  "PUBH 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Personal and Community Health",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0098091"
+   },
+   "sourceRef": "course-0098091"
+  },
+  "SOC 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Sociology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc Majors/Minors must register A-F"
+    },
+    "sourceRef": "course-0029431"
+   },
+   "sourceRef": "course-0029431"
+  },
+  "SOC 3811": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergraduates with strong math background are encouraged to register for 5811 in lieu of 3811 (Soc 5811 offered Fall terms only). Soc Majors/Minors must register A-F."
+    },
+    "sourceRef": "course-0011481"
+   },
+   "sourceRef": "course-0011481"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "STAT 3021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Probability and Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1272"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1472"
+      }
+     ]
+    },
+    "sourceRef": "course-0016221"
+   },
+   "sourceRef": "course-0016221"
+  },
+  "WRIT 3029W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business and Professional Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8017961"
+   },
+   "sourceRef": "course-8017961"
+  },
+  "WRIT 3221W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communication Modes and Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026411"
+   },
+   "sourceRef": "course-0026411"
+  },
+  "WRIT 3405W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Humanistic Healthcare and Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8094041"
+   },
+   "sourceRef": "course-8094041"
+  },
+  "WRIT 3562W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026681"
+   },
+   "sourceRef": "course-0026681"
+  },
+  "WRIT 3577W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Rhetoric, Technology, and the Internet",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7906721"
+   },
+   "sourceRef": "course-7906721"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-241320118",
+   "label": "Program Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-241320118",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-433758",
+      "type": "course",
+      "code": "ICP 3101W",
+      "sourceRef": "program",
+      "label": "Proposal Development Seminar Course"
+     },
+     {
+      "id": "r-433759",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-433760",
+        "type": "credits",
+        "courseSet": "set-433760",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Biology"
+       },
+       {
+        "id": "r-433761",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-433762",
+          "type": "credits",
+          "courseSet": "set-433762",
+          "minCredits": 8,
+          "sourceRef": "program",
+          "label": "Chemistry Option A"
+         },
+         {
+          "id": "r-433763",
+          "type": "credits",
+          "courseSet": "set-433763",
+          "minCredits": 7,
+          "sourceRef": "program",
+          "label": "Chemistry Option B"
+         },
+         {
+          "id": "r-433764",
+          "type": "credits",
+          "courseSet": "set-433764",
+          "minCredits": 8,
+          "sourceRef": "program",
+          "label": "Chemistry Option C"
+         }
+        ],
+        "label": "Chemistry"
+       },
+       {
+        "id": "r-433765",
+        "type": "credits",
+        "courseSet": "set-433765",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Economics"
+       },
+       {
+        "id": "r-433766",
+        "type": "course",
+        "code": "FSCN 1112",
+        "sourceRef": "program",
+        "label": "Nutrition"
+       },
+       {
+        "id": "r-433767",
+        "type": "credits",
+        "courseSet": "set-433767",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Social Science"
+       }
+      ],
+      "label": "Foundation Prerequisites"
+     },
+     {
+      "id": "r-433768",
+      "type": "course",
+      "code": "ICP 4101",
+      "sourceRef": "program",
+      "label": "Career Readiness"
+     },
+     {
+      "id": "r-433769",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-433770",
+        "type": "credits",
+        "courseSet": "set-433770",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Anatomy"
+       },
+       {
+        "id": "r-433771",
+        "type": "credits",
+        "courseSet": "set-433771",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Communication"
+       },
+       {
+        "id": "r-433772",
+        "type": "credits",
+        "courseSet": "set-433772",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Ethics"
+       },
+       {
+        "id": "r-433773",
+        "type": "credits",
+        "courseSet": "set-433773",
+        "minCredits": 2,
+        "sourceRef": "program",
+        "label": "Health and Fitness"
+       },
+       {
+        "id": "r-433774",
+        "type": "credits",
+        "courseSet": "set-433774",
+        "minCredits": 2,
+        "sourceRef": "program",
+        "label": "Integrative Health"
+       },
+       {
+        "id": "r-433775",
+        "type": "credits",
+        "courseSet": "set-433775",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Management/Economics"
+       },
+       {
+        "id": "r-433776",
+        "type": "credits",
+        "courseSet": "set-433776",
+        "minCredits": 1,
+        "sourceRef": "program",
+        "label": "Nutrition"
+       },
+       {
+        "id": "r-433777",
+        "type": "course",
+        "code": "LAMP 4177",
+        "sourceRef": "program",
+        "label": "Pathology"
+       },
+       {
+        "id": "r-433778",
+        "type": "credits",
+        "courseSet": "set-433778",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Physiology"
+       },
+       {
+        "id": "r-433779",
+        "type": "credits",
+        "courseSet": "set-433779",
+        "minCredits": 2,
+        "sourceRef": "program",
+        "label": "Public Health"
+       },
+       {
+        "id": "r-433780",
+        "type": "credits",
+        "courseSet": "set-433780",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Statistics"
+       },
+       {
+        "id": "r-433781",
+        "type": "credits",
+        "courseSet": "set-433781",
+        "minCredits": 2,
+        "sourceRef": "program",
+        "label": "Terminology"
+       }
+      ],
+      "label": "Core Courses"
+     },
+     {
+      "id": "r-433782",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "To reach the 50 upper division credits required for the major, students must select 12-16 credits within the emphasis or related supporting courses (see adviser). Must earn C- or better in all plus overall GPA 2.0 or higher. Examples include Addiction Studies, Business/Marketing Ed, Comm & Languages, Integrative Med/Holistic Health & Healing, Health Services Mgmt, Life Science, Nutrition, Pharmacology, Public Health, Human Sexuality, Social Sciences, Social Work, Youth Studies. Verify this requirement with your advisor or APAS.",
+      "label": "Upper Division Health and Wellbeing Sciences Emphasis and Supporting Credits"
+     },
+     {
+      "id": "r-433783",
+      "type": "count",
+      "courseSet": "set-433783",
+      "maxCourses": 1,
+      "sourceRef": "program",
+      "label": "Upper-Division Writing Intensive within the Major"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students must earn 50 upper division credits in the degree.\nAt least half of the upper division credits required for the major must be taken at University of Minnesota Twin Cities. (25crs)\nAll degree-seeking students must complete the University\u2019s Liberal Education requirements . Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Completion of prerequisite courses (or in progress): biology, chemistry, economics, nutrition, and psychology/sociology, with a grade of C- or better. Admission is based on individual review of a student's application for program match. First steps include attending a program information session and initial degree-planning appointment with an adviser. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

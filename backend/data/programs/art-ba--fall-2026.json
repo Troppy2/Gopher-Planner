@@ -1,0 +1,3125 @@
+{
+ "schemaVersion": 2,
+ "id": "art-ba",
+ "name": "Art B.A.",
+ "officialName": "Art B.A.",
+ "officialProgramId": "009620217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Art B.A., revision 009620217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/009620217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/009620217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 009620217-2026-09-08"
+  },
+  "course-0054591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1001, version 0054591-2023-01-17"
+  },
+  "course-8165621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8165621",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1001H, version 8165621-2023-01-17"
+  },
+  "course-0051591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1101, version 0051591-2026-09-08"
+  },
+  "course-0055531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0055531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1102, version 0055531-2026-09-08"
+  },
+  "course-7987321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7987321",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1103, version 7987321-2026-09-08"
+  },
+  "course-8168541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1107, version 8168541-2020-09-08"
+  },
+  "course-0052631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052631",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1801, version 0052631-2026-09-08"
+  },
+  "course-0052511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052511",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1802, version 0052511-2026-09-08"
+  },
+  "course-0051351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051351",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1701, version 0051351-2026-09-08"
+  },
+  "course-0054571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054571",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1704, version 0054571-2026-09-08"
+  },
+  "course-8114221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1002, version 8114221-2015-01-20"
+  },
+  "course-0066221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3401W, version 0066221-2024-09-03"
+  },
+  "course-8166061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8166061",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3401V, version 8166061-2024-09-03"
+  },
+  "course-8199901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8199901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1201, version 8199901-2020-09-08"
+  },
+  "course-0051341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051341",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3110, version 0051341-2026-09-08"
+  },
+  "course-0051181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3120, version 0051181-2026-09-08"
+  },
+  "course-7986401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7986401",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3130, version 7986401-2026-09-08"
+  },
+  "course-8168601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168601",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3140, version 8168601-2026-09-08"
+  },
+  "course-0051291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051291",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3150, version 0051291-2026-09-08"
+  },
+  "course-8035971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8035971",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3170, version 8035971-2025-01-21"
+  },
+  "course-8165111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8165111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3180, version 8165111-2024-09-03"
+  },
+  "course-0080381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0080381",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3190, version 0080381-2026-09-08"
+  },
+  "course-8168111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3206, version 8168111-2026-09-08"
+  },
+  "course-8282921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282921",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3270, version 8282921-2026-09-08"
+  },
+  "course-0055451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0055451",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3404W, version 0055451-2017-01-17"
+  },
+  "course-8190501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8190501",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3481, version 8190501-2021-09-07"
+  },
+  "course-8080001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8080001",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3490, version 8080001-2026-05-18"
+  },
+  "course-8276901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8276901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3560, version 8276901-2026-09-08"
+  },
+  "course-8282121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282121",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3670, version 8282121-2026-09-08"
+  },
+  "course-8283621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8283621",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3580, version 8283621-2026-09-08"
+  },
+  "course-0051361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051361",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3710, version 0051361-2025-09-02"
+  },
+  "course-0075531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0075531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3720, version 0075531-2025-09-02"
+  },
+  "course-0075541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0075541",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3730, version 0075541-2024-09-03"
+  },
+  "course-8169221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3740, version 8169221-2024-09-03"
+  },
+  "course-0170181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0170181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3750, version 0170181-2025-01-21"
+  },
+  "course-7905341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905341",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3760, version 7905341-2024-09-03"
+  },
+  "course-8173091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173091",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3780, version 8173091-2024-09-03"
+  },
+  "course-8252871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8252871",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3790, version 8252871-2025-01-21"
+  },
+  "course-0052641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052641",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3820, version 0052641-2024-09-03"
+  },
+  "course-8283221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8283221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3824, version 8283221-2026-09-08"
+  },
+  "course-0052651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3830, version 0052651-2024-09-03"
+  },
+  "course-8282101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282101",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3880, version 8282101-2026-09-08"
+  },
+  "course-8282111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3950, version 8282111-2026-09-08"
+  },
+  "course-8282131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282131",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 3960, version 8282131-2025-09-02"
+  },
+  "course-0071691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0071691",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5110, version 0071691-2026-09-08"
+  },
+  "course-0066341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0066341",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5120, version 0066341-2026-09-08"
+  },
+  "course-0065681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065681",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5140, version 0065681-2024-09-03"
+  },
+  "course-7986451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7986451",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5260, version 7986451-2026-09-08"
+  },
+  "course-8282931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282931",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5270, version 8282931-2026-09-08"
+  },
+  "course-0088801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088801",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5490, version 0088801-2026-05-18"
+  },
+  "course-8283251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8283251",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5560, version 8283251-2026-09-08"
+  },
+  "course-8282201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5670, version 8282201-2026-09-08"
+  },
+  "course-0051371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051371",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5710, version 0051371-2026-09-08"
+  },
+  "course-7904271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7904271",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5750, version 7904271-2025-01-21"
+  },
+  "course-7905361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905361",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5760, version 7905361-2024-09-03"
+  },
+  "course-8173101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173101",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5780, version 8173101-2024-09-03"
+  },
+  "course-0069451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069451",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5810, version 0069451-2024-09-03"
+  },
+  "course-8283241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8283241",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5824, version 8283241-2026-09-08"
+  },
+  "course-8282171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282171",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5880, version 8282171-2026-09-08"
+  },
+  "course-8283021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8283021",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5950, version 8283021-2025-09-02"
+  },
+  "course-8282181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5960, version 8282181-2026-09-08"
+  },
+  "course-8198871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198871",
+   "retrieved": "2026-11-23",
+   "section": "Course record CLA 3996, version 8198871-2025-09-02"
+  },
+  "course-8185461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185461",
+   "retrieved": "2026-11-23",
+   "section": "Course record CLA 3896, version 8185461-2025-09-02"
+  },
+  "course-0099181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 1001, version 0099181-2026-01-20"
+  },
+  "course-7953531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953531",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 1002W, version 7953531-2024-01-16"
+  },
+  "course-0090411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090411",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 1004W, version 0090411-2021-09-07"
+  },
+  "course-0083891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0083891",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 1921W, version 0083891-2016-09-06"
+  },
+  "course-0025331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025331",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3005, version 0025331-2025-09-02"
+  },
+  "course-0099391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099391",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3009, version 0099391-2026-09-08"
+  },
+  "course-8136391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8136391",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3009, version 8136391-2026-09-08"
+  },
+  "course-8187601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187601",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3609, version 8187601-2026-09-08"
+  },
+  "course-0025291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025291",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3012, version 0025291-2024-09-03"
+  },
+  "course-0027671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0027671",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3014W, version 0027671-2022-09-06"
+  },
+  "course-8029261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029261",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3415W, version 8029261-2024-09-03"
+  },
+  "course-8200521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8200521",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3019, version 8200521-2023-01-17"
+  },
+  "course-8262481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262481",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3019, version 8262481-2024-09-03"
+  },
+  "course-8253371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253371",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3021, version 8253371-2026-09-08"
+  },
+  "course-8266501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266501",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3022, version 8266501-2026-01-20"
+  },
+  "course-7971111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3152, version 7971111-2025-01-21"
+  },
+  "course-0093661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093661",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3152, version 0093661-2022-01-18"
+  },
+  "course-7971101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971101",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3162, version 7971101-2025-01-21"
+  },
+  "course-0093641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093641",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3162, version 0093641-2025-01-21"
+  },
+  "course-8065201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8065201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3182, version 8065201-2025-01-21"
+  },
+  "course-8067071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8067071",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3182, version 8067071-2022-01-18"
+  },
+  "course-8169821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169821",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3182, version 8169821-2024-09-03"
+  },
+  "course-8171281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171281",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3216W, version 8171281-2026-01-20"
+  },
+  "course-8171061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171061",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3216W, version 8171061-2026-01-20"
+  },
+  "course-8006221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3309, version 8006221-2015-01-20"
+  },
+  "course-8002431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8002431",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3312W, version 8002431-2026-09-08"
+  },
+  "course-7998821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7998821",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3315, version 7998821-2026-09-08"
+  },
+  "course-8013781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013781",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3708, version 8013781-2026-09-08"
+  },
+  "course-8198991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198991",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5315, version 8198991-2026-09-08"
+  },
+  "course-8199001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8199001",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5708, version 8199001-2026-09-08"
+  },
+  "course-8256701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256701",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3345, version 8256701-2023-01-17"
+  },
+  "course-7928921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7928921",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3401W, version 7928921-2022-09-06"
+  },
+  "course-8083831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3434, version 8083831-2023-01-17"
+  },
+  "course-0166651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0166651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3464, version 0166651-2022-09-06"
+  },
+  "course-8253111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3481, version 8253111-2021-09-07"
+  },
+  "course-8039991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8039991",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3577, version 8039991-2013-01-22"
+  },
+  "course-8018811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018811",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3655, version 8018811-2015-05-26"
+  },
+  "course-8029561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029561",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3655, version 8029561-2022-01-18"
+  },
+  "course-7920391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920391",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5655, version 7920391-2015-05-26"
+  },
+  "course-8197811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197811",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3777, version 8197811-2020-09-08"
+  },
+  "course-8198521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198521",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3777, version 8198521-2024-09-03"
+  },
+  "course-0024911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0024911",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5777, version 0024911-2020-09-08"
+  },
+  "course-8168831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168831",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 5777, version 8168831-2024-09-03"
+  },
+  "course-8197221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3778, version 8197221-2021-01-19"
+  },
+  "course-8186021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8186021",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5778, version 8186021-2021-01-19"
+  },
+  "course-8198951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198951",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3779, version 8198951-2021-09-07"
+  },
+  "course-8251311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8251311",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3779, version 8251311-2024-09-03"
+  },
+  "course-0098061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0098061",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3896, version 0098061-2026-09-08"
+  },
+  "course-0083941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0083941",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3921W, version 0083941-2024-01-16"
+  },
+  "course-8115461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115461",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3926W, version 8115461-2024-09-03"
+  },
+  "course-8115021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115021",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5926W, version 8115021-2024-09-03"
+  },
+  "course-8272101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272101",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3928W, version 8272101-2025-01-21"
+  },
+  "course-8272091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272091",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5928W, version 8272091-2025-01-21"
+  },
+  "course-8133411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8133411",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3929, version 8133411-2015-09-08"
+  },
+  "course-8262561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262561",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3933, version 8262561-2023-09-05"
+  },
+  "course-0160611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160611",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3993, version 0160611-2015-01-20"
+  },
+  "course-7971311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971311",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5252, version 7971311-2026-01-20"
+  },
+  "course-7957321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7957321",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5302, version 7957321-2023-01-17"
+  },
+  "course-7881401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7881401",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5413, version 7881401-2022-09-06"
+  },
+  "course-7989651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5422, version 7989651-2024-09-03"
+  },
+  "course-7877831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7877831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5466, version 7877831-2025-01-21"
+  },
+  "course-8063761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8063761",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5565, version 8063761-2022-01-18"
+  },
+  "course-8258591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8258591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5576, version 8258591-2023-09-05"
+  },
+  "course-0082131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082131",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5766, version 0082131-2025-09-02"
+  },
+  "course-8200001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8200001",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5774, version 8200001-2024-01-16"
+  },
+  "course-8268341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8268341",
+   "retrieved": "2026-11-23",
+   "section": "Course record EMS 5774, version 8268341-2024-01-16"
+  },
+  "course-8268351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8268351",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 5774, version 8268351-2024-01-16"
+  },
+  "course-0024961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0024961",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5781, version 0024961-2018-09-04"
+  },
+  "course-8098591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8098591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5787, version 8098591-2026-09-08"
+  },
+  "course-8166191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8166191",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 5787, version 8166191-2026-09-08"
+  },
+  "course-0082201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5950, version 0082201-2024-05-13"
+  },
+  "course-0160681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160681",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 5993, version 0160681-2023-01-17"
+  },
+  "course-0135471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0135471",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5404, version 0135471-2024-01-16"
+  },
+  "course-8268331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8268331",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 5404H, version 8268331-2024-01-16"
+  }
+ },
+ "courseSets": {
+  "set-TdEsJXDt": {
+   "codes": [
+    "ARTS 1001",
+    "ARTS 1001H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-lJEcR8Vw": {
+   "codes": [
+    "ARTS 1101",
+    "ARTS 1102",
+    "ARTS 1103",
+    "ARTS 1107"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ILju3XsZ": {
+   "codes": [
+    "ARTS 1801",
+    "ARTS 1802"
+   ],
+   "sourceRef": "program"
+  },
+  "set-zPPUH8Zm": {
+   "codes": [
+    "ARTS 1701",
+    "ARTS 1704"
+   ],
+   "sourceRef": "program"
+  },
+  "set-dzAGgrTm": {
+   "codes": [
+    "ARTS 3401W",
+    "ARTS 3401V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-R3TtkNyz": {
+   "codes": [
+    "ARTS 1101",
+    "ARTS 1102",
+    "ARTS 1103",
+    "ARTS 1107",
+    "ARTS 1201",
+    "ARTS 1701",
+    "ARTS 1704",
+    "ARTS 1801",
+    "ARTS 1802"
+   ],
+   "sourceRef": "program"
+  },
+  "set-HaDBye30": {
+   "codes": [
+    "ARTS 3110",
+    "ARTS 3120",
+    "ARTS 3130",
+    "ARTS 3140",
+    "ARTS 3150",
+    "ARTS 3170",
+    "ARTS 3180",
+    "ARTS 3190",
+    "ARTS 3206",
+    "ARTS 3270",
+    "ARTS 3404W",
+    "ARTS 3481",
+    "ARTS 3490",
+    "ARTS 3560",
+    "ARTS 3670",
+    "ARTS 3580",
+    "ARTS 3710",
+    "ARTS 3720",
+    "ARTS 3730",
+    "ARTS 3740",
+    "ARTS 3750",
+    "ARTS 3760",
+    "ARTS 3780",
+    "ARTS 3790",
+    "ARTS 3820",
+    "ARTS 3824",
+    "ARTS 3830",
+    "ARTS 3880",
+    "ARTS 3950",
+    "ARTS 3960",
+    "ARTS 5110",
+    "ARTS 5120",
+    "ARTS 5140",
+    "ARTS 5260",
+    "ARTS 5270",
+    "ARTS 5490",
+    "ARTS 5560",
+    "ARTS 5670",
+    "ARTS 5710",
+    "ARTS 5750",
+    "ARTS 5760",
+    "ARTS 5780",
+    "ARTS 5810",
+    "ARTS 5824",
+    "ARTS 5880",
+    "ARTS 5950",
+    "ARTS 5960",
+    "CLA 3996",
+    "CLA 3896"
+   ],
+   "sourceRef": "program"
+  },
+  "set-oZcPccZg": {
+   "codes": [
+    "ARTH 1001",
+    "ARTH 1002W",
+    "ARTH 1004W",
+    "ARTH 1921W",
+    "ARTH 3005",
+    "ARTH 3009",
+    "MEST 3009",
+    "RELS 3609",
+    "ARTH 3012",
+    "ARTH 3014W",
+    "RELS 3415W",
+    "ARTH 3019",
+    "RELS 3019",
+    "ARTH 3021",
+    "ARTH 3022",
+    "ARTH 3152",
+    "CNRC 3152",
+    "ARTH 3162",
+    "CNRC 3162",
+    "ARTH 3182",
+    "CNRC 3182",
+    "RELS 3182",
+    "ARTH 3216W",
+    "CHLS 3216W",
+    "ARTH 3309",
+    "ARTH 3312W",
+    "ARTH 3315",
+    "HIST 3708",
+    "ARTH 5315",
+    "HIST 5708",
+    "ARTH 3345",
+    "ARTH 3401W",
+    "ARTH 3434",
+    "ARTH 3464",
+    "ARTH 3481",
+    "ARTH 3577",
+    "ARTH 3655",
+    "AFRO 3655",
+    "ARTH 5655",
+    "ARTH 3777",
+    "RELS 3777",
+    "ARTH 5777",
+    "RELS 5777",
+    "ARTH 3778",
+    "ARTH 5778",
+    "ARTH 3779",
+    "RELS 3779",
+    "ARTH 3896",
+    "ARTH 3921W",
+    "ARTH 3926W",
+    "ARTH 5926W",
+    "ARTH 3928W",
+    "ARTH 5928W",
+    "ARTH 3929",
+    "ARTH 3933",
+    "ARTH 3993",
+    "ARTH 5252",
+    "ARTH 5302",
+    "ARTH 5413",
+    "ARTH 5422",
+    "ARTH 5466",
+    "ARTH 5565",
+    "ARTH 5576",
+    "ARTH 5766",
+    "ARTH 5774",
+    "EMS 5774",
+    "MEST 5774",
+    "ARTH 5781",
+    "ARTH 5787",
+    "CNRC 5787",
+    "ARTH 5950",
+    "ARTH 5993"
+   ],
+   "sourceRef": "program"
+  },
+  "set-hDfEqs1Z": {
+   "codes": [
+    "ARTS 5404",
+    "ARTS 5404H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-bUAMEO5l": {
+   "codes": [
+    "ARTH 3014W",
+    "RELS 3415W",
+    "ARTH 3921W",
+    "ARTS 3401W",
+    "ARTS 3401V",
+    "ARTS 3404W",
+    "ARTH 3216W",
+    "CHLS 3216W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AFRO 3655": {
+   "catalogTerm": "Fall 2026",
+   "title": "African-American Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029561"
+   },
+   "sourceRef": "course-8029561"
+  },
+  "ARTH 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Western Art",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099181"
+   },
+   "sourceRef": "course-0099181"
+  },
+  "ARTH 1002W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Why Art Matters",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7953531"
+   },
+   "sourceRef": "course-7953531"
+  },
+  "ARTH 1004W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Asian Art",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0090411"
+   },
+   "sourceRef": "course-0090411"
+  },
+  "ARTH 1921W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Film Study",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0083891"
+   },
+   "sourceRef": "course-0083891"
+  },
+  "ARTH 3005": {
+   "catalogTerm": "Fall 2026",
+   "title": "Identity and American Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025331"
+   },
+   "sourceRef": "course-0025331"
+  },
+  "ARTH 3009": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Art from Below",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099391"
+   },
+   "sourceRef": "course-0099391"
+  },
+  "ARTH 3012": {
+   "catalogTerm": "Fall 2026",
+   "title": "19th and 20th-Century Art: Identity & Representation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025291"
+   },
+   "sourceRef": "course-0025291"
+  },
+  "ARTH 3014W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art of India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0027671"
+   },
+   "sourceRef": "course-0027671"
+  },
+  "ARTH 3019": {
+   "catalogTerm": "Fall 2026",
+   "title": "Buddhist Art and Architecture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8200521"
+   },
+   "sourceRef": "course-8200521"
+  },
+  "ARTH 3021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art and Revolution, 1789-1889",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253371"
+   },
+   "sourceRef": "course-8253371"
+  },
+  "ARTH 3022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Impressionism in Paris",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266501"
+   },
+   "sourceRef": "course-8266501"
+  },
+  "ARTH 3152": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art and Archaeology of Ancient Greece",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971111"
+   },
+   "sourceRef": "course-7971111"
+  },
+  "ARTH 3162": {
+   "catalogTerm": "Fall 2026",
+   "title": "Roman Art and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971101"
+   },
+   "sourceRef": "course-7971101"
+  },
+  "ARTH 3182": {
+   "catalogTerm": "Fall 2026",
+   "title": "Egypt and Western Asia: Art and Archaeology of Ancient Egypt and Western Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8065201"
+   },
+   "sourceRef": "course-8065201"
+  },
+  "ARTH 3216W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Power of Chicana/o/x Art: 1960s to the present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171281"
+   },
+   "sourceRef": "course-8171281"
+  },
+  "ARTH 3309": {
+   "catalogTerm": "Fall 2026",
+   "title": "Renaissance Art in Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8006221"
+   },
+   "sourceRef": "course-8006221"
+  },
+  "ARTH 3312W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Enlightenment: European Art and Culture in the 18th Century",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8002431"
+   },
+   "sourceRef": "course-8002431"
+  },
+  "ARTH 3315": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Curiosity: Art, Science & Technology in Europe, 1400-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7998821"
+   },
+   "sourceRef": "course-7998821"
+  },
+  "ARTH 3345": {
+   "catalogTerm": "Fall 2026",
+   "title": "Imagining the North Country",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256701"
+   },
+   "sourceRef": "course-8256701"
+  },
+  "ARTH 3401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art on Trial",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7928921"
+   },
+   "sourceRef": "course-7928921"
+  },
+  "ARTH 3434": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art and the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8083831"
+   },
+   "sourceRef": "course-8083831"
+  },
+  "ARTH 3464": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art Since 1945",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0166651"
+   },
+   "sourceRef": "course-0166651"
+  },
+  "ARTH 3481": {
+   "catalogTerm": "Fall 2026",
+   "title": "Curatorial Practice Field Experience",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253111"
+   },
+   "sourceRef": "course-8253111"
+  },
+  "ARTH 3577": {
+   "catalogTerm": "Fall 2026",
+   "title": "Photo Nation: Photography in America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8039991"
+   },
+   "sourceRef": "course-8039991"
+  },
+  "ARTH 3655": {
+   "catalogTerm": "Fall 2026",
+   "title": "African-American Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018811"
+   },
+   "sourceRef": "course-8018811"
+  },
+  "ARTH 3777": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Diversity of Traditions: Indian Empires after 1200",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197811"
+   },
+   "sourceRef": "course-8197811"
+  },
+  "ARTH 3778": {
+   "catalogTerm": "Fall 2026",
+   "title": "Traditions of South Asian Painting: Past to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197221"
+   },
+   "sourceRef": "course-8197221"
+  },
+  "ARTH 3779": {
+   "catalogTerm": "Fall 2026",
+   "title": "Visions of Paradise: The Indian Temple",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8198951"
+   },
+   "sourceRef": "course-8198951"
+  },
+  "ARTH 3896": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship in Museums & Collections",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instructor consent."
+    },
+    "sourceRef": "course-0098061"
+   },
+   "sourceRef": "course-0098061"
+  },
+  "ARTH 3921W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art of the Film",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0083941"
+   },
+   "sourceRef": "course-0083941"
+  },
+  "ARTH 3926W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Cinema of Alfred Hitchcock",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115461"
+   },
+   "sourceRef": "course-8115461"
+  },
+  "ARTH 3928W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Film Noir",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272101"
+   },
+   "sourceRef": "course-8272101"
+  },
+  "ARTH 3929": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cinema Now",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8133411"
+   },
+   "sourceRef": "course-8133411"
+  },
+  "ARTH 3933": {
+   "catalogTerm": "Fall 2026",
+   "title": "What Art Historians Do: Undergraduate Theory and Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262561"
+   },
+   "sourceRef": "course-8262561"
+  },
+  "ARTH 3993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0160611"
+   },
+   "sourceRef": "course-0160611"
+  },
+  "ARTH 5252": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Early Christian Art in Context",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971311"
+   },
+   "sourceRef": "course-7971311"
+  },
+  "ARTH 5302": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Image Multiplied: Prints in Early Modern Europe",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7957321"
+   },
+   "sourceRef": "course-7957321"
+  },
+  "ARTH 5315": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Curiosity: Art, Science & Technology in Europe, 1400-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8198991"
+   },
+   "sourceRef": "course-8198991"
+  },
+  "ARTH 5413": {
+   "catalogTerm": "Fall 2026",
+   "title": "Alternative Media: Video, Performance, Digital Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7881401"
+   },
+   "sourceRef": "course-7881401"
+  },
+  "ARTH 5422": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Power of Print: History of the Graphic Arts in the Modern Age",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7989651"
+   },
+   "sourceRef": "course-7989651"
+  },
+  "ARTH 5466": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7877831"
+   },
+   "sourceRef": "course-7877831"
+  },
+  "ARTH 5565": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Art in the Gilded Age",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8063761"
+   },
+   "sourceRef": "course-8063761"
+  },
+  "ARTH 5576": {
+   "catalogTerm": "Fall 2026",
+   "title": "Folk, Self-Taught, Visionary, Na\u00efve:  Outsiders in American Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8258591"
+   },
+   "sourceRef": "course-8258591"
+  },
+  "ARTH 5655": {
+   "catalogTerm": "Fall 2026",
+   "title": "African-American Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7920391"
+   },
+   "sourceRef": "course-7920391"
+  },
+  "ARTH 5766": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chinese Painting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082131"
+   },
+   "sourceRef": "course-0082131"
+  },
+  "ARTH 5774": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Body in Indian Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8200001"
+   },
+   "sourceRef": "course-8200001"
+  },
+  "ARTH 5777": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Diversity of Traditions: Indian Empires after 1200",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0024911"
+   },
+   "sourceRef": "course-0024911"
+  },
+  "ARTH 5778": {
+   "catalogTerm": "Fall 2026",
+   "title": "Traditions of South Asian Painting: Past to Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8186021"
+   },
+   "sourceRef": "course-8186021"
+  },
+  "ARTH 5781": {
+   "catalogTerm": "Fall 2026",
+   "title": "Age of Empire: The Mughals, Safavids, and Ottomans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0024961"
+   },
+   "sourceRef": "course-0024961"
+  },
+  "ARTH 5787": {
+   "catalogTerm": "Fall 2026",
+   "title": "From Hercules to Buddha: Visual Cultures in Contact",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8098591"
+   },
+   "sourceRef": "course-8098591"
+  },
+  "ARTH 5926W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Cinema of Alfred Hitchcock",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115021"
+   },
+   "sourceRef": "course-8115021"
+  },
+  "ARTH 5928W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Film Noir",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272091"
+   },
+   "sourceRef": "course-8272091"
+  },
+  "ARTH 5950": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics: Art History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082201"
+   },
+   "sourceRef": "course-0082201"
+  },
+  "ARTH 5993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0160681"
+   },
+   "sourceRef": "course-0160681"
+  },
+  "ARTS 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Contemporary Art and Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054591"
+   },
+   "sourceRef": "course-0054591"
+  },
+  "ARTS 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Contemporary Art and Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student"
+    },
+    "sourceRef": "course-8165621"
+   },
+   "sourceRef": "course-8165621"
+  },
+  "ARTS 1002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art and Life: Thinking About Ethics Through Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8114221"
+   },
+   "sourceRef": "course-8114221"
+  },
+  "ARTS 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Drawing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0051591"
+   },
+   "sourceRef": "course-0051591"
+  },
+  "ARTS 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Painting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0055531"
+   },
+   "sourceRef": "course-0055531"
+  },
+  "ARTS 1103": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Printmaking: Relief, Screen and Digital Processes",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7987321"
+   },
+   "sourceRef": "course-7987321"
+  },
+  "ARTS 1107": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Digital Drawing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168541"
+   },
+   "sourceRef": "course-8168541"
+  },
+  "ARTS 1201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art + Change: The Transformational Power of Art",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8199901"
+   },
+   "sourceRef": "course-8199901"
+  },
+  "ARTS 1701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Photography",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0051351"
+   },
+   "sourceRef": "course-0051351"
+  },
+  "ARTS 1704": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Filmmaking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054571"
+   },
+   "sourceRef": "course-0054571"
+  },
+  "ARTS 1801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Ceramics: Wheel-Throwing and Hand-Building Techniques",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0052631"
+   },
+   "sourceRef": "course-0052631"
+  },
+  "ARTS 1802": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Sculpture: Understanding the Fundamentals of the Practice of Sculpture",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0052511"
+   },
+   "sourceRef": "course-0052511"
+  },
+  "ARTS 3110": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Drawing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "ARTS 1101"
+    },
+    "sourceRef": "course-0051341"
+   },
+   "sourceRef": "course-0051341"
+  },
+  "ARTS 3120": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Painting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "ARTS 1102"
+    },
+    "sourceRef": "course-0051181"
+   },
+   "sourceRef": "course-0051181"
+  },
+  "ARTS 3130": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Printmaking: Traditional and Contemporary Approaches",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7986401"
+   },
+   "sourceRef": "course-7986401"
+  },
+  "ARTS 3140": {
+   "catalogTerm": "Fall 2026",
+   "title": "Figure Drawing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101"
+    },
+    "sourceRef": "course-8168601"
+   },
+   "sourceRef": "course-8168601"
+  },
+  "ARTS 3150": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dimensional Painting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0051291"
+   },
+   "sourceRef": "course-0051291"
+  },
+  "ARTS 3170": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Digital Drawing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8035971"
+   },
+   "sourceRef": "course-8035971"
+  },
+  "ARTS 3180": {
+   "catalogTerm": "Fall 2026",
+   "title": "Zines, Comics, and Books",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8165111"
+   },
+   "sourceRef": "course-8165111"
+  },
+  "ARTS 3190": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mixed Media on Paper",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "ARTS 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ARTS 1102"
+      }
+     ]
+    },
+    "sourceRef": "course-0080381"
+   },
+   "sourceRef": "course-0080381"
+  },
+  "ARTS 3206": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art + Ecology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168111"
+   },
+   "sourceRef": "course-8168111"
+  },
+  "ARTS 3270": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art + Sound",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8282921"
+   },
+   "sourceRef": "course-8282921"
+  },
+  "ARTS 3401V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Critical Theories and Their Construction From a Studio Perspective",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors Student and Junior or Instructor Consent"
+    },
+    "sourceRef": "course-8166061"
+   },
+   "sourceRef": "course-8166061"
+  },
+  "ARTS 3401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Critical Theories and Their Construction From a Studio Perspective",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0066221"
+   },
+   "sourceRef": "course-0066221"
+  },
+  "ARTS 3404W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Professional Practices in the Arts",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student or [Art BFA student or Art Major, jr or sr]"
+    },
+    "sourceRef": "course-0055451"
+   },
+   "sourceRef": "course-0055451"
+  },
+  "ARTS 3481": {
+   "catalogTerm": "Fall 2026",
+   "title": "Curatorial Practice Field Experience",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8190501"
+   },
+   "sourceRef": "course-8190501"
+  },
+  "ARTS 3490": {
+   "catalogTerm": "Fall 2026",
+   "title": "Workshop in Art",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8080001"
+   },
+   "sourceRef": "course-8080001"
+  },
+  "ARTS 3560": {
+   "catalogTerm": "Fall 2026",
+   "title": "Documentary and Social Justice Filmmaking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "ARTS 1704"
+    },
+    "sourceRef": "course-8276901"
+   },
+   "sourceRef": "course-8276901"
+  },
+  "ARTS 3580": {
+   "catalogTerm": "Fall 2026",
+   "title": "Experimental Film and Video",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ARTS 1704 or Instructor Consent"
+    },
+    "sourceRef": "course-8283621"
+   },
+   "sourceRef": "course-8283621"
+  },
+  "ARTS 3670": {
+   "catalogTerm": "Fall 2026",
+   "title": "Animation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ARTS 1704 or Instructor Consent"
+    },
+    "sourceRef": "course-8282121"
+   },
+   "sourceRef": "course-8282121"
+  },
+  "ARTS 3710": {
+   "catalogTerm": "Fall 2026",
+   "title": "Black and White Darkroom Photography",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "ARTS 1701"
+    },
+    "sourceRef": "course-0051361"
+   },
+   "sourceRef": "course-0051361"
+  },
+  "ARTS 3720": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Extended Image",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0075531"
+   },
+   "sourceRef": "course-0075531"
+  },
+  "ARTS 3730": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Digital Photography",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "ARTS 1701"
+    },
+    "sourceRef": "course-0075541"
+   },
+   "sourceRef": "course-0075541"
+  },
+  "ARTS 3740": {
+   "catalogTerm": "Fall 2026",
+   "title": "Lighting and the Constructed Image",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ARTS 1701 Introduction to Photography"
+    },
+    "sourceRef": "course-8169221"
+   },
+   "sourceRef": "course-8169221"
+  },
+  "ARTS 3750": {
+   "catalogTerm": "Fall 2026",
+   "title": "Narrative Filmmaking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1704 or instructor consent"
+    },
+    "sourceRef": "course-0170181"
+   },
+   "sourceRef": "course-0170181"
+  },
+  "ARTS 3760": {
+   "catalogTerm": "Fall 2026",
+   "title": "Experimental Film and Video",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7905341"
+   },
+   "sourceRef": "course-7905341"
+  },
+  "ARTS 3780": {
+   "catalogTerm": "Fall 2026",
+   "title": "Super 8 and 16 MM Filmmaking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173091"
+   },
+   "sourceRef": "course-8173091"
+  },
+  "ARTS 3790": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mobile Imaging and the Connected World",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8252871"
+   },
+   "sourceRef": "course-8252871"
+  },
+  "ARTS 3820": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ceramic: Wheel Throwing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "ARTS 1801"
+    },
+    "sourceRef": "course-0052641"
+   },
+   "sourceRef": "course-0052641"
+  },
+  "ARTS 3824": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art + Performance",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8283221"
+   },
+   "sourceRef": "course-8283221"
+  },
+  "ARTS 3830": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ceramic Sculpture",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "ARTS 1801"
+    },
+    "sourceRef": "course-0052651"
+   },
+   "sourceRef": "course-0052651"
+  },
+  "ARTS 3880": {
+   "catalogTerm": "Fall 2026",
+   "title": "3D Modeling and Digital Fabrication",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8282101"
+   },
+   "sourceRef": "course-8282101"
+  },
+  "ARTS 3950": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundry and Metal Sculpture",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8282111"
+   },
+   "sourceRef": "course-8282111"
+  },
+  "ARTS 3960": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sculpture and Installation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1802"
+    },
+    "sourceRef": "course-8282131"
+   },
+   "sourceRef": "course-8282131"
+  },
+  "ARTS 5110": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Drawing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(Art BA or BFA) and (ARTS 3110 OR ARTS 3190 OR ARTS 3140); OR MFA"
+    },
+    "sourceRef": "course-0071691"
+   },
+   "sourceRef": "course-0071691"
+  },
+  "ARTS 5120": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Painting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ARTS 3120 and ARTS BA or BFA; or ARTS MFA"
+    },
+    "sourceRef": "course-0066341"
+   },
+   "sourceRef": "course-0066341"
+  },
+  "ARTS 5140": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Printmaking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0065681"
+   },
+   "sourceRef": "course-0065681"
+  },
+  "ARTS 5260": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art + Interdisciplinary Collaborations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Upper-division undergraduate or graduate student in art, creative writing, dance, music, or theater."
+    },
+    "sourceRef": "course-7986451"
+   },
+   "sourceRef": "course-7986451"
+  },
+  "ARTS 5270": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Art + Sound",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ARTS BA or BFA and ARTS 3270, or MFA student"
+    },
+    "sourceRef": "course-8282931"
+   },
+   "sourceRef": "course-8282931"
+  },
+  "ARTS 5404": {
+   "catalogTerm": "Fall 2026",
+   "title": "BA Capstone and Exhibition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0135471"
+   },
+   "sourceRef": "course-0135471"
+  },
+  "ARTS 5404H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors BA Capstone and Exhibition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8268331"
+   },
+   "sourceRef": "course-8268331"
+  },
+  "ARTS 5490": {
+   "catalogTerm": "Fall 2026",
+   "title": "Workshop in Art",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0088801"
+   },
+   "sourceRef": "course-0088801"
+  },
+  "ARTS 5560": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Documentary and Social Justice Filmmaking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Art BA or BFA, and ARTS 3603; or ARTS MFA"
+    },
+    "sourceRef": "course-8283251"
+   },
+   "sourceRef": "course-8283251"
+  },
+  "ARTS 5670": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Animation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Students must be an ARTS major/BFA and complete 3670 before enrolling in ARTS 5670 if they are not an MFA student, or receive Instructor Consent."
+    },
+    "sourceRef": "course-8282201"
+   },
+   "sourceRef": "course-8282201"
+  },
+  "ARTS 5710": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Photography and Moving Image Projects",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ARTS MFA student, OR undergraduates must be an ARTS major and have completed TWO 3xxx level courses in either Photography or Moving Images"
+    },
+    "sourceRef": "course-0051371"
+   },
+   "sourceRef": "course-0051371"
+  },
+  "ARTS 5750": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Narrative Filmmaking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3750 or Graduate Student"
+    },
+    "sourceRef": "course-7904271"
+   },
+   "sourceRef": "course-7904271"
+  },
+  "ARTS 5760": {
+   "catalogTerm": "Fall 2026",
+   "title": "Experimental Film and Video",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7905361"
+   },
+   "sourceRef": "course-7905361"
+  },
+  "ARTS 5780": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Super 8 and 16 MM Filmmaking",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173101"
+   },
+   "sourceRef": "course-8173101"
+  },
+  "ARTS 5810": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Ceramics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ARTS major and ARTS 1801, ARTS 3820 or ARTS 3830"
+    },
+    "sourceRef": "course-0069451"
+   },
+   "sourceRef": "course-0069451"
+  },
+  "ARTS 5824": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Art + Performance",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8283241"
+   },
+   "sourceRef": "course-8283241"
+  },
+  "ARTS 5880": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced 3D Modeling and Digital Fabrication",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ARTS major/BFA and ARTS 3890; or ARTS MFA student."
+    },
+    "sourceRef": "course-8282171"
+   },
+   "sourceRef": "course-8282171"
+  },
+  "ARTS 5950": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Foundry and Metal Sculpture",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8283021"
+   },
+   "sourceRef": "course-8283021"
+  },
+  "ARTS 5960": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Sculpture and Installation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Students should be an ARTS major and complete ARTS 3960 before enrolling if they are not an ARTS MFA student."
+    },
+    "sourceRef": "course-8282181"
+   },
+   "sourceRef": "course-8282181"
+  },
+  "CHLS 3216W": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Power of Chicana/o/x Art: 1960s to the present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171061"
+   },
+   "sourceRef": "course-8171061"
+  },
+  "CLA 3896": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship Reflection: Making Meaning of Your Experience",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8185461"
+   },
+   "sourceRef": "course-8185461"
+  },
+  "CLA 3996": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship Reflection: Building on your Summer Internship Experience",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8198871"
+   },
+   "sourceRef": "course-8198871"
+  },
+  "CNRC 3152": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art and Archaeology of Ancient Greece",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093661"
+   },
+   "sourceRef": "course-0093661"
+  },
+  "CNRC 3162": {
+   "catalogTerm": "Fall 2026",
+   "title": "Roman Art and Archaeology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093641"
+   },
+   "sourceRef": "course-0093641"
+  },
+  "CNRC 3182": {
+   "catalogTerm": "Fall 2026",
+   "title": "Egypt and Western Asia: Art and Archaeology of Ancient Egypt and Western Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8067071"
+   },
+   "sourceRef": "course-8067071"
+  },
+  "CNRC 5787": {
+   "catalogTerm": "Fall 2026",
+   "title": "From Hercules to Buddha: Visual Cultures in Contact",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8166191"
+   },
+   "sourceRef": "course-8166191"
+  },
+  "EMS 5774": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Body in Indian Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8268341"
+   },
+   "sourceRef": "course-8268341"
+  },
+  "HIST 3708": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Curiosity: Art, Science & Technology in Europe, 1400-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8013781"
+   },
+   "sourceRef": "course-8013781"
+  },
+  "HIST 5708": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Age of Curiosity: Art, Science & Technology in Europe, 1400-1800",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8199001"
+   },
+   "sourceRef": "course-8199001"
+  },
+  "MEST 3009": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Art from Below",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8136391"
+   },
+   "sourceRef": "course-8136391"
+  },
+  "MEST 5774": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Body in Indian Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8268351"
+   },
+   "sourceRef": "course-8268351"
+  },
+  "RELS 3019": {
+   "catalogTerm": "Fall 2026",
+   "title": "Buddhist Art and Architecture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262481"
+   },
+   "sourceRef": "course-8262481"
+  },
+  "RELS 3182": {
+   "catalogTerm": "Fall 2026",
+   "title": "Egypt and Western Asia: Art and Archaeology of Ancient Egypt and Western Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8169821"
+   },
+   "sourceRef": "course-8169821"
+  },
+  "RELS 3415W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art of India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029261"
+   },
+   "sourceRef": "course-8029261"
+  },
+  "RELS 3609": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Art from Below",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187601"
+   },
+   "sourceRef": "course-8187601"
+  },
+  "RELS 3777": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Diversity of Traditions: Indian Empires after 1200",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8198521"
+   },
+   "sourceRef": "course-8198521"
+  },
+  "RELS 3779": {
+   "catalogTerm": "Fall 2026",
+   "title": "Visions of Paradise: The Indian Temple",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8251311"
+   },
+   "sourceRef": "course-8251311"
+  },
+  "RELS 5777": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Diversity of Traditions: Indian Empires after 1200",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168831"
+   },
+   "sourceRef": "course-8168831"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-009620217",
+   "label": "Introduction to Contemporary Art and Theory",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-TdEsJXDt",
+    "type": "credits",
+    "courseSet": "set-TdEsJXDt",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Introduction to Contemporary Art and Theory"
+   }
+  },
+  {
+   "id": "g-jnxFqodM",
+   "label": "Preparatory Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-DHam18tD",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-DHam18tD-c1",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-lJEcR8Vw-c1",
+        "type": "credits",
+        "courseSet": "set-lJEcR8Vw",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Drawing, Painting, and Printmaking"
+       },
+       {
+        "id": "r-ILju3XsZ-c1",
+        "type": "credits",
+        "courseSet": "set-ILju3XsZ",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Sculpture and Ceramics"
+       },
+       {
+        "id": "r-zPPUH8Zm-c1",
+        "type": "credits",
+        "courseSet": "set-zPPUH8Zm",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Photography and Moving Images"
+       }
+      ]
+     },
+     {
+      "id": "r-DHam18tD-c2",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-lJEcR8Vw-c2",
+        "type": "credits",
+        "courseSet": "set-lJEcR8Vw",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Drawing, Painting, and Printmaking"
+       },
+       {
+        "id": "r-ILju3XsZ-c2",
+        "type": "credits",
+        "courseSet": "set-ILju3XsZ",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Sculpture and Ceramics"
+       },
+       {
+        "id": "r-JkVXQIeI-c2",
+        "type": "course",
+        "code": "ARTS 1002",
+        "sourceRef": "program",
+        "label": "Interdisciplinary Art and Social Practice"
+       }
+      ]
+     },
+     {
+      "id": "r-DHam18tD-c3",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-lJEcR8Vw-c3",
+        "type": "credits",
+        "courseSet": "set-lJEcR8Vw",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Drawing, Painting, and Printmaking"
+       },
+       {
+        "id": "r-zPPUH8Zm-c3",
+        "type": "credits",
+        "courseSet": "set-zPPUH8Zm",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Photography and Moving Images"
+       },
+       {
+        "id": "r-JkVXQIeI-c3",
+        "type": "course",
+        "code": "ARTS 1002",
+        "sourceRef": "program",
+        "label": "Interdisciplinary Art and Social Practice"
+       }
+      ]
+     },
+     {
+      "id": "r-DHam18tD-c4",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-ILju3XsZ-c4",
+        "type": "credits",
+        "courseSet": "set-ILju3XsZ",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Sculpture and Ceramics"
+       },
+       {
+        "id": "r-zPPUH8Zm-c4",
+        "type": "credits",
+        "courseSet": "set-zPPUH8Zm",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Photography and Moving Images"
+       },
+       {
+        "id": "r-JkVXQIeI-c4",
+        "type": "course",
+        "code": "ARTS 1002",
+        "sourceRef": "program",
+        "label": "Interdisciplinary Art and Social Practice"
+       }
+      ]
+     }
+    ],
+    "label": "Preparatory Courses"
+   }
+  },
+  {
+   "id": "g-QdHIePNv",
+   "label": "Core Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-dzAGgrTm",
+    "type": "credits",
+    "courseSet": "set-dzAGgrTm",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Core Course"
+   }
+  },
+  {
+   "id": "g-9CLexDoa",
+   "label": "Arts Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-E7jScVxo",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-R3TtkNyz",
+      "type": "count",
+      "courseSet": "set-R3TtkNyz",
+      "maxCourses": 2,
+      "sourceRef": "program",
+      "label": "1xxx Art Electives"
+     },
+     {
+      "id": "r-HaDBye30",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-HaDBye30-listed",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-HaDBye30-credits-listed",
+          "type": "credits",
+          "courseSet": "set-HaDBye30",
+          "minCredits": 10,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-HaDBye30-min-listed",
+          "type": "count",
+          "courseSet": "set-HaDBye30",
+          "minCourses": 3,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-HaDBye30-max-listed",
+          "type": "count",
+          "courseSet": "set-HaDBye30",
+          "maxCourses": 5,
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-HaDBye30-unresolved",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Some listed course options could not be resolved to current official course records. Verify this requirement with your advisor or APAS."
+       }
+      ],
+      "label": "3xxx/5xxx Art Electives"
+     }
+    ],
+    "label": "Art Electives"
+   }
+  },
+  {
+   "id": "g-Zar2GFHO",
+   "label": "Art History Elective",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-oZcPccZg",
+    "type": "credits",
+    "courseSet": "set-oZcPccZg",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Art History Elective"
+   }
+  },
+  {
+   "id": "g-PknktkKA",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-hDfEqs1Z",
+    "type": "credits",
+    "courseSet": "set-hDfEqs1Z",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-U6jSp8dP",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-bUAMEO5l",
+    "type": "count",
+    "courseSet": "set-bUAMEO5l",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Art BA is ARTS.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (ARTS 3896, CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 12 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn no more than one degree from the Department of Art: a BA or a BFA or a minor. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

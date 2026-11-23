@@ -1,0 +1,3000 @@
+{
+ "schemaVersion": 2,
+ "id": "sport-management-bs",
+ "name": "Sport Management B.S.",
+ "officialName": "Sport Management B.S.",
+ "officialProgramId": "104520106",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Sport Management B.S., revision 104520106-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/104520106, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/104520106",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 104520106-2026-09-08"
+  },
+  "course-8016981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016981",
+   "retrieved": "2026-11-23",
+   "section": "Course record EDHD 1525W, version 8016981-2021-09-07"
+  },
+  "course-8054041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054041",
+   "retrieved": "2026-11-23",
+   "section": "Course record EDHD 1525V, version 8054041-2021-09-07"
+  },
+  "course-0047491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047491",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 1701, version 0047491-2008-09-02"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-7887411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887411",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101H, version 7887411-2026-09-08"
+  },
+  "course-0038931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038931",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1313W, version 0038931-2026-01-20"
+  },
+  "course-8164481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164481",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1461, version 8164481-2022-01-18"
+  },
+  "course-8164831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164831",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 1461, version 8164831-2016-09-06"
+  },
+  "course-8164821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164821",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSOS 1211, version 8164821-2018-01-16"
+  },
+  "course-0029431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029431",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 1001, version 0029431-2021-05-17"
+  },
+  "course-8162821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162821",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 1281, version 8162821-2020-01-21"
+  },
+  "course-0062651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001, version 0062651-2026-09-08"
+  },
+  "course-7990411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 1001H, version 7990411-2026-09-08"
+  },
+  "course-0042541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042541",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3111, version 0042541-2023-09-05"
+  },
+  "course-7921561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7921561",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3143, version 7921561-2026-01-20"
+  },
+  "course-0047671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047671",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3421, version 0047671-2026-01-20"
+  },
+  "course-0047771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047771",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3501, version 0047771-2025-05-19"
+  },
+  "course-8053701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8053701",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3501H, version 8053701-2015-01-20"
+  },
+  "course-0047781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047781",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3601, version 0047781-2023-01-17"
+  },
+  "course-0047551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047551",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3631, version 0047551-2026-01-20"
+  },
+  "course-0047811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047811",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3861, version 0047811-2024-01-16"
+  },
+  "course-8258621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8258621",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3826, version 8258621-2022-09-06"
+  },
+  "course-0047571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047571",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3881W, version 0047571-2023-09-05"
+  },
+  "course-0045241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045241",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3696, version 0045241-2025-09-02"
+  },
+  "course-0026231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026231",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1007, version 0026231-2026-01-20"
+  },
+  "course-8008401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8008401",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1012, version 8008401-2026-01-20"
+  },
+  "course-0026251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026251",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1014, version 0026251-2026-01-20"
+  },
+  "course-0026271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026271",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1015, version 0026271-2026-01-20"
+  },
+  "course-0042871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042871",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1016, version 0042871-2026-01-20"
+  },
+  "course-0026631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026631",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1031, version 0026631-2026-01-20"
+  },
+  "course-0025521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025521",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1032, version 0025521-2026-01-20"
+  },
+  "course-0026611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026611",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1033, version 0026611-2026-01-20"
+  },
+  "course-0025541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025541",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1035, version 0025541-2026-01-20"
+  },
+  "course-0025561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025561",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1036, version 0025561-2026-01-20"
+  },
+  "course-0025571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025571",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1037, version 0025571-2024-09-03"
+  },
+  "course-0026571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026571",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1038, version 0026571-2026-01-20"
+  },
+  "course-8262291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262291",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1039, version 8262291-2023-01-17"
+  },
+  "course-0025591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025591",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1044, version 0025591-2026-01-20"
+  },
+  "course-7918961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7918961",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1045, version 7918961-2026-01-20"
+  },
+  "course-7906381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7906381",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1046, version 7906381-2026-01-20"
+  },
+  "course-0026291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026291",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1048, version 0026291-2026-01-20"
+  },
+  "course-8262301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262301",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1052, version 8262301-2023-01-17"
+  },
+  "course-0045611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0045611",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1057, version 0045611-2026-01-20"
+  },
+  "course-7896781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7896781",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1058, version 7896781-2022-01-18"
+  },
+  "course-0026381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026381",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1067, version 0026381-2026-01-20"
+  },
+  "course-8264021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8264021",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1068, version 8264021-2023-09-05"
+  },
+  "course-7961661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7961661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1071, version 7961661-2026-01-20"
+  },
+  "course-0036821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036821",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1072, version 0036821-2026-01-20"
+  },
+  "course-0026501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026501",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1074, version 0026501-2026-01-20"
+  },
+  "course-8049261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8049261",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1076, version 8049261-2026-01-20"
+  },
+  "course-8267661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8267661",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1115, version 8267661-2024-01-16"
+  },
+  "course-0025621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025621",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1205, version 0025621-2026-01-20"
+  },
+  "course-8022821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8022821",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1262, version 8022821-2026-01-20"
+  },
+  "course-7895551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7895551",
+   "retrieved": "2026-11-23",
+   "section": "Course record PE 1720, version 7895551-2026-09-08"
+  },
+  "course-8265831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8265831",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3141, version 8265831-2023-09-05"
+  },
+  "course-8265841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8265841",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3181, version 8265841-2025-09-02"
+  },
+  "course-8032981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8032981",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3632, version 8032981-2026-01-20"
+  },
+  "course-8273891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8273891",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3634, version 8273891-2026-01-20"
+  },
+  "course-8046421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8046421",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 3993, version 8046421-2026-05-18"
+  },
+  "course-8261041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8261041",
+   "retrieved": "2026-11-23",
+   "section": "Course record SMGT 4520, version 8261041-2026-05-18"
+  },
+  "course-0042841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0042841",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 3001, version 0042841-2026-01-20"
+  },
+  "course-7919631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7919631",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 4001H, version 7919631-2025-01-21"
+  },
+  "course-8252301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8252301",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 4028, version 8252301-2021-09-07"
+  },
+  "course-0047861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0047861",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 5461, version 0047861-2015-01-20"
+  },
+  "course-8049251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8049251",
+   "retrieved": "2026-11-23",
+   "section": "Course record KIN 5804, version 8049251-2015-01-20"
+  },
+  "course-8114491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114491",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4013W, version 8114491-2016-01-19"
+  },
+  "course-0150831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4022W, version 0150831-2026-09-08"
+  },
+  "course-0150841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150841",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4023W, version 0150841-2025-05-19"
+  },
+  "course-0150901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4041, version 0150901-2015-01-20"
+  },
+  "course-0150921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150921",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4104, version 0150921-2015-01-20"
+  },
+  "course-7965801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7965801",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4701, version 7965801-2015-01-20"
+  },
+  "course-0131031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ACCT 2051, version 0131031-2022-09-06"
+  },
+  "course-7983851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7983851",
+   "retrieved": "2026-11-23",
+   "section": "Course record ACCT 2051H, version 7983851-2022-09-06"
+  },
+  "course-0062811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062811",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1101, version 0062811-2024-09-03"
+  },
+  "course-0062861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062861",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1102, version 0062861-2020-09-08"
+  },
+  "course-0133311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133311",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2051, version 0133311-2024-09-03"
+  },
+  "course-8198711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198711",
+   "retrieved": "2026-11-23",
+   "section": "Course record BLAW 3061, version 8198711-2020-09-08"
+  },
+  "course-8198721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198721",
+   "retrieved": "2026-11-23",
+   "section": "Course record BLAW 3062, version 8198721-2020-09-08"
+  },
+  "course-7889131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889131",
+   "retrieved": "2026-11-23",
+   "section": "Course record CMGT 3001W, version 7889131-2017-01-17"
+  },
+  "course-0038951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038951",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3201, version 0038951-2021-05-17"
+  },
+  "course-0039481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039481",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3211, version 0039481-2021-05-17"
+  },
+  "course-8003941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003941",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3263W, version 8003941-2024-05-13"
+  },
+  "course-0038991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038991",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3441, version 0038991-2021-05-17"
+  },
+  "course-0099201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1101, version 0099201-2024-09-03"
+  },
+  "course-0099231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099231",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1102, version 0099231-2016-01-19"
+  },
+  "course-0131341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131341",
+   "retrieved": "2026-11-23",
+   "section": "Course record HRIR 3021, version 0131341-2022-09-06"
+  },
+  "course-8112691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8112691",
+   "retrieved": "2026-11-23",
+   "section": "Course record HRIR 3021H, version 8112691-2023-01-17"
+  },
+  "course-0002221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002221",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 1001, version 0002221-2020-05-18"
+  },
+  "course-8033081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8033081",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 1001H, version 8033081-2023-01-17"
+  },
+  "course-8003701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003701",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3005, version 8003701-2026-09-08"
+  },
+  "course-0002251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002251",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3006, version 0002251-2018-09-04"
+  },
+  "course-0002431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002431",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3745, version 0002431-2022-09-06"
+  },
+  "course-8278801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278801",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 3759, version 8278801-2026-01-20"
+  },
+  "course-0002501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002501",
+   "retrieved": "2026-11-23",
+   "section": "Course record JOUR 4251, version 0002501-2022-05-16"
+  },
+  "course-8117261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8117261",
+   "retrieved": "2026-11-23",
+   "section": "Course record LAW 3000, version 8117261-2018-01-16"
+  },
+  "course-8165271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8165271",
+   "retrieved": "2026-11-23",
+   "section": "Course record LAW 3050, version 8165271-2025-09-02"
+  },
+  "course-0157681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0157681",
+   "retrieved": "2026-11-23",
+   "section": "Course record LEAD 1961W, version 0157681-2025-09-02"
+  },
+  "course-8253671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253671",
+   "retrieved": "2026-11-23",
+   "section": "Course record LEAD 1961V, version 8253671-2025-09-02"
+  },
+  "course-0159081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0159081",
+   "retrieved": "2026-11-23",
+   "section": "Course record LEAD 3961, version 0159081-2025-01-21"
+  },
+  "course-0131331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131331",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3001, version 0131331-2021-05-17"
+  },
+  "course-7948151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948151",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3015, version 7948151-2022-09-06"
+  },
+  "course-0131271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131271",
+   "retrieved": "2026-11-23",
+   "section": "Course record MKTG 3001, version 0131271-2022-09-06"
+  },
+  "course-7939751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7939751",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3305, version 7939751-2012-01-17"
+  },
+  "course-8054121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054121",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3401, version 8054121-2024-09-03"
+  },
+  "course-8054131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054131",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3424, version 8054131-2024-05-13"
+  },
+  "course-7942501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7942501",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3601, version 7942501-2012-05-21"
+  },
+  "course-7967701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7967701",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3641, version 7967701-2025-05-19"
+  },
+  "course-8065121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8065121",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 4401, version 8065121-2017-01-17"
+  },
+  "course-8054141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054141",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 4426, version 8054141-2024-05-13"
+  },
+  "course-8094811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094811",
+   "retrieved": "2026-11-23",
+   "section": "Course record OLPD 3324W, version 8094811-2017-05-22"
+  },
+  "course-7974551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974551",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 3003, version 7974551-2023-01-17"
+  },
+  "course-0131311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131311",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCO 3001, version 0131311-2022-09-06"
+  },
+  "course-8094821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094821",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3325W, version 8094821-2024-05-13"
+  },
+  "course-7883881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7883881",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3001, version 7883881-2025-09-02"
+  },
+  "course-7978911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7978911",
+   "retrieved": "2026-11-23",
+   "section": "Course record YOST 3032, version 7978911-2026-09-08"
+  },
+  "course-8017961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017961",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3029W, version 8017961-2026-09-08"
+  },
+  "course-0026681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026681",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562W, version 0026681-2021-05-17"
+  },
+  "course-0024791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0024791",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 5301, version 0024791-2025-09-02"
+  },
+  "course-0131321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131321",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3001, version 0131321-2023-09-05"
+  },
+  "course-8035751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8035751",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3001H, version 8035751-2021-09-07"
+  },
+  "course-0016161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016161",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 1001, version 0016161-2023-01-17"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0021991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 3264, version 0021991-2015-05-26"
+  },
+  "course-0138051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138051",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2551, version 0138051-2022-09-06"
+  },
+  "course-7989021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989021",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3801, version 7989021-2021-05-17"
+  },
+  "course-8003621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8003621",
+   "retrieved": "2026-11-23",
+   "section": "Course record PSY 3801H, version 8003621-2021-05-17"
+  }
+ },
+ "courseSets": {
+  "set-MNoH3evW": {
+   "codes": [
+    "EDHD 1525W",
+    "EDHD 1525V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-GiPdkvmU": {
+   "codes": [
+    "COMM 1101",
+    "COMM 1101H",
+    "COMM 1313W",
+    "FSOS 1461",
+    "OLPD 1461"
+   ],
+   "sourceRef": "program"
+  },
+  "set-1nhboRbT": {
+   "codes": [
+    "FSOS 1211",
+    "SOC 1001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ewVFV3fJ": {
+   "codes": [
+    "EPSY 1281",
+    "PSY 1001",
+    "PSY 1001H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-kX5x59gl": {
+   "codes": [
+    "SMGT 3111",
+    "SMGT 3143",
+    "SMGT 3421",
+    "SMGT 3501",
+    "SMGT 3501H",
+    "SMGT 3601",
+    "SMGT 3631",
+    "SMGT 3861",
+    "SMGT 3826",
+    "SMGT 3881W",
+    "KIN 3696"
+   ],
+   "sourceRef": "program"
+  },
+  "set-g2aRBP9r": {
+   "codes": [
+    "PE 1007",
+    "PE 1012",
+    "PE 1014",
+    "PE 1015",
+    "PE 1016",
+    "PE 1031",
+    "PE 1032",
+    "PE 1033",
+    "PE 1035",
+    "PE 1036",
+    "PE 1037",
+    "PE 1038",
+    "PE 1039",
+    "PE 1044",
+    "PE 1045",
+    "PE 1046",
+    "PE 1048",
+    "PE 1052",
+    "PE 1057",
+    "PE 1058",
+    "PE 1067",
+    "PE 1068",
+    "PE 1071",
+    "PE 1072",
+    "PE 1074",
+    "PE 1076",
+    "PE 1115",
+    "PE 1205",
+    "PE 1262",
+    "PE 1720"
+   ],
+   "sourceRef": "program"
+  },
+  "set-xM65QUDn": {
+   "codes": [
+    "SMGT 3141",
+    "SMGT 3181",
+    "SMGT 3632",
+    "SMGT 3634",
+    "SMGT 3993",
+    "SMGT 4520",
+    "KIN 3001",
+    "KIN 4001H",
+    "KIN 4028",
+    "KIN 5461",
+    "KIN 5804",
+    "ABUS 4013W",
+    "ABUS 4022W",
+    "ABUS 4023W",
+    "ABUS 4041",
+    "ABUS 4104",
+    "ABUS 4701",
+    "ACCT 2051",
+    "ACCT 2051H",
+    "APEC 1101",
+    "APEC 1102",
+    "BA 2051",
+    "BLAW 3061",
+    "BLAW 3062",
+    "CMGT 3001W",
+    "COMM 3201",
+    "COMM 3211",
+    "COMM 3263W",
+    "COMM 3441",
+    "ECON 1101",
+    "ECON 1102",
+    "HRIR 3021",
+    "HRIR 3021H",
+    "JOUR 1001",
+    "JOUR 1001H",
+    "JOUR 3005",
+    "JOUR 3006",
+    "JOUR 3745",
+    "JOUR 3759",
+    "JOUR 4251",
+    "LAW 3000",
+    "LAW 3050",
+    "LEAD 1961W",
+    "LEAD 1961V",
+    "LEAD 3961",
+    "MGMT 3001",
+    "MGMT 3015",
+    "MKTG 3001",
+    "OLPD 3305",
+    "OLPD 3401",
+    "OLPD 3424",
+    "OLPD 3601",
+    "OLPD 3641",
+    "OLPD 4401",
+    "OLPD 4426",
+    "OLPD 3324W",
+    "PA 3003",
+    "SCO 3001",
+    "YOST 3325W",
+    "YOST 3001",
+    "YOST 3032",
+    "WRIT 3029W",
+    "WRIT 3562W",
+    "CI 5301",
+    "IDSC 3001",
+    "IDSC 3001H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-QSwwVRTQ": {
+   "codes": [
+    "ABUS 4013W",
+    "ABUS 4022W",
+    "ABUS 4023W",
+    "CMGT 3001W",
+    "COMM 3263W",
+    "OLPD 3324W",
+    "YOST 3325W",
+    "WRIT 3029W",
+    "WRIT 3562W",
+    "SMGT 3881W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-plJjizFJ": {
+   "codes": [
+    "STAT 1001",
+    "STAT 3011",
+    "EPSY 3264",
+    "BA 2551",
+    "PSY 3801",
+    "PSY 3801H"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ABUS 4013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Legal, Ethical, and Risk Issues for Managers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CMgt 4011 recommended for CMgt students, 45 semester credits"
+    },
+    "sourceRef": "course-8114491"
+   },
+   "sourceRef": "course-8114491"
+  },
+  "ABUS 4022W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategic Management and Leadership",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 credits completed. Students will have better success if they have successfully taken and completed a technical writing or English composition course at the University level and can apply good writing techniques in this class."
+    },
+    "sourceRef": "course-0150831"
+   },
+   "sourceRef": "course-0150831"
+  },
+  "ABUS 4023W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communicating for Strategic Results",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 cr recommended"
+    },
+    "sourceRef": "course-0150841"
+   },
+   "sourceRef": "course-0150841"
+  },
+  "ABUS 4041": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dynamics of Leadership",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 cr completed"
+    },
+    "sourceRef": "course-0150901"
+   },
+   "sourceRef": "course-0150901"
+  },
+  "ABUS 4104": {
+   "catalogTerm": "Fall 2026",
+   "title": "Management and Human Resource Practices",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 cr completed"
+    },
+    "sourceRef": "course-0150921"
+   },
+   "sourceRef": "course-0150921"
+  },
+  "ABUS 4701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Macroeconomics or microeconomics], 45 cr"
+    },
+    "sourceRef": "course-7965801"
+   },
+   "sourceRef": "course-7965801"
+  },
+  "ACCT 2051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Financial Reporting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131031"
+   },
+   "sourceRef": "course-0131031"
+  },
+  "ACCT 2051H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Introduction to Financial Reporting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7983851"
+   },
+   "sourceRef": "course-7983851"
+  },
+  "APEC 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062811"
+   },
+   "sourceRef": "course-0062811"
+  },
+  "APEC 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Macroeconomics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101 or Econ 1101"
+    },
+    "sourceRef": "course-0062861"
+   },
+   "sourceRef": "course-0062861"
+  },
+  "BA 2051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Modeling Business Scenarios in Excel",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0133311"
+   },
+   "sourceRef": "course-0133311"
+  },
+  "BA 2551": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business Statistics in R",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Math 1031 or equiv]"
+    },
+    "sourceRef": "course-0138051"
+   },
+   "sourceRef": "course-0138051"
+  },
+  "BLAW 3061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business Law Basics",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8198711"
+   },
+   "sourceRef": "course-8198711"
+  },
+  "BLAW 3062": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contract Law and Corporate Regulation",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8198721"
+   },
+   "sourceRef": "course-8198721"
+  },
+  "CI 5301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Computer Applications for Business and Education",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0024791"
+   },
+   "sourceRef": "course-0024791"
+  },
+  "CMGT 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Construction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889131"
+   },
+   "sourceRef": "course-7889131"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "COMM 1101H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-7887411"
+   },
+   "sourceRef": "course-7887411"
+  },
+  "COMM 1313W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of Argument",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038931"
+   },
+   "sourceRef": "course-0038931"
+  },
+  "COMM 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Electronic Media Production",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038951"
+   },
+   "sourceRef": "course-0038951"
+  },
+  "COMM 3211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Media Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0039481"
+   },
+   "sourceRef": "course-0039481"
+  },
+  "COMM 3263W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Media Literacy: Decoding Media Images and Messages",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8003941"
+   },
+   "sourceRef": "course-8003941"
+  },
+  "COMM 3441": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Organizational Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038991"
+   },
+   "sourceRef": "course-0038991"
+  },
+  "ECON 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099201"
+   },
+   "sourceRef": "course-0099201"
+  },
+  "ECON 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Macroeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1101 or equiv], knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099231"
+   },
+   "sourceRef": "course-0099231"
+  },
+  "EDHD 1525V": {
+   "catalogTerm": "Fall 2026",
+   "title": "CEHD First Year Experience",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CEHD student, honors, 1st-term fr"
+    },
+    "sourceRef": "course-8054041"
+   },
+   "sourceRef": "course-8054041"
+  },
+  "EDHD 1525W": {
+   "catalogTerm": "Fall 2026",
+   "title": "CEHD First Year Experience",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8016981"
+   },
+   "sourceRef": "course-8016981"
+  },
+  "EPSY 1281": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychological Science Applied",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162821"
+   },
+   "sourceRef": "course-8162821"
+  },
+  "EPSY 3264": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic and Applied Statistics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0021991"
+   },
+   "sourceRef": "course-0021991"
+  },
+  "FSOS 1211": {
+   "catalogTerm": "Fall 2026",
+   "title": "An Interdisciplinary Look at the Family in Multicultural America",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164821"
+   },
+   "sourceRef": "course-8164821"
+  },
+  "FSOS 1461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Presentations at Work: Families, Communities, Nonprofits, and Schools",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164481"
+   },
+   "sourceRef": "course-8164481"
+  },
+  "HRIR 3021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Capital Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131341"
+   },
+   "sourceRef": "course-0131341"
+  },
+  "HRIR 3021H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Human Capital Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8112691"
+   },
+   "sourceRef": "course-8112691"
+  },
+  "IDSC 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Information Systems & Digital Transformation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131321"
+   },
+   "sourceRef": "course-0131321"
+  },
+  "IDSC 3001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Information Systems for Business Processes and Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8035751"
+   },
+   "sourceRef": "course-8035751"
+  },
+  "JOUR 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Media in a Changing World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002221"
+   },
+   "sourceRef": "course-0002221"
+  },
+  "JOUR 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Media in a Changing World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8033081"
+   },
+   "sourceRef": "course-8033081"
+  },
+  "JOUR 3005": {
+   "catalogTerm": "Fall 2026",
+   "title": "Media Effects",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8003701"
+   },
+   "sourceRef": "course-8003701"
+  },
+  "JOUR 3006": {
+   "catalogTerm": "Fall 2026",
+   "title": "Visual Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002251"
+   },
+   "sourceRef": "course-0002251"
+  },
+  "JOUR 3745": {
+   "catalogTerm": "Fall 2026",
+   "title": "Media and Popular Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002431"
+   },
+   "sourceRef": "course-0002431"
+  },
+  "JOUR 3759": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sports, Media, and Information",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278801"
+   },
+   "sourceRef": "course-8278801"
+  },
+  "JOUR 4251": {
+   "catalogTerm": "Fall 2026",
+   "title": "Psychology of Advertising",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0002501"
+   },
+   "sourceRef": "course-0002501"
+  },
+  "KIN 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Lifetime Health and Wellness",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042841"
+   },
+   "sourceRef": "course-0042841"
+  },
+  "KIN 3696": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Professional Practice and Career Planning for KIN, PAHP, and SMGT",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Be declared kinesiology, physical activity health promotion, or sport management majors in the last year of their degree program Have an industry-specific field experience that they will be participating in for a minimum total of 60 hours during the semester (generally 4 hours of experience each week for 15 weeks)"
+    },
+    "sourceRef": "course-0045241"
+   },
+   "sourceRef": "course-0045241"
+  },
+  "KIN 4001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Seminar in KIN, PAHP, + SMGT",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student and Kinesiology major, PAHP major, or SMGT major"
+    },
+    "sourceRef": "course-7919631"
+   },
+   "sourceRef": "course-7919631"
+  },
+  "KIN 4028": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Impact of the Olympic Games on Los Angeles",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8252301"
+   },
+   "sourceRef": "course-8252301"
+  },
+  "KIN 5461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Issues in the Sport Industry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "postbac or grad student or instr consent"
+    },
+    "sourceRef": "course-0047861"
+   },
+   "sourceRef": "course-0047861"
+  },
+  "KIN 5804": {
+   "catalogTerm": "Fall 2026",
+   "title": "National Collegiate Athletic Association (NCAA) Compliance",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Upper div undergrad or grad student] in KIN, instr consent"
+    },
+    "sourceRef": "course-8049251"
+   },
+   "sourceRef": "course-8049251"
+  },
+  "LAW 3000": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to American Law and Legal Reasoning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8117261"
+   },
+   "sourceRef": "course-8117261"
+  },
+  "LAW 3050": {
+   "catalogTerm": "Fall 2026",
+   "title": "Law of Business Organizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8165271"
+   },
+   "sourceRef": "course-8165271"
+  },
+  "LEAD 1961V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Personal Leadership in the University",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253671"
+   },
+   "sourceRef": "course-8253671"
+  },
+  "LEAD 1961W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Personal Leadership in the University",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0157681"
+   },
+   "sourceRef": "course-0157681"
+  },
+  "LEAD 3961": {
+   "catalogTerm": "Fall 2026",
+   "title": "Leadership, You, and Your Community",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0159081"
+   },
+   "sourceRef": "course-0159081"
+  },
+  "MGMT 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals of Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131331"
+   },
+   "sourceRef": "course-0131331"
+  },
+  "MGMT 3015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Entrepreneurship",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7948151"
+   },
+   "sourceRef": "course-7948151"
+  },
+  "MKTG 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "ECON 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 1165"
+      }
+     ]
+    },
+    "sourceRef": "course-0131271"
+   },
+   "sourceRef": "course-0131271"
+  },
+  "OLPD 1461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Presentations in Work Settings: Business & Marketing Education and Human Resource Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164831"
+   },
+   "sourceRef": "course-8164831"
+  },
+  "OLPD 3305": {
+   "catalogTerm": "Fall 2026",
+   "title": "Learning About Leadership Through Film and Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7939751"
+   },
+   "sourceRef": "course-7939751"
+  },
+  "OLPD 3324W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing in the Workplace for Education and Human Development Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "60+ undergraduate credits, declared major"
+    },
+    "sourceRef": "course-8094811"
+   },
+   "sourceRef": "course-8094811"
+  },
+  "OLPD 3401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Teaching Marketing Promotion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8054121"
+   },
+   "sourceRef": "course-8054121"
+  },
+  "OLPD 3424": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sales Training",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8054131"
+   },
+   "sourceRef": "course-8054131"
+  },
+  "OLPD 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Human Resource Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7942501"
+   },
+   "sourceRef": "course-7942501"
+  },
+  "OLPD 3641": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Organization Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7967701"
+   },
+   "sourceRef": "course-7967701"
+  },
+  "OLPD 4401": {
+   "catalogTerm": "Fall 2026",
+   "title": "E-Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8065121"
+   },
+   "sourceRef": "course-8065121"
+  },
+  "OLPD 4426": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategic Customer Relationship Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8054141"
+   },
+   "sourceRef": "course-8054141"
+  },
+  "PA 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nonprofit and Public Financial Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr"
+    },
+    "sourceRef": "course-7974551"
+   },
+   "sourceRef": "course-7974551"
+  },
+  "PE 1007": {
+   "catalogTerm": "Fall 2026",
+   "title": "Swimming For Beginners",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026231"
+   },
+   "sourceRef": "course-0026231"
+  },
+  "PE 1012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Running for Beginners",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8008401"
+   },
+   "sourceRef": "course-8008401"
+  },
+  "PE 1014": {
+   "catalogTerm": "Fall 2026",
+   "title": "Conditioning",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026251"
+   },
+   "sourceRef": "course-0026251"
+  },
+  "PE 1015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Weight Training",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026271"
+   },
+   "sourceRef": "course-0026271"
+  },
+  "PE 1016": {
+   "catalogTerm": "Fall 2026",
+   "title": "Posture and Individual Exercise",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0042871"
+   },
+   "sourceRef": "course-0042871"
+  },
+  "PE 1031": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sabre Fencing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026631"
+   },
+   "sourceRef": "course-0026631"
+  },
+  "PE 1032": {
+   "catalogTerm": "Fall 2026",
+   "title": "Badminton",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025521"
+   },
+   "sourceRef": "course-0025521"
+  },
+  "PE 1033": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foil Fencing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026611"
+   },
+   "sourceRef": "course-0026611"
+  },
+  "PE 1035": {
+   "catalogTerm": "Fall 2026",
+   "title": "Karate",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025541"
+   },
+   "sourceRef": "course-0025541"
+  },
+  "PE 1036": {
+   "catalogTerm": "Fall 2026",
+   "title": "Racquetball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025561"
+   },
+   "sourceRef": "course-0025561"
+  },
+  "PE 1037": {
+   "catalogTerm": "Fall 2026",
+   "title": "Squash",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025571"
+   },
+   "sourceRef": "course-0025571"
+  },
+  "PE 1038": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tennis",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026571"
+   },
+   "sourceRef": "course-0026571"
+  },
+  "PE 1039": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pickleball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262291"
+   },
+   "sourceRef": "course-8262291"
+  },
+  "PE 1044": {
+   "catalogTerm": "Fall 2026",
+   "title": "Self-Defense",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025591"
+   },
+   "sourceRef": "course-0025591"
+  },
+  "PE 1045": {
+   "catalogTerm": "Fall 2026",
+   "title": "Rock Climbing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7918961"
+   },
+   "sourceRef": "course-7918961"
+  },
+  "PE 1046": {
+   "catalogTerm": "Fall 2026",
+   "title": "Tae Kwon Do",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7906381"
+   },
+   "sourceRef": "course-7906381"
+  },
+  "PE 1048": {
+   "catalogTerm": "Fall 2026",
+   "title": "Bowling",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026291"
+   },
+   "sourceRef": "course-0026291"
+  },
+  "PE 1052": {
+   "catalogTerm": "Fall 2026",
+   "title": "Curling",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262301"
+   },
+   "sourceRef": "course-8262301"
+  },
+  "PE 1057": {
+   "catalogTerm": "Fall 2026",
+   "title": "Skiing",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0045611"
+   },
+   "sourceRef": "course-0045611"
+  },
+  "PE 1058": {
+   "catalogTerm": "Fall 2026",
+   "title": "Snowboarding",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7896781"
+   },
+   "sourceRef": "course-7896781"
+  },
+  "PE 1067": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basketball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026381"
+   },
+   "sourceRef": "course-0026381"
+  },
+  "PE 1068": {
+   "catalogTerm": "Fall 2026",
+   "title": "Wheelchair Basketball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8264021"
+   },
+   "sourceRef": "course-8264021"
+  },
+  "PE 1071": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Cricket",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7961661"
+   },
+   "sourceRef": "course-7961661"
+  },
+  "PE 1072": {
+   "catalogTerm": "Fall 2026",
+   "title": "Soccer",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036821"
+   },
+   "sourceRef": "course-0036821"
+  },
+  "PE 1074": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Volleyball",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026501"
+   },
+   "sourceRef": "course-0026501"
+  },
+  "PE 1076": {
+   "catalogTerm": "Fall 2026",
+   "title": "Flag Football",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8049261"
+   },
+   "sourceRef": "course-8049261"
+  },
+  "PE 1115": {
+   "catalogTerm": "Fall 2026",
+   "title": "Personal Training",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8267661"
+   },
+   "sourceRef": "course-8267661"
+  },
+  "PE 1205": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scuba and Skin Diving",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0025621"
+   },
+   "sourceRef": "course-0025621"
+  },
+  "PE 1262": {
+   "catalogTerm": "Fall 2026",
+   "title": "Marathon Training",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8022821"
+   },
+   "sourceRef": "course-8022821"
+  },
+  "PE 1720": {
+   "catalogTerm": "Fall 2026",
+   "title": "Special Activities in Physical Education",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7895551"
+   },
+   "sourceRef": "course-7895551"
+  },
+  "PSY 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062651"
+   },
+   "sourceRef": "course-0062651"
+  },
+  "PSY 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors."
+    },
+    "sourceRef": "course-7990411"
+   },
+   "sourceRef": "course-7990411"
+  },
+  "PSY 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Psychological Measurement and Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra, [PSY 1001 or equiv]; intended for students who plan to major in psychology"
+    },
+    "sourceRef": "course-7989021"
+   },
+   "sourceRef": "course-7989021"
+  },
+  "PSY 3801H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Psychological Measurement and Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1001 or equiv], high school algebra, honors; intended for students who plan to major in psychology"
+    },
+    "sourceRef": "course-8003621"
+   },
+   "sourceRef": "course-8003621"
+  },
+  "SCO 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Supply Chain and Operations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131311"
+   },
+   "sourceRef": "course-0131311"
+  },
+  "SMGT 1701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Sport Management",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0047491"
+   },
+   "sourceRef": "course-0047491"
+  },
+  "SMGT 3111": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sports Facility and Event Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major or SMGT minor or CEHD IDP or instructor consent"
+    },
+    "sourceRef": "course-0042541"
+   },
+   "sourceRef": "course-0042541"
+  },
+  "SMGT 3141": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Esports Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8265831"
+   },
+   "sourceRef": "course-8265831"
+  },
+  "SMGT 3143": {
+   "catalogTerm": "Fall 2026",
+   "title": "Organization and Management of Sport",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major or SMGT minor or Esports Minor or CEHD IDP or instructor consent."
+    },
+    "sourceRef": "course-7921561"
+   },
+   "sourceRef": "course-7921561"
+  },
+  "SMGT 3181": {
+   "catalogTerm": "Fall 2026",
+   "title": "Esports Performance and Healthy Gaming",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8265841"
+   },
+   "sourceRef": "course-8265841"
+  },
+  "SMGT 3421": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business of Sport",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major or SMGT minor or Esports minor or CEHD IDP or instructor consent"
+    },
+    "sourceRef": "course-0047671"
+   },
+   "sourceRef": "course-0047671"
+  },
+  "SMGT 3501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sport and Physical Activity in a Diverse Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0047771"
+   },
+   "sourceRef": "course-0047771"
+  },
+  "SMGT 3501H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sport in a Diverse Society: Honors",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student"
+    },
+    "sourceRef": "course-8053701"
+   },
+   "sourceRef": "course-8053701"
+  },
+  "SMGT 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ethics and Values in Sport",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major or minor and 60 credits completed or in progress"
+    },
+    "sourceRef": "course-0047781"
+   },
+   "sourceRef": "course-0047781"
+  },
+  "SMGT 3631": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sport Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major or SMGT minor or Esports Minor or CEHD IDP or instructor consent"
+    },
+    "sourceRef": "course-0047551"
+   },
+   "sourceRef": "course-0047551"
+  },
+  "SMGT 3632": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sport Sales and Fundraising",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major or SMGT minor or Esports Minor or CEHD IDP or instructor consent."
+    },
+    "sourceRef": "course-8032981"
+   },
+   "sourceRef": "course-8032981"
+  },
+  "SMGT 3634": {
+   "catalogTerm": "Fall 2026",
+   "title": "Marketing & Sponsorship in German Sports",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8273891"
+   },
+   "sourceRef": "course-8273891"
+  },
+  "SMGT 3826": {
+   "catalogTerm": "Fall 2026",
+   "title": "Research Methods in Sport Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8258621"
+   },
+   "sourceRef": "course-8258621"
+  },
+  "SMGT 3861": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sport Law",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major or SMGT minor or instructor consent"
+    },
+    "sourceRef": "course-0047811"
+   },
+   "sourceRef": "course-0047811"
+  },
+  "SMGT 3881W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Seminar in Sport Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SMGT major and Senior, and a C- or better in SMGT 3826 or KIN 3982"
+    },
+    "sourceRef": "course-0047571"
+   },
+   "sourceRef": "course-0047571"
+  },
+  "SMGT 3993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study in Sport Management",
+   "minimumCredits": 1,
+   "maximumCredits": 8,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8046421"
+   },
+   "sourceRef": "course-8046421"
+  },
+  "SMGT 4520": {
+   "catalogTerm": "Fall 2026",
+   "title": "Current Topics in Sport Management",
+   "minimumCredits": 2,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Upper div in Sport Management BS or Sport Management minor or Kinesiology BS or Physical Activity and Health Promotion BS or Physical Activity and Health Promotion minor or Sports Coaching minor"
+    },
+    "sourceRef": "course-8261041"
+   },
+   "sourceRef": "course-8261041"
+  },
+  "SOC 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Sociology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc Majors/Minors must register A-F"
+    },
+    "sourceRef": "course-0029431"
+   },
+   "sourceRef": "course-0029431"
+  },
+  "STAT 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to the Ideas of Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Mathematics requirement for admission to University"
+    },
+    "sourceRef": "course-0016161"
+   },
+   "sourceRef": "course-0016161"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  },
+  "WRIT 3029W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business and Professional Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8017961"
+   },
+   "sourceRef": "course-8017961"
+  },
+  "WRIT 3562W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026681"
+   },
+   "sourceRef": "course-0026681"
+  },
+  "YOST 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to History & Philosophy of Youthwork",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7883881"
+   },
+   "sourceRef": "course-7883881"
+  },
+  "YOST 3032": {
+   "catalogTerm": "Fall 2026",
+   "title": "Adolescent and Youth Development for Youth workers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7978911"
+   },
+   "sourceRef": "course-7978911"
+  },
+  "YOST 3325W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Project-Based Writing For Education and Human Development Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "jr or sr level"
+    },
+    "sourceRef": "course-8094821"
+   },
+   "sourceRef": "course-8094821"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-k9d3NDVg",
+   "label": "First Year Experience",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-MNoH3evW",
+    "type": "count",
+    "courseSet": "set-MNoH3evW",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "First Year Experience"
+   }
+  },
+  {
+   "id": "g-97CF0o7T",
+   "label": "Introduction to Sport Management",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-stxiamd9",
+    "type": "course",
+    "code": "SMGT 1701",
+    "sourceRef": "program",
+    "label": "Introduction to Sport Management"
+   }
+  },
+  {
+   "id": "g-Q62xuYJm",
+   "label": "Public Speaking",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-GiPdkvmU",
+    "type": "credits",
+    "courseSet": "set-GiPdkvmU",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Public Speaking"
+   }
+  },
+  {
+   "id": "g-vwRPKBeI",
+   "label": "Sociology",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-1nhboRbT",
+    "type": "credits",
+    "courseSet": "set-1nhboRbT",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Sociology"
+   }
+  },
+  {
+   "id": "g-OycFz2De",
+   "label": "Psychology",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ewVFV3fJ",
+    "type": "credits",
+    "courseSet": "set-ewVFV3fJ",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Psychology"
+   }
+  },
+  {
+   "id": "g-L3p3rpwx",
+   "label": "Required Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-kX5x59gl",
+    "type": "credits",
+    "courseSet": "set-kX5x59gl",
+    "minCredits": 29,
+    "sourceRef": "program",
+    "label": "Required Core Courses"
+   }
+  },
+  {
+   "id": "g-38zbFN6X",
+   "label": "Physical Education",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-g2aRBP9r",
+    "type": "credits",
+    "courseSet": "set-g2aRBP9r",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Physical Education"
+   }
+  },
+  {
+   "id": "g-q0iwUVwL",
+   "label": "Focus Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-xM65QUDn",
+    "type": "credits",
+    "courseSet": "set-xM65QUDn",
+    "minCredits": 12,
+    "sourceRef": "program",
+    "label": "Focus Electives"
+   }
+  },
+  {
+   "id": "g-oFzQ4B1q",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-QSwwVRTQ",
+    "type": "credits",
+    "courseSet": "set-QSwwVRTQ",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-j7t2HGW6",
+   "label": "Statistics",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-plJjizFJ",
+    "type": "credits",
+    "courseSet": "set-plJjizFJ",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Statistics"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "University of Minnesota Twin Cities students must meet the following criteria for admission to the Sport Management major:\nGPA: 2.5 preferred; 2.0 required\n45 credits completed or in progress\nSMGT 1701 completed\n3 \u00a0of the 4 remaining categories completed or in progress. First Year Experience (EDHD 1525W) is only required for incoming freshmen, this is not required for transfer students. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's Liberal Education requirements .\nCollegiate Requirements:\nAll incoming CEHD Freshman must complete the First-Year Experience course.\nAt least 18 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

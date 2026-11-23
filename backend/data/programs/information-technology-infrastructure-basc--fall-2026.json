@@ -1,0 +1,1232 @@
+{
+ "schemaVersion": 2,
+ "id": "information-technology-infrastructure-basc",
+ "name": "Information Technology Infrastructure B.A.Sc.",
+ "officialName": "Information Technology Infrastructure B.A.Sc.",
+ "officialProgramId": "206724618",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Information Technology Infrastructure B.A.Sc., revision 206724618-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/206724618, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/206724618",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 206724618-2026-09-08"
+  },
+  "course-8277881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277881",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 2002, version 8277881-2025-09-02"
+  },
+  "course-8096671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096671",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1913, version 8096671-2026-01-20"
+  },
+  "course-8103461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8103461",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1933, version 8103461-2025-01-21"
+  },
+  "course-8166631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8166631",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1933H, version 8166631-2024-09-03"
+  },
+  "course-0023941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023941",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1031, version 0023941-2025-09-02"
+  },
+  "course-0133851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133851",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1051, version 0133851-2025-09-02"
+  },
+  "course-0133861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133861",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1151, version 0133861-2023-05-15"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0036961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "course-8164031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164031",
+   "retrieved": "2026-11-23",
+   "section": "Course record EPSY 1261, version 8164031-2019-09-03"
+  },
+  "course-0016161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016161",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 1001, version 0016161-2023-01-17"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-0138051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138051",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2551, version 0138051-2022-09-06"
+  },
+  "course-8005591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8005591",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 3101, version 8005591-2025-09-02"
+  },
+  "course-8065251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8065251",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 3102, version 8065251-2025-09-02"
+  },
+  "course-0036721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036721",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 2011, version 0036721-2024-09-03"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-7887411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887411",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101H, version 7887411-2026-09-08"
+  },
+  "course-0102561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102561",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3402, version 0102561-2024-05-13"
+  },
+  "course-0039051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0039051",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 3605W, version 0039051-2026-09-08"
+  },
+  "course-0099201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1101, version 0099201-2024-09-03"
+  },
+  "course-0062811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062811",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1101, version 0062811-2024-09-03"
+  },
+  "course-0099231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099231",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1102, version 0099231-2016-01-19"
+  },
+  "course-0062861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062861",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1102, version 0062861-2020-09-08"
+  },
+  "course-0131031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ACCT 2051, version 0131031-2022-09-06"
+  },
+  "course-0062871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062871",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1251, version 0062871-2016-09-06"
+  },
+  "course-8267051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8267051",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 2001, version 8267051-2023-09-05"
+  },
+  "course-8197051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197051",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 3011W, version 8197051-2020-01-21"
+  },
+  "course-8181351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181351",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 4001, version 8181351-2025-09-02"
+  },
+  "course-8177081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8177081",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 4002, version 8177081-2025-09-02"
+  },
+  "course-7963361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7963361",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 4153, version 7963361-2026-09-08"
+  },
+  "course-7910191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910191",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 4031, version 7910191-2025-09-02"
+  },
+  "course-8012061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8012061",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 4082W, version 8012061-2025-09-02"
+  },
+  "course-7914291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7914291",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 4707, version 7914291-2025-05-19"
+  },
+  "course-7888831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888831",
+   "retrieved": "2026-11-23",
+   "section": "Course record INET 4051, version 7888831-2025-09-02"
+  },
+  "course-8013331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013331",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 3301, version 8013331-2015-01-20"
+  },
+  "course-8205651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8205651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4545, version 8205651-2025-05-19"
+  },
+  "course-0150831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150831",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4022W, version 0150831-2026-09-08"
+  },
+  "course-0150841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150841",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4023W, version 0150841-2025-05-19"
+  },
+  "course-0150931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0150931",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4101, version 0150931-2015-01-20"
+  },
+  "course-7963381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7963381",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4561W, version 7963381-2025-09-02"
+  },
+  "course-0036671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036671",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1103, version 0036671-2015-01-20"
+  },
+  "course-0036691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036691",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1113, version 0036691-2024-09-03"
+  },
+  "course-8096661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096661",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133, version 8096661-2024-09-03"
+  }
+ },
+ "courseSets": {
+  "set-406933": {
+   "codes": [
+    "INET 2002",
+    "CSCI 1913",
+    "CSCI 1933",
+    "CSCI 1933H",
+    "MATH 1031",
+    "MATH 1051",
+    "MATH 1151",
+    "MATH 1271",
+    "MATH 1571H",
+    "EPSY 1261",
+    "STAT 1001",
+    "STAT 3011",
+    "BA 2551",
+    "INET 3101",
+    "INET 3102",
+    "CSCI 2011",
+    "COMM 1101",
+    "COMM 1101H",
+    "COMM 3402",
+    "COMM 3605W",
+    "ECON 1101",
+    "APEC 1101",
+    "ECON 1102",
+    "APEC 1102",
+    "ACCT 2051",
+    "APEC 1251"
+   ],
+   "sourceRef": "program"
+  },
+  "set-406941": {
+   "codes": [
+    "INET 2001",
+    "INET 3011W",
+    "INET 4001",
+    "INET 4002",
+    "INET 4153",
+    "INET 4031",
+    "INET 4082W",
+    "INET 4707",
+    "INET 4051"
+   ],
+   "sourceRef": "program"
+  },
+  "set-406942": {
+   "codes": [
+    "ABUS 3301",
+    "ABUS 4545",
+    "ABUS 4022W",
+    "ABUS 4023W",
+    "ABUS 4101"
+   ],
+   "sourceRef": "program"
+  },
+  "set-406967": {
+   "codes": [
+    "ABUS 4022W",
+    "ABUS 4023W",
+    "COMM 3605W",
+    "HSM 4561W",
+    "INET 3011W",
+    "INET 4082W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ij4c88Uf": {
+   "codes": [
+    "CSCI 1103",
+    "CSCI 1113",
+    "CSCI 1133"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ABUS 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Quality Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Introductory statistics"
+    },
+    "sourceRef": "course-8013331"
+   },
+   "sourceRef": "course-8013331"
+  },
+  "ABUS 4022W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategic Management and Leadership",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 credits completed. Students will have better success if they have successfully taken and completed a technical writing or English composition course at the University level and can apply good writing techniques in this class."
+    },
+    "sourceRef": "course-0150831"
+   },
+   "sourceRef": "course-0150831"
+  },
+  "ABUS 4023W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communicating for Strategic Results",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 cr recommended"
+    },
+    "sourceRef": "course-0150841"
+   },
+   "sourceRef": "course-0150841"
+  },
+  "ABUS 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Accounting and Finance for Managers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Financial accounting, 45 cr"
+    },
+    "sourceRef": "course-0150931"
+   },
+   "sourceRef": "course-0150931"
+  },
+  "ABUS 4545": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mitigating Bias in the Workplace",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8205651"
+   },
+   "sourceRef": "course-8205651"
+  },
+  "ACCT 2051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Financial Reporting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131031"
+   },
+   "sourceRef": "course-0131031"
+  },
+  "APEC 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062811"
+   },
+   "sourceRef": "course-0062811"
+  },
+  "APEC 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Macroeconomics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101 or Econ 1101"
+    },
+    "sourceRef": "course-0062861"
+   },
+   "sourceRef": "course-0062861"
+  },
+  "APEC 1251": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Accounting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062871"
+   },
+   "sourceRef": "course-0062871"
+  },
+  "BA 2551": {
+   "catalogTerm": "Fall 2026",
+   "title": "Business Statistics in R",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Math 1031 or equiv]"
+    },
+    "sourceRef": "course-0138051"
+   },
+   "sourceRef": "course-0138051"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "COMM 1101H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-7887411"
+   },
+   "sourceRef": "course-7887411"
+  },
+  "COMM 3402": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Interpersonal Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0102561"
+   },
+   "sourceRef": "course-0102561"
+  },
+  "COMM 3605W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Persuasive Speaking and Speech Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101, soph"
+    },
+    "sourceRef": "course-0039051"
+   },
+   "sourceRef": "course-0039051"
+  },
+  "CSCI 1103": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computer Programming in Java",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036671"
+   },
+   "sourceRef": "course-0036671"
+  },
+  "CSCI 1113": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to C/C++ Programming for Scientists and Engineers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1271 or Math 1371 or Math 1571H or instr consent."
+    },
+    "sourceRef": "course-0036691"
+   },
+   "sourceRef": "course-0036691"
+  },
+  "CSCI 1133": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8096661"
+   },
+   "sourceRef": "course-8096661"
+  },
+  "CSCI 1913": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Algorithms, Data Structures, and Program Development",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(CSCI 1103 or CSCI 1113 or EE 1301 or instr consent) AND (concurrent registration in MATH 1271 or MATH 1371 or MATH 1571H or MATH 1142 or instr consent)"
+    },
+    "sourceRef": "course-8096671"
+   },
+   "sourceRef": "course-8096671"
+  },
+  "CSCI 1933": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Algorithms and Data Structures",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Calc I (Math 1271 or Math 1371 or Math 1571H) as a corequisite, CSci 1133 as a prerequisite."
+    },
+    "sourceRef": "course-8103461"
+   },
+   "sourceRef": "course-8103461"
+  },
+  "CSCI 1933H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Algorithms and Data Structures",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8166631"
+   },
+   "sourceRef": "course-8166631"
+  },
+  "CSCI 2011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Discrete Structures of Computer Science",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1271"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1371"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1571H"
+      }
+     ]
+    },
+    "sourceRef": "course-0036721"
+   },
+   "sourceRef": "course-0036721"
+  },
+  "ECON 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099201"
+   },
+   "sourceRef": "course-0099201"
+  },
+  "ECON 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Macroeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1101 or equiv], knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099231"
+   },
+   "sourceRef": "course-0099231"
+  },
+  "EPSY 1261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding Data Stories through Visualization & Computing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164031"
+   },
+   "sourceRef": "course-8164031"
+  },
+  "HSM 4561W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Management of Healthcare Organizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7963381"
+   },
+   "sourceRef": "course-7963381"
+  },
+  "INET 2001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals of IT",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8267051"
+   },
+   "sourceRef": "course-8267051"
+  },
+  "INET 2002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Algorithms and Data Structures for IT Professionals",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277881"
+   },
+   "sourceRef": "course-8277881"
+  },
+  "INET 3011W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Social Impact of Information Technology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197051"
+   },
+   "sourceRef": "course-8197051"
+  },
+  "INET 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "C Programming: Language and Applications",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CSCI 1913"
+      },
+      {
+       "type": "course",
+       "course_code": "CSCI 1933"
+      },
+      {
+       "type": "course",
+       "course_code": "INET 2002"
+      }
+     ]
+    },
+    "sourceRef": "course-8005591"
+   },
+   "sourceRef": "course-8005591"
+  },
+  "INET 3102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Web Infrastructure",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CSCI 1913"
+      },
+      {
+       "type": "course",
+       "course_code": "CSCI 1933"
+      },
+      {
+       "type": "course",
+       "course_code": "INET 2002"
+      }
+     ]
+    },
+    "sourceRef": "course-8065251"
+   },
+   "sourceRef": "course-8065251"
+  },
+  "INET 4001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Operating Systems",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CSCI 1913"
+      },
+      {
+       "type": "course",
+       "course_code": "CSCI 1933"
+      },
+      {
+       "type": "course",
+       "course_code": "INET 2002"
+      }
+     ]
+    },
+    "sourceRef": "course-8181351"
+   },
+   "sourceRef": "course-8181351"
+  },
+  "INET 4002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Networking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "IT Infrastructure major, minor, or certificate"
+    },
+    "sourceRef": "course-8177081"
+   },
+   "sourceRef": "course-8177081"
+  },
+  "INET 4031": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Systems",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "IT Infrastructure major or minor or certificate"
+    },
+    "sourceRef": "course-7910191"
+   },
+   "sourceRef": "course-7910191"
+  },
+  "INET 4051": {
+   "catalogTerm": "Fall 2026",
+   "title": "IT Infrastructure Operations: Capstone",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7888831"
+   },
+   "sourceRef": "course-7888831"
+  },
+  "INET 4082W": {
+   "catalogTerm": "Fall 2026",
+   "title": "IT Infrastructure Projects and Processes",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "IT Infrastructure major or minor or certificate"
+    },
+    "sourceRef": "course-8012061"
+   },
+   "sourceRef": "course-8012061"
+  },
+  "INET 4153": {
+   "catalogTerm": "Fall 2026",
+   "title": "Security Governance: Policies and Regulations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "IT Infrastructure major, minor, or certificate student"
+    },
+    "sourceRef": "course-7963361"
+   },
+   "sourceRef": "course-7963361"
+  },
+  "INET 4707": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Databases",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "INET 4001"
+      },
+      {
+       "type": "course",
+       "course_code": "CSCI 4061"
+      }
+     ]
+    },
+    "sourceRef": "course-7914291"
+   },
+   "sourceRef": "course-7914291"
+  },
+  "MATH 1031": {
+   "catalogTerm": "Fall 2026",
+   "title": "College Algebra and Probability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on Placement Exam."
+    },
+    "sourceRef": "course-0023941"
+   },
+   "sourceRef": "course-0023941"
+  },
+  "MATH 1051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Precalculus I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement exam."
+    },
+    "sourceRef": "course-0133851"
+   },
+   "sourceRef": "course-0133851"
+  },
+  "MATH 1151": {
+   "catalogTerm": "Fall 2026",
+   "title": "Precalculus II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement exam or grade of at least C- in [1031 or 1051]"
+    },
+    "sourceRef": "course-0133861"
+   },
+   "sourceRef": "course-0133861"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "MATH 1571H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0036961"
+   },
+   "sourceRef": "course-0036961"
+  },
+  "STAT 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to the Ideas of Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Mathematics requirement for admission to University"
+    },
+    "sourceRef": "course-0016161"
+   },
+   "sourceRef": "course-0016161"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-206724618",
+   "label": "Program Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-206724618",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-406933",
+      "type": "credits",
+      "courseSet": "set-406933",
+      "minCredits": 23,
+      "sourceRef": "program",
+      "label": "Foundation Courses"
+     },
+     {
+      "id": "r-406941",
+      "type": "credits",
+      "courseSet": "set-406941",
+      "minCredits": 31,
+      "sourceRef": "program",
+      "label": "Core Information Technology Courses"
+     },
+     {
+      "id": "r-406942",
+      "type": "credits",
+      "courseSet": "set-406942",
+      "minCredits": 15,
+      "sourceRef": "program",
+      "label": "Business/Communication Required Courses"
+     },
+     {
+      "id": "r-406967",
+      "type": "count",
+      "courseSet": "set-406967",
+      "maxCourses": 1,
+      "sourceRef": "program",
+      "label": "Upper Division Writing Intensive within the Major"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Admission Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ij4c88Uf",
+    "type": "credits",
+    "courseSet": "set-ij4c88Uf",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Programming"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students who have 30 or more transferable semester credits, preferred minimum 2.50 GPA, and successful completion of CSCI 1103 or 1113 or1133 or equivalent course may be admitted. In addition, relevant work experience in IT and/or a strong interest in the IT Infrastructure major may also strengthen a student\u2019s application. Each application for admission is individually reviewed holistically. For information about the University of Minnesota admission requirements, visit the Office of Admissions website. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University's Liberal Education requirements .\nAt least half of the upper division credits required for the major must be taken at University of Minnesota Twin Cities (26 credits). Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Applied Data Science, Machine Learning and Artificial Intelligence, DevSecOps and Project Management, Networking and Cloud Infrastructure, Cybersecurity and Governance, Self-Designed. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

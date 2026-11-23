@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "id": "synthetic",
+  "name": "Synthetic B.S.",
+  "officialProgramId": "synthetic",
+  "catalogTerm": "Fall 2026",
+  "totalCredits": 12,
+  "source": "Synthetic test source, 2026-11-22",
+  "sources": {
+    "synthetic": {
+      "url": "https://example.invalid/synthetic",
+      "retrieved": "2026-11-22",
+      "section": "Synthetic test requirements"
+    }
+  },
+  "courseSets": {},
+  "courseMetadata": {
+    "TEST 1001": {
+      "catalogTerm": "Fall 2026",
+      "title": "Synthetic introduction",
+      "minimumCredits": 3,
+      "maximumCredits": 3,
+      "offered": ["Fall", "Spring"],
+      "prerequisites": {"expression": null, "sourceRef": "synthetic"},
+      "sourceRef": "synthetic"
+    }
+  },
+  "groups": [
+    {
+      "id": "core",
+      "label": "Synthetic core",
+      "category": "Major core",
+      "sourceRef": "synthetic",
+      "gradePolicy": {"minGrade": "C-", "allowS": false, "sourceRef": "synthetic"},
+      "rule": {"id": "intro", "type": "course", "code": "TEST 1001", "sourceRef": "synthetic"}
+    }
+  ],
+  "adjustments": []
+}

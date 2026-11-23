@@ -1,0 +1,5648 @@
+{
+ "schemaVersion": 2,
+ "id": "industrial-and-systems-engineering-bisye",
+ "name": "Industrial and Systems Engineering B.I.Sy.E.",
+ "officialName": "Industrial and Systems Engineering B.I.Sy.E.",
+ "officialProgramId": "214929607",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 122,
+ "source": "Industrial and Systems Engineering B.I.Sy.E., revision 214929607-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/214929607, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/214929607",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 214929607-2026-09-08"
+  },
+  "course-8096661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096661",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133, version 8096661-2024-09-03"
+  },
+  "course-0099201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1101, version 0099201-2024-09-03"
+  },
+  "course-7926551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7926551",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2142, version 7926551-2021-05-17"
+  },
+  "course-0036941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036941",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2373, version 0036941-2021-05-17"
+  },
+  "course-0002801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002801",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2243, version 0002801-2021-05-17"
+  },
+  "course-0043111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043111",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2574H, version 0043111-2026-09-08"
+  },
+  "course-7909141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7909141",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1473, version 7909141-2021-05-17"
+  },
+  "course-8064971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2471, version 8064971-2021-05-17"
+  },
+  "course-0036951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036951",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2374, version 0036951-2021-05-17"
+  },
+  "course-0002821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002821",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2263, version 0002821-2021-05-17"
+  },
+  "course-0036981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036981",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2573H, version 0036981-2023-09-05"
+  },
+  "course-7991841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7991841",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2472, version 7991841-2021-05-17"
+  },
+  "course-0148631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148631",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2473, version 0148631-2021-05-17"
+  },
+  "course-0076881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0076881",
+   "retrieved": "2026-11-23",
+   "section": "Course record AGRO 1101, version 0076881-2026-09-08"
+  },
+  "course-7950111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7950111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANSC 3509, version 7950111-2021-09-07"
+  },
+  "course-0087111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 1001, version 0087111-2025-09-02"
+  },
+  "course-0089901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0089901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 1001H, version 0089901-2025-09-02"
+  },
+  "course-0054191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054191",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1001, version 0054191-2020-09-08"
+  },
+  "course-8031771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8031771",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1001H, version 8031771-2020-09-08"
+  },
+  "course-8036291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8036291",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1003, version 8036291-2026-09-08"
+  },
+  "course-0054161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009, version 0054161-2020-09-08"
+  },
+  "course-7908161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009H, version 7908161-2020-09-08"
+  },
+  "course-8050431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8050431",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1012, version 8050431-2023-09-05"
+  },
+  "course-8164401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164401",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1015, version 8164401-2020-09-08"
+  },
+  "course-8099951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099951",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1055, version 8099951-2026-09-08"
+  },
+  "course-8171961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171961",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1951, version 8171961-2026-09-08"
+  },
+  "course-8172001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172001",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1961, version 8172001-2026-09-08"
+  },
+  "course-8171881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171881",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1951H, version 8171881-2026-09-08"
+  },
+  "course-7892941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7892941",
+   "retrieved": "2026-11-23",
+   "section": "Course record BMEN 2501, version 7892941-2026-09-08"
+  },
+  "course-0078721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078721",
+   "retrieved": "2026-11-23",
+   "section": "Course record CI 1512, version 0078721-2016-09-06"
+  },
+  "course-8062521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8062521",
+   "retrieved": "2026-11-23",
+   "section": "Course record ENT 1005, version 8062521-2020-01-21"
+  },
+  "course-0024331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0024331",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 1003, version 0024331-2018-01-16"
+  },
+  "course-7986661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7986661",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESCI 1007, version 7986661-2015-01-20"
+  },
+  "course-0073961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073961",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 1403, version 0073961-2015-01-20"
+  },
+  "course-7886831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7886831",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 1403H, version 7886831-2015-01-20"
+  },
+  "course-0078851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078851",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 1001, version 0078851-2015-01-20"
+  },
+  "course-8080521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8080521",
+   "retrieved": "2026-11-23",
+   "section": "Course record NSCI 2101, version 8080521-2026-09-08"
+  },
+  "course-7935291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7935291",
+   "retrieved": "2026-11-23",
+   "section": "Course record PLPA 1005, version 7935291-2015-01-20"
+  },
+  "course-8091461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8091461",
+   "retrieved": "2026-11-23",
+   "section": "Course record VBS 1001, version 8091461-2026-09-08"
+  },
+  "course-0131131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131131",
+   "retrieved": "2026-11-23",
+   "section": "Course record ACCT 3001, version 0131131-2026-01-20"
+  },
+  "course-0131181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131181",
+   "retrieved": "2026-11-23",
+   "section": "Course record FINA 3001, version 0131181-2024-09-03"
+  },
+  "course-0131321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131321",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3001, version 0131321-2023-09-05"
+  },
+  "course-0131331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131331",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3001, version 0131331-2021-05-17"
+  },
+  "course-0131271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131271",
+   "retrieved": "2026-11-23",
+   "section": "Course record MKTG 3001, version 0131271-2022-09-06"
+  },
+  "course-0131311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131311",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCO 3001, version 0131311-2022-09-06"
+  },
+  "course-0055321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0055321",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 3521, version 0055321-2023-09-05"
+  },
+  "course-8081011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081011",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 3011, version 8081011-2023-09-05"
+  },
+  "course-8081111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081111",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 3522, version 8081111-2024-09-03"
+  },
+  "course-8081031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081031",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 4011, version 8081031-2023-09-05"
+  },
+  "course-8081151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081151",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 4551, version 8081151-2023-09-05"
+  },
+  "course-8081121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081121",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 3553, version 8081121-2022-09-06"
+  },
+  "course-8081051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081051",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 4511, version 8081051-2023-09-05"
+  },
+  "course-8081131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081131",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 4541W, version 8081131-2015-01-20"
+  },
+  "course-8081041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081041",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 4041W, version 8081041-2022-09-06"
+  },
+  "course-8194571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8194571",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 3013, version 8194571-2019-09-03"
+  },
+  "course-8163021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163021",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 4894, version 8163021-2020-09-08"
+  },
+  "course-8081021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081021",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5012, version 8081021-2022-09-06"
+  },
+  "course-0110811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0110811",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5080, version 0110811-2025-05-19"
+  },
+  "course-7984611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7984611",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5111, version 7984611-2015-01-20"
+  },
+  "course-7984631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7984631",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5113, version 7984631-2023-09-05"
+  },
+  "course-8262131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262131",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5285, version 8262131-2023-01-17"
+  },
+  "course-0073381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073381",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5441, version 0073381-2024-01-16"
+  },
+  "course-8186841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8186841",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5524, version 8186841-2019-09-03"
+  },
+  "course-0055331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0055331",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5531, version 0055331-2015-01-20"
+  },
+  "course-8194611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8194611",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5533, version 8194611-2024-01-16"
+  },
+  "course-7912981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7912981",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5545, version 7912981-2024-01-16"
+  },
+  "course-8175521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8175521",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5561, version 8175521-2023-05-15"
+  },
+  "course-8257781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8257781",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 5571, version 8257781-2025-09-02"
+  },
+  "course-0165761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165761",
+   "retrieved": "2026-11-23",
+   "section": "Course record ABUS 4515, version 0165761-2015-01-20"
+  },
+  "course-0043401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043401",
+   "retrieved": "2026-11-23",
+   "section": "Course record AEM 3031, version 0043401-2015-01-20"
+  },
+  "course-0082371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082371",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 5721, version 0082371-2018-09-04"
+  },
+  "course-8005671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8005671",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 4503, version 8005671-2026-09-08"
+  },
+  "course-8198721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8198721",
+   "retrieved": "2026-11-23",
+   "section": "Course record BLAW 3062, version 8198721-2020-09-08"
+  },
+  "course-0033351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033351",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 3201, version 0033351-2024-09-03"
+  },
+  "course-7982981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982981",
+   "retrieved": "2026-11-23",
+   "section": "Course record CEGE 4211, version 7982981-2023-09-05"
+  },
+  "course-0161861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0161861",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 4501, version 0161861-2015-01-20"
+  },
+  "course-8191471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8191471",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 3041, version 8191471-2025-09-02"
+  },
+  "course-7930761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7930761",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 3081W, version 7930761-2025-09-02"
+  },
+  "course-0021891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021891",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 4011, version 0021891-2025-09-02"
+  },
+  "course-0036751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036751",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 4041, version 0036751-2026-09-08"
+  },
+  "course-7906541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7906541",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 4131, version 7906541-2024-09-03"
+  },
+  "course-8039561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8039561",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 4511W, version 8039561-2024-09-03"
+  },
+  "course-7906561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7906561",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 4707, version 7906561-2025-01-21"
+  },
+  "course-0021901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0021901",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 5115, version 0021901-2026-09-08"
+  },
+  "course-0140901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0140901",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 5521, version 0140901-2025-09-02"
+  },
+  "course-7973471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7973471",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 5523, version 7973471-2015-01-20"
+  },
+  "course-7973481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7973481",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 5541, version 7973481-2024-09-03"
+  },
+  "course-8252421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8252421",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSE 4896, version 8252421-2021-09-07"
+  },
+  "course-8254361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8254361",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSE 4996, version 8254361-2021-09-07"
+  },
+  "course-8083881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083881",
+   "retrieved": "2026-11-23",
+   "section": "Course record UX 3131, version 8083881-2026-09-08"
+  },
+  "course-8096121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096121",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 3141, version 8096121-2015-05-26"
+  },
+  "course-0072591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072591",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 3101, version 0072591-2024-09-03"
+  },
+  "course-0072601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072601",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 3102, version 0072601-2024-09-03"
+  },
+  "course-0032261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032261",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 3005, version 0032261-2015-01-20"
+  },
+  "course-0032321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032321",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 3006, version 0032321-2015-01-20"
+  },
+  "course-8172391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172391",
+   "retrieved": "2026-11-23",
+   "section": "Course record EE 5373, version 8172391-2017-09-05"
+  },
+  "course-8125911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8125911",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3408W, version 8125911-2026-09-08"
+  },
+  "course-0093181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093181",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3011W, version 0093181-2017-01-17"
+  },
+  "course-0080041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0080041",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3221, version 0080041-2022-01-18"
+  },
+  "course-0082071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0082071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3241W, version 0082071-2011-01-18"
+  },
+  "course-0067031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0067031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3245, version 0067031-2015-09-08"
+  },
+  "course-0053691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053691",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3261, version 0053691-2024-01-16"
+  },
+  "course-7989321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7989321",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3271, version 7989321-2015-01-20"
+  },
+  "course-0161251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0161251",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3601, version 0161251-2019-01-22"
+  },
+  "course-7975891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975891",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3602, version 7975891-2017-01-17"
+  },
+  "course-7975901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975901",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3603, version 7975901-2021-09-07"
+  },
+  "course-7975911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975911",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3604, version 7975911-2016-09-06"
+  },
+  "course-7975921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975921",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3605, version 7975921-2011-01-18"
+  },
+  "course-0125311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0125311",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3607, version 0125311-2013-01-22"
+  },
+  "course-0129871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0129871",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 4061W, version 0129871-2016-09-06"
+  },
+  "course-8025911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8025911",
+   "retrieved": "2026-11-23",
+   "section": "Course record FINA 4221, version 8025911-2025-09-02"
+  },
+  "course-8026141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8026141",
+   "retrieved": "2026-11-23",
+   "section": "Course record FINA 4621, version 8026141-2025-09-02"
+  },
+  "course-0072271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072271",
+   "retrieved": "2026-11-23",
+   "section": "Course record HINF 5430, version 0072271-2021-01-19"
+  },
+  "course-8059451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8059451",
+   "retrieved": "2026-11-23",
+   "section": "Course record HINF 5510, version 8059451-2020-09-08"
+  },
+  "course-8107721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8107721",
+   "retrieved": "2026-11-23",
+   "section": "Course record HINF 5531, version 8107721-2017-09-05"
+  },
+  "course-7954861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7954861",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 3521, version 7954861-2025-09-02"
+  },
+  "course-7963371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7963371",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4541, version 7963371-2025-09-02"
+  },
+  "course-7963381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7963381",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4561W, version 7963381-2025-09-02"
+  },
+  "course-8180811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8180811",
+   "retrieved": "2026-11-23",
+   "section": "Course record HSM 4575, version 8180811-2026-01-20"
+  },
+  "course-8035751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8035751",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3001H, version 8035751-2021-09-07"
+  },
+  "course-8020071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020071",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3102, version 8020071-2026-01-20"
+  },
+  "course-8020081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020081",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3103, version 8020081-2026-01-20"
+  },
+  "course-8020091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020091",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3104, version 8020091-2026-01-20"
+  },
+  "course-0138551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138551",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3202, version 0138551-2026-01-20"
+  },
+  "course-8167791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8167791",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 4111, version 8167791-2024-01-16"
+  },
+  "course-8167801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8167801",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 4211, version 8167801-2026-01-20"
+  },
+  "course-7983301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7983301",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 4401, version 7983301-2026-01-20"
+  },
+  "course-8020111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020111",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 4411, version 8020111-2026-09-08"
+  },
+  "course-0163401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0163401",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 3283W, version 0163401-2021-05-17"
+  },
+  "course-0107951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0107951",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 4242, version 0107951-2025-09-02"
+  },
+  "course-0043041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043041",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 4567, version 0043041-2021-05-17"
+  },
+  "course-8054361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054361",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 4603, version 8054361-2021-05-17"
+  },
+  "course-7975791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7975791",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 4653, version 7975791-2021-05-17"
+  },
+  "course-7905871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7905871",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 4707, version 7905871-2021-05-17"
+  },
+  "course-0161131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0161131",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 5075, version 0161131-2025-09-02"
+  },
+  "course-0041961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0041961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 5248, version 0041961-2025-09-02"
+  },
+  "course-0043011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043011",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 5485, version 0043011-2021-05-17"
+  },
+  "course-0043081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043081",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 5651, version 0043081-2021-05-17"
+  },
+  "course-0049901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049901",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATS 3011, version 0049901-2015-01-20"
+  },
+  "course-0048331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0048331",
+   "retrieved": "2026-11-23",
+   "section": "Course record ME 3221, version 0048331-2016-09-06"
+  },
+  "course-0050401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0050401",
+   "retrieved": "2026-11-23",
+   "section": "Course record ME 3324, version 0050401-2018-01-16"
+  },
+  "course-7967041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7967041",
+   "retrieved": "2026-11-23",
+   "section": "Course record ME 3331, version 7967041-2025-09-02"
+  },
+  "course-7948151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7948151",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3015, version 7948151-2022-09-06"
+  },
+  "course-0140031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0140031",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3045, version 0140031-2024-09-03"
+  },
+  "course-8191961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8191961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4032, version 8191961-2024-09-03"
+  },
+  "course-8192021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8192021",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4033, version 8192021-2021-01-19"
+  },
+  "course-8192051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8192051",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4035, version 8192051-2024-09-03"
+  },
+  "course-8024531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8024531",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4044, version 8024531-2022-09-06"
+  },
+  "course-0135351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0135351",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4055, version 0135351-2024-09-03"
+  },
+  "course-8025391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8025391",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4171W, version 8025391-2025-09-02"
+  },
+  "course-8025401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8025401",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4172, version 8025401-2015-01-20"
+  },
+  "course-8203151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8203151",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4173, version 8203151-2024-09-03"
+  },
+  "course-8025971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8025971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 4175W, version 8025971-2024-09-03"
+  },
+  "course-8168771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168771",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 5102, version 8168771-2026-01-20"
+  },
+  "course-0137681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0137681",
+   "retrieved": "2026-11-23",
+   "section": "Course record MKTG 3011, version 0137681-2025-09-02"
+  },
+  "course-8012071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8012071",
+   "retrieved": "2026-11-23",
+   "section": "Course record MM 3001W, version 8012071-2022-01-18"
+  },
+  "course-8114461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114461",
+   "retrieved": "2026-11-23",
+   "section": "Course record MM 3305, version 8114461-2019-05-20"
+  },
+  "course-8006881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8006881",
+   "retrieved": "2026-11-23",
+   "section": "Course record MOT 4001, version 8006881-2010-01-19"
+  },
+  "course-0093421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093421",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5711, version 0093421-2022-09-06"
+  },
+  "course-0158611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0158611",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5721, version 0158611-2023-01-17"
+  },
+  "course-0077251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077251",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5722, version 0077251-2021-09-07"
+  },
+  "course-8159411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8159411",
+   "retrieved": "2026-11-23",
+   "section": "Course record PA 5724, version 8159411-2017-01-17"
+  },
+  "course-8101131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101131",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3704, version 8101131-2024-09-03"
+  },
+  "course-8070001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8070001",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3711, version 8070001-2021-01-19"
+  },
+  "course-8101141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101141",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 5704, version 8101141-2026-01-20"
+  },
+  "course-8069491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069491",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 3351, version 8069491-2026-09-08"
+  },
+  "course-7908351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7908351",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 3801, version 7908351-2021-05-17"
+  },
+  "course-0141031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0141031",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 6542, version 0141031-2022-01-18"
+  },
+  "course-7904901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7904901",
+   "retrieved": "2026-11-23",
+   "section": "Course record PUBH 6717, version 7904901-2021-05-17"
+  },
+  "course-7966971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7966971",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCO 3045, version 7966971-2021-09-07"
+  },
+  "course-8024621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8024621",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCO 3048, version 8024621-2022-09-06"
+  },
+  "course-8024541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8024541",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCO 3051, version 8024541-2015-01-20"
+  },
+  "course-0138091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138091",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCO 3056, version 0138091-2021-09-07"
+  },
+  "course-8024561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8024561",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCO 3072, version 8024561-2022-09-06"
+  },
+  "course-8137051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8137051",
+   "retrieved": "2026-11-23",
+   "section": "Course record SSM 3301, version 8137051-2015-09-08"
+  },
+  "course-0016211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016211",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3022, version 0016211-2025-09-02"
+  },
+  "course-8145241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8145241",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3032, version 8145241-2024-09-03"
+  },
+  "course-0064051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064051",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 4101, version 0064051-2025-01-21"
+  },
+  "course-0064061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064061",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 4102, version 0064061-2024-09-03"
+  },
+  "course-0064081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064081",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5101, version 0064081-2026-01-20"
+  },
+  "course-0064091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0064091",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5102, version 0064091-2023-09-05"
+  },
+  "course-0034661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034661",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5302, version 0034661-2025-09-02"
+  },
+  "course-0034651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034651",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5303, version 0034651-2023-09-05"
+  },
+  "course-0036641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036641",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5401, version 0036641-2023-09-05"
+  },
+  "course-0043671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0043671",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5421, version 0043671-2023-09-05"
+  },
+  "course-8034561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8034561",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 5511, version 8034561-2023-09-05"
+  },
+  "course-0026681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026681",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562W, version 0026681-2021-05-17"
+  },
+  "course-0036921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036921",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1371, version 0036921-2025-09-02"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0036961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "course-0148561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148561",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1471, version 0148561-2021-05-17"
+  },
+  "course-0036931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036931",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1372, version 0036931-2021-05-17"
+  },
+  "course-0001211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001211",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1272, version 0001211-2021-09-07"
+  },
+  "course-0036971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1572H, version 0036971-2023-09-05"
+  },
+  "course-0148611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0148611",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1472, version 0148611-2021-05-17"
+  },
+  "course-8077581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077581",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1071H, version 8077581-2026-09-08"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8152521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1081, version 8152521-2024-09-03"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-0020701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020701",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1301W, version 0020701-2022-05-16"
+  },
+  "course-0020731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020731",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1401V, version 0020731-2023-09-05"
+  },
+  "course-8179641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179641",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1221, version 8179641-2021-05-17"
+  },
+  "course-0020711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020711",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1302W, version 0020711-2022-01-18"
+  },
+  "course-0020741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020741",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1402V, version 0020741-2021-09-07"
+  },
+  "course-8179651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1222, version 8179651-2021-05-17"
+  },
+  "course-8081001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081001",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 1101, version 8081001-2022-09-06"
+  },
+  "course-8081101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081101",
+   "retrieved": "2026-11-23",
+   "section": "Course record IE 2021, version 8081101-2015-01-20"
+  }
+ },
+ "courseSets": {
+  "set-ZlZVv9MG": {
+   "codes": [
+    "CSCI 1133",
+    "ECON 1101"
+   ],
+   "sourceRef": "program"
+  },
+  "set-fT0kIbNc": {
+   "codes": [
+    "MATH 2142",
+    "MATH 2373",
+    "MATH 2243",
+    "MATH 2574H",
+    "MATH 1473",
+    "MATH 2471"
+   ],
+   "sourceRef": "program"
+  },
+  "set-bsNUWaZD": {
+   "codes": [
+    "MATH 2374",
+    "MATH 2263",
+    "MATH 2573H",
+    "MATH 2472",
+    "MATH 2473"
+   ],
+   "sourceRef": "program"
+  },
+  "set-JGD6yb1R": {
+   "codes": [
+    "AGRO 1101",
+    "ANSC 3509",
+    "ANTH 1001",
+    "ANTH 1001H",
+    "BIOL 1001",
+    "BIOL 1001H",
+    "BIOL 1003",
+    "BIOL 1009",
+    "BIOL 1009H",
+    "BIOL 1012",
+    "BIOL 1015",
+    "BIOL 1055",
+    "BIOL 1951",
+    "BIOL 1961",
+    "BIOL 1951H",
+    "BMEN 2501",
+    "CI 1512",
+    "ENT 1005",
+    "ESCI 1003",
+    "ESCI 1007",
+    "GEOG 1403",
+    "GEOG 1403H",
+    "HORT 1001",
+    "NSCI 2101",
+    "PLPA 1005",
+    "VBS 1001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-kHhECzq5": {
+   "codes": [
+    "ACCT 3001",
+    "FINA 3001",
+    "IDSC 3001",
+    "MGMT 3001",
+    "MKTG 3001",
+    "SCO 3001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-FCioArWG": {
+   "codes": [
+    "IE 3521",
+    "IE 3011",
+    "IE 3522",
+    "IE 4011",
+    "IE 4551",
+    "IE 3553",
+    "IE 4511",
+    "IE 4541W",
+    "IE 4041W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-quJ5szRM": {
+   "codes": [
+    "IE 3013",
+    "IE 4894",
+    "IE 5012",
+    "IE 5080",
+    "IE 5111",
+    "IE 5113",
+    "IE 5285",
+    "IE 5441",
+    "IE 5524",
+    "IE 5531",
+    "IE 5533",
+    "IE 5545",
+    "IE 5561",
+    "IE 5571"
+   ],
+   "sourceRef": "program"
+  },
+  "set-XCCLGmgC": {
+   "codes": [
+    "ABUS 4515",
+    "ACCT 3001",
+    "AEM 3031",
+    "APEC 5721",
+    "BA 4503",
+    "BLAW 3062",
+    "CEGE 3201",
+    "CEGE 4211",
+    "CHEM 4501",
+    "CSCI 3041",
+    "CSCI 3081W",
+    "CSCI 4011",
+    "CSCI 4041",
+    "CSCI 4131",
+    "CSCI 4511W",
+    "CSCI 4707",
+    "CSCI 5115",
+    "CSCI 5521",
+    "CSCI 5523",
+    "CSCI 5541",
+    "CSE 4896",
+    "CSE 4996",
+    "UX 3131",
+    "DES 3141",
+    "ECON 3101",
+    "ECON 3102",
+    "EE 3005",
+    "EE 3006",
+    "EE 5373",
+    "EEB 3408W",
+    "ESPM 3011W",
+    "ESPM 3221",
+    "ESPM 3241W",
+    "ESPM 3245",
+    "ESPM 3261",
+    "ESPM 3271",
+    "ESPM 3601",
+    "ESPM 3602",
+    "ESPM 3603",
+    "ESPM 3604",
+    "ESPM 3605",
+    "ESPM 3607",
+    "ESPM 4061W",
+    "FINA 3001",
+    "FINA 4221",
+    "FINA 4621",
+    "HINF 5430",
+    "HINF 5510",
+    "HINF 5531",
+    "HSM 3521",
+    "HSM 4541",
+    "HSM 4561W",
+    "HSM 4575",
+    "IDSC 3001",
+    "IDSC 3001H",
+    "IDSC 3102",
+    "IDSC 3103",
+    "IDSC 3104",
+    "IDSC 3202",
+    "IDSC 4111",
+    "IDSC 4211",
+    "IDSC 4401",
+    "IDSC 4411",
+    "IE 3013",
+    "IE 4894",
+    "IE 5012",
+    "IE 5080",
+    "IE 5111",
+    "IE 5113",
+    "IE 5285",
+    "IE 5441",
+    "IE 5524",
+    "IE 5531",
+    "IE 5533",
+    "IE 5545",
+    "IE 5561",
+    "IE 5571",
+    "MATH 3283W",
+    "MATH 4242",
+    "MATH 4567",
+    "MATH 4603",
+    "MATH 4653",
+    "MATH 4707",
+    "MATH 5075",
+    "MATH 5248",
+    "MATH 5485",
+    "MATH 5651",
+    "MATS 3011",
+    "ME 3221",
+    "ME 3324",
+    "ME 3331",
+    "MGMT 3001",
+    "MGMT 3015",
+    "MGMT 3045",
+    "MGMT 4032",
+    "MGMT 4033",
+    "MGMT 4035",
+    "MGMT 4044",
+    "MGMT 4055",
+    "MGMT 4171W",
+    "MGMT 4172",
+    "MGMT 4173",
+    "MGMT 4175W",
+    "MGMT 5102",
+    "MKTG 3001",
+    "MKTG 3011",
+    "MM 3001W",
+    "MM 3305",
+    "MOT 4001",
+    "PA 5711",
+    "PA 5721",
+    "PA 5722",
+    "PA 5724",
+    "PDES 3704",
+    "PDES 3711",
+    "PDES 5704",
+    "PUBH 3351",
+    "PUBH 3801",
+    "PUBH 6542",
+    "PUBH 6717",
+    "SCO 3001",
+    "SCO 3045",
+    "SCO 3048",
+    "SCO 3051",
+    "SCO 3056",
+    "SCO 3072",
+    "SSM 3301",
+    "STAT 3022",
+    "STAT 3032",
+    "STAT 4101",
+    "STAT 4102",
+    "STAT 5101",
+    "STAT 5102",
+    "STAT 5302",
+    "STAT 5303",
+    "STAT 5401",
+    "STAT 5421",
+    "STAT 5511",
+    "WRIT 3562W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-vjTIwL69": {
+   "codes": [
+    "IE 3013",
+    "IE 4894",
+    "IE 5012",
+    "IE 5080",
+    "IE 5111",
+    "IE 5113",
+    "IE 5285",
+    "IE 5441",
+    "IE 5524",
+    "IE 5531",
+    "IE 5533",
+    "IE 5545",
+    "IE 5561",
+    "IE 5571",
+    "ABUS 4515",
+    "ACCT 3001",
+    "AEM 3031",
+    "APEC 5721",
+    "BA 4503",
+    "BLAW 3062",
+    "CEGE 3201",
+    "CEGE 4211",
+    "CHEM 4501",
+    "CSCI 3041",
+    "CSCI 3081W",
+    "CSCI 4011",
+    "CSCI 4041",
+    "CSCI 4131",
+    "CSCI 4511W",
+    "CSCI 4707",
+    "CSCI 5115",
+    "CSCI 5521",
+    "CSCI 5523",
+    "CSCI 5541",
+    "CSE 4896",
+    "CSE 4996",
+    "UX 3131",
+    "DES 3141",
+    "ECON 3101",
+    "ECON 3102",
+    "EE 3005",
+    "EE 3006",
+    "EE 5373",
+    "EEB 3408W",
+    "ESPM 3011W",
+    "ESPM 3221",
+    "ESPM 3241W",
+    "ESPM 3245",
+    "ESPM 3261",
+    "ESPM 3271",
+    "ESPM 3601",
+    "ESPM 3602",
+    "ESPM 3603",
+    "ESPM 3604",
+    "ESPM 3605",
+    "ESPM 3607",
+    "ESPM 4061W",
+    "FINA 3001",
+    "FINA 4221",
+    "FINA 4621",
+    "HINF 5430",
+    "HINF 5510",
+    "HINF 5531",
+    "HSM 3521",
+    "HSM 4541",
+    "HSM 4561W",
+    "HSM 4575",
+    "IDSC 3001",
+    "IDSC 3001H",
+    "IDSC 3102",
+    "IDSC 3103",
+    "IDSC 3104",
+    "IDSC 3202",
+    "IDSC 4111",
+    "IDSC 4211",
+    "IDSC 4401",
+    "IDSC 4411",
+    "MATH 3283W",
+    "MATH 4242",
+    "MATH 4567",
+    "MATH 4603",
+    "MATH 4653",
+    "MATH 4707",
+    "MATH 5075",
+    "MATH 5248",
+    "MATH 5485",
+    "MATH 5651",
+    "MATS 3011",
+    "ME 3221",
+    "ME 3324",
+    "ME 3331",
+    "MGMT 3001",
+    "MGMT 3015",
+    "MGMT 3045",
+    "MGMT 4032",
+    "MGMT 4033",
+    "MGMT 4035",
+    "MGMT 4044",
+    "MGMT 4055",
+    "MGMT 4171W",
+    "MGMT 4172",
+    "MGMT 4173",
+    "MGMT 4175W",
+    "MGMT 5102",
+    "MKTG 3001",
+    "MKTG 3011",
+    "MM 3001W",
+    "MM 3305",
+    "MOT 4001",
+    "PA 5711",
+    "PA 5721",
+    "PA 5722",
+    "PA 5724",
+    "PDES 3704",
+    "PDES 3711",
+    "PDES 5704",
+    "PUBH 3351",
+    "PUBH 3801",
+    "PUBH 6542",
+    "PUBH 6717",
+    "SCO 3001",
+    "SCO 3045",
+    "SCO 3048",
+    "SCO 3051",
+    "SCO 3056",
+    "SCO 3072",
+    "SSM 3301",
+    "STAT 3022",
+    "STAT 3032",
+    "STAT 4101",
+    "STAT 4102",
+    "STAT 5101",
+    "STAT 5102",
+    "STAT 5302",
+    "STAT 5303",
+    "STAT 5401",
+    "STAT 5421",
+    "STAT 5511",
+    "WRIT 3562W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-vkbSVBMq": {
+   "codes": [
+    "IE 4041W",
+    "IE 4541W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-BFotm4hh": {
+   "codes": [
+    "MATH 1371",
+    "MATH 1271",
+    "MATH 1571H",
+    "MATH 1471"
+   ],
+   "sourceRef": "program"
+  },
+  "set-MBtILuPK": {
+   "codes": [
+    "MATH 1372",
+    "MATH 1272",
+    "MATH 1572H",
+    "MATH 1472"
+   ],
+   "sourceRef": "program"
+  },
+  "set-NbrP1xRM": {
+   "codes": [
+    "MATH 2374",
+    "MATH 2263",
+    "MATH 2573H",
+    "MATH 2472",
+    "MATH 2473"
+   ],
+   "sourceRef": "program"
+  },
+  "set-kMVr9jFY": {
+   "codes": [
+    "MATH 2142",
+    "MATH 2373",
+    "MATH 2243",
+    "MATH 2574H",
+    "MATH 1473",
+    "MATH 2471"
+   ],
+   "sourceRef": "program"
+  },
+  "set-CTqdahdk": {
+   "codes": [
+    "CHEM 1071H",
+    "CHEM 1061",
+    "CHEM 1081",
+    "CHEM 1065"
+   ],
+   "sourceRef": "program"
+  },
+  "set-xw1LgGMH": {
+   "codes": [
+    "PHYS 1301W",
+    "PHYS 1401V",
+    "PHYS 1221"
+   ],
+   "sourceRef": "program"
+  },
+  "set-7df3b2xH": {
+   "codes": [
+    "PHYS 1302W",
+    "PHYS 1402V",
+    "PHYS 1222"
+   ],
+   "sourceRef": "program"
+  },
+  "set-vIjgPcmc": {
+   "codes": [
+    "IE 1101",
+    "IE 2021"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ABUS 4515": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategy and Management for a Sustainable Future",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "45 cr completed"
+    },
+    "sourceRef": "course-0165761"
+   },
+   "sourceRef": "course-0165761"
+  },
+  "ACCT 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategic Management Accounting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "ACCT 2051"
+      },
+      {
+       "type": "course",
+       "course_code": "ACCT 2051H"
+      },
+      {
+       "type": "course",
+       "course_code": "ACCT 2050"
+      }
+     ]
+    },
+    "sourceRef": "course-0131131"
+   },
+   "sourceRef": "course-0131131"
+  },
+  "AEM 3031": {
+   "catalogTerm": "Fall 2026",
+   "title": "Deformable Body Mechanics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[2011 or 2021 or [BMEN 3011, BMEN major]], [Math 2374 or equiv], [concurrent registration is required (or allowed) in Math 2373 or equiv], CSE"
+    },
+    "sourceRef": "course-0043401"
+   },
+   "sourceRef": "course-0043401"
+  },
+  "AGRO 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biology of Plant Food Systems",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0076881"
+   },
+   "sourceRef": "course-0076881"
+  },
+  "ANSC 3509": {
+   "catalogTerm": "Fall 2026",
+   "title": "Animal Biotechnology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7950111"
+   },
+   "sourceRef": "course-7950111"
+  },
+  "ANTH 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Evolution",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087111"
+   },
+   "sourceRef": "course-0087111"
+  },
+  "ANTH 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Human Evolution",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "honors"
+    },
+    "sourceRef": "course-0089901"
+   },
+   "sourceRef": "course-0089901"
+  },
+  "APEC 5721": {
+   "catalogTerm": "Fall 2026",
+   "title": "Economics of Science and Technology Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "APEC 3001 or ECON 3101 or instr consent"
+    },
+    "sourceRef": "course-0082371"
+   },
+   "sourceRef": "course-0082371"
+  },
+  "BA 4503": {
+   "catalogTerm": "Fall 2026",
+   "title": "Carlson Ventures Enterprise",
+   "minimumCredits": 2,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "approved application and BA 3062 Impact Lab in Action"
+    },
+    "sourceRef": "course-8005671"
+   },
+   "sourceRef": "course-8005671"
+  },
+  "BIOL 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Biology: Evolutionary and Ecological Perspectives",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054191"
+   },
+   "sourceRef": "course-0054191"
+  },
+  "BIOL 1001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Biology I: Evolutionary and Ecological Perspectives",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8031771"
+   },
+   "sourceRef": "course-8031771"
+  },
+  "BIOL 1003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Evolution and Biology of Sex",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8036291"
+   },
+   "sourceRef": "course-8036291"
+  },
+  "BIOL 1009": {
+   "catalogTerm": "Fall 2026",
+   "title": "General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054161"
+   },
+   "sourceRef": "course-0054161"
+  },
+  "BIOL 1009H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7908161"
+   },
+   "sourceRef": "course-7908161"
+  },
+  "BIOL 1012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Biology: Concepts and Current Ethical Issues",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8050431"
+   },
+   "sourceRef": "course-8050431"
+  },
+  "BIOL 1015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Physiology, Technology, and Medical Devices",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164401"
+   },
+   "sourceRef": "course-8164401"
+  },
+  "BIOL 1055": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Biology: Science and Solutions with Laboratory",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8099951"
+   },
+   "sourceRef": "course-8099951"
+  },
+  "BIOL 1951": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lecture I for Biological Sciences Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171961"
+   },
+   "sourceRef": "course-8171961"
+  },
+  "BIOL 1951H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lecture I for Biological Sciences Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171881"
+   },
+   "sourceRef": "course-8171881"
+  },
+  "BIOL 1961": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lab I for Biological Sciences Majors",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172001"
+   },
+   "sourceRef": "course-8172001"
+  },
+  "BLAW 3062": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contract Law and Corporate Regulation",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8198721"
+   },
+   "sourceRef": "course-8198721"
+  },
+  "BMEN 2501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cellular and Molecular Biology for Biomedical Engineers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE Student"
+    },
+    "sourceRef": "course-7892941"
+   },
+   "sourceRef": "course-7892941"
+  },
+  "CEGE 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transportation Engineering",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PHYS 1301 or equivalent, (CEGE 3101, CEGE 3102 can be taken concurrently)"
+    },
+    "sourceRef": "course-0033351"
+   },
+   "sourceRef": "course-0033351"
+  },
+  "CEGE 4211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Highway Design and Traffic Operations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CEGE 3201, CEGE 3102 or equivalent, upper division CSE or instructor consent"
+    },
+    "sourceRef": "course-7982981"
+   },
+   "sourceRef": "course-7982981"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "CHEM 1071H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8077581"
+   },
+   "sourceRef": "course-8077581"
+  },
+  "CHEM 1081": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8152521"
+   },
+   "sourceRef": "course-8152521"
+  },
+  "CHEM 4501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Thermodynamics, Kinetics, and Statistical Mechanics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1062/1066 or 1071H/1075H], [MATH 2263 or concurrent registration is required (or allowed) in MATH 2263 or MATH 2374 or concurrent registration is required (or allowed) in MATH 2374], [PHYS 1302 or PHYS 1402V or PHYS 1502V]"
+    },
+    "sourceRef": "course-0161861"
+   },
+   "sourceRef": "course-0161861"
+  },
+  "CI 1512": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nature in the City",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0078721"
+   },
+   "sourceRef": "course-0078721"
+  },
+  "CSCI 1133": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8096661"
+   },
+   "sourceRef": "course-8096661"
+  },
+  "CSCI 3041": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Discrete Structures and Algorithms",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "CSCI 2081"
+    },
+    "sourceRef": "course-8191471"
+   },
+   "sourceRef": "course-8191471"
+  },
+  "CSCI 3081W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Program Design and Development",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(CSci 2021, CSCI 2041, CSci upper div) or CSci grad or department consent"
+    },
+    "sourceRef": "course-7930761"
+   },
+   "sourceRef": "course-7930761"
+  },
+  "CSCI 4011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Formal Languages and Automata Theory",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2041"
+    },
+    "sourceRef": "course-0021891"
+   },
+   "sourceRef": "course-0021891"
+  },
+  "CSCI 4041": {
+   "catalogTerm": "Fall 2026",
+   "title": "Algorithms and Data Structures",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[(CSCI 1913 or CSCI 1933 or CSCI 1933H) and CSCI 2011] or Graduate Student Standing"
+    },
+    "sourceRef": "course-0036751"
+   },
+   "sourceRef": "course-0036751"
+  },
+  "CSCI 4131": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internet Programming",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[CSCI 1133 OR CSCI 1913] AND CSCI 4061. Cannot be taken for grad CSci cr."
+    },
+    "sourceRef": "course-7906541"
+   },
+   "sourceRef": "course-7906541"
+  },
+  "CSCI 4511W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Artificial Intelligence",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8039561"
+   },
+   "sourceRef": "course-8039561"
+  },
+  "CSCI 4707": {
+   "catalogTerm": "Fall 2026",
+   "title": "Practice of Database Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7906561"
+   },
+   "sourceRef": "course-7906561"
+  },
+  "CSCI 5115": {
+   "catalogTerm": "Fall 2026",
+   "title": "User Interface Evaluation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSci 4115 or UX 3131 or Graduate Standing"
+    },
+    "sourceRef": "course-0021901"
+   },
+   "sourceRef": "course-0021901"
+  },
+  "CSCI 5521": {
+   "catalogTerm": "Fall 2026",
+   "title": "Machine Learning Fundamentals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Update: (CSCI 2033 OR MATH 4242) AND (STAT 3021 OR EE 3025 OR IE 3521), OR Graduate Student Standing"
+    },
+    "sourceRef": "course-0140901"
+   },
+   "sourceRef": "course-0140901"
+  },
+  "CSCI 5523": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Data Mining",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4041 or equiv or instr consent"
+    },
+    "sourceRef": "course-7973471"
+   },
+   "sourceRef": "course-7973471"
+  },
+  "CSCI 5541": {
+   "catalogTerm": "Fall 2026",
+   "title": "Natural Language Processing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7973481"
+   },
+   "sourceRef": "course-7973481"
+  },
+  "CSE 4896": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cooperative Industrial Assignment I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8252421"
+   },
+   "sourceRef": "course-8252421"
+  },
+  "CSE 4996": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cooperative Industrial Assignment II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8254361"
+   },
+   "sourceRef": "course-8254361"
+  },
+  "DES 3141": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technology, Design, and Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8096121"
+   },
+   "sourceRef": "course-8096121"
+  },
+  "ECON 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099201"
+   },
+   "sourceRef": "course-0099201"
+  },
+  "ECON 3101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ECON 1101, 1102, and MATH 1271 or equivalent courses approved by the Economics Department."
+    },
+    "sourceRef": "course-0072591"
+   },
+   "sourceRef": "course-0072591"
+  },
+  "ECON 3102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Macroeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC1102), ECON 3101, MATH 1271 or equivalent courses approved by the Economics Department."
+    },
+    "sourceRef": "course-0072601"
+   },
+   "sourceRef": "course-0072601"
+  },
+  "EE 3005": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals of Electrical Engineering",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 2243, Phys 1302; not for EE majors"
+    },
+    "sourceRef": "course-0032261"
+   },
+   "sourceRef": "course-0032261"
+  },
+  "EE 3006": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals of Electrical Engineering Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Concurrent enrollment in 3005 is allowed but not required"
+    },
+    "sourceRef": "course-0032321"
+   },
+   "sourceRef": "course-0032321"
+  },
+  "EE 5373": {
+   "catalogTerm": "Fall 2026",
+   "title": "Data Modeling Using R",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172391"
+   },
+   "sourceRef": "course-8172391"
+  },
+  "EEB 3408W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ecology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8125911"
+   },
+   "sourceRef": "course-8125911"
+  },
+  "ENT 1005": {
+   "catalogTerm": "Fall 2026",
+   "title": "Insect Biology with Lab",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8062521"
+   },
+   "sourceRef": "course-8062521"
+  },
+  "ESCI 1003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dinosaurs and Our World",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0024331"
+   },
+   "sourceRef": "course-0024331"
+  },
+  "ESCI 1007": {
+   "catalogTerm": "Fall 2026",
+   "title": "From Microbes to Mammoths: History of Life on Earth",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7986661"
+   },
+   "sourceRef": "course-7986661"
+  },
+  "ESPM 3011W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ethics in Natural Resources",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093181"
+   },
+   "sourceRef": "course-0093181"
+  },
+  "ESPM 3221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Soil Conservation and Land-Use Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SOIL 2125 or instr consent"
+    },
+    "sourceRef": "course-0080041"
+   },
+   "sourceRef": "course-0080041"
+  },
+  "ESPM 3241W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Natural Resource and Environmental Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0082071"
+   },
+   "sourceRef": "course-0082071"
+  },
+  "ESPM 3245": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Land Use Planning and Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0067031"
+   },
+   "sourceRef": "course-0067031"
+  },
+  "ESPM 3261": {
+   "catalogTerm": "Fall 2026",
+   "title": "Economics and Natural Resources Management",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0053691"
+   },
+   "sourceRef": "course-0053691"
+  },
+  "ESPM 3271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Policy, Law, and Human Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7989321"
+   },
+   "sourceRef": "course-7989321"
+  },
+  "ESPM 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Housing--Community, Environment, and Technology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0161251"
+   },
+   "sourceRef": "course-0161251"
+  },
+  "ESPM 3602": {
+   "catalogTerm": "Fall 2026",
+   "title": "Regulations and Corporate Environmental Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "APEC 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 3261W"
+      }
+     ]
+    },
+    "sourceRef": "course-7975891"
+   },
+   "sourceRef": "course-7975891"
+  },
+  "ESPM 3603": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Life Cycle Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975901"
+   },
+   "sourceRef": "course-7975901"
+  },
+  "ESPM 3604": {
+   "catalogTerm": "Fall 2026",
+   "title": "Environmental Management Systems and Strategy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975911"
+   },
+   "sourceRef": "course-7975911"
+  },
+  "ESPM 3605": {
+   "catalogTerm": "Fall 2026",
+   "title": "Recycling: Extending Raw Materials",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7975921"
+   },
+   "sourceRef": "course-7975921"
+  },
+  "ESPM 3607": {
+   "catalogTerm": "Fall 2026",
+   "title": "Natural Resources Consumption and Sustainability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0125311"
+   },
+   "sourceRef": "course-0125311"
+  },
+  "ESPM 4061W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Water Quality and Natural Resources",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0129871"
+   },
+   "sourceRef": "course-0129871"
+  },
+  "FINA 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Finance Fundamentals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ACCT 2050 or ACCT 2051 or ACCT 2051H; SCO 2550 or BA 2551 or equivalent statistics course"
+    },
+    "sourceRef": "course-0131181"
+   },
+   "sourceRef": "course-0131181"
+  },
+  "FINA 4221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Corporate Finance",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "FINA 3001 or FINA 3001H; CSOM mjr or NONM or Management minor or Math/Actuarial Science major or Economics-Business Economics Emphasis major"
+    },
+    "sourceRef": "course-8025911"
+   },
+   "sourceRef": "course-8025911"
+  },
+  "FINA 4621": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Global Economy (Macro)",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001 or 3001H, CSOM major or Math major/Act Sci, or Management minor or Economics-Business Economics Emphasis major"
+    },
+    "sourceRef": "course-8026141"
+   },
+   "sourceRef": "course-8026141"
+  },
+  "GEOG 1403": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biogeography of the Global Garden",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0073961"
+   },
+   "sourceRef": "course-0073961"
+  },
+  "GEOG 1403H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Biogeography of the Global Garden",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-7886831"
+   },
+   "sourceRef": "course-7886831"
+  },
+  "HINF 5430": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Health Informatics I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Junior, senior, grad student, professional student, or instr consent"
+    },
+    "sourceRef": "course-0072271"
+   },
+   "sourceRef": "course-0072271"
+  },
+  "HINF 5510": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Health Care Databases: Database Principles and Data Evaluation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Junior or senior or grad student or professional student or instr consent"
+    },
+    "sourceRef": "course-8059451"
+   },
+   "sourceRef": "course-8059451"
+  },
+  "HINF 5531": {
+   "catalogTerm": "Fall 2026",
+   "title": "Health Data Analytics and Data Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Junior or senior or professional student or grad student or instr consent"
+    },
+    "sourceRef": "course-8107721"
+   },
+   "sourceRef": "course-8107721"
+  },
+  "HORT 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Plant Propagation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0078851"
+   },
+   "sourceRef": "course-0078851"
+  },
+  "HSM 3521": {
+   "catalogTerm": "Fall 2026",
+   "title": "Healthcare Delivery Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7954861"
+   },
+   "sourceRef": "course-7954861"
+  },
+  "HSM 4541": {
+   "catalogTerm": "Fall 2026",
+   "title": "Healthcare Management Finance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7963371"
+   },
+   "sourceRef": "course-7963371"
+  },
+  "HSM 4561W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Management of Healthcare Organizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7963381"
+   },
+   "sourceRef": "course-7963381"
+  },
+  "HSM 4575": {
+   "catalogTerm": "Fall 2026",
+   "title": "AI, Innovation, and Sustainability in Healthcare Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8180811"
+   },
+   "sourceRef": "course-8180811"
+  },
+  "IDSC 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Information Systems & Digital Transformation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131321"
+   },
+   "sourceRef": "course-0131321"
+  },
+  "IDSC 3001H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Information Systems for Business Processes and Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8035751"
+   },
+   "sourceRef": "course-8035751"
+  },
+  "IDSC 3102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Programming",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "IDSC 3101"
+      },
+      {
+       "type": "course",
+       "course_code": "CSCI 1133"
+      }
+     ]
+    },
+    "sourceRef": "course-8020071"
+   },
+   "sourceRef": "course-8020071"
+  },
+  "IDSC 3103": {
+   "catalogTerm": "Fall 2026",
+   "title": "Data Modeling and Databases",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8020081"
+   },
+   "sourceRef": "course-8020081"
+  },
+  "IDSC 3104": {
+   "catalogTerm": "Fall 2026",
+   "title": "Enterprise Systems",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8020091"
+   },
+   "sourceRef": "course-8020091"
+  },
+  "IDSC 3202": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis and Modeling of Business Systems",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0138551"
+   },
+   "sourceRef": "course-0138551"
+  },
+  "IDSC 4111": {
+   "catalogTerm": "Fall 2026",
+   "title": "Data Engineering for Business Analytics",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8167791"
+   },
+   "sourceRef": "course-8167791"
+  },
+  "IDSC 4211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interactive Data Visualization for Business Analytics",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8167801"
+   },
+   "sourceRef": "course-8167801"
+  },
+  "IDSC 4401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Information Security",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7983301"
+   },
+   "sourceRef": "course-7983301"
+  },
+  "IDSC 4411": {
+   "catalogTerm": "Fall 2026",
+   "title": "Accounting Information Systems & IT Governance",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8020111"
+   },
+   "sourceRef": "course-8020111"
+  },
+  "IE 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Industrial and Systems Engineering",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8081001"
+   },
+   "sourceRef": "course-8081001"
+  },
+  "IE 2021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Engineering Economics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[MATH 1372 or equiv], CSE student"
+    },
+    "sourceRef": "course-8081101"
+   },
+   "sourceRef": "course-8081101"
+  },
+  "IE 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Optimization Models and Methods",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MATH 2374, MATH 2142, or equivalent, Upper Division CSE"
+    },
+    "sourceRef": "course-8081011"
+   },
+   "sourceRef": "course-8081011"
+  },
+  "IE 3013": {
+   "catalogTerm": "Fall 2026",
+   "title": "Optimization for Machine Learning",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8194571"
+   },
+   "sourceRef": "course-8194571"
+  },
+  "IE 3521": {
+   "catalogTerm": "Fall 2026",
+   "title": "Statistics, Quality, and Reliability",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MATH 1372 or equiv"
+    },
+    "sourceRef": "course-0055321"
+   },
+   "sourceRef": "course-0055321"
+  },
+  "IE 3522": {
+   "catalogTerm": "Fall 2026",
+   "title": "Quality Engineering and Six Sigma",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MATH 2374, MATH 2142 or MATH 2373 or equivalent , 3521 or Stat 3021, CSE Upper Division"
+    },
+    "sourceRef": "course-8081111"
+   },
+   "sourceRef": "course-8081111"
+  },
+  "IE 3553": {
+   "catalogTerm": "Fall 2026",
+   "title": "Simulation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSCI 1133, IE 3521 or equivalent, CSE Upper Division"
+    },
+    "sourceRef": "course-8081121"
+   },
+   "sourceRef": "course-8081121"
+  },
+  "IE 4011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Stochastic Models",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MATH 2374, MATH 2142 or MATH 2373 or equivalent, 3521 or Stat 3021, CSE Upper Division"
+    },
+    "sourceRef": "course-8081031"
+   },
+   "sourceRef": "course-8081031"
+  },
+  "IE 4041W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "IE 1101, 2021, 3011, 3521, 3522, 3553, 4011, 4511, 4541W, 4551, ISyE senior"
+    },
+    "sourceRef": "course-8081041"
+   },
+   "sourceRef": "course-8081041"
+  },
+  "IE 4511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Factors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE Upper Division"
+    },
+    "sourceRef": "course-8081051"
+   },
+   "sourceRef": "course-8081051"
+  },
+  "IE 4541W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Project Management",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ISyE senior"
+    },
+    "sourceRef": "course-8081131"
+   },
+   "sourceRef": "course-8081131"
+  },
+  "IE 4551": {
+   "catalogTerm": "Fall 2026",
+   "title": "Production, Inventory, and Service Operations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MATH 2374, MATH 2142, or MATH 2373 or equivalent, 3521 or STAT 3021, CSE Upper Division"
+    },
+    "sourceRef": "course-8081151"
+   },
+   "sourceRef": "course-8081151"
+  },
+  "IE 4894": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Senior Honors Thesis",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8163021"
+   },
+   "sourceRef": "course-8163021"
+  },
+  "IE 5012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Discrete Optimization Methods and Applications",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(i) MATH 2374, MATH 2142 or MATH 2373 or equivalent, (ii) Upper Division CSE, (iii) CSCI 1133 or equivalent"
+    },
+    "sourceRef": "course-8081021"
+   },
+   "sourceRef": "course-8081021"
+  },
+  "IE 5080": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Industrial Engineering",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0110811"
+   },
+   "sourceRef": "course-0110811"
+  },
+  "IE 5111": {
+   "catalogTerm": "Fall 2026",
+   "title": "Systems Engineering I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE upper div or grad student"
+    },
+    "sourceRef": "course-7984611"
+   },
+   "sourceRef": "course-7984611"
+  },
+  "IE 5113": {
+   "catalogTerm": "Fall 2026",
+   "title": "Systems Engineering II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7984631"
+   },
+   "sourceRef": "course-7984631"
+  },
+  "IE 5285": {
+   "catalogTerm": "Fall 2026",
+   "title": "Engineering the Allocation of Public Resources",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262131"
+   },
+   "sourceRef": "course-8262131"
+  },
+  "IE 5441": {
+   "catalogTerm": "Fall 2026",
+   "title": "Financial Decision Making",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE upper div or grad student"
+    },
+    "sourceRef": "course-0073381"
+   },
+   "sourceRef": "course-0073381"
+  },
+  "IE 5524": {
+   "catalogTerm": "Fall 2026",
+   "title": "Process Transformation through Lean Tools",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8186841"
+   },
+   "sourceRef": "course-8186841"
+  },
+  "IE 5531": {
+   "catalogTerm": "Fall 2026",
+   "title": "Engineering Optimization I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Upper div or grad student or CNR"
+    },
+    "sourceRef": "course-0055331"
+   },
+   "sourceRef": "course-0055331"
+  },
+  "IE 5533": {
+   "catalogTerm": "Fall 2026",
+   "title": "Operations Research for Data Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8194611"
+   },
+   "sourceRef": "course-8194611"
+  },
+  "IE 5545": {
+   "catalogTerm": "Fall 2026",
+   "title": "Decision Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3521 or equiv"
+    },
+    "sourceRef": "course-7912981"
+   },
+   "sourceRef": "course-7912981"
+  },
+  "IE 5561": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analytics and Data-Driven Decision Making",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8175521"
+   },
+   "sourceRef": "course-8175521"
+  },
+  "IE 5571": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reinforcement Learning and Dynamic Programming",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Knowledge of multivariable calculus, linear algebra, and probability at the undergraduate level."
+    },
+    "sourceRef": "course-8257781"
+   },
+   "sourceRef": "course-8257781"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "MATH 1272": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1271 or equiv] with grade of at least C-"
+    },
+    "sourceRef": "course-0001211"
+   },
+   "sourceRef": "course-0001211"
+  },
+  "MATH 1371": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0036921"
+   },
+   "sourceRef": "course-0036921"
+  },
+  "MATH 1372": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in [1371 or equiv], CSE or pre-Bioprod/Biosys Engr"
+    },
+    "sourceRef": "course-0036931"
+   },
+   "sourceRef": "course-0036931"
+  },
+  "MATH 1471": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus I, First Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148561"
+   },
+   "sourceRef": "course-0148561"
+  },
+  "MATH 1472": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus I, Second Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148611"
+   },
+   "sourceRef": "course-0148611"
+  },
+  "MATH 1473": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus II, First Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7909141"
+   },
+   "sourceRef": "course-7909141"
+  },
+  "MATH 1571H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0036961"
+   },
+   "sourceRef": "course-0036961"
+  },
+  "MATH 1572H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1571H (or equivalent)  honors student"
+    },
+    "sourceRef": "course-0036971"
+   },
+   "sourceRef": "course-0036971"
+  },
+  "MATH 2142": {
+   "catalogTerm": "Fall 2026",
+   "title": "Elementary Linear Algebra",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7926551"
+   },
+   "sourceRef": "course-7926551"
+  },
+  "MATH 2243": {
+   "catalogTerm": "Fall 2026",
+   "title": "Linear Algebra and Differential Equations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-"
+    },
+    "sourceRef": "course-0002801"
+   },
+   "sourceRef": "course-0002801"
+  },
+  "MATH 2263": {
+   "catalogTerm": "Fall 2026",
+   "title": "Multivariable Calculus",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1372 or 1572] w/grade of at least C-"
+    },
+    "sourceRef": "course-0002821"
+   },
+   "sourceRef": "course-0002821"
+  },
+  "MATH 2373": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Linear Algebra and Differential Equations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bio Prod/Biosys Engr"
+    },
+    "sourceRef": "course-0036941"
+   },
+   "sourceRef": "course-0036941"
+  },
+  "MATH 2374": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Multivariable Calculus and Vector Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bioprod/Biosys Engr"
+    },
+    "sourceRef": "course-0036951"
+   },
+   "sourceRef": "course-0036951"
+  },
+  "MATH 2471": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus II, Second Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8064971"
+   },
+   "sourceRef": "course-8064971"
+  },
+  "MATH 2472": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus III, First Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7991841"
+   },
+   "sourceRef": "course-7991841"
+  },
+  "MATH 2473": {
+   "catalogTerm": "Fall 2026",
+   "title": "UM Talented Youth Mathematics Program--Calculus III, Second Semester",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0148631"
+   },
+   "sourceRef": "course-0148631"
+  },
+  "MATH 2573H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus III",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1572H (or equivalent), honors student"
+    },
+    "sourceRef": "course-0036981"
+   },
+   "sourceRef": "course-0036981"
+  },
+  "MATH 2574H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Linear Algebra and Differential Equations",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 1572H or Math 2573H, honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0043111"
+   },
+   "sourceRef": "course-0043111"
+  },
+  "MATH 3283W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sequences, Series, and Foundations: Writing Intensive",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[concurrent registration is required (or allowed) in 2243 or concurrent registration is required (or allowed) in 2263 or concurrent registration is required (or allowed) in 2373 or concurrent registration is required (or allowed) in 2374] w/grade of at least C-"
+    },
+    "sourceRef": "course-0163401"
+   },
+   "sourceRef": "course-0163401"
+  },
+  "MATH 4242": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Linear Algebra",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2243 or 2373 or 2573"
+    },
+    "sourceRef": "course-0107951"
+   },
+   "sourceRef": "course-0107951"
+  },
+  "MATH 4567": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Fourier Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2243 or 2373 or 2573"
+    },
+    "sourceRef": "course-0043041"
+   },
+   "sourceRef": "course-0043041"
+  },
+  "MATH 4603": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[2243 or 2373], [2263 or 2374]] or 2574 or instr consent"
+    },
+    "sourceRef": "course-8054361"
+   },
+   "sourceRef": "course-8054361"
+  },
+  "MATH 4653": {
+   "catalogTerm": "Fall 2026",
+   "title": "Elementary Probability",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[2263 or 2374 or 2573]; [2283 or 2574 or 3283] recommended"
+    },
+    "sourceRef": "course-7975791"
+   },
+   "sourceRef": "course-7975791"
+  },
+  "MATH 4707": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Combinatorics and Graph Theory",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2243, [2283 or 3283]"
+    },
+    "sourceRef": "course-7905871"
+   },
+   "sourceRef": "course-7905871"
+  },
+  "MATH 5075": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mathematics of Options, Futures, and Derivative Securities I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math 4653 or Math 5651 or Stat 4101 or Stat 5101 or instructor  consent."
+    },
+    "sourceRef": "course-0161131"
+   },
+   "sourceRef": "course-0161131"
+  },
+  "MATH 5248": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cryptology and Number Theory",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2 sems soph math"
+    },
+    "sourceRef": "course-0041961"
+   },
+   "sourceRef": "course-0041961"
+  },
+  "MATH 5485": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Numerical Methods I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[2243 or 2373 or 2573], familiarity with some programming language"
+    },
+    "sourceRef": "course-0043011"
+   },
+   "sourceRef": "course-0043011"
+  },
+  "MATH 5651": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic Theory of Probability and Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[2263 or 2374 or 2573], [2243 or 2373]; [2283 or 2574 or 3283] recommended."
+    },
+    "sourceRef": "course-0043081"
+   },
+   "sourceRef": "course-0043081"
+  },
+  "MATS 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Materials Science and Engineering",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CHEM 1061, CHEM 1065, [MATH 1272 or MATH 1372], PHYS 1302, CSE student"
+    },
+    "sourceRef": "course-0049901"
+   },
+   "sourceRef": "course-0049901"
+  },
+  "ME 3221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals of Design & Manufacturing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2011, AEM 3031, MatS 2001"
+    },
+    "sourceRef": "course-0048331"
+   },
+   "sourceRef": "course-0048331"
+  },
+  "ME 3324": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Thermal Science",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Chem 1061, Chem 1065, Math 2243 or Math 2373, Phys 1301, [CSE student]"
+    },
+    "sourceRef": "course-0050401"
+   },
+   "sourceRef": "course-0050401"
+  },
+  "ME 3331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Thermodynamics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE Student, Chem 1071 or  Chem 1071H or Chem 1061, Chem 1065, Phys 1301W"
+    },
+    "sourceRef": "course-7967041"
+   },
+   "sourceRef": "course-7967041"
+  },
+  "MGMT 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals of Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131331"
+   },
+   "sourceRef": "course-0131331"
+  },
+  "MGMT 3015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Entrepreneurship",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7948151"
+   },
+   "sourceRef": "course-7948151"
+  },
+  "MGMT 3045": {
+   "catalogTerm": "Fall 2026",
+   "title": "Understanding the International Environment of Firms: International Business",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MGMT 3001"
+      },
+      {
+       "type": "course",
+       "course_code": "MGMT 3004"
+      }
+     ]
+    },
+    "sourceRef": "course-0140031"
+   },
+   "sourceRef": "course-0140031"
+  },
+  "MGMT 4032": {
+   "catalogTerm": "Fall 2026",
+   "title": "Corporate Strategy",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MGMT 3001"
+      },
+      {
+       "type": "course",
+       "course_code": "MGMT 3004"
+      }
+     ]
+    },
+    "sourceRef": "course-8191961"
+   },
+   "sourceRef": "course-8191961"
+  },
+  "MGMT 4033": {
+   "catalogTerm": "Fall 2026",
+   "title": "Strategy Implementation",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MGMT 3004"
+      },
+      {
+       "type": "course",
+       "course_code": "MGMT 3001"
+      }
+     ]
+    },
+    "sourceRef": "course-8192021"
+   },
+   "sourceRef": "course-8192021"
+  },
+  "MGMT 4035": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mergers & Acquisitions Strategy",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "MGMT 4032"
+    },
+    "sourceRef": "course-8192051"
+   },
+   "sourceRef": "course-8192051"
+  },
+  "MGMT 4044": {
+   "catalogTerm": "Fall 2026",
+   "title": "Negotiation Strategies",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8024531"
+   },
+   "sourceRef": "course-8024531"
+  },
+  "MGMT 4055": {
+   "catalogTerm": "Fall 2026",
+   "title": "Managing Innovation and Change In Action",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MGMT 3001"
+      },
+      {
+       "type": "course",
+       "course_code": "MGMT 3004"
+      },
+      {
+       "type": "course",
+       "course_code": "MGMT 3010"
+      },
+      {
+       "type": "course",
+       "course_code": "MGMT 3015"
+      }
+     ]
+    },
+    "sourceRef": "course-0135351"
+   },
+   "sourceRef": "course-0135351"
+  },
+  "MGMT 4171W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Entrepreneurship in Action I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8025391"
+   },
+   "sourceRef": "course-8025391"
+  },
+  "MGMT 4172": {
+   "catalogTerm": "Fall 2026",
+   "title": "Entrepreneurship in Action II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4171"
+    },
+    "sourceRef": "course-8025401"
+   },
+   "sourceRef": "course-8025401"
+  },
+  "MGMT 4173": {
+   "catalogTerm": "Fall 2026",
+   "title": "New Venture Financing & Seed Stage Investing",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8203151"
+   },
+   "sourceRef": "course-8203151"
+  },
+  "MGMT 4175W": {
+   "catalogTerm": "Fall 2026",
+   "title": "New Business Feasibility and Planning",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MGMT 3010"
+      },
+      {
+       "type": "course",
+       "course_code": "MGMT 3015"
+      },
+      {
+       "type": "course",
+       "course_code": "IBUS 3010"
+      }
+     ]
+    },
+    "sourceRef": "course-8025971"
+   },
+   "sourceRef": "course-8025971"
+  },
+  "MGMT 5102": {
+   "catalogTerm": "Fall 2026",
+   "title": "StartUp: Customer Development and Testing",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Dept consent"
+    },
+    "sourceRef": "course-8168771"
+   },
+   "sourceRef": "course-8168771"
+  },
+  "MKTG 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "ECON 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 1165"
+      }
+     ]
+    },
+    "sourceRef": "course-0131271"
+   },
+   "sourceRef": "course-0131271"
+  },
+  "MKTG 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Marketing Research",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0137681"
+   },
+   "sourceRef": "course-0137681"
+  },
+  "MM 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Manufacturing in the Global Economy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8012071"
+   },
+   "sourceRef": "course-8012071"
+  },
+  "MM 3305": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced 3D Printing for Innovative Business Practices",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8114461"
+   },
+   "sourceRef": "course-8114461"
+  },
+  "MOT 4001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Leadership, Professionalism and Business Basics for Engineers",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8006881"
+   },
+   "sourceRef": "course-8006881"
+  },
+  "NSCI 2101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Neuroanatomy",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8080521"
+   },
+   "sourceRef": "course-8080521"
+  },
+  "PA 5711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Science, Technology & Environmental Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0093421"
+   },
+   "sourceRef": "course-0093421"
+  },
+  "PA 5721": {
+   "catalogTerm": "Fall 2026",
+   "title": "Energy Systems and Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0158611"
+   },
+   "sourceRef": "course-0158611"
+  },
+  "PA 5722": {
+   "catalogTerm": "Fall 2026",
+   "title": "Economics of Environmental Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0077251"
+   },
+   "sourceRef": "course-0077251"
+  },
+  "PA 5724": {
+   "catalogTerm": "Fall 2026",
+   "title": "Climate Change Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Intro microecon (such as Econ 1101 or equiv)"
+    },
+    "sourceRef": "course-8159411"
+   },
+   "sourceRef": "course-8159411"
+  },
+  "PDES 3704": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer-Aided Design 1: Solid Modeling and Rendering",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101131"
+   },
+   "sourceRef": "course-8101131"
+  },
+  "PDES 3711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Innovation Lab",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PDes 2772 OR Junior/Senior (any major) or permission from instructor"
+    },
+    "sourceRef": "course-8070001"
+   },
+   "sourceRef": "course-8070001"
+  },
+  "PDES 5704": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer-Aided Design Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101141"
+   },
+   "sourceRef": "course-8101141"
+  },
+  "PHYS 1221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Life Science Majors I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High School or College Calculus"
+    },
+    "sourceRef": "course-8179641"
+   },
+   "sourceRef": "course-8179641"
+  },
+  "PHYS 1222": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Life Science Majors II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PHYS 1221 or equivalent"
+    },
+    "sourceRef": "course-8179651"
+   },
+   "sourceRef": "course-8179651"
+  },
+  "PHYS 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Science and Engineering I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020701"
+   },
+   "sourceRef": "course-0020701"
+  },
+  "PHYS 1302W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Science and Engineering II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PHYS 1301 or equivalent, Prereq or Concurrent: MATH 1272/1372/1572H or equivalent"
+    },
+    "sourceRef": "course-0020711"
+   },
+   "sourceRef": "course-0020711"
+  },
+  "PHYS 1401V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Physics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors program or with permission, Prereq or Concurrent: MATH 1271/1371/1571H or equivalent"
+    },
+    "sourceRef": "course-0020731"
+   },
+   "sourceRef": "course-0020731"
+  },
+  "PHYS 1402V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Physics II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020741"
+   },
+   "sourceRef": "course-0020741"
+  },
+  "PLPA 1005": {
+   "catalogTerm": "Fall 2026",
+   "title": "Plants Get Sick Too",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7935291"
+   },
+   "sourceRef": "course-7935291"
+  },
+  "PUBH 3351": {
+   "catalogTerm": "Fall 2026",
+   "title": "Epidemiology: People, Places, and Disease",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergrad statistics course is recommended"
+    },
+    "sourceRef": "course-8069491"
+   },
+   "sourceRef": "course-8069491"
+  },
+  "PUBH 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Health Economics and Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Course on microeconomics, course on basic statistics"
+    },
+    "sourceRef": "course-7908351"
+   },
+   "sourceRef": "course-7908351"
+  },
+  "PUBH 6542": {
+   "catalogTerm": "Fall 2026",
+   "title": "Management of Health Care Organizations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MHA student or permission of instructor"
+    },
+    "sourceRef": "course-0141031"
+   },
+   "sourceRef": "course-0141031"
+  },
+  "PUBH 6717": {
+   "catalogTerm": "Fall 2026",
+   "title": "Decision Analysis for Health Care",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7904901"
+   },
+   "sourceRef": "course-7904901"
+  },
+  "SCO 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sustainable Supply Chain and Operations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131311"
+   },
+   "sourceRef": "course-0131311"
+  },
+  "SCO 3045": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sourcing and Supply Management",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001"
+    },
+    "sourceRef": "course-7966971"
+   },
+   "sourceRef": "course-7966971"
+  },
+  "SCO 3048": {
+   "catalogTerm": "Fall 2026",
+   "title": "Transportation and Logistics Management",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001"
+    },
+    "sourceRef": "course-8024621"
+   },
+   "sourceRef": "course-8024621"
+  },
+  "SCO 3051": {
+   "catalogTerm": "Fall 2026",
+   "title": "Service Management",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001"
+    },
+    "sourceRef": "course-8024541"
+   },
+   "sourceRef": "course-8024541"
+  },
+  "SCO 3056": {
+   "catalogTerm": "Fall 2026",
+   "title": "Supply Chain Planning and Control",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001 or instr consent"
+    },
+    "sourceRef": "course-0138091"
+   },
+   "sourceRef": "course-0138091"
+  },
+  "SCO 3072": {
+   "catalogTerm": "Fall 2026",
+   "title": "Managing Technologies in the Supply Chain",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3001"
+    },
+    "sourceRef": "course-8024561"
+   },
+   "sourceRef": "course-8024561"
+  },
+  "SSM 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Global Water Resource Use and Sustainability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8137051"
+   },
+   "sourceRef": "course-8137051"
+  },
+  "STAT 3022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3011"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3021"
+      },
+      {
+       "type": "course",
+       "course_code": "SOC 3811"
+      },
+      {
+       "type": "course",
+       "course_code": "BA 2551"
+      }
+     ]
+    },
+    "sourceRef": "course-0016211"
+   },
+   "sourceRef": "course-0016211"
+  },
+  "STAT 3032": {
+   "catalogTerm": "Fall 2026",
+   "title": "Regression and Correlated Data",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3011"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3021"
+      }
+     ]
+    },
+    "sourceRef": "course-8145241"
+   },
+   "sourceRef": "course-8145241"
+  },
+  "STAT 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory of Statistics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1272"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1372"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1472"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1572H"
+      }
+     ]
+    },
+    "sourceRef": "course-0064051"
+   },
+   "sourceRef": "course-0064051"
+  },
+  "STAT 4102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory of Statistics II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4101"
+    },
+    "sourceRef": "course-0064061"
+   },
+   "sourceRef": "course-0064061"
+  },
+  "STAT 5101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory of Statistics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(MATH 2263 or MATH 2374 or MATH 2573H) & (MATH 2142 or CSCI 2033 or MATH 2373 or MATH 2243), OR (STAT, PUBH, or Data Science Graduate Student)"
+    },
+    "sourceRef": "course-0064081"
+   },
+   "sourceRef": "course-0064081"
+  },
+  "STAT 5102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory of Statistics II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "5101 or Math 5651"
+    },
+    "sourceRef": "course-0064091"
+   },
+   "sourceRef": "course-0064091"
+  },
+  "STAT 5302": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Regression Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3032 or 3022 or 4102 or 5021 or 5102 or instr consent"
+    },
+    "sourceRef": "course-0034661"
+   },
+   "sourceRef": "course-0034661"
+  },
+  "STAT 5303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Designing Experiments",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3022 or 3032 or 3301 or 4102 or 5021 or 5102 or instr consent"
+    },
+    "sourceRef": "course-0034651"
+   },
+   "sourceRef": "course-0034651"
+  },
+  "STAT 5401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Multivariate Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0036641"
+   },
+   "sourceRef": "course-0036641"
+  },
+  "STAT 5421": {
+   "catalogTerm": "Fall 2026",
+   "title": "Analysis of Categorical Data",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3022"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3032"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3301"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 5302"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 4051"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 8051"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 5102"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 4102"
+      }
+     ]
+    },
+    "sourceRef": "course-0043671"
+   },
+   "sourceRef": "course-0043671"
+  },
+  "STAT 5511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Time Series Analysis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 4102"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 5102"
+      }
+     ]
+    },
+    "sourceRef": "course-8034561"
+   },
+   "sourceRef": "course-8034561"
+  },
+  "UX 3131": {
+   "catalogTerm": "Fall 2026",
+   "title": "User Experience Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8083881"
+   },
+   "sourceRef": "course-8083881"
+  },
+  "VBS 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Biotechnology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8091461"
+   },
+   "sourceRef": "course-8091461"
+  },
+  "WRIT 3562W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026681"
+   },
+   "sourceRef": "course-0026681"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-WH2SySSL",
+   "label": "Non-ISyE Required Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ZlZVv9MG",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-ZlZVv9MG-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-ZlZVv9MG-g1-1",
+        "type": "course",
+        "code": "CSCI 1133",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ZlZVv9MG-g2-1",
+        "type": "course",
+        "code": "ECON 1101",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-ZlZVv9MG-credits",
+      "type": "credits",
+      "minCredits": 8,
+      "courseSet": "set-ZlZVv9MG",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Non-ISyE Required Courses"
+   }
+  },
+  {
+   "id": "g-Us6f6ImY",
+   "label": "Linear Algebra or Multivariable Calculus",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ABTi0iUA",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-fT0kIbNc",
+      "type": "credits",
+      "courseSet": "set-fT0kIbNc",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Linear Algebra"
+     },
+     {
+      "id": "r-bsNUWaZD",
+      "type": "credits",
+      "courseSet": "set-bsNUWaZD",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Multivariable Calculus"
+     }
+    ],
+    "label": "Linear Algebra or Multivariable Calculus"
+   }
+  },
+  {
+   "id": "g-ocK6wEff",
+   "label": "Biological Sciences Requirement",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-JGD6yb1R",
+    "type": "credits",
+    "courseSet": "set-JGD6yb1R",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Biological Sciences Requirement"
+   }
+  },
+  {
+   "id": "g-XpO6s9TP",
+   "label": "Business Course Elective",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-kHhECzq5",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-kHhECzq5-credits",
+      "type": "credits",
+      "courseSet": "set-kHhECzq5",
+      "minCredits": 3,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-kHhECzq5-min",
+      "type": "count",
+      "courseSet": "set-kHhECzq5",
+      "minCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Business Course Elective"
+   }
+  },
+  {
+   "id": "g-tt2A1Nzm",
+   "label": "ISyE Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-FCioArWG",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-FCioArWG-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-FCioArWG-g1-1",
+        "type": "course",
+        "code": "IE 3521",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-FCioArWG-g2-1",
+        "type": "course",
+        "code": "IE 3011",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-FCioArWG-g3-1",
+        "type": "course",
+        "code": "IE 3522",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-FCioArWG-g4-1",
+        "type": "course",
+        "code": "IE 4011",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-FCioArWG-g5-1",
+        "type": "course",
+        "code": "IE 4551",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-FCioArWG-g6-1",
+        "type": "course",
+        "code": "IE 3553",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-FCioArWG-g7-1",
+        "type": "course",
+        "code": "IE 4511",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-FCioArWG-g8-1",
+        "type": "course",
+        "code": "IE 4541W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-FCioArWG-g9-1",
+        "type": "course",
+        "code": "IE 4041W",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-FCioArWG-credits",
+      "type": "credits",
+      "minCredits": 36,
+      "courseSet": "set-FCioArWG",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "ISyE Courses"
+   }
+  },
+  {
+   "id": "g-nHF78DLa",
+   "label": "IE and Technical Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-vjTIwL69",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-vjTIwL69-rules",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-quJ5szRM",
+        "type": "credits",
+        "courseSet": "set-quJ5szRM",
+        "minCredits": 8,
+        "sourceRef": "program",
+        "label": "IE Electives"
+       },
+       {
+        "id": "r-XCCLGmgC",
+        "type": "credits",
+        "courseSet": "set-XCCLGmgC",
+        "minCredits": 11,
+        "sourceRef": "program",
+        "label": "Technical Electives"
+       }
+      ]
+     },
+     {
+      "id": "r-vjTIwL69-credits",
+      "type": "credits",
+      "courseSet": "set-vjTIwL69",
+      "minCredits": 2,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "IE Electives"
+   }
+  },
+  {
+   "id": "g-RcGEmDJD",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-vkbSVBMq",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-vkbSVBMq-credits",
+      "type": "credits",
+      "courseSet": "set-vkbSVBMq",
+      "minCredits": 4,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-vkbSVBMq-max",
+      "type": "count",
+      "courseSet": "set-vkbSVBMq",
+      "maxCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-zkKghABH",
+   "label": "Mathematics",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-zkKghABH",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-BFotm4hh",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-BFotm4hh-credits",
+        "type": "credits",
+        "courseSet": "set-BFotm4hh",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-BFotm4hh-min",
+        "type": "count",
+        "courseSet": "set-BFotm4hh",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-BFotm4hh-max",
+        "type": "count",
+        "courseSet": "set-BFotm4hh",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Calculus I"
+     },
+     {
+      "id": "r-MBtILuPK",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-MBtILuPK-credits",
+        "type": "credits",
+        "courseSet": "set-MBtILuPK",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-MBtILuPK-min",
+        "type": "count",
+        "courseSet": "set-MBtILuPK",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-MBtILuPK-max",
+        "type": "count",
+        "courseSet": "set-MBtILuPK",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Calculus II"
+     },
+     {
+      "id": "r-haQpPQhW",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-NbrP1xRM",
+        "type": "credits",
+        "courseSet": "set-NbrP1xRM",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Multivariable Calculus"
+       },
+       {
+        "id": "r-kMVr9jFY",
+        "type": "credits",
+        "courseSet": "set-kMVr9jFY",
+        "minCredits": 4,
+        "sourceRef": "program",
+        "label": "Linear Algebra"
+       }
+      ],
+      "label": "Multivariable Calculus or Linear Algebra"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-uAmG9OeU",
+   "label": "Physical Sciences",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-uAmG9OeU",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-CTqdahdk",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-CTqdahdk-sequence",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-CTqdahdk-g1",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-CTqdahdk-g1-1",
+            "type": "course",
+            "code": "CHEM 1071H",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-CTqdahdk-g1-2",
+            "type": "course",
+            "code": "CHEM 1061",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-CTqdahdk-g1-3",
+            "type": "course",
+            "code": "CHEM 1081",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-CTqdahdk-g1-unresolved",
+            "type": "review",
+            "sourceRef": "program",
+            "message": "Some listed course options could not be resolved to current official course records. Verify this requirement with your advisor or APAS."
+           }
+          ]
+         },
+         {
+          "id": "r-CTqdahdk-g2-1",
+          "type": "course",
+          "code": "CHEM 1065",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-CTqdahdk-credits",
+        "type": "credits",
+        "minCredits": 4,
+        "courseSet": "set-CTqdahdk",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Chemistry I"
+     },
+     {
+      "id": "r-xw1LgGMH",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-xw1LgGMH-credits",
+        "type": "credits",
+        "courseSet": "set-xw1LgGMH",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-xw1LgGMH-min",
+        "type": "count",
+        "courseSet": "set-xw1LgGMH",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-xw1LgGMH-max",
+        "type": "count",
+        "courseSet": "set-xw1LgGMH",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Physics I"
+     },
+     {
+      "id": "r-7df3b2xH",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-7df3b2xH-credits",
+        "type": "credits",
+        "courseSet": "set-7df3b2xH",
+        "minCredits": 4,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-7df3b2xH-min",
+        "type": "count",
+        "courseSet": "set-7df3b2xH",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-7df3b2xH-max",
+        "type": "count",
+        "courseSet": "set-7df3b2xH",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Physics II"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-CkuJ2A3S",
+   "label": "Introductory ISyE Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-vIjgPcmc",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-vIjgPcmc-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-vIjgPcmc-g1-1",
+        "type": "course",
+        "code": "IE 1101",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-vIjgPcmc-g2-1",
+        "type": "course",
+        "code": "IE 2021",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-vIjgPcmc-credits",
+      "type": "credits",
+      "minCredits": 8,
+      "courseSet": "set-vIjgPcmc",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Introductory ISyE Courses"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University's\u00a0 Liberal Education requirements .\nAll freshmen in the College of Science and Engineering must complete CSE 1001: First-Year Experience.\nAt least 29 upper division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nView\u00a0 Four-year Plans \u00a0for the College of Science and Engineering. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Integrated B.ISyE/MSDSOR. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

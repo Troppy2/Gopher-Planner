@@ -1,0 +1,2420 @@
+{
+ "schemaVersion": 2,
+ "id": "religious-studies-ba",
+ "name": "Religious Studies B.A.",
+ "officialName": "Religious Studies B.A.",
+ "officialProgramId": "083420217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Religious Studies B.A., revision 083420217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/083420217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/083420217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 083420217-2026-09-08"
+  },
+  "course-0107341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0107341",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 1001, version 0107341-2024-09-03"
+  },
+  "course-8021311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021311",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 1002, version 8021311-2024-09-03"
+  },
+  "course-7971441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971441",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 1034, version 7971441-2024-09-03"
+  },
+  "course-8115151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115151",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1534, version 8115151-2021-05-17"
+  },
+  "course-0105551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0105551",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 1034, version 0105551-2025-01-21"
+  },
+  "course-7971041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971041",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 1082, version 7971041-2024-09-03"
+  },
+  "course-0091061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091061",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 1082, version 0091061-2023-09-05"
+  },
+  "course-8021721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021721",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 1201, version 8021721-2024-09-03"
+  },
+  "course-7971571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971571",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 1201, version 7971571-2022-09-06"
+  },
+  "course-7976841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976841",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 1201, version 7976841-2022-09-06"
+  },
+  "course-8262321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262321",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 1205, version 8262321-2024-09-03"
+  },
+  "course-8261311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8261311",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 1205, version 8261311-2023-01-17"
+  },
+  "course-8262311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262311",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 1205, version 8262311-2023-01-17"
+  },
+  "course-8021271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021271",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3001W, version 8021271-2024-09-03"
+  },
+  "course-7977281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977281",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 5001, version 7977281-2024-09-03"
+  },
+  "course-8203431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8203431",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3833, version 8203431-2022-01-18"
+  },
+  "course-8019961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8019961",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3546, version 8019961-2021-05-17"
+  },
+  "course-0034711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034711",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3623W, version 0034711-2026-09-08"
+  },
+  "course-0163861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0163861",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3013W, version 0163861-2024-09-03"
+  },
+  "course-8197011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197011",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3016W, version 8197011-2025-01-21"
+  },
+  "course-0165131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165131",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3013W, version 0165131-2025-01-21"
+  },
+  "course-0163871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0163871",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 5013W, version 0163871-2024-09-03"
+  },
+  "course-8197021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197021",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 5016W, version 8197021-2025-01-21"
+  },
+  "course-0165141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165141",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 5013W, version 0165141-2025-01-21"
+  },
+  "course-7971431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971431",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3034, version 7971431-2024-09-03"
+  },
+  "course-8115161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115161",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3534, version 8115161-2021-05-17"
+  },
+  "course-7971451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971451",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3034, version 7971451-2025-01-21"
+  },
+  "course-7900241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7900241",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3070, version 7900241-2024-09-03"
+  },
+  "course-7971231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971231",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3071, version 7971231-2024-09-03"
+  },
+  "course-0099221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099221",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3071, version 0099221-2022-01-18"
+  },
+  "course-7979801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7979801",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 5071, version 7979801-2024-09-03"
+  },
+  "course-0162561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0162561",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 5071, version 0162561-2022-01-18"
+  },
+  "course-8170001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8170001",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3092, version 8170001-2024-09-03"
+  },
+  "course-8169981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169981",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3092, version 8169981-2023-09-05"
+  },
+  "course-8175581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8175581",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3092, version 8175581-2023-09-05"
+  },
+  "course-8169821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169821",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3182, version 8169821-2024-09-03"
+  },
+  "course-8065201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8065201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3182, version 8065201-2025-01-21"
+  },
+  "course-8067071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8067071",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3182, version 8067071-2022-01-18"
+  },
+  "course-0108521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0108521",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3201, version 0108521-2024-09-03"
+  },
+  "course-7971561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971561",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3201, version 7971561-2022-09-06"
+  },
+  "course-7976851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976851",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3201, version 7976851-2022-09-06"
+  },
+  "course-8115781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115781",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3205, version 8115781-2024-09-03"
+  },
+  "course-8115761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115761",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3205, version 8115761-2022-01-18"
+  },
+  "course-8115771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115771",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3205, version 8115771-2015-01-20"
+  },
+  "course-8029251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029251",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3321, version 8029251-2024-09-03"
+  },
+  "course-0098131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0098131",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3301, version 0098131-2017-05-22"
+  },
+  "course-7999201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7999201",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3371, version 7999201-2024-09-03"
+  },
+  "course-0085581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085581",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3672, version 0085581-2024-09-03"
+  },
+  "course-8013811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013811",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3373, version 8013811-2024-09-03"
+  },
+  "course-7972831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7972831",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3373, version 7972831-2024-09-03"
+  },
+  "course-8013431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8013431",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3466, version 8013431-2021-05-17"
+  },
+  "course-8187141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187141",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3374, version 8187141-2024-09-03"
+  },
+  "course-8186991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8186991",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3471, version 8186991-2022-01-18"
+  },
+  "course-8017341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017341",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3377, version 8017341-2024-09-03"
+  },
+  "course-8016831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016831",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3377, version 8016831-2024-09-03"
+  },
+  "course-7907941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7907941",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3502W, version 7907941-2026-01-20"
+  },
+  "course-0108011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0108011",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3502W, version 0108011-2026-01-20"
+  },
+  "course-7907931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7907931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3502W, version 7907931-2026-01-20"
+  },
+  "course-8063011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8063011",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3502W, version 8063011-2026-01-20"
+  },
+  "course-7889321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889321",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 5502W, version 7889321-2026-01-20"
+  },
+  "course-0104841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104841",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3504, version 0104841-2024-09-03"
+  },
+  "course-8056101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8056101",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3520, version 8056101-2024-09-03"
+  },
+  "course-8055351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8055351",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3727, version 8055351-2021-05-17"
+  },
+  "course-8056091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8056091",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3520, version 8056091-2025-01-21"
+  },
+  "course-7987861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7987861",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3535, version 7987861-2024-09-03"
+  },
+  "course-7987881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7987881",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3535, version 7987881-2022-01-18"
+  },
+  "course-8140081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8140081",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3543, version 8140081-2026-09-08"
+  },
+  "course-8173941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173941",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3617, version 8173941-2026-09-08"
+  },
+  "course-8132181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8132181",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3617, version 8132181-2026-09-08"
+  },
+  "course-8140021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8140021",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3617, version 8140021-2026-09-08"
+  },
+  "course-8150311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8150311",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3544W, version 8150311-2024-09-03"
+  },
+  "course-8139461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8139461",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3081W, version 8139461-2021-05-17"
+  },
+  "course-8168461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168461",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3545W, version 8168461-2024-09-03"
+  },
+  "course-8162981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162981",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3082W, version 8162981-2023-01-17"
+  },
+  "course-8187601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187601",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3609, version 8187601-2026-09-08"
+  },
+  "course-0099391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099391",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3009, version 0099391-2026-09-08"
+  },
+  "course-8136391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8136391",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3009, version 8136391-2026-09-08"
+  },
+  "course-8029331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029331",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3611, version 8029331-2024-09-03"
+  },
+  "course-0102041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102041",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3767, version 0102041-2021-05-17"
+  },
+  "course-8163051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163051",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3624, version 8163051-2024-09-03"
+  },
+  "course-8153261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8153261",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3309, version 8153261-2021-09-07"
+  },
+  "course-8154311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8154311",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3625, version 8154311-2024-09-03"
+  },
+  "course-8143701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8143701",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3285, version 8143701-2022-09-06"
+  },
+  "course-8189421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189421",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3631, version 8189421-2024-09-03"
+  },
+  "course-8189801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189801",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3631, version 8189801-2019-09-03"
+  },
+  "course-7999191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7999191",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3671, version 7999191-2026-01-20"
+  },
+  "course-0085571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085571",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3671, version 0085571-2025-09-02"
+  },
+  "course-8021281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021281",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3679, version 8021281-2024-09-03"
+  },
+  "course-8005851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8005851",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3679, version 8005851-2024-09-03"
+  },
+  "course-8182771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8182771",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3704, version 8182771-2025-09-02"
+  },
+  "course-8169671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169671",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3706W, version 8169671-2024-09-03"
+  },
+  "course-8027001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8027001",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3711, version 8027001-2024-09-03"
+  },
+  "course-7898951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7898951",
+   "retrieved": "2026-11-23",
+   "section": "Course record GEOG 3145, version 7898951-2024-09-03"
+  },
+  "course-7922601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922601",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3712W, version 7922601-2026-01-20"
+  },
+  "course-7902831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7902831",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3549W, version 7902831-2026-01-20"
+  },
+  "course-8099931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099931",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3871W, version 8099931-2025-09-02"
+  },
+  "course-8071531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8071531",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3716, version 8071531-2024-09-03"
+  },
+  "course-8071521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8071521",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3681, version 8071521-2025-01-21"
+  },
+  "course-8069541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069541",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3681, version 8069541-2025-01-21"
+  },
+  "course-8036221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8036221",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3681, version 8036221-2021-05-17"
+  },
+  "course-8151071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8151071",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3721, version 8151071-2024-09-03"
+  },
+  "course-8109241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8109241",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3513, version 8109241-2021-05-17"
+  },
+  "course-8151051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8151051",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5513, version 8151051-2021-05-17"
+  },
+  "course-8176971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176971",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3722, version 8176971-2024-09-03"
+  },
+  "course-7922611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922611",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3547, version 7922611-2021-05-17"
+  },
+  "course-8269121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8269121",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3773, version 8269121-2025-09-02"
+  },
+  "course-8266741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8266741",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3873, version 8266741-2025-09-02"
+  },
+  "course-8021291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021291",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 4309, version 8021291-2024-09-03"
+  },
+  "course-7977711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977711",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4309, version 7977711-2021-05-17"
+  },
+  "course-8099991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099991",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4309H, version 8099991-2021-05-17"
+  },
+  "course-8256611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256611",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 4993, version 8256611-2024-09-03"
+  },
+  "course-7914771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7914771",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3021W, version 7914771-2023-09-05"
+  },
+  "course-8017071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5021W, version 8017071-2023-09-05"
+  },
+  "course-8029261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8029261",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3415W, version 8029261-2024-09-03"
+  },
+  "course-0027671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0027671",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTH 3014W, version 0027671-2022-09-06"
+  },
+  "course-8176951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176951",
+   "retrieved": "2026-11-23",
+   "section": "Course record MEST 3081W, version 8176951-2025-01-21"
+  },
+  "course-8173331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173331",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3626W, version 8173331-2024-09-03"
+  },
+  "course-8181831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181831",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3626W, version 8181831-2025-01-21"
+  }
+ },
+ "courseSets": {
+  "set-4V0rPNnT": {
+   "codes": [
+    "RELS 1001",
+    "RELS 1002",
+    "RELS 1034",
+    "HIST 1534",
+    "JWST 1034",
+    "RELS 1082",
+    "CNRC 1082",
+    "RELS 1201",
+    "CNRC 1201",
+    "JWST 1201",
+    "RELS 1205",
+    "CNRC 1205",
+    "JWST 1205"
+   ],
+   "sourceRef": "program"
+  },
+  "set-dBhTwBi7": {
+   "codes": [
+    "RELS 3001W",
+    "RELS 5001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-9uSBX6RC": {
+   "codes": [
+    "AMES 3833",
+    "HIST 3546",
+    "HIST 3623W",
+    "RELS 3013W",
+    "CNRC 3016W",
+    "JWST 3013W",
+    "RELS 5013W",
+    "CNRC 5016W",
+    "JWST 5013W",
+    "RELS 3034",
+    "HIST 3534",
+    "JWST 3034",
+    "RELS 3070",
+    "RELS 3071",
+    "CNRC 3071",
+    "RELS 5071",
+    "CNRC 5071",
+    "RELS 3092",
+    "CNRC 3092",
+    "HIST 3092",
+    "RELS 3182",
+    "ARTH 3182",
+    "CNRC 3182",
+    "RELS 3201",
+    "CNRC 3201",
+    "JWST 3201",
+    "RELS 3205",
+    "CNRC 3205",
+    "JWST 3205",
+    "RELS 3321",
+    "AMIN 3301",
+    "RELS 3371",
+    "AMES 3672",
+    "RELS 3373",
+    "AMES 3373",
+    "HIST 3466",
+    "RELS 3374",
+    "AMES 3471",
+    "RELS 3377",
+    "AMES 3377",
+    "RELS 3502W",
+    "CNRC 3502W",
+    "HIST 3502W",
+    "JWST 3502W",
+    "CNRC 5502W",
+    "RELS 3504",
+    "RELS 3520",
+    "HIST 3727",
+    "JWST 3520",
+    "RELS 3535",
+    "CNRC 3535",
+    "RELS 3543",
+    "CNRC 3617",
+    "HIST 3617",
+    "MEST 3617",
+    "RELS 3544W",
+    "HIST 3081W",
+    "RELS 3545W",
+    "HIST 3082W",
+    "RELS 3609",
+    "ARTH 3009",
+    "MEST 3009",
+    "RELS 3611",
+    "HIST 3767",
+    "RELS 3624",
+    "SOC 3309",
+    "RELS 3625",
+    "HIST 3285",
+    "RELS 3631",
+    "ANTH 3631",
+    "RELS 3671",
+    "AMES 3671",
+    "RELS 3679",
+    "AMES 3679",
+    "RELS 3704",
+    "RELS 3706W",
+    "RELS 3711",
+    "GEOG 3145",
+    "RELS 3712W",
+    "HIST 3549W",
+    "AMES 3871W",
+    "RELS 3716",
+    "GLOS 3681",
+    "GWSS 3681",
+    "SOC 3681",
+    "RELS 3721",
+    "HIST 3513",
+    "HIST 5513",
+    "RELS 3722",
+    "HIST 3547",
+    "RELS 3773",
+    "AMES 3873",
+    "RELS 4309",
+    "SOC 4309",
+    "SOC 4309H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-7Lwlwj21": {
+   "codes": [
+    "RELS 4993"
+   ],
+   "sourceRef": "program"
+  },
+  "set-R04BAGEJ": {
+   "codes": [
+    "RELS 4993"
+   ],
+   "sourceRef": "program"
+  },
+  "set-416788": {
+   "codes": [
+    "ANTH 3021W",
+    "ANTH 5021W",
+    "RELS 3001W",
+    "RELS 3013W",
+    "RELS 5013W",
+    "JWST 5013W",
+    "RELS 3415W",
+    "ARTH 3014W",
+    "RELS 3544W",
+    "HIST 3081W",
+    "MEST 3081W",
+    "RELS 3626W",
+    "GWSS 3626W",
+    "RELS 3706W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AMES 3373": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion and Society in Imperial China",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7972831"
+   },
+   "sourceRef": "course-7972831"
+  },
+  "AMES 3377": {
+   "catalogTerm": "Fall 2026",
+   "title": "A Thousand Years of Buddhism in China: Beliefs, Practices, and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8016831"
+   },
+   "sourceRef": "course-8016831"
+  },
+  "AMES 3471": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Japanese Religions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8186991"
+   },
+   "sourceRef": "course-8186991"
+  },
+  "AMES 3671": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hinduism and the Making of Modern India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0085571"
+   },
+   "sourceRef": "course-0085571"
+  },
+  "AMES 3672": {
+   "catalogTerm": "Fall 2026",
+   "title": "Buddhism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0085581"
+   },
+   "sourceRef": "course-0085581"
+  },
+  "AMES 3679": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion and Society in Modern South Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8005851"
+   },
+   "sourceRef": "course-8005851"
+  },
+  "AMES 3833": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jinn, Ghosts, and Demons in Arabic Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8203431"
+   },
+   "sourceRef": "course-8203431"
+  },
+  "AMES 3871W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islam: Religion and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8099931"
+   },
+   "sourceRef": "course-8099931"
+  },
+  "AMES 3873": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islamic Mysticism: From Divine Love to Anti-Colonial Resistance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8266741"
+   },
+   "sourceRef": "course-8266741"
+  },
+  "AMIN 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Philosophies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0098131"
+   },
+   "sourceRef": "course-0098131"
+  },
+  "ANTH 3021W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anthropology of the Middle East",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7914771"
+   },
+   "sourceRef": "course-7914771"
+  },
+  "ANTH 3631": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islam in America: A History of the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8189801"
+   },
+   "sourceRef": "course-8189801"
+  },
+  "ANTH 5021W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anthropology of the Middle East",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8017071"
+   },
+   "sourceRef": "course-8017071"
+  },
+  "ARTH 3009": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Art from Below",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099391"
+   },
+   "sourceRef": "course-0099391"
+  },
+  "ARTH 3014W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art of India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0027671"
+   },
+   "sourceRef": "course-0027671"
+  },
+  "ARTH 3182": {
+   "catalogTerm": "Fall 2026",
+   "title": "Egypt and Western Asia: Art and Archaeology of Ancient Egypt and Western Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8065201"
+   },
+   "sourceRef": "course-8065201"
+  },
+  "CNRC 1082": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jesus in History, Art & Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0091061"
+   },
+   "sourceRef": "course-0091061"
+  },
+  "CNRC 1201": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible: Context and Interpretation, World of the Hebrew Bible.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Knowledge of Hebrew not required"
+    },
+    "sourceRef": "course-7971571"
+   },
+   "sourceRef": "course-7971571"
+  },
+  "CNRC 1205": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible and Film: The Holy Book Meets the Silver Screen",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8261311"
+   },
+   "sourceRef": "course-8261311"
+  },
+  "CNRC 3016W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197011"
+   },
+   "sourceRef": "course-8197011"
+  },
+  "CNRC 3071": {
+   "catalogTerm": "Fall 2026",
+   "title": "Greek and Hellenistic Religions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099221"
+   },
+   "sourceRef": "course-0099221"
+  },
+  "CNRC 3092": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jesus in History, Art & Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8169981"
+   },
+   "sourceRef": "course-8169981"
+  },
+  "CNRC 3182": {
+   "catalogTerm": "Fall 2026",
+   "title": "Egypt and Western Asia: Art and Archaeology of Ancient Egypt and Western Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8067071"
+   },
+   "sourceRef": "course-8067071"
+  },
+  "CNRC 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible: Context and Interpretation, World of the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Knowledge of Hebrew not required"
+    },
+    "sourceRef": "course-7971561"
+   },
+   "sourceRef": "course-7971561"
+  },
+  "CNRC 3205": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women, Gender, and the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115761"
+   },
+   "sourceRef": "course-8115761"
+  },
+  "CNRC 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0108011"
+   },
+   "sourceRef": "course-0108011"
+  },
+  "CNRC 3535": {
+   "catalogTerm": "Fall 2026",
+   "title": "Death and the Afterlife in the Ancient World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7987881"
+   },
+   "sourceRef": "course-7987881"
+  },
+  "CNRC 3617": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pagans, Christians, Barbarians: The World of Late Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173941"
+   },
+   "sourceRef": "course-8173941"
+  },
+  "CNRC 5016W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197021"
+   },
+   "sourceRef": "course-8197021"
+  },
+  "CNRC 5071": {
+   "catalogTerm": "Fall 2026",
+   "title": "Greek and Hellenistic Religions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0162561"
+   },
+   "sourceRef": "course-0162561"
+  },
+  "CNRC 5502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889321"
+   },
+   "sourceRef": "course-7889321"
+  },
+  "GEOG 3145": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Islamic World: A Global Introduction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7898951"
+   },
+   "sourceRef": "course-7898951"
+  },
+  "GLOS 3681": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender and the Family in the Islamic World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least soph; 1001 recommended"
+    },
+    "sourceRef": "course-8071521"
+   },
+   "sourceRef": "course-8071521"
+  },
+  "GWSS 3626W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Witches, Seers and Saints: Women, Gender and Religion in the US",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181831"
+   },
+   "sourceRef": "course-8181831"
+  },
+  "GWSS 3681": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender and the Family in the Islamic World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least soph; 1001 recommended"
+    },
+    "sourceRef": "course-8069541"
+   },
+   "sourceRef": "course-8069541"
+  },
+  "HIST 1534": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115151"
+   },
+   "sourceRef": "course-8115151"
+  },
+  "HIST 3081W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Martyrs, Monks, Crusaders: World Christianity, 100-1400",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8139461"
+   },
+   "sourceRef": "course-8139461"
+  },
+  "HIST 3082W": {
+   "catalogTerm": "Fall 2026",
+   "title": "World Christianity, 1300-1800 Reformers, Radicals and Revolutionaries",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162981"
+   },
+   "sourceRef": "course-8162981"
+  },
+  "HIST 3092": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jesus in History, Art & Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8175581"
+   },
+   "sourceRef": "course-8175581"
+  },
+  "HIST 3285": {
+   "catalogTerm": "Fall 2026",
+   "title": "Magic and Medicine",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8143701"
+   },
+   "sourceRef": "course-8143701"
+  },
+  "HIST 3466": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion and Society in Imperial China",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8013431"
+   },
+   "sourceRef": "course-8013431"
+  },
+  "HIST 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7907931"
+   },
+   "sourceRef": "course-7907931"
+  },
+  "HIST 3513": {
+   "catalogTerm": "Fall 2026",
+   "title": "North Africa since 1500:  Islam, Colonialism, and Independence",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8109241"
+   },
+   "sourceRef": "course-8109241"
+  },
+  "HIST 3534": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115161"
+   },
+   "sourceRef": "course-8115161"
+  },
+  "HIST 3546": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islam and the West",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8019961"
+   },
+   "sourceRef": "course-8019961"
+  },
+  "HIST 3547": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Ottoman Empire",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922611"
+   },
+   "sourceRef": "course-7922611"
+  },
+  "HIST 3549W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islam: Religion and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7902831"
+   },
+   "sourceRef": "course-7902831"
+  },
+  "HIST 3617": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pagans, Christians, Barbarians: The World of Late Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8132181"
+   },
+   "sourceRef": "course-8132181"
+  },
+  "HIST 3623W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reformation World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0034711"
+   },
+   "sourceRef": "course-0034711"
+  },
+  "HIST 3727": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the Holocaust",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8055351"
+   },
+   "sourceRef": "course-8055351"
+  },
+  "HIST 3767": {
+   "catalogTerm": "Fall 2026",
+   "title": "Eastern Orthodoxy: History and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0102041"
+   },
+   "sourceRef": "course-0102041"
+  },
+  "HIST 5513": {
+   "catalogTerm": "Fall 2026",
+   "title": "North Africa since 1500: Islam, Colonialism, and Independence",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8151051"
+   },
+   "sourceRef": "course-8151051"
+  },
+  "JWST 1034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0105551"
+   },
+   "sourceRef": "course-0105551"
+  },
+  "JWST 1201": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible: Context and Interpretation, World of the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Knowledge of Hebrew not required"
+    },
+    "sourceRef": "course-7976841"
+   },
+   "sourceRef": "course-7976841"
+  },
+  "JWST 1205": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible and Film: The Holy Book Meets the Silver Screen",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262311"
+   },
+   "sourceRef": "course-8262311"
+  },
+  "JWST 3013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0165131"
+   },
+   "sourceRef": "course-0165131"
+  },
+  "JWST 3034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971451"
+   },
+   "sourceRef": "course-7971451"
+  },
+  "JWST 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible: Context and Interpretation, World of the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Knowledge of Hebrew not required"
+    },
+    "sourceRef": "course-7976851"
+   },
+   "sourceRef": "course-7976851"
+  },
+  "JWST 3205": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women, Gender, and the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115771"
+   },
+   "sourceRef": "course-8115771"
+  },
+  "JWST 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8063011"
+   },
+   "sourceRef": "course-8063011"
+  },
+  "JWST 3520": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the Holocaust",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8056091"
+   },
+   "sourceRef": "course-8056091"
+  },
+  "JWST 5013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0165141"
+   },
+   "sourceRef": "course-0165141"
+  },
+  "MEST 3009": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Art from Below",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8136391"
+   },
+   "sourceRef": "course-8136391"
+  },
+  "MEST 3081W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Martyrs, Monks, Crusaders: World Christianity, 100-1400",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176951"
+   },
+   "sourceRef": "course-8176951"
+  },
+  "MEST 3617": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pagans, Christians, Barbarians: The World of Late Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8140021"
+   },
+   "sourceRef": "course-8140021"
+  },
+  "RELS 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to the Religions of the World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0107341"
+   },
+   "sourceRef": "course-0107341"
+  },
+  "RELS 1002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Contemporary Issues in Religion, Culture, and Society: An Introduction to Religion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8021311"
+   },
+   "sourceRef": "course-8021311"
+  },
+  "RELS 1034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971441"
+   },
+   "sourceRef": "course-7971441"
+  },
+  "RELS 1082": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jesus in History, Art & Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971041"
+   },
+   "sourceRef": "course-7971041"
+  },
+  "RELS 1201": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible: Context and Interpretation, World of the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8021721"
+   },
+   "sourceRef": "course-8021721"
+  },
+  "RELS 1205": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible and Film: The Holy Book Meets the Silver Screen",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262321"
+   },
+   "sourceRef": "course-8262321"
+  },
+  "RELS 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory and Method in Religion: Critical Approaches to the Study of Religion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8021271"
+   },
+   "sourceRef": "course-8021271"
+  },
+  "RELS 3013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0163861"
+   },
+   "sourceRef": "course-0163861"
+  },
+  "RELS 3034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971431"
+   },
+   "sourceRef": "course-7971431"
+  },
+  "RELS 3070": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Religious Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7900241"
+   },
+   "sourceRef": "course-7900241"
+  },
+  "RELS 3071": {
+   "catalogTerm": "Fall 2026",
+   "title": "Greek and Hellenistic Religions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971231"
+   },
+   "sourceRef": "course-7971231"
+  },
+  "RELS 3092": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jesus in History, Art & Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8170001"
+   },
+   "sourceRef": "course-8170001"
+  },
+  "RELS 3182": {
+   "catalogTerm": "Fall 2026",
+   "title": "Egypt and Western Asia: Art and Archaeology of Ancient Egypt and Western Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8169821"
+   },
+   "sourceRef": "course-8169821"
+  },
+  "RELS 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible: Context and Interpretation, World of the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0108521"
+   },
+   "sourceRef": "course-0108521"
+  },
+  "RELS 3205": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women, Gender, and the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115781"
+   },
+   "sourceRef": "course-8115781"
+  },
+  "RELS 3321": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Philosophies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029251"
+   },
+   "sourceRef": "course-8029251"
+  },
+  "RELS 3371": {
+   "catalogTerm": "Fall 2026",
+   "title": "Buddhism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7999201"
+   },
+   "sourceRef": "course-7999201"
+  },
+  "RELS 3373": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion and Society in Imperial China",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8013811"
+   },
+   "sourceRef": "course-8013811"
+  },
+  "RELS 3374": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Japanese Religions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187141"
+   },
+   "sourceRef": "course-8187141"
+  },
+  "RELS 3377": {
+   "catalogTerm": "Fall 2026",
+   "title": "A Thousand Years of Buddhism in China: Beliefs, Practices, and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8017341"
+   },
+   "sourceRef": "course-8017341"
+  },
+  "RELS 3415W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art of India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029261"
+   },
+   "sourceRef": "course-8029261"
+  },
+  "RELS 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7907941"
+   },
+   "sourceRef": "course-7907941"
+  },
+  "RELS 3504": {
+   "catalogTerm": "Fall 2026",
+   "title": "Apocalypticism, Cosmic Warfare, and the Maccabees: Jewish Strategies of Resistance in Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0104841"
+   },
+   "sourceRef": "course-0104841"
+  },
+  "RELS 3520": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of the Holocaust",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8056101"
+   },
+   "sourceRef": "course-8056101"
+  },
+  "RELS 3535": {
+   "catalogTerm": "Fall 2026",
+   "title": "Death and the Afterlife in the Ancient World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7987861"
+   },
+   "sourceRef": "course-7987861"
+  },
+  "RELS 3543": {
+   "catalogTerm": "Fall 2026",
+   "title": "Pagans, Christians, Barbarians: The World of Late Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8140081"
+   },
+   "sourceRef": "course-8140081"
+  },
+  "RELS 3544W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Martyrs, Monks, Crusaders: World Christianity, 100-1400",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8150311"
+   },
+   "sourceRef": "course-8150311"
+  },
+  "RELS 3545W": {
+   "catalogTerm": "Fall 2026",
+   "title": "World Christianity, 1300-1800 Reformers, Radicals and Revolutionaries",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168461"
+   },
+   "sourceRef": "course-8168461"
+  },
+  "RELS 3609": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval Art from Below",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187601"
+   },
+   "sourceRef": "course-8187601"
+  },
+  "RELS 3611": {
+   "catalogTerm": "Fall 2026",
+   "title": "Eastern Orthodoxy: History and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8029331"
+   },
+   "sourceRef": "course-8029331"
+  },
+  "RELS 3624": {
+   "catalogTerm": "Fall 2026",
+   "title": "Atheists as \"Other\": Religious and Nonreligious Outsiders in the US",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8163051"
+   },
+   "sourceRef": "course-8163051"
+  },
+  "RELS 3625": {
+   "catalogTerm": "Fall 2026",
+   "title": "Magic and Medicine",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8154311"
+   },
+   "sourceRef": "course-8154311"
+  },
+  "RELS 3626W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Witches, Seers, and Saints: Women, Gender, and Religion in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173331"
+   },
+   "sourceRef": "course-8173331"
+  },
+  "RELS 3631": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islam in America: A History of the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8189421"
+   },
+   "sourceRef": "course-8189421"
+  },
+  "RELS 3671": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hinduism and the Making of Modern India",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7999191"
+   },
+   "sourceRef": "course-7999191"
+  },
+  "RELS 3679": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion and Society in Modern South Asia",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8021281"
+   },
+   "sourceRef": "course-8021281"
+  },
+  "RELS 3704": {
+   "catalogTerm": "Fall 2026",
+   "title": "Exploring the Quran: An intellectual odyssey with Islam's holy scripture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8182771"
+   },
+   "sourceRef": "course-8182771"
+  },
+  "RELS 3706W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Art of Islam",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8169671"
+   },
+   "sourceRef": "course-8169671"
+  },
+  "RELS 3711": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Islamic World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8027001"
+   },
+   "sourceRef": "course-8027001"
+  },
+  "RELS 3712W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islam: Religion and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922601"
+   },
+   "sourceRef": "course-7922601"
+  },
+  "RELS 3716": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender and the Family in the Islamic World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8071531"
+   },
+   "sourceRef": "course-8071531"
+  },
+  "RELS 3721": {
+   "catalogTerm": "Fall 2026",
+   "title": "North Africa since 1500: Islam, Colonialism, and Independence",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8151071"
+   },
+   "sourceRef": "course-8151071"
+  },
+  "RELS 3722": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Ottoman Empire",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176971"
+   },
+   "sourceRef": "course-8176971"
+  },
+  "RELS 3773": {
+   "catalogTerm": "Fall 2026",
+   "title": "Islamic Mysticism: From Divine Love to Anti-Colonial Resistance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8269121"
+   },
+   "sourceRef": "course-8269121"
+  },
+  "RELS 4309": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion in American Public Life: Culture, Politics, and Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8021291"
+   },
+   "sourceRef": "course-8021291"
+  },
+  "RELS 4993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone: Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256611"
+   },
+   "sourceRef": "course-8256611"
+  },
+  "RELS 5001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory and Method in the Study of Religion: Critical Approaches to the Study of Religion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977281"
+   },
+   "sourceRef": "course-7977281"
+  },
+  "RELS 5013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0163871"
+   },
+   "sourceRef": "course-0163871"
+  },
+  "RELS 5071": {
+   "catalogTerm": "Fall 2026",
+   "title": "Greek and Hellenistic Religions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7979801"
+   },
+   "sourceRef": "course-7979801"
+  },
+  "SOC 3309": {
+   "catalogTerm": "Fall 2026",
+   "title": "Atheists as \"Other\": Religious & Nonreligious Outsiders in the US",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended"
+    },
+    "sourceRef": "course-8153261"
+   },
+   "sourceRef": "course-8153261"
+  },
+  "SOC 3681": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender and the Family in the Islamic World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least soph; 1001 recommended"
+    },
+    "sourceRef": "course-8036221"
+   },
+   "sourceRef": "course-8036221"
+  },
+  "SOC 4309": {
+   "catalogTerm": "Fall 2026",
+   "title": "Religion in American Public Life: Culture, Politics, & Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7977711"
+   },
+   "sourceRef": "course-7977711"
+  },
+  "SOC 4309H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Religion in American Public Life - Culture, Politics, & Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8099991"
+   },
+   "sourceRef": "course-8099991"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-g8YLm8RS",
+   "label": "Foundation Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-4V0rPNnT",
+    "type": "credits",
+    "courseSet": "set-4V0rPNnT",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Foundation Course"
+   }
+  },
+  {
+   "id": "g-vI2YIXpw",
+   "label": "Core Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-dBhTwBi7",
+    "type": "credits",
+    "courseSet": "set-dBhTwBi7",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Core Course"
+   }
+  },
+  {
+   "id": "g-LZe9ix1Z",
+   "label": "Religious Traditions",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-9uSBX6RC",
+    "type": "credits",
+    "courseSet": "set-9uSBX6RC",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "Religious Traditions"
+   }
+  },
+  {
+   "id": "g-s447xXL1",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-T8y3KWBZ",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-7Lwlwj21",
+      "type": "credits",
+      "courseSet": "set-7Lwlwj21",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "RELS 4993 (4 credits)"
+     },
+     {
+      "id": "r-R04BAGEJ",
+      "type": "credits",
+      "courseSet": "set-R04BAGEJ",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "RELS 4993 (1 credit) + Advisor-approved Upper-Division Course"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-083420217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-416788",
+    "type": "count",
+    "courseSet": "set-416788",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nCLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Religious Studies BA is RELS.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996.\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 12 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents in Track I do not have a language requirement that is specific to the major. However, students in Track I are required to complete the CLA requirement of 4 semesters of any language, with a grade of C-, or S, or better, or demonstrate proficiency in the languages as defined by the department or college. Students in Track II are required to complete 4 semesters of language connected to their area of concentration, with a grade of C-, or better, or demonstrate proficiency in the languages as defined by the department or college.\nStudents should consult regularly with the major advisor or Director of Undergraduate Studies to ensure courses selected meet applicable religious\u00a0traditions, track, and language requirements. Additional courses not listed here may be accepted with\u00a0approval of the major advisor or Director of Undergraduate Studies.\nStudents may earn a BA or a minor in religious studies, but not both.\nThe following restrictions apply to students also completing a major in Jewish studies or history: (1) the subjects of the courses selected to fulfill the area concentration requirement must be well outside of the focus of the other major in question; (2) the chosen sub-plan should include a comparative element that distinguishes it from the other major. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Track I: Religion, Culture, and Society, Track II: Texts and Traditions. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

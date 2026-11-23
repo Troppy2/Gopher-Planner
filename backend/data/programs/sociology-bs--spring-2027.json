@@ -1,0 +1,2396 @@
+{
+ "schemaVersion": 2,
+ "id": "sociology-bs",
+ "name": "Sociology B.S.",
+ "officialName": "Sociology B.S.",
+ "officialProgramId": "086820117",
+ "catalogTerm": "Spring 2027",
+ "totalCredits": 120,
+ "source": "Sociology B.S., revision 086820117-2027-01-19, https://umtc.catalog.prod.coursedog.com/programs/086820117, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/086820117",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 086820117-2027-01-19"
+  },
+  "course-0029431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029431",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 1001, version 0029431-2021-05-17"
+  },
+  "course-0001191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001191",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1142, version 0001191-2021-05-17"
+  },
+  "course-8082761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8082761",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1241, version 8082761-2025-09-02"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0036921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036921",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1371, version 0036921-2025-09-02"
+  },
+  "course-0036961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "course-0011481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3811, version 0011481-2024-05-13"
+  },
+  "course-0011491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011491",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 5811, version 0011491-2023-09-05"
+  },
+  "course-8113691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8113691",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3412, version 8113691-2021-05-17"
+  },
+  "course-8127911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8127911",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3412H, version 8127911-2021-05-17"
+  },
+  "course-0016211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016211",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3022, version 0016211-2025-09-02"
+  },
+  "course-8145241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8145241",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3032, version 8145241-2024-09-03"
+  },
+  "course-0033051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0033051",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3701, version 0033051-2025-01-21"
+  },
+  "course-0032051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032051",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3801, version 0032051-2021-09-07"
+  },
+  "course-8168821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168821",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3215, version 8168821-2025-09-02"
+  },
+  "course-0034421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034421",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3003, version 0034421-2021-05-17"
+  },
+  "course-8250761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8250761",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3005, version 8250761-2026-09-08"
+  },
+  "course-0099601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099601",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3090, version 0099601-2026-09-08"
+  },
+  "course-7901811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7901811",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3101, version 7901811-2021-05-17"
+  },
+  "course-8107201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8107201",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3101H, version 8107201-2021-05-17"
+  },
+  "course-7901821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7901821",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3102, version 7901821-2024-05-13"
+  },
+  "course-0027111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0027111",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3201, version 0027111-2021-05-17"
+  },
+  "course-0031051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0031051",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3211W, version 0031051-2021-05-17"
+  },
+  "course-8162561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8162561",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3211W, version 8162561-2021-05-17"
+  },
+  "course-0032351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0032351",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3221, version 0032351-2021-05-17"
+  },
+  "course-8182551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8182551",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3241, version 8182551-2021-05-17"
+  },
+  "course-8203531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8203531",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3243W, version 8203531-2021-05-17"
+  },
+  "course-8171561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171561",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3246, version 8171561-2025-01-21"
+  },
+  "course-7920451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7920451",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3251W, version 7920451-2021-05-17"
+  },
+  "course-8037101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037101",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3251W, version 8037101-2021-05-17"
+  },
+  "course-0085501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085501",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3301W, version 0085501-2021-05-17"
+  },
+  "course-8153261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8153261",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3309, version 8153261-2021-09-07"
+  },
+  "course-8163051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8163051",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3624, version 8163051-2024-09-03"
+  },
+  "course-7912701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7912701",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3322W, version 7912701-2021-05-17"
+  },
+  "course-0011501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0011501",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3411W, version 0011501-2021-05-17"
+  },
+  "course-7961141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7961141",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3421W, version 7961141-2021-05-17"
+  },
+  "course-8181481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181481",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3446, version 8181481-2021-05-17"
+  },
+  "course-0029091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029091",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3451W, version 0029091-2021-05-17"
+  },
+  "course-7912721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7912721",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3452, version 7912721-2021-05-17"
+  },
+  "course-0025101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025101",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3501, version 0025101-2021-05-17"
+  },
+  "course-8097721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097721",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3503, version 8097721-2021-05-17"
+  },
+  "course-8106661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106661",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 3503, version 8106661-2021-05-17"
+  },
+  "course-8115991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115991",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3503H, version 8115991-2021-05-17"
+  },
+  "course-8094191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8094191",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3505, version 8094191-2021-05-17"
+  },
+  "course-8099251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099251",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3705, version 8099251-2025-01-21"
+  },
+  "course-0081981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0081981",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3511, version 0081981-2021-05-17"
+  },
+  "course-8114111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114111",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3511H, version 8114111-2021-05-17"
+  },
+  "course-7982151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982151",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3613W, version 7982151-2025-01-21"
+  },
+  "course-7978231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7978231",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3613W, version 7978231-2025-01-21"
+  },
+  "course-8036221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8036221",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3681, version 8036221-2021-05-17"
+  },
+  "course-8071521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8071521",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 3681, version 8071521-2025-01-21"
+  },
+  "course-8069541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069541",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3681, version 8069541-2025-01-21"
+  },
+  "course-8071531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8071531",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3716, version 8071531-2024-09-03"
+  },
+  "course-0081961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0081961",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 3721, version 0081961-2024-05-13"
+  },
+  "course-0099661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099661",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4090, version 0099661-2026-05-18"
+  },
+  "course-0025411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025411",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4101W, version 0025411-2026-09-08"
+  },
+  "course-8105771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8105771",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4101V, version 8105771-2026-09-08"
+  },
+  "course-0025451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025451",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4102, version 0025451-2021-05-17"
+  },
+  "course-8115471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115471",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4102H, version 8115471-2021-05-17"
+  },
+  "course-8064141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064141",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4104, version 8064141-2021-05-17"
+  },
+  "course-8114951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114951",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4104H, version 8114951-2021-05-17"
+  },
+  "course-0025461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025461",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4105, version 0025461-2022-01-18"
+  },
+  "course-8139491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8139491",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4106, version 8139491-2021-05-17"
+  },
+  "course-0026071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026071",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4108, version 0026071-2021-05-17"
+  },
+  "course-0025091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025091",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4111, version 0025091-2021-05-17"
+  },
+  "course-8194641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8194641",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4113, version 8194641-2021-05-17"
+  },
+  "course-0025601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025601",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4125, version 0025601-2021-05-17"
+  },
+  "course-8252791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8252791",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4133, version 8252791-2024-05-13"
+  },
+  "course-0025631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025631",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4135, version 0025631-2021-05-17"
+  },
+  "course-8138821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8138821",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4135H, version 8138821-2021-05-17"
+  },
+  "course-0025071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025071",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4141, version 0025071-2021-05-17"
+  },
+  "course-8099821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099821",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4141H, version 8099821-2021-05-17"
+  },
+  "course-0025111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0025111",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4147, version 0025111-2021-05-17"
+  },
+  "course-0030631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0030631",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4161, version 0030631-2021-09-07"
+  },
+  "course-0030831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0030831",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4162, version 0030831-2021-09-07"
+  },
+  "course-7912731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7912731",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4171, version 7912731-2021-05-17"
+  },
+  "course-7984771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7984771",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4190, version 7984771-2026-09-08"
+  },
+  "course-8204921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8204921",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4243W, version 8204921-2021-05-17"
+  },
+  "course-7953701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7953701",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4246, version 7953701-2021-05-17"
+  },
+  "course-0085461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0085461",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4305, version 0085461-2021-05-17"
+  },
+  "course-7977711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977711",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4309, version 7977711-2021-05-17"
+  },
+  "course-8021291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021291",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 4309, version 8021291-2024-09-03"
+  },
+  "course-8099991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099991",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4309H, version 8099991-2021-05-17"
+  },
+  "course-7982701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7982701",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4311, version 7982701-2021-05-17"
+  },
+  "course-7984561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7984561",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 4311, version 7984561-2025-01-21"
+  },
+  "course-7912751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7912751",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4321, version 7912751-2026-09-08"
+  },
+  "course-7960421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7960421",
+   "retrieved": "2026-11-23",
+   "section": "Course record GLOS 4221, version 7960421-2026-09-08"
+  },
+  "course-8017501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8017501",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4451, version 8017501-2025-01-21"
+  },
+  "course-0034441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0034441",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4461, version 0034441-2023-09-05"
+  },
+  "course-8031561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8031561",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4511, version 8031561-2021-05-17"
+  },
+  "course-7930071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7930071",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4521, version 7930071-2021-05-17"
+  },
+  "course-8099761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8099761",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4521H, version 8099761-2021-05-17"
+  },
+  "course-7969611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7969611",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4551, version 7969611-2021-05-17"
+  },
+  "course-8106271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106271",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4551H, version 8106271-2021-05-17"
+  },
+  "course-0081361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0081361",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4966W, version 0081361-2021-05-17"
+  },
+  "course-0099691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099691",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4094W, version 0099691-2021-05-17"
+  },
+  "course-0145811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0145811",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4994W, version 0145811-2021-05-17"
+  },
+  "course-0081761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0081761",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4977V, version 0081761-2026-09-08"
+  },
+  "course-0099681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099681",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOC 4093, version 0099681-2021-05-17"
+  }
+ },
+ "courseSets": {
+  "set-BGHMb8R6": {
+   "codes": [
+    "MATH 1142",
+    "MATH 1241",
+    "MATH 1271",
+    "MATH 1371",
+    "MATH 1571H",
+    "SOC 3811",
+    "SOC 5811"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Ykyarb8Z": {
+   "codes": [
+    "SOC 3412",
+    "SOC 3412H",
+    "STAT 3022",
+    "STAT 3032"
+   ],
+   "sourceRef": "program"
+  },
+  "set-SLSTV4wN": {
+   "codes": [
+    "SOC 3701",
+    "SOC 3801"
+   ],
+   "sourceRef": "program"
+  },
+  "set-l9ziMPQ8": {
+   "codes": [
+    "GLOS 3215",
+    "SOC 3003",
+    "SOC 3005",
+    "SOC 3090",
+    "SOC 3101",
+    "SOC 3101H",
+    "SOC 3102",
+    "SOC 3201",
+    "SOC 3211W",
+    "AAS 3211W",
+    "SOC 3221",
+    "SOC 3241",
+    "SOC 3243W",
+    "SOC 3246",
+    "SOC 3251W",
+    "AAS 3251W",
+    "SOC 3301W",
+    "SOC 3309",
+    "RELS 3624",
+    "SOC 3322W",
+    "SOC 3411W",
+    "SOC 3412",
+    "SOC 3412H",
+    "SOC 3421W",
+    "SOC 3446",
+    "SOC 3451W",
+    "SOC 3452",
+    "SOC 3501",
+    "SOC 3503",
+    "AAS 3503",
+    "SOC 3503H",
+    "SOC 3505",
+    "GLOS 3705",
+    "SOC 3511",
+    "SOC 3511H",
+    "SOC 3613W",
+    "GLOS 3613W",
+    "SOC 3681",
+    "GLOS 3681",
+    "GWSS 3681",
+    "RELS 3716",
+    "SOC 3721",
+    "SOC 4090",
+    "SOC 4101W",
+    "SOC 4101V",
+    "SOC 4102",
+    "SOC 4102H",
+    "SOC 4104",
+    "SOC 4104H",
+    "SOC 4105",
+    "SOC 4106",
+    "SOC 4108",
+    "SOC 4111",
+    "SOC 4113",
+    "SOC 4125",
+    "SOC 4133",
+    "SOC 4135",
+    "SOC 4135H",
+    "SOC 4141",
+    "SOC 4141H",
+    "SOC 4147",
+    "SOC 4161",
+    "SOC 4162",
+    "SOC 4171",
+    "SOC 4190",
+    "SOC 4243W",
+    "SOC 4246",
+    "SOC 4305",
+    "SOC 4309",
+    "RELS 4309",
+    "SOC 4309H",
+    "SOC 4311",
+    "GLOS 4311",
+    "SOC 4321",
+    "GLOS 4221",
+    "SOC 4451",
+    "SOC 4461",
+    "SOC 4511",
+    "SOC 4521",
+    "SOC 4521H",
+    "SOC 4551",
+    "SOC 4551H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-Aq5geFMW": {
+   "codes": [
+    "SOC 4994W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-gUp1tKn7": {
+   "codes": [
+    "SOC 4977V",
+    "SOC 4093"
+   ],
+   "sourceRef": "program"
+  },
+  "set-433376": {
+   "codes": [
+    "SOC 3211W",
+    "AAS 3211W",
+    "SOC 3243W",
+    "SOC 3251W",
+    "AAS 3251W",
+    "SOC 3301W",
+    "SOC 3322W",
+    "SOC 3411W",
+    "SOC 3421W",
+    "SOC 3451W",
+    "SOC 3613W",
+    "GLOS 3613W",
+    "SOC 4094W",
+    "SOC 4966W",
+    "SOC 4977V",
+    "SOC 4994W",
+    "SOC 4101W",
+    "SOC 4101V",
+    "SOC 4243W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AAS 3211W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Race & Racism in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8162561"
+   },
+   "sourceRef": "course-8162561"
+  },
+  "AAS 3251W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociological Perspectives on Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8037101"
+   },
+   "sourceRef": "course-8037101"
+  },
+  "AAS 3503": {
+   "catalogTerm": "Spring 2027",
+   "title": "Asian American Identities, Families, & Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8106661"
+   },
+   "sourceRef": "course-8106661"
+  },
+  "GLOS 3215": {
+   "catalogTerm": "Spring 2027",
+   "title": "Supercapitalism: Labor, Consumption & the Environment in the New Global Economy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168821"
+   },
+   "sourceRef": "course-8168821"
+  },
+  "GLOS 3613W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Stuffed and Starved: The Politics of Eating",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7978231"
+   },
+   "sourceRef": "course-7978231"
+  },
+  "GLOS 3681": {
+   "catalogTerm": "Spring 2027",
+   "title": "Gender and the Family in the Islamic World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least soph; 1001 recommended"
+    },
+    "sourceRef": "course-8071521"
+   },
+   "sourceRef": "course-8071521"
+  },
+  "GLOS 3705": {
+   "catalogTerm": "Spring 2027",
+   "title": "Migrations: People in Motion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "soph, jr, or sr"
+    },
+    "sourceRef": "course-8099251"
+   },
+   "sourceRef": "course-8099251"
+  },
+  "GLOS 4221": {
+   "catalogTerm": "Spring 2027",
+   "title": "The New Global Economy: Big Tech, Big Finance, and the Future of Work, Consumption, and Well-being",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7960421"
+   },
+   "sourceRef": "course-7960421"
+  },
+  "GLOS 4311": {
+   "catalogTerm": "Spring 2027",
+   "title": "Power, Justice & the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SOC 1001 recommended"
+    },
+    "sourceRef": "course-7984561"
+   },
+   "sourceRef": "course-7984561"
+  },
+  "GWSS 3681": {
+   "catalogTerm": "Spring 2027",
+   "title": "Gender and the Family in the Islamic World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least soph; 1001 recommended"
+    },
+    "sourceRef": "course-8069541"
+   },
+   "sourceRef": "course-8069541"
+  },
+  "MATH 1142": {
+   "catalogTerm": "Spring 2027",
+   "title": "Short Calculus",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]"
+    },
+    "sourceRef": "course-0001191"
+   },
+   "sourceRef": "course-0001191"
+  },
+  "MATH 1241": {
+   "catalogTerm": "Spring 2027",
+   "title": "Calculus and Dynamical Systems in Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155], CBS student"
+    },
+    "sourceRef": "course-8082761"
+   },
+   "sourceRef": "course-8082761"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Spring 2027",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "MATH 1371": {
+   "catalogTerm": "Spring 2027",
+   "title": "CSE Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0036921"
+   },
+   "sourceRef": "course-0036921"
+  },
+  "MATH 1571H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0036961"
+   },
+   "sourceRef": "course-0036961"
+  },
+  "RELS 3624": {
+   "catalogTerm": "Spring 2027",
+   "title": "Atheists as \"Other\": Religious and Nonreligious Outsiders in the US",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8163051"
+   },
+   "sourceRef": "course-8163051"
+  },
+  "RELS 3716": {
+   "catalogTerm": "Spring 2027",
+   "title": "Gender and the Family in the Islamic World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8071531"
+   },
+   "sourceRef": "course-8071531"
+  },
+  "RELS 4309": {
+   "catalogTerm": "Spring 2027",
+   "title": "Religion in American Public Life: Culture, Politics, and Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8021291"
+   },
+   "sourceRef": "course-8021291"
+  },
+  "SOC 1001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Sociology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc Majors/Minors must register A-F"
+    },
+    "sourceRef": "course-0029431"
+   },
+   "sourceRef": "course-0029431"
+  },
+  "SOC 3003": {
+   "catalogTerm": "Spring 2027",
+   "title": "Social Problems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0034421"
+   },
+   "sourceRef": "course-0034421"
+  },
+  "SOC 3005": {
+   "catalogTerm": "Spring 2027",
+   "title": "Social Science Fiction",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8250761"
+   },
+   "sourceRef": "course-8250761"
+  },
+  "SOC 3090": {
+   "catalogTerm": "Spring 2027",
+   "title": "Topics in Sociology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors must register A-F; credit will not be granted if credit has been received for the same topics title"
+    },
+    "sourceRef": "course-0099601"
+   },
+   "sourceRef": "course-0099601"
+  },
+  "SOC 3101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociological Perspectives on the Criminal Justice System",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[SOC 1001] recommended, Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-7901811"
+   },
+   "sourceRef": "course-7901811"
+  },
+  "SOC 3101H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Sociological Perspectives on the Criminal Justice System",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[SOC 1001] recommended, Sociology majors/minors must register A-F, honors"
+    },
+    "sourceRef": "course-8107201"
+   },
+   "sourceRef": "course-8107201"
+  },
+  "SOC 3102": {
+   "catalogTerm": "Spring 2027",
+   "title": "Criminal Behavior and Social Control",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7901821"
+   },
+   "sourceRef": "course-7901821"
+  },
+  "SOC 3201": {
+   "catalogTerm": "Spring 2027",
+   "title": "Inequality: Introduction to Stratification",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0027111"
+   },
+   "sourceRef": "course-0027111"
+  },
+  "SOC 3211W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Race and Racism in the US",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0031051"
+   },
+   "sourceRef": "course-0031051"
+  },
+  "SOC 3221": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0032351"
+   },
+   "sourceRef": "course-0032351"
+  },
+  "SOC 3241": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Women's Health: Experiences from Around the World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8182551"
+   },
+   "sourceRef": "course-8182551"
+  },
+  "SOC 3243W": {
+   "catalogTerm": "Spring 2027",
+   "title": "On Drugs: Pleasures, Panics & Punishments",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8203531"
+   },
+   "sourceRef": "course-8203531"
+  },
+  "SOC 3246": {
+   "catalogTerm": "Spring 2027",
+   "title": "Diseases, Disasters, & Other Killers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171561"
+   },
+   "sourceRef": "course-8171561"
+  },
+  "SOC 3251W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociological Perspectives on Race, Class, and Gender",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7920451"
+   },
+   "sourceRef": "course-7920451"
+  },
+  "SOC 3301W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Politics and Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0085501"
+   },
+   "sourceRef": "course-0085501"
+  },
+  "SOC 3309": {
+   "catalogTerm": "Spring 2027",
+   "title": "Atheists as \"Other\": Religious & Nonreligious Outsiders in the US",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended"
+    },
+    "sourceRef": "course-8153261"
+   },
+   "sourceRef": "course-8153261"
+  },
+  "SOC 3322W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Social Movements, Protests, and Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7912701"
+   },
+   "sourceRef": "course-7912701"
+  },
+  "SOC 3411W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Organizations and Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0011501"
+   },
+   "sourceRef": "course-0011501"
+  },
+  "SOC 3412": {
+   "catalogTerm": "Spring 2027",
+   "title": "Social Networking: Theories and Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[SOC 1001] recommended, Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-8113691"
+   },
+   "sourceRef": "course-8113691"
+  },
+  "SOC 3412H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Social Networking: Theories and Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[SOC 1001] recommended, Sociology majors/minors must register A-F, honors"
+    },
+    "sourceRef": "course-8127911"
+   },
+   "sourceRef": "course-8127911"
+  },
+  "SOC 3421W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Work: Good Jobs, Bad Jobs, No Jobs?",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended, Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7961141"
+   },
+   "sourceRef": "course-7961141"
+  },
+  "SOC 3446": {
+   "catalogTerm": "Spring 2027",
+   "title": "Comparing Healthcare Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181481"
+   },
+   "sourceRef": "course-8181481"
+  },
+  "SOC 3451W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Cities & Social Change",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended, Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0029091"
+   },
+   "sourceRef": "course-0029091"
+  },
+  "SOC 3452": {
+   "catalogTerm": "Spring 2027",
+   "title": "Education and Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc majors/minors must register A-F."
+    },
+    "sourceRef": "course-7912721"
+   },
+   "sourceRef": "course-7912721"
+  },
+  "SOC 3501": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Families",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0025101"
+   },
+   "sourceRef": "course-0025101"
+  },
+  "SOC 3503": {
+   "catalogTerm": "Spring 2027",
+   "title": "Asian American Identities, Families & Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SOC 1001 recommended, Sociology majors/minors must register A/F"
+    },
+    "sourceRef": "course-8097721"
+   },
+   "sourceRef": "course-8097721"
+  },
+  "SOC 3503H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Asian American Identities, Families & Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[SOC 1001] recommended, honors"
+    },
+    "sourceRef": "course-8115991"
+   },
+   "sourceRef": "course-8115991"
+  },
+  "SOC 3505": {
+   "catalogTerm": "Spring 2027",
+   "title": "Migrations: People in Motion",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soph, jr, or sr"
+    },
+    "sourceRef": "course-8094191"
+   },
+   "sourceRef": "course-8094191"
+  },
+  "SOC 3511": {
+   "catalogTerm": "Spring 2027",
+   "title": "World Population Problems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[SOC 1001] recommended, Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-0081981"
+   },
+   "sourceRef": "course-0081981"
+  },
+  "SOC 3511H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: World Population Problems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[SOC 1001] recommended, Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-8114111"
+   },
+   "sourceRef": "course-8114111"
+  },
+  "SOC 3613W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Stuffed and Starved: The Politics of Eating",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7982151"
+   },
+   "sourceRef": "course-7982151"
+  },
+  "SOC 3681": {
+   "catalogTerm": "Spring 2027",
+   "title": "Gender and the Family in the Islamic World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least soph; 1001 recommended"
+    },
+    "sourceRef": "course-8036221"
+   },
+   "sourceRef": "course-8036221"
+  },
+  "SOC 3701": {
+   "catalogTerm": "Spring 2027",
+   "title": "Social Theory",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0033051"
+   },
+   "sourceRef": "course-0033051"
+  },
+  "SOC 3721": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Social Psychology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0081961"
+   },
+   "sourceRef": "course-0081961"
+  },
+  "SOC 3801": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociological Research Methods",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors must register A-F"
+    },
+    "sourceRef": "course-0032051"
+   },
+   "sourceRef": "course-0032051"
+  },
+  "SOC 3811": {
+   "catalogTerm": "Spring 2027",
+   "title": "Social Statistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergraduates with strong math background are encouraged to register for 5811 in lieu of 3811 (Soc 5811 offered Fall terms only). Soc Majors/Minors must register A-F."
+    },
+    "sourceRef": "course-0011481"
+   },
+   "sourceRef": "course-0011481"
+  },
+  "SOC 4090": {
+   "catalogTerm": "Spring 2027",
+   "title": "Topics in Sociology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors/minors must register A-F; credit will not be granted if credit has been received for the same topics title"
+    },
+    "sourceRef": "course-0099661"
+   },
+   "sourceRef": "course-0099661"
+  },
+  "SOC 4093": {
+   "catalogTerm": "Spring 2027",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0099681"
+   },
+   "sourceRef": "course-0099681"
+  },
+  "SOC 4094W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Capstone Experience: Directed Research (4 cr.)",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001, 3701, 3801, 3811, at least 12 cr upper div sociology electives, dept & instructor consent."
+    },
+    "sourceRef": "course-0099691"
+   },
+   "sourceRef": "course-0099691"
+  },
+  "SOC 4101V": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Sociology of Law",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "honors student, SOC 1001 and  3101 or 3102 recommended, Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-8105771"
+   },
+   "sourceRef": "course-8105771"
+  },
+  "SOC 4101W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Law",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SOC 1001 and 3101 or 3102 recommended, Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-0025411"
+   },
+   "sourceRef": "course-0025411"
+  },
+  "SOC 4102": {
+   "catalogTerm": "Spring 2027",
+   "title": "Criminology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[SOC 3101 or SOC 3102 or instr consent], Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-0025451"
+   },
+   "sourceRef": "course-0025451"
+  },
+  "SOC 4102H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Criminology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student, [SOC 3101 or SOC 3102 or instr consent], Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-8115471"
+   },
+   "sourceRef": "course-8115471"
+  },
+  "SOC 4104": {
+   "catalogTerm": "Spring 2027",
+   "title": "Crime and Human Rights",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SOC 1001, at least one 3xxx SOC course recommended, Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-8064141"
+   },
+   "sourceRef": "course-8064141"
+  },
+  "SOC 4104H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Crime and Human Rights",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SOC 1001, at least one 3xxx SOC course recommended, Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-8114951"
+   },
+   "sourceRef": "course-8114951"
+  },
+  "SOC 4105": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Punishment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3101 or 3102 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0025461"
+   },
+   "sourceRef": "course-0025461"
+  },
+  "SOC 4106": {
+   "catalogTerm": "Spring 2027",
+   "title": "Crime on TV",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "recommended [1001 or 1011V, 1101 or 3101 or 3102]; Soph or above or instr consent; soc majors/minors must register A-F."
+    },
+    "sourceRef": "course-8139491"
+   },
+   "sourceRef": "course-8139491"
+  },
+  "SOC 4108": {
+   "catalogTerm": "Spring 2027",
+   "title": "Current Issues in Crime Control",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0026071"
+   },
+   "sourceRef": "course-0026071"
+  },
+  "SOC 4111": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Deviance",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc 3101 or 3102 recommended; Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-0025091"
+   },
+   "sourceRef": "course-0025091"
+  },
+  "SOC 4113": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Violence: Bedrooms, Backyards, and Bars",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8194641"
+   },
+   "sourceRef": "course-8194641"
+  },
+  "SOC 4125": {
+   "catalogTerm": "Spring 2027",
+   "title": "Policing America",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3101 or 3102 recommended or instr consent, soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0025601"
+   },
+   "sourceRef": "course-0025601"
+  },
+  "SOC 4133": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Gender, Sex, and Crime",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8252791"
+   },
+   "sourceRef": "course-8252791"
+  },
+  "SOC 4135": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of White-Collar Crime",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[SOC 3101 or SOC 3102 or instr consent]; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0025631"
+   },
+   "sourceRef": "course-0025631"
+  },
+  "SOC 4135H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Sociology of White-Collar Crime",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors, [SOC 3101 or SOC 3102 or instr consent]"
+    },
+    "sourceRef": "course-8138821"
+   },
+   "sourceRef": "course-8138821"
+  },
+  "SOC 4141": {
+   "catalogTerm": "Spring 2027",
+   "title": "Youth Crime & Punishment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc 3101 or 3102 recommended; Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-0025071"
+   },
+   "sourceRef": "course-0025071"
+  },
+  "SOC 4141H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Youth Crime & Punishment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "honors student, Soc 3101 or 3102 recommended; Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-8099821"
+   },
+   "sourceRef": "course-8099821"
+  },
+  "SOC 4147": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Mental Health & Illness",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc 1001 recommended, Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0025111"
+   },
+   "sourceRef": "course-0025111"
+  },
+  "SOC 4161": {
+   "catalogTerm": "Spring 2027",
+   "title": "Criminal Law in American Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc 3101 or 3102 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0030631"
+   },
+   "sourceRef": "course-0030631"
+  },
+  "SOC 4162": {
+   "catalogTerm": "Spring 2027",
+   "title": "Criminal Procedure in American Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc 3101 or 3102 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0030831"
+   },
+   "sourceRef": "course-0030831"
+  },
+  "SOC 4171": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of International Law: Human Rights & Trafficking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7912731"
+   },
+   "sourceRef": "course-7912731"
+  },
+  "SOC 4190": {
+   "catalogTerm": "Spring 2027",
+   "title": "Topics in Sociology With Law, Criminology, and Justice Emphasis",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1001, [3101 or 3102]] recommended; soc majors/minors must register A-F; credit will not be granted if credit has been received for the same topics title"
+    },
+    "sourceRef": "course-7984771"
+   },
+   "sourceRef": "course-7984771"
+  },
+  "SOC 4243W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Brewing Society: Alcohol & Social Life",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8204921"
+   },
+   "sourceRef": "course-8204921"
+  },
+  "SOC 4246": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Health and Illness",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One sociology course recommended; soph or above; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7953701"
+   },
+   "sourceRef": "course-7953701"
+  },
+  "SOC 4305": {
+   "catalogTerm": "Spring 2027",
+   "title": "Environment & Society: An Enduring Conflict",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0085461"
+   },
+   "sourceRef": "course-0085461"
+  },
+  "SOC 4309": {
+   "catalogTerm": "Spring 2027",
+   "title": "Religion in American Public Life: Culture, Politics, & Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7977711"
+   },
+   "sourceRef": "course-7977711"
+  },
+  "SOC 4309H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Religion in American Public Life - Culture, Politics, & Communities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8099991"
+   },
+   "sourceRef": "course-8099991"
+  },
+  "SOC 4311": {
+   "catalogTerm": "Spring 2027",
+   "title": "Power, Justice & the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SOC 1001 recommended"
+    },
+    "sourceRef": "course-7982701"
+   },
+   "sourceRef": "course-7982701"
+  },
+  "SOC 4321": {
+   "catalogTerm": "Spring 2027",
+   "title": "The New Global Economy: Big Tech, Big Finance, and the Future of Work, Consumption, and Well-being",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7912751"
+   },
+   "sourceRef": "course-7912751"
+  },
+  "SOC 4451": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sport, Culture & Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "SOC 1001 recommended, Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-8017501"
+   },
+   "sourceRef": "course-8017501"
+  },
+  "SOC 4461": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Ethnic and Racial Conflict",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended; soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-0034441"
+   },
+   "sourceRef": "course-0034441"
+  },
+  "SOC 4511": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Children & Youth",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001 recommended, soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-8031561"
+   },
+   "sourceRef": "course-8031561"
+  },
+  "SOC 4521": {
+   "catalogTerm": "Spring 2027",
+   "title": "Love, Sex, & Marriage",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1001 or instr consent], soc majors/minors must register A-F"
+    },
+    "sourceRef": "course-7930071"
+   },
+   "sourceRef": "course-7930071"
+  },
+  "SOC 4521H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Love, Sex, & Marriage",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-8099761"
+   },
+   "sourceRef": "course-8099761"
+  },
+  "SOC 4551": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sociology of Sexualities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Sociology majors/minors must register A-F"
+    },
+    "sourceRef": "course-7969611"
+   },
+   "sourceRef": "course-7969611"
+  },
+  "SOC 4551H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Sociology of Sexualities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors"
+    },
+    "sourceRef": "course-8106271"
+   },
+   "sourceRef": "course-8106271"
+  },
+  "SOC 4966W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Capstone Experience: Seminar",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001, 3701, 3801, 3811, 12  cr upper div sociology, dept consent"
+    },
+    "sourceRef": "course-0081361"
+   },
+   "sourceRef": "course-0081361"
+  },
+  "SOC 4977V": {
+   "catalogTerm": "Spring 2027",
+   "title": "Senior Honors Proseminar",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3701, 3801, 3811, 9 additional upper div sociology cr, sr soc honors major, dept consent"
+    },
+    "sourceRef": "course-0081761"
+   },
+   "sourceRef": "course-0081761"
+  },
+  "SOC 4994W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Capstone Experience: Directed Research (1 cr.)",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001/1011V, 3701, 3801, 3811, and at least 12 cr upper div sociology electives; dept & instructor consent.  Students are only authorized to register for Soc 4994W in conjunction with a 6th Sociology Elective."
+    },
+    "sourceRef": "course-0145811"
+   },
+   "sourceRef": "course-0145811"
+  },
+  "SOC 5811": {
+   "catalogTerm": "Spring 2027",
+   "title": "Social Statistics for Graduate Students",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0011491"
+   },
+   "sourceRef": "course-0011491"
+  },
+  "STAT 3022": {
+   "catalogTerm": "Spring 2027",
+   "title": "Data Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3011"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3021"
+      },
+      {
+       "type": "course",
+       "course_code": "SOC 3811"
+      },
+      {
+       "type": "course",
+       "course_code": "BA 2551"
+      }
+     ]
+    },
+    "sourceRef": "course-0016211"
+   },
+   "sourceRef": "course-0016211"
+  },
+  "STAT 3032": {
+   "catalogTerm": "Spring 2027",
+   "title": "Regression and Correlated Data",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "STAT 3011"
+      },
+      {
+       "type": "course",
+       "course_code": "STAT 3021"
+      }
+     ]
+    },
+    "sourceRef": "course-8145241"
+   },
+   "sourceRef": "course-8145241"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-ytXkSVxB",
+   "label": "Introductory Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-FQ1tyoiq",
+    "type": "course",
+    "code": "SOC 1001",
+    "sourceRef": "program",
+    "label": "Introductory Course"
+   }
+  },
+  {
+   "id": "g-3bezRLRI",
+   "label": "Quantitative Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-BGHMb8R6",
+    "type": "credits",
+    "courseSet": "set-BGHMb8R6",
+    "minCredits": 8,
+    "sourceRef": "program",
+    "label": "Quantitative Courses"
+   }
+  },
+  {
+   "id": "g-BhPH0fvN",
+   "label": "Data Analysis Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-Ykyarb8Z",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-Ykyarb8Z-listed",
+      "type": "credits",
+      "courseSet": "set-Ykyarb8Z",
+      "minCredits": 3,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-Ykyarb8Z-unresolved",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Some listed course options could not be resolved to current official course records. Verify this requirement with your advisor or APAS."
+     }
+    ],
+    "label": "Data Analysis Courses"
+   }
+  },
+  {
+   "id": "g-z2mZpHY6",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-SLSTV4wN",
+    "type": "credits",
+    "courseSet": "set-SLSTV4wN",
+    "minCredits": 8,
+    "sourceRef": "program",
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-QcetH4au",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-l9ziMPQ8",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-l9ziMPQ8-listed",
+      "type": "credits",
+      "courseSet": "set-l9ziMPQ8",
+      "minCredits": 15,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-l9ziMPQ8-unresolved",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Some listed course options could not be resolved to current official course records. Verify this requirement with your advisor or APAS."
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-vX5wN2IT",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-tW4gdwiI",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-rF4Y62mW",
+      "type": "course",
+      "code": "SOC 4966W",
+      "sourceRef": "program",
+      "label": "Seminar"
+     },
+     {
+      "id": "r-Ol5hsZqt",
+      "type": "course",
+      "code": "SOC 4094W",
+      "sourceRef": "program",
+      "label": "Directed Research"
+     },
+     {
+      "id": "r-Aq5geFMW",
+      "type": "credits",
+      "courseSet": "set-Aq5geFMW",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Directed Research with SOC Elective"
+     },
+     {
+      "id": "r-gUp1tKn7",
+      "type": "credits",
+      "courseSet": "set-gUp1tKn7",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Honors"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-086820117",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-433376",
+    "type": "count",
+    "courseSet": "set-433376",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students who are interested in the BS option are encouraged to schedule a meeting with the departmental advisor to discuss the major and its requirements. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nStudents are required to complete a sub-plan in consultation with the departmental advisor. Students must be on a pre-approved waiting list to register for the capstone project and should contact the Department of Sociology at least two semesters in advance of registration.\nAt least 28 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn no more than one undergraduate degree from the Department of Sociology: a BA or BS or minor in Sociology; or a BA or BS or minor in Sociology of Law, Criminology, and Justice. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Organization, Business, or Non-Profit, Health Care and Careers, Policy Analysis, Quantitative Emphasis. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

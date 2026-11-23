@@ -1,0 +1,151 @@
+{
+ "schemaVersion": 2,
+ "id": "nursing-bsn",
+ "name": "Nursing B.S.N.",
+ "officialName": "Nursing B.S.N.",
+ "officialProgramId": "059620714",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Nursing B.S.N., revision 059620714-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/059620714, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/059620714",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 059620714-2026-09-08"
+  },
+  "course-8052071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8052071",
+   "retrieved": "2026-11-23",
+   "section": "Course record NURS 4777W, version 8052071-2020-09-08"
+  },
+  "course-0153871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0153871",
+   "retrieved": "2026-11-23",
+   "section": "Course record NURS 4205W, version 0153871-2020-01-21"
+  },
+  "course-0074361": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074361",
+   "retrieved": "2026-11-23",
+   "section": "Course record NURS 4205V, version 0074361-2015-01-20"
+  }
+ },
+ "courseSets": {
+  "set-L6eIOxtu": {
+   "codes": [
+    "NURS 4777W",
+    "NURS 4205W",
+    "NURS 4205V"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "NURS 4205V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Nursing Theory and Research",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Nurs honors"
+    },
+    "sourceRef": "course-0074361"
+   },
+   "sourceRef": "course-0074361"
+  },
+  "NURS 4205W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nursing Theory and Research",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Undergrad in nursing"
+    },
+    "sourceRef": "course-0153871"
+   },
+   "sourceRef": "course-0153871"
+  },
+  "NURS 4777W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Project in the Nursing Major",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "4205W or 4205V"
+    },
+    "sourceRef": "course-8052071"
+   },
+   "sourceRef": "course-8052071"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-V3T6HGay",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-L6eIOxtu",
+    "type": "count",
+    "courseSet": "set-L6eIOxtu",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "The nursing major is available in two locations, the Twin Cities and Rochester. Students located in Rochester earn a University of Minnesota - Twin Cities (UMNTC) degree while taking courses on the University of Minnesota - Rochester (UMR) campus. Please note that foundational coursework and sequencing differs slightly for students at the Rochester location due to course availability at UMR. Policies, program requirements, course content, and timeline are the same at both the Twin Cities and Rochester locations. Contact the School of Nursing for more information.\nAt least 30 of upper-division (3xxx-level or higher) credits that satisfy major requirements must be taken through the University of Minnesota Twin Cities campus. For Rochester located students, credits for upper division foundational courses completed through the University of Minnesota Rochester will be included.\nView sample plans for this major here . Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Transfer Admission Requirements:\nStudents applying to transfer into the Bachelor of Science in Nursing Program must meet the following requirements:\nCompletion of 6 prerequisite courses - Refer to Year 1 of the Program Requirements section for the list of coursework. University Writing is also a required prerequisite.\nMinimum 3.0 cumulative GPA\nMinimum 3.0 prerequisite GPA - All prerequisites must be taken using the A-F grading basis and must be completed for a letter grade of C- or higher. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Rochester, Twin Cities. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

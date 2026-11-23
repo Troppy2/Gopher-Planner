@@ -1,0 +1,1299 @@
+{
+ "schemaVersion": 2,
+ "id": "ojibwe-language-ba",
+ "name": "Ojibwe Language B.A.",
+ "officialName": "Ojibwe Language B.A.",
+ "officialProgramId": "220620217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Ojibwe Language B.A., revision 220620217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/220620217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/220620217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 220620217-2026-09-08"
+  },
+  "course-7914891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7914891",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3141, version 7914891-2019-01-22"
+  },
+  "course-7922211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922211",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5141, version 7922211-2015-01-20"
+  },
+  "course-8146491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8146491",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3604, version 8146491-2019-01-22"
+  },
+  "course-8011291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8011291",
+   "retrieved": "2026-11-23",
+   "section": "Course record OJIB 3103, version 8011291-2015-05-26"
+  },
+  "course-8011301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8011301",
+   "retrieved": "2026-11-23",
+   "section": "Course record OJIB 3104, version 8011301-2015-05-26"
+  },
+  "course-8009851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8009851",
+   "retrieved": "2026-11-23",
+   "section": "Course record OJIB 5106, version 8009851-2008-09-02"
+  },
+  "course-8009861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8009861",
+   "retrieved": "2026-11-23",
+   "section": "Course record OJIB 5109, version 8009861-2008-09-02"
+  },
+  "course-8142671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8142671",
+   "retrieved": "2026-11-23",
+   "section": "Course record OJIB 5202, version 8142671-2015-09-08"
+  },
+  "course-8188661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8188661",
+   "retrieved": "2026-11-23",
+   "section": "Course record OJIB 5250, version 8188661-2022-01-18"
+  },
+  "course-0086661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086661",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 1001, version 0086661-2019-09-03"
+  },
+  "course-7932461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7932461",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 1003, version 7932461-2010-09-07"
+  },
+  "course-8164611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164611",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3001, version 8164611-2022-09-06"
+  },
+  "course-7976781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976781",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 3003, version 7976781-2022-09-06"
+  },
+  "course-7933701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7933701",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3001, version 7933701-2022-09-06"
+  },
+  "course-7914861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7914861",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3107, version 7914861-2022-01-18"
+  },
+  "course-7922111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922111",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5107, version 7922111-2022-01-18"
+  },
+  "course-0080581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0080581",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3201W, version 0080581-2016-09-06"
+  },
+  "course-8098511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8098511",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3304, version 8098511-2014-01-21"
+  },
+  "course-8079501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8079501",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3312, version 8079501-2026-09-08"
+  },
+  "course-0084451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084451",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3401, version 0084451-2026-01-20"
+  },
+  "course-7944121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7944121",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3402, version 7944121-2016-09-06"
+  },
+  "course-7950341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7950341",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5402, version 7950341-2016-09-06"
+  },
+  "course-7894291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7894291",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3409, version 7894291-2026-01-20"
+  },
+  "course-7942781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7942781",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5409, version 7942781-2026-01-20"
+  },
+  "course-8101861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101861",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3602, version 8101861-2026-09-08"
+  },
+  "course-8189721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8189721",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5602, version 8189721-2026-09-08"
+  },
+  "course-0087371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087371",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3601, version 0087371-2026-09-08"
+  },
+  "course-8101221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8101221",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5601, version 8101221-2026-09-08"
+  },
+  "course-0101961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0101961",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3711, version 0101961-2013-09-03"
+  },
+  "course-7922841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922841",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3871, version 7922841-2010-09-07"
+  },
+  "course-0073331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0073331",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3871, version 0073331-2021-05-17"
+  },
+  "course-7922831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922831",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3872, version 7922831-2015-01-20"
+  },
+  "course-0072931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0072931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3872, version 0072931-2021-05-17"
+  },
+  "course-7955731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7955731",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3920, version 7955731-2024-05-13"
+  },
+  "course-8282971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8282971",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4101, version 8282971-2026-09-08"
+  },
+  "course-8034401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8034401",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 4101, version 8034401-2026-09-08"
+  },
+  "course-7971341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971341",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4231, version 7971341-2014-09-02"
+  },
+  "course-7974901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7974901",
+   "retrieved": "2026-11-23",
+   "section": "Course record AAS 4231, version 7974901-2014-09-02"
+  },
+  "course-0103391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0103391",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 4231, version 0103391-2014-09-02"
+  },
+  "course-7971351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971351",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 4231, version 7971351-2026-01-20"
+  },
+  "course-0086441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086441",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4511, version 0086441-2019-09-03"
+  },
+  "course-7889791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4525W, version 7889791-2019-01-22"
+  },
+  "course-7898391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7898391",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4525W, version 7898391-2019-01-22"
+  },
+  "course-0102841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102841",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4990, version 0102841-2020-01-21"
+  },
+  "course-0102891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102891",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4994, version 0102891-2015-05-26"
+  },
+  "course-0102901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102901",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4996, version 0102901-2015-01-20"
+  },
+  "course-8178301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178301",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5412, version 8178301-2026-01-20"
+  },
+  "course-8178311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178311",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMST 5412, version 8178311-2026-01-20"
+  },
+  "course-8178321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178321",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 5412, version 8178321-2026-01-20"
+  },
+  "course-8172051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172051",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 3412, version 8172051-2026-01-20"
+  },
+  "course-8176031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176031",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHLS 5412, version 8176031-2026-01-20"
+  },
+  "course-8178331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8178331",
+   "retrieved": "2026-11-23",
+   "section": "Course record GWSS 3515, version 8178331-2026-01-20"
+  },
+  "course-7970711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7970711",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5890, version 7970711-2025-01-21"
+  },
+  "course-0078121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078121",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 5890, version 0078121-2021-05-17"
+  },
+  "course-7887291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7887291",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 5920, version 7887291-2024-05-13"
+  },
+  "course-8256061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256061",
+   "retrieved": "2026-11-23",
+   "section": "Course record OJIB 5252, version 8256061-2022-01-18"
+  },
+  "course-8011271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8011271",
+   "retrieved": "2026-11-23",
+   "section": "Course record OJIB 1101, version 8011271-2016-09-06"
+  },
+  "course-8011281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8011281",
+   "retrieved": "2026-11-23",
+   "section": "Course record OJIB 1102, version 8011281-2016-09-06"
+  },
+  "course-8142681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8142681",
+   "retrieved": "2026-11-23",
+   "section": "Course record OJIB 5204W, version 8142681-2017-01-17"
+  }
+ },
+ "courseSets": {
+  "set-2UIqBct0": {
+   "codes": [
+    "AMIN 3141",
+    "AMIN 5141",
+    "AMIN 3604",
+    "OJIB 3103",
+    "OJIB 3104",
+    "OJIB 5106",
+    "OJIB 5109",
+    "OJIB 5202",
+    "OJIB 5250"
+   ],
+   "sourceRef": "program"
+  },
+  "set-396402": {
+   "codes": [
+    "AMIN 1001",
+    "AMIN 1003",
+    "AMIN 3001",
+    "AMST 3003",
+    "HIST 3001",
+    "AMIN 3107",
+    "AMIN 5107",
+    "AMIN 3201W",
+    "AMIN 3304",
+    "AMIN 3312",
+    "AMIN 3401",
+    "AMIN 3402",
+    "AMIN 5402",
+    "AMIN 3409",
+    "AMIN 5409",
+    "AMIN 3602",
+    "AMIN 5602",
+    "ANTH 3601",
+    "ANTH 5601",
+    "AMIN 3711",
+    "AMIN 3871",
+    "HIST 3871",
+    "AMIN 3872",
+    "HIST 3872",
+    "AMIN 3920",
+    "AMIN 4101",
+    "ANTH 4101",
+    "AMIN 4231",
+    "AAS 4231",
+    "AFRO 4231",
+    "CHLS 4231",
+    "AMIN 4511",
+    "AMIN 4525W",
+    "POL 4525W",
+    "AMIN 4990",
+    "AMIN 4994",
+    "AMIN 4996",
+    "AMIN 5412",
+    "AMST 5412",
+    "ANTH 5412",
+    "CHLS 3412",
+    "CHLS 5412",
+    "GWSS 3515",
+    "AMIN 5890",
+    "HIST 5890",
+    "AMIN 5920",
+    "OJIB 5250",
+    "OJIB 5252"
+   ],
+   "sourceRef": "program"
+  },
+  "set-396400": {
+   "codes": [
+    "OJIB 1101",
+    "OJIB 1102"
+   ],
+   "sourceRef": "program"
+  },
+  "set-euVhj5qe": {
+   "codes": [
+    "AMIN 3201W",
+    "AMIN 4525W",
+    "POL 4525W",
+    "OJIB 5204W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AAS 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7974901"
+   },
+   "sourceRef": "course-7974901"
+  },
+  "AFRO 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0103391"
+   },
+   "sourceRef": "course-0103391"
+  },
+  "AMIN 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to American Indian & Indigenous Peoples",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0086661"
+   },
+   "sourceRef": "course-0086661"
+  },
+  "AMIN 1003": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indians in Minnesota",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7932461"
+   },
+   "sourceRef": "course-7932461"
+  },
+  "AMIN 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164611"
+   },
+   "sourceRef": "course-8164611"
+  },
+  "AMIN 3107": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Structure of Anishinaabemowin: The Ojibwe Language",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7914861"
+   },
+   "sourceRef": "course-7914861"
+  },
+  "AMIN 3141": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Language Planning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7914891"
+   },
+   "sourceRef": "course-7914891"
+  },
+  "AMIN 3201W": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0080581"
+   },
+   "sourceRef": "course-0080581"
+  },
+  "AMIN 3304": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Filmmakers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8098511"
+   },
+   "sourceRef": "course-8098511"
+  },
+  "AMIN 3312": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Environmental Issues and Ecological Perspectives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8079501"
+   },
+   "sourceRef": "course-8079501"
+  },
+  "AMIN 3401": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Art",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0084451"
+   },
+   "sourceRef": "course-0084451"
+  },
+  "AMIN 3402": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indians and the Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7944121"
+   },
+   "sourceRef": "course-7944121"
+  },
+  "AMIN 3409": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Women of Turtle Island",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7894291"
+   },
+   "sourceRef": "course-7894291"
+  },
+  "AMIN 3602": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology and Native Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101861"
+   },
+   "sourceRef": "course-8101861"
+  },
+  "AMIN 3604": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Immersion Methods for the Home, Classroom, and Community",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8146491"
+   },
+   "sourceRef": "course-8146491"
+  },
+  "AMIN 3711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dakota Culture and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0101961"
+   },
+   "sourceRef": "course-0101961"
+  },
+  "AMIN 3871": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: Pre-Contact to 1830",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922841"
+   },
+   "sourceRef": "course-7922841"
+  },
+  "AMIN 3872": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: 1830 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922831"
+   },
+   "sourceRef": "course-7922831"
+  },
+  "AMIN 3920": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Studies Topics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7955731"
+   },
+   "sourceRef": "course-7955731"
+  },
+  "AMIN 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Decolonizing Archives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8282971"
+   },
+   "sourceRef": "course-8282971"
+  },
+  "AMIN 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans, & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971341"
+   },
+   "sourceRef": "course-7971341"
+  },
+  "AMIN 4511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Political Economies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1001"
+    },
+    "sourceRef": "course-0086441"
+   },
+   "sourceRef": "course-0086441"
+  },
+  "AMIN 4525W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Federal Indian Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889791"
+   },
+   "sourceRef": "course-7889791"
+  },
+  "AMIN 4990": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in American Indian Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0102841"
+   },
+   "sourceRef": "course-0102841"
+  },
+  "AMIN 4994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 12,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0102891"
+   },
+   "sourceRef": "course-0102891"
+  },
+  "AMIN 4996": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Study",
+   "minimumCredits": 1,
+   "maximumCredits": 12,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0102901"
+   },
+   "sourceRef": "course-0102901"
+  },
+  "AMIN 5107": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Structure of Anishinaabemowin: The Ojibwe Language",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7922111"
+   },
+   "sourceRef": "course-7922111"
+  },
+  "AMIN 5141": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Language Planning",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3103 or 3123 or instr consent"
+    },
+    "sourceRef": "course-7922211"
+   },
+   "sourceRef": "course-7922211"
+  },
+  "AMIN 5402": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indians and the Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7950341"
+   },
+   "sourceRef": "course-7950341"
+  },
+  "AMIN 5409": {
+   "catalogTerm": "Fall 2026",
+   "title": "Indigenous Women of Turtle Island",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7942781"
+   },
+   "sourceRef": "course-7942781"
+  },
+  "AMIN 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178301"
+   },
+   "sourceRef": "course-8178301"
+  },
+  "AMIN 5602": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology and Native Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8189721"
+   },
+   "sourceRef": "course-8189721"
+  },
+  "AMIN 5890": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in American Indian and Indigenous History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Advanced undergrad with instr consent or grad student"
+    },
+    "sourceRef": "course-7970711"
+   },
+   "sourceRef": "course-7970711"
+  },
+  "AMIN 5920": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in American Indian Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7887291"
+   },
+   "sourceRef": "course-7887291"
+  },
+  "AMST 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976781"
+   },
+   "sourceRef": "course-7976781"
+  },
+  "AMST 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178311"
+   },
+   "sourceRef": "course-8178311"
+  },
+  "ANTH 3601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology and Native Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0087371"
+   },
+   "sourceRef": "course-0087371"
+  },
+  "ANTH 4101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Decolonizing Archives",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8034401"
+   },
+   "sourceRef": "course-8034401"
+  },
+  "ANTH 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178321"
+   },
+   "sourceRef": "course-8178321"
+  },
+  "ANTH 5601": {
+   "catalogTerm": "Fall 2026",
+   "title": "Archaeology and Native Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8101221"
+   },
+   "sourceRef": "course-8101221"
+  },
+  "CHLS 3412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172051"
+   },
+   "sourceRef": "course-8172051"
+  },
+  "CHLS 4231": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color of Public Policy: African Americans, American Indians, Asian Americans & Chicanos in the U.S.",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971351"
+   },
+   "sourceRef": "course-7971351"
+  },
+  "CHLS 5412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8176031"
+   },
+   "sourceRef": "course-8176031"
+  },
+  "GWSS 3515": {
+   "catalogTerm": "Fall 2026",
+   "title": "Comparative Indigenous Feminisms of The Americas",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8178331"
+   },
+   "sourceRef": "course-8178331"
+  },
+  "HIST 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Public History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7933701"
+   },
+   "sourceRef": "course-7933701"
+  },
+  "HIST 3871": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: Pre-Contact to 1830",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0073331"
+   },
+   "sourceRef": "course-0073331"
+  },
+  "HIST 3872": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian History: 1830 to the Present",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0072931"
+   },
+   "sourceRef": "course-0072931"
+  },
+  "HIST 5890": {
+   "catalogTerm": "Fall 2026",
+   "title": "Readings in American Indian and Indigenous History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Advanced undergrad with instr consent or grad student"
+    },
+    "sourceRef": "course-0078121"
+   },
+   "sourceRef": "course-0078121"
+  },
+  "OJIB 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Ojibwe I",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8011271"
+   },
+   "sourceRef": "course-8011271"
+  },
+  "OJIB 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Ojibwe II",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101"
+    },
+    "sourceRef": "course-8011281"
+   },
+   "sourceRef": "course-8011281"
+  },
+  "OJIB 3103": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Ojibwe I",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101, 1102"
+    },
+    "sourceRef": "course-8011291"
+   },
+   "sourceRef": "course-8011291"
+  },
+  "OJIB 3104": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Ojibwe II",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1102, 1102,3103"
+    },
+    "sourceRef": "course-8011301"
+   },
+   "sourceRef": "course-8011301"
+  },
+  "OJIB 5106": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Ojibwe Language I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8009851"
+   },
+   "sourceRef": "course-8009851"
+  },
+  "OJIB 5109": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Ojibwe Language II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8009861"
+   },
+   "sourceRef": "course-8009861"
+  },
+  "OJIB 5202": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ojibwe Mastery I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8142671"
+   },
+   "sourceRef": "course-8142671"
+  },
+  "OJIB 5204W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ojibwe Mastery II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8142681"
+   },
+   "sourceRef": "course-8142681"
+  },
+  "OJIB 5250": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ojibwe Conversations 1",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8188661"
+   },
+   "sourceRef": "course-8188661"
+  },
+  "OJIB 5252": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ojibwe Conversations II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256061"
+   },
+   "sourceRef": "course-8256061"
+  },
+  "POL 4525W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Federal Indian Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7898391"
+   },
+   "sourceRef": "course-7898391"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-WDkqOMQw",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-2UIqBct0",
+    "type": "credits",
+    "courseSet": "set-2UIqBct0",
+    "minCredits": 28,
+    "sourceRef": "program",
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-220620217",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-396402",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-396402-credits",
+      "type": "credits",
+      "courseSet": "set-396402",
+      "minCredits": 3,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-396402-min",
+      "type": "count",
+      "courseSet": "set-396402",
+      "minCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Required Prerequisites",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-396400",
+    "type": "count",
+    "courseSet": "set-396400",
+    "maxCourses": 2,
+    "sourceRef": "program",
+    "label": "Prerequisite Courses"
+   }
+  },
+  {
+   "id": "g-GQpzeYBl",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-jsR0tEBt",
+    "type": "course",
+    "code": "OJIB 5204W",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-iKdGqbg3",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-euVhj5qe",
+    "type": "count",
+    "courseSet": "set-euVhj5qe",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Ojibwe language BA is OJIB.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nStudents are required to complete 4 semester(s) of Ojibwe with a grade of C-, or better, or demonstrate proficiency in the language(s) as defined by the department or college.\nAt least 15 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may combine the Ojibwe Language BA with any other minor or major offered through the Department of American Indian Studies, except the BA in American Indian Studies with the Language sub-plan in Ojibwe. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

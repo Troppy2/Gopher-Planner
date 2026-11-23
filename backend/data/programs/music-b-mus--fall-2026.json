@@ -1,0 +1,1520 @@
+{
+ "schemaVersion": 2,
+ "id": "music-b-mus",
+ "name": "Music B. Mus.",
+ "officialName": "Music B. Mus.",
+ "officialProgramId": "058024717",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Music B. Mus., revision 058024717-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/058024717, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/058024717",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 058024717-2026-09-08"
+  },
+  "course-0053381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053381",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1501, version 0053381-2023-09-05"
+  },
+  "course-0053391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053391",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1502, version 0053391-2023-09-05"
+  },
+  "course-7990261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990261",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1511, version 7990261-2023-09-05"
+  },
+  "course-7990271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7990271",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1512, version 7990271-2023-09-05"
+  },
+  "course-8262661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262661",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 4571, version 8262661-2023-09-05"
+  },
+  "course-8262971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 4572, version 8262971-2023-09-05"
+  },
+  "course-8263911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8263911",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 4573, version 8263911-2023-09-05"
+  },
+  "course-8262981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262981",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 4574, version 8262981-2023-09-05"
+  },
+  "course-8063981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8063981",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5333, version 8063981-2025-09-02"
+  },
+  "course-8256501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256501",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5531, version 8256501-2025-09-02"
+  },
+  "course-0054341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054341",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5541, version 0054341-2020-09-08"
+  },
+  "course-0052761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052761",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5571, version 0052761-2025-09-02"
+  },
+  "course-8114711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114711",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5732, version 8114711-2015-01-20"
+  },
+  "course-0070381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070381",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5950, version 0070381-2026-09-08"
+  },
+  "course-0070331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0070331",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1801W, version 0070331-2020-09-08"
+  },
+  "course-0079271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079271",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3601W, version 0079271-2020-09-08"
+  },
+  "course-0079281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079281",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3602W, version 0079281-2025-09-02"
+  },
+  "course-0079291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079291",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3603W, version 0079291-2025-09-02"
+  },
+  "course-0091821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091821",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3401, version 0091821-2020-09-08"
+  },
+  "course-0049131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049131",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1260, version 0049131-2017-01-17"
+  },
+  "course-0077611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077611",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1471, version 0077611-2008-09-02"
+  },
+  "course-0077621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0077621",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1472, version 0077621-2015-01-20"
+  },
+  "course-8200681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8200681",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1475, version 8200681-2020-01-21"
+  },
+  "course-8190531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8190531",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1593, version 8190531-2023-09-05"
+  },
+  "course-0084011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084011",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 1804, version 0084011-2017-01-17"
+  },
+  "course-0079171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079171",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3021, version 0079171-2022-01-18"
+  },
+  "course-8258761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8258761",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3301, version 8258761-2022-09-06"
+  },
+  "course-0023341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023341",
+   "retrieved": "2026-11-23",
+   "section": "Course record AFRO 3301, version 0023341-2022-09-06"
+  },
+  "course-0090231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090231",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5150, version 0090231-2020-09-08"
+  },
+  "course-0052421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052421",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5336, version 0052421-2025-09-02"
+  },
+  "course-0086091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086091",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5450, version 0086091-2015-01-20"
+  },
+  "course-8204891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8204891",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5451, version 8204891-2021-01-19"
+  },
+  "course-8169531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169531",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5534, version 8169531-2025-09-02"
+  },
+  "course-0053331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053331",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5561, version 0053331-2015-01-20"
+  },
+  "course-0052771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052771",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5572, version 0052771-2025-09-02"
+  },
+  "course-8271141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8271141",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5590, version 8271141-2026-09-08"
+  },
+  "course-0053321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0053321",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5591, version 0053321-2015-01-20"
+  },
+  "course-0091811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0091811",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5611, version 0091811-2015-01-20"
+  },
+  "course-0079241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0079241",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5620, version 0079241-2025-01-21"
+  },
+  "course-8030121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8030121",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5624, version 8030121-2025-09-02"
+  },
+  "course-8277891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277891",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5650, version 8277891-2026-05-18"
+  },
+  "course-8132051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8132051",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5731, version 8132051-2015-01-20"
+  },
+  "course-8255951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8255951",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5809, version 8255951-2022-01-18"
+  },
+  "course-8070061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8070061",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3200, version 8070061-2024-09-03"
+  },
+  "course-0052591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0052591",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3230, version 0052591-2015-01-20"
+  },
+  "course-0051821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051821",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3340, version 0051821-2015-01-20"
+  },
+  "course-0049171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0049171",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3350, version 0049171-2015-01-20"
+  },
+  "course-7933801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7933801",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3380, version 7933801-2018-09-04"
+  },
+  "course-7993341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7993341",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3400, version 7993341-2021-01-19"
+  },
+  "course-0086961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3410, version 0086961-2020-09-08"
+  },
+  "course-0069691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069691",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3420, version 0069691-2015-01-20"
+  },
+  "course-0090241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090241",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3430, version 0090241-2024-09-03"
+  },
+  "course-0069551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069551",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3440, version 0069551-2015-01-20"
+  },
+  "course-7923691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7923691",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 3490, version 7923691-2022-09-06"
+  },
+  "course-0093011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0093011",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5250, version 0093011-2015-01-20"
+  },
+  "course-0087971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0087971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5280, version 0087971-2015-01-20"
+  },
+  "course-7967791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7967791",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5460, version 7967791-2013-09-03"
+  },
+  "course-0069701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0069701",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5490, version 0069701-2015-01-20"
+  },
+  "course-8173431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173431",
+   "retrieved": "2026-11-23",
+   "section": "Course record MUS 5494, version 8173431-2026-09-08"
+  }
+ },
+ "courseSets": {
+  "set-VKUWHbUT": {
+   "codes": [
+    "MUS 1501",
+    "MUS 1502",
+    "MUS 1511",
+    "MUS 1512"
+   ],
+   "sourceRef": "program"
+  },
+  "set-JvYaE4eT": {
+   "codes": [
+    "MUS 4571",
+    "MUS 4572",
+    "MUS 4573",
+    "MUS 4574",
+    "MUS 5333",
+    "MUS 5531",
+    "MUS 5541",
+    "MUS 5571",
+    "MUS 5732",
+    "MUS 5950"
+   ],
+   "sourceRef": "program"
+  },
+  "set-I3kHDllM": {
+   "codes": [
+    "MUS 1801W",
+    "MUS 3601W",
+    "MUS 3602W",
+    "MUS 3603W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-h6sFd9Kl": {
+   "codes": [
+    "MUS 1260",
+    "MUS 1471",
+    "MUS 1472",
+    "MUS 1475",
+    "MUS 1593",
+    "MUS 1804",
+    "MUS 3021",
+    "MUS 3301",
+    "AFRO 3301",
+    "MUS 5150",
+    "MUS 5333",
+    "MUS 5336",
+    "MUS 5450",
+    "MUS 5451",
+    "MUS 5531",
+    "MUS 5534",
+    "MUS 5561",
+    "MUS 5572",
+    "MUS 5590",
+    "MUS 5591",
+    "MUS 5611",
+    "MUS 5620",
+    "MUS 5624",
+    "MUS 5650",
+    "MUS 5731",
+    "MUS 5809",
+    "MUS 5950"
+   ],
+   "sourceRef": "program"
+  },
+  "set-w0jyrZsc": {
+   "codes": [
+    "MUS 3200",
+    "MUS 3230",
+    "MUS 3340",
+    "MUS 3350",
+    "MUS 3380",
+    "MUS 3400",
+    "MUS 3410",
+    "MUS 3420",
+    "MUS 3430",
+    "MUS 3440",
+    "MUS 3490",
+    "MUS 5250",
+    "MUS 5280",
+    "MUS 5460",
+    "MUS 5490",
+    "MUS 5494"
+   ],
+   "sourceRef": "program"
+  },
+  "set-434034": {
+   "codes": [
+    "MUS 3601W",
+    "MUS 3602W",
+    "MUS 3603W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AFRO 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Music of Black Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0023341"
+   },
+   "sourceRef": "course-0023341"
+  },
+  "MUS 1260": {
+   "catalogTerm": "Fall 2026",
+   "title": "Voice Class",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Basic musicianship for learning and performing simple songs. In this context, basic musicianship means:"
+    },
+    "sourceRef": "course-0049131"
+   },
+   "sourceRef": "course-0049131"
+  },
+  "MUS 1471": {
+   "catalogTerm": "Fall 2026",
+   "title": "Guitar: Class Lessons I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0077611"
+   },
+   "sourceRef": "course-0077611"
+  },
+  "MUS 1472": {
+   "catalogTerm": "Fall 2026",
+   "title": "Guitar: Class Lessons II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1471 or instr consent"
+    },
+    "sourceRef": "course-0077621"
+   },
+   "sourceRef": "course-0077621"
+  },
+  "MUS 1475": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Ukulele",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8200681"
+   },
+   "sourceRef": "course-8200681"
+  },
+  "MUS 1501": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory and Analysis of Tonal Music I",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "course must be taken concurrently w/ MUS 1511."
+    },
+    "sourceRef": "course-0053381"
+   },
+   "sourceRef": "course-0053381"
+  },
+  "MUS 1502": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory and Analysis of Tonal Music II",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MUS 1501 and MUS 1511 with grade of at least C-"
+    },
+    "sourceRef": "course-0053391"
+   },
+   "sourceRef": "course-0053391"
+  },
+  "MUS 1511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ear-Training and Sight-Singing I",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "students must concurrently enroll in MUS 1501 Theory and Analysis of Tonal Music I"
+    },
+    "sourceRef": "course-7990261"
+   },
+   "sourceRef": "course-7990261"
+  },
+  "MUS 1512": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ear-Training and Sight-Singing II",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MUS 1501 and MUS 1511 with grades of at least C-; concurrently enroll in MUS 1502 Theory and Analysis of Tonal Music II"
+    },
+    "sourceRef": "course-7990271"
+   },
+   "sourceRef": "course-7990271"
+  },
+  "MUS 1593": {
+   "catalogTerm": "Fall 2026",
+   "title": "Making Music With Computers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8190531"
+   },
+   "sourceRef": "course-8190531"
+  },
+  "MUS 1801W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Music, Society, and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Registration for this course is open until the first day of class, at which point instructor consent will be required."
+    },
+    "sourceRef": "course-0070331"
+   },
+   "sourceRef": "course-0070331"
+  },
+  "MUS 1804": {
+   "catalogTerm": "Fall 2026",
+   "title": "World Music",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Registration for this course is open until the first day of class, at which point instructor consent will be required."
+    },
+    "sourceRef": "course-0084011"
+   },
+   "sourceRef": "course-0084011"
+  },
+  "MUS 3021": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Music",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0079171"
+   },
+   "sourceRef": "course-0079171"
+  },
+  "MUS 3200": {
+   "catalogTerm": "Fall 2026",
+   "title": "Campus Singers",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8070061"
+   },
+   "sourceRef": "course-8070061"
+  },
+  "MUS 3230": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chorus",
+   "minimumCredits": 1,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Choral and/or instrumental music background, audition, instr consent"
+    },
+    "sourceRef": "course-0052591"
+   },
+   "sourceRef": "course-0052591"
+  },
+  "MUS 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Music of Black Americans",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8258761"
+   },
+   "sourceRef": "course-8258761"
+  },
+  "MUS 3340": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jazz Ensemble",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Audition, instr consent"
+    },
+    "sourceRef": "course-0051821"
+   },
+   "sourceRef": "course-0051821"
+  },
+  "MUS 3350": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jazz Combo",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Audition, instr consent"
+    },
+    "sourceRef": "course-0049171"
+   },
+   "sourceRef": "course-0049171"
+  },
+  "MUS 3380": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gospel Choir",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Although no audition is required, all students will be heard privately by the instructor during the first week of class for voice placement in the choir. Additionally, a survey will be taken at the beginning of the semester to assess students' prior musical experiences."
+    },
+    "sourceRef": "course-7933801"
+   },
+   "sourceRef": "course-7933801"
+  },
+  "MUS 3400": {
+   "catalogTerm": "Fall 2026",
+   "title": "University and Campus Bands",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7993341"
+   },
+   "sourceRef": "course-7993341"
+  },
+  "MUS 3401": {
+   "catalogTerm": "Fall 2026",
+   "title": "Basic Conducting",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MUS 1502 (Theory and Analysis of Tonal Music II), music major, music minor, or instructor approval"
+    },
+    "sourceRef": "course-0091821"
+   },
+   "sourceRef": "course-0091821"
+  },
+  "MUS 3410": {
+   "catalogTerm": "Fall 2026",
+   "title": "University Wind Bands",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Audition, instr consent"
+    },
+    "sourceRef": "course-0086961"
+   },
+   "sourceRef": "course-0086961"
+  },
+  "MUS 3420": {
+   "catalogTerm": "Fall 2026",
+   "title": "Orchestra",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Audition, instr consent"
+    },
+    "sourceRef": "course-0069691"
+   },
+   "sourceRef": "course-0069691"
+  },
+  "MUS 3430": {
+   "catalogTerm": "Fall 2026",
+   "title": "Campus Orchestra",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0090241"
+   },
+   "sourceRef": "course-0090241"
+  },
+  "MUS 3440": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chamber Ensemble",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0069551"
+   },
+   "sourceRef": "course-0069551"
+  },
+  "MUS 3490": {
+   "catalogTerm": "Fall 2026",
+   "title": "Athletics Bands",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7923691"
+   },
+   "sourceRef": "course-7923691"
+  },
+  "MUS 3601W": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Western Music I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MUS 1501"
+      },
+      {
+       "type": "course",
+       "course_code": "MUS 1511"
+      }
+     ]
+    },
+    "sourceRef": "course-0079271"
+   },
+   "sourceRef": "course-0079271"
+  },
+  "MUS 3602W": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Western Music II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MUS 1502, MUS 1512, and MUS 3601 OR instr consent"
+    },
+    "sourceRef": "course-0079281"
+   },
+   "sourceRef": "course-0079281"
+  },
+  "MUS 3603W": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Western Music III",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[MUS 3602W] with grades of at least C-"
+    },
+    "sourceRef": "course-0079291"
+   },
+   "sourceRef": "course-0079291"
+  },
+  "MUS 4571": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chromatic Harmony and Form in Western Art Music 1700-1900",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "undergraduate- MUS 1502 and MUS 1512 with grade of at least C- or higher"
+    },
+    "sourceRef": "course-8262661"
+   },
+   "sourceRef": "course-8262661"
+  },
+  "MUS 4572": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory and Analysis of Popular Music",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "undergraduate- MUS 1502 and MUS 1512 with grade of at least C- or higher"
+    },
+    "sourceRef": "course-8262971"
+   },
+   "sourceRef": "course-8262971"
+  },
+  "MUS 4573": {
+   "catalogTerm": "Fall 2026",
+   "title": "Post-Tonal Theory and Ear-Training",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "undergraduate- MUS 1502 and MUS 1512 with grade of at least C- or higher"
+    },
+    "sourceRef": "course-8263911"
+   },
+   "sourceRef": "course-8263911"
+  },
+  "MUS 4574": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jazz Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262981"
+   },
+   "sourceRef": "course-8262981"
+  },
+  "MUS 5150": {
+   "catalogTerm": "Fall 2026",
+   "title": "Body Awareness in Activity: The Alexander Technique for Musicians",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0090231"
+   },
+   "sourceRef": "course-0090231"
+  },
+  "MUS 5250": {
+   "catalogTerm": "Fall 2026",
+   "title": "Opera Workshop and Ensemble",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "audition, instr consent"
+    },
+    "sourceRef": "course-0093011"
+   },
+   "sourceRef": "course-0093011"
+  },
+  "MUS 5280": {
+   "catalogTerm": "Fall 2026",
+   "title": "Opera Theatre",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "audition, instr consent"
+    },
+    "sourceRef": "course-0087971"
+   },
+   "sourceRef": "course-0087971"
+  },
+  "MUS 5333": {
+   "catalogTerm": "Fall 2026",
+   "title": "Music After 1945",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "MUS 4573"
+    },
+    "sourceRef": "course-8063981"
+   },
+   "sourceRef": "course-8063981"
+  },
+  "MUS 5336": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jazz Arranging",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "MUS 4574"
+    },
+    "sourceRef": "course-0052421"
+   },
+   "sourceRef": "course-0052421"
+  },
+  "MUS 5450": {
+   "catalogTerm": "Fall 2026",
+   "title": "Orchestral Repertoire",
+   "minimumCredits": 1,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0086091"
+   },
+   "sourceRef": "course-0086091"
+  },
+  "MUS 5451": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Studio Resources and Administration",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8204891"
+   },
+   "sourceRef": "course-8204891"
+  },
+  "MUS 5460": {
+   "catalogTerm": "Fall 2026",
+   "title": "World Music Ensemble",
+   "minimumCredits": 1,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7967791"
+   },
+   "sourceRef": "course-7967791"
+  },
+  "MUS 5490": {
+   "catalogTerm": "Fall 2026",
+   "title": "Percussion Ensemble",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0069701"
+   },
+   "sourceRef": "course-0069701"
+  },
+  "MUS 5494": {
+   "catalogTerm": "Fall 2026",
+   "title": "Afrobeat(s) Arkestra",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173431"
+   },
+   "sourceRef": "course-8173431"
+  },
+  "MUS 5531": {
+   "catalogTerm": "Fall 2026",
+   "title": "Theory and Analysis of Rock and Popular Music",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256501"
+   },
+   "sourceRef": "course-8256501"
+  },
+  "MUS 5534": {
+   "catalogTerm": "Fall 2026",
+   "title": "Musical Minimalisms",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "MUS 4573"
+    },
+    "sourceRef": "course-8169531"
+   },
+   "sourceRef": "course-8169531"
+  },
+  "MUS 5541": {
+   "catalogTerm": "Fall 2026",
+   "title": "16th-Century Counterpoint",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[3501, 3508] or pass basic skills exam"
+    },
+    "sourceRef": "course-0054341"
+   },
+   "sourceRef": "course-0054341"
+  },
+  "MUS 5561": {
+   "catalogTerm": "Fall 2026",
+   "title": "Orchestration I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3502"
+    },
+    "sourceRef": "course-0053331"
+   },
+   "sourceRef": "course-0053331"
+  },
+  "MUS 5571": {
+   "catalogTerm": "Fall 2026",
+   "title": "Linear Analysis for Performers",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "MUS 4571"
+    },
+    "sourceRef": "course-0052761"
+   },
+   "sourceRef": "course-0052761"
+  },
+  "MUS 5572": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chromatic Harmony",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "MUS 4571"
+    },
+    "sourceRef": "course-0052771"
+   },
+   "sourceRef": "course-0052771"
+  },
+  "MUS 5590": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Music Theory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8271141"
+   },
+   "sourceRef": "course-8271141"
+  },
+  "MUS 5591": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Music Information Technology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Music grad student or instr consent"
+    },
+    "sourceRef": "course-0053321"
+   },
+   "sourceRef": "course-0053321"
+  },
+  "MUS 5611": {
+   "catalogTerm": "Fall 2026",
+   "title": "Resources for Music Research",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3603"
+    },
+    "sourceRef": "course-0091811"
+   },
+   "sourceRef": "course-0091811"
+  },
+  "MUS 5620": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Opera History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0079241"
+   },
+   "sourceRef": "course-0079241"
+  },
+  "MUS 5624": {
+   "catalogTerm": "Fall 2026",
+   "title": "Music of J. S. Bach",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student in music or MUS 3602W"
+    },
+    "sourceRef": "course-8030121"
+   },
+   "sourceRef": "course-8030121"
+  },
+  "MUS 5650": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Music History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277891"
+   },
+   "sourceRef": "course-8277891"
+  },
+  "MUS 5731": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jazz and Modernism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Graduate student in music or instr consent"
+    },
+    "sourceRef": "course-8132051"
+   },
+   "sourceRef": "course-8132051"
+  },
+  "MUS 5732": {
+   "catalogTerm": "Fall 2026",
+   "title": "Free Jazz: From Structure to Gesture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grad student in music or instr consent"
+    },
+    "sourceRef": "course-8114711"
+   },
+   "sourceRef": "course-8114711"
+  },
+  "MUS 5809": {
+   "catalogTerm": "Fall 2026",
+   "title": "What Do Voices Do?",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8255951"
+   },
+   "sourceRef": "course-8255951"
+  },
+  "MUS 5950": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Music",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0070381"
+   },
+   "sourceRef": "course-0070381"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-Y7KApMiE",
+   "label": "Music Theory and Ear Training",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-SuyiACVW",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-VKUWHbUT",
+      "type": "credits",
+      "courseSet": "set-VKUWHbUT",
+      "minCredits": 6,
+      "sourceRef": "program",
+      "label": "Lower Division"
+     },
+     {
+      "id": "r-JvYaE4eT",
+      "type": "credits",
+      "courseSet": "set-JvYaE4eT",
+      "minCredits": 12,
+      "sourceRef": "program",
+      "label": "Upper Division"
+     }
+    ],
+    "label": "Music Theory and Ear Training"
+   }
+  },
+  {
+   "id": "g-pgKpPVik",
+   "label": "Musicology / Ethnomusicology",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-I3kHDllM",
+    "type": "credits",
+    "courseSet": "set-I3kHDllM",
+    "minCredits": 12,
+    "sourceRef": "program",
+    "label": "Musicology / Ethnomusicology"
+   }
+  },
+  {
+   "id": "g-ujhIfhXd",
+   "label": "Conducting",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-NdDjjOn8",
+    "type": "course",
+    "code": "MUS 3401",
+    "sourceRef": "program",
+    "label": "Conducting"
+   }
+  },
+  {
+   "id": "g-uffW4IzK",
+   "label": "Academic and Performance Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-zH9T9NvH",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-h6sFd9Kl",
+      "type": "credits",
+      "courseSet": "set-h6sFd9Kl",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Academic Electives"
+     },
+     {
+      "id": "r-w0jyrZsc",
+      "type": "credits",
+      "courseSet": "set-w0jyrZsc",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Performance Electives"
+     }
+    ],
+    "label": "Academic and Performance Electives"
+   }
+  },
+  {
+   "id": "g-9Igr9vL3",
+   "label": "Capstone - Recital",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-5uF2J9NJ",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Capstone lists courses that could not be resolved. Verify this requirement with your advisor or APAS.",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-058024717",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-434034",
+    "type": "count",
+    "courseSet": "set-434034",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nStudents may earn no more than one undergraduate degree from the School of Music: a BA or a B.Mus or a minor. Students may earn more than one major within the B.Mus degree, but may not earn more than one emphasis within the BA degree.\nStudents are required to complete a sub-plan. Students may complete more than one sub-plan with prior approval from the School of Music. Note that an additional audition may be required.\nFor students in the Guitar, Harp, and Piano sub-plans, at least 24 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nFor students in the Organ, and Voice sub-plans, at least 27 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nFor students in the String, Woodwind, Brass, Percussion sub-plan, at least 26 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Admission to the B. Mus in performance is contingent upon passing an audition on a primary instrument. Auditions are highly competitive with students normally having studied their instrument with a one-on-one instructor for a number of years. Learn more about the School of Music application and audition requirements. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Classical Guitar, Harp, Organ, Piano, String, Woodwind, Brass, Percussion, Voice. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

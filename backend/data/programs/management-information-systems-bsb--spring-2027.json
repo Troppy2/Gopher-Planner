@@ -1,0 +1,1712 @@
+{
+ "schemaVersion": 2,
+ "id": "management-information-systems-bsb",
+ "name": "Management Information Systems B.S.B.",
+ "officialName": "Management Information Systems B.S.B.",
+ "officialProgramId": "102420502",
+ "catalogTerm": "Spring 2027",
+ "totalCredits": 120,
+ "source": "Management Information Systems B.S.B., revision 102420502-2027-01-19, https://umtc.catalog.prod.coursedog.com/programs/102420502, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/102420502",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 102420502-2027-01-19"
+  },
+  "course-0131031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131031",
+   "retrieved": "2026-11-23",
+   "section": "Course record ACCT 2051, version 0131031-2022-09-06"
+  },
+  "course-7983851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7983851",
+   "retrieved": "2026-11-23",
+   "section": "Course record ACCT 2051H, version 7983851-2022-09-06"
+  },
+  "course-0133311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133311",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2051, version 0133311-2024-09-03"
+  },
+  "course-0138051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138051",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2551, version 0138051-2022-09-06"
+  },
+  "course-8257721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8257721",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1165, version 8257721-2024-09-03"
+  },
+  "course-0099201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1101, version 0099201-2024-09-03"
+  },
+  "course-0062811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062811",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1101, version 0062811-2024-09-03"
+  },
+  "course-8016471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016471",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 1011, version 8016471-2022-09-06"
+  },
+  "course-8256821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256821",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 1021, version 8256821-2025-09-02"
+  },
+  "course-8278521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278521",
+   "retrieved": "2026-11-23",
+   "section": "Course record IBUS 1021, version 8278521-2026-09-08"
+  },
+  "course-8093621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8093621",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2005, version 8093621-2022-09-06"
+  },
+  "course-8114371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114371",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2005H, version 8114371-2022-09-06"
+  },
+  "course-7896181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7896181",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2021, version 7896181-2022-09-06"
+  },
+  "course-8191781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8191781",
+   "retrieved": "2026-11-23",
+   "section": "Course record IBUS 2021, version 8191781-2023-01-17"
+  },
+  "course-8256831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256831",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 2062, version 8256831-2026-09-08"
+  },
+  "course-0133221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133221",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 3033W, version 0133221-2025-01-21"
+  },
+  "course-8086631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8086631",
+   "retrieved": "2026-11-23",
+   "section": "Course record IBUS 3033W, version 8086631-2021-01-19"
+  },
+  "course-8256841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256841",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 3051, version 8256841-2023-09-05"
+  },
+  "course-8256941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256941",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 3062, version 8256941-2025-01-21"
+  },
+  "course-8273101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8273101",
+   "retrieved": "2026-11-23",
+   "section": "Course record IBUS 3062, version 8273101-2025-01-21"
+  },
+  "course-8256851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256851",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 3551, version 8256851-2022-09-06"
+  },
+  "course-0131181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131181",
+   "retrieved": "2026-11-23",
+   "section": "Course record FINA 3001, version 0131181-2024-09-03"
+  },
+  "course-8160601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8160601",
+   "retrieved": "2026-11-23",
+   "section": "Course record FINA 3001H, version 8160601-2024-09-03"
+  },
+  "course-0131341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131341",
+   "retrieved": "2026-11-23",
+   "section": "Course record HRIR 3021, version 0131341-2022-09-06"
+  },
+  "course-8112691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8112691",
+   "retrieved": "2026-11-23",
+   "section": "Course record HRIR 3021H, version 8112691-2023-01-17"
+  },
+  "course-8016891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8016891",
+   "retrieved": "2026-11-23",
+   "section": "Course record MGMT 3004, version 8016891-2022-09-06"
+  },
+  "course-0131311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131311",
+   "retrieved": "2026-11-23",
+   "section": "Course record SCO 3001, version 0131311-2022-09-06"
+  },
+  "course-0131131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131131",
+   "retrieved": "2026-11-23",
+   "section": "Course record ACCT 3001, version 0131131-2026-01-20"
+  },
+  "course-8255901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8255901",
+   "retrieved": "2026-11-23",
+   "section": "Course record BA 3001, version 8255901-2026-01-20"
+  },
+  "course-0131321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131321",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3001, version 0131321-2023-09-05"
+  },
+  "course-8035751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8035751",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3001H, version 8035751-2021-09-07"
+  },
+  "course-0131271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0131271",
+   "retrieved": "2026-11-23",
+   "section": "Course record MKTG 3001, version 0131271-2022-09-06"
+  },
+  "course-8176411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176411",
+   "retrieved": "2026-11-23",
+   "section": "Course record MKTG 3001H, version 8176411-2022-09-06"
+  },
+  "course-8020061": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020061",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3101, version 8020061-2026-01-20"
+  },
+  "course-8020071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020071",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3102, version 8020071-2026-01-20"
+  },
+  "course-8020081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020081",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3103, version 8020081-2026-01-20"
+  },
+  "course-8020091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020091",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3104, version 8020091-2026-01-20"
+  },
+  "course-8276971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8276971",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3105, version 8276971-2026-01-20"
+  },
+  "course-0138551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138551",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3202, version 0138551-2026-01-20"
+  },
+  "course-0138571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138571",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 4204W, version 0138571-2026-01-20"
+  },
+  "course-8183921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8183921",
+   "retrieved": "2026-11-23",
+   "section": "Course record IBUS 3055, version 8183921-2026-01-20"
+  },
+  "course-8200701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8200701",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 3511, version 8200701-2026-01-20"
+  },
+  "course-8197081": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197081",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 4501, version 8197081-2026-01-20"
+  },
+  "course-8020101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020101",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 4301, version 8020101-2026-01-20"
+  },
+  "course-7983301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7983301",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 4401, version 7983301-2026-01-20"
+  },
+  "course-8020111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8020111",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 4411, version 8020111-2026-09-08"
+  },
+  "course-0138611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0138611",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 4441, version 0138611-2026-01-20"
+  },
+  "course-8186491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8186491",
+   "retrieved": "2026-11-23",
+   "section": "Course record IDSC 4471, version 8186491-2026-01-20"
+  }
+ },
+ "courseSets": {
+  "set-408778": {
+   "codes": [
+    "ACCT 2051",
+    "ACCT 2051H",
+    "BA 2051",
+    "BA 2551",
+    "ECON 1165",
+    "ECON 1101",
+    "APEC 1101"
+   ],
+   "sourceRef": "program"
+  },
+  "set-gF3ieVqk": {
+   "codes": [
+    "BA 1011",
+    "BA 1021",
+    "IBUS 1021",
+    "BA 2005",
+    "BA 2005H",
+    "BA 2021",
+    "IBUS 2021",
+    "BA 2062",
+    "BA 3033W",
+    "IBUS 3033W",
+    "BA 3051",
+    "BA 3062",
+    "IBUS 3062",
+    "BA 3551"
+   ],
+   "sourceRef": "program"
+  },
+  "set-2AJbmNoH": {
+   "codes": [
+    "FINA 3001",
+    "FINA 3001H",
+    "HRIR 3021",
+    "HRIR 3021H",
+    "MGMT 3004",
+    "SCO 3001"
+   ],
+   "sourceRef": "program"
+  },
+  "set-wtJk9346": {
+   "codes": [
+    "ACCT 3001",
+    "BA 3001",
+    "IDSC 3001",
+    "IDSC 3001H",
+    "MKTG 3001",
+    "MKTG 3001H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-8azyL46J": {
+   "codes": [
+    "IDSC 3101",
+    "IDSC 3102",
+    "IDSC 3103",
+    "IDSC 3104",
+    "IDSC 3105",
+    "IDSC 3202",
+    "IDSC 4204W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-5P94s4RW": {
+   "codes": [
+    "IBUS 3055",
+    "IDSC 3511",
+    "IDSC 4501",
+    "IDSC 4301",
+    "IDSC 4401",
+    "IDSC 4411",
+    "IDSC 4441",
+    "IDSC 4471"
+   ],
+   "sourceRef": "program"
+  },
+  "set-cWYvFjja": {
+   "codes": [
+    "IDSC 4204W",
+    "BA 3033W",
+    "IBUS 3033W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ACCT 2051": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Financial Reporting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131031"
+   },
+   "sourceRef": "course-0131031"
+  },
+  "ACCT 2051H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Introduction to Financial Reporting",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7983851"
+   },
+   "sourceRef": "course-7983851"
+  },
+  "ACCT 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Strategic Management Accounting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "ACCT 2051"
+      },
+      {
+       "type": "course",
+       "course_code": "ACCT 2051H"
+      },
+      {
+       "type": "course",
+       "course_code": "ACCT 2050"
+      }
+     ]
+    },
+    "sourceRef": "course-0131131"
+   },
+   "sourceRef": "course-0131131"
+  },
+  "APEC 1101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062811"
+   },
+   "sourceRef": "course-0062811"
+  },
+  "BA 1011": {
+   "catalogTerm": "Spring 2027",
+   "title": "Leading Self  & Teams",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Carlson School of Management student"
+    },
+    "sourceRef": "course-8016471"
+   },
+   "sourceRef": "course-8016471"
+  },
+  "BA 1021": {
+   "catalogTerm": "Spring 2027",
+   "title": "Design Your Life",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Carlson School of Management student"
+    },
+    "sourceRef": "course-8256821"
+   },
+   "sourceRef": "course-8256821"
+  },
+  "BA 2005": {
+   "catalogTerm": "Spring 2027",
+   "title": "Business Ethics, Corporate Responsibility & Sustainability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8093621"
+   },
+   "sourceRef": "course-8093621"
+  },
+  "BA 2005H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Business Ethics, Corporate Responsibility and Sustainability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student"
+    },
+    "sourceRef": "course-8114371"
+   },
+   "sourceRef": "course-8114371"
+  },
+  "BA 2021": {
+   "catalogTerm": "Spring 2027",
+   "title": "Design Your Career",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Carlson School undergraduate student"
+    },
+    "sourceRef": "course-7896181"
+   },
+   "sourceRef": "course-7896181"
+  },
+  "BA 2051": {
+   "catalogTerm": "Spring 2027",
+   "title": "Modeling Business Scenarios in Excel",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0133311"
+   },
+   "sourceRef": "course-0133311"
+  },
+  "BA 2062": {
+   "catalogTerm": "Spring 2027",
+   "title": "Impact Lab Problem Solving",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256831"
+   },
+   "sourceRef": "course-8256831"
+  },
+  "BA 2551": {
+   "catalogTerm": "Spring 2027",
+   "title": "Business Statistics in R",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Math 1031 or equiv]"
+    },
+    "sourceRef": "course-0138051"
+   },
+   "sourceRef": "course-0138051"
+  },
+  "BA 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Race, Power, and Justice in Business",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Carlson School of Management student"
+    },
+    "sourceRef": "course-8255901"
+   },
+   "sourceRef": "course-8255901"
+  },
+  "BA 3033W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Business Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "First Year Writing, CSOM mjr or NONM"
+    },
+    "sourceRef": "course-0133221"
+   },
+   "sourceRef": "course-0133221"
+  },
+  "BA 3051": {
+   "catalogTerm": "Spring 2027",
+   "title": "Data-Driven Business Decisions",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256841"
+   },
+   "sourceRef": "course-8256841"
+  },
+  "BA 3062": {
+   "catalogTerm": "Spring 2027",
+   "title": "Impact Lab in Action",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Carlson School of Management student, BA 1011, BA 2062, non-FRFY"
+    },
+    "sourceRef": "course-8256941"
+   },
+   "sourceRef": "course-8256941"
+  },
+  "BA 3551": {
+   "catalogTerm": "Spring 2027",
+   "title": "Business Analytics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256851"
+   },
+   "sourceRef": "course-8256851"
+  },
+  "ECON 1101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099201"
+   },
+   "sourceRef": "course-0099201"
+  },
+  "ECON 1165": {
+   "catalogTerm": "Spring 2027",
+   "title": "Business Economics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8257721"
+   },
+   "sourceRef": "course-8257721"
+  },
+  "FINA 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Finance Fundamentals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ACCT 2050 or ACCT 2051 or ACCT 2051H; SCO 2550 or BA 2551 or equivalent statistics course"
+    },
+    "sourceRef": "course-0131181"
+   },
+   "sourceRef": "course-0131181"
+  },
+  "FINA 3001H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Finance Fundamentals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Acct 2050 or Acct 2051, SCO 2550 or BA 2551 or equivalent statistics course"
+    },
+    "sourceRef": "course-8160601"
+   },
+   "sourceRef": "course-8160601"
+  },
+  "HRIR 3021": {
+   "catalogTerm": "Spring 2027",
+   "title": "Human Capital Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131341"
+   },
+   "sourceRef": "course-0131341"
+  },
+  "HRIR 3021H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Human Capital Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8112691"
+   },
+   "sourceRef": "course-8112691"
+  },
+  "IBUS 1021": {
+   "catalogTerm": "Spring 2027",
+   "title": "Design Your Life in a Global Context",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Carlson School of Management undergraduate student"
+    },
+    "sourceRef": "course-8278521"
+   },
+   "sourceRef": "course-8278521"
+  },
+  "IBUS 2021": {
+   "catalogTerm": "Spring 2027",
+   "title": "Design Your Career in a Global Context",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Carlson School undergraduate student"
+    },
+    "sourceRef": "course-8191781"
+   },
+   "sourceRef": "course-8191781"
+  },
+  "IBUS 3033W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Business Communication in a Global Context",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Fr composition, CSOM upper-div, at least 60 cr"
+    },
+    "sourceRef": "course-8086631"
+   },
+   "sourceRef": "course-8086631"
+  },
+  "IBUS 3055": {
+   "catalogTerm": "Spring 2027",
+   "title": "AI & Tech Entrepreneurship",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8183921"
+   },
+   "sourceRef": "course-8183921"
+  },
+  "IBUS 3062": {
+   "catalogTerm": "Spring 2027",
+   "title": "Global Impact Lab in Action - Solving Wicked Cross-Cultural Problems",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Carlson School of Management student;  BA 1011: Leading Self & Teams; BA 2062: Impact Lab Problem Solving"
+    },
+    "sourceRef": "course-8273101"
+   },
+   "sourceRef": "course-8273101"
+  },
+  "IDSC 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Information Systems & Digital Transformation",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131321"
+   },
+   "sourceRef": "course-0131321"
+  },
+  "IDSC 3001H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Information Systems for Business Processes and Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8035751"
+   },
+   "sourceRef": "course-8035751"
+  },
+  "IDSC 3101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Programming",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8020061"
+   },
+   "sourceRef": "course-8020061"
+  },
+  "IDSC 3102": {
+   "catalogTerm": "Spring 2027",
+   "title": "Intermediate Programming",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "IDSC 3101"
+      },
+      {
+       "type": "course",
+       "course_code": "CSCI 1133"
+      }
+     ]
+    },
+    "sourceRef": "course-8020071"
+   },
+   "sourceRef": "course-8020071"
+  },
+  "IDSC 3103": {
+   "catalogTerm": "Spring 2027",
+   "title": "Data Modeling and Databases",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8020081"
+   },
+   "sourceRef": "course-8020081"
+  },
+  "IDSC 3104": {
+   "catalogTerm": "Spring 2027",
+   "title": "Enterprise Systems",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8020091"
+   },
+   "sourceRef": "course-8020091"
+  },
+  "IDSC 3105": {
+   "catalogTerm": "Spring 2027",
+   "title": "Information Technology Infrastructure",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "IDSC 3001"
+    },
+    "sourceRef": "course-8276971"
+   },
+   "sourceRef": "course-8276971"
+  },
+  "IDSC 3202": {
+   "catalogTerm": "Spring 2027",
+   "title": "Analysis and Modeling of Business Systems",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0138551"
+   },
+   "sourceRef": "course-0138551"
+  },
+  "IDSC 3511": {
+   "catalogTerm": "Spring 2027",
+   "title": "Pitching Business Strategy",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8200701"
+   },
+   "sourceRef": "course-8200701"
+  },
+  "IDSC 4204W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Strategic Information Technology Management",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "IDSC 3202"
+    },
+    "sourceRef": "course-0138571"
+   },
+   "sourceRef": "course-0138571"
+  },
+  "IDSC 4301": {
+   "catalogTerm": "Spring 2027",
+   "title": "Management Information Systems Experiential Live Case",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "IDSC 3202"
+    },
+    "sourceRef": "course-8020101"
+   },
+   "sourceRef": "course-8020101"
+  },
+  "IDSC 4401": {
+   "catalogTerm": "Spring 2027",
+   "title": "Information Security",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7983301"
+   },
+   "sourceRef": "course-7983301"
+  },
+  "IDSC 4411": {
+   "catalogTerm": "Spring 2027",
+   "title": "Accounting Information Systems & IT Governance",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8020111"
+   },
+   "sourceRef": "course-8020111"
+  },
+  "IDSC 4441": {
+   "catalogTerm": "Spring 2027",
+   "title": "Electronic Commerce",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0138611"
+   },
+   "sourceRef": "course-0138611"
+  },
+  "IDSC 4471": {
+   "catalogTerm": "Spring 2027",
+   "title": "Agile Methods",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8186491"
+   },
+   "sourceRef": "course-8186491"
+  },
+  "IDSC 4501": {
+   "catalogTerm": "Spring 2027",
+   "title": "Python for Business Analytics",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197081"
+   },
+   "sourceRef": "course-8197081"
+  },
+  "MGMT 3004": {
+   "catalogTerm": "Spring 2027",
+   "title": "Strategic Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSOM, soph or jr"
+    },
+    "sourceRef": "course-8016891"
+   },
+   "sourceRef": "course-8016891"
+  },
+  "MKTG 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "ECON 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 1165"
+      }
+     ]
+    },
+    "sourceRef": "course-0131271"
+   },
+   "sourceRef": "course-0131271"
+  },
+  "MKTG 3001H": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors:Principles of Marketing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "ECON 1101 or ECON 1165, Honors Student"
+    },
+    "sourceRef": "course-8176411"
+   },
+   "sourceRef": "course-8176411"
+  },
+  "SCO 3001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sustainable Supply Chain and Operations",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0131311"
+   },
+   "sourceRef": "course-0131311"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-admreq",
+   "label": "Required Prerequisites",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-408778",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-408778-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-408778-g1",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-408778-g1-1",
+          "type": "course",
+          "code": "ACCT 2051",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-408778-g1-2",
+          "type": "course",
+          "code": "ACCT 2051H",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-408778-g2-1",
+        "type": "course",
+        "code": "BA 2051",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-408778-g3-1",
+        "type": "course",
+        "code": "BA 2551",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-408778-g4",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-408778-g4-1",
+          "type": "course",
+          "code": "ECON 1165",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-408778-g4-2",
+          "type": "course",
+          "code": "ECON 1101",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-408778-g4-3",
+          "type": "course",
+          "code": "APEC 1101",
+          "sourceRef": "program"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "r-408778-credits",
+      "type": "credits",
+      "minCredits": 14,
+      "courseSet": "set-408778",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Required Prerequisites"
+   }
+  },
+  {
+   "id": "g-m0dIBDsa",
+   "label": "Required Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-gF3ieVqk",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-gF3ieVqk-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-gF3ieVqk-g1-1",
+        "type": "course",
+        "code": "BA 1011",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-gF3ieVqk-g2",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-gF3ieVqk-g2-1",
+          "type": "course",
+          "code": "BA 1021",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-gF3ieVqk-g2-2",
+          "type": "course",
+          "code": "IBUS 1021",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-gF3ieVqk-g3",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-gF3ieVqk-g3-1",
+          "type": "course",
+          "code": "BA 2005",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-gF3ieVqk-g3-2",
+          "type": "course",
+          "code": "BA 2005H",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-gF3ieVqk-g4",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-gF3ieVqk-g4-1",
+          "type": "course",
+          "code": "BA 2021",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-gF3ieVqk-g4-2",
+          "type": "course",
+          "code": "IBUS 2021",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-gF3ieVqk-g5-1",
+        "type": "course",
+        "code": "BA 2062",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-gF3ieVqk-g6",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-gF3ieVqk-g6-1",
+          "type": "course",
+          "code": "BA 3033W",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-gF3ieVqk-g6-2",
+          "type": "course",
+          "code": "IBUS 3033W",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-gF3ieVqk-g7-1",
+        "type": "course",
+        "code": "BA 3051",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-gF3ieVqk-g8",
+        "type": "any",
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-gF3ieVqk-g8-1",
+          "type": "course",
+          "code": "BA 3062",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-gF3ieVqk-g8-2",
+          "type": "course",
+          "code": "IBUS 3062",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-gF3ieVqk-g9-1",
+        "type": "course",
+        "code": "BA 3551",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-gF3ieVqk-credits",
+      "type": "credits",
+      "minCredits": 20,
+      "courseSet": "set-gF3ieVqk",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Required Courses"
+   }
+  },
+  {
+   "id": "g-kxYnULJv",
+   "label": "Impact Core",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-kxYnULJv",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-2AJbmNoH",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-2AJbmNoH-sequence",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-2AJbmNoH-g1",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-2AJbmNoH-g1-1",
+            "type": "course",
+            "code": "FINA 3001",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-2AJbmNoH-g1-2",
+            "type": "course",
+            "code": "FINA 3001H",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-2AJbmNoH-g2",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-2AJbmNoH-g2-1",
+            "type": "course",
+            "code": "HRIR 3021",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-2AJbmNoH-g2-2",
+            "type": "course",
+            "code": "HRIR 3021H",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-2AJbmNoH-g3-1",
+          "type": "course",
+          "code": "MGMT 3004",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-2AJbmNoH-g4-1",
+          "type": "course",
+          "code": "SCO 3001",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-2AJbmNoH-credits",
+        "type": "credits",
+        "minCredits": 12,
+        "courseSet": "set-2AJbmNoH",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Gold Impact Core"
+     },
+     {
+      "id": "r-wtJk9346",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-wtJk9346-sequence",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-wtJk9346-g1-1",
+          "type": "course",
+          "code": "ACCT 3001",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-wtJk9346-g2-1",
+          "type": "course",
+          "code": "BA 3001",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-wtJk9346-g3",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-wtJk9346-g3-1",
+            "type": "course",
+            "code": "IDSC 3001",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-wtJk9346-g3-2",
+            "type": "course",
+            "code": "IDSC 3001H",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-wtJk9346-g4",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-wtJk9346-g4-1",
+            "type": "course",
+            "code": "MKTG 3001",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-wtJk9346-g4-2",
+            "type": "course",
+            "code": "MKTG 3001H",
+            "sourceRef": "program"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "r-wtJk9346-credits",
+        "type": "credits",
+        "minCredits": 12,
+        "courseSet": "set-wtJk9346",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Maroon Impact Core"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-FflzjRsd",
+   "label": "Major Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-8azyL46J",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-8azyL46J-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-8azyL46J-g1-1",
+        "type": "course",
+        "code": "IDSC 3101",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-8azyL46J-g2-1",
+        "type": "course",
+        "code": "IDSC 3102",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-8azyL46J-g3-1",
+        "type": "course",
+        "code": "IDSC 3103",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-8azyL46J-g4-1",
+        "type": "course",
+        "code": "IDSC 3104",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-8azyL46J-g5-1",
+        "type": "course",
+        "code": "IDSC 3105",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-8azyL46J-g6-1",
+        "type": "course",
+        "code": "IDSC 3202",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-8azyL46J-g7-1",
+        "type": "course",
+        "code": "IDSC 4204W",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-8azyL46J-credits",
+      "type": "credits",
+      "minCredits": 18,
+      "courseSet": "set-8azyL46J",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-8hl5gBR9",
+   "label": "Major Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-5P94s4RW",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-5P94s4RW-credits",
+      "type": "credits",
+      "courseSet": "set-5P94s4RW",
+      "minCredits": 4,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-5P94s4RW-min",
+      "type": "count",
+      "courseSet": "set-5P94s4RW",
+      "minCourses": 2,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-QUUzR34Z",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-cWYvFjja",
+    "type": "count",
+    "courseSet": "set-cWYvFjja",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-MegooBoS",
+   "label": "International Experience",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-MegooBoS",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students must complete an international experience as part of the program requirements. Short-term or semester-length programs may be used to meet this requirement. Students participate in the International Experience (IE) 101 workshop early in their program to begin planning. Verify this requirement with your advisor or APAS.",
+    "label": "International Experience"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Degree-seeking students admitted to the Carlson School declare a major while they are enrolled in the Impact Core. In order to enroll in the Impact Core, students must complete the following courses: Business Economics or Microeconomics; Financial Accounting; Business Statistics in R; and Business Scenarios in Excel.\nTransfer students must complete Business Economics or Microeconomics and Financial Accounting prior to admission to the Carlson School. University of Minnesota internal transfer students must also complete Business Statistics in R and Modeling Business Scenarios in Excel prior to admission. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nAt least 50% (29 cr) of the upper division major credits must be completed at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

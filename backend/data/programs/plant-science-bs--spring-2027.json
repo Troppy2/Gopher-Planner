@@ -1,0 +1,1080 @@
+{
+ "schemaVersion": 2,
+ "id": "plant-science-bs",
+ "name": "Plant Science B.S.",
+ "officialName": "Plant Science B.S.",
+ "officialProgramId": "228820130",
+ "catalogTerm": "Spring 2027",
+ "totalCredits": 120,
+ "source": "Plant Science B.S., revision 228820130-2027-01-19, https://umtc.catalog.prod.coursedog.com/programs/228820130, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/228820130",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 228820130-2027-01-19"
+  },
+  "course-7951951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7951951",
+   "retrieved": "2026-11-23",
+   "section": "Course record AGRO 1661W, version 7951951-2022-09-06"
+  },
+  "course-0054161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054161",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1009, version 0054161-2020-09-08"
+  },
+  "course-7968371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7968371",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 1015, version 7968371-2026-09-08"
+  },
+  "course-0076621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0076621",
+   "retrieved": "2026-11-23",
+   "section": "Course record PLSC 3005W, version 0076621-2025-09-02"
+  },
+  "course-8171031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171031",
+   "retrieved": "2026-11-23",
+   "section": "Course record PLSC 3401, version 8171031-2025-09-02"
+  },
+  "course-0065781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0065781",
+   "retrieved": "2026-11-23",
+   "section": "Course record SOIL 2125, version 0065781-2016-05-23"
+  },
+  "course-0078851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0078851",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 1001, version 0078851-2015-01-20"
+  },
+  "course-0054181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0054181",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 2022, version 0054181-2024-09-03"
+  },
+  "course-0023941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023941",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1031, version 0023941-2025-09-02"
+  },
+  "course-0133851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133851",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1051, version 0133851-2025-09-02"
+  },
+  "course-0001191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001191",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1142, version 0001191-2021-05-17"
+  },
+  "course-0133861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133861",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1151, version 0133861-2023-05-15"
+  },
+  "course-0002941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0002941",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1155, version 0002941-2025-09-02"
+  },
+  "course-8082761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8082761",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1241, version 8082761-2025-09-02"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-8066611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8066611",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3272, version 8066611-2021-09-07"
+  },
+  "course-8096661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096661",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133, version 8096661-2024-09-03"
+  },
+  "course-7995071": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7995071",
+   "retrieved": "2026-11-23",
+   "section": "Course record ESPM 3012, version 7995071-2024-01-16"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8152521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1081, version 8152521-2024-09-03"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-0142901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0142901",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 3021, version 0142901-2024-05-13"
+  },
+  "course-8019271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8019271",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 2121, version 8019271-2026-09-08"
+  },
+  "course-0076501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0076501",
+   "retrieved": "2026-11-23",
+   "section": "Course record AGRO 2501, version 0076501-2024-09-03"
+  },
+  "course-8171231": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171231",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 4112, version 8171231-2024-01-16"
+  },
+  "course-8169401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169401",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 4114, version 8169401-2025-01-21"
+  },
+  "course-8272721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272721",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 5111, version 8272721-2025-01-21"
+  },
+  "course-8257441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8257441",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 5114, version 8257441-2022-09-06"
+  },
+  "course-8097381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097381",
+   "retrieved": "2026-11-23",
+   "section": "Course record FDSY 2101, version 8097381-2024-01-16"
+  },
+  "course-8005951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8005951",
+   "retrieved": "2026-11-23",
+   "section": "Course record HORT 4141W, version 8005951-2024-01-16"
+  },
+  "course-8267891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8267891",
+   "retrieved": "2026-11-23",
+   "section": "Course record PLSC 4096W, version 8267891-2024-01-16"
+  },
+  "course-8046051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8046051",
+   "retrieved": "2026-11-23",
+   "section": "Course record AGRO 4094W, version 8046051-2021-01-19"
+  },
+  "course-8100331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8100331",
+   "retrieved": "2026-11-23",
+   "section": "Course record CFAN 2333, version 8100331-2023-09-05"
+  }
+ },
+ "courseSets": {
+  "set-sdcSzM5G": {
+   "codes": [
+    "AGRO 1661W",
+    "BIOL 1009",
+    "HORT 1015",
+    "PLSC 3005W",
+    "PLSC 3401",
+    "SOIL 2125"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ICuwWpR7": {
+   "codes": [
+    "HORT 1001",
+    "PMB 2022"
+   ],
+   "sourceRef": "program"
+  },
+  "set-pHqyFLew": {
+   "codes": [
+    "MATH 1031",
+    "MATH 1051",
+    "MATH 1142",
+    "MATH 1151",
+    "MATH 1155",
+    "MATH 1241",
+    "MATH 1271"
+   ],
+   "sourceRef": "program"
+  },
+  "set-TsH6JHo0": {
+   "codes": [
+    "BIOL 3272",
+    "CSCI 1133",
+    "ESPM 3012",
+    "STAT 3011"
+   ],
+   "sourceRef": "program"
+  },
+  "set-jd3Kh6WS": {
+   "codes": [
+    "CHEM 1061",
+    "CHEM 1081"
+   ],
+   "sourceRef": "program"
+  },
+  "set-qB5NlgNB": {
+   "codes": [
+    "BIOC 3021",
+    "HORT 2121"
+   ],
+   "sourceRef": "program"
+  },
+  "set-zIFXVyT3": {
+   "codes": [
+    "AGRO 2501",
+    "HORT 4112",
+    "HORT 4114",
+    "HORT 5111",
+    "HORT 5114"
+   ],
+   "sourceRef": "program"
+  },
+  "set-rytecgt8": {
+   "codes": [
+    "FDSY 2101",
+    "HORT 4141W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-fH0rq8X3": {
+   "codes": [
+    "PLSC 4096W",
+    "AGRO 4094W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-cIiA8Qv1": {
+   "codes": [
+    "AGRO 4094W",
+    "HORT 4141W",
+    "PLSC 3005W",
+    "PLSC 4096W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AGRO 1661W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Engaging Plant Science",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7951951"
+   },
+   "sourceRef": "course-7951951"
+  },
+  "AGRO 2501": {
+   "catalogTerm": "Spring 2027",
+   "title": "Plant Identification for Urban and Rural Landscapes",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0076501"
+   },
+   "sourceRef": "course-0076501"
+  },
+  "AGRO 4094W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Undergraduate Directed Thesis Research",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8046051"
+   },
+   "sourceRef": "course-8046051"
+  },
+  "BIOC 3021": {
+   "catalogTerm": "Spring 2027",
+   "title": "Biochemistry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0142901"
+   },
+   "sourceRef": "course-0142901"
+  },
+  "BIOL 1009": {
+   "catalogTerm": "Spring 2027",
+   "title": "General Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054161"
+   },
+   "sourceRef": "course-0054161"
+  },
+  "BIOL 3272": {
+   "catalogTerm": "Spring 2027",
+   "title": "Applied Biostatistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra; BIOL 2003 recommended"
+    },
+    "sourceRef": "course-8066611"
+   },
+   "sourceRef": "course-8066611"
+  },
+  "CFAN 2333": {
+   "catalogTerm": "Spring 2027",
+   "title": "Insects, Microbes, and Plants: Ecology of Pest Management",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8100331"
+   },
+   "sourceRef": "course-8100331"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Spring 2027",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Spring 2027",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "CHEM 1081": {
+   "catalogTerm": "Spring 2027",
+   "title": "Chemistry for the Life Sciences I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8152521"
+   },
+   "sourceRef": "course-8152521"
+  },
+  "CSCI 1133": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8096661"
+   },
+   "sourceRef": "course-8096661"
+  },
+  "ESPM 3012": {
+   "catalogTerm": "Spring 2027",
+   "title": "Statistical Methods for Environmental Scientists and Managers",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7995071"
+   },
+   "sourceRef": "course-7995071"
+  },
+  "FDSY 2101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Plant Production Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1001 or BIOL 1009 or HORT 1001 or instr consent"
+    },
+    "sourceRef": "course-8097381"
+   },
+   "sourceRef": "course-8097381"
+  },
+  "HORT 1001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Plant Propagation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0078851"
+   },
+   "sourceRef": "course-0078851"
+  },
+  "HORT 1015": {
+   "catalogTerm": "Spring 2027",
+   "title": "Plant Families for Plant People",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7968371"
+   },
+   "sourceRef": "course-7968371"
+  },
+  "HORT 2121": {
+   "catalogTerm": "Spring 2027",
+   "title": "Agricultural Biochemistry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8019271"
+   },
+   "sourceRef": "course-8019271"
+  },
+  "HORT 4112": {
+   "catalogTerm": "Spring 2027",
+   "title": "Flowering Trees and Shrubs",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171231"
+   },
+   "sourceRef": "course-8171231"
+  },
+  "HORT 4114": {
+   "catalogTerm": "Spring 2027",
+   "title": "Spring Flowering Bulbs",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8169401"
+   },
+   "sourceRef": "course-8169401"
+  },
+  "HORT 4141W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Scheduling Crops for Protected Environments",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "HORT 1001/6011 or PMB 2022 or BIOL 1009.  HORT 1015 preferred but not required."
+    },
+    "sourceRef": "course-8005951"
+   },
+   "sourceRef": "course-8005951"
+  },
+  "HORT 5111": {
+   "catalogTerm": "Spring 2027",
+   "title": "CSI Plant: Genetic Methods of Plant Identification",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272721"
+   },
+   "sourceRef": "course-8272721"
+  },
+  "HORT 5114": {
+   "catalogTerm": "Spring 2027",
+   "title": "Knowing and Naming the Plants We Eat",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8257441"
+   },
+   "sourceRef": "course-8257441"
+  },
+  "MATH 1031": {
+   "catalogTerm": "Spring 2027",
+   "title": "College Algebra and Probability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on Placement Exam."
+    },
+    "sourceRef": "course-0023941"
+   },
+   "sourceRef": "course-0023941"
+  },
+  "MATH 1051": {
+   "catalogTerm": "Spring 2027",
+   "title": "Precalculus I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement exam."
+    },
+    "sourceRef": "course-0133851"
+   },
+   "sourceRef": "course-0133851"
+  },
+  "MATH 1142": {
+   "catalogTerm": "Spring 2027",
+   "title": "Short Calculus",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]"
+    },
+    "sourceRef": "course-0001191"
+   },
+   "sourceRef": "course-0001191"
+  },
+  "MATH 1151": {
+   "catalogTerm": "Spring 2027",
+   "title": "Precalculus II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement exam or grade of at least C- in [1031 or 1051]"
+    },
+    "sourceRef": "course-0133861"
+   },
+   "sourceRef": "course-0133861"
+  },
+  "MATH 1155": {
+   "catalogTerm": "Spring 2027",
+   "title": "Intensive Precalculus",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on Placement Exam."
+    },
+    "sourceRef": "course-0002941"
+   },
+   "sourceRef": "course-0002941"
+  },
+  "MATH 1241": {
+   "catalogTerm": "Spring 2027",
+   "title": "Calculus and Dynamical Systems in Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155], CBS student"
+    },
+    "sourceRef": "course-8082761"
+   },
+   "sourceRef": "course-8082761"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Spring 2027",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "PLSC 3005W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Plant Physiology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "BIOL 1009"
+      },
+      {
+       "type": "course",
+       "course_code": "HORT 1001"
+      }
+     ]
+    },
+    "sourceRef": "course-0076621"
+   },
+   "sourceRef": "course-0076621"
+  },
+  "PLSC 3401": {
+   "catalogTerm": "Spring 2027",
+   "title": "Applied Plant Genetics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171031"
+   },
+   "sourceRef": "course-8171031"
+  },
+  "PLSC 4096W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Professional Experience Internship",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8267891"
+   },
+   "sourceRef": "course-8267891"
+  },
+  "PMB 2022": {
+   "catalogTerm": "Spring 2027",
+   "title": "General Botany",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0054181"
+   },
+   "sourceRef": "course-0054181"
+  },
+  "SOIL 2125": {
+   "catalogTerm": "Spring 2027",
+   "title": "Basic Soil Science",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[CHEM 1015, CHEM 1017] or CHEM 1021 or equiv"
+    },
+    "sourceRef": "course-0065781"
+   },
+   "sourceRef": "course-0065781"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-ypChxGKt",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sdcSzM5G",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-sdcSzM5G-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-sdcSzM5G-g1-1",
+        "type": "course",
+        "code": "AGRO 1661W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-sdcSzM5G-g2-1",
+        "type": "course",
+        "code": "BIOL 1009",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-sdcSzM5G-g3-1",
+        "type": "course",
+        "code": "HORT 1015",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-sdcSzM5G-g4-1",
+        "type": "course",
+        "code": "PLSC 3005W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-sdcSzM5G-g5-1",
+        "type": "course",
+        "code": "PLSC 3401",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-sdcSzM5G-g6-1",
+        "type": "course",
+        "code": "SOIL 2125",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-sdcSzM5G-credits",
+      "type": "credits",
+      "minCredits": 22,
+      "courseSet": "set-sdcSzM5G",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-TY24SMjE",
+   "label": "Plant Propagation or Botany",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ICuwWpR7",
+    "type": "credits",
+    "courseSet": "set-ICuwWpR7",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Plant Propagation or Botany"
+   }
+  },
+  {
+   "id": "g-mUojDyaC",
+   "label": "Mathematics",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-pHqyFLew",
+    "type": "credits",
+    "courseSet": "set-pHqyFLew",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Mathematics"
+   }
+  },
+  {
+   "id": "g-2NFuV1VI",
+   "label": "Statistics and Computing",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-TsH6JHo0",
+    "type": "credits",
+    "courseSet": "set-TsH6JHo0",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Statistics and Computing"
+   }
+  },
+  {
+   "id": "g-Huw0egic",
+   "label": "Chemistry",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-e1L36oby",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-jd3Kh6WS",
+      "type": "credits",
+      "courseSet": "set-jd3Kh6WS",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Chemistry Lecture"
+     },
+     {
+      "id": "r-gOLzgcQ2",
+      "type": "course",
+      "code": "CHEM 1065",
+      "sourceRef": "program",
+      "label": "Chemistry Lab"
+     }
+    ],
+    "label": "Chemistry"
+   }
+  },
+  {
+   "id": "g-5B8QIorj",
+   "label": "Biochemistry",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-qB5NlgNB",
+    "type": "credits",
+    "courseSet": "set-qB5NlgNB",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Biochemistry"
+   }
+  },
+  {
+   "id": "g-vPKwaws1",
+   "label": "Plant Identification",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-zIFXVyT3",
+    "type": "credits",
+    "courseSet": "set-zIFXVyT3",
+    "minCredits": 1,
+    "sourceRef": "program",
+    "label": "Plant Identification"
+   }
+  },
+  {
+   "id": "g-MzWar3Cu",
+   "label": "Production Systems",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-rytecgt8",
+    "type": "credits",
+    "courseSet": "set-rytecgt8",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Production Systems"
+   }
+  },
+  {
+   "id": "g-mcLHhv9f",
+   "label": "Experiential Learning",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-fH0rq8X3",
+    "type": "credits",
+    "courseSet": "set-fH0rq8X3",
+    "minCredits": 2,
+    "sourceRef": "program",
+    "label": "Experiential Learning"
+   }
+  },
+  {
+   "id": "g-pv5Rw6dM",
+   "label": "Interdisciplinary Learning",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-fagGjipE",
+    "type": "course",
+    "code": "CFAN 2333",
+    "sourceRef": "program",
+    "label": "Interdisciplinary Learning"
+   }
+  },
+  {
+   "id": "g-z3QC7qFC",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-cIiA8Qv1",
+    "type": "count",
+    "courseSet": "set-cIiA8Qv1",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nCollegiate Requirements:\nAll CFANS undergraduate students must complete an Experiential Learning (EL) requirement. Experiential learning is a way to learn by doing, or learn by experiencing. Instead of acquiring information from a classroom lecture or book, experiential learning gives you active, hands-on experience in the real world. Examples of experiential learning options within CFANS include: off-campus study programs, field-based research, service-learning classes, internships, volunteer work related to your studies, and more.\nAll CFANS undergraduate students must complete an Interdisciplinary (ID) Learning Requirement. An interdisciplinary (ID) course addresses issues from at least two different academic disciplines (two fields/departments within the university). By integrating two disciplines into one class, students have the opportunity to develop integrated problem-solving skills.\nTo determine which of your major classes fulfill the EL and ID requirements, see your APAS report. Students are encouraged to work with their academic advisor to identify EL and ID requirements in their graduation planning.\nAt least 13 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Agroecology, Agronomy Production, Horticultural Production, Nursery & Floriculture, Plant Breeding, Sustainable Plant Health, Turfgrass Science, Integrated Plant Science BS/MS Applied Plant Science - Plant Breeding. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

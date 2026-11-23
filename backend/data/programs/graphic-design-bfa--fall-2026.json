@@ -1,0 +1,1209 @@
+{
+ "schemaVersion": 2,
+ "id": "graphic-design-bfa",
+ "name": "Graphic Design B.F.A.",
+ "officialName": "Graphic Design B.F.A.",
+ "officialProgramId": "036520922",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Graphic Design B.F.A., revision 036520922-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/036520922, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/036520922",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 036520922-2026-09-08"
+  },
+  "course-8275881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275881",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 1201, version 8275881-2025-09-02"
+  },
+  "course-0062811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062811",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1101, version 0062811-2024-09-03"
+  },
+  "course-0062861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062861",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1102, version 0062861-2020-09-08"
+  },
+  "course-0062871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062871",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1251, version 0062871-2016-09-06"
+  },
+  "course-8073501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8073501",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 2342, version 8073501-2024-09-03"
+  },
+  "course-0122041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0122041",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 2345, version 0122041-2026-09-08"
+  },
+  "course-8076861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8076861",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 2399W, version 8076861-2024-09-03"
+  },
+  "course-8164191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164191",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 2399V, version 8164191-2019-05-20"
+  },
+  "course-8037091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8037091",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 3201, version 8037091-2021-09-07"
+  },
+  "course-0126101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0126101",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 3351, version 0126101-2019-09-03"
+  },
+  "course-0127381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0127381",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 3352, version 0127381-2025-09-02"
+  },
+  "course-8164111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164111",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 3352H, version 8164111-2025-09-02"
+  },
+  "course-0126771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0126771",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 3353, version 0126771-2017-01-17"
+  },
+  "course-0092541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092541",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 4131W, version 0092541-2022-01-18"
+  },
+  "course-0092721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092721",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 4345, version 0092721-2015-01-20"
+  },
+  "course-8076551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8076551",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 4361W, version 8076551-2023-09-05"
+  },
+  "course-8164121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164121",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 4361V, version 8164121-2023-09-05"
+  },
+  "course-8076561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8076561",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 4362, version 8076561-2020-09-08"
+  },
+  "course-8164641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8164641",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 4362H, version 8164641-2016-09-06"
+  },
+  "course-0127431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0127431",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 4363, version 0127431-2026-09-08"
+  },
+  "course-8096121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096121",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 3141, version 8096121-2015-05-26"
+  },
+  "course-8032001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8032001",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 3311, version 8032001-2020-01-21"
+  },
+  "course-8031941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8031941",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 3351, version 8031941-2024-01-16"
+  },
+  "course-7986701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7986701",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 4165, version 7986701-2022-01-18"
+  },
+  "course-8257741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8257741",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 4401W, version 8257741-2022-09-06"
+  },
+  "course-8064191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8064191",
+   "retrieved": "2026-11-23",
+   "section": "Course record DES 5168, version 8064191-2021-09-07"
+  },
+  "course-7977461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977461",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 5185, version 7977461-2026-09-08"
+  },
+  "course-0160821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160821",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 2361, version 0160821-2024-09-03"
+  },
+  "course-0051351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051351",
+   "retrieved": "2026-11-23",
+   "section": "Course record ARTS 1701, version 0051351-2026-09-08"
+  },
+  "course-8114181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8114181",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 3311, version 8114181-2025-09-02"
+  },
+  "course-0126111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0126111",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 3312, version 0126111-2024-09-03"
+  },
+  "course-8141961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8141961",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 4312, version 8141961-2017-09-05"
+  },
+  "course-8111311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8111311",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 4371, version 8111311-2025-09-02"
+  },
+  "course-7977471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977471",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 5341, version 7977471-2025-09-02"
+  },
+  "course-7977481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977481",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 5342, version 7977481-2020-01-21"
+  },
+  "course-0144141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0144141",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 5383, version 0144141-2025-01-21"
+  },
+  "course-7977451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7977451",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 5386, version 7977451-2015-01-20"
+  },
+  "course-8069971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069971",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 2702, version 8069971-2020-01-21"
+  },
+  "course-8070001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8070001",
+   "retrieved": "2026-11-23",
+   "section": "Course record PDES 3711, version 8070001-2021-01-19"
+  },
+  "course-8083881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083881",
+   "retrieved": "2026-11-23",
+   "section": "Course record UX 3131, version 8083881-2026-09-08"
+  },
+  "course-0121371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0121371",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 1311, version 0121371-2025-09-02"
+  },
+  "course-8015051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015051",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 2101, version 8015051-2025-09-02"
+  },
+  "course-8069961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069961",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 2701, version 8069961-2025-09-02"
+  },
+  "course-0121581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0121581",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 1312, version 0121581-2025-09-02"
+  },
+  "course-0121721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0121721",
+   "retrieved": "2026-11-23",
+   "section": "Course record GDES 1315, version 0121721-2015-01-20"
+  }
+ },
+ "courseSets": {
+  "set-9vmcD02Q": {
+   "codes": [
+    "APEC 1101",
+    "APEC 1102",
+    "APEC 1251"
+   ],
+   "sourceRef": "program"
+  },
+  "set-431572": {
+   "codes": [
+    "GDES 2342",
+    "GDES 2345",
+    "GDES 2399W",
+    "GDES 2399V",
+    "DES 3201",
+    "GDES 3351",
+    "GDES 3352",
+    "GDES 3352H",
+    "GDES 3353",
+    "GDES 4131W",
+    "GDES 4345",
+    "GDES 4361W",
+    "GDES 4361V",
+    "GDES 4362",
+    "GDES 4362H",
+    "GDES 4363"
+   ],
+   "sourceRef": "program"
+  },
+  "set-fWCBxAE6": {
+   "codes": [
+    "DES 3141",
+    "DES 3311",
+    "DES 3351",
+    "DES 4165",
+    "DES 4401W",
+    "DES 5168",
+    "DESI 5185",
+    "GDES 2361",
+    "ARTS 1701",
+    "GDES 3311",
+    "GDES 3312",
+    "GDES 4312",
+    "GDES 4371",
+    "GDES 5341",
+    "GDES 5342",
+    "GDES 5383",
+    "GDES 5386",
+    "PDES 2702",
+    "PDES 3711",
+    "UX 3131"
+   ],
+   "sourceRef": "program"
+  },
+  "set-YzWk6mop": {
+   "codes": [
+    "GDES 4131W",
+    "GDES 4361V",
+    "GDES 4361W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-431565": {
+   "codes": [
+    "DESI 1311",
+    "DESI 2101",
+    "DESI 2701",
+    "GDES 1312",
+    "GDES 1315"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "APEC 1101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062811"
+   },
+   "sourceRef": "course-0062811"
+  },
+  "APEC 1102": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Macroeconomics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1101 or Econ 1101"
+    },
+    "sourceRef": "course-0062861"
+   },
+   "sourceRef": "course-0062861"
+  },
+  "APEC 1251": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Accounting",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062871"
+   },
+   "sourceRef": "course-0062871"
+  },
+  "ARTS 1701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Photography",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0051351"
+   },
+   "sourceRef": "course-0051351"
+  },
+  "DES 3141": {
+   "catalogTerm": "Fall 2026",
+   "title": "Technology, Design, and Society",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8096121"
+   },
+   "sourceRef": "course-8096121"
+  },
+  "DES 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Career and Internship Preparation for Design",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8037091"
+   },
+   "sourceRef": "course-8037091"
+  },
+  "DES 3311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Travels in Typography",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8032001"
+   },
+   "sourceRef": "course-8032001"
+  },
+  "DES 3351": {
+   "catalogTerm": "Fall 2026",
+   "title": "Phenomenon of Everyday Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8031941"
+   },
+   "sourceRef": "course-8031941"
+  },
+  "DES 4165": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design and Globalization",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Jr or sr"
+    },
+    "sourceRef": "course-7986701"
+   },
+   "sourceRef": "course-7986701"
+  },
+  "DES 4401W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Racism Untaught",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8257741"
+   },
+   "sourceRef": "course-8257741"
+  },
+  "DES 5168": {
+   "catalogTerm": "Fall 2026",
+   "title": "Evidence-Based Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CDes grad student or instr consent"
+    },
+    "sourceRef": "course-8064191"
+   },
+   "sourceRef": "course-8064191"
+  },
+  "DESI 1201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design Justice, Ethics, & Sustainability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275881"
+   },
+   "sourceRef": "course-8275881"
+  },
+  "DESI 1311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Visual Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0121371"
+   },
+   "sourceRef": "course-0121371"
+  },
+  "DESI 2101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8015051"
+   },
+   "sourceRef": "course-8015051"
+  },
+  "DESI 2701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Creative Design Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8069961"
+   },
+   "sourceRef": "course-8069961"
+  },
+  "DESI 5185": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Factors in Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977461"
+   },
+   "sourceRef": "course-7977461"
+  },
+  "GDES 1312": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations: Color and Design in Two and Three Dimensions",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0121581"
+   },
+   "sourceRef": "course-0121581"
+  },
+  "GDES 1315": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations: The Graphic Studio",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Graphic design premajor design minor or instr consent"
+    },
+    "sourceRef": "course-0121721"
+   },
+   "sourceRef": "course-0121721"
+  },
+  "GDES 2342": {
+   "catalogTerm": "Fall 2026",
+   "title": "Interaction Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8073501"
+   },
+   "sourceRef": "course-8073501"
+  },
+  "GDES 2345": {
+   "catalogTerm": "Fall 2026",
+   "title": "Typography",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0122041"
+   },
+   "sourceRef": "course-0122041"
+  },
+  "GDES 2361": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design Process: Photography",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0160821"
+   },
+   "sourceRef": "course-0160821"
+  },
+  "GDES 2399V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design and its Discontents: Design, Society, Economy, and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164191"
+   },
+   "sourceRef": "course-8164191"
+  },
+  "GDES 2399W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design and its Discontents: Design, Society, Economy, and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8076861"
+   },
+   "sourceRef": "course-8076861"
+  },
+  "GDES 3311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Illustration",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "DES 1311"
+    },
+    "sourceRef": "course-8114181"
+   },
+   "sourceRef": "course-8114181"
+  },
+  "GDES 3312": {
+   "catalogTerm": "Fall 2026",
+   "title": "Color and Form in Surface Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0126111"
+   },
+   "sourceRef": "course-0126111"
+  },
+  "GDES 3351": {
+   "catalogTerm": "Fall 2026",
+   "title": "Text and Image",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[2345 or DHA 2345], graphic design major, pass portfolio review"
+    },
+    "sourceRef": "course-0126101"
+   },
+   "sourceRef": "course-0126101"
+  },
+  "GDES 3352": {
+   "catalogTerm": "Fall 2026",
+   "title": "Identity and Symbols",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0127381"
+   },
+   "sourceRef": "course-0127381"
+  },
+  "GDES 3352H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors: Identity and Symbols",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164111"
+   },
+   "sourceRef": "course-8164111"
+  },
+  "GDES 3353": {
+   "catalogTerm": "Fall 2026",
+   "title": "Packaging and Display",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0126771"
+   },
+   "sourceRef": "course-0126771"
+  },
+  "GDES 4131W": {
+   "catalogTerm": "Fall 2026",
+   "title": "History of Graphic Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0092541"
+   },
+   "sourceRef": "course-0092541"
+  },
+  "GDES 4312": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Graphic Design Print Projects",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8141961"
+   },
+   "sourceRef": "course-8141961"
+  },
+  "GDES 4345": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Typography",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[2345 or DHA 2345], 3351, graphic design major] or design grad student or instr consent"
+    },
+    "sourceRef": "course-0092721"
+   },
+   "sourceRef": "course-0092721"
+  },
+  "GDES 4361V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Thesis Studio and Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164121"
+   },
+   "sourceRef": "course-8164121"
+  },
+  "GDES 4361W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Thesis Studio and Writing",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8076551"
+   },
+   "sourceRef": "course-8076551"
+  },
+  "GDES 4362": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Thesis and Exhibition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8076561"
+   },
+   "sourceRef": "course-8076561"
+  },
+  "GDES 4362H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Thesis and Exhibition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8164641"
+   },
+   "sourceRef": "course-8164641"
+  },
+  "GDES 4363": {
+   "catalogTerm": "Fall 2026",
+   "title": "Portfolio",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0127431"
+   },
+   "sourceRef": "course-0127431"
+  },
+  "GDES 4371": {
+   "catalogTerm": "Fall 2026",
+   "title": "Data & Information Visualization",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8111311"
+   },
+   "sourceRef": "course-8111311"
+  },
+  "GDES 5341": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Interaction Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7977471"
+   },
+   "sourceRef": "course-7977471"
+  },
+  "GDES 5342": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Web Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[2334 or 2342], design minor] or graphic design major or grad student or instr consent"
+    },
+    "sourceRef": "course-7977481"
+   },
+   "sourceRef": "course-7977481"
+  },
+  "GDES 5383": {
+   "catalogTerm": "Fall 2026",
+   "title": "Animated Illustration",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0144141"
+   },
+   "sourceRef": "course-0144141"
+  },
+  "GDES 5386": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fundamentals of Game Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[[2334 or 2342], design minor] or [[4384 or DHA 4384 or 5341 or DHA 5341], [graphic design major or sr or grad student]] or instr consent"
+    },
+    "sourceRef": "course-7977451"
+   },
+   "sourceRef": "course-7977451"
+  },
+  "PDES 2702": {
+   "catalogTerm": "Fall 2026",
+   "title": "Concept Sketching",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8069971"
+   },
+   "sourceRef": "course-8069971"
+  },
+  "PDES 3711": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Innovation Lab",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PDes 2772 OR Junior/Senior (any major) or permission from instructor"
+    },
+    "sourceRef": "course-8070001"
+   },
+   "sourceRef": "course-8070001"
+  },
+  "UX 3131": {
+   "catalogTerm": "Fall 2026",
+   "title": "User Experience Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8083881"
+   },
+   "sourceRef": "course-8083881"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-rJoOseBX",
+   "label": "Design Justice, Ethics, & Sustainability Requirement",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-M7XBwcnh",
+    "type": "course",
+    "code": "DESI 1201",
+    "sourceRef": "program",
+    "label": "Design Justice, Ethics, & Sustainability Requirement"
+   }
+  },
+  {
+   "id": "g-yJixeYf5",
+   "label": "External Core Course Required by the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-9vmcD02Q",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-9vmcD02Q-credits",
+      "type": "credits",
+      "courseSet": "set-9vmcD02Q",
+      "minCredits": 1,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-9vmcD02Q-min",
+      "type": "count",
+      "courseSet": "set-9vmcD02Q",
+      "minCourses": 1,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Business, Economics, or Marketing"
+   }
+  },
+  {
+   "id": "g-036520922",
+   "label": "Advanced Graphic Design",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-431572",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-431572-credits",
+      "type": "credits",
+      "courseSet": "set-431572",
+      "minCredits": 38,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-431572-min",
+      "type": "count",
+      "courseSet": "set-431572",
+      "minCourses": 14,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-431572-max",
+      "type": "count",
+      "courseSet": "set-431572",
+      "maxCourses": 14,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Advanced Graphic Design"
+   }
+  },
+  {
+   "id": "g-v8J0G8Xt",
+   "label": "Program Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-fWCBxAE6",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-fWCBxAE6-credits",
+      "type": "credits",
+      "courseSet": "set-fWCBxAE6",
+      "minCredits": 13,
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-fWCBxAE6-min",
+      "type": "count",
+      "courseSet": "set-fWCBxAE6",
+      "minCourses": 4,
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Program Electives"
+   }
+  },
+  {
+   "id": "g-ZubCbHw7",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-YzWk6mop",
+    "type": "count",
+    "courseSet": "set-YzWk6mop",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Admission Requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-431565",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-431565-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-431565-g1-1",
+        "type": "course",
+        "code": "DESI 1311",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-431565-g2-1",
+        "type": "course",
+        "code": "DESI 2101",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-431565-g3-1",
+        "type": "course",
+        "code": "DESI 2701",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-431565-g4-1",
+        "type": "course",
+        "code": "GDES 1312",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-431565-g5-1",
+        "type": "course",
+        "code": "GDES 1315",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-431565-credits",
+      "type": "credits",
+      "minCredits": 17,
+      "courseSet": "set-431565",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Pre-Graphic Design Courses"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Admission to pre-major status is decided by a competitive holistic review. Students must maintain an overall GPA of 2.50 during pre-major coursework. In addition, students must receive a minimum grade of C- or better in the required pre-major courses before going through portfolio review (not just a 2.50 GPA). Once students have achieved major status, they must maintain a GPA of 2.00.\nStudents must be admitted to pre-major status to take most of the pre-graphic design coursework. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nAt least 18 upper division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

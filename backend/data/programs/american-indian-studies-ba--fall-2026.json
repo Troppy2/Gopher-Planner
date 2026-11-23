@@ -1,0 +1,211 @@
+{
+ "schemaVersion": 2,
+ "id": "american-indian-studies-ba",
+ "name": "American Indian Studies B.A.",
+ "officialName": "American Indian Studies B.A.",
+ "officialProgramId": "005420217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "American Indian Studies B.A., revision 005420217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/005420217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/005420217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 005420217-2026-09-08"
+  },
+  "course-0086661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086661",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 1001, version 0086661-2019-09-03"
+  },
+  "course-8103881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8103881",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4821W, version 8103881-2024-01-16"
+  },
+  "course-0080581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0080581",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 3201W, version 0080581-2016-09-06"
+  },
+  "course-7889791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889791",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMIN 4525W, version 7889791-2019-01-22"
+  },
+  "course-7898391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7898391",
+   "retrieved": "2026-11-23",
+   "section": "Course record POL 4525W, version 7898391-2019-01-22"
+  },
+  "course-8142681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8142681",
+   "retrieved": "2026-11-23",
+   "section": "Course record OJIB 5204W, version 8142681-2017-01-17"
+  }
+ },
+ "courseSets": {
+  "set-394475": {
+   "codes": [
+    "AMIN 3201W",
+    "AMIN 4525W",
+    "POL 4525W",
+    "AMIN 4821W",
+    "OJIB 5204W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AMIN 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to American Indian & Indigenous Peoples",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0086661"
+   },
+   "sourceRef": "course-0086661"
+  },
+  "AMIN 3201W": {
+   "catalogTerm": "Fall 2026",
+   "title": "American Indian Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0080581"
+   },
+   "sourceRef": "course-0080581"
+  },
+  "AMIN 4525W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Federal Indian Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7889791"
+   },
+   "sourceRef": "course-7889791"
+  },
+  "AMIN 4821W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Seminar",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8103881"
+   },
+   "sourceRef": "course-8103881"
+  },
+  "OJIB 5204W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ojibwe Mastery II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8142681"
+   },
+   "sourceRef": "course-8142681"
+  },
+  "POL 4525W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Federal Indian Policy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7898391"
+   },
+   "sourceRef": "course-7898391"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-GL0dPnZJ",
+   "label": "Introductory Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-2GOHEC2W",
+    "type": "course",
+    "code": "AMIN 1001",
+    "sourceRef": "program",
+    "label": "Introductory Course"
+   }
+  },
+  {
+   "id": "g-k81dbQDw",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-fHX7sHSQ",
+    "type": "course",
+    "code": "AMIN 4821W",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-005420217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-394475",
+    "type": "count",
+    "courseSet": "set-394475",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the American Indian Studies BA is AMIN.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, or CLA 3996).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 14 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents must choose to specialize in either the General Track or the Language Track.\nStudents may earn a BA or minor in American Indian Studies, but not both, and students who declare the Language sub-plan in Ojibwe may not earn the Ojibwe Language BA. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: General, Language. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

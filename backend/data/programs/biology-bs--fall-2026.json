@@ -1,0 +1,4007 @@
+{
+ "schemaVersion": 2,
+ "id": "biology-bs",
+ "name": "Biology B.S.",
+ "officialName": "Biology B.S.",
+ "officialProgramId": "013220110",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Biology B.S., revision 013220110-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/013220110, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/013220110",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 013220110-2026-09-08"
+  },
+  "course-7930651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7930651",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1805, version 7930651-2025-05-19"
+  },
+  "course-8088561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8088561",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1806, version 8088561-2025-05-19"
+  },
+  "course-8264511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8264511",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1807, version 8264511-2023-09-05"
+  },
+  "course-8097581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097581",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3001, version 8097581-2020-09-08"
+  },
+  "course-8171961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171961",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1951, version 8171961-2026-09-08"
+  },
+  "course-8171881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8171881",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1951H, version 8171881-2026-09-08"
+  },
+  "course-8172001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172001",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 1961, version 8172001-2026-09-08"
+  },
+  "course-8004571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8004571",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 2003, version 8004571-2025-09-02"
+  },
+  "course-8014261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8014261",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 2003H, version 8014261-2025-09-02"
+  },
+  "course-8021401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021401",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3004, version 8021401-2025-09-02"
+  },
+  "course-8082761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8082761",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1241, version 8082761-2025-09-02"
+  },
+  "course-0001201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1271, version 0001201-2025-09-02"
+  },
+  "course-0036921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036921",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1371, version 0036921-2025-09-02"
+  },
+  "course-0036961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "course-8066611": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8066611",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3272, version 8066611-2021-09-07"
+  },
+  "course-8176741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8176741",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3272H, version 8176741-2021-09-07"
+  },
+  "course-8083731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083731",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 5272, version 8083731-2021-09-07"
+  },
+  "course-8096661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8096661",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133, version 8096661-2024-09-03"
+  },
+  "course-8110721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8110721",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 1133H, version 8110721-2023-09-05"
+  },
+  "course-7973441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7973441",
+   "retrieved": "2026-11-23",
+   "section": "Course record CSCI 3003, version 7973441-2018-01-16"
+  },
+  "course-0001211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0001211",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1272, version 0001211-2021-09-07"
+  },
+  "course-0036971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0036971",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1572H, version 0036971-2023-09-05"
+  },
+  "course-8149801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8149801",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 2241, version 8149801-2021-05-17"
+  },
+  "course-0016181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
+   "retrieved": "2026-11-23",
+   "section": "Course record STAT 3011, version 0016181-2022-09-06"
+  },
+  "course-8152521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1081, version 8152521-2024-09-03"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-8152841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152841",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1082, version 8152841-2023-05-15"
+  },
+  "course-8152831": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152831",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1086, version 8152831-2025-01-21"
+  },
+  "course-8152861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152861",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2081, version 8152861-2024-09-03"
+  },
+  "course-8152851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8152851",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2085, version 8152851-2023-09-05"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8077561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077561",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1062, version 8077561-2026-09-08"
+  },
+  "course-8077541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077541",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1066, version 8077541-2026-09-08"
+  },
+  "course-0023921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023921",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2301, version 0023921-2026-09-08"
+  },
+  "course-8077581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077581",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1071H, version 8077581-2026-09-08"
+  },
+  "course-8077551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077551",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1072H, version 8077551-2025-01-21"
+  },
+  "course-8081851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081851",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 2331H, version 8081851-2026-09-08"
+  },
+  "course-8179641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179641",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1221, version 8179641-2021-05-17"
+  },
+  "course-0020701": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020701",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1301W, version 0020701-2022-05-16"
+  },
+  "course-0020731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020731",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1401V, version 0020731-2023-09-05"
+  },
+  "course-8179651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8179651",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1222, version 8179651-2021-05-17"
+  },
+  "course-0020711": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020711",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1302W, version 0020711-2022-01-18"
+  },
+  "course-0020741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0020741",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHYS 1402V, version 0020741-2021-09-07"
+  },
+  "course-8123571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8123571",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3407, version 8123571-2024-09-03"
+  },
+  "course-8125911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8125911",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3408W, version 8125911-2026-09-08"
+  },
+  "course-0128471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128471",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4609W, version 0128471-2022-09-06"
+  },
+  "course-7910651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7910651",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4611, version 7910651-2024-09-03"
+  },
+  "course-7922821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7922821",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4121, version 7922821-2024-09-03"
+  },
+  "course-8123581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8123581",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3409, version 8123581-2024-09-03"
+  },
+  "course-8126851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8126851",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 5409, version 8126851-2024-09-03"
+  },
+  "course-8018741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8018741",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3002, version 8018741-2015-01-20"
+  },
+  "course-8257621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8257621",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3012, version 8257621-2022-09-06"
+  },
+  "course-0130771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0130771",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3211, version 0130771-2026-01-20"
+  },
+  "course-8125921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8125921",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3412W, version 8125921-2024-09-03"
+  },
+  "course-0051871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051871",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4129, version 0051871-2024-09-03"
+  },
+  "course-0051191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051191",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4134, version 0051191-2015-01-20"
+  },
+  "course-0076381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0076381",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 4161, version 0076381-2026-01-20"
+  },
+  "course-0086591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086591",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 3301, version 0086591-2025-09-02"
+  },
+  "course-8052991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8052991",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 3303, version 8052991-2025-09-02"
+  },
+  "course-7902011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7902011",
+   "retrieved": "2026-11-23",
+   "section": "Course record NSCI 3102W, version 7902011-2021-01-19"
+  },
+  "course-8278441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278441",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 3006W, version 8278441-2026-05-18"
+  },
+  "course-0142911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0142911",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 3007W, version 0142911-2018-09-04"
+  },
+  "course-8185551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185551",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 3212, version 8185551-2019-01-22"
+  },
+  "course-8182891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8182891",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 5212, version 8182891-2020-01-21"
+  },
+  "course-0086601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086601",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4111, version 0086601-2024-09-03"
+  },
+  "course-8142441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8142441",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4412, version 8142441-2021-09-07"
+  },
+  "course-0088031": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0088031",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4511, version 0088031-2024-09-03"
+  },
+  "course-8155901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8155901",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 3022, version 8155901-2020-05-18"
+  },
+  "course-0029451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0029451",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 4331, version 0029451-2017-09-05"
+  },
+  "course-0094891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0094891",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 4003, version 0094891-2026-01-20"
+  },
+  "course-8191251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8191251",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4131, version 8191251-2021-09-07"
+  },
+  "course-0031811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0031811",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 4332, version 0031811-2020-09-08"
+  },
+  "course-0108811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0108811",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 4004, version 0108811-2026-05-18"
+  },
+  "course-7949871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7949871",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 4171, version 7949871-2025-01-21"
+  },
+  "course-7943091": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7943091",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4516W, version 7943091-2022-01-18"
+  },
+  "course-7900131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7900131",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 4125, version 7900131-2021-05-17"
+  },
+  "course-0030191": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0030191",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 4025W, version 0030191-2025-05-19"
+  },
+  "course-7888411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888411",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 4794W, version 7888411-2025-01-21"
+  },
+  "course-0050731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0050731",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 4994, version 0050731-2020-01-21"
+  },
+  "course-8034351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8034351",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 4794W, version 8034351-2025-01-21"
+  },
+  "course-8031411": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8031411",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 4994, version 8031411-2020-09-08"
+  },
+  "course-8065881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8065881",
+   "retrieved": "2026-11-23",
+   "section": "Course record CFAN 3502, version 8065881-2015-01-20"
+  },
+  "course-8128211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8128211",
+   "retrieved": "2026-11-23",
+   "section": "Course record CFAN 3529, version 8128211-2022-01-18"
+  },
+  "course-8276921": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8276921",
+   "retrieved": "2026-11-23",
+   "section": "Course record COP 3001, version 8276921-2025-09-02"
+  },
+  "course-8187911": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187911",
+   "retrieved": "2026-11-23",
+   "section": "Course record COP 4794W, version 8187911-2025-01-21"
+  },
+  "course-8187301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187301",
+   "retrieved": "2026-11-23",
+   "section": "Course record COP 4994, version 8187301-2020-09-08"
+  },
+  "course-8124821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8124821",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 5407, version 8124821-2024-09-03"
+  },
+  "course-7877991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7877991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3811W, version 7877991-2025-09-02"
+  },
+  "course-7888471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888471",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4794W, version 7888471-2025-05-19"
+  },
+  "course-0136991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0136991",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4839, version 0136991-2025-05-19"
+  },
+  "course-0136981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0136981",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4844, version 0136981-2025-05-19"
+  },
+  "course-0051241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0051241",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4994, version 0051241-2020-01-21"
+  },
+  "course-8042171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8042171",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 3485, version 8042171-2026-01-20"
+  },
+  "course-0076371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0076371",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 4025, version 0076371-2022-01-18"
+  },
+  "course-0076291": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0076291",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 4111, version 0076291-2024-01-16"
+  },
+  "course-7888491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888491",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 4794W, version 7888491-2025-01-21"
+  },
+  "course-0130271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0130271",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 4994, version 0130271-2020-01-21"
+  },
+  "course-8106511": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8106511",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 5005, version 8106511-2022-01-18"
+  },
+  "course-0086671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086671",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 4215, version 0086671-2023-09-05"
+  },
+  "course-8031491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8031491",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 4225W, version 8031491-2021-09-07"
+  },
+  "course-0086681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0086681",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 4235, version 0086681-2021-09-07"
+  },
+  "course-7889431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889431",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 4794W, version 7889431-2025-01-21"
+  },
+  "course-0102991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0102991",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 4994, version 0102991-2020-01-21"
+  },
+  "course-0081221": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0081221",
+   "retrieved": "2026-11-23",
+   "section": "Course record NSC 5551, version 0081221-2015-01-20"
+  },
+  "course-0162871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0162871",
+   "retrieved": "2026-11-23",
+   "section": "Course record NSC 5561, version 0162871-2015-01-20"
+  },
+  "course-7888551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888551",
+   "retrieved": "2026-11-23",
+   "section": "Course record NSCI 4794W, version 7888551-2025-05-19"
+  },
+  "course-0154581": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0154581",
+   "retrieved": "2026-11-23",
+   "section": "Course record NSCI 4994, version 0154581-2015-01-20"
+  },
+  "course-8186851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8186851",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 3802, version 8186851-2026-05-18"
+  },
+  "course-8187271": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187271",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 5802, version 8187271-2026-01-20"
+  },
+  "course-8187171": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187171",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 3812, version 8187171-2022-05-16"
+  },
+  "course-8187531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187531",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 5812, version 8187531-2022-01-18"
+  },
+  "course-0106321": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0106321",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4321, version 0106321-2017-09-05"
+  },
+  "course-7888571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888571",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4794W, version 7888571-2025-01-21"
+  },
+  "course-0136431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0136431",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4994, version 0136431-2020-01-21"
+  },
+  "course-7888401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888401",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOC 4793W, version 7888401-2020-09-08"
+  },
+  "course-8275141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275141",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 3505W, version 8275141-2025-01-21"
+  },
+  "course-8187901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8187901",
+   "retrieved": "2026-11-23",
+   "section": "Course record COP 4793W, version 8187901-2020-09-08"
+  },
+  "course-8081551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8081551",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 3851W, version 8081551-2021-09-07"
+  },
+  "course-8070541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8070541",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4330W, version 8070541-2021-09-07"
+  },
+  "course-7888461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888461",
+   "retrieved": "2026-11-23",
+   "section": "Course record EEB 4793W, version 7888461-2020-09-08"
+  },
+  "course-7888481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888481",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 4793W, version 7888481-2020-09-08"
+  },
+  "course-7983901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7983901",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 4161W, version 7983901-2021-09-07"
+  },
+  "course-7889421": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7889421",
+   "retrieved": "2026-11-23",
+   "section": "Course record MICB 4793W, version 7889421-2020-09-08"
+  },
+  "course-7888541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888541",
+   "retrieved": "2026-11-23",
+   "section": "Course record NSCI 4793W, version 7888541-2020-09-08"
+  },
+  "course-7888561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7888561",
+   "retrieved": "2026-11-23",
+   "section": "Course record PMB 4793W, version 7888561-2020-09-08"
+  },
+  "course-8132351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8132351",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 4321W, version 8132351-2020-09-08"
+  },
+  "course-8078691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8078691",
+   "retrieved": "2026-11-23",
+   "section": "Course record NSCI 3001W, version 8078691-2012-01-17"
+  },
+  "course-8108601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8108601",
+   "retrieved": "2026-11-23",
+   "section": "Course record NSCI 3505W, version 8108601-2021-01-19"
+  },
+  "course-8034341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8034341",
+   "retrieved": "2026-11-23",
+   "section": "Course record BIOL 4793W, version 8034341-2020-09-08"
+  },
+  "course-8087721": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8087721",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 4005W, version 8087721-2026-01-20"
+  },
+  "course-8254001": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8254001",
+   "retrieved": "2026-11-23",
+   "section": "Course record GCD 4144W, version 8254001-2022-01-18"
+  }
+ },
+ "courseSets": {
+  "set-6sQdk27O": {
+   "codes": [
+    "BIOL 1805",
+    "BIOL 1806",
+    "BIOL 1807"
+   ],
+   "sourceRef": "program"
+  },
+  "set-15sf8RXr": {
+   "codes": [
+    "BIOL 1951",
+    "BIOL 1951H",
+    "BIOL 1961",
+    "BIOL 2003",
+    "BIOL 2003H",
+    "BIOL 3004"
+   ],
+   "sourceRef": "program"
+  },
+  "set-sOY0AW7x": {
+   "codes": [
+    "MATH 1241",
+    "MATH 1271",
+    "MATH 1371",
+    "MATH 1571H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-KVxrjS4E": {
+   "codes": [
+    "BIOL 3272",
+    "BIOL 3272H",
+    "BIOL 5272",
+    "CSCI 1133",
+    "CSCI 1133H",
+    "CSCI 3003",
+    "MATH 1272",
+    "MATH 1572H",
+    "MATH 2241",
+    "STAT 3011"
+   ],
+   "sourceRef": "program"
+  },
+  "set-sSj4ygS7": {
+   "codes": [
+    "CHEM 1081",
+    "CHEM 1065",
+    "CHEM 1082",
+    "CHEM 1086",
+    "CHEM 2081",
+    "CHEM 2085"
+   ],
+   "sourceRef": "program"
+  },
+  "set-QPvwlyVU": {
+   "codes": [
+    "CHEM 1061",
+    "CHEM 1065",
+    "CHEM 1062",
+    "CHEM 1066",
+    "CHEM 2301"
+   ],
+   "sourceRef": "program"
+  },
+  "set-3KqMiNP8": {
+   "codes": [
+    "CHEM 1071H",
+    "CHEM 1065",
+    "CHEM 1072H",
+    "CHEM 1066",
+    "CHEM 2331H"
+   ],
+   "sourceRef": "program"
+  },
+  "set-7UgIh1ro": {
+   "codes": [
+    "PHYS 1221",
+    "PHYS 1301W",
+    "PHYS 1401V",
+    "PHYS 1222",
+    "PHYS 1302W",
+    "PHYS 1402V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-fXiNC46w": {
+   "codes": [
+    "EEB 3407",
+    "EEB 3408W",
+    "EEB 4609W",
+    "EEB 4611",
+    "PMB 4121"
+   ],
+   "sourceRef": "program"
+  },
+  "set-3fhIqfgD": {
+   "codes": [
+    "EEB 3409",
+    "EEB 5409",
+    "EEB 3002"
+   ],
+   "sourceRef": "program"
+  },
+  "set-2SNdh3Xf": {
+   "codes": [
+    "BIOL 3012",
+    "BIOL 3211",
+    "EEB 3412W",
+    "EEB 4129",
+    "EEB 4134",
+    "GCD 4161",
+    "MICB 3301",
+    "MICB 3303",
+    "NSCI 3102W",
+    "PMB 3006W",
+    "PMB 3007W",
+    "PMB 3212",
+    "PMB 5212",
+    "PMB 4111",
+    "PMB 4412",
+    "PMB 4511"
+   ],
+   "sourceRef": "program"
+  },
+  "set-TkcotYgS": {
+   "codes": [
+    "BIOC 3022",
+    "BIOC 4331"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ufmqLlbL": {
+   "codes": [
+    "BIOL 4003",
+    "PMB 4131"
+   ],
+   "sourceRef": "program"
+  },
+  "set-2nWng4vA": {
+   "codes": [
+    "BIOC 4332",
+    "BIOL 4004",
+    "MICB 4171",
+    "PMB 4516W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ESOkwtKn": {
+   "codes": [
+    "BIOC 4125",
+    "BIOC 4025W",
+    "BIOC 4794W",
+    "BIOC 4994",
+    "BIOL 3012",
+    "BIOL 4794W",
+    "BIOL 4994",
+    "CFAN 3502",
+    "CFAN 3529",
+    "COP 3001",
+    "COP 4794W",
+    "COP 4994",
+    "EEB 3407",
+    "EEB 3408W",
+    "EEB 5407",
+    "EEB 3409",
+    "EEB 5409",
+    "EEB 3412W",
+    "EEB 3811W",
+    "EEB 4129",
+    "EEB 4134",
+    "EEB 4794W",
+    "EEB 4839",
+    "EEB 4844",
+    "EEB 4994",
+    "GCD 3485",
+    "GCD 4025",
+    "GCD 4111",
+    "GCD 4794W",
+    "GCD 4994",
+    "GCD 5005",
+    "MICB 3301",
+    "MICB 4215",
+    "MICB 4225W",
+    "MICB 4235",
+    "MICB 4794W",
+    "MICB 4994",
+    "NSC 5551",
+    "NSC 5561",
+    "NSCI 4794W",
+    "NSCI 4994",
+    "PMB 3006W",
+    "PMB 3007W",
+    "PMB 3802",
+    "PMB 5802",
+    "PMB 3812",
+    "PMB 5812",
+    "PMB 4321",
+    "PMB 4511",
+    "PMB 4794W",
+    "PMB 4994"
+   ],
+   "sourceRef": "program"
+  },
+  "set-432570": {
+   "codes": [
+    "BIOC 4025W",
+    "BIOC 4793W",
+    "BIOC 4794W",
+    "BIOL 3505W",
+    "BIOL 4321W",
+    "BIOL 4793W",
+    "BIOL 4794W",
+    "COP 4793W",
+    "COP 4794W",
+    "EEB 3408W",
+    "EEB 3412W",
+    "EEB 3811W",
+    "EEB 3851W",
+    "EEB 4330W",
+    "EEB 4609W",
+    "EEB 4793W",
+    "EEB 4794W",
+    "GCD 4005W",
+    "GCD 4793W",
+    "GCD 4794W",
+    "MICB 4161W",
+    "MICB 4225W",
+    "MICB 4793W",
+    "MICB 4794W",
+    "NSCI 3001W",
+    "NSCI 3102W",
+    "NSCI 3505W",
+    "NSCI 4793W",
+    "NSCI 4794W",
+    "PMB 3006W",
+    "PMB 3007W",
+    "PMB 4516W",
+    "PMB 4793W",
+    "PMB 4794W",
+    "GCD 4144W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "BIOC 3022": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biochemistry for Life Scientists",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CHEM 2301 or CHEM 2081/2085 or equivalent"
+    },
+    "sourceRef": "course-8155901"
+   },
+   "sourceRef": "course-8155901"
+  },
+  "BIOC 4025W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Laboratory in Biochemistry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3021, 3022, or 4331 or equiv"
+    },
+    "sourceRef": "course-0030191"
+   },
+   "sourceRef": "course-0030191"
+  },
+  "BIOC 4125": {
+   "catalogTerm": "Fall 2026",
+   "title": "Laboratory in Molecular Biology and Biotechnology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Biol 3015 or Biol 3020 or Biol 3025 or Bioc 3021 or Bioc 3022 or Bioc 4331 or Biol 4003 or instructor consent"
+    },
+    "sourceRef": "course-7900131"
+   },
+   "sourceRef": "course-7900131"
+  },
+  "BIOC 4331": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biochemistry I: Structure, Catalysis, and Metabolism in Biological Systems",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "(BIOL 1009 or 2003 or equiv) AND (Chem 2302 or CHEM 2081/2085 or equiv)"
+    },
+    "sourceRef": "course-0029451"
+   },
+   "sourceRef": "course-0029451"
+  },
+  "BIOC 4332": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biochemistry II: Molecular Mechanisms of Signal Transduction and Gene Expression",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "BIOC 4331"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOC 3201"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOC 3022"
+      }
+     ]
+    },
+    "sourceRef": "course-0031811"
+   },
+   "sourceRef": "course-0031811"
+  },
+  "BIOC 4793W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies: Writing Intensive",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements."
+    },
+    "sourceRef": "course-7888401"
+   },
+   "sourceRef": "course-7888401"
+  },
+  "BIOC 4794W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research: Writing Intensive",
+   "minimumCredits": 3,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent"
+    },
+    "sourceRef": "course-7888411"
+   },
+   "sourceRef": "course-7888411"
+  },
+  "BIOC 4994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements."
+    },
+    "sourceRef": "course-0050731"
+   },
+   "sourceRef": "course-0050731"
+  },
+  "BIOL 1805": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nature of Life: Introducing New Students to the Biological Sciences",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7930651"
+   },
+   "sourceRef": "course-7930651"
+  },
+  "BIOL 1806": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nature of Life, Part Two",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "BIOL 1805"
+    },
+    "sourceRef": "course-8088561"
+   },
+   "sourceRef": "course-8088561"
+  },
+  "BIOL 1807": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nature of Life Part III",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8264511"
+   },
+   "sourceRef": "course-8264511"
+  },
+  "BIOL 1951": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lecture I for Biological Sciences Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171961"
+   },
+   "sourceRef": "course-8171961"
+  },
+  "BIOL 1951H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lecture I for Biological Sciences Majors",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8171881"
+   },
+   "sourceRef": "course-8171881"
+  },
+  "BIOL 1961": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology Lab I for Biological Sciences Majors",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172001"
+   },
+   "sourceRef": "course-8172001"
+  },
+  "BIOL 2003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology for Biological Sciences Majors, Part II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8004571"
+   },
+   "sourceRef": "course-8004571"
+  },
+  "BIOL 2003H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology for Biological Sciences Majors, Part II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8014261"
+   },
+   "sourceRef": "course-8014261"
+  },
+  "BIOL 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Nature of Science and Research",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "College-level biology"
+    },
+    "sourceRef": "course-8097581"
+   },
+   "sourceRef": "course-8097581"
+  },
+  "BIOL 3004": {
+   "catalogTerm": "Fall 2026",
+   "title": "Foundations of Biology for Biological Sciences Majors, Part II Laboratory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8021401"
+   },
+   "sourceRef": "course-8021401"
+  },
+  "BIOL 3012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Animal Diversity and Evolution",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1001/1001H, or BIOL 1009/1009H, or BIOL 1951/1951H"
+    },
+    "sourceRef": "course-8257621"
+   },
+   "sourceRef": "course-8257621"
+  },
+  "BIOL 3211": {
+   "catalogTerm": "Fall 2026",
+   "title": "Physiology of Humans and Other Animals",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1009 or 2003], [CHEM 1062/1066 or 1082/1086], [2005 is recommended]"
+    },
+    "sourceRef": "course-0130771"
+   },
+   "sourceRef": "course-0130771"
+  },
+  "BIOL 3272": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Biostatistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra; BIOL 2003 recommended"
+    },
+    "sourceRef": "course-8066611"
+   },
+   "sourceRef": "course-8066611"
+  },
+  "BIOL 3272H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Biostatistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra; BIOL 2003 recommended."
+    },
+    "sourceRef": "course-8176741"
+   },
+   "sourceRef": "course-8176741"
+  },
+  "BIOL 3505W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sex and Gender: A Biological Perspective",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275141"
+   },
+   "sourceRef": "course-8275141"
+  },
+  "BIOL 4003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Genetics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Biol 2003/2003H or BioC 3021 or BioC 4331 or grad"
+    },
+    "sourceRef": "course-0094891"
+   },
+   "sourceRef": "course-0094891"
+  },
+  "BIOL 4004": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cell Biology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "FBYP, or BIOL 2003 or 2003H, or BIOL 4003, or grad"
+    },
+    "sourceRef": "course-0108811"
+   },
+   "sourceRef": "course-0108811"
+  },
+  "BIOL 4321W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Deconstructing Research: Writing about Biological Research for Non-scientists",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8132351"
+   },
+   "sourceRef": "course-8132351"
+  },
+  "BIOL 4793W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies: Writing Intensive",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements."
+    },
+    "sourceRef": "course-8034341"
+   },
+   "sourceRef": "course-8034341"
+  },
+  "BIOL 4794W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research: Writing Intensive",
+   "minimumCredits": 3,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent"
+    },
+    "sourceRef": "course-8034351"
+   },
+   "sourceRef": "course-8034351"
+  },
+  "BIOL 4994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements."
+    },
+    "sourceRef": "course-8031411"
+   },
+   "sourceRef": "course-8031411"
+  },
+  "BIOL 5272": {
+   "catalogTerm": "Fall 2026",
+   "title": "Applied Biostatistics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High school algebra; BIOL 2003 recommended."
+    },
+    "sourceRef": "course-8083731"
+   },
+   "sourceRef": "course-8083731"
+  },
+  "CFAN 3502": {
+   "catalogTerm": "Fall 2026",
+   "title": "Bahamas--Tropical Marine Biology and Shark Ecology",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-8065881"
+   },
+   "sourceRef": "course-8065881"
+  },
+  "CFAN 3529": {
+   "catalogTerm": "Fall 2026",
+   "title": "From Rainforest to Reef: Wildlife Medicine and Conservation in Belize",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8128211"
+   },
+   "sourceRef": "course-8128211"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1062": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least C- in 1061 or equiv, concurrent registration is required (or allowed) in 1066; registration for 1066 must precede registration for 1062"
+    },
+    "sourceRef": "course-8077561"
+   },
+   "sourceRef": "course-8077561"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "CHEM 1066": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemical Principles II Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1062, 1072, 1072H"
+    },
+    "sourceRef": "course-8077541"
+   },
+   "sourceRef": "course-8077541"
+  },
+  "CHEM 1071H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8077581"
+   },
+   "sourceRef": "course-8077581"
+  },
+  "CHEM 1072H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Chemistry II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student or permission of University Honors Program."
+    },
+    "sourceRef": "course-8077551"
+   },
+   "sourceRef": "course-8077551"
+  },
+  "CHEM 1081": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8152521"
+   },
+   "sourceRef": "course-8152521"
+  },
+  "CHEM 1082": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences II",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8152841"
+   },
+   "sourceRef": "course-8152841"
+  },
+  "CHEM 1086": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences II Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "grade of a C- or better in CHEM 1081 or 1061 or 1071H and CHEM 1065 (lab). Concurrent registration in CHEM 1082 is required."
+    },
+    "sourceRef": "course-8152831"
+   },
+   "sourceRef": "course-8152831"
+  },
+  "CHEM 2081": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences III",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "grade of a C- or better in CHEM 1082 (lecture) and CHEM 1086 (lab)"
+    },
+    "sourceRef": "course-8152861"
+   },
+   "sourceRef": "course-8152861"
+  },
+  "CHEM 2085": {
+   "catalogTerm": "Fall 2026",
+   "title": "Chemistry for the Life Sciences III Laboratory",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "grade of a C- or better in CHEM 1082 (lecture) and CHEM 1086 (lab). Concurrent registration in CHEM 2081 is required."
+    },
+    "sourceRef": "course-8152851"
+   },
+   "sourceRef": "course-8152851"
+  },
+  "CHEM 2301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Organic Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "C- or better in CHEM 1062/1072/1072H or equivalent"
+    },
+    "sourceRef": "course-0023921"
+   },
+   "sourceRef": "course-0023921"
+  },
+  "CHEM 2331H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Elementary Organic Chemistry I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least B+ in 1072H, honors student or instructor consent"
+    },
+    "sourceRef": "course-8081851"
+   },
+   "sourceRef": "course-8081851"
+  },
+  "COP 3001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cellular and Organismal Physiology of Animals Laboratory",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8276921"
+   },
+   "sourceRef": "course-8276921"
+  },
+  "COP 4793W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing Intensive Directed Studies",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements."
+    },
+    "sourceRef": "course-8187901"
+   },
+   "sourceRef": "course-8187901"
+  },
+  "COP 4794W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing Intensive Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent"
+    },
+    "sourceRef": "course-8187911"
+   },
+   "sourceRef": "course-8187911"
+  },
+  "COP 4994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements."
+    },
+    "sourceRef": "course-8187301"
+   },
+   "sourceRef": "course-8187301"
+  },
+  "CSCI 1133": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8096661"
+   },
+   "sourceRef": "course-8096661"
+  },
+  "CSCI 1133H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Introduction to Computing and Programming Concepts",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[concurrent registration is required (or allowed) in MATH 1271 or concurrent registration is required (or allowed) in MATH 1371 or concurrent registration is required (or allowed) in MATH 1571H], CSci majors, pre-majors in CSE/CLA, honors student"
+    },
+    "sourceRef": "course-8110721"
+   },
+   "sourceRef": "course-8110721"
+  },
+  "CSCI 3003": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Computing in Biology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "introductory biology course."
+    },
+    "sourceRef": "course-7973441"
+   },
+   "sourceRef": "course-7973441"
+  },
+  "EEB 3002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sex, Evolution, and Behavior:  Examining Human Evolutionary Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8018741"
+   },
+   "sourceRef": "course-8018741"
+  },
+  "EEB 3407": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ecology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8123571"
+   },
+   "sourceRef": "course-8123571"
+  },
+  "EEB 3408W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ecology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8125911"
+   },
+   "sourceRef": "course-8125911"
+  },
+  "EEB 3409": {
+   "catalogTerm": "Fall 2026",
+   "title": "Evolution",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "one semester of college biology."
+    },
+    "sourceRef": "course-8123581"
+   },
+   "sourceRef": "course-8123581"
+  },
+  "EEB 3412W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Animal Behavior, Writing Intensive",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL1951 or one of the following: BIOL1001, BIOL1003, BIOL1009, BIOL1012, BIOL1015, BIOL1052, BIOL1055, MATH1241, CHEM1081, CHEM1061, CHEM1071H, PHYS1221, PHYS1301W, PHYS1401V or instructor consent. Credit granted for only one of the following: EEB 3411, EEB 3412W or EEB 5412."
+    },
+    "sourceRef": "course-8125921"
+   },
+   "sourceRef": "course-8125921"
+  },
+  "EEB 3811W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Animal Behavior in the Field",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7877991"
+   },
+   "sourceRef": "course-7877991"
+  },
+  "EEB 3851W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Health and Biodiversity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "At least one year of college Biology or equivalent"
+    },
+    "sourceRef": "course-8081551"
+   },
+   "sourceRef": "course-8081551"
+  },
+  "EEB 4129": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mammalogy",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One semester of college-level biology (BIOL 1951 or 1009). A course in Animal Diversity (e.g. BIOL 3012) is recommended but not required."
+    },
+    "sourceRef": "course-0051871"
+   },
+   "sourceRef": "course-0051871"
+  },
+  "EEB 4134": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Ornithology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "BIOL 1001"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 2012"
+      }
+     ]
+    },
+    "sourceRef": "course-0051191"
+   },
+   "sourceRef": "course-0051191"
+  },
+  "EEB 4330W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Animal Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "BIOL 1951"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 1951H"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 1009"
+        }
+       ]
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "EEB 3412W"
+        },
+        {
+         "type": "course",
+         "course_code": "EEB 3411"
+        },
+        {
+         "type": "course",
+         "course_code": "EEB 3811W"
+        }
+       ]
+      }
+     ]
+    },
+    "sourceRef": "course-8070541"
+   },
+   "sourceRef": "course-8070541"
+  },
+  "EEB 4609W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ecosystem Ecology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128471"
+   },
+   "sourceRef": "course-0128471"
+  },
+  "EEB 4611": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biogeochemical Processes",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1009 or 2003] AND [CHEM 1081 or 1061 or 1071H] or instr consent"
+    },
+    "sourceRef": "course-7910651"
+   },
+   "sourceRef": "course-7910651"
+  },
+  "EEB 4793W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies: Writing Intensive",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements."
+    },
+    "sourceRef": "course-7888461"
+   },
+   "sourceRef": "course-7888461"
+  },
+  "EEB 4794W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research: Writing Intensive",
+   "minimumCredits": 3,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent"
+    },
+    "sourceRef": "course-7888471"
+   },
+   "sourceRef": "course-7888471"
+  },
+  "EEB 4839": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Studies in Mammalogy",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0136991"
+   },
+   "sourceRef": "course-0136991"
+  },
+  "EEB 4844": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Ornithology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0136981"
+   },
+   "sourceRef": "course-0136981"
+  },
+  "EEB 4994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements."
+    },
+    "sourceRef": "course-0051241"
+   },
+   "sourceRef": "course-0051241"
+  },
+  "EEB 5407": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ecology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8124821"
+   },
+   "sourceRef": "course-8124821"
+  },
+  "EEB 5409": {
+   "catalogTerm": "Fall 2026",
+   "title": "Evolution",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8126851"
+   },
+   "sourceRef": "course-8126851"
+  },
+  "GCD 3485": {
+   "catalogTerm": "Fall 2026",
+   "title": "Bioinformatic Analysis: Introduction to the Computational Characterization of Genes and Proteins",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "introductory course in genetics and cell biology such as Foundations"
+    },
+    "sourceRef": "course-8042171"
+   },
+   "sourceRef": "course-8042171"
+  },
+  "GCD 4005W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cell Biology-Writing Intensive",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "GCD Majors, (FBYP or Biol 2003 or Biol 2003H or Biol 4003 or Grad)"
+    },
+    "sourceRef": "course-8087721"
+   },
+   "sourceRef": "course-8087721"
+  },
+  "GCD 4025": {
+   "catalogTerm": "Fall 2026",
+   "title": "Cell Biology, Development & Regeneration Laboratory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Biol 2003/2003H or instructor permission; Recommended prerequisite: Biol 4004 or GCD 4005W (priority enrollment to GCD majors)"
+    },
+    "sourceRef": "course-0076371"
+   },
+   "sourceRef": "course-0076371"
+  },
+  "GCD 4111": {
+   "catalogTerm": "Fall 2026",
+   "title": "Histology: Cell and Tissue Organization",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL4004 or GCD3033 or GCD4005W or graduate student"
+    },
+    "sourceRef": "course-0076291"
+   },
+   "sourceRef": "course-0076291"
+  },
+  "GCD 4144W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Human Genetics - Writing Intensive",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 4003 or instr consent; Health and Genomics minor"
+    },
+    "sourceRef": "course-8254001"
+   },
+   "sourceRef": "course-8254001"
+  },
+  "GCD 4161": {
+   "catalogTerm": "Fall 2026",
+   "title": "Developmental Biology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 4003; also recommended background in cell biology such as: BIOL 4004 or GCD 4005W"
+    },
+    "sourceRef": "course-0076381"
+   },
+   "sourceRef": "course-0076381"
+  },
+  "GCD 4793W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies: Writing Intensive",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements."
+    },
+    "sourceRef": "course-7888481"
+   },
+   "sourceRef": "course-7888481"
+  },
+  "GCD 4794W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research: Writing Intensive",
+   "minimumCredits": 3,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent"
+    },
+    "sourceRef": "course-7888491"
+   },
+   "sourceRef": "course-7888491"
+  },
+  "GCD 4994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements."
+    },
+    "sourceRef": "course-0130271"
+   },
+   "sourceRef": "course-0130271"
+  },
+  "GCD 5005": {
+   "catalogTerm": "Fall 2026",
+   "title": "Computer Programming for Biology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 4003 or BIOL 4004 or GCD 3033 or CBS grad or BMBB or MCDB&G grad student, general statistics course"
+    },
+    "sourceRef": "course-8106511"
+   },
+   "sourceRef": "course-8106511"
+  },
+  "MATH 1241": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus and Dynamical Systems in Biology",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155], CBS student"
+    },
+    "sourceRef": "course-8082761"
+   },
+   "sourceRef": "course-8082761"
+  },
+  "MATH 1271": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0001201"
+   },
+   "sourceRef": "course-0001201"
+  },
+  "MATH 1272": {
+   "catalogTerm": "Fall 2026",
+   "title": "Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1271 or equiv] with grade of at least C-"
+    },
+    "sourceRef": "course-0001211"
+   },
+   "sourceRef": "course-0001211"
+  },
+  "MATH 1371": {
+   "catalogTerm": "Fall 2026",
+   "title": "CSE Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+    },
+    "sourceRef": "course-0036921"
+   },
+   "sourceRef": "course-0036921"
+  },
+  "MATH 1571H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors student and permission of University Honors Program"
+    },
+    "sourceRef": "course-0036961"
+   },
+   "sourceRef": "course-0036961"
+  },
+  "MATH 1572H": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Calculus II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "1571H (or equivalent)  honors student"
+    },
+    "sourceRef": "course-0036971"
+   },
+   "sourceRef": "course-0036971"
+  },
+  "MATH 2241": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mathematical Modeling of Biological Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[1241 or 1271 or 1371] w/grade of at least C-"
+    },
+    "sourceRef": "course-8149801"
+   },
+   "sourceRef": "course-8149801"
+  },
+  "MICB 3301": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biology of Microorganisms",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Biol 1961 and Biol 2003] or Biol 1009 or instructor permission"
+    },
+    "sourceRef": "course-0086591"
+   },
+   "sourceRef": "course-0086591"
+  },
+  "MICB 3303": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biology of Microorganisms (without laboratory)",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Biol 1961 and Biol 2003 or Biol 1009 or instructor permission."
+    },
+    "sourceRef": "course-8052991"
+   },
+   "sourceRef": "course-8052991"
+  },
+  "MICB 4161W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Eukaryotic Microbiology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "BIOL 4003"
+    },
+    "sourceRef": "course-7983901"
+   },
+   "sourceRef": "course-7983901"
+  },
+  "MICB 4171": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biology, Genetics, and Pathogenesis of Viruses",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Biol 2003 and Biol 4003, Bioc 3022 or Bioc 4331, [MicB 4131 or instructor permission]"
+    },
+    "sourceRef": "course-7949871"
+   },
+   "sourceRef": "course-7949871"
+  },
+  "MICB 4215": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Laboratory: Microbial Physiology and Diversity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MICB 3301 AND Microbiology  major or minor; priority for seats from waitlist to graduating Microbiology majors"
+    },
+    "sourceRef": "course-0086671"
+   },
+   "sourceRef": "course-0086671"
+  },
+  "MICB 4225W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Laboratory: Microbial Genetics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "MicB 3301 and [Biol 4003 or permission]; priority for seats from waitlist to graduating Microbiology majors"
+    },
+    "sourceRef": "course-8031491"
+   },
+   "sourceRef": "course-8031491"
+  },
+  "MICB 4235": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Laboratory: Virology, Immunology, and Microbial Genetics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Micb 3301 and [Bioc 3022 or Bioc 4331] and [MicB 4171 prereq or concurrent registration or permission]"
+    },
+    "sourceRef": "course-0086681"
+   },
+   "sourceRef": "course-0086681"
+  },
+  "MICB 4793W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies: Writing Intensive",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements."
+    },
+    "sourceRef": "course-7889421"
+   },
+   "sourceRef": "course-7889421"
+  },
+  "MICB 4794W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research: Writing Intensive",
+   "minimumCredits": 3,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent"
+    },
+    "sourceRef": "course-7889431"
+   },
+   "sourceRef": "course-7889431"
+  },
+  "MICB 4994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements."
+    },
+    "sourceRef": "course-0102991"
+   },
+   "sourceRef": "course-0102991"
+  },
+  "NSC 5551": {
+   "catalogTerm": "Fall 2026",
+   "title": "Itasca Cell and Molecular Neurobiology Laboratory",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Neuroscience grad or instr consent"
+    },
+    "sourceRef": "course-0081221"
+   },
+   "sourceRef": "course-0081221"
+  },
+  "NSC 5561": {
+   "catalogTerm": "Fall 2026",
+   "title": "Systems Neuroscience",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "NSc grad student or instr consent"
+    },
+    "sourceRef": "course-0162871"
+   },
+   "sourceRef": "course-0162871"
+  },
+  "NSCI 3001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Neuroscience and Society",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8078691"
+   },
+   "sourceRef": "course-8078691"
+  },
+  "NSCI 3102W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Neurobiology II: Perception and Behavior",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7902011"
+   },
+   "sourceRef": "course-7902011"
+  },
+  "NSCI 3505W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Mind and Brain",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8108601"
+   },
+   "sourceRef": "course-8108601"
+  },
+  "NSCI 4793W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies: Writing Intensive",
+   "minimumCredits": 1,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent, dept consent; no more than 7 cr of [4793, 4794, 4993, 4994] may count toward major requirements"
+    },
+    "sourceRef": "course-7888541"
+   },
+   "sourceRef": "course-7888541"
+  },
+  "NSCI 4794W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research: Writing Intensive",
+   "minimumCredits": 3,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent"
+    },
+    "sourceRef": "course-7888551"
+   },
+   "sourceRef": "course-7888551"
+  },
+  "NSCI 4994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 6,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent, dept consent; max of 7 cr of 4993 and/or 4994 may count toward major requirements"
+    },
+    "sourceRef": "course-0154581"
+   },
+   "sourceRef": "course-0154581"
+  },
+  "PHYS 1221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Life Science Majors I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "High School or College Calculus"
+    },
+    "sourceRef": "course-8179641"
+   },
+   "sourceRef": "course-8179641"
+  },
+  "PHYS 1222": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Life Science Majors II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PHYS 1221 or equivalent"
+    },
+    "sourceRef": "course-8179651"
+   },
+   "sourceRef": "course-8179651"
+  },
+  "PHYS 1301W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Science and Engineering I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020701"
+   },
+   "sourceRef": "course-0020701"
+  },
+  "PHYS 1302W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introductory Physics for Science and Engineering II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "PHYS 1301 or equivalent, Prereq or Concurrent: MATH 1272/1372/1572H or equivalent"
+    },
+    "sourceRef": "course-0020711"
+   },
+   "sourceRef": "course-0020711"
+  },
+  "PHYS 1401V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Physics I",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Honors program or with permission, Prereq or Concurrent: MATH 1271/1371/1571H or equivalent"
+    },
+    "sourceRef": "course-0020731"
+   },
+   "sourceRef": "course-0020731"
+  },
+  "PHYS 1402V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Physics II",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0020741"
+   },
+   "sourceRef": "course-0020741"
+  },
+  "PMB 3006W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Plant Function",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[BIOL 1002 or 1009 or 2003 or equiv]"
+    },
+    "sourceRef": "course-8278441"
+   },
+   "sourceRef": "course-8278441"
+  },
+  "PMB 3007W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Plant, Algal, and Fungal Diversity and Adaptation",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One semester college biology"
+    },
+    "sourceRef": "course-0142911"
+   },
+   "sourceRef": "course-0142911"
+  },
+  "PMB 3212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fungi - A Kingdom of Their Own",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Introductory Biology course"
+    },
+    "sourceRef": "course-8185551"
+   },
+   "sourceRef": "course-8185551"
+  },
+  "PMB 3802": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Microbiology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8186851"
+   },
+   "sourceRef": "course-8186851"
+  },
+  "PMB 3812": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Mycology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187171"
+   },
+   "sourceRef": "course-8187171"
+  },
+  "PMB 4111": {
+   "catalogTerm": "Fall 2026",
+   "title": "Microbial Physiology and Diversity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0086601"
+   },
+   "sourceRef": "course-0086601"
+  },
+  "PMB 4121": {
+   "catalogTerm": "Fall 2026",
+   "title": "Microbial Ecology and Applied Microbiology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1009, BIOL 1951 or equivalent."
+    },
+    "sourceRef": "course-7922821"
+   },
+   "sourceRef": "course-7922821"
+  },
+  "PMB 4131": {
+   "catalogTerm": "Fall 2026",
+   "title": "Prokaryotic Genetics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8191251"
+   },
+   "sourceRef": "course-8191251"
+  },
+  "PMB 4321": {
+   "catalogTerm": "Fall 2026",
+   "title": "Minnesota Flora",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "One semester college biology"
+    },
+    "sourceRef": "course-0106321"
+   },
+   "sourceRef": "course-0106321"
+  },
+  "PMB 4412": {
+   "catalogTerm": "Fall 2026",
+   "title": "Plant Physiology and Development",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8142441"
+   },
+   "sourceRef": "course-8142441"
+  },
+  "PMB 4511": {
+   "catalogTerm": "Fall 2026",
+   "title": "Flowering Plant Diversity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "BIOL 1001"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1001H"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1009"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1009H"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1951"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1951H"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 2003"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 2003H"
+      }
+     ]
+    },
+    "sourceRef": "course-0088031"
+   },
+   "sourceRef": "course-0088031"
+  },
+  "PMB 4516W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Plant Cell Biology: Writing Intensive",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7943091"
+   },
+   "sourceRef": "course-7943091"
+  },
+  "PMB 4793W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Studies: Writing Intensive",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7888561"
+   },
+   "sourceRef": "course-7888561"
+  },
+  "PMB 4794W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research: Writing Intensive",
+   "minimumCredits": 3,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "department consent, instructor consent"
+    },
+    "sourceRef": "course-7888571"
+   },
+   "sourceRef": "course-7888571"
+  },
+  "PMB 4994": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Research",
+   "minimumCredits": 1,
+   "maximumCredits": 7,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0136431"
+   },
+   "sourceRef": "course-0136431"
+  },
+  "PMB 5212": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fungi - A Kingdom of Their Own",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8182891"
+   },
+   "sourceRef": "course-8182891"
+  },
+  "PMB 5802": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Microbiology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187271"
+   },
+   "sourceRef": "course-8187271"
+  },
+  "PMB 5812": {
+   "catalogTerm": "Fall 2026",
+   "title": "Field Mycology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8187531"
+   },
+   "sourceRef": "course-8187531"
+  },
+  "STAT 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Statistical Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0016181"
+   },
+   "sourceRef": "course-0016181"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-nPtVCMOG",
+   "label": "Foundational Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-nPtVCMOG",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-KciMD8rL",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-6sQdk27O",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-6sQdk27O-sequence",
+          "type": "all",
+          "allowReuse": false,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-6sQdk27O-g1-1",
+            "type": "course",
+            "code": "BIOL 1805",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-6sQdk27O-g2-1",
+            "type": "course",
+            "code": "BIOL 1806",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-6sQdk27O-g3-1",
+            "type": "course",
+            "code": "BIOL 1807",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-6sQdk27O-credits",
+          "type": "credits",
+          "minCredits": 3,
+          "courseSet": "set-6sQdk27O",
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Nature of Life"
+       },
+       {
+        "id": "r-p8oWsWEj",
+        "type": "course",
+        "code": "BIOL 3001",
+        "sourceRef": "program",
+        "label": "Nature of Science and Research"
+       }
+      ],
+      "label": "Nature of Life/Nature of Research"
+     },
+     {
+      "id": "r-15sf8RXr",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-15sf8RXr-sequence",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-15sf8RXr-g1",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-15sf8RXr-g1-1",
+            "type": "course",
+            "code": "BIOL 1951",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-15sf8RXr-g1-2",
+            "type": "course",
+            "code": "BIOL 1951H",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-15sf8RXr-g2-1",
+          "type": "course",
+          "code": "BIOL 1961",
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-15sf8RXr-g3",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-15sf8RXr-g3-1",
+            "type": "course",
+            "code": "BIOL 2003",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-15sf8RXr-g3-2",
+            "type": "course",
+            "code": "BIOL 2003H",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-15sf8RXr-g4-1",
+          "type": "course",
+          "code": "BIOL 3004",
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-15sf8RXr-credits",
+        "type": "credits",
+        "minCredits": 12,
+        "courseSet": "set-15sf8RXr",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Foundations of Biology"
+     },
+     {
+      "id": "r-AcS980Um",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-sOY0AW7x",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-sOY0AW7x-credits",
+          "type": "credits",
+          "courseSet": "set-sOY0AW7x",
+          "minCredits": 4,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-sOY0AW7x-min",
+          "type": "count",
+          "courseSet": "set-sOY0AW7x",
+          "minCourses": 1,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-sOY0AW7x-max",
+          "type": "count",
+          "courseSet": "set-sOY0AW7x",
+          "maxCourses": 1,
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Quantitative I"
+       },
+       {
+        "id": "r-KVxrjS4E",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-KVxrjS4E-credits",
+          "type": "credits",
+          "courseSet": "set-KVxrjS4E",
+          "minCredits": 3,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-KVxrjS4E-min",
+          "type": "count",
+          "courseSet": "set-KVxrjS4E",
+          "minCourses": 1,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-KVxrjS4E-max",
+          "type": "count",
+          "courseSet": "set-KVxrjS4E",
+          "maxCourses": 1,
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Quantitative II"
+       }
+      ],
+      "label": "Quantitative Requirements"
+     },
+     {
+      "id": "r-1RuY1fLb",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-sSj4ygS7",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-sSj4ygS7-sequence",
+          "type": "all",
+          "allowReuse": false,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-sSj4ygS7-g1-1",
+            "type": "course",
+            "code": "CHEM 1081",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-sSj4ygS7-g2-1",
+            "type": "course",
+            "code": "CHEM 1065",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-sSj4ygS7-g3-1",
+            "type": "course",
+            "code": "CHEM 1082",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-sSj4ygS7-g4-1",
+            "type": "course",
+            "code": "CHEM 1086",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-sSj4ygS7-g5-1",
+            "type": "course",
+            "code": "CHEM 2081",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-sSj4ygS7-g6-1",
+            "type": "course",
+            "code": "CHEM 2085",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-sSj4ygS7-credits",
+          "type": "credits",
+          "minCredits": 13,
+          "courseSet": "set-sSj4ygS7",
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Track 1: Preferred CBS Chemistry Sequence"
+       },
+       {
+        "id": "r-QPvwlyVU",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-QPvwlyVU-sequence",
+          "type": "all",
+          "allowReuse": false,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-QPvwlyVU-g1-1",
+            "type": "course",
+            "code": "CHEM 1061",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-QPvwlyVU-g2-1",
+            "type": "course",
+            "code": "CHEM 1065",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-QPvwlyVU-g3-1",
+            "type": "course",
+            "code": "CHEM 1062",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-QPvwlyVU-g4-1",
+            "type": "course",
+            "code": "CHEM 1066",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-QPvwlyVU-g5-1",
+            "type": "course",
+            "code": "CHEM 2301",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-QPvwlyVU-credits",
+          "type": "credits",
+          "minCredits": 11,
+          "courseSet": "set-QPvwlyVU",
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Track 2"
+       },
+       {
+        "id": "r-3KqMiNP8",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-3KqMiNP8-sequence",
+          "type": "all",
+          "allowReuse": false,
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-3KqMiNP8-g1-1",
+            "type": "course",
+            "code": "CHEM 1071H",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-3KqMiNP8-g2-1",
+            "type": "course",
+            "code": "CHEM 1065",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-3KqMiNP8-g3-1",
+            "type": "course",
+            "code": "CHEM 1072H",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-3KqMiNP8-g4-1",
+            "type": "course",
+            "code": "CHEM 1066",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-3KqMiNP8-g5-1",
+            "type": "course",
+            "code": "CHEM 2331H",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-3KqMiNP8-credits",
+          "type": "credits",
+          "minCredits": 11,
+          "courseSet": "set-3KqMiNP8",
+          "sourceRef": "program"
+         }
+        ],
+        "label": "Track 2 (Honors Option)"
+       }
+      ],
+      "label": "Chemistry"
+     },
+     {
+      "id": "r-7UgIh1ro",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-7UgIh1ro-sequence",
+        "type": "all",
+        "allowReuse": false,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-7UgIh1ro-g1",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-7UgIh1ro-g1-1",
+            "type": "course",
+            "code": "PHYS 1221",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-7UgIh1ro-g1-2",
+            "type": "course",
+            "code": "PHYS 1301W",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-7UgIh1ro-g1-3",
+            "type": "course",
+            "code": "PHYS 1401V",
+            "sourceRef": "program"
+           }
+          ]
+         },
+         {
+          "id": "r-7UgIh1ro-g2",
+          "type": "any",
+          "sourceRef": "program",
+          "children": [
+           {
+            "id": "r-7UgIh1ro-g2-1",
+            "type": "course",
+            "code": "PHYS 1222",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-7UgIh1ro-g2-2",
+            "type": "course",
+            "code": "PHYS 1302W",
+            "sourceRef": "program"
+           },
+           {
+            "id": "r-7UgIh1ro-g2-3",
+            "type": "course",
+            "code": "PHYS 1402V",
+            "sourceRef": "program"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "r-7UgIh1ro-credits",
+        "type": "credits",
+        "minCredits": 8,
+        "courseSet": "set-7UgIh1ro",
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Physics"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-BJGebaOI",
+   "label": "Content Areas",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-bhVq8QLO",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-fXiNC46w",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-fXiNC46w-credits",
+        "type": "credits",
+        "courseSet": "set-fXiNC46w",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-fXiNC46w-min",
+        "type": "count",
+        "courseSet": "set-fXiNC46w",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-fXiNC46w-max",
+        "type": "count",
+        "courseSet": "set-fXiNC46w",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Content Area A: Ecology"
+     },
+     {
+      "id": "r-3fhIqfgD",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-3fhIqfgD-listed",
+        "type": "all",
+        "allowReuse": true,
+        "sourceRef": "program",
+        "children": [
+         {
+          "id": "r-3fhIqfgD-credits-listed",
+          "type": "credits",
+          "courseSet": "set-3fhIqfgD",
+          "minCredits": 3,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-3fhIqfgD-min-listed",
+          "type": "count",
+          "courseSet": "set-3fhIqfgD",
+          "minCourses": 1,
+          "sourceRef": "program"
+         },
+         {
+          "id": "r-3fhIqfgD-max-listed",
+          "type": "count",
+          "courseSet": "set-3fhIqfgD",
+          "maxCourses": 1,
+          "sourceRef": "program"
+         }
+        ]
+       },
+       {
+        "id": "r-3fhIqfgD-unresolved",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Some listed course options could not be resolved to current official course records. Verify this requirement with your advisor or APAS."
+       }
+      ],
+      "label": "Content Area B: Evolution"
+     },
+     {
+      "id": "r-2SNdh3Xf",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-2SNdh3Xf-credits",
+        "type": "credits",
+        "courseSet": "set-2SNdh3Xf",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-2SNdh3Xf-min",
+        "type": "count",
+        "courseSet": "set-2SNdh3Xf",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-2SNdh3Xf-max",
+        "type": "count",
+        "courseSet": "set-2SNdh3Xf",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Content Area C: Organismal Biology"
+     },
+     {
+      "id": "r-TkcotYgS",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-TkcotYgS-credits",
+        "type": "credits",
+        "courseSet": "set-TkcotYgS",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-TkcotYgS-min",
+        "type": "count",
+        "courseSet": "set-TkcotYgS",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-TkcotYgS-max",
+        "type": "count",
+        "courseSet": "set-TkcotYgS",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Content Area D: Biochemistry"
+     },
+     {
+      "id": "r-ufmqLlbL",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-ufmqLlbL-credits",
+        "type": "credits",
+        "courseSet": "set-ufmqLlbL",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ufmqLlbL-min",
+        "type": "count",
+        "courseSet": "set-ufmqLlbL",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ufmqLlbL-max",
+        "type": "count",
+        "courseSet": "set-ufmqLlbL",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Content Area E: Genetics"
+     },
+     {
+      "id": "r-2nWng4vA",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-2nWng4vA-credits",
+        "type": "credits",
+        "courseSet": "set-2nWng4vA",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-2nWng4vA-min",
+        "type": "count",
+        "courseSet": "set-2nWng4vA",
+        "minCourses": 1,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-2nWng4vA-max",
+        "type": "count",
+        "courseSet": "set-2nWng4vA",
+        "maxCourses": 1,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Content Area F: Cell Biology"
+     }
+    ],
+    "label": "Content Areas"
+   }
+  },
+  {
+   "id": "g-T9qMWho9",
+   "label": "Biology Major-Specific Coursework",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-T9qMWho9",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-NrVoZ6G4",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Take 16 or more credits from the following: Verify this requirement with your advisor or APAS.",
+      "label": "Biology Major-Specific Coursework"
+     },
+     {
+      "id": "r-ESOkwtKn",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-ESOkwtKn-credits",
+        "type": "credits",
+        "courseSet": "set-ESOkwtKn",
+        "minCredits": 3,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-ESOkwtKn-min",
+        "type": "count",
+        "courseSet": "set-ESOkwtKn",
+        "minCourses": 2,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Laboratory and Field Courses"
+     },
+     {
+      "id": "r-nF1wSPbu",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-Q2uhXNOt",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Additional Electives: courses from this list count for at most 13 credits. Verify this requirement with your advisor or APAS.",
+        "label": "Additional Electives"
+       },
+       {
+        "id": "r-fC3hmwDn",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Biology in Context: courses from this list count for at most 4 credits. Verify this requirement with your advisor or APAS.",
+        "label": "Biology in Context"
+       },
+       {
+        "id": "r-JIrJI1WX",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Additional STEM Electives: courses from this list count for at most 4 credits. Verify this requirement with your advisor or APAS.",
+        "label": "Additional STEM Electives"
+       }
+      ],
+      "label": "Additional Electives"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-013220110",
+   "label": "Upper-Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-432570",
+    "type": "count",
+    "courseSet": "set-432570",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper-Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements.\nAt least 17 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students completing another major in the College of Biological Sciences are not eligible for the BS in biology. In addition, students completing a degree in biology are not eligible for the following CBS minors due to overlap: behavioral biology, biochemistry, cellular and molecular neuroscience, integrative neuroscience, microbiology, and plant biology. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Integrated BS/MPH-Environmental Health. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

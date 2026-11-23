@@ -1,0 +1,172 @@
+{
+ "schemaVersion": 2,
+ "id": "italian-studies-ba",
+ "name": "Italian Studies B.A.",
+ "officialName": "Italian Studies B.A.",
+ "officialProgramId": "045220217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Italian Studies B.A., revision 045220217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/045220217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/045220217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 045220217-2026-09-08"
+  },
+  "course-0095571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0095571",
+   "retrieved": "2026-11-23",
+   "section": "Course record ITAL 3015, version 0095571-2026-01-20"
+  },
+  "course-8015951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015951",
+   "retrieved": "2026-11-23",
+   "section": "Course record ITAL 3459W, version 8015951-2016-09-06"
+  }
+ },
+ "courseSets": {},
+ "courseMetadata": {
+  "ITAL 3015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reading, Conversation, and Composition",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0095571"
+   },
+   "sourceRef": "course-0095571"
+  },
+  "ITAL 3459W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Project",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "completion of pre-requisite for major (3015) and eight electives for the sum of 30 credits"
+    },
+    "sourceRef": "course-8015951"
+   },
+   "sourceRef": "course-8015951"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-p5BKwh0d",
+   "label": "Core Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-B7sIPT39",
+    "type": "course",
+    "code": "ITAL 3015",
+    "sourceRef": "program",
+    "label": "Core Course"
+   }
+  },
+  {
+   "id": "g-LtK0ASK3",
+   "label": "Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-wtdkmIkJ",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-4iEeZbiO",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Italian Electives states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+      "label": "Italian Electives"
+     },
+     {
+      "id": "r-xvK2SnkD",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Other Electives states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+      "label": "Other Electives"
+     }
+    ],
+    "label": "Electives"
+   }
+  },
+  {
+   "id": "g-WfeZZYve",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-u1SxHZel",
+    "type": "course",
+    "code": "ITAL 3459W",
+    "sourceRef": "program",
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-045220217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-417186",
+    "type": "course",
+    "code": "ITAL 3459W",
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Required Prerequisites",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-RpiNlC3d",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Beginning and Intermediate Italian: courses from this list count for at most 20 credits. Verify this requirement with your advisor or APAS.",
+    "label": "Beginning and Intermediate Italian"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students must complete Italian language study equivalent to four semesters (intermediate level) before beginning the major. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Italian Studies BA is ITAL.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or ITAL 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nStudents are required to complete 4 semester(s) of Italian. with a grade of C-, or better, or demonstrate proficiency in the language(s) as defined by the department or college.\nStudents may earn a BA or a minor in Italian, but not both.\nAt least 15 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "id": "mini-synthetic",
+  "name": "Mini Synthetic B.S.",
+  "officialProgramId": "mini-synthetic",
+  "catalogTerm": "Fall 2026",
+  "totalCredits": 24,
+  "source": "Synthetic four-term engine fixture, 2026-11-22",
+  "sources": {"s": {"url": "https://example.invalid/mini", "retrieved": "2026-11-22", "section": "Synthetic engine requirements"}},
+  "courseSets": {
+    "electives": {"codes": ["MINI 3001", "MINI 3002", "MATH 3101"], "sourceRef": "s"},
+    "mini-upper": {"codes": ["MINI 3001", "MINI 3002"], "sourceRef": "s"}
+  },
+  "courseMetadata": {
+    "MINI 1001": {"catalogTerm": "Fall 2026", "title": "Mini first A", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Fall", "Spring"], "prerequisites": {"expression": null, "sourceRef": "s"}, "sourceRef": "s"},
+    "MINI 1002": {"catalogTerm": "Fall 2026", "title": "Mini first B", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Fall", "Spring"], "prerequisites": null, "sourceRef": "s"},
+    "MINI 1101": {"catalogTerm": "Fall 2026", "title": "Mini second A", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Fall", "Spring"], "prerequisites": {"expression": null, "sourceRef": "s"}, "sourceRef": "s"},
+    "MINI 1102": {"catalogTerm": "Fall 2026", "title": "Mini second B", "minimumCredits": 4, "maximumCredits": 4,
+                  "offered": ["Fall", "Spring"], "prerequisites": {"expression": {"type": "course", "course_code": "MINI 1101"}, "sourceRef": "s"}, "sourceRef": "s"},
+    "MINI 2001": {"catalogTerm": "Fall 2026", "title": "Mini math", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Spring"], "prerequisites": {"expression": {"type": "any_of", "requirements": [
+                    {"type": "course", "course_code": "MINI 1001"}, {"type": "course", "course_code": "MINI 1101"}]}, "sourceRef": "s"}, "sourceRef": "s"},
+    "MINI 3001": {"catalogTerm": "Fall 2026", "title": "Mini upper A", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Fall"], "prerequisites": {"expression": {"type": "course", "course_code": "MINI 1102"}, "sourceRef": "s"}, "sourceRef": "s"},
+    "MINI 3002": {"catalogTerm": "Fall 2026", "title": "Mini upper B", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": ["Spring"], "prerequisites": {"expression": {"type": "all_of", "requirements": [
+                    {"type": "course", "course_code": "MINI 2001"}, {"type": "condition", "text": "Synthetic standing"}]}, "sourceRef": "s"}, "sourceRef": "s"},
+    "MATH 3101": {"catalogTerm": "Fall 2026", "title": "Mini math elective", "minimumCredits": 3, "maximumCredits": 3,
+                  "offered": null, "prerequisites": {"expression": null, "sourceRef": "s"}, "sourceRef": "s"}
+  },
+  "groups": [
+    {
+      "id": "core", "label": "Mini core", "category": "Major core", "sourceRef": "s",
+      "gradePolicy": {"minGrade": "C-", "allowS": false, "sourceRef": "s"},
+      "rule": {"id": "intro", "type": "any", "sourceRef": "s", "children": [
+        {"id": "first-sequence", "type": "all", "allowReuse": false, "sourceRef": "s", "children": [
+          {"id": "first-a", "type": "course", "code": "MINI 1001", "sourceRef": "s"},
+          {"id": "first-b", "type": "course", "code": "MINI 1002", "sourceRef": "s"}]},
+        {"id": "second-sequence", "type": "all", "allowReuse": false, "sourceRef": "s", "children": [
+          {"id": "second-a", "type": "course", "code": "MINI 1101", "sourceRef": "s"},
+          {"id": "second-b", "type": "course", "code": "MINI 1102", "sourceRef": "s"}]}
+      ]}
+    },
+    {
+      "id": "math", "label": "Mini math", "category": "Math and stats", "sourceRef": "s",
+      "gradePolicy": {"minGrade": "C-", "allowS": false, "sourceRef": "s"},
+      "rule": {"id": "math-course", "type": "course", "code": "MINI 2001", "sourceRef": "s"}
+    },
+    {
+      "id": "electives", "label": "Mini electives", "category": "Elective", "sourceRef": "s",
+      "gradePolicy": {"minGrade": "C-", "allowS": false, "sourceRef": "s"},
+      "rule": {"id": "elective-rules", "type": "all", "allowReuse": true, "sourceRef": "s", "children": [
+        {"id": "elective-total", "type": "credits", "courseSet": "electives", "minCredits": 6, "sourceRef": "s"},
+        {"id": "mini-minimum", "type": "credits", "courseSet": "mini-upper", "minCredits": 3, "sourceRef": "s"}
+      ]}
+    }
+  ],
+  "sharing": [],
+  "adjustments": []
+}

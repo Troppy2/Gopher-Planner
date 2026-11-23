@@ -1,0 +1,1374 @@
+{
+ "schemaVersion": 2,
+ "id": "jewish-studies-ba",
+ "name": "Jewish Studies B.A.",
+ "officialName": "Jewish Studies B.A.",
+ "officialProgramId": "045820217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Jewish Studies B.A., revision 045820217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/045820217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/045820217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 045820217-2026-09-08"
+  },
+  "course-0107431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0107431",
+   "retrieved": "2026-11-23",
+   "section": "Course record HEBR 1001, version 0107431-2020-01-21"
+  },
+  "course-0107451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0107451",
+   "retrieved": "2026-11-23",
+   "section": "Course record HEBR 1002, version 0107451-2020-09-08"
+  },
+  "course-0107651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0107651",
+   "retrieved": "2026-11-23",
+   "section": "Course record HEBR 3011, version 0107651-2016-05-23"
+  },
+  "course-0107661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0107661",
+   "retrieved": "2026-11-23",
+   "section": "Course record HEBR 3012, version 0107661-2016-05-23"
+  },
+  "course-0090131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0090131",
+   "retrieved": "2026-11-23",
+   "section": "Course record HEBR 5090, version 0090131-2026-01-20"
+  },
+  "course-7927331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7927331",
+   "retrieved": "2026-11-23",
+   "section": "Course record HEBR 5200, version 7927331-2024-01-16"
+  },
+  "course-0105551": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0105551",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 1034, version 0105551-2025-01-21"
+  },
+  "course-8115151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115151",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 1534, version 8115151-2021-05-17"
+  },
+  "course-7971441": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971441",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 1034, version 7971441-2024-09-03"
+  },
+  "course-7971451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971451",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3034, version 7971451-2025-01-21"
+  },
+  "course-8115161": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115161",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3534, version 8115161-2021-05-17"
+  },
+  "course-7971431": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971431",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3034, version 7971431-2024-09-03"
+  },
+  "course-8277301": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277301",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3505, version 8277301-2026-09-08"
+  },
+  "course-0165131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165131",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3013W, version 0165131-2025-01-21"
+  },
+  "course-8197011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197011",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3016W, version 8197011-2025-01-21"
+  },
+  "course-0163861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0163861",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3013W, version 0163861-2024-09-03"
+  },
+  "course-0165141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0165141",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 5013W, version 0165141-2025-01-21"
+  },
+  "course-8197021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8197021",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 5016W, version 8197021-2025-01-21"
+  },
+  "course-0163871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0163871",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 5013W, version 0163871-2024-09-03"
+  },
+  "course-7976851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976851",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3201, version 7976851-2022-09-06"
+  },
+  "course-7971561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7971561",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3201, version 7971561-2022-09-06"
+  },
+  "course-0108521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0108521",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3201, version 0108521-2024-09-03"
+  },
+  "course-8115771": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115771",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3205, version 8115771-2015-01-20"
+  },
+  "course-8115761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115761",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3205, version 8115761-2022-01-18"
+  },
+  "course-8115781": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8115781",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3205, version 8115781-2024-09-03"
+  },
+  "course-8185631": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185631",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3206, version 8185631-2024-01-16"
+  },
+  "course-8185601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185601",
+   "retrieved": "2026-11-23",
+   "section": "Course record ANTH 3206, version 8185601-2024-01-16"
+  },
+  "course-8181961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8181961",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3206, version 8181961-2024-01-16"
+  },
+  "course-8185591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185591",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3206, version 8185591-2024-09-03"
+  },
+  "course-8260481": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260481",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3213, version 8260481-2025-01-21"
+  },
+  "course-8260501": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8260501",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3213, version 8260501-2024-09-03"
+  },
+  "course-8140011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8140011",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3504, version 8140011-2026-09-08"
+  },
+  "course-0104841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0104841",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3504, version 0104841-2024-09-03"
+  },
+  "course-8063011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8063011",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3502W, version 8063011-2026-01-20"
+  },
+  "course-0108011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0108011",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3502W, version 0108011-2026-01-20"
+  },
+  "course-7907931": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7907931",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3502W, version 7907931-2026-01-20"
+  },
+  "course-7907941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7907941",
+   "retrieved": "2026-11-23",
+   "section": "Course record RELS 3502W, version 7907941-2026-01-20"
+  },
+  "course-8273491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8273491",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3203, version 8273491-2025-01-21"
+  },
+  "course-8185891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185891",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3345, version 8185891-2024-09-03"
+  },
+  "course-8255981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8255981",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3506, version 8255981-2023-01-17"
+  },
+  "course-8253121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8253121",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3506, version 8253121-2023-01-17"
+  },
+  "course-8259801": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8259801",
+   "retrieved": "2026-11-23",
+   "section": "Course record HEBR 5506, version 8259801-2023-01-17"
+  },
+  "course-8182401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8182401",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3515, version 8182401-2025-01-21"
+  },
+  "course-8182751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8182751",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3515, version 8182751-2025-01-21"
+  },
+  "course-8259811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8259811",
+   "retrieved": "2026-11-23",
+   "section": "Course record HEBR 5515, version 8259811-2025-01-21"
+  },
+  "course-8262141": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262141",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3518, version 8262141-2023-09-05"
+  },
+  "course-8261561": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8261561",
+   "retrieved": "2026-11-23",
+   "section": "Course record CNRC 3518, version 8261561-2023-09-05"
+  },
+  "course-8265251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8265251",
+   "retrieved": "2026-11-23",
+   "section": "Course record HIST 3518, version 8265251-2023-09-05"
+  },
+  "course-7970871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7970871",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3631, version 7970871-2021-09-07"
+  },
+  "course-0084541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0084541",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3631, version 0084541-2021-09-07"
+  },
+  "course-8278331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278331",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3635, version 8278331-2026-09-08"
+  },
+  "course-8277741": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8277741",
+   "retrieved": "2026-11-23",
+   "section": "Course record DTCH 3635, version 8277741-2026-09-08"
+  },
+  "course-8168041": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8168041",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3633, version 8168041-2026-09-08"
+  },
+  "course-8167621": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8167621",
+   "retrieved": "2026-11-23",
+   "section": "Course record GER 3633, version 8167621-2026-09-08"
+  },
+  "course-8256491": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8256491",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 3837, version 8256491-2025-09-02"
+  },
+  "course-8204731": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8204731",
+   "retrieved": "2026-11-23",
+   "section": "Course record AMES 3837, version 8204731-2025-09-02"
+  },
+  "course-7954841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7954841",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 4002W, version 7954841-2026-09-08"
+  },
+  "course-0108251": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0108251",
+   "retrieved": "2026-11-23",
+   "section": "Course record JWST 4001W, version 0108251-2026-09-08"
+  }
+ },
+ "courseSets": {
+  "set-bOb6MeXs": {
+   "codes": [
+    "HEBR 1001",
+    "HEBR 1002",
+    "HEBR 3011"
+   ],
+   "sourceRef": "program"
+  },
+  "set-cYY6J3cs": {
+   "codes": [
+    "HEBR 3012",
+    "HEBR 5090",
+    "HEBR 5200"
+   ],
+   "sourceRef": "program"
+  },
+  "set-o6vLY1Ll": {
+   "codes": [
+    "JWST 1034",
+    "HIST 1534",
+    "RELS 1034",
+    "JWST 3034",
+    "HIST 3534",
+    "RELS 3034"
+   ],
+   "sourceRef": "program"
+  },
+  "set-shTXvd9U": {
+   "codes": [
+    "CNRC 3505",
+    "HEBR 5200",
+    "JWST 3013W",
+    "CNRC 3016W",
+    "RELS 3013W",
+    "JWST 5013W",
+    "CNRC 5016W",
+    "RELS 5013W",
+    "JWST 3201",
+    "CNRC 3201",
+    "RELS 3201",
+    "JWST 3205",
+    "CNRC 3205",
+    "RELS 3205",
+    "JWST 3206",
+    "ANTH 3206",
+    "CNRC 3206",
+    "RELS 3206",
+    "CNRC 3213",
+    "RELS 3213",
+    "JWST 3504",
+    "RELS 3504"
+   ],
+   "sourceRef": "program"
+  },
+  "set-68Xv8enf": {
+   "codes": [
+    "CNRC 3203",
+    "CNRC 3505",
+    "HEBR 5090",
+    "FREN 3345",
+    "JWST 3013W",
+    "CNRC 3016W",
+    "RELS 3013W",
+    "JWST 5013W",
+    "CNRC 5016W",
+    "RELS 5013W",
+    "JWST 3506",
+    "CNRC 3506",
+    "HEBR 5506",
+    "JWST 3515",
+    "CNRC 3515",
+    "HEBR 5515",
+    "JWST 3518",
+    "CNRC 3518",
+    "HIST 3518",
+    "JWST 3631",
+    "GER 3631",
+    "JWST 3635",
+    "DTCH 3635",
+    "JWST 3633",
+    "GER 3633",
+    "JWST 3837",
+    "AMES 3837"
+   ],
+   "sourceRef": "program"
+  },
+  "set-3MrLUYtB": {
+   "codes": [
+    "JWST 4001W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-416737": {
+   "codes": [
+    "JWST 3013W",
+    "JWST 5013W",
+    "CNRC 3016W",
+    "CNRC 5016W",
+    "RELS 3013W",
+    "RELS 5013W",
+    "JWST 3502W",
+    "CNRC 3502W",
+    "HIST 3502W",
+    "RELS 3502W",
+    "JWST 4002W",
+    "JWST 4001W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AMES 3837": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hebrew Literature: Settlement and Ideology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8204731"
+   },
+   "sourceRef": "course-8204731"
+  },
+  "ANTH 3206": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sex, Murder, and Bodily Discharges: Purity and Pollution in the Ancient World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8185601"
+   },
+   "sourceRef": "course-8185601"
+  },
+  "CNRC 3016W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197011"
+   },
+   "sourceRef": "course-8197011"
+  },
+  "CNRC 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible: Context and Interpretation, World of the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Knowledge of Hebrew not required"
+    },
+    "sourceRef": "course-7971561"
+   },
+   "sourceRef": "course-7971561"
+  },
+  "CNRC 3203": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible in Contemporary Dystopian Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8273491"
+   },
+   "sourceRef": "course-8273491"
+  },
+  "CNRC 3205": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women, Gender, and the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115761"
+   },
+   "sourceRef": "course-8115761"
+  },
+  "CNRC 3206": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sex, Murder, and Bodily Discharges: Purity and Pollution in the Ancient World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8181961"
+   },
+   "sourceRef": "course-8181961"
+  },
+  "CNRC 3213": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible: Context & Interpretation, World of the New Testament",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8260481"
+   },
+   "sourceRef": "course-8260481"
+  },
+  "CNRC 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0108011"
+   },
+   "sourceRef": "course-0108011"
+  },
+  "CNRC 3505": {
+   "catalogTerm": "Fall 2026",
+   "title": "Scripture and the Other: Rethinking the Bible After the Holocaust",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277301"
+   },
+   "sourceRef": "course-8277301"
+  },
+  "CNRC 3506": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Israeli Mossad in Film and Literature: History, Narrative, and Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8253121"
+   },
+   "sourceRef": "course-8253121"
+  },
+  "CNRC 3515": {
+   "catalogTerm": "Fall 2026",
+   "title": "Multiculturalism in Modern Israel: how communities, ideologies, and identities intersect",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8182751"
+   },
+   "sourceRef": "course-8182751"
+  },
+  "CNRC 3518": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jewish Humor: Seriously Funny from Text to Stage to Screen",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8261561"
+   },
+   "sourceRef": "course-8261561"
+  },
+  "CNRC 5016W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8197021"
+   },
+   "sourceRef": "course-8197021"
+  },
+  "DTCH 3635": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anne Frank: Perspectives on Her Life and Legacy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8277741"
+   },
+   "sourceRef": "course-8277741"
+  },
+  "FREN 3345": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Holocaust in France: Literature, History, Testimony",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "FREN 3015; it is recommended that students have taken, or take concurrently, FREN 3101W."
+    },
+    "sourceRef": "course-8185891"
+   },
+   "sourceRef": "course-8185891"
+  },
+  "GER 3631": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jewish and German Writing at the Margins: Multilingualism, Race, Memory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "No knowledge of German required; some work in German must be done in order to count this course toward a German minor or a German, Scandinavian, Dutch major."
+    },
+    "sourceRef": "course-0084541"
+   },
+   "sourceRef": "course-0084541"
+  },
+  "GER 3633": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Holocaust: Memory, Narrative, History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8167621"
+   },
+   "sourceRef": "course-8167621"
+  },
+  "HEBR 1001": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Hebrew I",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0107431"
+   },
+   "sourceRef": "course-0107431"
+  },
+  "HEBR 1002": {
+   "catalogTerm": "Fall 2026",
+   "title": "Beginning Hebrew II",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least [C- or S] in [1001 or 4001] or instr consent"
+    },
+    "sourceRef": "course-0107451"
+   },
+   "sourceRef": "course-0107451"
+  },
+  "HEBR 3011": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Hebrew I",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least [C- or S] in [1002 or 4002] or instr consent"
+    },
+    "sourceRef": "course-0107651"
+   },
+   "sourceRef": "course-0107651"
+  },
+  "HEBR 3012": {
+   "catalogTerm": "Fall 2026",
+   "title": "Intermediate Hebrew II",
+   "minimumCredits": 5,
+   "maximumCredits": 5,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Grade of at least [C- or S] in in 3011 or instr consent"
+    },
+    "sourceRef": "course-0107661"
+   },
+   "sourceRef": "course-0107661"
+  },
+  "HEBR 5090": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Modern Hebrew",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0090131"
+   },
+   "sourceRef": "course-0090131"
+  },
+  "HEBR 5200": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Classical Hebrew",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7927331"
+   },
+   "sourceRef": "course-7927331"
+  },
+  "HEBR 5506": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Hebrew II - The Israeli Mossad in Film and Literature: History, Narrative, and Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8259801"
+   },
+   "sourceRef": "course-8259801"
+  },
+  "HEBR 5515": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced Hebrew II - Multiculturalism in Modern Israel:  Communities, Ideologies, and Identities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8259811"
+   },
+   "sourceRef": "course-8259811"
+  },
+  "HIST 1534": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115151"
+   },
+   "sourceRef": "course-8115151"
+  },
+  "HIST 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7907931"
+   },
+   "sourceRef": "course-7907931"
+  },
+  "HIST 3518": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jewish Humor: Seriously Funny from Text to Stage to Screen",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8265251"
+   },
+   "sourceRef": "course-8265251"
+  },
+  "HIST 3534": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115161"
+   },
+   "sourceRef": "course-8115161"
+  },
+  "JWST 1034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0105551"
+   },
+   "sourceRef": "course-0105551"
+  },
+  "JWST 3013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0165131"
+   },
+   "sourceRef": "course-0165131"
+  },
+  "JWST 3034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971451"
+   },
+   "sourceRef": "course-7971451"
+  },
+  "JWST 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible: Context and Interpretation, World of the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Knowledge of Hebrew not required"
+    },
+    "sourceRef": "course-7976851"
+   },
+   "sourceRef": "course-7976851"
+  },
+  "JWST 3205": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women, Gender, and the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115771"
+   },
+   "sourceRef": "course-8115771"
+  },
+  "JWST 3206": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sex, Murder, and Bodily Discharges: Purity and Pollution in the Ancient World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8185631"
+   },
+   "sourceRef": "course-8185631"
+  },
+  "JWST 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8063011"
+   },
+   "sourceRef": "course-8063011"
+  },
+  "JWST 3504": {
+   "catalogTerm": "Fall 2026",
+   "title": "Apocalypticism, Cosmic Warfare, and the Maccabees: Jewish Strategies of Resistance in Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8140011"
+   },
+   "sourceRef": "course-8140011"
+  },
+  "JWST 3506": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Israeli Mossad in Film and Literature: History, Narrative, and Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8255981"
+   },
+   "sourceRef": "course-8255981"
+  },
+  "JWST 3515": {
+   "catalogTerm": "Fall 2026",
+   "title": "Multiculturalism in Modern Israel: how communities, ideologies, and identities intersect",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8182401"
+   },
+   "sourceRef": "course-8182401"
+  },
+  "JWST 3518": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jewish Humor: Seriously Funny from Text to Stage to Screen",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262141"
+   },
+   "sourceRef": "course-8262141"
+  },
+  "JWST 3631": {
+   "catalogTerm": "Fall 2026",
+   "title": "Jewish and German Writing at the Margins: Multilingualism, Race, Memory",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "No knowledge of German required; some work in German must be done in order to count this course toward a German minor or a German, Scandinavian, Dutch major."
+    },
+    "sourceRef": "course-7970871"
+   },
+   "sourceRef": "course-7970871"
+  },
+  "JWST 3633": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Holocaust: Memory, Narrative, History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8168041"
+   },
+   "sourceRef": "course-8168041"
+  },
+  "JWST 3635": {
+   "catalogTerm": "Fall 2026",
+   "title": "Anne Frank: Perspectives on Her Life and Legacy",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278331"
+   },
+   "sourceRef": "course-8278331"
+  },
+  "JWST 3837": {
+   "catalogTerm": "Fall 2026",
+   "title": "Hebrew Literature: Settlement and Ideology",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8256491"
+   },
+   "sourceRef": "course-8256491"
+  },
+  "JWST 4001W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 5xxx, JwSt major, permission of dir of undergrad studies"
+    },
+    "sourceRef": "course-0108251"
+   },
+   "sourceRef": "course-0108251"
+  },
+  "JWST 4002W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "JwSt major, permission of dir of undergrad studies"
+    },
+    "sourceRef": "course-7954841"
+   },
+   "sourceRef": "course-7954841"
+  },
+  "JWST 5013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0165141"
+   },
+   "sourceRef": "course-0165141"
+  },
+  "RELS 1034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971441"
+   },
+   "sourceRef": "course-7971441"
+  },
+  "RELS 3013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0163861"
+   },
+   "sourceRef": "course-0163861"
+  },
+  "RELS 3034": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Jewish History and Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7971431"
+   },
+   "sourceRef": "course-7971431"
+  },
+  "RELS 3201": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible: Context and Interpretation, World of the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0108521"
+   },
+   "sourceRef": "course-0108521"
+  },
+  "RELS 3205": {
+   "catalogTerm": "Fall 2026",
+   "title": "Women, Gender, and the Hebrew Bible",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8115781"
+   },
+   "sourceRef": "course-8115781"
+  },
+  "RELS 3206": {
+   "catalogTerm": "Fall 2026",
+   "title": "Sex, Murder, and Bodily Discharges: Purity and Pollution in the Ancient World",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8185591"
+   },
+   "sourceRef": "course-8185591"
+  },
+  "RELS 3213": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Bible: Context & Interpretation, World of the New Testament",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8260501"
+   },
+   "sourceRef": "course-8260501"
+  },
+  "RELS 3502W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Ancient Israel and Its Neighbors: Between Bible and History",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7907941"
+   },
+   "sourceRef": "course-7907941"
+  },
+  "RELS 3504": {
+   "catalogTerm": "Fall 2026",
+   "title": "Apocalypticism, Cosmic Warfare, and the Maccabees: Jewish Strategies of Resistance in Antiquity",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0104841"
+   },
+   "sourceRef": "course-0104841"
+  },
+  "RELS 5013W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Biblical Law and Jewish Ethics",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0163871"
+   },
+   "sourceRef": "course-0163871"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-A8M78Qo7",
+   "label": "Major Language Requirement",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-A8M78Qo7",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-bOb6MeXs",
+      "type": "all",
+      "allowReuse": true,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-bOb6MeXs-credits",
+        "type": "credits",
+        "courseSet": "set-bOb6MeXs",
+        "minCredits": 15,
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-bOb6MeXs-max",
+        "type": "count",
+        "courseSet": "set-bOb6MeXs",
+        "maxCourses": 3,
+        "sourceRef": "program"
+       }
+      ],
+      "label": "Beginning and Intermediate Hebrew"
+     },
+     {
+      "id": "r-cYY6J3cs",
+      "type": "credits",
+      "courseSet": "set-cYY6J3cs",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Intermediate and Advanced Hebrew"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-rrYcf7R7",
+   "label": "Foundation Course",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-o6vLY1Ll",
+    "type": "credits",
+    "courseSet": "set-o6vLY1Ll",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Jewish History and Culture"
+   }
+  },
+  {
+   "id": "g-1CLiHWUs",
+   "label": "History and Culture Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-jeKx1xBI",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-00toptId",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-shTXvd9U",
+        "type": "credits",
+        "courseSet": "set-shTXvd9U",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Text & Languages"
+       },
+       {
+        "id": "r-OiyvUe9I",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Additional Ancient/Medieval Options states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+        "label": "Additional Ancient/Medieval Options"
+       }
+      ],
+      "label": "Jewish History & Culture in the Ancient and Medieval Worlds Emphasis Area"
+     },
+     {
+      "id": "r-t6tIifcC",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-68Xv8enf",
+        "type": "credits",
+        "courseSet": "set-68Xv8enf",
+        "minCredits": 3,
+        "sourceRef": "program",
+        "label": "Texts & Languages"
+       },
+       {
+        "id": "r-4nc7ZQIe",
+        "type": "review",
+        "sourceRef": "program",
+        "message": "Additional Modern Options states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+        "label": "Additional Modern Options"
+       }
+      ],
+      "label": "Jewish History, Culture, Politics and Society in the Modern World Emphasis Area"
+     }
+    ],
+    "label": "History and Culture Courses"
+   }
+  },
+  {
+   "id": "g-PsMatOAL",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ZkbaPLYy",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-SJUtagUY",
+      "type": "course",
+      "code": "JWST 4002W",
+      "sourceRef": "program",
+      "label": "JWST 4000W"
+     },
+     {
+      "id": "r-3MrLUYtB",
+      "type": "credits",
+      "courseSet": "set-3MrLUYtB",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "JWST 4001W + Additional History and Culture Course"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-045820217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-416737",
+    "type": "count",
+    "courseSet": "set-416737",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the Jewish Studies BA is JWST.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, or JWST 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nAt least 14 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nStudents may earn a BA or a minor in Jewish studies, but not both. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

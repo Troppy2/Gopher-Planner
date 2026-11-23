@@ -1,0 +1,769 @@
+{
+ "schemaVersion": 2,
+ "id": "sustainable-agriculture-and-food-systems-bs",
+ "name": "Sustainable Agriculture and Food Systems B.S.",
+ "officialName": "Sustainable Agriculture and Food Systems B.S.",
+ "officialProgramId": "228920130",
+ "catalogTerm": "Spring 2027",
+ "totalCredits": 120,
+ "source": "Sustainable Agriculture and Food Systems B.S., revision 228920130-2027-01-19, https://umtc.catalog.prod.coursedog.com/programs/228920130, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/228920130",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 228920130-2027-01-19"
+  },
+  "course-8091651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8091651",
+   "retrieved": "2026-11-23",
+   "section": "Course record BBE 3201, version 8091651-2024-01-16"
+  },
+  "course-8172351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8172351",
+   "retrieved": "2026-11-23",
+   "section": "Course record FDSY 1016W, version 8172351-2020-09-08"
+  },
+  "course-8097381": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097381",
+   "retrieved": "2026-11-23",
+   "section": "Course record FDSY 2101, version 8097381-2024-01-16"
+  },
+  "course-8097391": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097391",
+   "retrieved": "2026-11-23",
+   "section": "Course record FDSY 4101, version 8097391-2020-09-08"
+  },
+  "course-7961761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7961761",
+   "retrieved": "2026-11-23",
+   "section": "Course record AECM 2421W, version 7961761-2021-09-07"
+  },
+  "course-0038811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0038811",
+   "retrieved": "2026-11-23",
+   "section": "Course record COMM 1101, version 0038811-2026-09-08"
+  },
+  "course-0026681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0026681",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562W, version 0026681-2021-05-17"
+  },
+  "course-8158401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8158401",
+   "retrieved": "2026-11-23",
+   "section": "Course record WRIT 3562V, version 8158401-2021-05-17"
+  },
+  "course-0074681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0074681",
+   "retrieved": "2026-11-23",
+   "section": "Course record FSCN 1112, version 0074681-2018-09-04"
+  },
+  "course-8283871": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8283871",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1001, version 8283871-2026-09-08"
+  },
+  "course-7976151": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7976151",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1017, version 7976151-2026-05-18"
+  },
+  "course-8077531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1061, version 8077531-2026-09-08"
+  },
+  "course-8077521": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
+   "retrieved": "2026-11-23",
+   "section": "Course record CHEM 1065, version 8077521-2026-09-08"
+  },
+  "course-0023941": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0023941",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1031, version 0023941-2025-09-02"
+  },
+  "course-0133851": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0133851",
+   "retrieved": "2026-11-23",
+   "section": "Course record MATH 1051, version 0133851-2025-09-02"
+  },
+  "course-0062811": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0062811",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 1101, version 0062811-2024-09-03"
+  },
+  "course-0099201": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0099201",
+   "retrieved": "2026-11-23",
+   "section": "Course record ECON 1101, version 0099201-2024-09-03"
+  },
+  "course-8267891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8267891",
+   "retrieved": "2026-11-23",
+   "section": "Course record PLSC 4096W, version 8267891-2024-01-16"
+  },
+  "course-8095531": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8095531",
+   "retrieved": "2026-11-23",
+   "section": "Course record CFAN 3096, version 8095531-2024-01-16"
+  },
+  "course-8199021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8199021",
+   "retrieved": "2026-11-23",
+   "section": "Course record CFAN 4096, version 8199021-2023-09-05"
+  },
+  "course-8097351": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8097351",
+   "retrieved": "2026-11-23",
+   "section": "Course record APEC 3202, version 8097351-2016-09-06"
+  }
+ },
+ "courseSets": {
+  "set-OBB2DApy": {
+   "codes": [
+    "BBE 3201",
+    "FDSY 1016W",
+    "FDSY 2101",
+    "FDSY 4101"
+   ],
+   "sourceRef": "program"
+  },
+  "set-aERoo7wZ": {
+   "codes": [
+    "AECM 2421W",
+    "COMM 1101"
+   ],
+   "sourceRef": "program"
+  },
+  "set-pirPB7xd": {
+   "codes": [
+    "WRIT 3562W",
+    "WRIT 3562V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-owhvhG9b": {
+   "codes": [
+    "CHEM 1001",
+    "CHEM 1017"
+   ],
+   "sourceRef": "program"
+  },
+  "set-8CjDv8kc": {
+   "codes": [
+    "CHEM 1061",
+    "CHEM 1065"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ciVoKiWe": {
+   "codes": [
+    "MATH 1031",
+    "MATH 1051"
+   ],
+   "sourceRef": "program"
+  },
+  "set-C7vqmVvX": {
+   "codes": [
+    "APEC 1101",
+    "ECON 1101"
+   ],
+   "sourceRef": "program"
+  },
+  "set-3JZY14yF": {
+   "codes": [
+    "PLSC 4096W",
+    "CFAN 3096",
+    "CFAN 4096"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "AECM 2421W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Professional Communication for Agriculture, Food, and the Environment",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7961761"
+   },
+   "sourceRef": "course-7961761"
+  },
+  "APEC 1101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0062811"
+   },
+   "sourceRef": "course-0062811"
+  },
+  "APEC 3202": {
+   "catalogTerm": "Spring 2027",
+   "title": "An Introduction to the Food System: Analysis, Management and Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097351"
+   },
+   "sourceRef": "course-8097351"
+  },
+  "BBE 3201": {
+   "catalogTerm": "Spring 2027",
+   "title": "Sustainability of Food Systems: A Life Cycle Perspective",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8091651"
+   },
+   "sourceRef": "course-8091651"
+  },
+  "CFAN 3096": {
+   "catalogTerm": "Spring 2027",
+   "title": "Making the Most of your Professional Experience",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8095531"
+   },
+   "sourceRef": "course-8095531"
+  },
+  "CFAN 4096": {
+   "catalogTerm": "Spring 2027",
+   "title": "Reflecting on Your Professional Experience",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Secured internship, completion of summer module, instr consent"
+    },
+    "sourceRef": "course-8199021"
+   },
+   "sourceRef": "course-8199021"
+  },
+  "CHEM 1001": {
+   "catalogTerm": "Spring 2027",
+   "title": "Chemistry of Life and Death",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8283871"
+   },
+   "sourceRef": "course-8283871"
+  },
+  "CHEM 1017": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introductory Chemistry: Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-7976151"
+   },
+   "sourceRef": "course-7976151"
+  },
+  "CHEM 1061": {
+   "catalogTerm": "Spring 2027",
+   "title": "Chemical Principles I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+    },
+    "sourceRef": "course-8077531"
+   },
+   "sourceRef": "course-8077531"
+  },
+  "CHEM 1065": {
+   "catalogTerm": "Spring 2027",
+   "title": "Chemical Principles I Laboratory",
+   "minimumCredits": 1,
+   "maximumCredits": 1,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+    },
+    "sourceRef": "course-8077521"
+   },
+   "sourceRef": "course-8077521"
+  },
+  "COMM 1101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Introduction to Public Speaking",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0038811"
+   },
+   "sourceRef": "course-0038811"
+  },
+  "ECON 1101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Microeconomics",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "knowledge of plane geometry and advanced algebra"
+    },
+    "sourceRef": "course-0099201"
+   },
+   "sourceRef": "course-0099201"
+  },
+  "FDSY 1016W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Growing Food & Building Community: Urban Agriculture in the Twin Cities",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8172351"
+   },
+   "sourceRef": "course-8172351"
+  },
+  "FDSY 2101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Plant Production Systems",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "BIOL 1001 or BIOL 1009 or HORT 1001 or instr consent"
+    },
+    "sourceRef": "course-8097381"
+   },
+   "sourceRef": "course-8097381"
+  },
+  "FDSY 4101": {
+   "catalogTerm": "Spring 2027",
+   "title": "Holistic Approaches to Improving Food Systems Sustainability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8097391"
+   },
+   "sourceRef": "course-8097391"
+  },
+  "FSCN 1112": {
+   "catalogTerm": "Spring 2027",
+   "title": "Principles of Nutrition",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0074681"
+   },
+   "sourceRef": "course-0074681"
+  },
+  "MATH 1031": {
+   "catalogTerm": "Spring 2027",
+   "title": "College Algebra and Probability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on Placement Exam."
+    },
+    "sourceRef": "course-0023941"
+   },
+   "sourceRef": "course-0023941"
+  },
+  "MATH 1051": {
+   "catalogTerm": "Spring 2027",
+   "title": "Precalculus I",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Satisfactory score on placement exam."
+    },
+    "sourceRef": "course-0133851"
+   },
+   "sourceRef": "course-0133851"
+  },
+  "PLSC 4096W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Professional Experience Internship",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8267891"
+   },
+   "sourceRef": "course-8267891"
+  },
+  "WRIT 3562V": {
+   "catalogTerm": "Spring 2027",
+   "title": "Honors: Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8158401"
+   },
+   "sourceRef": "course-8158401"
+  },
+  "WRIT 3562W": {
+   "catalogTerm": "Spring 2027",
+   "title": "Technical and Professional Writing",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0026681"
+   },
+   "sourceRef": "course-0026681"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-xpAJ32th",
+   "label": "Integrated Food Systems Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-OBB2DApy",
+    "type": "all",
+    "allowReuse": true,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-OBB2DApy-sequence",
+      "type": "all",
+      "allowReuse": false,
+      "sourceRef": "program",
+      "children": [
+       {
+        "id": "r-OBB2DApy-g1-1",
+        "type": "course",
+        "code": "BBE 3201",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OBB2DApy-g2-1",
+        "type": "course",
+        "code": "FDSY 1016W",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OBB2DApy-g3-1",
+        "type": "course",
+        "code": "FDSY 2101",
+        "sourceRef": "program"
+       },
+       {
+        "id": "r-OBB2DApy-g4-1",
+        "type": "course",
+        "code": "FDSY 4101",
+        "sourceRef": "program"
+       }
+      ]
+     },
+     {
+      "id": "r-OBB2DApy-credits",
+      "type": "credits",
+      "minCredits": 12,
+      "courseSet": "set-OBB2DApy",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Integrated Food Systems Core Courses"
+   }
+  },
+  {
+   "id": "g-16masUr4",
+   "label": "Communications",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-16masUr4",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-aERoo7wZ",
+      "type": "credits",
+      "courseSet": "set-aERoo7wZ",
+      "minCredits": 3,
+      "sourceRef": "program",
+      "label": "Communications"
+     },
+     {
+      "id": "r-pirPB7xd",
+      "type": "credits",
+      "courseSet": "set-pirPB7xd",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "Writing"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g-BdycvpMI",
+   "label": "Nutrition",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-GS9iwB42",
+    "type": "course",
+    "code": "FSCN 1112",
+    "sourceRef": "program",
+    "label": "Nutrition"
+   }
+  },
+  {
+   "id": "g-d7FyF7VW",
+   "label": "Chemistry",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-NX2qLtY6",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-owhvhG9b",
+      "type": "credits",
+      "courseSet": "set-owhvhG9b",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "CHEM 1001 and CHEM 1017"
+     },
+     {
+      "id": "r-8CjDv8kc",
+      "type": "credits",
+      "courseSet": "set-8CjDv8kc",
+      "minCredits": 4,
+      "sourceRef": "program",
+      "label": "CHEM 1061 and CHEM 1065"
+     }
+    ],
+    "label": "Chemistry"
+   }
+  },
+  {
+   "id": "g-M8aSkWzh",
+   "label": "Mathematical Thinking",
+   "category": "Math and stats",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ciVoKiWe",
+    "type": "credits",
+    "courseSet": "set-ciVoKiWe",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "Mathematical Thinking"
+   }
+  },
+  {
+   "id": "g-PEFofxXN",
+   "label": "Social Sciences",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-C7vqmVvX",
+    "type": "credits",
+    "courseSet": "set-C7vqmVvX",
+    "minCredits": 4,
+    "sourceRef": "program",
+    "label": "Social Sciences"
+   }
+  },
+  {
+   "id": "g-AFbnTsCq",
+   "label": "Experiential Learning- Internship Requirement",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-3JZY14yF",
+    "type": "credits",
+    "courseSet": "set-3JZY14yF",
+    "minCredits": 1,
+    "sourceRef": "program",
+    "label": "Experiential Learning- Internship Requirement"
+   }
+  },
+  {
+   "id": "g-qx6d5OnM",
+   "label": "Interdisciplinary Learning",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-u2vCgyCl",
+    "type": "course",
+    "code": "APEC 3202",
+    "sourceRef": "program",
+    "label": "Interdisciplinary Learning"
+   }
+  },
+  {
+   "id": "g-daGJUhDr",
+   "label": "Upper Division Writing Intensive within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-g2eoTNTL",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-g2eoTNTL-1",
+      "type": "course",
+      "code": "PLSC 4096W",
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-g2eoTNTL-2",
+      "type": "course",
+      "code": "WRIT 3562W",
+      "sourceRef": "program"
+     },
+     {
+      "id": "r-g2eoTNTL-3",
+      "type": "course",
+      "code": "WRIT 3562V",
+      "sourceRef": "program"
+     }
+    ],
+    "label": "Upper Division Writing Intensive within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s\u00a0 Liberal Education requirements .\nCollegiate Requirements:\nAll CFANS undergraduate students must complete an Experiential Learning (EL) requirement. Experiential learning is a way to learn by doing, or learn by experiencing. Instead of acquiring information from a classroom lecture or book, experiential learning gives you active, hands-on experience in the real world. Examples of experiential learning options within CFANS include: off-campus study programs, field-based research, service-learning classes, internships, volunteer work related to your studies, and more.\nAll CFANS undergraduate students must complete an Interdisciplinary (ID) Learning Requirement. An interdisciplinary (ID) course addresses issues from at least two different academic disciplines (two fields/departments within the university). By integrating two disciplines into one class, students have the opportunity to develop integrated problem-solving skills.\nTo determine which of your major classes fulfill the EL and ID requirements, see your APAS report. Students are encouraged to work with their academic advisor to identify EL and ID requirements in their graduation planning.\nAt least 15 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Sustainable Food Production, Food Marketing & Supply Chains, Individualized. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

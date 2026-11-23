@@ -1,0 +1,356 @@
+{
+ "schemaVersion": 2,
+ "id": "apparel-design-bs",
+ "name": "Apparel Design B.S.",
+ "officialName": "Apparel Design B.S.",
+ "officialProgramId": "014320122",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "Apparel Design B.S., revision 014320122-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/014320122, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/014320122",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 014320122-2026-09-08"
+  },
+  "course-0127651": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0127651",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 1221, version 0127651-2023-09-05"
+  },
+  "course-0128241": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128241",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 2213, version 0128241-2023-09-05"
+  },
+  "course-0128111": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128111",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 2214, version 0128111-2025-01-21"
+  },
+  "course-0128121": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128121",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 2221, version 0128121-2024-01-16"
+  },
+  "course-0092601": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092601",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 4215, version 0092601-2023-09-05"
+  },
+  "course-8083841": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8083841",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 4218W, version 8083841-2020-01-21"
+  },
+  "course-0092641": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092641",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 4225, version 0092641-2025-09-02"
+  },
+  "course-8275881": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8275881",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 1201, version 8275881-2025-09-02"
+  },
+  "course-0121371": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0121371",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 1311, version 0121371-2025-09-02"
+  },
+  "course-8015051": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015051",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 2101, version 8015051-2025-09-02"
+  },
+  "course-8069961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8069961",
+   "retrieved": "2026-11-23",
+   "section": "Course record DESI 2701, version 8069961-2025-09-02"
+  },
+  "course-0128401": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0128401",
+   "retrieved": "2026-11-23",
+   "section": "Course record ADES 3224W, version 0128401-2023-09-05"
+  },
+  "course-0092591": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0092591",
+   "retrieved": "2026-11-23",
+   "section": "Course record RM 4212W, version 0092591-2019-09-03"
+  }
+ },
+ "courseSets": {
+  "set-fIIjzLya": {
+   "codes": [
+    "ADES 1221",
+    "ADES 2213",
+    "ADES 2214",
+    "ADES 2221",
+    "ADES 4215",
+    "ADES 4218W",
+    "ADES 4225",
+    "DESI 1201",
+    "DESI 1311",
+    "DESI 2101",
+    "DESI 2701"
+   ],
+   "sourceRef": "program"
+  },
+  "set-ZMVbt6B0": {
+   "codes": [
+    "ADES 3224W",
+    "ADES 4218W",
+    "RM 4212W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "ADES 1221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Introduction to Soft Goods Fabrication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0127651"
+   },
+   "sourceRef": "course-0127651"
+  },
+  "ADES 2213": {
+   "catalogTerm": "Fall 2026",
+   "title": "Textile Product Analysis",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128241"
+   },
+   "sourceRef": "course-0128241"
+  },
+  "ADES 2214": {
+   "catalogTerm": "Fall 2026",
+   "title": "Communicating Apparel Products",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128111"
+   },
+   "sourceRef": "course-0128111"
+  },
+  "ADES 2221": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design in 3 Dimensions",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128121"
+   },
+   "sourceRef": "course-0128121"
+  },
+  "ADES 3224W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Functional Clothing Design",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0128401"
+   },
+   "sourceRef": "course-0128401"
+  },
+  "ADES 4215": {
+   "catalogTerm": "Fall 2026",
+   "title": "Product Development: Softlines",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "2213 or DHA 2213 or apparel design major or clothing design major or retail merchandising major or instr consent"
+    },
+    "sourceRef": "course-0092601"
+   },
+   "sourceRef": "course-0092601"
+  },
+  "ADES 4218W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Fashion, Design, and the Global Industry",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Upper level undergraduate or grad student"
+    },
+    "sourceRef": "course-8083841"
+   },
+   "sourceRef": "course-8083841"
+  },
+  "ADES 4225": {
+   "catalogTerm": "Fall 2026",
+   "title": "Apparel Design Capstone",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0092641"
+   },
+   "sourceRef": "course-0092641"
+  },
+  "DESI 1201": {
+   "catalogTerm": "Fall 2026",
+   "title": "Design Justice, Ethics, & Sustainability",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8275881"
+   },
+   "sourceRef": "course-8275881"
+  },
+  "DESI 1311": {
+   "catalogTerm": "Fall 2026",
+   "title": "Visual Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0121371"
+   },
+   "sourceRef": "course-0121371"
+  },
+  "DESI 2101": {
+   "catalogTerm": "Fall 2026",
+   "title": "Principles of Design",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8015051"
+   },
+   "sourceRef": "course-8015051"
+  },
+  "DESI 2701": {
+   "catalogTerm": "Fall 2026",
+   "title": "Creative Design Methods",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8069961"
+   },
+   "sourceRef": "course-8069961"
+  },
+  "RM 4212W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Dress, Society, and Culture",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Jr or sr or grad student], [design major or minor or instr consent]"
+    },
+    "sourceRef": "course-0092591"
+   },
+   "sourceRef": "course-0092591"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-Y6SCsjPB",
+   "label": "Major Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-fIIjzLya",
+    "type": "credits",
+    "courseSet": "set-fIIjzLya",
+    "minCredits": 37,
+    "sourceRef": "program",
+    "label": "Major Courses"
+   }
+  },
+  {
+   "id": "g-8NprD7bG",
+   "label": "Upper Division Writing Intensive Within the Major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-ZMVbt6B0",
+    "type": "count",
+    "courseSet": "set-ZMVbt6B0",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive Within the Major"
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All degree-seeking students must complete the University\u2019s Liberal Education requirements .\nAt least 15 upper division credits in the major must be taken at the University of Minnesota Twin Cities campus.\nTo complete the major, students take a series of design studio courses based on the selected sub-plan and a set of major-specific supporting courses. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-sub-plans",
+   "label": "Sub-plan requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-sub-plans",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Complete any sub-plan requirements that apply to you: Fashion Design, Technical Design, Fashion + Technical Design. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}

@@ -1,0 +1,936 @@
+{
+ "schemaVersion": 2,
+ "id": "french-and-italian-studies-ba",
+ "name": "French and Italian Studies B.A.",
+ "officialName": "French and Italian Studies B.A.",
+ "officialProgramId": "033520217",
+ "catalogTerm": "Fall 2026",
+ "totalCredits": 120,
+ "source": "French and Italian Studies B.A., revision 033520217-2026-09-08, https://umtc.catalog.prod.coursedog.com/programs/033520217, retrieved 2026-11-23. Machine-mapped from the official catalog; review rules mark obligations that could not be verified automatically.",
+ "sources": {
+  "program": {
+   "url": "https://umtc.catalog.prod.coursedog.com/programs/033520217",
+   "retrieved": "2026-11-23",
+   "section": "Official program requirements, revision 033520217-2026-09-08"
+  },
+  "course-0095961": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0095961",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3015, version 0095961-2018-09-04"
+  },
+  "course-0095971": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0095971",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3016, version 0095971-2018-09-04"
+  },
+  "course-0096011": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0096011",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3101W, version 0096011-2018-09-04"
+  },
+  "course-0095571": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0095571",
+   "retrieved": "2026-11-23",
+   "section": "Course record ITAL 3015, version 0095571-2026-01-20"
+  },
+  "course-8185891": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8185891",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3345, version 8185891-2024-09-03"
+  },
+  "course-0160861": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0160861",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3350, version 0160861-2024-01-16"
+  },
+  "course-8169341": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8169341",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3431, version 8169341-2021-09-07"
+  },
+  "course-8278211": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278211",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3461, version 8278211-2025-09-02"
+  },
+  "course-8021101": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8021101",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3471, version 8021101-2026-01-20"
+  },
+  "course-0096181": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0096181",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3479, version 0096181-2015-01-20"
+  },
+  "course-8082661": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8082661",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3500, version 8082661-2015-09-08"
+  },
+  "course-8278691": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8278691",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3621, version 8278691-2026-01-20"
+  },
+  "course-8272821": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8272821",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3635, version 8272821-2025-01-21"
+  },
+  "course-0096261": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0096261",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3650, version 0096261-2026-05-18"
+  },
+  "course-8186901": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8186901",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3850, version 8186901-2026-01-20"
+  },
+  "course-8264471": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8264471",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3861, version 8264471-2026-09-08"
+  },
+  "course-8107021": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8107021",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 3896, version 8107021-2019-01-22"
+  },
+  "course-0096331": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0096331",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 4993, version 0096331-2021-01-19"
+  },
+  "course-8142541": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8142541",
+   "retrieved": "2026-11-23",
+   "section": "Course record MONT 3021W, version 8142541-2023-01-17"
+  },
+  "course-8173671": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8173671",
+   "retrieved": "2026-11-23",
+   "section": "Course record MONT 3024W, version 8173671-2023-01-17"
+  },
+  "course-8054751": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8054751",
+   "retrieved": "2026-11-23",
+   "section": "Course record MONT 3311W, version 8054751-2024-09-03"
+  },
+  "course-8086131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8086131",
+   "retrieved": "2026-11-23",
+   "section": "Course record MONT 3505W, version 8086131-2023-01-17"
+  },
+  "course-8276281": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8276281",
+   "retrieved": "2026-11-23",
+   "section": "Course record FRIT 3500, version 8276281-2026-01-20"
+  },
+  "course-8264451": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8264451",
+   "retrieved": "2026-11-23",
+   "section": "Course record FRIT 3656, version 8264451-2023-09-05"
+  },
+  "course-8264461": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8264461",
+   "retrieved": "2026-11-23",
+   "section": "Course record GSD 3656, version 8264461-2023-09-05"
+  },
+  "course-8262991": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8262991",
+   "retrieved": "2026-11-23",
+   "section": "Course record PHIL 3009, version 8262991-2023-09-05"
+  },
+  "course-8281131": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8281131",
+   "retrieved": "2026-11-23",
+   "section": "Course record FRIT 3801, version 8281131-2026-09-08"
+  },
+  "course-7900981": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7900981",
+   "retrieved": "2026-11-23",
+   "section": "Course record FRIT 3850, version 7900981-2026-09-08"
+  },
+  "course-0096311": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/0096311",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 4101W, version 0096311-2025-01-21"
+  },
+  "course-7949681": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/7949681",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 4101V, version 7949681-2023-06-05"
+  },
+  "course-8075791": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8075791",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 4109W, version 8075791-2018-01-16"
+  },
+  "course-8072761": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8072761",
+   "retrieved": "2026-11-23",
+   "section": "Course record FREN 4110V, version 8072761-2018-01-16"
+  },
+  "course-8015951": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses/8015951",
+   "retrieved": "2026-11-23",
+   "section": "Course record ITAL 3459W, version 8015951-2016-09-06"
+  }
+ },
+ "courseSets": {
+  "set-cZNCaA0Y": {
+   "codes": [
+    "FREN 3015",
+    "FREN 3016",
+    "FREN 3101W",
+    "ITAL 3015"
+   ],
+   "sourceRef": "program"
+  },
+  "set-JgBwG33r": {
+   "codes": [
+    "FREN 3101W",
+    "FREN 3345",
+    "FREN 3350",
+    "FREN 3431",
+    "FREN 3461",
+    "FREN 3471",
+    "FREN 3479",
+    "FREN 3500",
+    "FREN 3621",
+    "FREN 3635",
+    "FREN 3650",
+    "FREN 3850",
+    "FREN 3861",
+    "FREN 3896",
+    "FREN 4993",
+    "MONT 3021W",
+    "MONT 3024W",
+    "MONT 3311W",
+    "MONT 3505W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-2VC80MEF": {
+   "codes": [
+    "FRIT 3500",
+    "FRIT 3656",
+    "GSD 3656",
+    "PHIL 3009",
+    "FRIT 3801",
+    "FRIT 3850"
+   ],
+   "sourceRef": "program"
+  },
+  "set-v3gY0mJi": {
+   "codes": [
+    "FREN 4101W",
+    "FREN 4101V"
+   ],
+   "sourceRef": "program"
+  },
+  "set-sBEUXB0x": {
+   "codes": [
+    "FREN 4109W",
+    "FREN 4110V",
+    "ITAL 3459W"
+   ],
+   "sourceRef": "program"
+  },
+  "set-417150": {
+   "codes": [
+    "FREN 3101W",
+    "FREN 4101W",
+    "FREN 4101V",
+    "FREN 4109W",
+    "FREN 4110V",
+    "ITAL 3459W",
+    "MONT 3021W",
+    "MONT 3024W",
+    "MONT 3311W",
+    "MONT 3505W"
+   ],
+   "sourceRef": "program"
+  }
+ },
+ "courseMetadata": {
+  "FREN 3015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced French Grammar and Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0095961"
+   },
+   "sourceRef": "course-0095961"
+  },
+  "FREN 3016": {
+   "catalogTerm": "Fall 2026",
+   "title": "Advanced French Composition and Communication",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0095971"
+   },
+   "sourceRef": "course-0095971"
+  },
+  "FREN 3101W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Methods in French and Francophone Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3016 or equiv"
+    },
+    "sourceRef": "course-0096011"
+   },
+   "sourceRef": "course-0096011"
+  },
+  "FREN 3345": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Holocaust in France: Literature, History, Testimony",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "FREN 3015; it is recommended that students have taken, or take concurrently, FREN 3101W."
+    },
+    "sourceRef": "course-8185891"
+   },
+   "sourceRef": "course-8185891"
+  },
+  "FREN 3350": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3101"
+    },
+    "sourceRef": "course-0160861"
+   },
+   "sourceRef": "course-0160861"
+  },
+  "FREN 3431": {
+   "catalogTerm": "Fall 2026",
+   "title": "Gender and Sexuality in Francophone Literature and Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3101W. All courses counted toward a major/minor must be taken on an A-F basis."
+    },
+    "sourceRef": "course-8169341"
+   },
+   "sourceRef": "course-8169341"
+  },
+  "FREN 3461": {
+   "catalogTerm": "Fall 2026",
+   "title": "Francophone Feminisms and Practices",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278211"
+   },
+   "sourceRef": "course-8278211"
+  },
+  "FREN 3471": {
+   "catalogTerm": "Fall 2026",
+   "title": "Crossings and Crossroads: North African Film, Art and Literature",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3101W"
+    },
+    "sourceRef": "course-8021101"
+   },
+   "sourceRef": "course-8021101"
+  },
+  "FREN 3479": {
+   "catalogTerm": "Fall 2026",
+   "title": "Francophone Writers of the African Diaspora",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3101"
+    },
+    "sourceRef": "course-0096181"
+   },
+   "sourceRef": "course-0096181"
+  },
+  "FREN 3500": {
+   "catalogTerm": "Fall 2026",
+   "title": "Linguistic Analysis of French",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3015"
+    },
+    "sourceRef": "course-8082661"
+   },
+   "sourceRef": "course-8082661"
+  },
+  "FREN 3621": {
+   "catalogTerm": "Fall 2026",
+   "title": "Consuming French Culture and Cuisine",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8278691"
+   },
+   "sourceRef": "course-8278691"
+  },
+  "FREN 3635": {
+   "catalogTerm": "Fall 2026",
+   "title": "Paris Metro",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8272821"
+   },
+   "sourceRef": "course-8272821"
+  },
+  "FREN 3650": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in French/Francophone Cultures",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "3015"
+    },
+    "sourceRef": "course-0096261"
+   },
+   "sourceRef": "course-0096261"
+  },
+  "FREN 3850": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in French and Francophone Media",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8186901"
+   },
+   "sourceRef": "course-8186901"
+  },
+  "FREN 3861": {
+   "catalogTerm": "Fall 2026",
+   "title": "The Francophone World in Film : West and Central Africa and the French Caribbean",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": {
+     "type": "course",
+     "course_code": "FREN 3016"
+    },
+    "sourceRef": "course-8264471"
+   },
+   "sourceRef": "course-8264471"
+  },
+  "FREN 3896": {
+   "catalogTerm": "Fall 2026",
+   "title": "Internship in a French-Speaking Milieu",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8107021"
+   },
+   "sourceRef": "course-8107021"
+  },
+  "FREN 4101V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Capstone Seminar in French and Francophone Studies",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "French 3101W and at least three electives completed."
+    },
+    "sourceRef": "course-7949681"
+   },
+   "sourceRef": "course-7949681"
+  },
+  "FREN 4101W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Seminar in French and Francophone Studies",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "French 3101W and at least three electives completed."
+    },
+    "sourceRef": "course-0096311"
+   },
+   "sourceRef": "course-0096311"
+  },
+  "FREN 4109W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Capstone Independent Study in French and Francophone Studies",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent, [completion of most major coursework or permission of DUS]"
+    },
+    "sourceRef": "course-8075791"
+   },
+   "sourceRef": "course-8075791"
+  },
+  "FREN 4110V": {
+   "catalogTerm": "Fall 2026",
+   "title": "Honors Capstone Independent Study in French and Francophone Studies",
+   "minimumCredits": 2,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "[Completion of most major coursework or permission of DUS], candidate for honors in French, instr consent"
+    },
+    "sourceRef": "course-8072761"
+   },
+   "sourceRef": "course-8072761"
+  },
+  "FREN 4993": {
+   "catalogTerm": "Fall 2026",
+   "title": "Directed Study",
+   "minimumCredits": 1,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "instr consent"
+    },
+    "sourceRef": "course-0096331"
+   },
+   "sourceRef": "course-0096331"
+  },
+  "FRIT 3500": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in French and Italian Studies",
+   "minimumCredits": 3,
+   "maximumCredits": 4,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8276281"
+   },
+   "sourceRef": "course-8276281"
+  },
+  "FRIT 3656": {
+   "catalogTerm": "Fall 2026",
+   "title": "Existentialism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8264451"
+   },
+   "sourceRef": "course-8264451"
+  },
+  "FRIT 3801": {
+   "catalogTerm": "Fall 2026",
+   "title": "Rome and Paris at the Movies",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8281131"
+   },
+   "sourceRef": "course-8281131"
+  },
+  "FRIT 3850": {
+   "catalogTerm": "Fall 2026",
+   "title": "Topics in French and Italian Cinema",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "Knowledge of [French or Italian] helpful but not required"
+    },
+    "sourceRef": "course-7900981"
+   },
+   "sourceRef": "course-7900981"
+  },
+  "GSD 3656": {
+   "catalogTerm": "Fall 2026",
+   "title": "Existentialism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8264461"
+   },
+   "sourceRef": "course-8264461"
+  },
+  "ITAL 3015": {
+   "catalogTerm": "Fall 2026",
+   "title": "Reading, Conversation, and Composition",
+   "minimumCredits": 4,
+   "maximumCredits": 4,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-0095571"
+   },
+   "sourceRef": "course-0095571"
+  },
+  "ITAL 3459W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Senior Project",
+   "minimumCredits": 2,
+   "maximumCredits": 2,
+   "offered": [
+    "Fall",
+    "Spring"
+   ],
+   "prerequisites": {
+    "expression": {
+     "type": "condition",
+     "text": "completion of pre-requisite for major (3015) and eight electives for the sum of 30 credits"
+    },
+    "sourceRef": "course-8015951"
+   },
+   "sourceRef": "course-8015951"
+  },
+  "MONT 3021W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval French Literature: Mysteries, Marvels, & Monsters",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8142541"
+   },
+   "sourceRef": "course-8142541"
+  },
+  "MONT 3024W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Medieval French Literature: The Once & Future King",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8173671"
+   },
+   "sourceRef": "course-8173671"
+  },
+  "MONT 3311W": {
+   "catalogTerm": "Fall 2026",
+   "title": "La France Mosa\u00efque/French Multiculturalism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8054751"
+   },
+   "sourceRef": "course-8054751"
+  },
+  "MONT 3505W": {
+   "catalogTerm": "Fall 2026",
+   "title": "Writing in French: Tools and Techniques",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": [
+    "Fall",
+    "Spring",
+    "Summer"
+   ],
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8086131"
+   },
+   "sourceRef": "course-8086131"
+  },
+  "PHIL 3009": {
+   "catalogTerm": "Fall 2026",
+   "title": "Existentialism",
+   "minimumCredits": 3,
+   "maximumCredits": 3,
+   "offered": null,
+   "prerequisites": {
+    "expression": null,
+    "sourceRef": "course-8262991"
+   },
+   "sourceRef": "course-8262991"
+  }
+ },
+ "groups": [
+  {
+   "id": "g-X7j8JQ3F",
+   "label": "Core Courses",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-cZNCaA0Y",
+    "type": "credits",
+    "courseSet": "set-cZNCaA0Y",
+    "minCredits": 13,
+    "sourceRef": "program",
+    "label": "Core Courses"
+   }
+  },
+  {
+   "id": "g-O4Ea4dnB",
+   "label": "French Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-JgBwG33r",
+    "type": "credits",
+    "courseSet": "set-JgBwG33r",
+    "minCredits": 3,
+    "sourceRef": "program",
+    "label": "French Electives"
+   }
+  },
+  {
+   "id": "g-F4Ky2wOW",
+   "label": "Italian Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-7G0wHLzl",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-fkPBSyYz",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Italian states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+      "label": "Italian"
+     },
+     {
+      "id": "r-BgAznQ7D",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Other Electives states no machine-checkable course or credit bound. Verify this requirement with your advisor or APAS.",
+      "label": "Other Electives"
+     }
+    ],
+    "label": "Italian Electives"
+   }
+  },
+  {
+   "id": "g-iIkcoMOu",
+   "label": "French & Italian Electives",
+   "category": "Elective",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-2VC80MEF",
+    "type": "credits",
+    "courseSet": "set-2VC80MEF",
+    "minCredits": 6,
+    "sourceRef": "program",
+    "label": "French & Italian Electives"
+   }
+  },
+  {
+   "id": "g-Z0gS62G0",
+   "label": "Capstone",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-979PghpL",
+    "type": "any",
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-v3gY0mJi",
+      "type": "credits",
+      "courseSet": "set-v3gY0mJi",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Capstone Seminar"
+     },
+     {
+      "id": "r-sBEUXB0x",
+      "type": "credits",
+      "courseSet": "set-sBEUXB0x",
+      "minCredits": 2,
+      "sourceRef": "program",
+      "label": "Capstone Independent Study"
+     }
+    ],
+    "label": "Capstone"
+   }
+  },
+  {
+   "id": "g-033520217",
+   "label": "Upper Division Writing Intensive within the major",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-417150",
+    "type": "count",
+    "courseSet": "set-417150",
+    "maxCourses": 1,
+    "sourceRef": "program",
+    "label": "Upper Division Writing Intensive within the major"
+   }
+  },
+  {
+   "id": "g-admreq",
+   "label": "Required Prerequisites",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-qMNIj1vr",
+    "type": "all",
+    "allowReuse": false,
+    "sourceRef": "program",
+    "children": [
+     {
+      "id": "r-6iw7GW5y",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Beginning and Intermediate French: courses from this list count for at most 20 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Beginning and Intermediate French"
+     },
+     {
+      "id": "r-LgSyCxB4",
+      "type": "review",
+      "sourceRef": "program",
+      "message": "Beginning and Intermediate Italian: courses from this list count for at most 20 credits. Verify this requirement with your advisor or APAS.",
+      "label": "Beginning and Intermediate Italian"
+     }
+    ],
+    "label": "Required prerequisites"
+   }
+  },
+  {
+   "id": "g-notes-programAdmissionRequirements",
+   "label": "Program admission requirements",
+   "category": "Major core",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programAdmissionRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "Students must formally declare a major within the department before completing the majority of the major elective requirements. Verify this requirement with your advisor or APAS."
+   }
+  },
+  {
+   "id": "g-notes-programRequirements",
+   "label": "Additional program requirements",
+   "category": "Liberal ed",
+   "sourceRef": "program",
+   "rule": {
+    "id": "r-notes-programRequirements",
+    "type": "review",
+    "sourceRef": "program",
+    "message": "All students must complete the University's\u00a0 Liberal Education requirements.\nCollegiate Requirements:\nAll CLA BA degrees require 18 upper-division (3xxx-level or higher) credits outside the major designator. These credits must be taken in designators different from the major designator and cannot include courses that are cross-listed with the major designator. The major designator for the French and Italian Studies BA is FREN.\nStudents are required to complete 4 semester(s) of any second language, with a grade of C-, or better, or S, or demonstrate proficiency in the language(s) as defined by the department or college.\nAll incoming CLA first-year (freshmen) must complete the First-Year Experience course sequence.\nAll incoming CLA first-year (freshmen) students earning a BA, BS, or BIS degree must complete CLA 3002 or another approved career or internship course (CLA 3101, CLA 3201, CLA 3301, CLA 3896, CLA 3996, FREN 3896, or ITAL 3896).\nAll students must complete a capstone in at least one CLA major. The requirements for double majors completing the capstone in a different CLA major will be clearly stated. Students must also complete all major requirements in both majors to allow the additional capstone to be waived. Students completing an additional degree must complete the Capstone in each degree area.\nStudents are required to complete 4 semester(s) of French and Italian. with a grade of C-, or better, or demonstrate proficiency in the language(s) as defined by the department or college.\nStudents may earn a BA or a minor in French and/or Italian, but not both. Any departmental major or minor may be combined with the French Advanced-Level Proficiency Certificate.\nAt least 16 upper-division credits in the major must be taken at the University of Minnesota Twin Cities campus. Verify this requirement with your advisor or APAS."
+   }
+  }
+ ],
+ "sharing": [],
+ "adjustments": []
+}
