@@ -1,30 +1,31 @@
-// Every screen reads data through these functions. They currently resolve from the
-// mock DB; replace each body with a call to `api/client.ts` when the backend is ready.
-import { db, delay, mockFlags, persist } from "./mock/mockDb";
-import { ApiError } from "./client";
+// Every screen reads data through these functions. All planner features use the real API
+// through `apiRequest`. Only `getOptions` still reads mock data (issue #9).
+import { db, delay } from "./mock/mockDb";
+import { ApiError, apiRequest, apiUrl } from "./client";
 import type {
   CatalogCourse,
   CatalogCoursePage,
+  Coursework,
   CourseFilters,
+  GenerateResult,
   Options,
   Plan,
   PlanChange,
   Profile,
+  ProgramSummary,
   Summary,
+  TermId,
   Transcript,
 } from "./types";
 
 const clone = <T>(v: T): T => structuredClone(v);
 
 /** GET /api/v1/summary */
-export async function getSummary(): Promise<Summary> {
-  await delay();
-  return clone(db.summary);
-}
+export const getSummary = () => apiRequest<Summary>("/summary");
 
 /** GET /api/v1/profile */
 export async function getProfile(): Promise<Profile> {
-  const response = await fetch("/api/v1/profile", {
+  const response = await fetch(apiUrl("/profile"), {
     method: "GET",
     credentials: "include",
     headers: {
@@ -47,7 +48,7 @@ export async function getProfile(): Promise<Profile> {
 export async function updateProfile(
   patch: Partial<Profile>,
 ): Promise<Profile> {
-  const response = await fetch("/api/v1/profile", {
+  const response = await fetch(apiUrl("/profile"), {
     method: "PUT",
     credentials: "include",
     headers: {
@@ -76,34 +77,52 @@ export async function updateProfile(
   return response.json() as Promise<Profile>;
 }
 
-/** Select options (majors, standings, terms). Likely part of GET /programs later. */
+/** GET /api/v1/programs: every supported program version, without requirement details. */
+export const getPrograms = () => apiRequest<{ programs: ProgramSummary[] }>("/programs");
+
+/**
+ * Select options. Standings, graduation targets, subjects and careers are still mock data
+ * until a real options endpoint exists (issue #9). Majors come from the supported program
+ * files so every undergraduate major can be selected.
+ */
 export async function getOptions(): Promise<Options> {
   await delay(100);
-  return clone(db.options);
+  const options = clone(db.options);
+  try {
+    const { programs } = await getPrograms();
+    if (programs.length) {
+      options.majors = programs.map((program) => program.name);
+      options.unverifiedMajors = programs.filter((program) => !program.reviewed).map((program) => program.name);
+    }
+  } catch {
+    // Keep the bundled list when the program listing is unavailable.
+  }
+  return options;
 }
+
+/** GET /api/v1/coursework */
+export const getCoursework = () => apiRequest<Coursework>("/coursework");
+
+/** PUT /api/v1/coursework: replaces the whole set. */
+export const saveCoursework = (body: Coursework) =>
+  apiRequest<Coursework>("/coursework", { method: "PUT", json: body });
 
 /** GET /api/v1/plan */
-export async function getPlan(): Promise<Plan> {
-  await delay();
-  return clone(db.plan);
-}
+export const getPlan = () => apiRequest<Plan>("/plan");
 
-/** PUT /api/v1/plan */
-export async function savePlan(changes: PlanChange[]): Promise<Plan> {
-  await delay(600);
-  for (const ch of changes) {
-    const c = db.plan.courses.find((x) => x.code === ch.code);
-    if (c) Object.assign(c, { status: ch.status, term: ch.term });
-  }
-  persist();
-  return clone(db.plan);
-}
+/** PUT /api/v1/plan. Pass the selected catalog term whenever a version was chosen. */
+export const savePlan = (changes: PlanChange[], catalogTerm?: TermId | null) =>
+  apiRequest<Plan>("/plan", { method: "PUT", json: catalogTerm ? { changes, catalogTerm } : { changes } });
 
-/** POST /api/v1/plans/generate. The real API returns a job id to poll. */
-export async function generatePlan(): Promise<{ jobId: string }> {
-  await delay(200);
-  return { jobId: "mock-job" };
-}
+/** POST /api/v1/plans/generate. Dry runs return a draft without saving. */
+export const generatePlan = (options: { dryRun?: boolean; catalogTerm?: TermId | null } = {}) =>
+  apiRequest<GenerateResult>("/plans/generate", {
+    method: "POST",
+    json: {
+      dryRun: options.dryRun ?? false,
+      ...(options.catalogTerm ? { catalogTerm: options.catalogTerm } : {}),
+    },
+  });
 
 /** GET /api/v1/courses */
 export async function getCourses(
@@ -135,7 +154,7 @@ export async function getCourses(
   params.set("limit", String(limit));
   params.set("offset", String(offset));
 
-  const response = await fetch(`/api/v1/courses?${params.toString()}`, {
+  const response = await fetch(apiUrl(`/courses?${params.toString()}`), {
     credentials: "include",
     headers: { Accept: "application/json" },
   });
@@ -154,7 +173,7 @@ export async function getCourses(
 
 /** GET /api/v1/courses/:code */
 export async function getCatalogCourse(code: string): Promise<CatalogCourse> {
-  const response = await fetch(`/api/v1/courses/${encodeURIComponent(code)}`, {
+  const response = await fetch(apiUrl(`/courses/${encodeURIComponent(code)}`), {
     credentials: "include",
     headers: { Accept: "application/json" },
   });
@@ -173,44 +192,15 @@ export async function getCatalogCourse(code: string): Promise<CatalogCourse> {
   return (await response.json()) as CatalogCourse;
 }
 
-const transcripts = new Map<string, Transcript & { readyAt: number }>();
-
-/** POST /api/v1/transcripts (multipart PDF) */
-export async function uploadTranscript(file: File): Promise<{ id: string }> {
-  await delay(200);
-  const id = `t-${Date.now()}`;
-  transcripts.set(id, {
-    id,
-    fileName: file.name,
-    status: "parsing",
-    completed: 0,
-    inProgress: 0,
-    readyAt: Date.now() + 1400,
-  });
-  return { id };
+/**
+ * POST /api/v1/transcripts (multipart PDF). The browser sets the multipart content type.
+ * Scanned PDFs are read with text recognition during this request, so it can take up to a minute.
+ */
+export function uploadTranscript(file: File): Promise<{ id: string }> {
+  const form = new FormData();
+  form.append("file", file);
+  return apiRequest<{ id: string }>("/transcripts", { method: "POST", form });
 }
 
-/** GET /api/v1/transcripts/:id. Poll while status is "parsing". */
-export async function getTranscript(id: string): Promise<Transcript> {
-  await delay(100);
-  const t = transcripts.get(id);
-  if (!t) throw new ApiError("not_found", "Transcript not found.");
-  if (t.status === "parsing" && Date.now() >= t.readyAt) {
-    if (mockFlags.nextUploadIsScan) {
-      t.status = "no_text";
-    } else {
-      Object.assign(t, { status: "parsed", ...db.transcript });
-    }
-  }
-  const { readyAt: _readyAt, ...rest } = t;
-  return rest;
-}
-
-/** POST /api/v1/transcripts/:id/ocr */
-export async function retryTranscriptOcr(id: string): Promise<void> {
-  await delay(200);
-  const t = transcripts.get(id);
-  if (!t) throw new ApiError("not_found", "Transcript not found.");
-  mockFlags.nextUploadIsScan = false;
-  Object.assign(t, { status: "parsing", readyAt: Date.now() + 1800 });
-}
+/** GET /api/v1/transcripts/:id */
+export const getTranscript = (id: string) => apiRequest<Transcript>(`/transcripts/${encodeURIComponent(id)}`);

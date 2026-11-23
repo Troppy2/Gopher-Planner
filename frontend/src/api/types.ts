@@ -21,6 +21,11 @@ export interface Course {
   professors: string[];
   term: TermId | null;
   lockReason?: string;
+  /** Where title, credits and scheduling facts came from. */
+  metadataSource?: "catalog" | "program";
+  /** Full prerequisite tree; `prereqs` is a flat display list and never means "all required". */
+  prerequisiteTree?: PrerequisiteExpression | null;
+  metadataWarnings?: WarningCode[];
 }
 
 export type PrerequisiteExpression =
@@ -66,6 +71,8 @@ export interface CatalogCourse {
   typicallyOffered: string;
   offered: Season[];
   prerequisiteStatus: string;
+  /** Liberal education designations, e.g. "Global Perspectives". */
+  leAttributes?: string[];
   prerequisiteSourceText: string;
   prerequisites: CatalogPrerequisites | null;
   unresolvedPrerequisiteCourses: string[];
@@ -102,6 +109,46 @@ export interface Profile {
   onboarded: boolean;
 }
 
+export type WarningCode =
+  | "program_requirements_unavailable"
+  | "program_version_unavailable"
+  | "program_version_unconfirmed"
+  | "requirements_incomplete"
+  | "requirements_need_review"
+  | "course_metadata_unavailable"
+  | "offered_terms_unverified"
+  | "prerequisites_require_review"
+  | "catalog_version_unverified"
+  | "catalog_metadata_conflict"
+  | "graduation_target_unreachable"
+  | (string & {});
+
+export type RequirementStatus = "satisfied" | "unsatisfied" | "needs_review";
+
+export interface RequirementEvidence {
+  matchedCodes: string[];
+  missingCodes: string[];
+  appliedAdjustments: string[];
+  requiredCredits?: number;
+  matchedCredits?: number;
+  matchedCourses?: number;
+  minCourses?: number;
+  maxCourses?: number;
+}
+
+export interface RequirementProgress {
+  id: string;
+  label: string;
+  parentId: string | null;
+  type: string;
+  category: Requirement | null;
+  completedStatus: RequirementStatus;
+  projectedStatus: RequirementStatus;
+  completedEvidence: RequirementEvidence;
+  projectedEvidence: RequirementEvidence;
+  details: string[];
+}
+
 export interface Plan {
   /** Ordered: "Completed", current term, then every future term. */
   terms: TermId[];
@@ -109,6 +156,40 @@ export interface Plan {
   /** Credits earned before any course listed here (transfer, AP, older terms). */
   baseCredits: number;
   courses: Course[];
+  /** The confirmed program catalog version, or null until the student selects one. */
+  catalogTerm: TermId | null;
+  availableCatalogTerms: TermId[];
+  warnings: WarningCode[];
+  requirementProgress: RequirementProgress[];
+}
+
+export interface GenerateResult {
+  jobId: string;
+  status: "succeeded";
+  warnings: WarningCode[];
+  plan: Plan;
+}
+
+export interface CourseworkEntry {
+  code: string;
+  title: string;
+  credits: number;
+  status: "done" | "prog";
+  term: TermId | null;
+  grade: string | null;
+  source?: "manual" | "transcript";
+}
+
+export interface Coursework {
+  courses: CourseworkEntry[];
+  skipped: boolean;
+}
+
+export interface ProgramSummary {
+  name: string;
+  officialName: string;
+  catalogTerms: TermId[];
+  reviewed: boolean;
 }
 
 export interface PlanChange {
@@ -119,6 +200,8 @@ export interface PlanChange {
 
 export interface Options {
   majors: string[];
+  /** Majors whose requirements are machine-mapped and not yet hand-reviewed. */
+  unverifiedMajors?: string[];
   standings: string[];
   graduationTargets: string[];
   subjects: string[];
@@ -146,4 +229,8 @@ export interface Transcript {
   status: TranscriptStatus;
   completed: number;
   inProgress: number;
+  courses?: CourseworkEntry[];
+  /** Codes found but not importable (transfer placeholders, unreadable codes). */
+  notImported?: string[];
+  errorCode?: string;
 }

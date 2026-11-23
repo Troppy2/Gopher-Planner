@@ -17,7 +17,7 @@ import { Button, Drawer, EmptyState, SkeletonRows } from "@/ui";
 import { plural } from "@/lib/format";
 import { usePlan } from "@/features/plan/usePlan";
 import { useCourseParam } from "@/features/course-detail/useCourseParam";
-import { targetTerm } from "@/features/plan/planRules";
+import { catalogToPlanCourse, targetTerm } from "@/features/plan/planRules";
 import { FilterFields, FILTERS } from "./components/FilterFields";
 import type { FilterKey } from "./components/FilterFields";
 import { ResultsList } from "./components/ResultsList";
@@ -45,7 +45,7 @@ export default function CatalogScreen() {
   const [live, setLive] = useState("");
 
   const course = useCourseParam();
-  const { courses: planCourses, plan, profile, add } = usePlan();
+  const { courses: planCourses, plan, profile, add, addCourse } = usePlan();
 
   const query: CourseFilters = {
     q,
@@ -111,21 +111,24 @@ export default function CatalogScreen() {
       return;
     }
 
-    const planCourse = planCourses.find(
+    const existing = planCourses.find(
       (planCourse) => planCourse.code === code,
     );
+    const result = catalogCourses.find((catalogCourse) => catalogCourse.code === code);
+    // Catalog courses outside the plan are added as electives; the server validates on save.
+    const planCourse = existing ?? (result ? catalogToPlanCourse(result) : undefined);
 
-    if (!planCourse) {
-      setLive(
-        `${code} is in the catalog, but adding new catalog courses to your plan is not connected yet.`,
-      );
+    if (!planCourse || planCourse.status === "block") {
+      if (planCourse?.lockReason) setLive(`${code}: ${planCourse.lockReason}`);
+      course.open(code);
       return;
     }
 
-    const target = targetTerm(planCourse, planCourses, plan, profile);
+    const target = targetTerm(planCourse, [...planCourses, ...(existing ? [] : [planCourse])], plan, profile);
 
     if (target.term) {
-      add(code, target.term);
+      if (existing) add(code, target.term);
+      else addCourse(planCourse, target.term);
       setLive(`${code} added to ${target.term}. Save your plan to keep it.`);
     } else {
       course.open(code);

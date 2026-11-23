@@ -229,3 +229,34 @@
     width: 100%;
   }
 }
+
+/* Full-width row inside the metric grid (summary error). */
+.g12 {
+  grid-column: 1 / -1;
+}
+
+/* Degree requirements: completed and with-plan status stay side by side, never colour alone. */
+.req-row {
+  align-items: flex-start;
+}
+
+.req-status {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: right;
+  font-size: 0.875rem;
+}
+
+.warn-list {
+  margin: 12px 0 0;
+  padding-left: 18px;
+  color: var(--muted, inherit);
+  font-size: 0.875rem;
+}
+
+@media (max-width: 640px) {
+  .req-status {
+    text-align: left;
+  }
+}

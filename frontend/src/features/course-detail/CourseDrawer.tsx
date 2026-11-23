@@ -4,7 +4,7 @@ import { getCatalogCourse } from "@/api/endpoints";
 import type { CatalogCourse, Course } from "@/api/types";
 import { Button, Callout, Drawer, StatusBadge } from "@/ui";
 import { usePlan } from "@/features/plan/usePlan";
-import { targetTerm } from "@/features/plan/planRules";
+import { catalogToPlanCourse, targetTerm } from "@/features/plan/planRules";
 import { PrerequisiteTree } from "./PrerequisiteTree";
 import { useCourseParam } from "./useCourseParam";
 import "./course-detail.css";
@@ -31,7 +31,7 @@ function getPlanStatus(planCourse: Course | undefined): Course["status"] {
 
 export function CourseDrawer() {
   const { code, close } = useCourseParam();
-  const { courses, plan, profile, add, remove } = usePlan();
+  const { courses, plan, profile, add, addCourse, remove } = usePlan();
 
   const details = useQuery({
     queryKey: ["catalog-course", code],
@@ -42,12 +42,14 @@ export function CourseDrawer() {
   if (!code) return null;
 
   const catalogCourse = details.data;
-  const planCourse = courses.find((course) => course.code === code);
-  const status = getPlanStatus(planCourse);
+  const savedCourse = courses.find((course) => course.code === code);
+  // A catalog course outside the plan can still be added; unknown prerequisites block it with a reason.
+  const planCourse = savedCourse ?? (catalogCourse ? catalogToPlanCourse(catalogCourse) : undefined);
+  const status = getPlanStatus(savedCourse);
 
   const target =
     plan && planCourse?.status === "avail"
-      ? targetTerm(planCourse, courses, plan, profile)
+      ? targetTerm(planCourse, savedCourse ? courses : [...courses, planCourse], plan, profile)
       : null;
 
   let note = null;
@@ -60,6 +62,7 @@ export function CourseDrawer() {
           "This course is currently locked in your plan."}
       </Callout>
     );
+    action = <Button disabled>Add to plan</Button>;
   } else if (target?.term && planCourse) {
     note = (
       <Callout tone="ok" title={`Prerequisites are met by ${target.term}`}>
@@ -73,7 +76,8 @@ export function CourseDrawer() {
     action = (
       <Button
         onClick={() => {
-          add(code, term);
+          if (savedCourse) add(code, term);
+          else addCourse(planCourse, term);
           close();
         }}
       >
@@ -213,11 +217,18 @@ export function CourseDrawer() {
               <p className="muted">No prerequisites listed in the catalog.</p>
             ) : prerequisiteExpression ? (
               <>
-                {prerequisiteData?.needs_review && (
-                  <Callout tone="warn" title="Prerequisites need review">
-                    The extracted prerequisite structure may need verification.
-                    Check the original catalog text before relying on it.
+                {prerequisiteStatus === "text_only" ? (
+                  <Callout tone="warn" title="Prerequisites not verified">
+                    We only have the catalog text for this course, so the planner warns but does not
+                    check it. Confirm you meet it in APAS or with your advisor.
                   </Callout>
+                ) : (
+                  prerequisiteData?.needs_review && (
+                    <Callout tone="warn" title="Prerequisites need review">
+                      The extracted prerequisite structure may need verification.
+                      Check the original catalog text before relying on it.
+                    </Callout>
+                  )
                 )}
 
                 <PrerequisiteTree expression={prerequisiteExpression} />

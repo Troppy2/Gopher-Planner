@@ -62,7 +62,7 @@ export function ManualEntry() {
                   variant="ghost"
                   size="sm"
                   onClick={() =>
-                    addManual({ code: c.code, title: c.title, status: "done" })
+                    addManual({ code: c.code, title: c.title, credits: c.minimumCredits, status: "done" })
                   }
                   aria-label={`Add ${c.code}`}
                 >

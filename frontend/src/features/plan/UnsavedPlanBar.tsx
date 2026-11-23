@@ -2,23 +2,25 @@ import { useEffect, useRef, useState } from "react";
 import { CheckCircle2 } from "lucide-react";
 import { Button } from "@/ui";
 import { plural } from "@/lib/format";
+import { violationText } from "@/lib/violations";
 import { usePlan } from "./usePlan";
 
 export function UnsavedPlanBar() {
-  const { pendingCount, save, saveState, discard } = usePlan();
+  const { pendingCount, versionPending, violations, save, saveState, discard } = usePlan();
   const [justSaved, setJustSaved] = useState(false);
   const timer = useRef<number>(0);
 
   useEffect(() => () => clearTimeout(timer.current), []);
 
   const onSave = () => {
-    save();
+    void save();
     setJustSaved(true);
     clearTimeout(timer.current);
     timer.current = window.setTimeout(() => setJustSaved(false), 1600);
   };
 
-  if (pendingCount === 0 && justSaved && !saveState.isError) {
+  const pending = pendingCount > 0 || versionPending;
+  if (!pending && justSaved && !saveState.isError) {
     return (
       <div className="savebar" role="status">
         <span className="msg">
@@ -28,18 +30,27 @@ export function UnsavedPlanBar() {
       </div>
     );
   }
-  if (pendingCount === 0) return null;
+  if (!pending) return null;
 
+  const failed = saveState.isError;
   return (
     <div className="savebar" role="status">
       <span className="msg">
-        <b>{saveState.isError ? "Could not save. Try again." : plural(pendingCount, "unsaved change")}</b>
+        <b>{failed ? "Could not save." : pendingCount ? plural(pendingCount, "unsaved change") : "Catalog year not saved"}</b>
+        {failed && violations.length > 0 && (
+          <ul className="violations">
+            {violations.map((violation) => (
+              <li key={`${violation.code}-${violation.reason}`}>{violationText(violation)}</li>
+            ))}
+          </ul>
+        )}
+        {failed && !violations.length && saveState.error && <span>{saveState.error.message}</span>}
       </span>
       <Button variant="ghost" size="sm" onClick={discard}>
         Discard
       </Button>
       <Button size="sm" onClick={onSave}>
-        {saveState.isError ? "Try again" : "Save plan"}
+        {failed ? "Try again" : "Save plan"}
       </Button>
     </div>
   );

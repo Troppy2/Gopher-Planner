@@ -5,7 +5,7 @@ import { ArrowLeft } from "lucide-react";
 import { getOptions, getProfile, updateProfile } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
 import { Button, Callout, Combobox, Select, Spinner, TextField } from "@/ui";
-import { careerForMajor, careerOptions, creditChoices, HeavyLoadNote } from "@/features/profile/profileRules";
+import { careerForMajor, careerOptions, creditChoices, HeavyLoadNote, UnverifiedMajorNote } from "@/features/profile/profileRules";
 import { StepHeader } from "./components/StepHeader";
 import { useOnboarding } from "./onboarding.store";
 import type { ProfileDraft } from "./onboarding.store";
@@ -75,6 +75,7 @@ export default function ProfileScreen() {
             placeholder="Start typing, for example Computer Science"
           />
           {touched && errors.major && <span className="err">{errors.major}</span>}
+          <UnverifiedMajorNote options={options} major={draft.major} />
         </div>
         <Select
           className="span2"

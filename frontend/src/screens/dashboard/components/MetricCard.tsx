@@ -26,15 +26,18 @@ export function MetricCard({ className, label, value, total, bar, children }: Pr
   );
 }
 
-export function PercentCard({ className, percent, program, source }: { className: string; percent: number | null; program: string; source: string }) {
+export function PercentCard({ className, percent, total, source }: { className: string; percent: number | null; total: number | null; source: string }) {
   const mobile = useIsMobile();
   return (
     <section className={`card surf metric pct ${className}`}>
       {percent != null ? <ProgressRing percent={percent} size={mobile ? 96 : 128} /> : <div className="ring-na">N/A</div>}
       <div>
-        <h2 className="lab">Degree progress</h2>
-        <p className="pct-prog">{program ? `${percent ?? 0}% of ${program} requirements met` : " "}</p>
-        <p className="ctx">{percent != null ? source : "Not available until your coursework is added"}</p>
+        <h2 className="lab">Credit progress</h2>
+        <p className="pct-prog">{percent != null && total ? `${percent}% of ${total} degree credits` : "N/A"}</p>
+        <p className="ctx">
+          {percent != null ? `${source}. ` : "Not available until your coursework is added. "}
+          Credit progress is not a check of your degree requirements.
+        </p>
       </div>
     </section>
   );

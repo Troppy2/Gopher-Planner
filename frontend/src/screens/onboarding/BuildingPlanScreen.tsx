@@ -1,70 +1,117 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useId, useState } from "react";
 import { Link } from "react-router";
-import { useQueryClient } from "@tanstack/react-query";
-import { generatePlan, updateProfile } from "@/api/endpoints";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
+import { generatePlan, getPlan, updateProfile } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
+import type { GenerateResult, TermId } from "@/api/types";
+import { translateWarning } from "@/lib/warnings";
 import { Button, Callout, ProgressBar, StepList } from "@/ui";
-import { useReducedMotion } from "@/hooks/useMediaQuery";
 import { useOnboarding } from "./onboarding.store";
 import "./onboarding.css";
 
-const STEPS = ["Reading your coursework", "Checking prerequisites and restrictions", "Placing courses by term", "Balancing your credit load"];
+const STEPS = ["Reading your coursework", "Confirming your catalog year", "Placing courses by term", "Saving your plan"];
+const VERSION_WARNINGS = ["program_version_unconfirmed", "program_version_unavailable"];
 
 export default function BuildingPlanScreen() {
   const qc = useQueryClient();
-  const reduced = useReducedMotion();
   const reset = useOnboarding((s) => s.reset);
-  const [done, setDone] = useState(0);
+  const name = useId();
+  const plan = useQuery({ queryKey: queryKeys.plan, queryFn: getPlan });
+  const [selected, setSelected] = useState<TermId | null>(null);
+  const [confirmed, setConfirmed] = useState<TermId | null | undefined>(undefined);
+  const [result, setResult] = useState<GenerateResult | null>(null);
   const [failed, setFailed] = useState(false);
-  const [attempt, setAttempt] = useState(0);
+  const [finished, setFinished] = useState(false);
+  const [running, setRunning] = useState(false);
+
+  // A known program needs an explicit catalog year; unknown majors continue without one.
+  const needsChoice = !!plan.data && !plan.data.catalogTerm && plan.data.availableCatalogTerms.length > 0;
+  useEffect(() => {
+    if (plan.data && confirmed === undefined && !needsChoice) setConfirmed(plan.data.catalogTerm);
+  }, [plan.data, confirmed, needsChoice]);
+
+  const run = useCallback(async (term: TermId | null) => {
+    setRunning(true);
+    setFailed(false);
+    setResult(null);
+    try {
+      const generated = await generatePlan({ catalogTerm: term });
+      setResult(generated);
+      qc.setQueryData(queryKeys.plan, generated.plan);
+      if (!generated.warnings.some((code) => VERSION_WARNINGS.includes(code))) {
+        // Only a confirmed (or unknown) program completes onboarding.
+        const profile = await updateProfile({ onboarded: true });
+        qc.setQueryData(queryKeys.profile, profile);
+        reset();
+        setFinished(true);
+      }
+    } catch {
+      setFailed(true);
+    } finally {
+      setRunning(false);
+    }
+  }, [qc, reset]);
 
   useEffect(() => {
-    let cancelled = false;
-    const timers: number[] = [];
-    setDone(0);
-    setFailed(false);
-    generatePlan()
-      .then(() => {
-        const gap = reduced ? 150 : 700;
-        STEPS.forEach((_, i) =>
-          timers.push(
-            window.setTimeout(async () => {
-              if (cancelled) return;
-              setDone(i + 1);
-              if (i === STEPS.length - 1) {
-                try {
-                  const p = await updateProfile({ onboarded: true });
-                  qc.setQueryData(queryKeys.profile, p);
-                  reset();
-                } catch {
-                  if (!cancelled) setFailed(true);
-                }
-              }
-            }, gap * (i + 1)),
-          ),
-        );
-      })
-      .catch(() => !cancelled && setFailed(true));
-    return () => {
-      cancelled = true;
-      timers.forEach(clearTimeout);
-    };
-  }, [attempt, reduced, qc, reset]);
+    if (confirmed !== undefined && !result && !failed && !running && !finished) void run(confirmed);
+  }, [confirmed, result, failed, running, finished, run]);
 
-  const ready = done === STEPS.length && !failed;
+  const versionProblem = result?.warnings.some((code) => VERSION_WARNINGS.includes(code));
+  const done = finished ? 4 : result ? 3 : confirmed !== undefined ? 2 : plan.data ? 1 : 0;
+  const warnings = (result?.warnings ?? []).filter((code) => !VERSION_WARNINGS.includes(code));
 
   return (
     <>
       <h1 className="title" style={{ marginTop: 32 }}>
-        {ready ? "Your plan is ready" : "Building your plan"}
+        {finished ? "Your plan is ready" : "Building your plan"}
       </h1>
       <p className="sub" role="status">
-        {ready ? "Review it on your dashboard." : "This takes a few seconds."}
+        {finished ? "Review it on your dashboard." : needsChoice && confirmed === undefined ? "One choice before we start." : "This takes a few seconds."}
       </p>
       <div className="gen surf">
         <ProgressBar label="Plan progress" value={done} max={STEPS.length} />
         <StepList steps={STEPS} done={done} />
       </div>
+
+      {plan.error && (
+        <Callout tone="error" title="We couldn't load your plan.">{plan.error.message}</Callout>
+      )}
+
+      {((needsChoice && confirmed === undefined) || versionProblem) && plan.data && (
+        <fieldset className="panel surf">
+          <legend className="h2">Choose the catalog year you follow</legend>
+          <p className="muted">
+            Requirements change between catalog years. Pick the year on your APAS report, usually the term you started your major.
+          </p>
+          {plan.data.availableCatalogTerms.map((term) => (
+            <label key={term} className="row">
+              <input type="radio" name={name} value={term} checked={selected === term} onChange={() => setSelected(term)} />
+              {term}
+            </label>
+          ))}
+          <div>
+            <Button
+              disabled={!selected || running}
+              onClick={() => {
+                // Clearing the result lets the effect generate with the newly confirmed year exactly once.
+                setResult(null);
+                setConfirmed(selected);
+              }}
+            >
+              Build my plan
+            </Button>
+          </div>
+        </fieldset>
+      )}
+
+      {warnings.length > 0 && (
+        <div className="stack" style={{ marginBottom: 16 }}>
+          {warnings.map((code) => (
+            <Callout key={code} tone="info" title={translateWarning(code)} />
+          ))}
+        </div>
+      )}
+
       {failed && (
         <div style={{ marginBottom: 16 }}>
           <Callout tone="error" title="We couldn't build your plan.">
@@ -75,8 +122,8 @@ export default function BuildingPlanScreen() {
       <div className="actions">
         <span />
         {failed ? (
-          <Button onClick={() => setAttempt((a) => a + 1)}>Try again</Button>
-        ) : ready ? (
+          <Button onClick={() => void run(confirmed ?? null)}>Try again</Button>
+        ) : finished ? (
           <Link className="btn" to="/dashboard">
             Go to dashboard
           </Link>

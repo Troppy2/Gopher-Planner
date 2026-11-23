@@ -2,13 +2,11 @@ import { useRef, useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { CheckCircle2, PenLine, RefreshCw, XCircle } from "lucide-react";
 import { getOptions, getProfile, updateProfile } from "@/api/endpoints";
-import { mockFlags, resetMockDb } from "@/api/mock/mockDb";
 import { queryKeys } from "@/api/queryKeys";
 import type { Options, Profile } from "@/api/types";
-import { Button, Checkbox, DemoToggle, EmptyState, Select, Stepper, TextField } from "@/ui";
-import { useSession } from "@/features/auth/session.store";
-import { usePlanDraft } from "@/features/plan/plan.store";
-import { careerForMajor, careerOptions, HeavyLoadNote, MAX_CREDITS, MIN_CREDITS } from "@/features/profile/profileRules";
+import { Button, EmptyState, Select, Stepper, TextField } from "@/ui";
+import { careerForMajor, careerOptions, HeavyLoadNote, UnverifiedMajorNote, MAX_CREDITS, MIN_CREDITS } from "@/features/profile/profileRules";
+import { CourseworkEditor } from "@/features/coursework/CourseworkEditor";
 import "./settings.css";
 
 type Form = Pick<Profile, "name" | "major" | "standing" | "careerGoals" | "creditLoad" | "graduationTarget">;
@@ -58,9 +56,7 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
   const [saved, setSaved] = useState<Form>(pick(profile));
   const [form, setForm] = useState<Form>(pick(profile));
   const [nameError, setNameError] = useState("");
-  const [failPreview, setFailPreview] = useState(false);
   const nameRef = useRef<HTMLDivElement>(null);
-  const signOut = useSession((s) => s.signOut);
 
   // Optimistic: the form reads as saved the moment you press Save; a failure rolls it back.
   const save = useMutation({
@@ -80,7 +76,6 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
     onSuccess: (p) => {
       qc.setQueryData(queryKeys.profile, p);
       qc.invalidateQueries({ queryKey: queryKeys.summary });
-      setFailPreview(false);
     },
   });
 
@@ -98,7 +93,6 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
       nameRef.current?.querySelector("input")?.focus();
       return;
     }
-    mockFlags.failNextSettingsSave = failPreview;
     const next = { ...form, name: form.name.trim() };
     setForm(next);
     save.mutate(next);
@@ -148,6 +142,9 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
               onChange={(major) => set({ major, careerGoals: careerForMajor(options, major, form.careerGoals) })}
               options={options?.majors ?? [form.major]}
             />
+            <div className="span2">
+              <UnverifiedMajorNote options={options} major={form.major} />
+            </div>
             <Select label="Grade standing" value={form.standing} onChange={(standing) => set({ standing })} options={options?.standings ?? [form.standing]} />
             <Select
               className="span2"
@@ -199,24 +196,7 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
         </div>
       </form>
 
-      <DemoToggle>
-        <Checkbox checked={failPreview} onChange={setFailPreview}>
-          Preview only: make the next save fail
-        </Checkbox>
-        <Button
-          variant="ghost"
-          size="sm"
-          onClick={() => {
-            resetMockDb();
-            usePlanDraft.getState().clear();
-            qc.clear();
-            signOut();
-            location.assign("/login");
-          }}
-        >
-          Reset demo data
-        </Button>
-      </DemoToggle>
+      <CourseworkEditor />
 
       {state !== "saved" && (
         <div className="savebar" role="status">

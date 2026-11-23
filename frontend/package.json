@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview --port 5173",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "test": "vitest run"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.2.0",
@@ -22,13 +23,20 @@
     "zustand": "^5.0.15"
   },
   "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^8.0.0",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.13",
     "@types/d3-force": "^3.0.10",
     "@types/google.accounts": "^0.0.18",
     "@types/node": "^26.6.4",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
+    "jsdom": "^31.0.1",
+    "msw": "^3.0.7",
     "typescript": "^7.0.2",
-    "vite": "^8.3.3"
+    "vite": "^8.3.3",
+    "vitest": "^5.1.1"
   }
 }

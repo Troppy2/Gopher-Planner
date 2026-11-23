@@ -26,3 +26,13 @@ export function HeavyLoadNote({ credits }: { credits: number }) {
     </Callout>
   );
 }
+
+/** Machine-mapped majors are selectable but flagged so students confirm with APAS or an advisor. */
+export function UnverifiedMajorNote({ options, major }: { options?: Pick<Options, "unverifiedMajors">; major: string }) {
+  if (!major || !options?.unverifiedMajors?.includes(major)) return null;
+  return (
+    <Callout tone="warn" title="This major's requirements are not verified yet.">
+      They were mapped automatically from the catalog. Check your plan against APAS or with your advisor.
+    </Callout>
+  );
+}

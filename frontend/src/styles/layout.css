@@ -504,3 +504,9 @@
   color: var(--maroon);
   font-weight: 600;
 }
+
+.savebar .violations {
+  margin: 4px 0 0;
+  padding-left: 18px;
+  font-size: 0.875rem;
+}

@@ -1,35 +1,22 @@
-import { useEffect, useState } from "react";
-import { useQuery } from "@tanstack/react-query";
+import { useState } from "react";
 import { FileText } from "lucide-react";
-import { getTranscript, retryTranscriptOcr, uploadTranscript } from "@/api/endpoints";
-import { mockFlags } from "@/api/mock/mockDb";
-import { queryKeys } from "@/api/queryKeys";
-import { Button, Callout, DemoToggle, Dropzone, ProgressBar, SegmentedControl, Spinner } from "@/ui";
+import { uploadTranscript } from "@/api/endpoints";
+import type { Transcript } from "@/api/types";
+import { Button, Callout, Dropzone, Spinner } from "@/ui";
 import { useOnboarding } from "../onboarding.store";
 
 const MAX_BYTES = 10 * 1024 * 1024;
 const sizeLabel = (b: number) => (b > 1024 * 1024 ? `${(b / 1024 / 1024).toFixed(1)} MB` : `${Math.max(1, Math.round(b / 1024))} KB`);
 
-export function ApasUploader({ onManual }: { onManual: () => void }) {
-  const { upload, setUpload } = useOnboarding();
+interface Props {
+  transcript: Transcript | undefined;
+  transcriptError: Error | null;
+  onManual: () => void;
+}
+
+export function ApasUploader({ transcript, transcriptError, onManual }: Props) {
+  const { upload, setUpload, setManual } = useOnboarding();
   const [fileError, setFileError] = useState("");
-  const [outcome, setOutcome] = useState<"ok" | "scan">(mockFlags.nextUploadIsScan ? "scan" : "ok");
-
-  const id = upload?.transcriptId ?? null;
-  const transcript = useQuery({
-    queryKey: queryKeys.transcript(id ?? ""),
-    queryFn: () => getTranscript(id!),
-    enabled: !!id,
-    refetchInterval: (q) => (q.state.data?.status === "parsing" || !q.state.data ? 1000 : false),
-  });
-
-  // Simulated byte upload; the real version reads XHR upload progress.
-  const uploading = !!upload && upload.progress < 100;
-  useEffect(() => {
-    if (!upload || upload.progress >= 100) return;
-    const t = setTimeout(() => setUpload({ ...upload, progress: Math.min(100, upload.progress + 14) }), 120);
-    return () => clearTimeout(t);
-  }, [upload, setUpload]);
 
   const start = async (file: File) => {
     setFileError("");
@@ -41,20 +28,29 @@ export function ApasUploader({ onManual }: { onManual: () => void }) {
       setFileError("That PDF is over 10 MB. Try exporting only the APAS report pages.");
       return;
     }
-    setUpload({ fileName: file.name, sizeLabel: sizeLabel(file.size), progress: 0, transcriptId: null });
-    const { id } = await uploadTranscript(file);
-    useOnboarding.setState((s) => (s.upload ? { upload: { ...s.upload, transcriptId: id } } : s));
+    setUpload({ fileName: file.name, sizeLabel: sizeLabel(file.size), transcriptId: null });
+    try {
+      const { id } = await uploadTranscript(file);
+      useOnboarding.setState((s) => (s.upload ? { upload: { ...s.upload, transcriptId: id } } : s));
+    } catch (error) {
+      setUpload(null);
+      setFileError(error instanceof Error ? error.message : "The upload failed. Try again.");
+    }
   };
 
-  const status = transcript.data?.status;
+  const correct = () => {
+    setManual((transcript?.courses ?? []).map((course) => ({ code: course.code, title: course.title, credits: course.credits, status: course.status })));
+    onManual();
+  };
+
+  const uploading = !!upload && !upload.transcriptId;
+  const status = transcript?.status;
+  const settled = status === "parsed" || status === "no_text" || status === "failed";
 
   return (
     <div className="panel surf">
       {!upload ? (
-        <>
-          <Dropzone title="Drop your APAS PDF here" hint="PDF only, up to 10 MB. Text-based PDFs work best." accept="application/pdf,.pdf" onFile={start} />
-          {fileError && <Callout tone="error" title="Couldn't use that file">{fileError}</Callout>}
-        </>
+        <Dropzone title="Drop your APAS PDF here" hint="PDF only, up to 10 MB. Exported and scanned PDFs both work." accept="application/pdf,.pdf" onFile={start} />
       ) : (
         <div className="upfile">
           <div className="upfile-row">
@@ -65,11 +61,18 @@ export function ApasUploader({ onManual }: { onManual: () => void }) {
             </span>
             <span className="muted upfile-state" role="status">
               {uploading ? (
-                "Uploading"
+                <>
+                  <Spinner />
+                  Uploading and reading
+                </>
               ) : status === "parsed" ? (
                 "Read"
               ) : status === "no_text" ? (
                 "No text found"
+              ) : status === "failed" ? (
+                "Could not read"
+              ) : transcriptError ? (
+                "Status unavailable"
               ) : (
                 <>
                   <Spinner />
@@ -78,60 +81,81 @@ export function ApasUploader({ onManual }: { onManual: () => void }) {
               )}
             </span>
           </div>
-          <ProgressBar label="Upload progress" value={upload.progress} max={100} />
         </div>
       )}
 
-      {status === "parsed" && transcript.data && (
-        <Callout tone="ok" title={`We found ${transcript.data.completed} completed and ${transcript.data.inProgress} in-progress courses.`}>
-          You can check them on your dashboard once your plan is built.
-        </Callout>
+      {uploading && (
+        <p className="muted">Scanned pages can take up to a minute while we recognize the text.</p>
+      )}
+
+      {fileError && <Callout tone="error" title="Couldn't use that file">{fileError}</Callout>}
+      {transcriptError && <Callout tone="error" title="We couldn't check your upload.">{transcriptError.message}</Callout>}
+
+      {status === "parsed" && transcript && (
+        <div className="stack">
+          <Callout tone="ok" title={`We found ${transcript.completed} completed and ${transcript.inProgress} in-progress courses.`}>
+            Check them below. Correct anything that looks wrong before you continue.
+          </Callout>
+          {(transcript.notImported?.length ?? 0) > 0 && (
+            <Callout
+              tone="warn"
+              title={`${transcript.notImported!.length} ${transcript.notImported!.length === 1 ? "course" : "courses"} couldn't be imported.`}
+            >
+              Transfer placeholders and codes we couldn't read: {transcript.notImported!.join(", ")}. Add them by hand if
+              they count toward your degree.
+            </Callout>
+          )}
+          <ul className="mlist" aria-label="Courses found in your PDF">
+            {(transcript.courses ?? []).map((course) => (
+              <li key={`${course.code}-${course.term ?? "unknown"}`} className="mrow">
+                <span className="mrow-t">
+                  <b>{course.code}</b>
+                  <span className="muted">{course.title}</span>
+                </span>
+                <span className="muted num">
+                  {course.credits} cr, {course.status === "prog" ? "In progress" : course.grade ?? "No grade"}, {course.term ?? "Term unknown"}
+                </span>
+              </li>
+            ))}
+          </ul>
+          <div>
+            <Button variant="ghost" onClick={correct}>Correct these courses</Button>
+          </div>
+        </div>
       )}
 
       {status === "no_text" && (
         <div className="stack">
           <Callout tone="warn" title="We couldn't read any text in this PDF.">
-            It looks like a scan or photo. Try text recognition (OCR), or add your courses by hand.
+            We tried, even with text recognition for scans. Upload a clearer scan, or add your courses by
+            hand. Nothing you uploaded is kept.
           </Callout>
           <div className="row">
-            <Button
-              onClick={async () => {
-                await retryTranscriptOcr(id!);
-                transcript.refetch();
-              }}
-            >
-              Try text recognition
-            </Button>
-            <Button variant="ghost" onClick={onManual}>
-              Enter courses manually
-            </Button>
+            <Button onClick={onManual}>Enter courses manually</Button>
           </div>
         </div>
       )}
 
-      {upload && !uploading && (status === "parsed" || status === "no_text") && (
+      {status === "failed" && (
+        <div className="stack">
+          <Callout tone="error" title="We couldn't find any courses in this PDF.">
+            {transcript?.errorCode === "unreadable_pdf"
+              ? "The file couldn't be opened as a PDF."
+              : "The layout wasn't recognized. Enter your courses manually, or upload a different APAS PDF."}
+          </Callout>
+          <div className="row">
+            <Button onClick={onManual}>Enter courses manually</Button>
+          </div>
+        </div>
+      )}
+
+      {upload && !uploading && settled && (
         <div>
           <Button variant="quiet" size="sm" onClick={() => setUpload(null)}>
             Upload a different file
           </Button>
         </div>
       )}
-
-      <DemoToggle>
-        Preview only. Outcome of the next upload:
-        <SegmentedControl
-          label="Upload outcome"
-          value={outcome}
-          onChange={(v) => {
-            setOutcome(v);
-            mockFlags.nextUploadIsScan = v === "scan";
-          }}
-          options={[
-            { value: "ok", label: "Readable PDF" },
-            { value: "scan", label: "Scanned PDF" },
-          ]}
-        />
-      </DemoToggle>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router";
 import { CalendarDays, Maximize, Minus, Network, Plus, RefreshCw } from "lucide-react";
-import { Button, EmptyState, IconButton, ProgressBar, SegmentedControl, Select, StepList } from "@/ui";
+import { Button, Callout, EmptyState, IconButton, ProgressBar, SegmentedControl, Select, StepList } from "@/ui";
 import { usePlan } from "@/features/plan/usePlan";
 import { useCourseParam } from "@/features/course-detail/useCourseParam";
 import { firstFutureIndex, lastPlanIndex, projectedCredits } from "@/features/plan/planRules";
@@ -11,12 +11,7 @@ import { GraphCanvas } from "./components/GraphCanvas";
 import type { GraphControls } from "./components/GraphCanvas";
 import "./flow-chart.css";
 
-const BUILD_STEPS = [
-  "Reading your progress",
-  "Checking prerequisites and when courses are offered",
-  "Filling each semester to your credit load",
-  "Checking your graduation total",
-];
+const BUILD_STEPS = ["Generating a draft from your requirements", "Ready to review"];
 
 type ViewMode = "sem" | "graph";
 
@@ -24,12 +19,10 @@ export default function FlowChartScreen() {
   const [params, setParams] = useSearchParams();
   const view: ViewMode = params.get("view") === "graph" ? "graph" : "sem";
   const course = useCourseParam();
-  const { plan, profile, courses, goal, isLoading, error, refetch, add, remove, build } = usePlan();
+  const { plan, profile, courses, goal, isLoading, error, refetch, add, remove, build, buildState, catalogTerm, selectCatalogTerm } = usePlan();
   const reduced = useReducedMotion();
   const graph = useRef<GraphControls>(null);
   const [live, setLive] = useState("");
-  const [buildStep, setBuildStep] = useState<number | null>(null);
-  const [major, setMajor] = useState("");
 
   const setParam = (key: string, value: string | null) => {
     setParams(
@@ -61,10 +54,23 @@ export default function FlowChartScreen() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [plan, termParam]);
 
-  // ?build=1 runs the planner, then shows the result as an unsaved draft.
+  // ?build=1 asks the server for a dry-run plan and shows it as an unsaved draft.
   const wantsBuild = params.get("build") === "1";
-  const buildTimers = useRef<number[]>([]);
-  useEffect(() => () => buildTimers.current.forEach(clearTimeout), []);
+  const needsYear = !!plan && !catalogTerm && plan.availableCatalogTerms.length > 0;
+  const runBuild = async () => {
+    if (!plan || !profile) return;
+    if (needsYear) {
+      setLive("Choose your catalog year before building a plan.");
+      return;
+    }
+    try {
+      await build();
+      setLive(`Planner built through ${plan.terms[lastPlanIndex(plan, profile)]}. Review the semesters, then save or discard.`);
+      focusHeading(`semh-${firstFutureIndex(plan)}`);
+    } catch {
+      setLive("The planner could not build a draft. Try again.");
+    }
+  };
   useEffect(() => {
     if (!wantsBuild || !plan || !profile) return;
     setParams(
@@ -76,21 +82,9 @@ export default function FlowChartScreen() {
       },
       { replace: true },
     );
-    setBuildStep(0);
-    const gap = reduced ? 120 : 550;
-    buildTimers.current = BUILD_STEPS.map((_, i) => window.setTimeout(() => setBuildStep(i + 1), gap * (i + 1)));
+    void runBuild();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wantsBuild, plan, profile]);
-
-  useEffect(() => {
-    if (buildStep !== BUILD_STEPS.length || !plan || !profile) return;
-    build();
-    setBuildStep(null);
-    const last = lastPlanIndex(plan, profile);
-    setLive(`Planner built through ${plan.terms[last]}. Review the semesters, then save or discard.`);
-    focusHeading(`semh-${firstFutureIndex(plan)}`);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [buildStep]);
 
   const openRef = useRef(course.open);
   openRef.current = course.open;
@@ -133,14 +127,25 @@ export default function FlowChartScreen() {
         {live}
       </p>
 
-      {buildStep !== null && (
+      {buildState.isPending && (
         <section className="buildcard surf" role="status" aria-labelledby="build-h">
           <h2 className="h2" id="build-h">
             Building your planner
           </h2>
-          <ProgressBar label="Planner progress" value={buildStep} max={BUILD_STEPS.length} />
-          <StepList steps={BUILD_STEPS} done={buildStep} />
+          <ProgressBar label="Planner progress" value={1} max={BUILD_STEPS.length} />
+          <StepList steps={BUILD_STEPS} done={1} />
         </section>
+      )}
+      {buildState.isError && (
+        <Callout tone="error" title="We couldn't build a draft.">
+          {buildState.error.message}{" "}
+          <Button size="sm" variant="ghost" onClick={() => void runBuild()}>Try again</Button>
+        </Callout>
+      )}
+      {needsYear && (
+        <Callout tone="info" title="Choose your catalog year">
+          Pick the catalog year on your APAS report. Building and saving use only that year's requirements.
+        </Callout>
       )}
 
       {isLoading || !plan || !profile ? (
@@ -168,13 +173,17 @@ export default function FlowChartScreen() {
       ) : (
         <>
           <div className="tb surf">
-            <Select
-              ariaLabel="Major"
-              className="tb-sel"
-              value={major || profile.major}
-              onChange={setMajor}
-              options={[profile.major, ...["Computer Science B.S.", "Data Science B.S."].filter((m) => m !== profile.major)]}
-            />
+            {plan.availableCatalogTerms.length > 0 ? (
+              <Select
+                ariaLabel="Catalog year"
+                className="tb-sel"
+                value={catalogTerm ?? ""}
+                onChange={(term) => selectCatalogTerm(term)}
+                options={plan.availableCatalogTerms}
+              />
+            ) : (
+              <span className="muted">{profile.major || "No major selected"}</span>
+            )}
             <span className="sp" />
             <div className="zoom">
               <IconButton label="Zoom out" onClick={() => graph.current?.zoomBy(1 / 1.2)}>
