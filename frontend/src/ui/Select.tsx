@@ -6,6 +6,9 @@ import { Check, ChevronDown } from "lucide-react";
 export interface Option {
   value: string;
   label: string;
+  /** Shown muted under the label; option is disabled when set with `disabled`. */
+  hint?: string;
+  disabled?: boolean;
 }
 
 // Radix forbids "" as an item value, so empty maps to a sentinel.
@@ -35,9 +38,12 @@ export function Select({ label, ariaLabel, value, onChange, options, className }
       <RS.Portal>
         <RS.Content className="sel-list" position="popper" sideOffset={6}>
           <RS.Viewport>
-            {opts.map((o) => (
-              <RS.Item key={o.value || NONE} value={o.value === "" ? NONE : o.value} className="sel-item">
-                <RS.ItemText>{o.label}</RS.ItemText>
+            {opts.map((o, index) => (
+              <RS.Item key={o.value || NONE} value={o.value === "" ? NONE : o.value} className="sel-item" disabled={o.disabled} aria-describedby={o.hint ? `${id}-hint-${index}` : undefined}>
+                <span className="sel-item-text">
+                  <RS.ItemText>{o.label}</RS.ItemText>
+                  {o.hint && <span className="sel-hint" id={`${id}-hint-${index}`}>{o.hint}</span>}
+                </span>
                 <RS.ItemIndicator>
                   <Check className="ic sm" aria-hidden />
                 </RS.ItemIndicator>

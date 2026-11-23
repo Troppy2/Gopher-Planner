@@ -344,8 +344,31 @@ textarea.input {
 }
 .sel-item[data-highlighted],
 .menu-item[data-highlighted] {
-  background: rgba(122, 0, 25, 0.08);
+  background: rgba(122, 0, 25, 0.12);
+  box-shadow: inset 2px 0 0 var(--maroon);
 }
+.sel-item[data-disabled],
+.menu-item[data-disabled] {
+  cursor: default;
+  color: var(--muted);
+}
+.sel-item-text,
+.menu-item-stack {
+  display: grid;
+  gap: 2px;
+  padding-block: 6px;
+  min-width: 0;
+}
+.menu-item-stack { display: grid; justify-content: stretch; }
+.sel-hint {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+  white-space: normal;
+  max-width: 32ch;
+}
+.menu-grow { flex: 1; }
+.menu-danger { color: var(--danger); }
 .sel-item[data-state="checked"] {
   font-weight: 700;
   color: var(--maroon);
@@ -476,10 +499,10 @@ textarea.input {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  min-height: 26px;
+  min-height: 24px;
   padding: 0 10px;
-  border-radius: 99px;
-  font-size: 12.5px;
+  border-radius: 6px;
+  font-size: 12px;
   font-weight: 600;
   border: 1px solid;
   white-space: nowrap;
@@ -489,29 +512,34 @@ textarea.input {
   height: 14px;
 }
 .b-done {
-  color: var(--success);
-  border-color: rgba(30, 107, 74, 0.45);
-  background: rgba(30, 107, 74, 0.1);
+  color: var(--st-done);
+  border-color: transparent;
+  background: var(--st-done-bg);
 }
 .b-prog {
-  color: var(--gold-ink);
-  border-color: var(--gold);
-  background: rgba(255, 204, 51, 0.38);
+  color: var(--st-prog-ink);
+  border-color: transparent;
+  background: var(--st-prog-bg);
 }
 .b-plan {
-  color: var(--maroon);
-  border-color: rgba(122, 0, 25, 0.45);
-  background: var(--maroon-tint);
+  color: var(--st-plan);
+  border-color: transparent;
+  background: var(--st-plan-bg);
 }
 .b-avail {
   color: var(--ink);
   border-color: rgba(32, 26, 27, 0.3);
   background: #fff;
 }
+.b-short {
+  color: var(--danger);
+  border-color: transparent;
+  background: var(--st-short-bg);
+}
 .b-block {
-  color: var(--warning);
-  border-color: rgba(138, 80, 0, 0.5);
-  background: rgba(168, 100, 0, 0.12);
+  color: var(--st-lock);
+  border-color: transparent;
+  background: var(--st-lock-bg);
 }
 .chip {
   display: inline-flex;
@@ -878,4 +906,39 @@ li:hover + li > .hover-row::before {
 .hover-row:active {
   background: rgba(122, 0, 25, 0.09);
   transition-duration: var(--press);
+}
+
+/* ---------- radio card ---------- */
+.radio-card {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  min-height: var(--hit);
+  padding: 0 var(--s4);
+  margin-top: var(--s2);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--surface-raised);
+  cursor: pointer;
+}
+.radio-card:hover { border-color: var(--ink); }
+.radio-card input { accent-color: var(--maroon); width: 18px; height: 18px; margin: 0; }
+.radio-card:has(input:checked) { border-color: var(--maroon); box-shadow: inset 0 0 0 1px var(--maroon); font-weight: 700; }
+.radio-card:has(input:focus-visible) { outline: 2px solid var(--maroon); outline-offset: 2px; }
+
+/* ---------- indeterminate progress ---------- */
+.indeterminate { height: 6px; border-radius: 999px; background: var(--surface-hover); overflow: hidden; }
+.indeterminate span { display: block; width: 35%; height: 100%; background: var(--maroon); border-radius: inherit; animation: indet 1.2s ease-in-out infinite; }
+@keyframes indet { from { transform: translateX(-100%); } to { transform: translateX(300%); } }
+@media (prefers-reduced-motion: reduce) { .indeterminate span { animation: none; width: 100%; opacity: .4; } }
+.danger-text { color: var(--danger); }
+
+/* Radix menus lock page scroll; keep the scrollbar gutter so the layout doesn't jump. */
+html {
+  scrollbar-gutter: stable;
+}
+/* Higher specificity than the lock's injected body[data-scroll-locked] rule, which loads later. */
+html body[data-scroll-locked] {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
 }

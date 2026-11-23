@@ -1,3 +1,4 @@
+import { AlertTriangle } from "lucide-react";
 import { useId, useState } from "react";
 import type { ReactNode } from "react";
 import { Check } from "lucide-react";
@@ -9,14 +10,15 @@ interface ComboboxProps {
   options: string[];
   placeholder?: string;
   className?: string;
+  error?: string;
 }
 
 /** Free-text input with a filtered suggestion list. Typed text is kept even without a match. */
-export function Combobox({ label, value, onChange, options, placeholder, className }: ComboboxProps) {
+export function Combobox({ label, value, onChange, options, placeholder, className, error }: ComboboxProps) {
   const id = useId();
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
-  const q = value.trim().toLowerCase();
+  const q = options.includes(value) ? "" : value.trim().toLowerCase();
   const matches = options.filter((o) => !q || o.toLowerCase().includes(q) || o === value);
 
   const pick = (v: string) => {
@@ -38,11 +40,14 @@ export function Combobox({ label, value, onChange, options, placeholder, classNa
           aria-expanded={open}
           aria-controls={`${id}-list`}
           aria-autocomplete="list"
+          aria-invalid={error ? true : undefined}
+          aria-describedby={error ? `${id}-err` : undefined}
           aria-activedescendant={active >= 0 ? `${id}-o${active}` : undefined}
           autoComplete="off"
           placeholder={placeholder}
           value={value}
           onFocus={() => setOpen(true)}
+          onClick={() => setOpen(true)}
           onBlur={() => setTimeout(() => setOpen(false), 120)}
           onChange={(e) => {
             onChange(e.target.value);
@@ -89,6 +94,12 @@ export function Combobox({ label, value, onChange, options, placeholder, classNa
           </ul>
         )}
       </div>
+      {error && (
+        <span className="err" id={`${id}-err`}>
+          <AlertTriangle className="ic sm" aria-hidden />
+          {error}
+        </span>
+      )}
     </div>
   );
 }

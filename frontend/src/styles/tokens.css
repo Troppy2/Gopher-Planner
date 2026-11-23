@@ -12,6 +12,17 @@
   --warning: #8a5000;
   --danger: #b42318;
 
+  /* course/requirement states: soft fill + readable ink, no heavy outlines */
+  --st-done: #1e6b4a;
+  --st-done-bg: #e3efe7;
+  --st-prog-ink: #7a5600;
+  --st-prog-bg: #fdf0c4;
+  --st-plan: #7a0019;
+  --st-plan-bg: #f5e6e8;
+  --st-lock: #625a5c;
+  --st-lock-bg: #ece7de;
+  --st-short-bg: #f8e3e1;
+
   /* surfaces */
   --surface-page: #e6e0d2;
   --surface-card: #fbf8f2;

@@ -510,3 +510,7 @@
   padding-left: 18px;
   font-size: 0.875rem;
 }
+
+/* Keyboard focus for inputs whose own outline is removed. */
+.sbox .top:focus-within { box-shadow: inset 0 -2px 0 var(--maroon); }
+.hsearch:focus-within { outline: 2px solid var(--maroon); outline-offset: 2px; }
