@@ -11,7 +11,7 @@ from app.extensions import db
 from app.models import CatalogCourse, Coursework, Transcript
 from app.parsers.ocr import ocr_pdf_text
 from app.parsers.pdf_text import PdfUnreadable, extract_pdf_text
-from app.parsers.transcript import parse_apas_text, parse_transcript_text
+from app.parsers.transcript import parse_apas_le, parse_apas_text, parse_transcript_text
 from app.repositories.locks import lock_user
 
 logger = logging.getLogger(__name__)
@@ -71,15 +71,19 @@ def upload_transcript(user, file):
     db.session.commit()
     known_codes = set(db.session.scalars(select(CatalogCourse.course_code))) or None  # None: catalog not loaded
     db.session.close()  # never hold a database session across parsing
-    status, error_code, rows, skipped = "parsed", None, [], []
+    status, error_code, rows, skipped, liberal = "parsed", None, [], [], None
     try:
         text = extract_pdf_text(data)
         rows, skipped = _parse(text, known_codes)
+        liberal = parse_apas_le(text)
         if not rows or _looks_misread(skipped, known_codes):
             # Image-only scans, or scans whose text layer came from a poor OCR pass: read the pages ourselves.
             ocr_text = ocr_pdf_text(data)
             if ocr_text.strip():
                 rows, skipped = _better(_parse(ocr_text, known_codes), (rows, skipped))
+                recognized = parse_apas_le(ocr_text)
+                if recognized and (not liberal or len(recognized[0]) > len(liberal[0])):
+                    liberal = recognized  # the read that found more category headings
                 text = text if text.strip() else ocr_text
         if not text.strip():
             status = "no_text"
@@ -98,6 +102,9 @@ def upload_transcript(user, file):
     transcript = db.session.get(Transcript, identity)
     transcript.status, transcript.error_code = status, error_code
     transcript.not_imported = json.dumps(skipped) if status == "parsed" else None
+    keep = status == "parsed" and liberal is not None
+    transcript.le_required = json.dumps(sorted(liberal[0])) if keep else None
+    transcript.le_covered = json.dumps(sorted(liberal[1])) if keep else None
     if status == "parsed":
         db.session.execute(delete(Coursework).where(Coursework.user_id == user_id, Coursework.source == "transcript"))
         manual = {(code, term) for code, term in db.session.execute(

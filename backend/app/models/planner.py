@@ -19,6 +19,9 @@ class Transcript(db.Model):
     error_code: Mapped[str | None] = mapped_column(String(64))
     # JSON list of course codes found but not importable (transfer placeholders, unreadable codes).
     not_imported: Mapped[str | None] = mapped_column(Text)
+    # JSON lists of liberal education categories the audit lists, and those it shows as covered.
+    le_required: Mapped[str | None] = mapped_column(Text)
+    le_covered: Mapped[str | None] = mapped_column(Text)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utc_now)
 
 

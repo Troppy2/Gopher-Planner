@@ -293,3 +293,29 @@ def test_full_flow_from_sign_in_to_a_reloaded_plan(app, client, monkeypatch, pos
     assert fresh.get("/api/v1/plan").json == saved_plan
     assert fresh.get("/api/v1/summary").json == saved_summary
     assert next(course for course in saved_plan["courses"] if course["code"] == "CSCI 1001")["requirement"] == "Elective"
+
+
+@pytest.mark.parametrize("audit, expected", [
+    (None, ["CSCI 1006", "MATH 2010"]),  # no audit: catalog tags only, every slot category counts
+    ({"required": ["Global Perspectives"], "covered": []}, ["CSCI 1006"]),  # not listed by APAS: not required
+    ({"required": ["Global Perspectives", "Technology and Society"], "covered": ["Global Perspectives", "Technology and Society"]}, []),
+])
+def test_apas_liberal_education_status_decides_which_slots_need_courses(client, student, post_headers, tmp_path, monkeypatch, audit, expected):
+    import json
+    from app.extensions import db
+    from app.models import CatalogCourse, Transcript
+
+    user = student(graduationTarget="Spring 2029")
+    for code, category in (("CSCI 1006", "Global Perspectives"), ("MATH 2010", "Technology and Society")):
+        row = db.session.query(CatalogCourse).filter_by(course_code=code).one()
+        row.le_attributes, row.prerequisite_status = category, "none"
+    if audit:
+        db.session.add(Transcript(id="t-le", user_id=user.id, file_name="apas.pdf", status="parsed",
+                                  le_required=json.dumps(audit["required"]), le_covered=json.dumps(audit["covered"])))
+    db.session.commit()
+    (tmp_path / "mini-synthetic.json").write_text(json.dumps({"terms": [{"year": 2, "season": "Spring", "items": [
+        {"kind": "le", "categories": ["Global Perspectives"], "label": "Global Perspectives"},
+        {"kind": "le", "categories": ["Technology and Society"], "label": "Technology and Society"}]}]}), encoding="utf-8")
+    monkeypatch.setenv("SAMPLE_PLAN_DATA_PATH", str(tmp_path))
+    plan = generate(client, post_headers, catalogTerm="Fall 2026", dryRun=True).json["plan"]
+    assert sorted(c["code"] for c in plan["courses"] if c.get("slot")) == expected

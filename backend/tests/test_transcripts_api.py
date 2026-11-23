@@ -339,3 +339,17 @@ def test_text_extraction_reads_at_most_the_page_limit_and_caps_text(monkeypatch)
     monkeypatch.setattr(pdf_text, "MAX_CHARS", 10**6)
     text = pdf_text.extract_pdf_text(buffer.getvalue())
     assert f"PAGE{pdf_text.MAX_PAGES - 1:03d}" in text and f"PAGE{pdf_text.MAX_PAGES:03d}" not in text
+
+
+def test_upload_stores_the_audits_liberal_education_status(client, make_user, login_as, post_headers, app):
+    import json
+    from app.extensions import db
+    from app.models import Transcript
+
+    login_as(make_user())
+    lines = APAS_LINES + ["Liberal Education Requirements", "Global Perspectives", "SP23 1HIST1999 3.0 T4 SYNTHETIC",
+                          "m Literature", "Computer Science BSCompSci - Major Requirements"]
+    identity = upload(client, post_headers, pdf(lines)).json["id"]
+    row = db.session.get(Transcript, identity)
+    assert json.loads(row.le_required) == ["Global Perspectives", "Literature"]
+    assert json.loads(row.le_covered) == ["Global Perspectives"]

@@ -1,4 +1,5 @@
 """Plan reads, validated saves and generation glue. The route only translates errors."""
+import json
 from dataclasses import dataclass, field
 from datetime import date, datetime, timezone
 from uuid import uuid4
@@ -135,6 +136,18 @@ def slot_categories(program):
     sample = load_sample_plan(program["id"]) if program else None
     return {item.get("label") or ", ".join(item["categories"]): item["categories"]
             for term in (sample or {}).get("terms", []) for item in term["items"] if item["kind"] == "le"}
+
+
+def audit_le_status(user_id):
+    """(required, covered) liberal education categories from the newest parsed APAS upload, or None."""
+    from app.models import Transcript
+
+    row = db.session.scalars(select(Transcript).where(Transcript.user_id == user_id, Transcript.status == "parsed",
+                                                      Transcript.le_required.is_not(None))
+                             .order_by(Transcript.created_at.desc()).limit(1)).first()
+    if row is None:
+        return None
+    return set(json.loads(row.le_required)), set(json.loads(row.le_covered or "[]"))
 
 
 def generation_snapshot(user):
@@ -383,6 +396,13 @@ def generate(user, body):
     sample_codes = {code for item in items for code in item.get("codes", [])}
     metadata = gather_metadata(program, referenced_codes(program) | sample_codes) if program else {}
     covered = le_coverage(item["code"] for item in attempts if earned(item) or item["status"] == "prog")
+    audit = audit_le_status(user.id)
+    if audit:
+        # APAS is authoritative: its covered categories count (AP and transfer credit included), and a
+        # category the audit does not list is not required for this student.
+        required, audited = audit
+        covered |= audited | {category for item in items if item["kind"] == "le"
+                              for category in item["categories"] if category not in required}
     # Materialize alternatives before generation so the engine callback is pure.
     suggestions = {}
     le_items = [item for item in items if item["kind"] == "le"]

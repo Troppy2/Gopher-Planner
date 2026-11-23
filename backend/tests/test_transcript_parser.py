@@ -126,3 +126,53 @@ def test_repaired_rows_do_not_duplicate_a_cleanly_read_row():
 
     rows, _ = parse_apas_text("SP27 1CSCl4041 4.0 AF FT A\nSP27 1CSCH041 40 AF FT A", known_codes=KNOWN)
     assert [r["code"] for r in rows] == ["CSCI 4041"]
+
+
+LE_AUDIT = """Liberal Education Requirements
+First-Year Writing
+F 25 1WRIT1301 4.0 A SYNTHETIC WRITING
+Writing Intensive
+Transfer Courses That Do Not Count as Writing Intensive
+F 25 1PHYS1301W 4.0 B SYNTHETIC PHYSICS
+Diversified Core -Historical Perspectives & Social
+Sciences
+Historical Perspectives
+1) 1 course taken
+SP23 1HIST1999 3.0 T4 SYNTHETIC HISTORY
+m Social Sciences
+2) 0 courses taken
+II Arts/Humanities
+In prog: 1 course taken
+SP26 1ARTS1001 3.0 IP SYNTHETIC ART
+m Literature
+Diversified Core -Mathematical Thinking
+m Mathematical Thinking
+F 25 1MATH1271 4.0 A SYNTHETIC CALCULUS
+Designated Themes
+1 Race, Power, and Justice in the United States
+II The Environment
+SP27 1ESCI1003 4.0 AF FT SYNTHETIC EARTH
+Computer Science BSCompSci - Major Requirements
+F 25 1CSCI1133 4.0 A NOT LIBERAL EDUCATION
+"""
+
+
+def test_apas_liberal_education_section_reports_required_and_covered_categories():
+    from app.parsers.transcript import parse_apas_le
+    required, covered = parse_apas_le(LE_AUDIT)
+    assert required == {"Historical Perspectives", "Social Sciences", "Arts/Humanities", "Literature",
+                        "Mathematical Thinking", "Race, Power, and Justice US", "Environment"}
+    assert covered == {"Historical Perspectives", "Arts/Humanities", "Mathematical Thinking", "Environment"}
+
+
+@pytest.mark.parametrize("text", [None, "", "Major Requirements only", "Liberal Education Requirements\nnothing"],
+                         ids=["none", "empty", "no-section", "no-categories"])
+def test_apas_liberal_education_parse_returns_none_when_absent(text):
+    from app.parsers.transcript import parse_apas_le
+    assert parse_apas_le(text) is None
+
+
+def test_prose_mentioning_major_requirements_does_not_end_the_section():
+    from app.parsers.transcript import parse_apas_le
+    text = LE_AUDIT.replace("Writing Intensive\n", "Writing Intensive\nwithin the core major requirements, students must choose\n", 1)
+    assert parse_apas_le(text) == parse_apas_le(LE_AUDIT)

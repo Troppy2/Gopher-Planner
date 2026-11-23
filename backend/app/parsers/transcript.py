@@ -108,6 +108,58 @@ def parse_apas_text(text, *, known_codes=None):
         return [], []
 
 
+# Liberal education categories under the catalog's designation names, keyed by APAS heading text.
+LE_HEADINGS = [
+    ("arts/humanities", "Arts/Humanities"),
+    ("biological sciences", "Biological Sciences"),
+    ("civic life and ethics", "Civic Life and Ethics"),
+    ("environment", "Environment"),
+    ("global perspectives", "Global Perspectives"),
+    ("historical perspectives", "Historical Perspectives"),
+    ("literature", "Literature"),
+    ("mathematical thinking", "Mathematical Thinking"),
+    ("physical sciences", "Physical Sciences"),
+    ("race, power, and justice", "Race, Power, and Justice US"),
+    ("social sciences", "Social Sciences"),
+    ("technology and society", "Technology and Society"),
+]
+LE_SECTION_BREAKS = ("diversified core", "designated themes", "writing", "first-year")
+
+
+def parse_apas_le(text):
+    """Return (required, covered) liberal education categories from an APAS audit, or None.
+
+    Required: every category heading in the audit's liberal education section. Covered: categories
+    with at least one course row (completed, in progress or registered) under their heading."""
+    try:
+        if not isinstance(text, str):
+            return None
+        lines = text.splitlines()[:MAX_LINES]
+        start = next((i for i, line in enumerate(lines) if "liberal education requirements" in line.lower()), None)
+        if start is None:
+            return None
+        required, covered, current = set(), set(), None
+        for raw in lines[start + 1:]:
+            line = re.sub(r"\s+", " ", raw).strip()
+            lower = line.lower()
+            if lower.endswith("major requirements"):  # the major's section heading, not prose mentioning it
+                break
+            if APAS_ROW.match(line):
+                if current:
+                    covered.add(current)
+                continue
+            if any(marker in lower for marker in LE_SECTION_BREAKS):
+                current = None
+                continue
+            heading = next((name for key, name in LE_HEADINGS if key in lower), None)
+            if heading and len(line) <= 80:
+                required.add(heading)
+                current = heading
+        return (required, covered) if required else None
+    except Exception:  # noqa: BLE001 - garbage input must never raise
+        return None
+
+
 def parse_transcript_text(text):
     """Return parsed rows; unrecognized input yields []. Never raises."""
     try:
