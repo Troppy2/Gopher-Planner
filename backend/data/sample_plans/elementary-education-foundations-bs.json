@@ -1,0 +1,332 @@
+{
+  "programId": "elementary-education-foundations-bs",
+  "plan": "Elementary Education Foundations BS",
+  "source": "https://sampleplan.umn.edu/twin-cities/elementary-education-foundations-bs",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CI 1032"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CI 1806"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Biological Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Biological Sciences"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "EDHD 1525W"
+          ],
+          "credits": 4.0,
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CI 1001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ESCI 1001"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 4.0,
+          "label": "Historical Perspectives"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CI 1563"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CPSY 2301"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "EPSY 1281"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Global Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Global Perspectives"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CI 3001"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "GEOG 3371W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Civic Life and Ethics"
+          ],
+          "credits": 3.0,
+          "label": "Civic Life and Ethics"
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CI 3401W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CI 4121"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CI 5307"
+          ],
+          "credits": 1.5,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "KIN 3327"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "MTHE 3101"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CI 4122"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CI 3211"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CI 3212"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "MTHE 3102"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 1.0
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "EPSY 5001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CI 3283"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "EPSY 5613"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "EPSY 5616W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CI 3610"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CI 5413"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CI 5414"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "programId": "youth-studies-bs",
+  "plan": "Youth Studies BS",
+  "source": "https://sampleplan.umn.edu/twin-cities/youth-studies-bs",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 1001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FSOS 1211"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "EPSY 1281"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "EDHD 1525W"
+          ],
+          "credits": 4.0,
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "le",
+          "categories": [
+            "Technology and Society"
+          ],
+          "credits": 3.0,
+          "label": "Technology and Society"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FSOS 1461"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "EPSY 1261"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 2241"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 2101"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 4.0,
+          "label": "Arts/Humanities (CEHD recommends CI 1032)"
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 3325W"
+          ],
+          "credits": 4.0,
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "le",
+          "categories": [
+            "Physical Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Physical Sciences"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 3032"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 4315"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "le",
+          "categories": [
+            "Biological Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Biological Sciences"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 4401W"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 4325"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 3001"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "le",
+          "categories": [
+            "Global Perspectives",
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Writing Intensive - Lower Division (CEHD recommends YOST 1368W)"
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Environment"
+          ],
+          "credits": 3.0,
+          "label": "Environment"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 3101"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 4195"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 4196"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 4301"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 4411"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "YOST 4314"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        }
+      ]
+    }
+  ]
+}

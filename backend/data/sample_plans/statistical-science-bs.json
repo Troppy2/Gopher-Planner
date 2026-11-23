@@ -1,0 +1,280 @@
+{
+  "programId": "statistical-science-bs",
+  "plan": "Statistical Science BS",
+  "source": "https://sampleplan.umn.edu/twin-cities/statistical-science-bs",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CLA 1001"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "WRIT 1301"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CSCI 1133"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Social Sciences"
+          ],
+          "credits": 3.0,
+          "label": "Social Sciences (3 cr)"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CLA 1002"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 3011"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Historical Perspectives (3 cr)"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Global Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Global Perspectives (3 cr)"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "le",
+          "categories": [
+            "Biological Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Biological Sciences (4 cr)"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 3032"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature (3 cr)"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "MATH 2263"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CLA 3002"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 3.0,
+          "label": "Arts/Humanities (3 cr)"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Race, Power, and Justice US"
+          ],
+          "credits": 3.0,
+          "label": "Race, Power, and Justice (3 cr)"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Physical Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Physical Sciencs (4 cr)"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 3701"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 5101"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 5401"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Civic Life and Ethics"
+          ],
+          "credits": 3.0,
+          "label": "Civic Life and Ethics (3 cr)"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 5102"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 4051"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Environment"
+          ],
+          "credits": 3.0,
+          "label": "The Environment (3 cr)"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 4052"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 5511"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 6.0
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 4893W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 5303"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 8.0
+        }
+      ]
+    }
+  ]
+}

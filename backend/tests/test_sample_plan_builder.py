@@ -48,3 +48,10 @@ def test_matching_prefers_program_ids_then_names():
     assert match_program("computer-science-bs-compsc", "Computer Science B.S. Comp.Sc.", programs) == "computer-science-bs"
     assert match_program("hist", "History B.A.", programs) == "history-ba"
     assert match_program("unknown-ba", "Unknown B.A.", programs) is None
+
+
+def test_explicit_aliases_only_match_programs_present_in_the_snapshot(monkeypatch):
+    from scripts import build_sample_plans as builder
+    monkeypatch.setattr(builder, "PROGRAM_ALIASES", {"synthetic-old-ba": "synthetic-new-ba"})
+    assert builder.match_program("synthetic-old-ba", "Old name", {"synthetic-new-ba": "New name"}) == "synthetic-new-ba"
+    assert builder.match_program("synthetic-old-ba", "Old name", {}) is None

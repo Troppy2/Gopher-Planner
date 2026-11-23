@@ -1,0 +1,300 @@
+{
+  "programId": "sustainable-agriculture-and-food-systems-bs",
+  "plan": "Sustainable Food Production",
+  "source": "https://sampleplan.umn.edu/twin-cities/sustainable-agriculture-and-food-systems-bs",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "choice",
+          "codes": [
+            "HORT 1001"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FDSY 1016W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "MATH 1031"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "WRIT 1301"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 1.0
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "APEC 1101"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FSCN 1112"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CHEM 1001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CHEM 1017"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 4.0,
+          "label": "Literature"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "choice",
+          "codes": [
+            "AGRO 3305"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "APEC 3202"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "AECM 2421W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "BBE 3201"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FDSY 2101"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "SOIL 2125"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 3.0,
+          "label": "Arts/Humanities"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "PLSC 4096W"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "HORT 3131"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "choice",
+          "codes": [
+            "HORT 2121"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Historical Perspectives"
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "choice",
+          "codes": [
+            "PLSC 3005W"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Civic Life and Ethics"
+          ],
+          "credits": 3.0,
+          "label": "Civic Life and Ethics"
+        },
+        {
+          "kind": "elective",
+          "credits": 2.0
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "WRIT 3562W"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "elective",
+          "credits": 2.0
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "FDSY 4101"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Race, Power, and Justice US"
+          ],
+          "credits": 3.0,
+          "label": "Race, Power, and Justice in the U.S."
+        },
+        {
+          "kind": "elective",
+          "credits": 1.0
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    }
+  ]
+}

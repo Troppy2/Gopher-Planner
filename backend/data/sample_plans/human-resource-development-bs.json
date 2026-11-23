@@ -1,0 +1,300 @@
+{
+  "programId": "human-resource-development-bs",
+  "plan": "Human Resource Development BS",
+  "source": "https://sampleplan.umn.edu/twin-cities/human-resource-development-bs",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "EPSY 1281"
+          ],
+          "credits": 4.0,
+          "preferred": true
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CI 1806"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "EDHD 1525W"
+          ],
+          "credits": 4.0,
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "APEC 1101"
+          ],
+          "credits": 4.0,
+          "preferred": true
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Historical Perspectives"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 1461"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "elective",
+          "credits": 2.0
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 1303"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "HRIR 3021"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 3.0,
+          "label": "Arts/Humanities"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Biological Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Biological Sciences"
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 3601"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Physical Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Physical Sciences"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "HRIR 3031"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "HRIR 3071"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 2811"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 3202"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 3609"
+          ],
+          "credits": 2.0,
+          "preferred": true
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 3828"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Environment"
+          ],
+          "credits": 3.0,
+          "label": "Environment"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PSY 3711"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 3621"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CI 5301"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 5.0
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 3324W"
+          ],
+          "credits": 4.0,
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 3641"
+          ],
+          "credits": 3.0,
+          "preferred": true
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "MGMT 3004"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Race, Power, and Justice US"
+          ],
+          "credits": 3.0,
+          "label": "Race, Power, and Justice US"
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 4696"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 8.0
+        }
+      ]
+    }
+  ]
+}

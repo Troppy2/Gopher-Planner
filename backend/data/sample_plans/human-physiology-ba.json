@@ -1,0 +1,324 @@
+{
+  "programId": "human-physiology-ba",
+  "plan": "Human Physiology BA",
+  "source": "https://sampleplan.umn.edu/twin-cities/human-physiology-ba",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CLA 1001"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "WRIT 1301"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "MATH 1271"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CHEM 1061"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CHEM 1065"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CLA 1002"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CHEM 1062"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CHEM 1066"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Environment"
+          ],
+          "credits": 4.0,
+          "label": "Environment"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "PHYS 1221"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BIOL 1009"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CHEM 2301"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PHYS 1222"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PSY 1001"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CLA 3002"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CHEM 2302"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PHSL 3061"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PHSL 3701"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "CHEM 2311"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BIOC 3021"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "GEOG 3381W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PHSL 3095"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "PHSL 3062W"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "GCD 3022"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Historical Perspectives"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Race, Power, and Justice US"
+          ],
+          "credits": 3.0,
+          "label": "Race, Power, and Justice US"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Civic Life and Ethics"
+          ],
+          "credits": 3.0,
+          "label": "Civic Life and Ethics"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "GCD 3033"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PHSL 5197"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "GWSS 3003"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 3.0,
+          "label": "Arts/Humanities"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Technology and Society"
+          ],
+          "credits": 3.0,
+          "label": "Technology and Society"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "programId": "french-studies-ba",
+  "plan": "French Studies",
+  "source": "https://sampleplan.umn.edu/twin-cities/french-studies-ba",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 1001"
+          ],
+          "credits": 5.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CLA 1001"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "WRIT 1301"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Biological Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Biological Sciences"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 1002"
+          ],
+          "credits": 5.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CLA 1002"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Physical Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Physical Sciences"
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 1003"
+          ],
+          "credits": 5.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Mathematical Thinking"
+          ],
+          "credits": 3.0,
+          "label": "Mathematical Thinking"
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 1004"
+          ],
+          "credits": 5.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Historical Perspectives"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Social Sciences"
+          ],
+          "credits": 3.0,
+          "label": "Social Sciences"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CLA 3002"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 1501"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "le",
+          "categories": [
+            "Technology and Society"
+          ],
+          "credits": 3.0,
+          "label": "Technology and Society"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 3015"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Race, Power, and Justice US"
+          ],
+          "credits": 3.0,
+          "label": "Race, Power, and Justice US"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 3014"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "le",
+          "categories": [
+            "Civic Life and Ethics"
+          ],
+          "credits": 3.0,
+          "label": "Civic Life and Ethics"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 3018"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 3016"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 3345"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 3861"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 1017W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 3461"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 3101W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Environment"
+          ],
+          "credits": 3.0,
+          "label": "Environment"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 4101W"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FREN 3431"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Global Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Global Perspectives"
+        }
+      ]
+    }
+  ]
+}

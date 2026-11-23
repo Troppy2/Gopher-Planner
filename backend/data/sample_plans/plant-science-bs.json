@@ -9,11 +9,11 @@
       "season": "Fall",
       "items": [
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "HORT 1001"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -21,11 +21,11 @@
           "codes": [
             "AGRO 1661W"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "MATH 1031"
           ],
@@ -37,12 +37,12 @@
           "codes": [
             "WRIT 1301"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 2.0
         }
       ]
     },
@@ -51,7 +51,7 @@
       "season": "Spring",
       "items": [
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "CHEM 1061"
           ],
@@ -63,11 +63,11 @@
           "codes": [
             "CHEM 1065"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "FDSY 2101"
           ],
@@ -75,8 +75,16 @@
           "preferred": false
         },
         {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature"
+        },
+        {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 2.0
         }
       ]
     },
@@ -89,7 +97,7 @@
           "codes": [
             "HORT 1015"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -97,7 +105,7 @@
           "codes": [
             "BIOL 1009"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -111,11 +119,11 @@
       "season": "Spring",
       "items": [
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "ESPM 3012"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -123,12 +131,20 @@
           "codes": [
             "SOIL 2125"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 3.0,
+          "label": "Arts/Humanities"
+        },
+        {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 2.0
         }
       ]
     },
@@ -137,7 +153,7 @@
       "season": "Fall",
       "items": [
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "HORT 2121"
           ],
@@ -151,6 +167,14 @@
           ],
           "credits": 3.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Social Sciences"
+          ],
+          "credits": 3.0,
+          "label": "Social Sciences"
         },
         {
           "kind": "elective",
@@ -167,8 +191,24 @@
           "codes": [
             "PLSC 3401"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Race, Power, and Justice US"
+          ],
+          "credits": 3.0,
+          "label": "Race, Power, and Justice US"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Historical Perspectives"
         }
       ]
     },
@@ -177,16 +217,24 @@
       "season": "Fall",
       "items": [
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "PLSC 4096W"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
+          "kind": "le",
+          "categories": [
+            "Global Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Global Perspectives"
+        },
+        {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 2.0
         },
         {
           "kind": "elective",
@@ -203,7 +251,7 @@
           "codes": [
             "PLSC 3005W"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -212,7 +260,7 @@
         },
         {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 4.0
         }
       ]
     }

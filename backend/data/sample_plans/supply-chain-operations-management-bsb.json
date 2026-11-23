@@ -1,0 +1,357 @@
+{
+  "programId": "supply-chain-operations-management-bsb",
+  "plan": "Supply Chain & Operations Management BSB",
+  "source": "https://sampleplan.umn.edu/twin-cities/supply-chain-operations-management-bsb",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "WRIT 1301"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BA 1011"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BA 1021"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ECON 1165"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BA 2551"
+          ],
+          "credits": 4.0,
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "le",
+          "categories": [
+            "Technology and Society"
+          ],
+          "credits": 3.0,
+          "label": "Technology and Society"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BA 2062"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BA 2021"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BA 2005"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ACCT 2051"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BA 2051"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "BA 3001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "MKTG 3001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "ACCT 3001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "IDSC 3001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BA 3051"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "BA 3062"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SCO 3001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "MGMT 3004"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FINA 3001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "HRIR 3021"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "SCO 3056"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SCO 3041"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Biological Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Biological Sciences"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BA 3551"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Global Perspectives",
+            "Historical Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Global Perspectives, Historical Perspectives"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "SCO 3059"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SCO 3045"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SCO 3048"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "BA 3033W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "SCO 3051"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SCO 3072"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Environment"
+          ],
+          "credits": 3.0,
+          "label": "Environment"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "SCO 4065W"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Physical Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Physical Sciences"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 3.0,
+          "label": "Arts/Humanities"
+        }
+      ]
+    }
+  ]
+}

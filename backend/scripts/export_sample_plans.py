@@ -24,7 +24,8 @@ LINK = re.compile(r'href="(/twin-cities/[a-z0-9-]+)"')
 CODE = re.compile(r"^[A-Z]{2,6} \d{4}[A-Z]?$")
 TERM = re.compile(r"Year\s+(\d)\s*:\s*(Fall|Spring|Summer)", re.IGNORECASE)
 PLAN_HEADER = re.compile(r"<h3[^>]*>(.*?)</h3>", re.IGNORECASE | re.DOTALL)
-TERM_HEADER = re.compile(r"<h4[^>]*>(.*?)</h4>", re.IGNORECASE | re.DOTALL)
+TERM_HEADER = re.compile(r"<(?:h4|p)\b[^>]*>(.*?)</(?:h4|p)>", re.IGNORECASE | re.DOTALL)
+SECTION_HEADER = re.compile(r'<h2\b[^>]*class="[^"]*accordion-title[^"]*"[^>]*>(.*?)</h2>', re.IGNORECASE | re.DOTALL)
 ROW = re.compile(r"<tr[^>]*>(.*?)</tr>", re.IGNORECASE | re.DOTALL)
 CELL = re.compile(r"<td[^>]*>(.*?)</td>", re.IGNORECASE | re.DOTALL)
 TITLE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.IGNORECASE | re.DOTALL)
@@ -32,7 +33,7 @@ PREFERRED = re.compile(r"\s*\(Preferred Course\)\s*", re.IGNORECASE)
 
 
 def text(html):
-    value = unescape(re.sub(r"<[^>]+>", " ", html or "")).replace("\xa0", " ")
+    value = unescape(re.sub(r"<[^>]+>", " ", html or "")).replace("\xa0", " ").replace("\u2014", " - ")
     return re.sub(r"\s+", " ", value).strip()
 
 
@@ -42,16 +43,21 @@ def plan_links(html):
 
 def _row(cells):
     """Return (kind, code, title, credits, le, preferred) or None for blank and total rows."""
+    if len(cells) == 5:  # some plans insert an Offered column before Credits
+        cells = [*cells[:2], *cells[3:]]
     if len(cells) == 3:  # a colspan cell merged course and title
         cells = [cells[0], "", cells[1], cells[2]]
     if len(cells) < 3:
         return None
-    first, title, credits = cells[0], cells[1], cells[2]
+    first, title, credits = cells[0].rstrip("* "), cells[1], cells[2]
     le = cells[3] if len(cells) > 3 else ""
-    if not credits or "term credits" in title.lower() or "total" in first.lower():
+    if not re.search(r"\d", credits) or "term credits" in title.lower() or "total" in first.lower():
         return None
     preferred = bool(PREFERRED.search(title))
     title = PREFERRED.sub(" ", title).strip()
+    merged = re.fullmatch(r"([A-Z]{2,6} \d{4}[A-Z]?)\s+(.+)", first) if not title else None
+    if merged and not re.search(r"\bor\b", merged.group(2), re.IGNORECASE):
+        return "course", merged.group(1), merged.group(2), credits, le, preferred
     if CODE.match(first):
         return "course", first, title, credits, le, preferred
     if first.upper() == "LE":
@@ -73,9 +79,12 @@ def parse_plan_page(html, *, url, retrieved_at=""):
     headers = list(PLAN_HEADER.finditer(html))
     rows = []
     for index, header in enumerate(headers):
-        plan = text(re.sub(r'<span class="arrow">.*?</span>', "", header.group(1)))
+        plan = text(re.sub(r'<span\b[^>]*class="arrow"[^>]*>.*?</span>', "", header.group(1)))
+        if not plan:
+            preceding = list(SECTION_HEADER.finditer(html[:header.start()]))
+            plan = text(preceding[-1].group(1)) if preceding else program_title
         body = html[header.end(): headers[index + 1].start() if index + 1 < len(headers) else len(html)]
-        terms = list(TERM_HEADER.finditer(body))
+        terms = [term for term in TERM_HEADER.finditer(body) if TERM.search(text(term.group(1)))]
         for position, term in enumerate(terms):
             match = TERM.search(text(term.group(1)))
             if not match:
@@ -99,6 +108,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--delay", type=float, default=1.0)
+    parser.add_argument("--source-cache", type=Path, help="Local public HTML cache for repeatable exports")
     args = parser.parse_args(argv)
     retrieved_at = datetime.now(timezone.utc).isoformat()
     rows, failures = [], []
@@ -106,9 +116,23 @@ def main(argv=None):
         session.headers["User-Agent"] = "GopherPlanner-sample-plan-export"
         links = plan_links(session.get(INDEX, timeout=30).text)
         for link in links:
-            time.sleep(args.delay)
-            response = session.get(BASE + link, timeout=30)
-            page_rows = parse_plan_page(response.text, url=BASE + link, retrieved_at=retrieved_at) if response.ok else []
+            cached = args.source_cache / f"{link.rsplit('/', 1)[-1]}.html" if args.source_cache else None
+            page_rows = parse_plan_page(cached.read_text(encoding="utf-8"), url=BASE + link, retrieved_at=retrieved_at) if cached and cached.is_file() else []
+            for attempt in range(3 if not page_rows else 0):
+                time.sleep(max(args.delay, 2 ** attempt if attempt else args.delay))
+                response = session.get(BASE + link, timeout=30)
+                if response.status_code == 429:
+                    retry_after = response.headers.get("Retry-After", "30")
+                    time.sleep(max(30, min(60, int(retry_after))) if retry_after.isdigit() else 30)
+                if response.ok:
+                    page_rows = parse_plan_page(response.text, url=BASE + link, retrieved_at=retrieved_at)
+                    if page_rows:
+                        if cached:
+                            cached.parent.mkdir(parents=True, exist_ok=True)
+                            cached.write_text(response.text, encoding="utf-8")
+                        break
+                if attempt == 2:
+                    response.raise_for_status()
             if not page_rows:
                 failures.append(link)
             rows.extend(page_rows)

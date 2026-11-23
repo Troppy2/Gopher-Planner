@@ -1,0 +1,354 @@
+{
+  "programId": "sport-management-bs",
+  "plan": "Sport Management BS",
+  "source": "https://sampleplan.umn.edu/twin-cities/sport-management-bs",
+  "retrieved": "2026-11-23",
+  "terms": [
+    {
+      "year": 1,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "KIN 1871"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "LEAD 1961W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "CI 1871"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "EDHD 1525W"
+          ],
+          "credits": 4.0,
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "SMGT 1701"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "WRIT 1301"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 3.0,
+          "label": "Arts/Humanities (CEHD recommends CI 1032)"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 1461"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "FSOS 1211"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "EPSY 1281"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Physical Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Physical Sciences"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Historical Perspectives (CEHD recommends CI 1121)"
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "SMGT 3501"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SMGT 3826"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Global Perspectives",
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Global Perspectives (CEHD recommends YOST 1368W)"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Biological Sciences",
+            "Environment"
+          ],
+          "credits": 4.0,
+          "label": "Biological Sciences (CEHD recommends CI 1512)"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PE 1044"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "SMGT 3143"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SMGT 3111"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SMGT 3632"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "KIN 3001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 3324W"
+          ],
+          "credits": 4.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "SGMT 3421"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SMGT 3631"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 4401"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PE 1048"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Technology and Society"
+          ],
+          "credits": 3.0,
+          "label": "Technology and Society"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Fall",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "SMGT 3881W"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SMGT 3601"
+          ],
+          "credits": 2.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "SMGT 3861"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "MKTG 3001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "OLPD 3641"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "KIN 3696"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature"
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "MGMT 3001"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 4.0
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PE 1014"
+          ],
+          "credits": 1.0,
+          "preferred": false
+        }
+      ]
+    }
+  ]
+}

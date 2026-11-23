@@ -13,7 +13,7 @@
           "codes": [
             "WRIT 1301"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -29,7 +29,7 @@
           "codes": [
             "FNRM 1001"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -41,11 +41,11 @@
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "BIOL 1001"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         }
       ]
@@ -77,6 +77,22 @@
           ],
           "credits": 3.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 3.0,
+          "label": "Arts/Humanities"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature"
         }
       ]
     },
@@ -89,11 +105,11 @@
           "codes": [
             "FNRM 3104"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "CHEM 1001"
           ],
@@ -101,11 +117,11 @@
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "CHEM 1017"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -121,7 +137,7 @@
           "codes": [
             "FNRM 2101"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -129,7 +145,7 @@
           "codes": [
             "FNRM 2102"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
@@ -137,7 +153,7 @@
           "codes": [
             "FNRM 2104"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         }
       ]
@@ -151,7 +167,7 @@
           "codes": [
             "ESPM 3012"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -159,8 +175,24 @@
           "codes": [
             "SOIL 2125"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Historical Perspectives"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Global Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Global Perspectives"
         },
         {
           "kind": "elective",
@@ -185,7 +217,7 @@
           "codes": [
             "FNRM 5413"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -201,7 +233,7 @@
           "codes": [
             "FNRM 3131"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -214,7 +246,7 @@
         },
         {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 1.0
         }
       ]
     },
@@ -235,7 +267,7 @@
           "codes": [
             "FNRM 3431"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
@@ -243,7 +275,7 @@
           "codes": [
             "ESPM 3261"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -251,7 +283,7 @@
           "codes": [
             "FNRM 4511"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
@@ -259,7 +291,7 @@
           "codes": [
             "FNRM 4515"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -267,7 +299,7 @@
           "codes": [
             "FNRM 4521"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         }
       ]
@@ -297,7 +329,7 @@
           "codes": [
             "FNRM 3562"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -309,7 +341,7 @@
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "FNRM 3501"
           ],
@@ -331,7 +363,7 @@
           "codes": [
             "FNRM 4232W"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -349,6 +381,14 @@
           ],
           "credits": 3.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Race, Power, and Justice US"
+          ],
+          "credits": 3.0,
+          "label": "Race, Power, and Justice US"
         }
       ]
     }

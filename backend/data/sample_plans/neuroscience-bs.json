@@ -1,6 +1,6 @@
 {
   "programId": "neuroscience-bs",
-  "plan": "Neuroscience BS (Calculus Track)",
+  "plan": "Neuroscience BS (Precalculus Track)",
   "source": "https://sampleplan.umn.edu/twin-cities/neuroscience-bs",
   "retrieved": "2026-11-23",
   "terms": [
@@ -19,9 +19,9 @@
         {
           "kind": "course",
           "codes": [
-            "MATH 1241"
+            "MATH 1151"
           ],
-          "credits": 4.0,
+          "credits": 3.0,
           "preferred": false
         },
         {
@@ -65,7 +65,7 @@
         {
           "kind": "course",
           "codes": [
-            "BIOL 1807"
+            "BIOL 1806"
           ],
           "credits": 1.0,
           "preferred": false
@@ -73,7 +73,7 @@
         {
           "kind": "course",
           "codes": [
-            "BIOL 3004"
+            "CHEM 1082"
           ],
           "credits": 3.0,
           "preferred": false
@@ -81,30 +81,34 @@
         {
           "kind": "course",
           "codes": [
-            "BIOC 3022"
+            "CHEM 1086"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
           "kind": "course",
           "codes": [
-            "NSCI 3101"
+            "MATH 1241"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
           "kind": "le",
           "categories": [
-            "Civic Life and Ethics"
+            "Global Perspectives"
           ],
-          "credits": 4.0,
-          "label": "Civic Life and Ethics"
+          "credits": 3.0,
+          "label": "Global Perspectives"
         },
         {
-          "kind": "elective",
-          "credits": 2.0
+          "kind": "le",
+          "categories": [
+            "Race, Power, and Justice US"
+          ],
+          "credits": 3.0,
+          "label": "Race, Power, and Justice US"
         }
       ]
     },
@@ -131,17 +135,17 @@
         {
           "kind": "course",
           "codes": [
-            "BIOL 2003"
+            "BIOL 1951"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
           "kind": "course",
           "codes": [
-            "NSCI 2101"
+            "BIOL 1961"
           ],
-          "credits": 4.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
@@ -169,6 +173,14 @@
         {
           "kind": "course",
           "codes": [
+            "BIOL 2003"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
             "BIOL 3004"
           ],
           "credits": 3.0,
@@ -177,15 +189,7 @@
         {
           "kind": "course",
           "codes": [
-            "BIOC 3022"
-          ],
-          "credits": 3.0,
-          "preferred": false
-        },
-        {
-          "kind": "course",
-          "codes": [
-            "NSCI 3101"
+            "NSCI 2001"
           ],
           "credits": 3.0,
           "preferred": false
@@ -197,10 +201,6 @@
           ],
           "credits": 4.0,
           "label": "Civic Life and Ethics"
-        },
-        {
-          "kind": "elective",
-          "credits": 2.0
         }
       ]
     },
@@ -219,15 +219,15 @@
         {
           "kind": "course",
           "codes": [
-            "STAT 3011"
+            "BIOC 3022"
           ],
-          "credits": 4.0,
+          "credits": 3.0,
           "preferred": false
         },
         {
           "kind": "course",
           "codes": [
-            "NSCI 3102W"
+            "NSCI 3101"
           ],
           "credits": 3.0,
           "preferred": false
@@ -257,9 +257,17 @@
         {
           "kind": "course",
           "codes": [
-            "NSCI 4101"
+            "NSCI 3102W"
           ],
           "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "PHYS 1222"
+          ],
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -271,12 +279,8 @@
           "label": "Literature"
         },
         {
-          "kind": "course",
-          "codes": [
-            "PHYS 1222"
-          ],
-          "credits": 4.0,
-          "preferred": false
+          "kind": "elective",
+          "credits": 3.0
         }
       ]
     },
@@ -287,41 +291,15 @@
         {
           "kind": "course",
           "codes": [
-            "GCD 4151"
-          ],
-          "credits": 3.0,
-          "preferred": false
-        },
-        {
-          "kind": "le",
-          "categories": [
-            "Global Perspectives"
-          ],
-          "credits": 3.0,
-          "label": "Global Perspectives"
-        },
-        {
-          "kind": "course",
-          "codes": [
-            "EEB 3409"
-          ],
-          "credits": 3.0,
-          "preferred": false
-        },
-        {
-          "kind": "elective",
-          "credits": 3.0
-        }
-      ]
-    },
-    {
-      "year": 4,
-      "season": "Spring",
-      "items": [
-        {
-          "kind": "course",
-          "codes": [
             "BIOL 4004"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "GCD 4151"
           ],
           "credits": 3.0,
           "preferred": false
@@ -341,6 +319,36 @@
           ],
           "credits": 4.0,
           "label": "Arts/Humanities"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "season": "Spring",
+      "items": [
+        {
+          "kind": "course",
+          "codes": [
+            "NSCI 4101"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "EEB 3409"
+          ],
+          "credits": 3.0,
+          "preferred": false
+        },
+        {
+          "kind": "course",
+          "codes": [
+            "STAT 3011"
+          ],
+          "credits": 4.0,
+          "preferred": false
         }
       ]
     }

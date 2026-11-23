@@ -55,3 +55,60 @@ def test_plan_page_rows_keep_terms_courses_le_slots_and_electives():
 def test_garbage_pages_yield_no_rows():
     from scripts.export_sample_plans import parse_plan_page
     assert parse_plan_page("<html>nothing</html>", url="x") == []
+
+
+def test_paragraph_term_headers_blank_plan_headers_and_merged_course_titles():
+    from scripts.export_sample_plans import parse_plan_page
+    page = '''<h1>Synthetic studies</h1><h2 class="accordion-title">Synthetic calculus track</h2>
+    <h3><span aria-hidden="true" class="arrow">+</span></h3>
+    <p><strong>Year 1: Fall Semester</strong></p><table>
+    <tr><td>Course</td><td>Title</td><td>Credits</td><td>LE</td></tr>
+    <tr><td colspan="2">SYN 1001 Synthetic intro</td><td>4</td><td></td></tr></table>
+    <p><strong>Year 1: Spring Semester</strong></p><table>
+    <tr><td>LE</td><td>Synthetic perspective</td><td>3</td><td>SP</td></tr></table>'''
+    rows = parse_plan_page(page, url="https://example.invalid/synthetic")
+    assert [(r["plan"], r["season"], r["kind"], r["code"], r["title"]) for r in rows] == [
+        ("Synthetic calculus track", "Fall", "course", "SYN 1001", "Synthetic intro"),
+        ("Synthetic calculus track", "Spring", "le", "", "Synthetic perspective")]
+
+
+def test_offered_column_is_not_misread_as_credits():
+    from scripts.export_sample_plans import parse_plan_page
+    page = '''<h1>Synthetic</h1><h3>Synthetic plan</h3><h4>Year 1: Fall Semester</h4><table>
+    <tr><td>SYN 1001*</td><td>Synthetic intro</td><td>Fall/Spring</td><td>4</td><td>SP</td></tr>
+    <tr><td>LE*</td><td>Synthetic perspective</td><td>Fall</td><td>3</td><td>SP</td></tr></table>'''
+    rows = parse_plan_page(page, url="https://example.invalid")
+    assert [(r["kind"], r["code"], r["credits"]) for r in rows] == [("course", "SYN 1001", "4"), ("le", "", "3")]
+
+
+def test_export_retries_rate_limits_and_reuses_public_source_cache(tmp_path, monkeypatch):
+    import csv
+    import requests
+    from scripts import export_sample_plans as exporter
+    class Response:
+        def __init__(self, text, status=200):
+            self.text, self.status_code, self.headers = text, status, {"Retry-After": "1"}
+            self.ok = status == 200
+        def raise_for_status(self):
+            assert self.ok
+    index = '<a href="/twin-cities/synthetic-studies-ba">Synthetic</a>'
+    responses = iter([Response(index), Response("", 429), Response(PAGE), Response(index)])
+    class Session:
+        headers = {}
+        def __enter__(self):
+            return self
+        def __exit__(self, *args):
+            pass
+        def get(self, *args, **kwargs):
+            return next(responses)
+    monkeypatch.setattr(requests, "Session", Session)
+    sleeps = []
+    monkeypatch.setattr(exporter.time, "sleep", sleeps.append)
+    output, cache = tmp_path / "synthetic.csv", tmp_path / "source"
+    args = ["--output", str(output), "--source-cache", str(cache)]
+    exporter.main(args)
+    assert 30 in sleeps
+    first = list(csv.DictReader(output.open(encoding="utf-8")))
+    assert len(first) == 6
+    exporter.main(args)
+    assert len(list(csv.DictReader(output.open(encoding="utf-8")))) == len(first)

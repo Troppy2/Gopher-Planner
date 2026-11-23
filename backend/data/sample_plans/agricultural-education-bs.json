@@ -13,7 +13,7 @@
           "codes": [
             "AECM 1001"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -25,11 +25,11 @@
           "preferred": true
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "HORT 1001"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -39,6 +39,14 @@
           ],
           "credits": 3.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 4.0,
+          "label": "Historical Perspectives"
         }
       ]
     },
@@ -51,24 +59,32 @@
           "codes": [
             "ANSC 1101"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "APEC 1101"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "AECM 2421W"
           ],
           "credits": 3.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature"
         }
       ]
     },
@@ -81,7 +97,7 @@
           "codes": [
             "AECM 2096"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
@@ -89,7 +105,7 @@
           "codes": [
             "AECM 2051"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -105,11 +121,11 @@
           "codes": [
             "CHEM 1017"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "FSCN 1102"
           ],
@@ -118,7 +134,7 @@
         },
         {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 2.0
         }
       ]
     },
@@ -131,7 +147,7 @@
           "codes": [
             "PSY 1001"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -139,11 +155,11 @@
           "codes": [
             "SOIL 2125"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "ESPM 1011"
           ],
@@ -151,7 +167,7 @@
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "ANSC 2012"
           ],
@@ -173,7 +189,7 @@
           "codes": [
             "AECM 3051"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -181,7 +197,7 @@
           "codes": [
             "CI 5164"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
@@ -189,7 +205,7 @@
           "codes": [
             "CI 5163"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -197,7 +213,7 @@
           "codes": [
             "OLPD 5005"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
@@ -209,7 +225,7 @@
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "CFAN 2333"
           ],
@@ -227,7 +243,7 @@
           "codes": [
             "WRIT 3562W"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -235,7 +251,7 @@
           "codes": [
             "OLPD 5009"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -243,7 +259,7 @@
           "codes": [
             "EPSY 4001"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -253,6 +269,22 @@
           ],
           "credits": 3.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 3.0,
+          "label": "Arts/Humanities"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Race, Power, and Justice US"
+          ],
+          "credits": 3.0,
+          "label": "Race, Power, and Justice in the U.S."
         }
       ]
     },
@@ -265,7 +297,7 @@
           "codes": [
             "CI 5452"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
@@ -273,7 +305,7 @@
           "codes": [
             "CI 5307"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
@@ -281,7 +313,7 @@
           "codes": [
             "AECM 5135"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
@@ -293,7 +325,7 @@
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "APEC 1251"
           ],
@@ -323,7 +355,7 @@
           "codes": [
             "AECM 5696"
           ],
-          "credits": 3.0,
+          "credits": 10.0,
           "preferred": false
         }
       ]

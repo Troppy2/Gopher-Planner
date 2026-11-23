@@ -13,7 +13,7 @@
           "codes": [
             "ESPM 1001"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -29,7 +29,7 @@
           "codes": [
             "MATH 1142"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -37,12 +37,12 @@
           "codes": [
             "WRIT 1301"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 4.0
         }
       ]
     },
@@ -63,7 +63,7 @@
           "codes": [
             "CHEM 1017"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -75,12 +75,20 @@
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "AECM 2421W"
           ],
           "credits": 3.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 4.0,
+          "label": "Arts/Humanities"
         }
       ]
     },
@@ -89,11 +97,11 @@
       "season": "Fall",
       "items": [
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "BIOL 1009"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -101,7 +109,7 @@
           "codes": [
             "SOIL 2125"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -127,7 +135,7 @@
           "codes": [
             "ESPM 3012"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -145,6 +153,10 @@
           ],
           "credits": 3.0,
           "preferred": false
+        },
+        {
+          "kind": "elective",
+          "credits": 3.0
         }
       ]
     },
@@ -165,12 +177,12 @@
           "codes": [
             "FNRM 3131"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 2.0
         }
       ]
     },
@@ -183,7 +195,7 @@
           "codes": [
             "APEC 1101"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -209,24 +221,32 @@
       "season": "Fall",
       "items": [
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "ESPM 4041W"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "CFAN 4096"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Historical Perspectives"
+        },
+        {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 4.0
         }
       ]
     },
@@ -241,6 +261,14 @@
           ],
           "credits": 3.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature"
         },
         {
           "kind": "elective",

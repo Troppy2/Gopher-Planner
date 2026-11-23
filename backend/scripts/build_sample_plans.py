@@ -16,6 +16,14 @@ from pathlib import Path
 
 BACKEND = Path(__file__).resolve().parents[1]
 CODE = re.compile(r"\b([A-Z]{2,6}) (\d{4}[A-Z]?)\b")
+# These page names identify the same degrees in the versioned program snapshot.
+PROGRAM_ALIASES = {
+    "chicano-latino-studies-ba": "chicano-and-latino-studies-ba",
+    "economics-quantitative-emphasis-ba": "economics-quantitative-ba",
+    "sociology-law-criminology-and-justice-b-s": "sociology-of-law-criminology-and-justice-bs",
+    "sociology-law-criminology-and-justice-ba": "sociology-of-law-criminology-and-justice-ba",
+    "studies-cinema-and-media-culture-ba": "studies-in-cinema-and-media-culture-ba",
+}
 CATEGORIES = {
     "Arts/Humanities": (r"arts/humanities", r"\bAH\b"),
     "Biological Sciences": (r"biological sciences", r"\bBIOL?\b"),
@@ -85,6 +93,9 @@ def _norm(text):
 
 def match_program(slug, title, programs):
     """Program id whose id prefixes the page slug (or the reverse), else an exact name match."""
+    if slug in PROGRAM_ALIASES:
+        target = PROGRAM_ALIASES[slug]
+        return target if target in programs else None
     by_id = sorted((pid for pid in programs if _norm(slug).startswith(_norm(pid)) or _norm(pid).startswith(_norm(slug))),
                    key=len, reverse=True)
     if len(by_id) == 1:

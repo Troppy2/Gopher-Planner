@@ -52,36 +52,6 @@
       ]
     },
     {
-      "year": 1,
-      "season": "Spring",
-      "items": [
-        {
-          "kind": "course",
-          "codes": [
-            "MATH 1372"
-          ],
-          "credits": 3.0,
-          "preferred": false
-        },
-        {
-          "kind": "course",
-          "codes": [
-            "PHYS 1301W"
-          ],
-          "credits": 3.0,
-          "preferred": false
-        },
-        {
-          "kind": "course",
-          "codes": [
-            "CSCI 1113"
-          ],
-          "credits": 3.0,
-          "preferred": false
-        }
-      ]
-    },
-    {
       "year": 2,
       "season": "Fall",
       "items": [
@@ -291,44 +261,6 @@
           "kind": "course",
           "codes": [
             "STAT 3021"
-          ],
-          "credits": 3.0,
-          "preferred": false
-        }
-      ]
-    },
-    {
-      "year": 4,
-      "season": "Spring",
-      "items": [
-        {
-          "kind": "course",
-          "codes": [
-            "ME 3324"
-          ],
-          "credits": 3.0,
-          "preferred": false
-        },
-        {
-          "kind": "course",
-          "codes": [
-            "AEM 4203"
-          ],
-          "credits": 3.0,
-          "preferred": false
-        },
-        {
-          "kind": "course",
-          "codes": [
-            "AEM 4247"
-          ],
-          "credits": 3.0,
-          "preferred": false
-        },
-        {
-          "kind": "course",
-          "codes": [
-            "AEM 4511"
           ],
           "credits": 3.0,
           "preferred": false

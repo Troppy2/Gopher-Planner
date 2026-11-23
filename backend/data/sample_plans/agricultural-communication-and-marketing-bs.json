@@ -13,11 +13,11 @@
           "codes": [
             "AECM 1001"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "MATH 1031"
           ],
@@ -29,7 +29,7 @@
           "codes": [
             "WRIT 1301"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
@@ -41,11 +41,11 @@
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "APEC 1101"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         }
       ]
@@ -55,11 +55,11 @@
       "season": "Spring",
       "items": [
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "AGRO 1101"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": true
         },
         {
@@ -72,7 +72,7 @@
         },
         {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 4.0
         }
       ]
     },
@@ -85,7 +85,7 @@
           "codes": [
             "AECM 2096"
           ],
-          "credits": 3.0,
+          "credits": 2.0,
           "preferred": false
         },
         {
@@ -98,7 +98,15 @@
         },
         {
           "kind": "elective",
-          "credits": 3.0
+          "credits": 4.0
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Physical Sciences"
+          ],
+          "credits": 4.0,
+          "label": "Physical Sciences"
         }
       ]
     },
@@ -121,6 +129,22 @@
           ],
           "credits": 3.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Literature"
+          ],
+          "credits": 3.0,
+          "label": "Literature"
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Race, Power, and Justice US"
+          ],
+          "credits": 3.0,
+          "label": "Race, Power, and Justice US"
         }
       ]
     },
@@ -137,7 +161,7 @@
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "APEC 1251"
           ],
@@ -145,11 +169,11 @@
           "preferred": true
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "CFAN 3096"
           ],
-          "credits": 3.0,
+          "credits": 1.0,
           "preferred": false
         },
         {
@@ -159,6 +183,14 @@
           ],
           "credits": 3.0,
           "preferred": false
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Historical Perspectives"
+          ],
+          "credits": 3.0,
+          "label": "Historical Perspectives"
         }
       ]
     },
@@ -205,7 +237,7 @@
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "AGRO 3305"
           ],
@@ -231,16 +263,24 @@
           "codes": [
             "WRIT 3562W"
           ],
-          "credits": 3.0,
+          "credits": 4.0,
           "preferred": false
         },
         {
-          "kind": "choice",
+          "kind": "course",
           "codes": [
             "APEC 3451"
           ],
           "credits": 3.0,
           "preferred": true
+        },
+        {
+          "kind": "le",
+          "categories": [
+            "Arts/Humanities"
+          ],
+          "credits": 3.0,
+          "label": "Arts/Humanities"
         },
         {
           "kind": "elective",
