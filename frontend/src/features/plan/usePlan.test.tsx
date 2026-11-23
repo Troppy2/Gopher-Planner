@@ -56,18 +56,19 @@ beforeEach(() => usePlanDraft.getState().clear());
 it("announces saving until the server confirms the plan", async () => {
   stub();
   let finish!: () => void;
+  let saving = false;
   const response = new Promise<Plan>(resolve => { finish = () => resolve(saved); });
-  server.use(http.put(api("/plan"), async () => HttpResponse.json(await response)));
+  server.use(http.put(api("/plan"), async () => { saving = true; return HttpResponse.json(await response); }));
   const Wrapper = wrapper();
   const Probe = () => { const { add, plan } = usePlan(); return <button disabled={!plan} onClick={() => add("MINI 1101", "Spring 2027")}>Edit</button>; };
   render(<Wrapper><Probe /><UnsavedPlanBar /></Wrapper>);
   await waitFor(() => expect(screen.getByRole("button", { name: "Edit" })).toBeEnabled());
   act(() => screen.getByRole("button", { name: "Edit" }).click());
-  act(() => screen.getByRole("button", { name: "Save plan" }).click());
-  expect(await screen.findByText("Saving plan...")).toBeInTheDocument();
-  expect(screen.queryByText("Plan saved")).not.toBeInTheDocument();
+  expect(await screen.findByText("Saving…")).toBeInTheDocument();
+  expect(screen.queryByText("Saved")).not.toBeInTheDocument();
+  await waitFor(() => expect(saving).toBe(true), { timeout: 3000 });
   await act(async () => { finish(); });
-  expect(await screen.findByText("Plan saved")).toBeInTheDocument();
+  expect(await screen.findByText("Saved")).toBeInTheDocument();
 });
 
 it("uses fresh current credits when an unchanged course was included in a generated draft", async () => {
@@ -207,8 +208,8 @@ describe("usePlan", () => {
     act(() => usePlanDraft.getState().selectCatalogTerm("Fall 2026"));
     await waitFor(() => expect(client.getQueryData(["plan"])).toBeDefined());
     act(() => screen.getByRole("button", { name: "Add" }).click());
-    act(() => screen.getByRole("button", { name: "Save plan" }).click());
-    expect(await screen.findByText("MINI 1102 needs MINI 1101 in an earlier term.")).toBeInTheDocument();
+    expect(await screen.findByText("MINI 1102 needs MINI 1101 in an earlier term.", {}, { timeout: 3000 })).toBeInTheDocument();
     expect(usePlanDraft.getState().changes["MINI 1102"]).toEqual({ status: "plan", term: "Spring 2027" });
+    act(() => usePlanDraft.getState().clear());
   });
 });

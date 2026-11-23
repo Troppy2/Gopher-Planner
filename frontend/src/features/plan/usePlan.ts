@@ -12,7 +12,7 @@ export function usePlan() {
   const planQ = useQuery({ queryKey: queryKeys.plan, queryFn: getPlan });
   const profileQ = useQuery({ queryKey: queryKeys.profile, queryFn: getProfile });
   const summaryQ = useQuery({ queryKey: queryKeys.summary, queryFn: getSummary });
-  const { changes, extras, catalogTerm: draftTerm, violations, announcement, announce, electiveBaseline, setElectiveBaseline, setChanges, setExtras, selectCatalogTerm, setViolations, clear } = usePlanDraft();
+  const { changes, extras, catalogTerm: draftTerm, violations, announcement, announce, electiveBaseline, setElectiveBaseline, fromBuild, setFromBuild, setChanges, setExtras, selectCatalogTerm, setViolations, clear } = usePlanDraft();
 
   const saved = planQ.data?.courses ?? [];
   const known = new Set(saved.map((c) => c.code));
@@ -90,6 +90,7 @@ export function usePlan() {
       const removed = saved.filter(c => c.status === "plan" && !generated.has(c.code)).map(c => ({ ...c, status: "avail" as const, term: null, slot: null }));
       setChanges(diff([...result.plan.courses, ...removed]));
       if (result.plan.catalogTerm) selectCatalogTerm(result.plan.catalogTerm);
+      setFromBuild(true);
     },
   });
 
@@ -117,6 +118,10 @@ export function usePlan() {
     selectCatalogTerm,
     violations,
     pendingCount: Object.keys(changes).length,
+    /** True while the pending edits are a generated plan the user hasn't kept yet. */
+    isBuildDraft: fromBuild,
+    /** Fingerprint of the pending edits, for autosave. */
+    draftKey: JSON.stringify([changes, draftTerm]),
     /** A catalog year chosen in the draft but not saved yet. */
     versionPending: !!draftTerm && draftTerm !== planQ.data?.catalogTerm,
     add: (code: string, term: TermId) => setCourse(code, term === planQ.data?.currentTerm ? "prog" : "plan", term),

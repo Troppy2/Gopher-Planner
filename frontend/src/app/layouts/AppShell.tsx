@@ -14,9 +14,9 @@ import {
   BookOpen,
   LayoutGrid,
   LogOut,
-  Search,
   Settings,
   Waypoints,
+  Search,
 } from "lucide-react";
 import { getProfile } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
@@ -31,13 +31,13 @@ import { useHideOnScroll } from "@/hooks/useHideOnScroll";
 
 const NAV = [
   { to: "/dashboard", label: "Dashboard", Icon: LayoutGrid },
-  { to: "/flow-chart", label: "Flow chart", Icon: Waypoints },
+  { to: "/flow-chart", label: "My plan", Icon: Waypoints },
   { to: "/catalog", label: "Catalog", Icon: BookOpen },
   { to: "/settings", label: "Settings", Icon: Settings },
 ];
 const TITLES: Record<string, string> = {
   "/dashboard": "Dashboard",
-  "/flow-chart": "Flow chart",
+  "/flow-chart": "My plan",
   "/catalog": "Course catalog",
   "/settings": "Settings",
 };
@@ -118,7 +118,7 @@ export function AppShell() {
                 Gopher Planner
               </Link>
               <div className="hdr-title" aria-hidden>
-                Gopher Planner
+                {TITLES[pathname] ?? "Gopher Planner"}
               </div>
               <button
                 className="btn-search"
@@ -181,7 +181,8 @@ export function AppShell() {
           ))}
         </nav>
       )}
-      {PLAN_EDIT_SCREENS.includes(pathname) && <UnsavedPlanBar />}
+      {/* Always mounted so plan edits keep auto-saving after the user leaves a plan screen. */}
+      <UnsavedPlanBar visible={PLAN_EDIT_SCREENS.includes(pathname)} />
       <SearchOverlay open={searchOpen} onOpenChange={setSearchOpen} />
       <CourseDrawer />
     </div>

@@ -19,6 +19,9 @@ interface PlanDraftState {
   violations: Violation[];
   announcement: string;
   electiveBaseline: { credits: number; placed: number; valid: boolean } | null;
+  /** The draft came from Build plan and replaces the whole plan, so it waits for the user to keep it. */
+  fromBuild: boolean;
+  setFromBuild: (fromBuild: boolean) => void;
   setElectiveBaseline: (baseline: PlanDraftState["electiveBaseline"]) => void;
   announce: (announcement: string) => void;
   setChanges: (changes: Record<string, DraftEntry>) => void;
@@ -35,11 +38,13 @@ export const usePlanDraft = create<PlanDraftState>((set) => ({
   violations: [],
   announcement: "",
   electiveBaseline: null,
+  fromBuild: false,
+  setFromBuild: (fromBuild) => set({ fromBuild }),
   setElectiveBaseline: (electiveBaseline) => set({ electiveBaseline }),
   announce: (announcement) => set({ announcement }),
   setChanges: (changes) => set({ changes, violations: [] }),
   setExtras: (extras) => set({ extras }),
   selectCatalogTerm: (catalogTerm) => set({ catalogTerm }),
   setViolations: (violations) => set({ violations }),
-  clear: () => set({ changes: {}, extras: {}, catalogTerm: null, violations: [], electiveBaseline: null }),
+  clear: () => set({ changes: {}, extras: {}, catalogTerm: null, violations: [], electiveBaseline: null, fromBuild: false }),
 }));
