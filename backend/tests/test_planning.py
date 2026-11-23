@@ -473,3 +473,11 @@ def test_all_eight_sample_semesters_stay_in_their_published_order():
     result = generate_plan(program, coursework=[], metadata=metadata_for(program), terms=terms, credit_load=15,
         graduation="Spring 2030", sample=plan)
     assert placed(result) == dict(zip(codes, terms))
+
+
+def test_registered_future_term_courses_use_up_that_terms_credit_load():
+    rule = {"id": "core", "type": "all", "allowReuse": False, "sourceRef": "s",
+            "children": [crs("a", "MAJR 1001"), crs("b", "MAJR 1002")]}
+    program = inline([grp("major", rule)])
+    registered = [done("REG 1001", 6, grade=None, term="Spring 2027", status="prog")]
+    assert placed(generate(program, registered, load_limit=7)) == {"MAJR 1001": "Fall 2027", "MAJR 1002": "Fall 2027"}

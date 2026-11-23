@@ -35,6 +35,10 @@ class Planner:
         self.locked = self.done | self.in_progress
         self.planned = {}
         self.loads = [0.0] * len(terms)
+        for item in coursework:
+            # Courses already registered for a future term use up that term's credit load.
+            if item["status"] == "prog" and item.get("term") in terms:
+                self.loads[terms.index(item["term"])] += float(item["credits"])
         self.warnings = set()
         self.blocked_reasons = set()
         self.home_subject = self._home_subject()
