@@ -1,5 +1,6 @@
 import { Navigate, Outlet, useLocation } from "react-router";
 import { useSession } from "@/features/auth/session.store";
+import { WorkspaceSkeleton } from "@/features/loading/ScreenSkeletons";
 
 export function RequireAuth() {
   const signedIn = useSession((s) => s.signedIn);
@@ -7,7 +8,7 @@ export function RequireAuth() {
   const location = useLocation();
 
   if (!initialized) {
-    return <p>Checking your session...</p>;
+    return <WorkspaceSkeleton />;
   }
 
   if (!signedIn) {

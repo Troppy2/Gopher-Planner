@@ -6,3 +6,4 @@ export * from "./SegmentedControl";
 export * from "./Controls";
 export * from "./Display";
 export * from "./Drawer";
+export * from "./Skeleton";

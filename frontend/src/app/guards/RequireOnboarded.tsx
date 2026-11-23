@@ -2,10 +2,11 @@ import { useQuery } from "@tanstack/react-query";
 import { Navigate, Outlet } from "react-router";
 import { getProfile } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
+import { WorkspaceSkeleton } from "@/features/loading/ScreenSkeletons";
 
 export function RequireOnboarded() {
   const { data, isLoading, isError, refetch } = useQuery({ queryKey: queryKeys.profile, queryFn: getProfile });
-  if (isLoading) return null;
+  if (isLoading) return <WorkspaceSkeleton />;
   if (isError || !data) {
     return (
       <div className="page narrow">

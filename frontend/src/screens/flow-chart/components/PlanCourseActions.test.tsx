@@ -41,9 +41,13 @@ describe("planned course actions", () => {
     const onMove = vi.fn(), onRemove = vi.fn(), onSwap = vi.fn(), announce = vi.fn();
     renderWithProviders(<PlanCourseActions course={plannedCourse} courses={[plannedCourse]} plan={actionPlan} profile={actionProfile}
       onMove={onMove} onRemove={onRemove} onSwap={onSwap} announce={announce} />);
-    expect(screen.getByRole("option", { name: /Fall 2027.*Not offered/ })).toBeDisabled();
     const move = screen.getByRole("combobox", { name: "Move TEST 1001 to semester" });
-    await userEvent.selectOptions(move, "Spring 2028");
+    move.focus();
+    await userEvent.keyboard("{ArrowDown}");
+    const invalid = screen.getByRole("option", { name: "Fall 2027" });
+    expect(invalid).toHaveAttribute("aria-disabled", "true");
+    expect(invalid).toHaveAccessibleDescription(/Not offered/);
+    await userEvent.keyboard("{End}{Enter}");
     expect(onMove).toHaveBeenCalledWith("TEST 1001", "Spring 2028");
     expect(announce).toHaveBeenCalledWith("TEST 1001 moved to Spring 2028.");
     await userEvent.click(screen.getByRole("button", { name: "Remove from plan" }));

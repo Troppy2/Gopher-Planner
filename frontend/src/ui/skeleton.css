@@ -1,0 +1,39 @@
+.skeleton {
+  display: block;
+  flex: none;
+  max-width: 100%;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--ink) 9%, transparent);
+}
+.skeleton-stack { display: grid; gap: 10px; min-width: 0; }
+.skeleton-course-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 16px; border-top: 1px solid var(--border); }
+.skeleton-course-row:first-child { border-top: 0; }
+.skeleton-course-row > .skeleton-stack { flex: 1; }
+.skeleton-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 16px; }
+.skeleton-field { display: grid; gap: 8px; min-width: 0; }
+.skeleton-field .skeleton:last-child { height: 44px; border: 1px solid var(--border); background: color-mix(in srgb, var(--ink) 5%, transparent); }
+.skeleton-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-bottom: 20px; }
+.skeleton-metric { min-height: 168px; display: grid; align-content: start; gap: 12px; }
+.skeleton-progress { display: flex; align-items: center; gap: 20px; min-height: 168px; }
+.skeleton-ring { width: 112px; height: 112px; border: 9px solid var(--border); border-radius: 50%; flex: none; }
+.skeleton-section { padding: 20px; min-width: 0; }
+.skeleton-section > .skeleton:first-child { margin-bottom: 16px; }
+.skeleton-section + .skeleton-section { margin-top: 16px; }
+.skeleton-semester { padding: 20px; }
+.skeleton-semester > .skeleton:last-child { margin-top: 12px; }
+.skeleton-graph { min-height: 460px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px; padding: 32px; overflow: hidden; }
+.skeleton-graph-column { display: grid; align-content: start; gap: 28px; }
+.skeleton-node { display: grid; gap: 14px; border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 18px; }
+.skeleton-catalog .citem { min-height: 76px; }
+.skeleton-catalog .cm { gap: 10px; }
+.skeleton-detail { display: grid; gap: 28px; }
+.skeleton-detail-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 16px; }
+.skeleton-workspace { padding-top: 32px; }
+.skeleton-workspace .skeleton-section { margin-top: 24px; min-height: 260px; }
+@media (max-width: 767px) {
+  .skeleton-fields { grid-template-columns: minmax(0, 1fr); }
+  .skeleton-ring { width: 96px; height: 96px; }
+  .skeleton-graph { gap: 16px; padding: 16px; min-height: 400px; }
+  .skeleton-node { padding: 12px; }
+  .skeleton-catalog .citem { min-height: 150px; }
+}

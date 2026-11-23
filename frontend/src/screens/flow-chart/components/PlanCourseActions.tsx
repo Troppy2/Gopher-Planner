@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import type { Course, Plan, Profile } from "@/api/types";
 import { getCourses } from "@/api/endpoints";
-import { Button } from "@/ui";
+import { Button, CourseRowsSkeleton, SkeletonRegion } from "@/ui";
 import { catalogToPlanCourse, swapReason } from "@/features/plan/planRules";
 import { TermPicker } from "@/features/plan/TermPicker";
 import { CreditsField } from "@/features/plan/CreditsField";
@@ -40,7 +40,7 @@ export function PlanCourseActions({ course, courses, plan, profile, onMove, onRe
     {course.slot && <>
       <Button variant="ghost" aria-expanded={showSwaps} onClick={() => setShowSwaps(!showSwaps)}>Swap suggestion</Button>
       {showSwaps && <div>
-        {alternatives.isPending && <p role="status">Loading suggestions...</p>}
+        {alternatives.isPending && <SkeletonRegion label="suggestions"><CourseRowsSkeleton rows={2} /></SkeletonRegion>}
         {alternatives.isError && <p>Could not load suggestions. <Button onClick={() => void alternatives.refetch()}>Try again</Button></p>}
         {alternatives.isSuccess && !options.length && <p>No other suggestions available.</p>}
         <ul className="plan-action-list">{options.map(item => {
