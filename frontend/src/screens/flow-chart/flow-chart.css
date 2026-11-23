@@ -7,13 +7,15 @@
   align-items: center;
 }
 .flow-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.semester-controls { display: flex; align-items: end; gap: 8px; min-width: 0; }
+.semester-controls { display: flex; align-items: center; gap: var(--s2); min-width: 0; flex: none; }
 .semester-catalog-year { max-width: 860px; margin: 0 auto 16px; }
 .semester-catalog-year .field { max-width: 240px; }
-.semester-controls .term-picker { width: 196px; }
 .flow-sem > .elective-note { max-width: 860px; margin-inline: auto; }
-.semester-suggestions > summary { padding-block: 8px; min-height: 44px; cursor: pointer; color: var(--muted); font-size: 13px; }
-.semester-controls .credit-field { width: 68px; }
+.semester-suggestions > summary { display: flex; align-items: center; gap: var(--s2); padding-block: var(--s2); min-height: var(--hit); cursor: pointer; color: var(--maroon); font-size: 14px; font-weight: 600; list-style: none; }
+.semester-suggestions > summary::-webkit-details-marker { display: none; }
+.semester-suggestions > summary::before { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg); transition: transform var(--fast); }
+.semester-suggestions[open] > summary::before { transform: rotate(45deg); }
+.semester-suggestions > summary:focus-visible { outline: 2px solid var(--maroon); outline-offset: 2px; border-radius: var(--radius-sm); }
 .semester-add { border-top: 1px solid var(--border); padding-top: 8px; }
 .semester-search { display: grid; gap: 8px; padding-block: 8px; }
 .semester-search > label { font-size: 13px; font-weight: 600; }
@@ -24,10 +26,7 @@
 .semester-results small { color: var(--warning); }
 @media (max-width: 600px) {
   .semrow { flex-wrap: wrap; }
-  .semrow-main { flex-basis: calc(100% - 84px); }
-  .semester-controls { width: 100%; justify-content: end; }
-  .semester-controls .term-picker { flex: 1; width: auto; }
-  .semester-controls .credit-field { flex: 0 0 72px; }
+  .semrow-main { flex-basis: calc(100% - 64px); }
 }
 .sem {
   display: grid;

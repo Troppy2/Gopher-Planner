@@ -1,7 +1,7 @@
-import { useCallback, useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router";
 import { CalendarDays, Maximize, Minus, Network, Plus, RefreshCw } from "lucide-react";
-import { Button, Callout, EmptyState, IconButton, ProgressBar, SegmentedControl, Select, StepList } from "@/ui";
+import { Button, Callout, EmptyState, IconButton, SegmentedControl, Select } from "@/ui";
 import { usePlan } from "@/features/plan/usePlan";
 import { useCourseParam } from "@/features/course-detail/useCourseParam";
 import { lastPlanIndex } from "@/features/plan/planRules";
@@ -9,10 +9,10 @@ import { useReducedMotion } from "@/hooks/useMediaQuery";
 import { ElectiveNote } from "@/features/plan/PlanLabels";
 import { SemesterView } from "./components/SemesterView";
 import { GraphCanvas } from "./components/GraphCanvas";
+import { PlannerSkeleton } from "@/features/loading/ScreenSkeletons";
 import type { GraphControls } from "./components/GraphCanvas";
 import "./flow-chart.css";
 
-const BUILD_STEPS = ["Generating a draft from your requirements", "Ready to review"];
 
 type ViewMode = "sem" | "graph";
 
@@ -20,7 +20,8 @@ export default function FlowChartScreen() {
   const [params, setParams] = useSearchParams();
   const view: ViewMode = params.get("view") === "graph" ? "graph" : "sem";
   const course = useCourseParam();
-  const { plan, profile, courses, goal, isLoading, error, refetch, add, addCourse, editCredits, remove, build, buildState, catalogTerm, selectCatalogTerm, announcement, announce: setLive } = usePlan();
+  const { plan, profile, courses, goal, isLoading, error, refetch, add, addCourse, editCredits, remove, build, buildState, catalogTerm, selectCatalogTerm, announcement, announce: setLive, pendingCount } = usePlan();
+  const [confirmBuild, setConfirmBuild] = useState(false);
   const reduced = useReducedMotion();
   const graph = useRef<GraphControls>(null);
   const buildRequested = useRef(false);
@@ -66,7 +67,7 @@ export default function FlowChartScreen() {
     }
     try {
       await build();
-      setLive(`Planner built through ${plan.terms[lastPlanIndex(plan, profile)]}. Review the semesters, then save or discard.`);
+      setLive(`Planner built through ${plan.terms[lastPlanIndex(plan, profile)]}. Review it, then keep it or discard it.`);
     } catch {
       setLive("The planner could not build a draft. Try again.");
     }
@@ -113,12 +114,18 @@ export default function FlowChartScreen() {
   return (
     <div className={view === "sem" ? "page flow-sem" : "page"}>
       <div className="pg-head flow-head">
-        <h1 className="title">Flow chart</h1>
+        <h1 className="title">My plan</h1>
         <div className="flow-actions">
-          <Button variant="ghost" size="sm" disabled={!plan || !profile || needsYear || buildState.isPending} onClick={() => void runBuild()}>
+          {confirmBuild ? <>
+            <span className="muted">Replace {pendingCount} unsaved {pendingCount === 1 ? "edit" : "edits"}?</span>
+            <Button variant="ghost" size="sm" onClick={() => setConfirmBuild(false)}>Cancel</Button>
+            <Button size="sm" onClick={() => { setConfirmBuild(false); void runBuild(); }}>Rebuild</Button>
+          </> : <Button size="sm" disabled={!plan || !profile || needsYear || buildState.isPending}
+            title={needsYear ? "Pick your catalog year first" : undefined}
+            onClick={() => pendingCount > 0 ? setConfirmBuild(true) : void runBuild()}>
             <CalendarDays className="ic sm" aria-hidden />Build plan
-          </Button>
-        <SegmentedControl<ViewMode>
+          </Button>}
+          <SegmentedControl<ViewMode>
           label="View"
           value={view}
           onChange={(v) => setParam("view", v === "graph" ? "graph" : null)}
@@ -126,7 +133,7 @@ export default function FlowChartScreen() {
             { value: "sem", label: "Semesters", icon: <CalendarDays className="ic sm" aria-hidden /> },
             { value: "graph", label: "Graph", icon: <Network className="ic sm" aria-hidden /> },
           ]}
-        />
+          />
         </div>
       </div>
 
@@ -138,21 +145,20 @@ export default function FlowChartScreen() {
       {buildState.isPending && (
         <section className="buildcard surf" role="status" aria-labelledby="build-h">
           <h2 className="h2" id="build-h">
-            Building your planner
+            Building your plan…
           </h2>
-          <ProgressBar label="Planner progress" value={1} max={BUILD_STEPS.length} />
-          <StepList steps={BUILD_STEPS} done={1} />
+          <div className="indeterminate" aria-hidden><span /></div>
         </section>
       )}
       {buildState.isError && (
-        <Callout tone="error" title="We couldn't build a draft.">
+        <Callout tone="error" title="Couldn't build a plan">
           {buildState.error.message}{" "}
           <Button size="sm" variant="ghost" onClick={() => void runBuild()}>Try again</Button>
         </Callout>
       )}
       {needsYear && (
-        <Callout tone="info" title="Choose your catalog year">
-          Pick the catalog year on your APAS report. Building and saving use only that year's requirements.
+        <Callout tone="info" title="Pick your catalog year to build a plan">
+          Use the year on your APAS report.
         </Callout>
       )}
       {plan && view === "sem" && plan.availableCatalogTerms.length > 0 && <div className="semester-catalog-year">
@@ -160,11 +166,7 @@ export default function FlowChartScreen() {
       </div>}
 
       {isLoading || !plan || !profile ? (
-        <div className="sem">
-          {[0, 1, 2].map((i) => (
-            <div key={i} className="semcard surf sem-skel" aria-hidden />
-          ))}
-        </div>
+        <PlannerSkeleton view={view} />
       ) : view === "sem" ? (
         <SemesterView
           plan={plan}
@@ -234,19 +236,19 @@ export default function FlowChartScreen() {
             </li>
             <li>
               <svg viewBox="0 0 16 16" aria-hidden>
-                <circle cx="8" cy="8" r="5" fill="none" stroke="#625A5C" strokeWidth="1.5" />
+                <circle cx="8" cy="8" r="5" fill="none" stroke="var(--muted)" strokeWidth="1.5" />
               </svg>
               Available
             </li>
             <li>
               <svg viewBox="0 0 16 16" aria-hidden>
-                <path d="M8 1.5L14.5 8L8 14.5L1.5 8z" fill="#F6E6CC" stroke="#A86400" strokeWidth="1.8" />
+                <path d="M8 1.5L14.5 8L8 14.5L1.5 8z" fill="none" stroke="var(--muted)" strokeWidth="1.5" strokeDasharray="2 2" />
               </svg>
               Locked
             </li>
           </ul>
           <GraphCanvas ref={graph} courses={courses} terms={plan.terms} selected={course.code} onSelect={onSelect} reducedMotion={reduced} />
-          <p className="hint graph-hint">Scroll to move down the page. Hold Ctrl or Command while scrolling to zoom the graph. Drag a course to pin it.</p>
+          <p className="hint graph-hint">Ctrl/Cmd + scroll to zoom. Drag a course to pin it.</p>
         </>
       )}
     </div>

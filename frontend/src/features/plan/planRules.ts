@@ -1,6 +1,6 @@
 import type { CatalogCourse, Course, Plan, PrerequisiteExpression, Profile, TermId } from "@/api/types";
 
-export const season = (term: TermId) => term.split(" ")[0];
+export const season = (term: TermId | undefined) => (term ?? "").split(" ")[0];
 export const sumCredits = (list: Course[]) => list.reduce((a, c) => a + c.credits, 0);
 
 /** Index of the first term after the current one. */
@@ -76,7 +76,8 @@ export function moveReason(course: Course, termIdx: number, courses: Course[], t
   if (sumCredits(courses.filter(c => c.code !== course.code && (c.status === "plan" || c.status === "prog") && c.term === term)) + course.credits > creditLoad) return "Exceeds your credit load";
   const moved = courses.map(c => c.code === course.code ? { ...c, term, status: "plan" as const } : c);
   if (!eligible({ ...course, status: "avail" }, termIdx, moved, terms)) return "Prerequisite order conflict";
-  const dependent = moved.find(c => c.code !== course.code && c.status === "plan" && c.term &&
+  // Skip courses whose term isn't in this plan's term list; there's no index to check them at.
+  const dependent = moved.find(c => c.code !== course.code && c.status === "plan" && c.term && terms.includes(c.term) &&
     eligible({ ...c, status: "avail" }, terms.indexOf(c.term), courses, terms) &&
     !eligible({ ...c, status: "avail" }, terms.indexOf(c.term), moved, terms));
   return dependent ? `Prerequisite order conflict for ${dependent.code}` : null;

@@ -1,10 +1,10 @@
 import type { ReactNode } from "react";
-import { AlertTriangle, CheckCircle2, Plus, X } from "lucide-react";
+import { AlertTriangle, CheckCircle2, Plus } from "lucide-react";
 import type { Course, Plan, Profile } from "@/api/types";
 import { Button, ProgressBar, StatusBadge } from "@/ui";
 import { credits } from "@/lib/format";
 import { SlotTag } from "@/features/plan/PlanLabels";
-import { TermPicker } from "@/features/plan/TermPicker";
+import { CourseRowMenu } from "@/features/plan/CourseRowMenu";
 import { CreditsField } from "@/features/plan/CreditsField";
 import { SemesterCourseSearch } from "./SemesterCourseSearch";
 import { eligible, firstFutureIndex, lastPlanIndex, projectedCredits, sumCredits } from "@/features/plan/planRules";
@@ -51,8 +51,8 @@ export function SemesterView({ plan, profile, courses, goal, onOpen, onAdd, onRe
   const gradTerm = plan.terms[last];
   const controls = (c: Course) => <div className="semester-controls">
     {c.status === "prog" && onCredits && <CreditsField code={c.code} credits={c.credits} onChange={onCredits} />}
-    <TermPicker course={c} courses={courses} plan={plan} profile={profile} onMove={(code, term) => onAdd(code, plan.terms.indexOf(term))} />
-    <Button variant="ghost" size="sm" aria-label={`Remove ${c.code} from ${c.term}`} onClick={() => onRemove(c.code, plan.terms.indexOf(c.term!))}><X className="ic sm" aria-hidden /></Button>
+    <CourseRowMenu course={c} courses={courses} plan={plan} profile={profile} onMove={(code, term) => onAdd(code, plan.terms.indexOf(term))}
+      onRemove={() => onRemove(c.code, plan.terms.indexOf(c.term!))} />
   </div>;
   const search = (term: string) => <SemesterCourseSearch term={term} plan={plan} profile={profile} courses={courses}
     onAdd={(course, target) => onAddCourse ? onAddCourse(course, target) : onAdd(course.code, plan.terms.indexOf(target))} />;
@@ -62,9 +62,10 @@ export function SemesterView({ plan, profile, courses, goal, onOpen, onAdd, onRe
       <section className="semcard surf" id="sem-current" aria-labelledby="semh-current">
         <div className="semhead">
           <h2 id="semh-current" tabIndex={-1}>
-            {plan.currentTerm}, current classes
+            {plan.currentTerm} (current)
           </h2>
-          <span className="semmeta num">{sumCredits(current)} of {profile.creditLoad} credits</span>
+          {(() => { const cr = sumCredits(current); const over = cr > profile.creditLoad; return <span className={over ? "semmeta num over" : "semmeta num"}>
+            {over && <AlertTriangle className="ic sm" aria-hidden />}{cr} of {profile.creditLoad} credits{over ? `, over by ${cr - profile.creditLoad}` : ""}</span>; })()}
         </div>
         <ProgressBar label={`${plan.currentTerm} credits`} value={sumCredits(current)} max={profile.creditLoad} over={sumCredits(current) > profile.creditLoad} />
         <ul>

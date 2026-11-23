@@ -22,9 +22,9 @@ it("keeps the user's scroll position when generation finishes", async () => {
     http.post(api("/plans/generate"), async () => { calls++; await ready; return HttpResponse.json({ jobId: "synthetic", status: "succeeded", warnings: [], plan }); }));
   try {
     renderWithProviders(<FlowChartScreen />, { route: "/?build=1" });
-    await screen.findByRole("heading", { name: "Building your planner" });
+    await screen.findByText("Building your plan…");
     await act(async () => { finish(); });
-    await waitFor(() => expect(screen.queryByRole("heading", { name: "Building your planner" })).not.toBeInTheDocument());
+    await waitFor(() => expect(screen.queryByText("Building your plan…")).not.toBeInTheDocument());
     expect(calls).toBe(1);
     expect(scroll).not.toHaveBeenCalled();
   } finally {
