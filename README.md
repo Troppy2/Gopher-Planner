@@ -1,224 +1,255 @@
-# Gopher Planner
+<p align="center"><img src="frontend/public/favicon.png" width="72" alt="Gopher Planner logo" /></p>
 
-Gopher Planner is a personalized four-year college course planning tool for University of Minnesota students and academic advisors. Instead of planning one semester at a time, it uses a student's transcript, major, career goals, prerequisites, desired course load, and graduation target to build a complete degree plan.
+<h1 align="center">Gopher Planner</h1>
 
-## About the Project
+<p align="center">Turn coursework into a degree plan you can understand, edit, and build on.</p>
 
-### Problem
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-7A0019" alt="Apache 2.0 license" /></a>
+  <img src="https://img.shields.io/badge/frontend-React%20%2B%20TypeScript-7A0019" alt="React and TypeScript" />
+  <img src="https://img.shields.io/badge/backend-Flask%20%2B%20SQLAlchemy-7A0019" alt="Flask and SQLAlchemy" />
+  <img src="https://img.shields.io/badge/status-active%20development-FFCC33" alt="Active development" />
+</p>
 
-The current Gopher schedule builder is limited to one semester and offers little personalization. It is difficult for students to predict which professors may teach a course, evaluate those professors, or understand how individual courses fit into a longer-term degree plan. As a result, students may take unnecessary classes, spend additional money, or delay graduation.
+<p align="center">
+  <a href="#quick-start">Quick start</a> ·
+  <a href="docs/PROJECT.md">Project guide</a> ·
+  <a href="docs/ARCHITECTURE.md">Architecture</a> ·
+  <a href="CONTRIBUTING.md">Contribute</a> ·
+  <a href="docs/ROADMAP.md">Roadmap</a> ·
+  <a href="https://github.com/Troppy2/Gopher-Planner/issues">Issues</a>
+</p>
 
-### Solution
+Gopher Planner helps University of Minnesota students and academic advisors build personalized multi-semester course plans. It combines completed and current coursework, versioned degree requirements, prerequisites, preferred credit load, and graduation goals.
 
-Gopher Planner acts as a centralized planning hub. A student uploads their transcript, and the application parses completed and current coursework before generating a customized four-year plan. The plan accounts for degree requirements, prerequisites, concurrent enrollment requirements, preferred credit load, desired graduation date, major, and career goals.
+Import an APAS/transcript PDF or enter courses manually, see your progress, and adjust your plan in semester and prerequisite-graph views.
 
-### Intended Users
+**Active development:** compare generated plans with your official APAS audit and advisor guidance. A suggested schedule is not registration, a seat guarantee, or certification that every degree requirement is satisfied.
 
-- University students
-- Academic advisors
+## Contents
 
-### Goals
+- [Features](#features)
+- [Quick start](#quick-start)
+- [Configuration](#configuration)
+- [Database and data](#database-and-data)
+- [Development checks](#development-checks)
+- [Architecture](#architecture)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Documentation](#documentation)
+- [License and credits](#license-and-credits)
 
-- Make it easier to create a complete college course plan.
-- Account for courses a student has already taken or is currently taking.
-- Identify prerequisites, concurrent enrollment requirements, and other degree conditions.
-- Support different credit loads, graduation dates, majors, and career goals.
-- Help students anticipate possible professors and review course and professor information.
-- Reduce unnecessary courses, cost, and time to graduation.
+## Features
 
-### What Makes It Different
+| Area | Current behavior |
+| --- | --- |
+| Authentication | Google sign-in for verified `@umn.edu` accounts, with server-side cookie sessions. |
+| Coursework | PDF import with local OCR fallback, manual entry, and later edits to status, term, grade, and credits. |
+| Dashboard | GPA, credit progress, current/future classes, and completed versus projected requirement progress. |
+| Planning | Sample-plan seeding, prerequisite ordering, offering-season checks, credit limits, and requirement-aware suggestions. |
+| Editing | Move/add/remove current and future classes, edit current credits, and swap labeled gen-ed suggestions. Ordinary edits autosave; generated plans wait for confirmation. |
+| Catalog | Search, filters, pagination, course details, prerequisites, and add-to-plan actions. |
+| Profile | Major, standing, career goal, credit preference, and graduation target. Major changes require catalog-year confirmation again. |
+| Interface | Responsive semester/graph views, keyboard controls, course drawers, layout-matched skeletons, and explicit empty/error states. |
 
-Existing schedule-building tools are primarily static and semester-based. Gopher Planner is designed to be personalized and long-term: it builds a four-year plan around each student's academic history and goals rather than only helping them select their next semester.
+Professor history, embedded grade distributions, scheduled section updates, and registration export are future work. Links in a course drawer do not mean those integrations are implemented.
 
-## Main Features
-
-### Four-Year Planner
-
-Students upload their transcript. Gopher Planner parses the transcript and stores courses that have been completed or are in progress, then uses that information to generate a four-year academic plan.
-
-Current and future semesters are editable in the flow chart. Each class has a semester picker, each semester has catalog search, and current courses have editable credits. Moves into the current term become in-progress coursework; moves out become planned courses. Save and discard apply to the whole draft. Coursework changes refresh the dashboard, including separate completed, in-progress, and planned credit totals.
-
-Building a plan also fills an empty current semester with planned suggestions. Existing in-progress courses are preserved. Without a graduation target, the official sample plan starts at the first planning term. Course details allow page scrolling, and finishing a build does not force the page back to the top.
-
-Changing majors refreshes the planner and clears unsaved edits for the previous major. Confirm the catalog year for the newly selected major before building its requirements. Deleting coursework and re-uploading an APAS report restores the imported rows without changing the selected major.
-
-### Professor and Course Grade Information
-
-For a planned course, users can view likely or historically associated professors and access their Rate My Professors information through an embedded frame or link. The application can also provide a link to average grade information for the course through Gopher Grades.
-
-### Career and User Customization
-
-The planner uses information supplied by the student, including:
-
-- Major and degree program
-- Career goals
-- Desired graduation date
-- Preferred credit load
-- Completed and current coursework
-
-## Architecture
-
-### Frontend
-
-- React with TypeScript
-- CSS or Tailwind CSS
-
-React provides better control over DOM updates and rendering when displaying large amounts of planning data than a plain HTML implementation.
-
-### Backend
-
-- Flask
-- REST API
-- SQLAlchemy for database ORM operations
-- `pdfplumber` for transcript PDF parsing
-- Google OAuth with server-side sessions
-
-The Flask API uses SQLAlchemy repositories and services. Generation reads its inputs, releases its database transaction while planning, then revalidates the snapshot before saving.
-
-### Databases and Caching
-
-- One Supabase-hosted PostgreSQL database for user data, saved plans and the course catalog (`catalog_*` tables)
-- Versioned JSON files for program requirements
-- A simple in-memory Python dictionary for caching instead of Redis
-
-A single database keeps catalog joins, foreign keys and concurrent writes under one set of transactions. The catalog tables are seed data: only the import script writes them.
-
-### Authentication
-
-Users will authenticate through Google OAuth. Access will be limited to University of Minnesota email addresses, including the `@umn.edu` domain.
-
-### Hosting
-
-- Host the frontend and backend on a virtual private server (VPS), such as OVHcloud or a similar provider.
-- Use Cloudflare for the project domain, DNS, and reverse proxy to the VPS.
-
-## Running Locally
+## Quick start
 
 ### Prerequisites
 
-Install the following before starting development:
+- Python **3.12+** and [uv](https://docs.astral.sh/uv/).
+- Node.js **22.12+** and npm. The installed Vite version also supports Node 20.19+; the frontend container uses Node 22.
+- Git and a Google OAuth web client ID for interactive sign-in.
+- Docker only if using the container setup.
 
-- Node.js 20 or newer and npm
-- Python 3.12 or newer
-- PostgreSQL 15 or newer
-- Git
+### 1. Clone and configure
 
-### Frontend Installation
-
-The frontend will use React with Vite and TypeScript. From the repository root:
-
-```bash
-cd frontend
-npm install
-npm run dev
+```powershell
+git clone https://github.com/Troppy2/Gopher-Planner.git
+cd Gopher-Planner
+Copy-Item backend/.env.example backend/.env
+Copy-Item frontend/.env.example frontend/.env
 ```
 
-The development server is typically available at `http://localhost:5173`.
+Edit the copied files locally. Use the same Google client ID in both, set a random `JWT_SECRET`, and set `FRONTEND_ORIGIN=http://localhost:5173` in the backend file.
 
-### Backend Installation
+For local SQLite development, replace the sample Supabase URL in `backend/.env` with:
 
-Install [uv](https://docs.astral.sh/uv/), then run from the repository root:
+```dotenv
+DATABASE_URL=
+FLASK_ENVIRONMENT=development
+COOKIE_SECURE=false
+```
+
+An empty development URL selects `backend/instance/dev.db`. Process environment variables take precedence over files. Check the intended destination before any migration or import. Never commit `.env` files.
+
+### 2. Start the backend
 
 ```powershell
 cd backend
 uv sync
-uv run flask --app app run --port 5000
+uv run flask --app app db upgrade
+uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-23.csv
+uv run flask --app app run --debug --port 5000
 ```
 
-Python 3.12 or newer is required. The API prefix is `/api/v1` and health is `/health`.
+The import writes catalog tables in your selected local database. It does not modify the bundled source database. API prefix: `/api/v1`. Health: `http://localhost:5000/health`.
 
-### Environment Variables
+### 3. Start the frontend in another terminal
 
-Keep credentials in `backend/.env`, never in source control. Required names are `GOOGLE_CLIENT_ID` and `JWT_SECRET`. Set `DATABASE_URL` to the intended PostgreSQL database, `FRONTEND_ORIGIN` to the frontend origin, and `COOKIE_SECURE=true` for HTTPS production hosting. The backend loads `backend/.env`, then root `.env`; existing environment variables take precedence.
-
-The frontend uses `VITE_GOOGLE_CLIENT_ID`. Leave `VITE_API_URL` unset for Vite's local `/api` proxy, or set it to an API base ending in `/api/v1`.
-
-### Tests
+From the repository root:
 
 ```powershell
-cd backend
-uv run pytest -q
-cd ../frontend
-npx.cmd vitest run
-npx.cmd tsc -b --noEmit
+cd frontend
+npm ci
+npm run dev -- --port 5173 --strictPort
 ```
 
-Backend tests default to disposable migrated SQLite databases. PostgreSQL tests require a disposable local database via `TEST_DATABASE_URL`; never use Supabase or a shared database for tests. Use synthetic coursework and PDFs only.
+Open **http://localhost:5173**. Vite proxies `/api` to port 5000. Leave `VITE_API_URL` unset. Add the same localhost origin to your Google OAuth client's authorized JavaScript origins before signing in.
 
-### Docker Compose
-Build image:
-docker compose build
+### Docker alternative
 
-Start:
-docker compose up
-
-Stop:
-docker compose up
-
-### Database Migrations
-
-The repository already contains Alembic migrations. After setting `DATABASE_URL` to the intended database:
+Copy root `.env.example` to `.env`, fill in local PostgreSQL credentials and Google client IDs, and use `FRONTEND_ORIGIN=http://localhost:3000`.
 
 ```powershell
-cd backend
-uv run flask db upgrade
-uv run flask db current
+docker compose up --build
 ```
 
-Create schema changes with `uv run flask db migrate -m "describe schema change"`, review the revision, and apply it with `uv run flask db upgrade`. The app never changes schema at startup.
+Open **http://localhost:3000**. Compose runs PostgreSQL 17, Flask, and an nginx-served frontend. Load catalog data into this local stack with:
 
-Catalog imports replace seed tables and must be run only against an explicitly authorized destination:
+```powershell
+docker compose exec api uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-23.csv
+```
+
+Stop while preserving database storage:
+
+```powershell
+docker compose down
+```
+
+The API entrypoint currently applies migrations on container start and runs Flask's development server. This is a development setup, not a finished production deployment. See [#12](https://github.com/Troppy2/Gopher-Planner/issues/12).
+
+## Configuration
+
+| Variable | Purpose |
+| --- | --- |
+| `GOOGLE_CLIENT_ID` | Required backend Google OAuth audience. |
+| `JWT_SECRET` | Required by current configuration, although authentication uses opaque sessions rather than JWTs. Cleanup is tracked in #12. |
+| `DATABASE_URL` | `postgresql+psycopg://...` or SQLite URL. Required in production mode; development can fall back to SQLite. |
+| `FRONTEND_ORIGIN` | Exact allowed browser origin, including port. Currently one origin is supported. |
+| `COOKIE_SECURE` | `false` for local HTTP; `true` for HTTPS deployments. |
+| `FLASK_ENVIRONMENT` | `development` or `production`. |
+| `VITE_GOOGLE_CLIENT_ID` | Public frontend client ID, matching the backend. |
+| `VITE_API_URL` | Optional API base ending in `/api/v1`. Omit for same-origin proxy setups. |
+| `PROGRAM_DATA_PATH` | Optional override for the versioned program directory. |
+| `SAMPLE_PLAN_DATA_PATH` | Optional override for the sample-plan directory. |
+| `TEST_DATABASE_URL` | Tests only: disposable local PostgreSQL. Fixtures drop and recreate its public schema. Never use Supabase or shared databases. |
+
+Backend precedence is process environment, then `backend/.env`, then root `.env`. Vite reads the frontend environment separately. Every `VITE_` value is public build output, so never put secrets there.
+
+## Database and data
+
+Schema changes use Alembic. From `backend`, against an intended, authorized database:
+
+```powershell
+uv run flask --app app db current
+uv run flask --app app db upgrade
+```
+
+Catalog imports replace seed tables:
 
 ```powershell
 uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-23.csv
 ```
 
-The importer reads `backend/data/courses.db` without modifying it, merging descriptions and liberal education designations from the full course CSV. Reviewed CSCI and MATH prerequisites take precedence; other prerequisites remain text-only warnings that do not block scheduling.
+The importer reads `backend/data/courses.db` without modifying it. Program requirements and sample plans live in versioned JSON files, separate from student records. Read [the data guide](backend/data/README.md) before rebuilding them.
 
-## Data Requirements
+Current accuracy boundaries:
 
-The application will use seeded and collected data for:
+- Sample-plan exports cover **161 public pages**, with **155 matched program files** and six explicitly unmatched pages.
+- Computer Science B.S. is the only program with a rule-by-rule reviewed overlay. Other majors are marked unverified.
+- Reviewed CSCI/MATH rows have structured prerequisites. Other prerequisite text remains visible with review warnings and does not silently become an enforced rule.
+- Missing LE categories receive labeled suggestions. Free elective gaps are reported as credits rather than filled with arbitrary classes.
+- Category suggestions are not a complete core/theme/writing tracker. See [#14](https://github.com/Troppy2/Gopher-Planner/issues/14).
+- Sample plans are not catalog-year-specific degree rules. Typical offering seasons do not guarantee a section or seat. Concurrent-enrollment enforcement and live section data remain future work.
+- PDFs and extracted document text are not persisted by the upload pipeline. Normalized coursework and audit metadata are stored. See [SECURITY.md](SECURITY.md).
 
-- Course codes, names, types, and descriptions
-- Historical professors for each course
-- Four-year plans for majors
-- Required courses and degree-completion requirements for each major
-- Course prerequisites and concurrent enrollment requirements
-- Non-course prerequisites, such as college or major restrictions
-- Preferred credit load
-- Professor ratings and course grade information where available
+## Development checks
 
-The core data model centers on courses and professors. The University of Minnesota course catalog provides most course and program information; professor history and related teaching data will need to be collected separately.
+From `backend`:
 
-Generation seeds the selected program's official sample plan, mapped backward from the graduation target, then fills unmet program requirements. Completed and registered courses are excluded. Missing liberal education categories receive labeled catalog suggestions; covered categories are skipped. Free electives are reported as credits and are not placed. Only Computer Science B.S. has a hand-reviewed requirement overlay; other majors remain unverified. Text-only prerequisites warn without blocking, and concurrent requirements are not enforced.
+```powershell
+uv run pytest -q
+```
 
-## Data Sources
+From `frontend`:
 
-- [University of Minnesota Course Catalog](https://umtc.catalog.prod.coursedog.com/courses)
-- [University of Minnesota Programs](https://umtc.catalog.prod.coursedog.com/programs)
-- [University of Minnesota four-year sample plans](https://sampleplan.umn.edu/tc-sample-plans), exported to `backend/data/catalog-exports/sample-plans.2026-11-23.csv` and built into `backend/data/sample_plans/`
-- Full course snapshot: `backend/data/catalog-exports/courses.2026-11-23.csv`, including liberal education designations
-- Rate My Professors, for professor ratings and reviews
-- Gopher Grades, for historical course grade information
+```powershell
+npx.cmd vitest run --maxWorkers=1
+npx.cmd tsc -b --noEmit
+npm run build
+```
 
-## Feasibility
+On macOS/Linux, use `npx` instead of `npx.cmd`. Backend tests default to disposable migrated SQLite databases. Use synthetic coursework and generated PDFs only.
 
-The feature set is intentionally focused. The primary challenge is building and maintaining a reliable course and professor data set. The course catalog contains much of the required course, prerequisite, and program information, leaving professor history and related course-performance data as the main additional data collection needs.
+The files under `.github/workflows/` are currently placeholders. Do not assume automated CI or deployment runs these commands.
 
-## Teamwork
+## Architecture
 
-### Team Members
+```mermaid
+flowchart LR
+    Browser[React and TypeScript] --> Proxy[Vite proxy or nginx]
+    Proxy --> API[Flask REST API]
+    API --> Services[Planning and coursework services]
+    Services --> DB[(PostgreSQL or local SQLite)]
+    Services --> Programs[Program and sample-plan JSON]
+    API --> Parser[Local PDF parsing and OCR]
+    Import[Catalog import script] --> DB
+```
 
-Quinn, Rohan, Inah, Cody, Sylvia, Brian, Siqi, and Saroj
+| Layer | Technology |
+| --- | --- |
+| Interface | React, TypeScript, Vite, React Router, Radix UI, CSS tokens, Lucide. |
+| Client state | TanStack Query for server data; Zustand for session, onboarding, and plan drafts. |
+| Graph | Canvas rendering with D3 force layout. |
+| API | Flask, Flask-CORS, SQLAlchemy, Flask-Migrate/Alembic. |
+| Storage | PostgreSQL in shared deployments; SQLite in local development/default tests. |
+| Parsing | pdfplumber, RapidOCR, ONNX Runtime, PDF page rendering. |
+| Tests | pytest, Vitest, Testing Library, MSW. |
 
-### Expectations
+Read [the architecture document](docs/ARCHITECTURE.md) for module boundaries, the data model, transactions, request flows, security, and deployment limits.
 
-- Each member should contribute no more than 1–2 hours per week outside of the regular Social Coding project meetings.
-- The team will communicate through a shared Discord server.
-- Questions, updates, and project decisions should be posted in Discord so the group can reference them.
-- Members should notify the team in Discord when they will be absent and communicate any work that needs to be reassigned.
-- Conflicts should be discussed promptly in Discord and resolved through an agreed-upon team decision.
+## Roadmap
 
-## Repository
+The [roadmap](docs/ROADMAP.md) reconciles GitHub issues with the working tree. An open issue can contain completed work; an unchecked box is not proof that its feature is absent.
 
-[GitHub repository](https://github.com/Troppy2/Gopher-Planner)
+Future-work themes include a fuller liberal-education tracker, student feedback on requirements, permitted section/instructor updates, professor ratings, grade distributions, optional lighter-workload suggestions, and supported Schedule Builder export. These are proposals, not release-date commitments.
+
+## Contributing
+
+Bug reproductions, accessibility improvements, synthetic parser fixtures, source-backed data corrections, tests, and documentation are welcome.
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md), follow the [Code of Conduct](CODE_OF_CONDUCT.md), and use [GitHub issues](https://github.com/Troppy2/Gopher-Planner/issues) for non-sensitive bugs and proposals. For security or data exposure, follow [SECURITY.md](SECURITY.md).
+
+Never attach real transcripts, student identifiers, session cookies, credentials, or `.env` files to a public issue or pull request.
+
+## Documentation
+
+| Document | Purpose |
+| --- | --- |
+| [Project guide](docs/PROJECT.md) | Product goals, workflows, terminology, and limits. |
+| [Architecture](docs/ARCHITECTURE.md) | Technical design, request flows, persistence, and operations. |
+| [Roadmap](docs/ROADMAP.md) | Issue-backed future work and status reconciliation. |
+| [Local development](docs/running-locally.md) | Setup details and troubleshooting. |
+| [Design rules](docs/design-rules.md) | Visual system, responsive behavior, accessibility, and states. |
+| [Requirement contract](docs/specs/program-requirements-v2.md) | Rule schema, evidence policies, and program versioning. |
+| [Data guide](backend/data/README.md) | Sources, imports, reviewed overlays, and sample plans. |
+
+Older handoffs and audits are point-in-time records. Check current source and the roadmap before using them as a current feature list.
+
+## License and credits
+
+Code is licensed under [Apache License 2.0](LICENSE). External datasets, university material, names, and linked services retain their own terms; this license does not grant additional rights to them.
+
+Built by Quinn, Rohan, Inah, Cody, Sylvia, Brian, Siqi, and Saroj through the Social Coding project, with help from contributors who improve the planner and verify its data.

@@ -2,7 +2,7 @@
 
 This guide covers running the React frontend and Flask backend on your machine.
 
-User data and the course catalog are hosted in one Supabase PostgreSQL database. After `uv run flask db upgrade`, load the catalog once with `uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-22.csv`; rerun it to replace the catalog with a new export. Flask connects through SQLAlchemy and psycopg using `DATABASE_URL`; Alembic manages the schema. Google sign-in and opaque-cookie sessions remain in Flask. The local SQLite test harness and local PostgreSQL option below remain available for development.
+Shared deployments use PostgreSQL for user data and the runtime course catalog; Supabase is one supported hosting destination. Local development can use PostgreSQL or the SQLite fallback. After migrating your intended local database, load catalog data with `uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-23.csv`. This command replaces catalog seed tables. Flask uses SQLAlchemy, Alembic migrations, Google credential verification, and opaque cookie sessions. See the [README](../README.md#quick-start) for the shortest local setup and [architecture](ARCHITECTURE.md) for deployment limits.
 
 ## Ports
 
@@ -15,16 +15,14 @@ User data and the course catalog are hosted in one Supabase PostgreSQL database.
 
 ## Prerequisites
 
-- Node.js 22 or newer and npm
+- Node.js 22.12 or newer and npm
 - Python 3.12 or newer
 - [uv](https://docs.astral.sh/uv/getting-started/installation/) for the backend
 - Docker Desktop if you want to run PostgreSQL or the full stack in containers
 - A Google OAuth client ID (see `VITE_GOOGLE_CLIENT_ID` below)
 
 ## 1. Environment variables
-TL;DR: All the enviorment variables are in the shared planning document.
-
-The backend and Docker Compose both read the repository root `.env` file. The backend does **not** read `backend/.env`.
+Configuration templates are committed; actual credentials are not. The backend reads existing process variables first, then `backend/.env`, then root `.env`. Docker Compose uses root `.env`. A value in `backend/.env` takes precedence over the same value in root `.env`, so keep the intended development target explicit.
 
 From the repository root:
 
@@ -179,10 +177,10 @@ Optional backend data overrides:
 3. On the profile step choose a major from the list, for example `Computer Science B.S.`, plus credit load and graduation target.
 4. On the building screen choose the catalog year (Fall 2026 for Computer Science) and build. The plan is saved and onboarding completes.
 5. On the dashboard, check credit progress, completed versus planned requirement status and any warnings.
-6. In the flow chart, press Build for a dry-run draft, add a catalog course from the catalog search, then Save. Try moving a prerequisite after its dependent to see the save violation.
+6. In the flow chart, press Build for a dry-run draft and choose Keep this plan after reviewing it. Add a catalog course or move a class; ordinary edits autosave. Try moving a prerequisite after its dependent to see the validation feedback.
 7. Reload the page: the plan, catalog year and summary persist.
 
-Not verified by the automated tests: real Google sign-in, PostgreSQL or Supabase migrations, real APAS or transcript PDFs, and browser rendering.
+Automated test results do not establish that a deployed OAuth client, shared database, proxy, or browser/device combination is configured correctly. PostgreSQL-specific tests require their own disposable database. Real APAS/transcript PDFs are excluded from test fixtures; use synthetic documents for parser verification.
 
 ## 5. Run everything with Docker Compose
 
@@ -224,7 +222,7 @@ The API container also runs `flask --app app db upgrade` on startup through `bac
 
 **`Missing required environment variables: GOOGLE_CLIENT_ID, JWT_SECRET`**
 
-The root `.env` file is missing or incomplete. The backend loads it relative to the repository root, not `backend/.env`.
+The environment is missing required values. The backend reads existing process variables first, then `backend/.env`, then root `.env`. Check the intended local configuration without printing its contents or committing secrets.
 
 **`connection refused` or `password authentication failed` when starting the backend**
 
