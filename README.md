@@ -71,11 +71,11 @@ The backend will use a simple relational REST API. FastAPI is the preferred opti
 
 ### Databases and Caching
 
-- SQLite for course catalog and program information
-- PostgreSQL for user data, saved plans, and other application data
+- One Supabase-hosted PostgreSQL database for user data, saved plans and the course catalog (`catalog_*` tables)
+- Versioned JSON files for program requirements
 - A simple in-memory Python dictionary for caching instead of Redis
 
-SQLite is appropriate for relatively stable catalog and program data, while PostgreSQL will store user-specific and relational application data.
+A single database keeps catalog joins, foreign keys and concurrent writes under one set of transactions. The catalog tables are seed data: only the import script writes them.
 
 ### Authentication
 
@@ -165,7 +165,6 @@ Create a `backend/.env` file for local settings. Do not commit credentials or pr
 
 ```env
 DATABASE_URL=postgresql+psycopg://gopher:gopher@localhost:5432/gopher_planner
-CATALOG_DATABASE_URL=sqlite:///./catalog.db
 ```
 
 ### Docker Compose
@@ -209,7 +208,7 @@ alembic history       # Show migration history
 alembic downgrade -1  # Revert the most recent migration
 ```
 
-The SQLite course catalog and program data should be loaded through a seed/import script rather than treated as user-data migrations. PostgreSQL must be running locally before applying PostgreSQL migrations.
+After migrating, load the course catalog with `uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-22.csv`. It reads `backend/data/courses.db` (hand-checked CSCI and MATH prerequisites) and adds every other current course from the CSV, whose prerequisites stay as unverified text that warns but never blocks. Both files are read-only; the catalog is replaced in one transaction. PostgreSQL must be running locally before applying PostgreSQL migrations.
 
 ## Data Requirements
 

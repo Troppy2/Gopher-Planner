@@ -2,6 +2,8 @@
 
 This guide covers running the React frontend and Flask backend on your machine.
 
+User data and the course catalog are hosted in one Supabase PostgreSQL database. After `uv run flask db upgrade`, load the catalog once with `uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-22.csv`; rerun it to replace the catalog with a new export. Flask connects through SQLAlchemy and psycopg using `DATABASE_URL`; Alembic manages the schema. Google sign-in and opaque-cookie sessions remain in Flask. The local SQLite test harness and local PostgreSQL option below remain available for development.
+
 ## Ports
 
 | Service | URL | Notes |
@@ -20,6 +22,7 @@ This guide covers running the React frontend and Flask backend on your machine.
 - A Google OAuth client ID (see `VITE_GOOGLE_CLIENT_ID` below)
 
 ## 1. Environment variables
+TL;DR: All the enviorment variables are in the shared planning document.
 
 The backend and Docker Compose both read the repository root `.env` file. The backend does **not** read `backend/.env`.
 
@@ -136,11 +139,50 @@ Useful commands:
 ```powershell
 npm run dev        # development server with hot reload
 npm run typecheck  # TypeScript checks only
+npm test           # Vitest, jsdom, Testing Library and MSW
 npm run build      # typecheck and production build into dist/
 npm run preview    # serve the production build on port 5173
 ```
 
-Note: several screens still read from mock data in `src/api/mock/`, while the sign-in and profile calls use the real backend. The frontend README explains how to replace the mocks.
+On Windows PowerShell, if script execution policy blocks `npm`, run `npm.cmd test`, `npm.cmd run typecheck` and `npm.cmd run build` instead.
+
+Coursework, summary, plan, generation and transcripts use the real backend. Only the select options in `getOptions` (standings, graduation targets, subjects, careers) and the Settings preview controls still read `src/api/mock/`; majors come from `GET /api/v1/programs`.
+
+## Backend tests
+
+From `backend`:
+
+```powershell
+uv run pytest -q
+```
+
+Tests apply the Alembic migrations to a throwaway database, import a small synthetic catalog and use synthetic program files. They never write `backend/data/courses.db`, the shipped program files or Supabase.
+
+By default they use SQLite. To run them on PostgreSQL (needed for the locking tests), start a disposable container and point `TEST_DATABASE_URL` at it. Every test drops and recreates its `public` schema, so never point it at Supabase or any database you care about:
+
+```powershell
+docker run -d --name gopher-test-pg -e POSTGRES_USER=gp -e POSTGRES_PASSWORD=synthetic -e POSTGRES_DB=gp_test -p 55432:5432 postgres:17-alpine
+$env:TEST_DATABASE_URL = "postgresql+psycopg://gp:synthetic@localhost:55432/gp_test"
+uv run pytest -q
+```
+
+Optional backend data overrides:
+
+| Variable | Default | Purpose |
+| --- | --- | --- |
+| `PROGRAM_DATA_PATH` | `backend/data/programs` | Directory of versioned v2 program requirement files. |
+
+## Manual smoke test
+
+1. Sign in with an eligible University of Minnesota Google account.
+2. On the coursework step, upload an APAS PDF or enter courses manually (or skip), then continue. Refresh and go back: entries return from the server.
+3. On the profile step choose a major from the list, for example `Computer Science B.S.`, plus credit load and graduation target.
+4. On the building screen choose the catalog year (Fall 2026 for Computer Science) and build. The plan is saved and onboarding completes.
+5. On the dashboard, check credit progress, completed versus planned requirement status and any warnings.
+6. In the flow chart, press Build for a dry-run draft, add a catalog course from the catalog search, then Save. Try moving a prerequisite after its dependent to see the save violation.
+7. Reload the page: the plan, catalog year and summary persist.
+
+Not verified by the automated tests: real Google sign-in, PostgreSQL or Supabase migrations, real APAS or transcript PDFs, and browser rendering.
 
 ## 5. Run everything with Docker Compose
 

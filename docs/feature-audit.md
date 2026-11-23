@@ -5,6 +5,8 @@
 **Revision audited:** `0e81d38` on `main`
 **Scope:** `frontend/` and `backend/`, checked against `README.md`, `docs/design-rules.md`, and `docs/Gopher Planner Frontend Technical Design.md`
 
+**Updated 2026-11-22 (core planner P0).** The audit date and revision above are unchanged; this note and the status table reflect the working tree after the P0 slices. Changed: coursework, summary, plan read/write, synchronous generation (with dry runs) and transcript upload now use a real, tested Flask API and are wired in the frontend; versioned program requirement files exist for all 155 undergraduate majors in the 2026-11-22 Twin Cities catalog snapshot (Computer Science B.S. hand-reviewed, the rest machine-mapped with explicit review states); the dashboard separates credit progress from completed and projected requirement progress; catalog-only courses can be added to a plan; backend and frontend test suites exist. Still open: the transcript parser is provisional until a real redacted APAS sample is checked, liberal education and free electives are not generated, concurrent enrollment, professors and Gopher Grades remain out of scope, and real Google sign-in, PostgreSQL and browser flows have not been verified in this work. Details: [P0 report](core-planner-p0-report.md).
+
 ## How to read this document
 
 | Status | Meaning |
@@ -47,22 +49,22 @@ Two smaller issues can break a local setup or a new contributor: `frontend/.env.
 | Google sign-in and sessions | Complete | Complete | Complete |
 | Profile read and update | Complete | Complete | Complete |
 | App shell, routing, responsive layout | Complete | Not applicable | Complete |
-| Course catalog browse and search | Partial | Partial | Partial |
+| Course catalog browse and search | Partial | Partial | Partial (catalog-only Add now works) |
 | Course detail drawer | Partial | Partial | Partial |
-| Transcript upload and parsing | Mock only | Missing | Not started |
-| Manual coursework entry | Partial | Missing | Not started |
-| Four-year plan generation | Mock only | Missing | Not started |
-| Plan persistence and saved plans | Mock only | Missing | Not started |
-| Dashboard summary and progress | Partial | Missing | Not started |
-| Flow chart and semester editing | Partial | Missing | Partial |
-| Degree requirements | Partial | Missing | Not started |
-| Prerequisite and concurrent validation | Partial | Partial | Not started |
+| Transcript upload and parsing | Complete | Partial (APAS audit rows checked against real audits 2026-11-23; other transcript layouts unverified) | Partial |
+| Manual coursework entry | Complete | Complete | Complete |
+| Four-year plan generation | Complete | Partial (program courses only; no liberal education or free electives) | Partial |
+| Plan persistence and saved plans | Complete | Complete (one plan per user) | Complete |
+| Dashboard summary and progress | Complete | Complete | Complete |
+| Flow chart and semester editing | Complete | Complete | Complete (not browser-verified) |
+| Degree requirements | Complete | Partial (CS hand-reviewed; other majors machine-mapped) | Partial |
+| Prerequisite and concurrent validation | Partial | Partial (full trees; concurrent rules not enforced) | Partial |
 | Professor data and Rate My Professors | Missing | Missing | Not started |
 | Gopher Grades | Stub | Missing | Not started |
 | Settings | Partial | Complete | Partial |
-| Catalog seed data and programs | Not applicable | Partial | Partial |
-| Caching | Not applicable | Missing | Missing |
-| Automated tests and linting | Missing | Missing | Missing |
+| Catalog seed data and programs | Not applicable | Partial (refreshable snapshots and v2 files) | Partial |
+| Caching | Not applicable | Partial (in-memory program cache) | Partial |
+| Automated tests and linting | Partial (Vitest, no linting) | Partial (pytest, no linting) | Partial |
 
 ## 1. Authentication and profile
 
@@ -91,6 +93,8 @@ Two smaller issues can break a local setup or a new contributor: `frontend/.env.
 - Auth and profile have backend tests for non-UMN rejection, expired sessions, invalid origin, and profile validation.
 
 ## 2. Onboarding: transcript upload, parsing, and manual entry
+
+Update 2026-11-22: manual entries and Skip persist through `PUT /coursework` and restore after a refresh; uploads go to `POST /transcripts` with real parsed, no-text, failed and OCR-unavailable states. The parser reads a documented synthetic format only.
 
 This is the largest missing user flow. The UI exists, but no real coursework reaches the database.
 
@@ -124,6 +128,8 @@ This is the largest missing user flow. The UI exists, but no real coursework rea
 
 ## 3. Four-year plan generation
 
+Update 2026-11-22: `POST /plans/generate` runs a deterministic requirement-aware engine (whole alternatives, quotas, sharing, waivers, prerequisite closure, load and season limits), supports dry runs, and requires an explicit catalog year for known majors. It plans program courses only.
+
 ### Current behavior
 
 `generatePlan()` waits and returns `{ jobId: "mock-job" }` (`frontend/src/api/endpoints.ts:102-106`). `BuildingPlanScreen` runs artificial timers, calls `updateProfile({ onboarded: true })`, then clears the onboarding store (`frontend/src/screens/onboarding/BuildingPlanScreen.tsx:21-52`).
@@ -151,6 +157,8 @@ The flow-chart Build action is also local, running a greedy client-side algorith
 
 ## 4. Plan persistence and saved plans
 
+Update 2026-11-22: `plans` and `plan_courses` persist one plan per user with its confirmed catalog term; `PUT /plan` validates the whole plan atomically and reports violations.
+
 ### What works
 
 - The frontend has a solid draft model: saved plan plus unsaved changes, an unsaved bar, discard, and optimistic save behavior (`frontend/src/features/plan/usePlan.ts`, `frontend/src/features/plan/plan.store.ts`).
@@ -176,6 +184,8 @@ The flow-chart Build action is also local, running a greedy client-side algorith
 
 ## 5. Dashboard and summary
 
+Update 2026-11-22: `GET /summary` and the dashboard use real data, with skeletons, N/A values, visible errors, credit progress labeled as credits only, and separate completed and projected requirement status.
+
 ### What works
 
 - The dashboard layout, metric cards, current classes, future classes, user details, and next-semester link exist (`frontend/src/screens/dashboard/DashboardScreen.tsx`).
@@ -197,6 +207,8 @@ The flow-chart Build action is also local, running a greedy client-side algorith
 - Dashboard data changes when the student's plan changes.
 
 ## 6. Flow chart and semester editing
+
+Update 2026-11-22: Build requests a server dry run as an unsaved draft, Save sends changes with the selected catalog year, and a 409 restores the draft with violations in words.
 
 ### What works
 
@@ -226,6 +238,8 @@ The flow-chart Build action is also local, running a greedy client-side algorith
 - Prerequisite and concurrent conflicts appear before save.
 
 ## 7. Course catalog
+
+Update 2026-11-22: Add to plan works for catalog courses outside the saved plan; courses with unknown prerequisites show a reason and a disabled Add.
 
 ### What works
 
@@ -273,6 +287,8 @@ The flow-chart Build action is also local, running a greedy client-side algorith
 - A catalog-only course can be added from the drawer.
 
 ## 9. Degree requirements and prerequisite validation
+
+Update 2026-11-22: v2 requirement files, a completed/projected evaluator and full prerequisite-tree validation exist. Free-text prerequisites stay nonblocking with a review warning; concurrent rules are not enforced.
 
 ### What works
 
