@@ -15,7 +15,7 @@ import {
   LayoutGrid,
   LogOut,
   Settings,
-  Waypoints,
+  CalendarRange,
   Search,
 } from "lucide-react";
 import { getProfile } from "@/api/endpoints";
@@ -31,7 +31,7 @@ import { useHideOnScroll } from "@/hooks/useHideOnScroll";
 
 const NAV = [
   { to: "/dashboard", label: "Dashboard", Icon: LayoutGrid },
-  { to: "/flow-chart", label: "My plan", Icon: Waypoints },
+  { to: "/flow-chart", label: "My plan", Icon: CalendarRange },
   { to: "/catalog", label: "Catalog", Icon: BookOpen },
   { to: "/settings", label: "Settings", Icon: Settings },
 ];

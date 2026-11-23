@@ -216,3 +216,15 @@
   min-width: 0;
   overflow-wrap: anywhere;
 }
+
+/* Space the review callout, the tree, and the catalog text apart. */
+.prerequisite-section {
+  display: grid;
+  gap: var(--s3);
+}
+.prerequisite-section > .dsub {
+  margin-bottom: 0;
+}
+.prerequisite-condition {
+  padding: var(--s3);
+}

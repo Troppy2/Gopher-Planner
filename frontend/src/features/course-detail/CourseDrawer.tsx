@@ -204,7 +204,7 @@ export function CourseDrawer() {
             )}
           </section>
 
-          <section>
+          <section className="prerequisite-section">
             <h3 className="dsub">Prerequisites</h3>
 
             {hasNoPrerequisites ? (
