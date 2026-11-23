@@ -1,19 +1,16 @@
 
 import json
-import sqlite3
-from pathlib import Path
-from urllib.parse import quote
 
 from flask import Blueprint, current_app, jsonify, request
+from sqlalchemy.exc import SQLAlchemyError
 
-from app.api.v1.auth import read_session
+from app.core.auth import read_session
+from app.repositories import catalog
 
 courses_bp = Blueprint("courses", __name__, url_prefix="/api/v1/courses")
 
-# backend/app/api/v1/courses.py -> backend/data/courses.db
-CATALOG_DB = Path(__file__).resolve().parents[3] / "data" / "courses.db"
-
 TERMS = ("Fall", "Spring", "Summer")
+COLUMNS = [column.name for column in catalog.CatalogCourse.__table__.columns]
 AVAILABILITY_OPTIONS = ("Offered next term", "Not offered next term")
 
 
@@ -25,15 +22,6 @@ def require_auth():
         return None, (jsonify({"error": "Not signed in"}), 401)
 
     return user_session, None
-
-
-def open_catalog() -> sqlite3.Connection:
-    """Open the catalog read-only; never modify it through the API."""
-    db_uri = f"file:{quote(str(CATALOG_DB.resolve()), safe='/')}?mode=ro"
-    connection = sqlite3.connect(db_uri, uri=True)
-    connection.row_factory = sqlite3.Row
-    connection.execute("PRAGMA query_only = ON")
-    return connection
 
 
 def parse_json(value: str | None):
@@ -50,7 +38,8 @@ def parse_offered(value: str) -> list[str]:
     return [term for term in TERMS if term in value]
 
 
-def serialize_course(row: sqlite3.Row) -> dict:
+def serialize_course(course) -> dict:
+    row = {column: getattr(course, column) for column in COLUMNS}
     return {
         "id": row["id"],
         "code": row["course_code"],
@@ -76,6 +65,7 @@ def serialize_course(row: sqlite3.Row) -> dict:
         "unresolvedPrerequisiteCourses": parse_json(
             row["prerequisite_unresolved_courses"]
         ) or [],
+        "leAttributes": [part.strip() for part in (getattr(course, "le_attributes", "") or "").split(";") if part.strip()],
     }
 
 
@@ -127,85 +117,18 @@ def get_courses():
             "error": "limit must be 1–100 and offset must be nonnegative"
         }), 400
 
-    where = []
-    params: list[object] = []
-
-    if query:
-        pattern = f"%{query}%"
-        where.append(
-            "(course_code LIKE ? OR course_name LIKE ? "
-            "OR description LIKE ?)"
-        )
-        params.extend([pattern, pattern, pattern])
-
-    if subject:
-        where.append("subject_code = ?")
-        params.append(subject)
-
-    if level:
-        where.append("substr(course_number, 1, 1) = ?")
-        params.append(level)
-
-    if credits == "1 to 2":
-        where.append("CAST(maximum_credits AS REAL) <= 2")
-    elif credits == "3":
-        where.append(
-            "CAST(minimum_credits AS REAL) = 3 "
-            "AND CAST(maximum_credits AS REAL) = 3"
-        )
-    elif credits == "4 or more":
-        where.append("CAST(minimum_credits AS REAL) >= 4")
-
-    if term:
-        # Includes both regular and periodic offerings for that term.
-        where.append("typically_offered LIKE ?")
-        params.append(f"%{term}%")
-
-    if requirement:
-        if requirement.lower() in {"none", "-"}:
-            where.append("requirements = '-'")
-        else:
-            where.append("requirements = ?")
-            params.append(requirement)
-
-    if availability:
-        # Initial behavior matches the frontend's Spring default.
-        # Alternating-year offerings need year-aware logic to be exact.
-        where.append("typically_offered LIKE ?")
-        params.append(f"%{next_term}%")
-
-        if availability == "Not offered next term":
-            where[-1] = "typically_offered NOT LIKE ?"
-
-        where.append("typically_offered != '-'")
-
-    clause = f"WHERE {' AND '.join(where)}" if where else ""
-
     try:
-        with open_catalog() as connection:
-            total = connection.execute(
-                f"SELECT COUNT(*) FROM courses {clause}",
-                params,
-            ).fetchone()[0]
-
-            rows = connection.execute(
-                f"""
-                SELECT *
-                FROM courses
-                {clause}
-                ORDER BY subject_code, course_number, course_code
-                LIMIT ? OFFSET ?
-                """,
-                [*params, limit, offset],
-            ).fetchall()
-
+        rows, total = catalog.search_courses(
+            query=query, subject=subject, level=level, credits=credits, term=term,
+            requirement=requirement, availability=availability, next_term=next_term,
+            limit=limit, offset=offset)
         return jsonify({
             "courses": [serialize_course(row) for row in rows],
             "total": total,
             "limit": limit,
             "offset": offset,
         })
-    except sqlite3.Error:
+    except SQLAlchemyError:
         current_app.logger.exception("Catalog query failed")
         return jsonify({"error": "Could not load the course catalog"}), 500
 
@@ -217,35 +140,15 @@ def get_course(code: str):
         return auth_error
 
     try:
-        with open_catalog() as connection:
-            row = connection.execute(
-                "SELECT * FROM courses WHERE course_code = ? LIMIT 1",
-                (code.strip().upper(),),
-            ).fetchone()
-
-            if row is None:
-                return jsonify({"error": "Course not found"}), 404
-
-            course = serialize_course(row)
-
-            prerequisite_rows = connection.execute(
-                """
-                SELECT prerequisite.course_code, prerequisite.course_name
-                FROM prerequisite_edges AS edge
-                JOIN courses AS prerequisite
-                  ON prerequisite.id = edge.prerequisite_course_id
-                WHERE edge.course_id = ?
-                ORDER BY prerequisite.course_code
-                """,
-                (row["id"],),
-            ).fetchall()
-
-            course["resolvedPrerequisites"] = [
-                {"code": item["course_code"], "title": item["course_name"]}
-                for item in prerequisite_rows
-            ]
-
+        row = catalog.get_course(code.strip().upper())
+        if row is None:
+            return jsonify({"error": "Course not found"}), 404
+        course = serialize_course(row)
+        course["resolvedPrerequisites"] = [
+            {"code": item_code, "title": title}
+            for item_code, title in catalog.resolved_prerequisites(row.id)
+        ]
         return jsonify(course)
-    except sqlite3.Error:
+    except SQLAlchemyError:
         current_app.logger.exception("Course detail query failed")
         return jsonify({"error": "Could not load course details"}), 500
