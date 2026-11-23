@@ -59,6 +59,6 @@ describe("GoogleSignInButton", () => {
     vi.stubEnv("VITE_GOOGLE_CLIENT_ID", "");
     fakeGoogle();
     render(<GoogleSignInButton onCredential={() => {}} />);
-    expect(screen.getByRole("alert")).toHaveTextContent(/not configured/i);
+    expect(screen.getByRole("alert")).toHaveTextContent(/unavailable right now/i);
   });
 });

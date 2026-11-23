@@ -30,7 +30,8 @@
   line-height: 1;
   color: var(--ink);
   margin: 20px 0 24px;
-  max-width: 11ch;
+  max-width: 14ch;
+  text-wrap: balance;
 }
 .login-lede {
   font-size: 17px;
@@ -49,23 +50,6 @@
   font-weight: 400;
   font-size: 30px;
   color: var(--maroon);
-}
-.gbtn {
-  width: 100%;
-  margin-top: 8px;
-  min-height: 52px;
-  font-size: 16px;
-}
-.gbtn .g {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: #fff;
-  color: #4285f4;
-  display: grid;
-  place-items: center;
-  font-weight: 800;
-  font-size: 15px;
 }
 .legal {
   display: flex;

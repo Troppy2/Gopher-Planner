@@ -3,6 +3,7 @@ import { useNavigate } from "react-router";
 import { Callout, Spinner } from "@/ui";
 import { useSession } from "@/features/auth/session.store";
 import { GoogleSignInButton } from "@/features/auth/GoogleSignInButton";
+import { NotUmnAccountError } from "@/features/auth/google";
 import { loginWithGoogle } from "@/features/auth/google";
 import "./login.css";
 
@@ -26,14 +27,11 @@ export default function LoginScreen() {
         signIn(result.user);
         navigate("/dashboard", { replace: true });
       } catch (error) {
-        const message =
-          error instanceof Error ? error.message : "Unable to sign in";
-
-        if (message.includes("@umn.edu")) {
+        if (error instanceof NotUmnAccountError) {
           setState("rejected");
         } else {
           setState("error");
-          setErrorMessage(message);
+          setErrorMessage("Something went wrong on our end. Try again in a minute.");
         }
       }
     },
@@ -46,13 +44,11 @@ export default function LoginScreen() {
         <img className="login-mark" src="/favicon.png" alt="" />
         <p className="login-name">Gopher Planner</p>
         <h1 className="slogan">
-          Tired of Looking?
-          <br />
-          Try Gopher Planner!
+          Tired of Looking? Try Gopher Planner!
         </h1>
         <p className="login-lede">
-          A four-year course plan for University of Minnesota students, built
-          from your APAS, your major, and the credit load you want.
+          Upload your APAS. Get a four-year plan for your major, at the credit
+          load you want.
         </p>
       </div>
 
@@ -60,13 +56,12 @@ export default function LoginScreen() {
         <section className="signin surf" aria-labelledby="signin-h">
           <h2 id="signin-h">Sign in</h2>
           <p className="muted">
-            Use your University of Minnesota Google account.
+            Use your University of Minnesota Google account (@umn.edu).
           </p>
 
           {state === "rejected" && (
             <Callout tone="error" title="That account can't sign in">
-              Use your University of Minnesota Google account, the one ending in
-              @umn.edu.
+              Switch to the Google account that ends in @umn.edu.
             </Callout>
           )}
 
@@ -85,9 +80,6 @@ export default function LoginScreen() {
             <GoogleSignInButton onCredential={onCredential} />
           )}
 
-          <p className="hint">
-            Only University of Minnesota accounts (@umn.edu) can sign in.
-          </p>
         </section>
 
         <nav className="legal" aria-label="Project links">
@@ -98,8 +90,6 @@ export default function LoginScreen() {
           >
             GitHub
           </a>
-          <a href="#terms">Terms</a>
-          <a href="#privacy">Privacy</a>
         </nav>
       </div>
     </div>

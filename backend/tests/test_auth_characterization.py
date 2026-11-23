@@ -13,7 +13,7 @@ def test_google_login_rejects_ineligible_claims(client, monkeypatch, post_header
     monkeypatch.setattr("app.core.google_auth.id_token.verify_oauth2_token", lambda *a, **kw: claims)
     response = client.post("/api/v1/auth/google", json={"credential": "synthetic"}, headers=post_headers)
     assert response.status_code == status
-    assert response.json == {"error": error}
+    assert response.json == ({"error": error, "code": "not_umn"} if status == 403 else {"error": error})
 
 
 @pytest.mark.parametrize("state", ["expired", "revoked"])

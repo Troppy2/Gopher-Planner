@@ -31,6 +31,9 @@ async function getErrorMessage(
   return fallback;
 }
 
+/** Thrown when the server rejects a Google account that isn't a verified @umn.edu account. */
+export class NotUmnAccountError extends Error {}
+
 export async function loginWithGoogle(
   credential: string,
 ): Promise<GoogleLoginResponse> {
@@ -43,6 +46,7 @@ export async function loginWithGoogle(
     body: JSON.stringify({ credential }),
   });
 
+  if (response.status === 403) throw new NotUmnAccountError("Not a UMN account");
   if (!response.ok) {
     throw new Error(await getErrorMessage(response, "Google sign-in failed"));
   }

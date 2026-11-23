@@ -105,7 +105,7 @@ export function GoogleSignInButton({ onCredential }: GoogleSignInButtonProps) {
         </p>
       )}
       {status === "unconfigured" && (
-        <p role="alert">Google sign-in is not configured. Set VITE_GOOGLE_CLIENT_ID and restart the app.</p>
+        <p role="alert">Sign-in is unavailable right now. Try again later.</p>
       )}
       <div ref={buttonRef} hidden={status !== "ready" && status !== "loading"} />
     </div>

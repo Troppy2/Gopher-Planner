@@ -82,7 +82,7 @@ def google_login():
         )
     except PermissionError:
         return jsonify(
-            {"error": "Only verified @umn.edu accounts can sign in"}
+            {"error": "Only verified @umn.edu accounts can sign in", "code": "not_umn"}
         ), 403
     except (ValueError, GoogleAuthError):
         return jsonify({"error": "Invalid Google credential"}), 401
