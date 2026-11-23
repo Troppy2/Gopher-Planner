@@ -9,6 +9,7 @@ from app.api.v1.profile import profile_bp
 from app.api.v1.summary import summary_bp
 from app.api.v1.coursework import coursework_bp
 from app.api.v1.plan import plan_bp
+from app.api.v1.options import options_bp
 from app.api.v1.transcripts import transcripts_bp
 from app.core.config import Settings
 from app.extensions import db, migrate
@@ -41,6 +42,7 @@ def create_app() -> Flask:
     app.register_blueprint(summary_bp)
     app.register_blueprint(coursework_bp)
     app.register_blueprint(plan_bp)
+    app.register_blueprint(options_bp)
     app.register_blueprint(transcripts_bp)
 
     @app.get("/health")

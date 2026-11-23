@@ -51,8 +51,16 @@ const plan = { terms: ["Completed", "Fall 2026"], currentTerm: "Fall 2026", base
   catalogTerm: null, availableCatalogTerms: ["Fall 2026"], warnings: ["program_version_unconfirmed"], requirementProgress: [] };
 
 describe("API endpoints", () => {
-  it("reports a failed program list instead of silently hiding supported majors", async () => {
-    capture("get", "/programs", { error: "Unavailable" }, 503);
+  it("getOptions reads the real options endpoint with credentials", async () => {
+    const options = { majors: ["Synthetic B.S."], unverifiedMajors: ["Synthetic B.S."], standings: ["Freshman"],
+      graduationTargets: ["Spring 2027"], subjects: ["CSCI"], careers: {} };
+    const seen = capture("get", "/options", options);
+    await expect(getOptions()).resolves.toEqual(options);
+    expect(seen).toMatchObject({ method: "GET", url: "/api/v1/options" });
+  });
+
+  it("reports failed options instead of silently hiding supported majors", async () => {
+    capture("get", "/options", { error: "Unavailable" }, 503);
     await expect(getOptions()).rejects.toBeInstanceOf(ApiError);
   });
   it("getSummary reads the real summary with credentials", async () => {

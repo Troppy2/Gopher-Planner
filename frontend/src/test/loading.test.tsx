@@ -43,6 +43,7 @@ it.each([
     const data = path.endsWith("/profile") ? actionProfile : path.endsWith("/plan") ? actionPlan
       : path.endsWith("/summary") ? { creditsCompleted: 0, creditsTotal: 24, gpa: null, percentComplete: null }
       : path.endsWith("/programs") ? { programs: [] }
+      : path.endsWith("/options") ? { majors: [], unverifiedMajors: [], standings: [], graduationTargets: [], subjects: [], careers: {} }
       : path.endsWith("/coursework") ? { courses: [{ code: "TEST 1001", title: "Synthetic completed course", credits: 3, status: "done", term: "Spring 2026", grade: "A" }], skipped: false }
       : path.endsWith("/courses") ? { courses: [course], total: 1, limit: 20, offset: 0 } : course;
     return HttpResponse.json(data);
