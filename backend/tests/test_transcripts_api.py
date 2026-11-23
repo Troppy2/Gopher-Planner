@@ -289,3 +289,52 @@ def test_unknown_subject_in_text_layer_triggers_ocr(client, catalog, make_user, 
     login_as(make_user())
     upload(client, post_headers, pdf(["SP26 1CSCI1001 4.0 A FINE", "SP26 1QQQQ1000 4.0 A UNKNOWN"]))
     assert calls
+
+
+def huge_page_pdf(width_pt, height_pt, pages=1):
+    from reportlab.pdfgen import canvas
+
+    buffer = io.BytesIO()
+    page = canvas.Canvas(buffer, pagesize=(width_pt, height_pt))
+    for _ in range(pages):
+        page.showPage()
+    page.save()
+    return buffer.getvalue()
+
+
+def test_ocr_scales_oversized_pages_down_to_the_pixel_budget(monkeypatch):
+    from app.parsers import ocr
+
+    seen = []
+    monkeypatch.setattr(ocr, "recognize_page", lambda image: seen.append(image.size) or [])
+    ocr.ocr_pdf_text(huge_page_pdf(14000, 14000))  # about 194 inches square
+    assert seen and seen[0][0] * seen[0][1] <= ocr.MAX_PAGE_PIXELS
+
+
+def test_ocr_stops_at_the_total_pixel_budget(monkeypatch):
+    from app.parsers import ocr
+
+    seen = []
+    monkeypatch.setattr(ocr, "recognize_page", lambda image: seen.append(image.size) or [])
+    monkeypatch.setattr(ocr, "MAX_TOTAL_PIXELS", ocr.MAX_PAGE_PIXELS * 2)
+    ocr.ocr_pdf_text(huge_page_pdf(14000, 14000, pages=5))
+    assert len(seen) == 2
+
+
+def test_text_extraction_reads_at_most_the_page_limit_and_caps_text(monkeypatch):
+    from app.parsers import pdf_text
+
+    many = pdf(["CSCI 1133  Intro  4.0  A"] * 3)
+    assert "CSCI 1133" in pdf_text.extract_pdf_text(many)
+    monkeypatch.setattr(pdf_text, "MAX_CHARS", 10)
+    assert len(pdf_text.extract_pdf_text(many)) <= 10
+    from reportlab.pdfgen import canvas
+    buffer = io.BytesIO()
+    page = canvas.Canvas(buffer)
+    for index in range(pdf_text.MAX_PAGES + 5):
+        page.drawString(40, 800, f"PAGE{index:03d}")
+        page.showPage()
+    page.save()
+    monkeypatch.setattr(pdf_text, "MAX_CHARS", 10**6)
+    text = pdf_text.extract_pdf_text(buffer.getvalue())
+    assert f"PAGE{pdf_text.MAX_PAGES - 1:03d}" in text and f"PAGE{pdf_text.MAX_PAGES:03d}" not in text

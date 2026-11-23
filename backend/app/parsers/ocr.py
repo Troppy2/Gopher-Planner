@@ -15,6 +15,8 @@ for name in ("RapidOCR", "rapidocr"):
 
 MAX_PAGES = 15  # a transcript is a few pages; this bounds request time
 RENDER_SCALE = 3  # 216 DPI: enough detail for small print without slowing recognition much
+MAX_PAGE_PIXELS = 25_000_000  # a letter page at RENDER_SCALE is about 4.5 MP; larger pages are scaled down
+MAX_TOTAL_PIXELS = 120_000_000  # stops a document of oversized pages from exhausting memory or time
 
 _engine = None
 _engine_lock = threading.Lock()
@@ -87,11 +89,17 @@ def ocr_pdf_text(data):
 
     document = pypdfium2.PdfDocument(io.BytesIO(data))
     try:
-        output = []
+        output, budget = [], MAX_TOTAL_PIXELS
         for index in range(min(len(document), MAX_PAGES)):
             page = document[index]
             try:
-                image = page.render(scale=RENDER_SCALE).to_pil().convert("RGB")
+                width, height = page.get_size()  # points
+                scale = min(RENDER_SCALE, (MAX_PAGE_PIXELS / max(width * height, 1.0)) ** 0.5)
+                pixels = width * height * scale * scale
+                if pixels > budget:
+                    break
+                budget -= pixels
+                image = page.render(scale=scale).to_pil().convert("RGB")
             finally:
                 page.close()
             recognized = recognize_page(image)
