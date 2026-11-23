@@ -13,11 +13,6 @@ export const FILTERS: Array<{
   options: string[];
 }> = [
   {
-    key: "subject",
-    label: "Subject",
-    options: ["CSCI", "MATH"],
-  },
-  {
     key: "level",
     label: "Level",
     options: ["1xxx", "2xxx", "3xxx", "4xxx", "5xxx"],
@@ -48,6 +43,11 @@ export function FilterFields({
 }) {
   return (
     <>
+      <div className="field ffield">
+        <label className="label" htmlFor="filter-subject">Subject</label>
+        <input id="filter-subject" className="input" placeholder="Any, e.g. STAT" autoCapitalize="characters" spellCheck={false}
+          maxLength={6} value={values.subject} onChange={(e) => onChange("subject", e.target.value.toUpperCase().replace(/[^A-Z&]/g, ""))} />
+      </div>
       {FILTERS.map((filter) => (
         <Select
           key={filter.key}

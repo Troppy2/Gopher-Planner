@@ -9,6 +9,7 @@ import { PrerequisiteTree } from "./PrerequisiteTree";
 import { useCourseParam } from "./useCourseParam";
 import { PlanCourseActions } from "@/screens/flow-chart/components/PlanCourseActions";
 import { SlotTag } from "@/features/plan/PlanLabels";
+import { DetailsSkeleton } from "@/features/loading/ScreenSkeletons";
 import "./course-detail.css";
 
 function formatCredits(course: CatalogCourse): string {
@@ -150,10 +151,7 @@ export function CourseDrawer() {
       {(planCourse?.status === "plan" || planCourse?.status === "prog") && plan && profile && <PlanCourseActions key={code} course={planCourse} courses={courses} plan={plan} profile={profile}
         onMove={add} onCredits={editCredits} onRemove={(value) => { remove(value); close(); }} onSwap={(value, replacement) => { swap(value, replacement); close(); }} announce={announce} />}
       {details.isPending && (
-        <div className="detail-loading" role="status">
-          <RefreshCw className="ic sm" aria-hidden />
-          Loading course details…
-        </div>
+        <DetailsSkeleton />
       )}
 
       {details.isError && (
@@ -228,22 +226,11 @@ export function CourseDrawer() {
                 )}
 
                 <PrerequisiteTree expression={prerequisiteExpression} />
-
-                <p className="muted prerequisite-status">
-                  Prerequisite data status: {formatValue(prerequisiteStatus)}
-                </p>
               </>
             ) : (
-              <>
-                <p className="muted">
-                  Structured prerequisite requirements are not available for
-                  this course.
-                </p>
-
-                <p className="muted prerequisite-status">
-                  Prerequisite data status: {formatValue(prerequisiteStatus)}
-                </p>
-              </>
+              <p className="muted">
+                {hasPrerequisiteSource ? "Check the catalog text below." : "No prerequisite details for this course."}
+              </p>
             )}
 
             {hasPrerequisiteSource && (
@@ -257,7 +244,7 @@ export function CourseDrawer() {
           <div className="dlinks">
             <a
               className="btn ghost sm"
-              href="https://umn.lol"
+              href={`https://umn.lol/class/${encodeURIComponent(code.replace(/\s+/g, ""))}`}
               target="_blank"
               rel="noopener noreferrer"
             >

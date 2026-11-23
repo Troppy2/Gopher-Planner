@@ -65,7 +65,7 @@
   display: grid;
   grid-template-columns:
     minmax(0, 2fr) minmax(60px, 0.5fr) minmax(120px, 0.9fr)
-    minmax(90px, 1fr) 232px;
+    minmax(90px, 1fr) 96px;
   gap: 12px;
   align-items: center;
 }
@@ -117,12 +117,9 @@
 
 .acts {
   display: grid;
-  grid-template-columns: 112px 112px;
-  gap: 8px;
   justify-content: end;
 }
 
-/* Fixed slots keep View details aligned when Add to plan is absent. */
 .acts .btn {
   width: 100%;
 }
@@ -182,11 +179,6 @@
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 6px 12px;
     padding: 14px 16px;
-  }
-
-  .view-btn,
-  .acts-pad {
-    display: none;
   }
 
   .cm span {

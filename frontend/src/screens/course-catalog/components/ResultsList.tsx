@@ -1,4 +1,5 @@
 import type { CatalogCourse, Course } from "@/api/types";
+import { Plus } from "lucide-react";
 import { Button, StatusBadge } from "@/ui";
 
 interface CatalogRow extends CatalogCourse {
@@ -71,27 +72,16 @@ export function ResultsList({ courses, onOpen, onAdd }: Props) {
               </span>
 
               <span className="acts">
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="view-btn"
-                  onClick={() => onOpen(course.code)}
-                  aria-label={`View details for ${course.code}`}
-                >
-                  View details
-                </Button>
-
                 {status === "avail" ? (
                   <Button
                     size="sm"
                     onClick={() => onAdd(course.code)}
                     aria-label={`Add ${course.code} to plan`}
                   >
-                    Add to plan
+                    <Plus className="ic sm" aria-hidden />
+                    Add
                   </Button>
-                ) : (
-                  <span className="acts-pad" />
-                )}
+                ) : null}
               </span>
             </li>
           );

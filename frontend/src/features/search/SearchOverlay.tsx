@@ -1,7 +1,7 @@
 import { useState } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
 import { useNavigate } from "react-router";
-import { Search, X } from "lucide-react";
+import { X } from "lucide-react";
 import { Button, IconButton, StatusBadge } from "@/ui";
 import { useCourseParam } from "@/features/course-detail/useCourseParam";
 import { useCourseSearch } from "./useCourseSearch";
@@ -61,7 +61,6 @@ export function SearchOverlay({ open, onOpenChange }: Props) {
           <Dialog.Title className="vh">Search courses</Dialog.Title>
 
           <div className="top">
-            <Search className="ic muted" aria-hidden />
 
             <input
               autoFocus

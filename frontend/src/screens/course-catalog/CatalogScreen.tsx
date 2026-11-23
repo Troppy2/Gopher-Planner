@@ -6,14 +6,14 @@ import {
   ChevronLeft,
   ChevronRight,
   RefreshCw,
-  Search,
   SlidersHorizontal,
   X,
 } from "lucide-react";
 import { getCourses } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
 import type { CourseFilters } from "@/api/types";
-import { Button, Drawer, EmptyState, SkeletonRows } from "@/ui";
+import { Button, Drawer, EmptyState } from "@/ui";
+import { CatalogSkeleton } from "@/features/loading/ScreenSkeletons";
 import { plural } from "@/lib/format";
 import { usePlan } from "@/features/plan/usePlan";
 import { useCourseParam } from "@/features/course-detail/useCourseParam";
@@ -159,7 +159,7 @@ export default function CatalogScreen() {
       </EmptyState>
     );
   } else if (!results.data) {
-    body = <SkeletonRows rows={6} />;
+    body = <CatalogSkeleton />;
   } else if (list.length === 0) {
     body = (
       <EmptyState
@@ -184,7 +184,6 @@ export default function CatalogScreen() {
       </div>
 
       <label className="searchbar surf">
-        <Search className="ic muted" aria-hidden />
         <span className="vh">Search courses</span>
         <input
           type="search"
@@ -228,7 +227,7 @@ export default function CatalogScreen() {
 
         {active.map((key) => {
           const label =
-            FILTERS.find((filter) => filter.key === key)?.label ?? key;
+            FILTERS.find((filter) => filter.key === key)?.label ?? (key === "subject" ? "Subject" : key);
 
           return (
             <button

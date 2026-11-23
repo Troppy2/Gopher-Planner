@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-import { Search, X } from "lucide-react";
+import { X } from "lucide-react";
 import { IconButton, StatusBadge } from "@/ui";
 import { useCourseParam } from "@/features/course-detail/useCourseParam";
 import { useCourseSearch } from "./useCourseSearch";
@@ -46,7 +46,6 @@ export function HeaderSearch({ onClose }: { onClose: () => void }) {
       <div className="hsearch-scrim" onClick={onClose} aria-hidden />
 
       <div className="hsearch" role="search">
-        <Search className="ic muted" aria-hidden />
 
         <input
           autoFocus
