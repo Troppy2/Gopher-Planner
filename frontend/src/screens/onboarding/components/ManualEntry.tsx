@@ -1,6 +1,6 @@
 import { useId, useState } from "react";
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
-import { Plus, Search, X } from "lucide-react";
+import { Plus, X } from "lucide-react";
 import { getCourses } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
 import { Button, IconButton, SegmentedControl } from "@/ui";
@@ -34,7 +34,6 @@ export function ManualEntry() {
           Search courses
         </label>
         <div className="inline-search">
-          <Search className="ic muted" aria-hidden />
           <input
             id={id}
             className="input"

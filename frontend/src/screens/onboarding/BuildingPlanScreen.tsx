@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useId, useState } from "react";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
+import { StepHeader } from "./components/StepHeader";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { generatePlan, getPlan, updateProfile } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
@@ -59,10 +60,16 @@ export default function BuildingPlanScreen() {
   const versionProblem = result?.warnings.some((code) => VERSION_WARNINGS.includes(code));
   const done = finished ? 4 : result ? 3 : confirmed !== undefined ? 2 : plan.data ? 1 : 0;
   const warnings = (result?.warnings ?? []).filter((code) => !VERSION_WARNINGS.includes(code));
+  const navigate = useNavigate();
+  // Nothing to read on this screen once the plan is ready, so go straight to the dashboard.
+  useEffect(() => {
+    if (finished && warnings.length === 0) navigate("/dashboard", { replace: true });
+  }, [finished, warnings.length, navigate]);
 
   return (
     <>
-      <h1 className="title" style={{ marginTop: 32 }}>
+      <StepHeader step={3} total={3} />
+      <h1 className="title">
         {finished ? "Your plan is ready" : "Building your plan"}
       </h1>
       <p className="sub" role="status">
@@ -84,9 +91,9 @@ export default function BuildingPlanScreen() {
             Requirements change between catalog years. Pick the year on your APAS report, usually the term you started your major.
           </p>
           {plan.data.availableCatalogTerms.map((term) => (
-            <label key={term} className="row">
+            <label key={term} className="radio-card">
               <input type="radio" name={name} value={term} checked={selected === term} onChange={() => setSelected(term)} />
-              {term}
+              <span>{term}</span>
             </label>
           ))}
           <div>

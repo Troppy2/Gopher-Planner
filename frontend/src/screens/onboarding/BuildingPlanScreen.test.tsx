@@ -39,7 +39,7 @@ describe("BuildingPlanScreen", () => {
     expect(calls.generate).toHaveLength(0);
     await userEvent.click(screen.getByRole("radio", { name: "Fall 2026" }));
     await userEvent.click(screen.getByRole("button", { name: "Build my plan" }));
-    expect(await screen.findByText("Your plan is ready")).toBeInTheDocument();
+    expect(await screen.findByText("Navigated away")).toBeInTheDocument();
     expect(calls.generate).toEqual([{ dryRun: false, catalogTerm: "Fall 2026" }]);
     expect(calls.profile).toEqual([{ onboarded: true }]);
   });
@@ -56,7 +56,7 @@ describe("BuildingPlanScreen", () => {
     renderWithProviders(<BuildingPlanScreen />);
     expect(await screen.findByText("We couldn't build your plan.")).toBeInTheDocument();
     await userEvent.click(screen.getByRole("button", { name: "Try again" }));
-    expect(await screen.findByText("Your plan is ready")).toBeInTheDocument();
+    expect(await screen.findByText("Navigated away")).toBeInTheDocument();
     expect(calls.generate).toHaveLength(2);
     expect(calls.profile).toEqual([{ onboarded: true }]);
   });

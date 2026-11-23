@@ -152,14 +152,6 @@
 .inline-search {
   position: relative;
 }
-.inline-search .ic {
-  position: absolute;
-  left: 12px;
-  top: 12px;
-}
-.inline-search .input {
-  padding-left: 40px;
-}
 .mrow {
   display: flex;
   justify-content: space-between;

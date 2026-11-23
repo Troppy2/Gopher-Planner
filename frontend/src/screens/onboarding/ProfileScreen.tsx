@@ -9,13 +9,18 @@ import { careerForMajor, careerOptions, creditChoices, HeavyLoadNote, Unverified
 import { StepHeader } from "./components/StepHeader";
 import { useOnboarding } from "./onboarding.store";
 import type { ProfileDraft } from "./onboarding.store";
+import { usePlanDraft } from "@/features/plan/plan.store";
+import { FieldsSkeleton } from "@/features/loading/ScreenSkeletons";
+import { SkeletonRegion } from "@/ui/Skeleton";
 import "./onboarding.css";
 
 export default function ProfileScreen() {
   const navigate = useNavigate();
   const qc = useQueryClient();
-  const { data: profile } = useQuery({ queryKey: queryKeys.profile, queryFn: getProfile });
-  const { data: options } = useQuery({ queryKey: queryKeys.options, queryFn: getOptions });
+  const profileQ = useQuery({ queryKey: queryKeys.profile, queryFn: getProfile });
+  const profile = profileQ.data;
+  const optionsQ = useQuery({ queryKey: queryKeys.options, queryFn: getOptions });
+  const options = optionsQ.data;
   const { profile: saved, setProfile } = useOnboarding();
   const [touched, setTouched] = useState(false);
 
@@ -46,15 +51,24 @@ export default function ProfileScreen() {
         graduationTarget: draft.graduationTarget || profile?.graduationTarget || "Spring 2028",
       }),
     onSuccess: (p) => {
+      if (p.major !== profile?.major) usePlanDraft.getState().clear();
       qc.setQueryData(queryKeys.profile, p);
+      void qc.invalidateQueries({ queryKey: queryKeys.plan });
+      void qc.invalidateQueries({ queryKey: queryKeys.summary });
       navigate("/onboarding/building");
     },
   });
 
   return (
     <>
-      <StepHeader step={2} total={2} />
+      <StepHeader step={2} total={3} />
       <h1 className="title">Build your profile</h1>
+      {!profile && !saved && profileQ.isPending ? (
+        <SkeletonRegion label="profile"><div className="surf skeleton-section"><FieldsSkeleton count={6} /></div></SkeletonRegion>
+      ) : profileQ.isError && !saved ? (
+        <Callout tone="error" title="Could not load your profile."><Button onClick={() => profileQ.refetch()}>Try again</Button></Callout>
+      ) : <>
+      {optionsQ.isError && <Callout tone="warn" title="Could not load the major list."><Button variant="ghost" onClick={() => optionsQ.refetch()}>Retry major list</Button></Callout>}
       <form
         className="form2 surf"
         noValidate
@@ -73,8 +87,8 @@ export default function ProfileScreen() {
             onChange={(major) => set({ major, careerGoals: careerForMajor(options, major, draft.careerGoals) })}
             options={options?.majors ?? []}
             placeholder="Start typing, for example Computer Science"
+            error={touched ? errors.major : undefined}
           />
-          {touched && errors.major && <span className="err">{errors.major}</span>}
           <UnverifiedMajorNote options={options} major={draft.major} />
         </div>
         <Select
@@ -87,7 +101,7 @@ export default function ProfileScreen() {
         <Select
           label={
             <>
-              Credits per term <span className="opt">(optional)</span>
+              Credits per term <span className="muted">(optional)</span>
             </>
           }
           value={draft.creditLoad}
@@ -97,7 +111,7 @@ export default function ProfileScreen() {
         <Select
           label={
             <>
-              Graduation target <span className="opt">(optional)</span>
+              Graduation target <span className="muted">(optional)</span>
             </>
           }
           value={draft.graduationTarget}
@@ -128,6 +142,7 @@ export default function ProfileScreen() {
           </Button>
         </div>
       </form>
+      </>}
     </>
   );
 }

@@ -79,7 +79,7 @@ export default function CourseworkScreen() {
 
   return (
     <>
-      <StepHeader step={1} total={2} />
+      <StepHeader step={1} total={3} />
       <h1 className="title">Add your coursework</h1>
       <ImportChoice
         value={method}
@@ -103,7 +103,7 @@ export default function CourseworkScreen() {
 
       {error && (
         <div style={{ marginBottom: 16 }}>
-          <Callout tone="warn" title={error} />
+          <Callout tone="error" title={error} />
         </div>
       )}
 
