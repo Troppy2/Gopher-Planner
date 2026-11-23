@@ -63,6 +63,7 @@ export function CourseworkEditor() {
     if (data.status === "parsed") {
       void qc.invalidateQueries({ queryKey: queryKeys.coursework });
       void qc.invalidateQueries({ queryKey: queryKeys.summary });
+      void qc.invalidateQueries({ queryKey: queryKeys.plan });
       const skipped = data.notImported ?? [];
       setMessage({
         tone: "ok",
@@ -79,6 +80,7 @@ export function CourseworkEditor() {
     onSuccess: (body) => {
       qc.setQueryData(queryKeys.coursework, body);
       void qc.invalidateQueries({ queryKey: queryKeys.summary });
+      void qc.invalidateQueries({ queryKey: queryKeys.plan });
       setMessage({ tone: "ok", title: "Courses saved." });
     },
     onError: (error: Error) => setMessage({ tone: "error", title: "Could not save your courses.", body: error.message }),

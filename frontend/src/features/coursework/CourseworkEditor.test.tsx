@@ -20,8 +20,9 @@ describe("CourseworkEditor", () => {
     server.use(
       http.get(api("/coursework"), () => HttpResponse.json(saved)),
       http.put(api("/coursework"), async ({ request }) => {
-        body = await request.json();
-        return HttpResponse.json(body);
+        const submitted = await request.json() as typeof saved;
+        body = submitted;
+        return HttpResponse.json(submitted);
       }),
     );
     renderWithProviders(<CourseworkEditor />);

@@ -140,6 +140,7 @@ export async function getCourses(
 
   if (filters.credits) params.set("credits", filters.credits);
   if (filters.term) params.set("term", filters.term);
+  for (const category of typeof filters.le === "string" ? [filters.le] : filters.le ?? []) params.append("le", category);
 
   // Friendly requirement labels aren't raw SQLite requirement codes.
   // Do not send them until a proper mapping exists.

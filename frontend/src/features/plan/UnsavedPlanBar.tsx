@@ -12,14 +12,16 @@ export function UnsavedPlanBar() {
 
   useEffect(() => () => clearTimeout(timer.current), []);
 
-  const onSave = () => {
-    void save();
+  const onSave = async () => {
+    const result = await save();
+    if (!result) return;
     setJustSaved(true);
     clearTimeout(timer.current);
     timer.current = window.setTimeout(() => setJustSaved(false), 1600);
   };
 
   const pending = pendingCount > 0 || versionPending;
+  if (saveState.isPending) return <div className="savebar" role="status"><span className="msg">Saving plan...</span></div>;
   if (!pending && justSaved && !saveState.isError) {
     return (
       <div className="savebar" role="status">

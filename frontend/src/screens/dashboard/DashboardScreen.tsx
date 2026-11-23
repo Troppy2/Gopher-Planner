@@ -2,7 +2,8 @@ import { Link, useNavigate } from "react-router";
 import { CalendarDays, RefreshCw } from "lucide-react";
 import { Button, Callout, EmptyState, SkeletonRows } from "@/ui";
 import { usePlan } from "@/features/plan/usePlan";
-import { firstFutureIndex } from "@/features/plan/planRules";
+import { firstFutureIndex, sumCredits } from "@/features/plan/planRules";
+import { ElectiveNote } from "@/features/plan/PlanLabels";
 import { MetricCard, PercentCard } from "./components/MetricCard";
 import { CourseList } from "./components/CourseList";
 import { UserDetails } from "./components/UserDetails";
@@ -31,7 +32,7 @@ export default function DashboardScreen() {
     );
   }
 
-  const current = courses.filter((c) => c.status === "prog");
+  const current = courses.filter((c) => c.status === "prog" || (c.status === "plan" && c.term === plan?.currentTerm));
   const futureTerms = plan ? plan.terms.slice(firstFutureIndex(plan)) : [];
   const future = futureTerms
     .map((term) => ({ term, list: courses.filter((c) => c.term === term && (c.status === "plan" || c.status === "block")) }))
@@ -76,23 +77,28 @@ export default function DashboardScreen() {
           </MetricCard>
           <MetricCard
             className="g4"
-            label="Credits"
+            label="Completed credits"
             value={summary.creditsCompleted}
             total={summary.creditsTotal}
             bar={{ value: summary.creditsCompleted, max: summary.creditsTotal }}
           >
             {`${Math.max(0, summary.creditsTotal - summary.creditsCompleted)} credits remaining`}
+            <span className="dashboard-credit-breakdown">{sumCredits(courses.filter(c => c.status === "prog"))} in progress · {sumCredits(courses.filter(c => c.status === "plan"))} planned</span>
           </MetricCard>
           <PercentCard className="g5" percent={summary.percentComplete} total={summary.creditsTotal} source={summary.source} />
         </div>
       )}
 
+      <ElectiveNote credits={plan?.electiveCredits} />
       <div className="dcols">
         <div className="dcol">
             <section className="card surf" aria-labelledby="cur-h">
+              <div className="dashboard-section-heading">
               <h2 className="h2" id="cur-h">
                 Current classes
               </h2>
+              <Link className="btn ghost sm" to={`/flow-chart?term=${encodeURIComponent(plan?.currentTerm ?? "")}`}>Edit semester</Link>
+              </div>
               {isLoading ? <p className="muted">Loading classes…</p> : current.length ? <CourseList courses={current} /> : <p className="muted">No classes in progress this term.</p>}
             </section>
             {plan && <RequirementProgressPanel plan={plan} />}

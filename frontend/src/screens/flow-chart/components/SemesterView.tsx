@@ -3,6 +3,10 @@ import { AlertTriangle, CheckCircle2, Plus, X } from "lucide-react";
 import type { Course, Plan, Profile } from "@/api/types";
 import { Button, ProgressBar, StatusBadge } from "@/ui";
 import { credits } from "@/lib/format";
+import { SlotTag } from "@/features/plan/PlanLabels";
+import { TermPicker } from "@/features/plan/TermPicker";
+import { CreditsField } from "@/features/plan/CreditsField";
+import { SemesterCourseSearch } from "./SemesterCourseSearch";
 import { eligible, firstFutureIndex, lastPlanIndex, projectedCredits, sumCredits } from "@/features/plan/planRules";
 
 interface Props {
@@ -13,14 +17,18 @@ interface Props {
   onOpen: (code: string) => void;
   onAdd: (code: string, termIdx: number) => void;
   onRemove: (code: string, termIdx: number) => void;
+  onCredits?: (code: string, credits: number) => void;
+  onAddCourse?: (course: Course, term: string) => void;
 }
 
-function Row({ c, onOpen, right }: { c: Course; onOpen: (code: string) => void; right: ReactNode }) {
+function Row({ c, onOpen, right, hideCredits = false, showStatus = false }: { c: Course; onOpen: (code: string) => void; right: ReactNode; hideCredits?: boolean; showStatus?: boolean }) {
   return (
     <li className="semrow hover-row">
       <button type="button" className="semrow-main" onClick={() => onOpen(c.code)}>
         <b>{c.code}</b>
+        {showStatus && <StatusBadge status={c.status} />}
         <span>{c.title}</span>
+        <SlotTag slot={c.slot} />
         {c.lockReason && (
           <span className="semnote">
             <AlertTriangle className="ic sm" aria-hidden />
@@ -28,19 +36,26 @@ function Row({ c, onOpen, right }: { c: Course; onOpen: (code: string) => void; 
           </span>
         )}
       </button>
-      <span className="num muted semcr">{credits(c.credits)}</span>
+      {!hideCredits && <span className="num muted semcr">{credits(c.credits)}</span>}
       {right}
     </li>
   );
 }
 
-export function SemesterView({ plan, profile, courses, goal, onOpen, onAdd, onRemove }: Props) {
-  const current = courses.filter((c) => c.status === "prog");
+export function SemesterView({ plan, profile, courses, goal, onOpen, onAdd, onRemove, onCredits, onAddCourse }: Props) {
+  const current = courses.filter((c) => c.status === "prog" || (c.status === "plan" && c.term === plan.currentTerm));
   const first = firstFutureIndex(plan);
   const last = lastPlanIndex(plan, profile);
   const projected = projectedCredits(plan.baseCredits, courses);
   const short = goal - projected;
   const gradTerm = plan.terms[last];
+  const controls = (c: Course) => <div className="semester-controls">
+    {c.status === "prog" && onCredits && <CreditsField code={c.code} credits={c.credits} onChange={onCredits} />}
+    <TermPicker course={c} courses={courses} plan={plan} profile={profile} onMove={(code, term) => onAdd(code, plan.terms.indexOf(term))} />
+    <Button variant="ghost" size="sm" aria-label={`Remove ${c.code} from ${c.term}`} onClick={() => onRemove(c.code, plan.terms.indexOf(c.term!))}><X className="ic sm" aria-hidden /></Button>
+  </div>;
+  const search = (term: string) => <SemesterCourseSearch term={term} plan={plan} profile={profile} courses={courses}
+    onAdd={(course, target) => onAddCourse ? onAddCourse(course, target) : onAdd(course.code, plan.terms.indexOf(target))} />;
 
   return (
     <div className="sem">
@@ -49,13 +64,16 @@ export function SemesterView({ plan, profile, courses, goal, onOpen, onAdd, onRe
           <h2 id="semh-current" tabIndex={-1}>
             {plan.currentTerm}, current classes
           </h2>
-          <span className="semmeta num">{credits(sumCredits(current))}</span>
+          <span className="semmeta num">{sumCredits(current)} of {profile.creditLoad} credits</span>
         </div>
+        <ProgressBar label={`${plan.currentTerm} credits`} value={sumCredits(current)} max={profile.creditLoad} over={sumCredits(current) > profile.creditLoad} />
         <ul>
           {current.map((c) => (
-            <Row key={c.code} c={c} onOpen={onOpen} right={<StatusBadge status="prog" />} />
+            <Row key={c.code} c={c} onOpen={onOpen} right={controls(c)} hideCredits={c.status === "prog" && !!onCredits} showStatus />
           ))}
         </ul>
+        {!current.length && <p className="muted">No current classes. Add a class or move one into this semester.</p>}
+        {search(plan.currentTerm)}
       </section>
 
       {Array.from({ length: last - first + 1 }, (_, k) => first + k).map((i) => {
@@ -84,12 +102,7 @@ export function SemesterView({ plan, profile, courses, goal, onOpen, onAdd, onRe
                     key={c.code}
                     c={c}
                     onOpen={onOpen}
-                    right={
-                      <Button variant="ghost" size="sm" onClick={() => onRemove(c.code, i)} aria-label={`Remove ${c.code} from ${term}`}>
-                        <X className="ic sm" aria-hidden />
-                        Remove
-                      </Button>
-                    }
+                    right={controls(c)}
                   />
                 ))}
                 {locked.map((c) => (
@@ -99,7 +112,8 @@ export function SemesterView({ plan, profile, courses, goal, onOpen, onAdd, onRe
             ) : (
               <p className="muted sempad">Nothing planned for {term}.</p>
             )}
-            <h3 className="semsub">Courses you could take</h3>
+            {search(term)}
+            <details className="semester-suggestions"><summary>Suggested classes</summary>
             {options.length ? (
               <ul>
                 {options.map((c) => (
@@ -119,6 +133,7 @@ export function SemesterView({ plan, profile, courses, goal, onOpen, onAdd, onRe
             ) : (
               <p className="muted">No other eligible courses this term.</p>
             )}
+            </details>
           </section>
         );
       })}

@@ -21,6 +21,8 @@ export interface Course {
   professors: string[];
   term: TermId | null;
   lockReason?: string;
+  slot?: string | null;
+  slotCategories?: string[];
   /** Where title, credits and scheduling facts came from. */
   metadataSource?: "catalog" | "program";
   /** Full prerequisite tree; `prereqs` is a flat display list and never means "all required". */
@@ -155,6 +157,7 @@ export interface Plan {
   currentTerm: TermId;
   /** Credits earned before any course listed here (transfer, AP, older terms). */
   baseCredits: number;
+  electiveCredits?: number;
   courses: Course[];
   /** The confirmed program catalog version, or null until the student selects one. */
   catalogTerm: TermId | null;
@@ -196,6 +199,8 @@ export interface PlanChange {
   code: string;
   status: CourseStatus;
   term: TermId | null;
+  slot?: string | null;
+  credits?: number;
 }
 
 export interface Options {
@@ -210,6 +215,7 @@ export interface Options {
 }
 
 export interface CourseFilters {
+  le?: string | string[];
   q?: string;
   subject?: string;
   level?: string;

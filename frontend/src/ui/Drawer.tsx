@@ -11,12 +11,13 @@ interface Props {
   children: ReactNode;
   footer?: ReactNode;
   closeLabel?: string;
+  modal?: boolean;
 }
 
 /** Side drawer on desktop, bottom sheet under 768px (see index.css). Radix traps and restores focus. */
-export function Drawer({ open, onOpenChange, title, subtitle, children, footer, closeLabel = "Close" }: Props) {
+export function Drawer({ open, onOpenChange, title, subtitle, children, footer, closeLabel = "Close", modal = true }: Props) {
   return (
-    <Dialog.Root open={open} onOpenChange={onOpenChange}>
+    <Dialog.Root open={open} onOpenChange={onOpenChange} modal={modal}>
       <Dialog.Portal>
         <Dialog.Overlay className="scrim" />
         <Dialog.Content className="drawer" aria-describedby={undefined}>

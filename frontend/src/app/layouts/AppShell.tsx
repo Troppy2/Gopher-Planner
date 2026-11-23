@@ -41,7 +41,7 @@ const TITLES: Record<string, string> = {
   "/catalog": "Course catalog",
   "/settings": "Settings",
 };
-const PLAN_EDIT_SCREENS = ["/flow-chart", "/catalog"];
+const PLAN_EDIT_SCREENS = ["/dashboard", "/flow-chart", "/catalog"];
 
 export function AppShell() {
   const { pathname } = useLocation();

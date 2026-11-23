@@ -1,11 +1,12 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef } from "react";
 import { useSearchParams } from "react-router";
 import { CalendarDays, Maximize, Minus, Network, Plus, RefreshCw } from "lucide-react";
 import { Button, Callout, EmptyState, IconButton, ProgressBar, SegmentedControl, Select, StepList } from "@/ui";
 import { usePlan } from "@/features/plan/usePlan";
 import { useCourseParam } from "@/features/course-detail/useCourseParam";
-import { firstFutureIndex, lastPlanIndex, projectedCredits } from "@/features/plan/planRules";
+import { lastPlanIndex } from "@/features/plan/planRules";
 import { useReducedMotion } from "@/hooks/useMediaQuery";
+import { ElectiveNote } from "@/features/plan/PlanLabels";
 import { SemesterView } from "./components/SemesterView";
 import { GraphCanvas } from "./components/GraphCanvas";
 import type { GraphControls } from "./components/GraphCanvas";
@@ -19,10 +20,10 @@ export default function FlowChartScreen() {
   const [params, setParams] = useSearchParams();
   const view: ViewMode = params.get("view") === "graph" ? "graph" : "sem";
   const course = useCourseParam();
-  const { plan, profile, courses, goal, isLoading, error, refetch, add, remove, build, buildState, catalogTerm, selectCatalogTerm } = usePlan();
+  const { plan, profile, courses, goal, isLoading, error, refetch, add, addCourse, editCredits, remove, build, buildState, catalogTerm, selectCatalogTerm, announcement, announce: setLive } = usePlan();
   const reduced = useReducedMotion();
   const graph = useRef<GraphControls>(null);
-  const [live, setLive] = useState("");
+  const buildRequested = useRef(false);
 
   const setParam = (key: string, value: string | null) => {
     setParams(
@@ -49,7 +50,7 @@ export default function FlowChartScreen() {
   useEffect(() => {
     if (!plan || !termParam) return;
     const i = plan.terms.indexOf(termParam);
-    if (i >= 0) focusHeading(`semh-${i}`);
+    if (i >= 0) focusHeading(termParam === plan.currentTerm ? "semh-current" : `semh-${i}`);
     setParam("term", null);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [plan, termParam]);
@@ -66,13 +67,14 @@ export default function FlowChartScreen() {
     try {
       await build();
       setLive(`Planner built through ${plan.terms[lastPlanIndex(plan, profile)]}. Review the semesters, then save or discard.`);
-      focusHeading(`semh-${firstFutureIndex(plan)}`);
     } catch {
       setLive("The planner could not build a draft. Try again.");
     }
   };
   useEffect(() => {
-    if (!wantsBuild || !plan || !profile) return;
+    if (!wantsBuild) { buildRequested.current = false; return; }
+    if (buildRequested.current || !plan || !profile) return;
+    buildRequested.current = true;
     setParams(
       (prev) => {
         const p = new URLSearchParams(prev);
@@ -112,6 +114,10 @@ export default function FlowChartScreen() {
     <div className={view === "sem" ? "page flow-sem" : "page"}>
       <div className="pg-head flow-head">
         <h1 className="title">Flow chart</h1>
+        <div className="flow-actions">
+          <Button variant="ghost" size="sm" disabled={!plan || !profile || needsYear || buildState.isPending} onClick={() => void runBuild()}>
+            <CalendarDays className="ic sm" aria-hidden />Build plan
+          </Button>
         <SegmentedControl<ViewMode>
           label="View"
           value={view}
@@ -121,11 +127,13 @@ export default function FlowChartScreen() {
             { value: "graph", label: "Graph", icon: <Network className="ic sm" aria-hidden /> },
           ]}
         />
+        </div>
       </div>
 
       <p className="vh" role="status" aria-live="polite">
-        {live}
+        {announcement}
       </p>
+      <ElectiveNote credits={plan?.electiveCredits} />
 
       {buildState.isPending && (
         <section className="buildcard surf" role="status" aria-labelledby="build-h">
@@ -147,6 +155,9 @@ export default function FlowChartScreen() {
           Pick the catalog year on your APAS report. Building and saving use only that year's requirements.
         </Callout>
       )}
+      {plan && view === "sem" && plan.availableCatalogTerms.length > 0 && <div className="semester-catalog-year">
+        <Select label="Catalog year" value={catalogTerm ?? ""} onChange={selectCatalogTerm} options={plan.availableCatalogTerms} />
+      </div>}
 
       {isLoading || !plan || !profile ? (
         <div className="sem">
@@ -161,9 +172,11 @@ export default function FlowChartScreen() {
           courses={courses}
           goal={goal}
           onOpen={course.open}
+          onCredits={editCredits}
+          onAddCourse={(course, term) => { addCourse(course, term); setLive(`${course.code} added to ${term}.`); }}
           onAdd={(code, i) => {
             add(code, plan.terms[i]);
-            setLive(`${code} added to ${plan.terms[i]}. ${projectedCredits(plan.baseCredits, courses) + (courses.find((c) => c.code === code)?.credits ?? 0)} credits projected.`);
+            setLive(`${code} assigned to ${plan.terms[i]}.`);
           }}
           onRemove={(code, i) => {
             remove(code);
@@ -233,7 +246,7 @@ export default function FlowChartScreen() {
             </li>
           </ul>
           <GraphCanvas ref={graph} courses={courses} terms={plan.terms} selected={course.code} onSelect={onSelect} reducedMotion={reduced} />
-          <p className="hint graph-hint">Drag a course to pin it. Scroll or pinch to zoom. Double-click the background to fit.</p>
+          <p className="hint graph-hint">Scroll to move down the page. Hold Ctrl or Command while scrolling to zoom the graph. Drag a course to pin it.</p>
         </>
       )}
     </div>

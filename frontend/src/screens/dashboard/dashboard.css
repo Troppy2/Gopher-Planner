@@ -260,3 +260,6 @@
     text-align: left;
   }
 }
+.dashboard-credit-breakdown { display: block; margin-top: 8px; color: var(--ink); }
+.dashboard-section-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.dashboard-section-heading .btn { min-height: 44px; }

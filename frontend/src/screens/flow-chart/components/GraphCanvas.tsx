@@ -160,6 +160,7 @@ export const GraphCanvas = forwardRef<GraphControls, Props>(function GraphCanvas
     const c = canvasRef.current!;
     const s = st.current;
     let down: { x: number; y: number; moved: boolean; node: GraphNode | undefined; vx: number; vy: number } | null = null;
+    let touch: { x: number; y: number; moved: boolean; node: GraphNode | undefined } | null = null;
     const pos = (e: PointerEvent | WheelEvent | MouseEvent) => {
       const r = c.getBoundingClientRect();
       return { x: e.clientX - r.left, y: e.clientY - r.top };
@@ -180,6 +181,11 @@ export const GraphCanvas = forwardRef<GraphControls, Props>(function GraphCanvas
     };
 
     const onDown = (e: PointerEvent) => {
+      if (e.pointerType === "touch") {
+        const p = pos(e);
+        touch = { ...p, moved: false, node: nodeAt(p) };
+        return;
+      }
       c.setPointerCapture(e.pointerId);
       const p = pos(e);
       down = { ...p, moved: false, node: nodeAt(p), vx: s.view.x, vy: s.view.y };
@@ -187,6 +193,10 @@ export const GraphCanvas = forwardRef<GraphControls, Props>(function GraphCanvas
     };
     const onMove = (e: PointerEvent) => {
       const p = pos(e);
+      if (touch) {
+        if (Math.hypot(p.x - touch.x, p.y - touch.y) > 8) touch.moved = true;
+        return;
+      }
       if (down) {
         if (Math.hypot(p.x - down.x, p.y - down.y) > 3) down.moved = true;
         if (!down.moved) return;
@@ -214,6 +224,11 @@ export const GraphCanvas = forwardRef<GraphControls, Props>(function GraphCanvas
       }
     };
     const onUp = () => {
+      if (touch) {
+        if (!touch.moved && touch.node) onSelect(touch.node.id);
+        touch = null;
+        return;
+      }
       if (!down) return;
       if (down.node && !down.moved) onSelect(down.node.id);
       s.sim?.alphaTarget(0);
@@ -222,6 +237,11 @@ export const GraphCanvas = forwardRef<GraphControls, Props>(function GraphCanvas
       c.classList.remove("grabbing");
       schedule();
     };
+    const onCancel = () => {
+      touch = null;
+      if (down) down.moved = true;
+      onUp();
+    };
     const onLeave = () => {
       if (!down && s.hover) {
         s.hover = null;
@@ -229,6 +249,7 @@ export const GraphCanvas = forwardRef<GraphControls, Props>(function GraphCanvas
       }
     };
     const onWheel = (e: WheelEvent) => {
+      if (!e.ctrlKey && !e.metaKey) return;
       e.preventDefault();
       const p = pos(e);
       const before = toWorld(p);
@@ -243,7 +264,7 @@ export const GraphCanvas = forwardRef<GraphControls, Props>(function GraphCanvas
     c.addEventListener("pointerdown", onDown);
     c.addEventListener("pointermove", onMove);
     c.addEventListener("pointerup", onUp);
-    c.addEventListener("pointercancel", onUp);
+    c.addEventListener("pointercancel", onCancel);
     c.addEventListener("pointerleave", onLeave);
     c.addEventListener("wheel", onWheel, { passive: false });
     c.addEventListener("dblclick", onDbl);
@@ -251,7 +272,7 @@ export const GraphCanvas = forwardRef<GraphControls, Props>(function GraphCanvas
       c.removeEventListener("pointerdown", onDown);
       c.removeEventListener("pointermove", onMove);
       c.removeEventListener("pointerup", onUp);
-      c.removeEventListener("pointercancel", onUp);
+      c.removeEventListener("pointercancel", onCancel);
       c.removeEventListener("pointerleave", onLeave);
       c.removeEventListener("wheel", onWheel);
       c.removeEventListener("dblclick", onDbl);

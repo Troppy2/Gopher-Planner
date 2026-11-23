@@ -1,0 +1,4 @@
+.plan-action-list { list-style: none; padding: 0; display: grid; gap: 8px; }
+.plan-actions { min-width: 0; display: grid; gap: 12px; overflow-wrap: anywhere; }
+.plan-actions button { min-height: 44px; max-width: 100%; white-space: normal; text-align: left; }
+.plan-actions .dsub { margin-bottom: 0; }

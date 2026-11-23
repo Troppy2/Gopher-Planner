@@ -53,6 +53,122 @@ function wrapper() {
 
 beforeEach(() => usePlanDraft.getState().clear());
 
+it("announces saving until the server confirms the plan", async () => {
+  stub();
+  let finish!: () => void;
+  const response = new Promise<Plan>(resolve => { finish = () => resolve(saved); });
+  server.use(http.put(api("/plan"), async () => HttpResponse.json(await response)));
+  const Wrapper = wrapper();
+  const Probe = () => { const { add, plan } = usePlan(); return <button disabled={!plan} onClick={() => add("MINI 1101", "Spring 2027")}>Edit</button>; };
+  render(<Wrapper><Probe /><UnsavedPlanBar /></Wrapper>);
+  await waitFor(() => expect(screen.getByRole("button", { name: "Edit" })).toBeEnabled());
+  act(() => screen.getByRole("button", { name: "Edit" }).click());
+  act(() => screen.getByRole("button", { name: "Save plan" }).click());
+  expect(await screen.findByText("Saving plan...")).toBeInTheDocument();
+  expect(screen.queryByText("Plan saved")).not.toBeInTheDocument();
+  await act(async () => { finish(); });
+  expect(await screen.findByText("Plan saved")).toBeInTheDocument();
+});
+
+it("uses fresh current credits when an unchanged course was included in a generated draft", async () => {
+  stub();
+  let credits = 3;
+  server.use(http.get(api("/plan"), () => HttpResponse.json({ ...saved, courses: [{ ...course("MINI 1101", "prog", "Fall 2026"), credits }] })),
+    http.post(api("/plans/generate"), () => HttpResponse.json({ jobId: "job", status: "succeeded", warnings: [], plan: {
+      ...saved, courses: [course("MINI 1101", "prog", "Fall 2026"), course("MINI 1102", "plan", "Spring 2027")],
+    } })));
+  const { result } = renderHook(() => usePlan(), { wrapper: wrapper() });
+  await waitFor(() => expect(result.current.plan).toBeDefined());
+  await act(async () => { await result.current.build(); });
+  credits = 2;
+  await act(async () => { await result.current.refetch(); });
+  expect(result.current.courses.find(c => c.code === "MINI 1101")?.credits).toBe(2);
+});
+
+it("keeps a newly added class visible while saving", async () => {
+  stub();
+  let finish!: () => void;
+  const added = course("NEWS 1001", "plan", "Spring 2027");
+  const response = new Promise<Plan>(resolve => { finish = () => resolve({ ...saved, courses: [...saved.courses, added] }); });
+  server.use(http.put(api("/plan"), async () => HttpResponse.json(await response)));
+  const { result } = renderHook(() => usePlan(), { wrapper: wrapper() });
+  await waitFor(() => expect(result.current.plan).toBeDefined());
+  act(() => result.current.addCourse(added, "Spring 2027"));
+  let saving!: Promise<unknown>;
+  act(() => { saving = result.current.save(); });
+  await waitFor(() => expect(result.current.saveState.isPending).toBe(true));
+  expect(result.current.courses.find(c => c.code === added.code)?.status).toBe("plan");
+  await act(async () => { finish(); await saving; });
+});
+
+it("moves an in-progress class to a future term and refreshes dashboard data after saving", async () => {
+  const calls = stub();
+  let summaryReads = 0, courseworkReads = 0;
+  server.use(http.get(api("/plan"), () => HttpResponse.json({ ...saved, catalogTerm: "Fall 2026", courses: [course("MINI 1101", "prog", "Fall 2026")] })),
+    http.get(api("/summary"), () => { summaryReads++; return HttpResponse.json({ creditsCompleted: 0, creditsTotal: 24 }); }),
+    http.get(api("/coursework"), () => { courseworkReads++; return HttpResponse.json({ courses: [], skipped: false }); }));
+  const { result } = renderHook(() => usePlan(), { wrapper: wrapper() });
+  await waitFor(() => expect(result.current.summary).toBeDefined());
+  act(() => result.current.add("MINI 1101", "Spring 2027"));
+  expect(result.current.courses[0].status).toBe("plan");
+  act(() => result.current.add("MINI 1101", "Fall 2026"));
+  expect(result.current.courses[0].status).toBe("prog");
+  act(() => result.current.add("MINI 1101", "Spring 2027"));
+  await act(async () => { await result.current.save(); });
+  expect(calls.put[0]).toMatchObject({ changes: [{ code: "MINI 1101", status: "plan" }] });
+  await waitFor(() => expect(summaryReads).toBeGreaterThan(1));
+  expect(courseworkReads).toBe(0);
+});
+
+it("keeps generated slot labels in the draft and sends them when saving", async () => {
+  const calls = stub();
+  server.use(http.post(api("/plans/generate"), () => HttpResponse.json({ jobId: "slot-job", status: "succeeded", warnings: [], plan: {
+    ...saved, electiveCredits: 21, catalogTerm: "Fall 2026", courses: [{ ...course("MINI 1101", "plan", "Spring 2027"), slot: "Synthetic arts" }],
+  } })));
+  const { result } = renderHook(() => usePlan(), { wrapper: wrapper() });
+  await waitFor(() => expect(result.current.plan).toBeDefined());
+  await act(async () => { await result.current.build(); });
+  expect(result.current.courses.find(c => c.code === "MINI 1101")?.slot).toBe("Synthetic arts");
+  expect(result.current.plan?.electiveCredits).toBe(21);
+  await act(async () => { await result.current.save(); });
+  expect(calls.put[0]).toMatchObject({ changes: [{ code: "MINI 1101", slot: "Synthetic arts" }] });
+});
+
+it("removes saved placements omitted by generation and saves removal without a slot", async () => {
+  const calls = stub();
+  server.use(http.get(api("/plan"), () => HttpResponse.json({ ...saved, courses: [
+    { ...course("MINI 1101", "plan", "Spring 2027"), slot: "Synthetic arts" },
+  ] })), http.post(api("/plans/generate"), () => HttpResponse.json({ jobId: "job", status: "succeeded", warnings: [], plan: { ...saved, courses: [] } })));
+  const { result } = renderHook(() => usePlan(), { wrapper: wrapper() });
+  await waitFor(() => expect(result.current.plan).toBeDefined());
+  await act(async () => { await result.current.build(); });
+  expect(result.current.courses.find(c => c.code === "MINI 1101")?.status).toBe("avail");
+  await act(async () => { await result.current.save(); });
+  expect(calls.put[0]).toMatchObject({ changes: [{ code: "MINI 1101", status: "avail", term: null }] });
+  expect(JSON.stringify(calls.put[0])).not.toContain('"slot"');
+});
+
+it("does not label an unknown program's remaining credits as free electives", async () => {
+  stub();
+  server.use(http.get(api("/plan"), () => HttpResponse.json({ ...saved, electiveCredits: 0 })));
+  const { result } = renderHook(() => usePlan(), { wrapper: wrapper() });
+  await waitFor(() => expect(result.current.summary).toBeDefined());
+  expect(result.current.plan?.electiveCredits).toBe(0);
+});
+
+it("restores the generated elective baseline after a failed save", async () => {
+  stub({ putStatus: 409 });
+  server.use(http.post(api("/plans/generate"), () => HttpResponse.json({ jobId: "job", status: "succeeded", warnings: [], plan: {
+    ...saved, electiveCredits: 7, catalogTerm: "Fall 2026", courses: [course("MINI 1101", "plan", "Spring 2027")],
+  } })));
+  const { result } = renderHook(() => usePlan(), { wrapper: wrapper() });
+  await waitFor(() => expect(result.current.plan).toBeDefined());
+  await act(async () => { await result.current.build(); });
+  expect(result.current.plan?.electiveCredits).toBe(7);
+  await act(async () => { await result.current.save(); });
+  expect(result.current.plan?.electiveCredits).toBe(7);
+});
+
 describe("usePlan", () => {
   it("build runs a dry-run generation with the selected catalog term and keeps it as an unsaved draft", async () => {
     const calls = stub();

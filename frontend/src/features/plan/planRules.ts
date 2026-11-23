@@ -15,7 +15,7 @@ export function lastPlanIndex(plan: Pick<Plan, "terms" | "currentTerm">, profile
 
 /** Credits already earned plus everything in progress or planned. */
 export const projectedCredits = (base: number, courses: Course[]) =>
-  base + sumCredits(courses.filter((c) => c.status === "prog" || c.status === "plan"));
+  base + sumCredits(courses.filter((c) => c.status === "done" || c.status === "prog" || c.status === "plan"));
 
 /** Course codes in a prerequisite tree, for display only. */
 export function treeCodes(node: PrerequisiteExpression | null | undefined): string[] {
@@ -44,8 +44,8 @@ export function catalogToPlanCourse(course: CatalogCourse): Course {
 function satisfied(code: string, termIdx: number, courses: Course[], terms: TermId[]) {
   const p = courses.find((x) => x.code === code);
   if (!p) return false;
-  if (p.status === "done" || p.status === "prog") return true;
-  return p.status === "plan" && p.term !== null && terms.indexOf(p.term) < termIdx;
+  if (p.status === "done") return true;
+  return (p.status === "plan" || p.status === "prog") && p.term !== null && terms.indexOf(p.term) >= 0 && terms.indexOf(p.term) < termIdx;
 }
 
 function treeMet(node: PrerequisiteExpression, termIdx: number, courses: Course[], terms: TermId[]): boolean {
@@ -67,6 +67,30 @@ export function eligible(course: Course, termIdx: number, courses: Course[], ter
     return course.prerequisiteTree === null || treeMet(course.prerequisiteTree, termIdx, courses, terms);
   }
   return course.prereqs.every((code) => !courses.some((x) => x.code === code) || satisfied(code, termIdx, courses, terms));
+}
+
+/** Validate a move against offerings, credit load, and both sides of prerequisite order. */
+export function moveReason(course: Course, termIdx: number, courses: Course[], terms: TermId[], creditLoad: number): string | null {
+  const term = terms[termIdx];
+  if (course.offered.length && !course.offered.includes(season(term) as Course["offered"][number])) return "Not offered this season";
+  if (sumCredits(courses.filter(c => c.code !== course.code && (c.status === "plan" || c.status === "prog") && c.term === term)) + course.credits > creditLoad) return "Exceeds your credit load";
+  const moved = courses.map(c => c.code === course.code ? { ...c, term, status: "plan" as const } : c);
+  if (!eligible({ ...course, status: "avail" }, termIdx, moved, terms)) return "Prerequisite order conflict";
+  const dependent = moved.find(c => c.code !== course.code && c.status === "plan" && c.term &&
+    eligible({ ...c, status: "avail" }, terms.indexOf(c.term), courses, terms) &&
+    !eligible({ ...c, status: "avail" }, terms.indexOf(c.term), moved, terms));
+  return dependent ? `Prerequisite order conflict for ${dependent.code}` : null;
+}
+
+export function swapReason(original: Course, replacement: Course, courses: Course[], terms: TermId[], creditLoad: number): string | null {
+  const placed = { ...replacement, status: "plan" as const, term: original.term };
+  const next = [...courses.filter(c => c.code !== original.code && c.code !== replacement.code), placed];
+  const reason = moveReason(placed, terms.indexOf(original.term!), next, terms, creditLoad);
+  if (reason) return reason;
+  const dependent = courses.find(c => c.code !== original.code && c.status === "plan" && c.term &&
+    eligible({ ...c, status: "avail" }, terms.indexOf(c.term), courses, terms) &&
+    !eligible({ ...c, status: "avail" }, terms.indexOf(c.term), next, terms));
+  return dependent ? `Prerequisite order conflict for ${dependent.code}` : null;
 }
 
 /** Prerequisites that aren't completed, in progress, or planned yet. */

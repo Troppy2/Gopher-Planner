@@ -154,6 +154,7 @@ export function drawGraph(
       ctx.globalAlpha = focus && !focus.has(n.id) ? 0.25 : 1;
       ctx.fillStyle = COL.ink;
       ctx.fillText(n.id, n.x ?? 0, (n.y ?? 0) + nodeRadius(n) + 6);
+      if (n.course.slot) ctx.fillText(`Gen ed: ${n.course.slot}`, n.x ?? 0, (n.y ?? 0) + nodeRadius(n) + 24);
     }
   }
   ctx.restore();

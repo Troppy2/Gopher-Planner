@@ -2,6 +2,7 @@ import type { Course } from "@/api/types";
 import { StatusBadge } from "@/ui";
 import { useCourseParam } from "@/features/course-detail/useCourseParam";
 import { credits } from "@/lib/format";
+import { SlotTag } from "@/features/plan/PlanLabels";
 
 export function CourseList({ courses }: { courses: Course[] }) {
   const { open } = useCourseParam();
@@ -13,6 +14,7 @@ export function CourseList({ courses }: { courses: Course[] }) {
             <span className="crow-main">
               <b>{c.code}</b>
               <span className="crow-t">{c.title}</span>
+              <SlotTag slot={c.slot} />
             </span>
             <span className="crow-meta">
               <span className="num">{credits(c.credits)}</span>

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { CatalogCourse, Course, Plan } from "@/api/types";
-import { catalogToPlanCourse, eligible } from "./planRules";
+import { catalogToPlanCourse, eligible, moveReason, swapReason } from "./planRules";
 
 const catalog = (overrides: Partial<CatalogCourse> = {}): CatalogCourse => ({
   id: 1, code: "CSCI 4041", subject: "CSCI", number: "4041", title: "Algorithms", campus: "Twin Cities", description: "",
@@ -15,6 +15,27 @@ const catalog = (overrides: Partial<CatalogCourse> = {}): CatalogCourse => ({
 const course = (code: string, status: Course["status"], term: string | null, extra: Partial<Course> = {}): Course => ({
   code, title: code, credits: 4, status, requirement: "Major core", offered: ["Fall", "Spring"], prereqs: [], concurrent: [],
   professors: [], term, ...extra,
+});
+
+describe("moveReason", () => {
+  const terms = ["Completed", "Fall 2026", "Spring 2027", "Fall 2027", "Spring 2028"];
+  const a = course("TEST 1001", "plan", terms[2]);
+  const b = course("TEST 2001", "plan", terms[3], { prerequisiteTree: { type: "course", course_code: a.code } });
+  it("rejects prerequisite and dependent order conflicts", () => {
+    expect(moveReason(b, 2, [a, b], terms, 15)).toMatch(/prerequisite/i);
+    expect(moveReason(a, 4, [a, b], terms, 15)).toMatch(/TEST 2001/);
+    expect(moveReason(a, 2, [a, b], terms, 15)).toBeNull();
+  });
+  it("checks season and load while excluding the moved course", () => {
+    expect(moveReason({ ...a, offered: ["Fall"] }, 2, [a], terms, 15)).toMatch(/offered/i);
+    expect(moveReason(a, 3, [a, b], terms, 7)).toMatch(/credit/i);
+    expect(moveReason(a, 2, [a], terms, 4)).toBeNull();
+  });
+  it("rejects a swap that would strand a dependent", () => {
+    const replacement = course("TEST 1002", "avail", null);
+    expect(swapReason(a, replacement, [a, b], terms, 15)).toMatch(/TEST 2001/);
+    expect(swapReason(a, replacement, [a], terms, 15)).toBeNull();
+  });
 });
 
 describe("catalogToPlanCourse", () => {

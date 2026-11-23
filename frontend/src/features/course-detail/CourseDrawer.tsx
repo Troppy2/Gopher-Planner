@@ -7,6 +7,8 @@ import { usePlan } from "@/features/plan/usePlan";
 import { catalogToPlanCourse, targetTerm } from "@/features/plan/planRules";
 import { PrerequisiteTree } from "./PrerequisiteTree";
 import { useCourseParam } from "./useCourseParam";
+import { PlanCourseActions } from "@/screens/flow-chart/components/PlanCourseActions";
+import { SlotTag } from "@/features/plan/PlanLabels";
 import "./course-detail.css";
 
 function formatCredits(course: CatalogCourse): string {
@@ -31,7 +33,7 @@ function getPlanStatus(planCourse: Course | undefined): Course["status"] {
 
 export function CourseDrawer() {
   const { code, close } = useCourseParam();
-  const { courses, plan, profile, add, addCourse, remove } = usePlan();
+  const { courses, plan, profile, add, addCourse, editCredits, remove, swap, announce } = usePlan();
 
   const details = useQuery({
     queryKey: ["catalog-course", code],
@@ -100,17 +102,7 @@ export function CourseDrawer() {
 
     action = <Button disabled>Add to plan</Button>;
   } else if (planCourse?.status === "plan") {
-    action = (
-      <Button
-        variant="ghost"
-        onClick={() => {
-          remove(code);
-          close();
-        }}
-      >
-        Remove from plan
-      </Button>
-    );
+    action = null;
   } else if (!planCourse) {
     note = (
       <Callout tone="info" title="Catalog course">
@@ -140,6 +132,7 @@ export function CourseDrawer() {
   return (
     <Drawer
       open
+      modal={false}
       onOpenChange={(open) => !open && close()}
       title={catalogCourse?.code ?? code}
       subtitle={catalogCourse?.title ?? "Course details"}
@@ -153,6 +146,9 @@ export function CourseDrawer() {
         </>
       }
     >
+      <SlotTag slot={planCourse?.slot} />
+      {(planCourse?.status === "plan" || planCourse?.status === "prog") && plan && profile && <PlanCourseActions key={code} course={planCourse} courses={courses} plan={plan} profile={profile}
+        onMove={add} onCredits={editCredits} onRemove={(value) => { remove(value); close(); }} onSwap={(value, replacement) => { swap(value, replacement); close(); }} announce={announce} />}
       {details.isPending && (
         <div className="detail-loading" role="status">
           <RefreshCw className="ic sm" aria-hidden />

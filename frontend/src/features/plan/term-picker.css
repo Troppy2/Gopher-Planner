@@ -1,0 +1,6 @@
+.term-picker { display: grid; gap: 4px; min-width: 0; }
+.term-picker > span { font-size: 12px; color: var(--muted); font-weight: 600; }
+.term-picker select { min-height: 44px; width: 100%; max-width: 100%; border: 1px solid var(--border); border-radius: 6px; background: var(--surface, #fff); color: var(--ink); padding: 8px 28px 8px 10px; font: inherit; font-size: 14px; }
+.term-picker select:focus-visible { outline: 2px solid var(--maroon); outline-offset: 2px; }
+.credit-field input { min-height: 44px; width: 100%; border: 1px solid var(--border); border-radius: 6px; padding: 8px; font: inherit; background: var(--surface, #fff); }
+.credit-field input:focus-visible { outline: 2px solid var(--maroon); outline-offset: 2px; }
