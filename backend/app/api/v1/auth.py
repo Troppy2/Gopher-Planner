@@ -1,13 +1,13 @@
 
-import hashlib
 import secrets
-from datetime import datetime, timedelta, timezone
+from datetime import timedelta
 
 from flask import Blueprint, current_app, jsonify, request
 from google.auth.exceptions import GoogleAuthError
 from sqlalchemy import select
 from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 
+from app.core.auth import COOKIE_NAME, check_request_origin, hash_session_token, read_session, utc_now
 from app.core.config import Settings
 from app.core.google_auth import verify_google_credential
 from app.extensions import db
@@ -15,17 +15,7 @@ from app.models import User, UserSession
 
 auth_bp = Blueprint("auth", __name__, url_prefix="/api/v1/auth")
 
-COOKIE_NAME = "gp_session"
 SESSION_LIFETIME = timedelta(days=7)
-
-
-def utc_now() -> datetime:
-    return datetime.now(timezone.utc)
-
-
-def hash_session_token(token: str) -> str:
-    """Hash the opaque session token before storing or querying it."""
-    return hashlib.sha256(token.encode("utf-8")).hexdigest()
 
 
 def set_session_cookie(response, token: str, settings: Settings):
@@ -53,17 +43,6 @@ def clear_session_cookie(response):
     return response
 
 
-def check_request_origin():
-    """Reject state-changing browser requests from untrusted origins."""
-    settings: Settings = current_app.config["SETTINGS"]
-    origin = request.headers.get("Origin")
-
-    if origin != settings.frontend_origin:
-        return jsonify({"error": "Untrusted request origin"}), 403
-
-    return None
-
-
 def serialize_user(user: User) -> dict:
     return {
         "id": user.id,
@@ -77,27 +56,6 @@ def serialize_user(user: User) -> dict:
         "graduationTarget": user.graduation_target or "",
         "onboarded": user.onboarded,
     }
-
-
-def read_session() -> UserSession | None:
-    """Return an active database session, or None if invalid."""
-    token = request.cookies.get(COOKIE_NAME)
-
-    if not token:
-        return None
-
-    token_hash = hash_session_token(token)
-
-    user_session = db.session.scalar(
-        select(UserSession).where(
-            UserSession.token_hash == token_hash,
-        )
-    )
-
-    if user_session is None or not user_session.is_active:
-        return None
-
-    return user_session
 
 
 @auth_bp.post("/google")

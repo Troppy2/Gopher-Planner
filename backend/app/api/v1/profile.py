@@ -4,7 +4,7 @@ from sqlalchemy.exc import SQLAlchemyError
 
 from app.extensions import db
 from app.models import User
-from app.api.v1.auth import check_request_origin, read_session
+from app.core.auth import check_request_origin, read_session
 
 profile_bp = Blueprint("profile", __name__, url_prefix="/api/v1")
 
@@ -38,6 +38,9 @@ def validate_profile_field(field: str, value: object) -> str | None:
     }:
         if not isinstance(value, str):
             return f"{field} must be a string"
+
+        if field == "name" and not value.strip():
+            return "name must not be blank"
 
         max_lengths = {
             "name": 255,

@@ -1,10 +1,15 @@
 
-from flask import Flask, app
+from flask import Flask, jsonify
+from werkzeug.exceptions import HTTPException
 from flask_cors import CORS
 
 from app.api.v1.auth import auth_bp
 from app.api.v1.courses import courses_bp
 from app.api.v1.profile import profile_bp
+from app.api.v1.summary import summary_bp
+from app.api.v1.coursework import coursework_bp
+from app.api.v1.plan import plan_bp
+from app.api.v1.transcripts import transcripts_bp
 from app.core.config import Settings
 from app.extensions import db, migrate
 from app import models
@@ -18,6 +23,7 @@ def create_app() -> Flask:
 
     app.config["SQLALCHEMY_DATABASE_URI"] = settings.database_url
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+    app.config["MAX_CONTENT_LENGTH"] = 10 * 1024 * 1024
 
     db.init_app(app)
     migrate.init_app(app, db)
@@ -32,9 +38,29 @@ def create_app() -> Flask:
     app.register_blueprint(auth_bp)
     app.register_blueprint(courses_bp)
     app.register_blueprint(profile_bp)
+    app.register_blueprint(summary_bp)
+    app.register_blueprint(coursework_bp)
+    app.register_blueprint(plan_bp)
+    app.register_blueprint(transcripts_bp)
 
     @app.get("/health")
     def health():
         return {"status": "ok"}
+
+    @app.errorhandler(HTTPException)
+    def http_error(error):
+        response = error.get_response()
+        response.data = jsonify({
+            "error": error.description,
+            "code": "too_large" if error.code == 413 else error.name.lower().replace(" ", "_"),
+        }).data
+        response.content_type = "application/json"
+        return response
+
+    @app.errorhandler(500)
+    def internal_error(error):
+        # Flask logs the original stack before invoking this handler.
+        db.session.rollback()
+        return {"error": "Internal server error", "code": "internal_error"}, 500
 
     return app

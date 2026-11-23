@@ -1,7 +1,7 @@
 from datetime import datetime, timezone
 from typing import TYPE_CHECKING
 
-from sqlalchemy import Boolean, DateTime, Integer, String, Text
+from sqlalchemy import Boolean, DateTime, Integer, String, Text, false
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.extensions import db
@@ -57,13 +57,16 @@ class User(db.Model):
         Text, nullable=True
     )
     credit_load: Mapped[int] = mapped_column(
-        Integer, default=15, nullable=False
+        Integer, default=15, server_default="15", nullable=False
     )
     graduation_target: Mapped[str | None] = mapped_column(
         String(50), nullable=True
     )
     onboarded: Mapped[bool] = mapped_column(
-        Boolean, default=False, nullable=False
+        Boolean, default=False, server_default=false(), nullable=False
+    )
+    coursework_skipped: Mapped[bool] = mapped_column(
+        Boolean, default=False, server_default=false(), nullable=False
     )
 
     # Timestamps

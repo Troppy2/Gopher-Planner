@@ -10,9 +10,12 @@ dependencies = [
     "flask-migrate>=4.1.0",
     "flask-sqlalchemy>=3.1.1",
     "google-auth>=2.62.0",
+    "onnxruntime>=1.32.0",
+    "pdfplumber>=0.11.11",
     "psycopg[binary]>=3.3.6",
     "pyjwt>=2.15.1",
     "python-dotenv>=1.2.4",
+    "rapidocr>=3.10.0",
     "requests>=2.34.2",
     "sqlalchemy>=2.1.5",
 ]
@@ -20,8 +23,13 @@ dependencies = [
 [dependency-groups]
 dev = [
     "pytest",
+    "reportlab>=5.1.0",
 ]
 
 [build-system]
 requires = ["uv_build>=0.12.20,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

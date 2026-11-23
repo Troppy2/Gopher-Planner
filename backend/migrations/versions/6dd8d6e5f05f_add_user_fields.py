@@ -22,9 +22,9 @@ def upgrade():
         batch_op.add_column(sa.Column('major', sa.String(length=255), nullable=True))
         batch_op.add_column(sa.Column('standing', sa.String(length=50), nullable=True))
         batch_op.add_column(sa.Column('career_goals', sa.Text(), nullable=True))
-        batch_op.add_column(sa.Column('credit_load', sa.Integer(), nullable=False))
+        batch_op.add_column(sa.Column('credit_load', sa.Integer(), nullable=False, server_default='15'))
         batch_op.add_column(sa.Column('graduation_target', sa.String(length=50), nullable=True))
-        batch_op.add_column(sa.Column('onboarded', sa.Boolean(), nullable=False))
+        batch_op.add_column(sa.Column('onboarded', sa.Boolean(), nullable=False, server_default=sa.false()))
 
     # ### end Alembic commands ###
 

@@ -7,8 +7,9 @@ from dotenv import load_dotenv
 # config.py -> core -> app -> backend -> repository root
 REPO_ROOT = Path(__file__).resolve().parents[3]
 
-# Load environment variables from Gopher-Planner/.env.
-# Existing environment variables take precedence.
+# Load backend/.env, then the repository-root .env (used by Docker Compose).
+# Real environment variables win, then the first file that sets a value.
+load_dotenv(REPO_ROOT / "backend" / ".env")
 load_dotenv(REPO_ROOT / ".env")
 
 
