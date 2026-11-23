@@ -1,11 +1,13 @@
 import { useEffect, useId, useRef, useState } from "react";
+import { useLeaveWarning } from "@/hooks/useLeaveWarning";
+import { useAutosave } from "@/hooks/useAutosave";
 import { keepPreviousData, useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { Plus, Search, Trash2, Upload } from "lucide-react";
+import { Plus, Trash2, Upload } from "lucide-react";
 import { getCoursework, getCourses, getTranscript, saveCoursework, uploadTranscript } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
 import type { CourseworkEntry } from "@/api/types";
 import { currentTerm } from "@/lib/terms";
-import { Button, Callout, Select, Spinner } from "@/ui";
+import { Button, Callout, CourseRowsSkeleton, Select, SkeletonRegion, Spinner } from "@/ui";
 import "./coursework.css";
 
 const GRADES = ["A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "F", "S", "N", "W", "I"];
@@ -38,8 +40,10 @@ export function CourseworkEditor() {
   const [transcriptId, setTranscriptId] = useState("");
   const [uploading, setUploading] = useState(false);
 
+  // Sync from the server only while the user has no unsaved edits, so a refetch can't wipe them.
+  const editedRef = useRef(false);
   useEffect(() => {
-    if (saved.data) setRows(saved.data.courses);
+    if (saved.data && !editedRef.current) setRows(saved.data.courses);
   }, [saved.data]);
 
   const search = useQuery({
@@ -61,6 +65,7 @@ export function CourseworkEditor() {
     if (!data || data.status === "parsing") return;
     setTranscriptId("");
     if (data.status === "parsed") {
+      editedRef.current = false;
       void qc.invalidateQueries({ queryKey: queryKeys.coursework });
       void qc.invalidateQueries({ queryKey: queryKeys.summary });
       void qc.invalidateQueries({ queryKey: queryKeys.plan });
@@ -78,20 +83,24 @@ export function CourseworkEditor() {
   const save = useMutation({
     mutationFn: () => saveCoursework({ courses: rows, skipped: false }),
     onSuccess: (body) => {
+      editedRef.current = false;
+      setRows(body.courses);
       qc.setQueryData(queryKeys.coursework, body);
       void qc.invalidateQueries({ queryKey: queryKeys.summary });
       void qc.invalidateQueries({ queryKey: queryKeys.plan });
-      setMessage({ tone: "ok", title: "Courses saved." });
+      setMessage(null);
     },
     onError: (error: Error) => setMessage({ tone: "error", title: "Could not save your courses.", body: error.message }),
   });
 
   const update = (index: number, patch: Partial<CourseworkEntry>) => {
+    editedRef.current = true;
     setMessage(null);
     setRows((current) => current.map((row, i) => (i === index ? { ...row, ...patch } : row)));
   };
 
   const add = (code: string, title: string, credits: number) => {
+    editedRef.current = true;
     setMessage(null);
     setRows((current) => [...current, { code, title, credits, status: "done", term: currentTerm(), grade: null, source: "manual" }]);
     setQ("");
@@ -116,6 +125,9 @@ export function CourseworkEditor() {
 
   const reading = uploading || !!transcriptId;
   const dirty = !!saved.data && !same(rows, saved.data.courses);
+  useLeaveWarning(dirty);
+  // Course edits save on their own; uploads in progress hold the save until the file is read.
+  useAutosave({ enabled: dirty && !reading && !save.isPending, key: JSON.stringify(rows), save: () => save.mutate(), failed: save.isError });
   const results = (search.data?.courses ?? []).filter((course) => !rows.some((row) => row.code === course.code));
   const terms = termOptions();
 
@@ -151,7 +163,9 @@ export function CourseworkEditor() {
       )}
 
       {saved.isPending ? (
-        <p className="muted">Loading your courses…</p>
+        <SkeletonRegion label="coursework"><CourseRowsSkeleton /></SkeletonRegion>
+      ) : saved.isError ? (
+        <Callout tone="error" title="Could not load your courses."><Button variant="ghost" onClick={() => saved.refetch()}>Try again</Button></Callout>
       ) : rows.length === 0 ? (
         <p className="muted">No courses saved yet. Search below or upload your APAS PDF.</p>
       ) : (
@@ -166,12 +180,15 @@ export function CourseworkEditor() {
                 <span className="sr-only">{row.code} credits</span>
                 <input
                   className="input num"
-                  type="number"
-                  min={0.5}
-                  max={12}
-                  step={0.5}
-                  value={row.credits}
-                  onChange={(event) => update(index, { credits: Number(event.target.value) })}
+                  inputMode="decimal"
+                  defaultValue={row.credits}
+                  key={row.credits}
+                  onBlur={(event) => {
+                    const n = Math.round(Number(event.target.value) * 2) / 2;
+                    const credits = Number.isFinite(n) && n >= 0.5 ? Math.min(12, n) : row.credits;
+                    event.target.value = String(credits);
+                    if (credits !== row.credits) update(index, { credits });
+                  }}
                 />
               </label>
               <Select
@@ -197,6 +214,7 @@ export function CourseworkEditor() {
                 size="sm"
                 aria-label={`Remove ${row.code}`}
                 onClick={() => {
+                  editedRef.current = true;
                   setMessage(null);
                   setRows((current) => current.filter((_, i) => i !== index));
                 }}
@@ -213,7 +231,6 @@ export function CourseworkEditor() {
           Add a course
         </label>
         <div className="inline-search">
-          <Search className="ic muted" aria-hidden />
           <input
             id={searchId}
             className="input"
@@ -245,12 +262,11 @@ export function CourseworkEditor() {
       </div>
 
       <div className="cw-actions">
-        <Button onClick={() => save.mutate()} disabled={!dirty || save.isPending || reading}>
-          {save.isPending ? "Saving" : "Save courses"}
-        </Button>
-        {dirty && (
-          <Button variant="ghost" onClick={() => saved.data && setRows(saved.data.courses)}>
-            Discard changes
+        {(dirty || save.isPending) && !save.isError && <span className="sstate saving" role="status">Saving…</span>}
+        {save.isError && dirty && <Button onClick={() => save.mutate()} disabled={save.isPending || reading}>Try again</Button>}
+        {save.isError && dirty && (
+          <Button variant="ghost" onClick={() => { editedRef.current = false; if (saved.data) setRows(saved.data.courses); }}>
+            Undo changes
           </Button>
         )}
       </div>

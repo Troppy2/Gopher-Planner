@@ -4,9 +4,13 @@ import { CheckCircle2, PenLine, RefreshCw, XCircle } from "lucide-react";
 import { getOptions, getProfile, updateProfile } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
 import type { Options, Profile } from "@/api/types";
-import { Button, EmptyState, Select, Stepper, TextField } from "@/ui";
+import { Button, Callout, Combobox, EmptyState, Select, Stepper, TextField } from "@/ui";
+import { useLeaveWarning } from "@/hooks/useLeaveWarning";
+import { useAutosave } from "@/hooks/useAutosave";
 import { careerForMajor, careerOptions, HeavyLoadNote, UnverifiedMajorNote, MAX_CREDITS, MIN_CREDITS } from "@/features/profile/profileRules";
 import { CourseworkEditor } from "@/features/coursework/CourseworkEditor";
+import { usePlanDraft } from "@/features/plan/plan.store";
+import { SettingsSkeleton } from "@/features/loading/ScreenSkeletons";
 import "./settings.css";
 
 type Form = Pick<Profile, "name" | "major" | "standing" | "careerGoals" | "creditLoad" | "graduationTarget">;
@@ -22,7 +26,7 @@ const same = (a: Form, b: Form) => (Object.keys(a) as Array<keyof Form>).every((
 
 export default function SettingsScreen() {
   const profileQ = useQuery({ queryKey: queryKeys.profile, queryFn: getProfile });
-  const { data: options } = useQuery({ queryKey: queryKeys.options, queryFn: getOptions });
+  const optionsQ = useQuery({ queryKey: queryKeys.options, queryFn: getOptions });
 
   if (profileQ.isError) {
     return (
@@ -42,13 +46,12 @@ export default function SettingsScreen() {
     );
   }
   if (!profileQ.data) {
-    return (
-      <div className="page narrow">
-        <h1 className="title">Settings</h1>
-      </div>
-    );
+    return <SettingsSkeleton />;
   }
-  return <SettingsForm profile={profileQ.data} options={options} />;
+  return <>
+    {optionsQ.isError && <Callout tone="warn" title="Could not load the major list."><Button variant="ghost" onClick={() => optionsQ.refetch()}>Retry major list</Button></Callout>}
+    <SettingsForm profile={profileQ.data} options={optionsQ.data} />
+  </>;
 }
 
 function SettingsForm({ profile, options }: { profile: Profile; options?: Options }) {
@@ -73,14 +76,17 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
       setSaved(ctx.prevSaved);
       if (ctx.prevProfile) qc.setQueryData(queryKeys.profile, ctx.prevProfile);
     },
-    onSuccess: (p) => {
+    onSuccess: (p, _f, ctx) => {
+      if (p.major !== ctx?.prevProfile?.major) usePlanDraft.getState().clear();
       qc.setQueryData(queryKeys.profile, p);
+      qc.invalidateQueries({ queryKey: queryKeys.plan });
       qc.invalidateQueries({ queryKey: queryKeys.summary });
     },
   });
 
   const dirty = !same(form, saved);
   const state = save.isError && dirty ? "error" : dirty ? "unsaved" : "saved";
+  useLeaveWarning(dirty);
   const set = (patch: Partial<Form>) => {
     setForm({ ...form, ...patch });
     if (patch.name?.trim()) setNameError("");
@@ -97,6 +103,13 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
     setForm(next);
     save.mutate(next);
   };
+  // Profile changes save on their own once the name is filled in; the bar only reports problems.
+  useAutosave({
+    enabled: dirty && !!form.name.trim() && !save.isPending,
+    key: JSON.stringify(form),
+    save: () => save.mutate({ ...form, name: form.name.trim() }),
+    failed: save.isError,
+  });
   const onDiscard = () => {
     setForm(saved);
     setNameError("");
@@ -105,7 +118,7 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
 
   const STATE = {
     saved: { icon: <CheckCircle2 className="ic sm" aria-hidden />, text: "Saved" },
-    unsaved: { icon: <PenLine className="ic sm" aria-hidden />, text: "Unsaved changes" },
+    unsaved: { icon: <PenLine className="ic sm" aria-hidden />, text: form.name.trim() ? "Saving…" : "Add your name to save" },
     error: { icon: <XCircle className="ic sm" aria-hidden />, text: "Could not save" },
   }[state];
 
@@ -136,11 +149,12 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
         <section className="sec surf" aria-labelledby="s-goals">
           <h2 id="s-goals">Academic goals</h2>
           <div className="sgrid">
-            <Select
+            <Combobox
               label="Major or degree program"
               value={form.major}
               onChange={(major) => set({ major, careerGoals: careerForMajor(options, major, form.careerGoals) })}
               options={options?.majors ?? [form.major]}
+              placeholder="Start typing, for example Computer Science"
             />
             <div className="span2">
               <UnverifiedMajorNote options={options} major={form.major} />
@@ -189,25 +203,20 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
           </div>
         </section>
 
-        <div className="sfoot">
-          <Button type="submit" disabled={!dirty}>
-            Save changes
-          </Button>
-        </div>
       </form>
 
       <CourseworkEditor />
 
-      {state !== "saved" && (
-        <div className="savebar" role="status">
+      {state === "error" && (
+        <div className="savebar" role="alert">
           <span className="msg">
-            <b>{state === "error" ? "Could not save. Check your connection and try again." : "Unsaved changes"}</b>
+            <b>Couldn't save your profile. Check your connection and try again.</b>
           </span>
           <Button variant="ghost" size="sm" onClick={onDiscard}>
-            Discard
+            Undo changes
           </Button>
           <Button size="sm" onClick={onSave}>
-            {state === "error" ? "Try again" : "Save changes"}
+            Try again
           </Button>
         </div>
       )}

@@ -34,9 +34,10 @@
   background: #dcebe2;
 }
 .sstate.unsaved {
-  color: var(--gold-ink);
-  border-color: var(--gold);
-  background: #fbeab8;
+  color: var(--ink);
+  border-color: var(--border-strong);
+  border-style: dashed;
+  background: var(--surface-raised);
 }
 .sstate.saving {
   color: var(--ink);

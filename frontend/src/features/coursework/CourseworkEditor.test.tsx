@@ -15,6 +15,27 @@ const saved = {
 };
 
 describe("CourseworkEditor", () => {
+  it("restores uploaded coursework after all saved courses were deleted", async () => {
+    let courses = saved.courses;
+    server.use(http.get(api("/coursework"), () => HttpResponse.json({ skipped: false, courses })),
+      http.put(api("/coursework"), async ({ request }) => {
+        const body = await request.json() as typeof saved;
+        courses = body.courses;
+        return HttpResponse.json(body);
+      }),
+      http.post(api("/transcripts"), () => { courses = saved.courses; return HttpResponse.json({ id: "restored" }, { status: 201 }); }),
+      http.get(api("/transcripts/restored"), () => HttpResponse.json({ id: "restored", fileName: "synthetic.pdf", status: "parsed", completed: 1, inProgress: 1, courses })));
+    const { container } = renderWithProviders(<CourseworkEditor />);
+    await screen.findByText("CSCI 1133");
+    await userEvent.click(screen.getByRole("button", { name: "Remove CSCI 1133" }));
+    await userEvent.click(screen.getByRole("button", { name: "Remove MATH 1271" }));
+    await waitFor(() => expect(courses).toEqual([]), { timeout: 3000 });
+    await waitFor(() => expect(screen.queryByText("Saving…")).not.toBeInTheDocument());
+    await userEvent.upload(container.querySelector('input[type="file"]') as HTMLInputElement, new File(["%PDF-1.4 synthetic"], "synthetic.pdf", { type: "application/pdf" }));
+    expect(await screen.findByText("Imported 1 completed and 1 in-progress courses.")).toBeInTheDocument();
+    expect(await screen.findByText("CSCI 1133")).toBeInTheDocument();
+    expect(screen.queryByText("Saving…")).not.toBeInTheDocument();
+  });
   it("removes a course and saves the whole edited set", async () => {
     let body: unknown = null;
     server.use(
@@ -27,13 +48,11 @@ describe("CourseworkEditor", () => {
     );
     renderWithProviders(<CourseworkEditor />);
     expect(await screen.findByText("CSCI 1133")).toBeInTheDocument();
-    const save = screen.getByRole("button", { name: "Save courses" });
-    expect(save).toBeDisabled();
+    expect(screen.queryByText("Saving…")).not.toBeInTheDocument();
     await userEvent.click(screen.getByRole("button", { name: "Remove MATH 1271" }));
     expect(screen.queryByText("MATH 1271")).toBeNull();
-    await userEvent.click(save);
-    await waitFor(() => expect(body).toEqual({ skipped: false, courses: [saved.courses[0]] }));
-    expect(await screen.findByText("Courses saved.")).toBeInTheDocument();
+    await waitFor(() => expect(body).toEqual({ skipped: false, courses: [saved.courses[0]] }), { timeout: 3000 });
+    await waitFor(() => expect(screen.queryByText("Saving…")).not.toBeInTheDocument());
   });
 
   it("re-uploads an APAS PDF and reports what was not imported", async () => {
