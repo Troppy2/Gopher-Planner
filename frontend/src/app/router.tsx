@@ -76,6 +76,10 @@ export const router = createBrowserRouter([
           },
         ],
       },
+      // Legal and contact pages are readable whether or not someone is signed in.
+      { path: "privacy", lazy: screen(() => import("@/screens/legal/PrivacyScreen")) },
+      { path: "terms", lazy: screen(() => import("@/screens/legal/TermsScreen")) },
+      { path: "contact", lazy: screen(() => import("@/screens/legal/ContactScreen")) },
       { path: "*", element: <NotFound /> },
     ],
   },

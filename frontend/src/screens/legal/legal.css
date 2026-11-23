@@ -1,0 +1,49 @@
+.legal-page {
+  min-height: 100dvh;
+  padding: var(--s6) var(--s4) var(--s12);
+}
+.legal-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s4);
+  flex-wrap: wrap;
+  max-width: 720px;
+  margin: 0 auto var(--s8);
+}
+.legal-top nav {
+  display: flex;
+  gap: var(--s4);
+}
+.legal-top nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--hit);
+  font-weight: 600;
+  color: var(--ink);
+}
+.legal-top nav a.active {
+  color: var(--maroon);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.legal-body {
+  max-width: 68ch;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.legal-body h2 {
+  margin: var(--s8) 0 var(--s2);
+  font-size: 18px;
+}
+.legal-body ul {
+  padding-left: 1.25em;
+  list-style: disc;
+}
+.legal-body li + li {
+  margin-top: var(--s2);
+}
+.legal-body .btn {
+  display: inline-flex;
+  gap: var(--s2);
+}

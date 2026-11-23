@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import { useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router";
 import { Callout, Spinner } from "@/ui";
 import { useSession } from "@/features/auth/session.store";
 import { GoogleSignInButton } from "@/features/auth/GoogleSignInButton";
@@ -44,7 +44,7 @@ export default function LoginScreen() {
         <img className="login-mark" src="/favicon.png" alt="" />
         <p className="login-name">Gopher Planner</p>
         <h1 className="slogan">
-          Tired of Looking? Try Gopher Planner!
+          Every semester, planned to graduation.
         </h1>
         <p className="login-lede">
           Upload your APAS. Get a four-year plan for your major, at the credit
@@ -90,6 +90,9 @@ export default function LoginScreen() {
           >
             GitHub
           </a>
+          <Link to="/terms">Terms</Link>
+          <Link to="/privacy">Privacy</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
       </div>
     </div>

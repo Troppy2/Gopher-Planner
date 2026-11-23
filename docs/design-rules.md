@@ -314,7 +314,7 @@ The login screen should be a focused entry point, not a full marketing page.
 ### Required content
 
 - Gopher Planner name and visual identity.
-- Slogan: `Tired of Looking? Try Gopher Planner!`
+- Slogan: `Every semester, planned to graduation.`
 - Google sign-in action restricted to eligible University of Minnesota accounts.
 - Short project description.
 - GitHub link.

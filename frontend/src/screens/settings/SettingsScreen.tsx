@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { useRef, useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { CheckCircle2, PenLine, RefreshCw, XCircle } from "lucide-react";
@@ -206,6 +207,12 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
       </form>
 
       <CourseworkEditor />
+
+      <nav className="settings-legal muted" aria-label="Legal and contact">
+        <Link to="/privacy">Privacy</Link>
+        <Link to="/terms">Terms</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
 
       {state === "error" && (
         <div className="savebar" role="alert">
