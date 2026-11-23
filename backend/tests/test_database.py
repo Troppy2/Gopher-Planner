@@ -4,7 +4,6 @@ from sqlalchemy import delete, select, func, text
 
 def test_runtime_sqlite_enforces_user_deletion_cascades(tmp_path, monkeypatch):
     monkeypatch.setenv("GOOGLE_CLIENT_ID", "synthetic-client")
-    monkeypatch.setenv("JWT_SECRET", "synthetic-test-value")
     monkeypatch.setenv("DATABASE_URL", f"sqlite:///{(tmp_path / 'runtime.db').as_posix()}")
     from app import create_app
     from app.extensions import db

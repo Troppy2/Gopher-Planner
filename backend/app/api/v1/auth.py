@@ -4,7 +4,7 @@ from datetime import timedelta
 
 from flask import Blueprint, current_app, jsonify, request
 from google.auth.exceptions import GoogleAuthError
-from sqlalchemy import select
+from sqlalchemy import delete, or_, select
 from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 
 from app.core.auth import COOKIE_NAME, check_request_origin, hash_session_token, read_session, utc_now
@@ -126,6 +126,18 @@ def google_login():
             user.email = google_user["email"]
             user.name = google_user["name"]
             user.picture_url = google_user["picture"]
+
+            # Sessions that can never authenticate again are dropped at the
+            # user's next sign-in so the table does not grow without bound.
+            db.session.execute(
+                delete(UserSession).where(
+                    UserSession.user_id == user.id,
+                    or_(
+                        UserSession.expires_at <= now,
+                        UserSession.revoked_at.is_not(None),
+                    ),
+                )
+            )
 
         db.session.flush()
 

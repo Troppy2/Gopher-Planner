@@ -193,7 +193,7 @@ PostgreSQL migrations enable row-level security on application tables, but that 
 5. It creates a cryptographically random opaque token, stores its SHA-256 hash in `user_sessions`, and returns `gp_session` as an HttpOnly, SameSite=Lax cookie. Secure behavior is configurable.
 6. Future requests look up an active, unexpired, unrevoked session by token hash. Current sessions last seven days.
 
-`JWT_SECRET` is still a required configuration value, but the implemented authentication path uses database-backed opaque sessions, not client JWT authorization. Removing the unused setting/dependency is tracked as cleanup.
+Authentication uses database-backed opaque sessions, not JWTs; there is no `JWT_SECRET` setting. At each sign-in, the user's expired and revoked sessions are deleted.
 
 State-changing routes require the exact configured frontend `Origin`; CORS permits that origin with credentials. Same-origin proxying simplifies browser cookie behavior. Frontend requests include credentials explicitly.
 

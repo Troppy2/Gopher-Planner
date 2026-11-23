@@ -12,7 +12,7 @@ This document distinguishes implemented foundations, partial work, and proposals
 | [#7: backend expansion](https://github.com/Troppy2/Gopher-Planner/issues/7) | Models, Alembic revisions, parser/OCR, summary, coursework, and plan services/endpoints exist. | Operational hardening and broader data integrations remain separate work. |
 | [#9: majors/programs](https://github.com/Troppy2/Gopher-Planner/issues/9) | Versioned JSON requirements and `GET /programs` supply the major list. | This uses files rather than the issue's proposed programs table. Profile major strings are not fully restricted to that list, and non-CS programs remain unverified. |
 | [#10: full catalog](https://github.com/Troppy2/Gopher-Planner/issues/10) | Full dated exports and a repeatable importer populate SQLAlchemy `catalog_*` tables. Runtime no longer reads `courses.db`. | Scheduled refresh, richer offering semantics, and reliable exact-term availability are not complete. The old SQLite-swap proposal does not describe the current runtime. |
-| [#12: backend structure/correctness](https://github.com/Troppy2/Gopher-Planner/issues/12) | Services, repositories, schemas, session helpers, JSON error handlers, tests, and P0 API flows exist. | The issue bundles many independent items. Unused required `JWT_SECRET`, production serving, entrypoint migrations, auth hardening, and real CI/CD remain unresolved. |
+| [#12: backend structure/correctness](https://github.com/Troppy2/Gopher-Planner/issues/12) | Services, repositories, schemas, session helpers, JSON error handlers, tests, and P0 API flows exist. | The issue bundles many independent items. Production serving, entrypoint migrations, auth hardening, and real CI/CD remain unresolved. |
 
 Implementation references: [API routes](../backend/app/api/v1/), [services](../backend/app/services/), [models](../backend/app/models/), [catalog importer](../backend/scripts/import_catalog.py), [frontend endpoints](../frontend/src/api/endpoints.ts), and [data guide](../backend/data/README.md).
 
@@ -74,7 +74,7 @@ No registration handoff is implemented. Establish what the university supports b
 - Moving entrypoint migrations into an explicit deployment step.
 - Completing CI/CD: the workflow files currently contain names/comments without jobs or triggers.
 - API readiness checks, operational monitoring, backup/restore and retention procedures.
-- Authentication rate limiting, expired-session cleanup, and account/session management.
+- Authentication rate limiting and account/session management. Expired and revoked sessions are now pruned at each sign-in; a scheduled cleanup for users who never return does not exist.
 - Finishing input-option validation and resolving remaining configuration/dependency cleanup.
 
 These are gaps, not claims of production safeguards already being provided.

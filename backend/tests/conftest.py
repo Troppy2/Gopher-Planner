@@ -38,7 +38,6 @@ def make_database_url(tmp_path, name="users.db"):
 @pytest.fixture
 def app(tmp_path, monkeypatch):
     monkeypatch.setenv("GOOGLE_CLIENT_ID", "synthetic-client")
-    monkeypatch.setenv("JWT_SECRET", "synthetic-test-value")
     monkeypatch.setenv("FRONTEND_ORIGIN", "http://localhost:5173")
     monkeypatch.setenv("DATABASE_URL", make_database_url(tmp_path))
     from app import create_app
