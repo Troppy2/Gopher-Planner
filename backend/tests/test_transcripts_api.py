@@ -50,7 +50,8 @@ def test_valid_pdf_is_parsed_into_transcript_coursework(client, make_user, login
     assert {course["source"] for course in stored} == {"transcript"}
 
 
-def test_image_only_or_blank_pdf_reports_no_text(client, make_user, login_as, post_headers):
+def test_image_only_or_blank_pdf_reports_no_text(client, make_user, login_as, post_headers, monkeypatch):
+    monkeypatch.setattr("app.services.transcripts.ocr_pdf_text", lambda data: "")
     login_as(make_user())
     identity = upload(client, post_headers, pdf(blank=True)).json["id"]
     assert client.get(f"/api/v1/transcripts/{identity}").json["status"] == "no_text"

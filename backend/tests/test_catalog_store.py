@@ -17,6 +17,19 @@ def counts():
                  for model in (CatalogRelease, CatalogCourse, CatalogPrerequisiteEdge))
 
 
+def test_le_filter_matches_a_whole_designation(client, catalog, make_user, login_as):
+    from app.extensions import db
+    from app.models import CatalogCourse
+    login_as(make_user())
+    db.session.query(CatalogCourse).filter_by(course_code="CSCI 1001").one().le_attributes = "Synthetic arts; Synthetic perspective"
+    db.session.commit()
+    result = client.get('/api/v1/courses', query_string={"le": "Synthetic perspective"}).json
+    assert result["total"] == 1
+    assert result["courses"][0]["code"] == "CSCI 1001"
+    assert client.get('/api/v1/courses', query_string={"le": "perspective"}).json["total"] == 0
+    assert client.get('/api/v1/courses', query_string=[("le", "Synthetic perspective"), ("le", "Other synthetic category")]).json["total"] == 0
+
+
 def test_migration_creates_catalog_tables(app):
     from app.extensions import db
 

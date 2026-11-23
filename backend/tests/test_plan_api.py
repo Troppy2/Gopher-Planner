@@ -30,6 +30,71 @@ def by_code(plan):
     return {course["code"]: course for course in plan["courses"]}
 
 
+def test_current_courses_can_move_out_and_back_with_credit_edits(client, planner, post_headers):
+    planner(courses=[work("MINI 1101", "prog", term="Fall 2026", credits=4)])
+    moved = put(client, post_headers, [{"code": "MINI 1101", "status": "plan", "term": "Spring 2027"}], catalogTerm="Fall 2026")
+    assert moved.status_code == 200
+    assert by_code(moved.json)["MINI 1101"]["status"] == "plan"
+    assert client.get("/api/v1/coursework").json["courses"] == []
+
+    current = put(client, post_headers, [{"code": "MINI 1101", "status": "prog", "term": "Fall 2026", "credits": 4}])
+    assert current.status_code == 200
+    assert by_code(current.json)["MINI 1101"]["credits"] == 4
+    assert client.get("/api/v1/coursework").json["courses"][0]["status"] == "prog"
+    edited = put(client, post_headers, [{"code": "MINI 1101", "status": "prog", "term": "Fall 2026", "credits": 2}])
+    assert edited.status_code == 200
+    assert by_code(client.get("/api/v1/plan").json)["MINI 1101"]["credits"] == 2
+    assert put(client, post_headers, [{"code": "MINI 1101", "status": "avail", "term": None}]).status_code == 200
+    assert client.get("/api/v1/coursework").json["courses"] == []
+
+
+def test_current_credit_corrections_do_not_require_a_catalog_selection(client, planner, post_headers):
+    planner(courses=[work("CSCI 1001", "prog", term="Fall 2026", credits=4)])
+    response = put(client, post_headers, [{"code": "CSCI 1001", "status": "prog", "term": "Fall 2026", "credits": 2}])
+    assert response.status_code == 200
+    assert by_code(response.json)["CSCI 1001"]["credits"] == 2
+
+
+@pytest.mark.parametrize("credits", [True, 0, 13, 2.25, "3"])
+def test_current_credit_validation_preserves_enrollment(client, planner, post_headers, credits):
+    planner(courses=[work("MINI 1101", "prog", term="Fall 2026", credits=4)])
+    response = put(client, post_headers, [{"code": "MINI 1101", "status": "prog", "term": "Fall 2026", "credits": credits}], catalogTerm="Fall 2026")
+    assert response.status_code == 400
+    assert client.get("/api/v1/coursework").json["courses"][0]["credits"] == 4
+
+
+def test_moving_current_prerequisite_after_dependent_is_atomic(client, planner, post_headers):
+    planner(courses=[work("MINI 1101", "prog", term="Fall 2026")])
+    assert put(client, post_headers, [{"code": "MINI 1102", "status": "plan", "term": "Spring 2027"}], catalogTerm="Fall 2026").status_code == 200
+    response = put(client, post_headers, [{"code": "MINI 1101", "status": "plan", "term": "Fall 2027"}])
+    assert response.status_code == 409
+    assert client.get("/api/v1/coursework").json["courses"][0]["status"] == "prog"
+
+
+def test_failed_attempt_is_preserved_when_current_retake_moves(client, planner, post_headers):
+    planner(courses=[work("MINI 1101", grade="F"), work("MINI 1101", "prog", term="Fall 2026")])
+    response = put(client, post_headers, [{"code": "MINI 1101", "status": "plan", "term": "Spring 2027"}], catalogTerm="Fall 2026")
+    assert response.status_code == 200
+    assert by_code(response.json)["MINI 1101"]["status"] == "plan"
+    rows = client.get("/api/v1/coursework").json["courses"]
+    assert len(rows) == 1 and rows[0]["grade"] == "F"
+    assert put(client, post_headers, [{"code": "MINI 1101", "status": "plan", "term": "Fall 2027"}]).status_code == 200
+
+
+def test_current_enrollment_does_not_overwrite_a_same_term_failed_attempt(client, planner, post_headers):
+    planner(courses=[work("MINI 1101", grade="F", term="Fall 2026")])
+    response = put(client, post_headers, [{"code": "MINI 1101", "status": "prog", "term": "Fall 2026"}], catalogTerm="Fall 2026")
+    assert response.status_code == 409
+    assert client.get("/api/v1/coursework").json["courses"][0]["grade"] == "F"
+
+
+def test_current_suggestion_cannot_use_a_same_semester_in_progress_prerequisite(client, planner, post_headers):
+    planner(courses=[work("MINI 1101", "prog", term="Fall 2026")])
+    response = put(client, post_headers, [{"code": "MINI 1102", "status": "plan", "term": "Fall 2026"}], catalogTerm="Fall 2026")
+    assert response.status_code == 409
+    assert response.json["violations"][0]["reason"] == "prerequisite_not_before"
+
+
 def work(code, status="done", grade="A", term="Fall 2025", credits=3):
     return {"code": code, "title": f"Synthetic {code}", "credits": credits, "status": status,
             "grade": None if status == "prog" else grade, "term": term}
@@ -136,7 +201,7 @@ def test_unknown_major_can_save_catalog_only_plans_without_a_version(client, pla
     {"changes": [{"code": "MINI 1101", "status": "plan", "term": "Spring 2027", "extra": 1}]},
     {"changes": [{"code": "MINI 1101", "status": "done", "term": "Spring 2027"}]},
     {"changes": [{"code": "MINI 1101", "status": "plan", "term": "Completed"}]},
-    {"changes": [{"code": "MINI 1101", "status": "plan", "term": "Fall 2026"}]},
+    {"changes": [{"code": "MINI 1101", "status": "plan", "term": "Spring 2026"}]},
     {"changes": [{"code": "MINI 1101", "status": "plan", "term": "Fall 2040"}]},
     {"changes": [{"code": "MINI 1101", "status": "plan", "term": None}]},
     {"changes": [{"code": "MINI 1101", "status": "avail", "term": "Spring 2027"}]},

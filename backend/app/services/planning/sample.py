@@ -29,12 +29,15 @@ def load_sample_plan(program_id):
     return _load(str(sample_directory()), program_id)
 
 
-def sample_terms(graduation):
+def sample_terms(graduation, *, start=None):
     """Map (year, season) of a four-year sample plan to real terms ending at ``graduation``.
 
     Spring graduation: Year 1 Fall is four years earlier. Fall graduation: Year 4 Fall is the graduation term."""
     if not isinstance(graduation, str) or not PLAN_TERM.fullmatch(graduation):
-        return {}
+        if not isinstance(start, str) or not PLAN_TERM.fullmatch(start):
+            return {}
+        season, year = start.split()
+        graduation = f"Spring {int(year) + (4 if season == 'Fall' else 3)}"
     name, year = graduation.split()
     start = int(year) - 4 if name == "Spring" else int(year) - 3
     mapping = {}

@@ -47,10 +47,13 @@ def _credits(column):
     return cast(column, Float)
 
 
-def search_courses(*, query="", subject="", level="", credits="", term="", requirement="",
+def search_courses(*, query="", subject="", level="", credits="", term="", requirement="", le="",
                    availability="", next_term="Spring", limit=50, offset=0):
     """Filtered, stably ordered catalog page. Text matching is case-insensitive on every database."""
     where = []
+    for category in ([le] if isinstance(le, str) and le else le or []):
+        designations = ";" + func.replace(CatalogCourse.le_attributes, "; ", ";") + ";"
+        where.append(designations.contains(f";{category};", autoescape=True))
     if query:
         pattern = f"%{query}%"
         where.append(or_(CatalogCourse.course_code.ilike(pattern), CatalogCourse.course_name.ilike(pattern),

@@ -437,3 +437,39 @@ def test_free_elective_credits_report_what_is_left_to_reach_the_total():
     program = inline([grp("major", crs("a", "MAJR 1001"))], total=12)
     result = seeded(program, sample())
     assert result["electiveCredits"] == 9.0
+
+
+def test_one_le_slot_can_need_two_separate_suggestions():
+    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    extra = metadata_for(inline([grp("x", {"id": "r", "type": "all", "allowReuse": False, "sourceRef": "s",
+        "children": [crs("g", "SYN 1001"), crs("h", "SYN 1002")]})]))
+    def suggest(categories, term, exclude):
+        category = categories[0]
+        code = "SYN 1001" if category == "Synthetic arts" else "SYN 1002"
+        return code, extra[code], [category]
+    plan = sample((3, "Fall", [{"kind": "le", "categories": ["Synthetic arts", "Synthetic history"], "label": "Synthetic breadth"}]))
+    result = seeded(program, plan, suggest=suggest, load_limit=15)
+    assert {p["code"] for p in result["placements"] if p.get("slot")} == {"SYN 1001", "SYN 1002"}
+
+
+def test_sample_plan_preserves_semesters_without_a_graduation_target():
+    from app.services.planning.generate import generate_plan
+    program = inline([grp("major", {"id": "core", "type": "all", "allowReuse": False, "sourceRef": "s",
+        "children": [crs("a", "MAJR 1001"), crs("b", "MAJR 2001")]})])
+    plan = sample((1, "Fall", [{"kind": "course", "codes": ["MAJR 1001"]}]),
+                  (2, "Spring", [{"kind": "course", "codes": ["MAJR 2001"]}]))
+    result = generate_plan(program, coursework=[], metadata=metadata_for(program),
+        terms=["Fall 2026", "Spring 2027", "Fall 2027", "Spring 2028"], credit_load=15, sample=plan)
+    assert placed(result) == {"MAJR 1001": "Fall 2026", "MAJR 2001": "Spring 2028"}
+
+
+def test_all_eight_sample_semesters_stay_in_their_published_order():
+    from app.services.planning.generate import generate_plan
+    codes = [f"SYN {1001 + i}" for i in range(8)]
+    program = inline([grp("major", {"id": "core", "type": "all", "allowReuse": False, "sourceRef": "s",
+        "children": [crs(f"r-{i}", code) for i, code in enumerate(codes)]})])
+    terms = [f"{season} {year}" for year in range(2026, 2031) for season in ("Spring", "Fall")][1:9]
+    plan = sample(*[(i // 2 + 1, "Fall" if i % 2 == 0 else "Spring", [{"kind": "course", "codes": [code]}]) for i, code in enumerate(codes)])
+    result = generate_plan(program, coursework=[], metadata=metadata_for(program), terms=terms, credit_load=15,
+        graduation="Spring 2030", sample=plan)
+    assert placed(result) == dict(zip(codes, terms))

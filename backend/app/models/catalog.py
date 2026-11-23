@@ -1,5 +1,5 @@
 """Course catalog tables. Seed data, kept apart from user data and written only by the importer."""
-from sqlalchemy import ForeignKey, Index, String, Text, UniqueConstraint
+from sqlalchemy import ForeignKey, Index, String, Text, UniqueConstraint, text
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.extensions import db
@@ -44,7 +44,7 @@ class CatalogCourse(db.Model):
     prerequisite_unresolved_courses: Mapped[str] = mapped_column(Text)
     prerequisite_extraction_method: Mapped[str] = mapped_column(Text)
     # "; "-separated liberal education designations from the full catalog export (e.g. "Global Perspectives").
-    le_attributes: Mapped[str] = mapped_column(Text, default="", server_default="")
+    le_attributes: Mapped[str] = mapped_column(Text, default="", server_default=text("''"))
 
 
 class CatalogPrerequisiteEdge(db.Model):

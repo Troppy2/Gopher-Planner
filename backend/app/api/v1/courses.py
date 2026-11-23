@@ -120,7 +120,7 @@ def get_courses():
     try:
         rows, total = catalog.search_courses(
             query=query, subject=subject, level=level, credits=credits, term=term,
-            requirement=requirement, availability=availability, next_term=next_term,
+            requirement=requirement, le=[value.strip() for value in request.args.getlist("le") if value.strip()], availability=availability, next_term=next_term,
             limit=limit, offset=offset)
         return jsonify({
             "courses": [serialize_course(row) for row in rows],

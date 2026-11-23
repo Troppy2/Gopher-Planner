@@ -292,7 +292,7 @@ class Planner:
         return any(walk(group["rule"]) for group in self.program["groups"])
 
     def seed(self, plan, graduation):
-        mapping = sample_terms(graduation)
+        mapping = sample_terms(graduation, start=self.terms[0] if self.terms else None)
         if not plan or not mapping or not self.terms:
             return
         first = term_index(self.terms[0])
@@ -326,14 +326,19 @@ class Planner:
         if not missing or self.le_suggest is None:
             return
         season_term = target if target in self.terms else self.terms[start]
-        suggestion = self.le_suggest(missing, season_term, self.locked | set(self.planned))
-        if not suggestion:
-            return
-        code, record, covered = suggestion
-        self.metadata[code] = record
-        if self.place(code, start):
-            self.slots[code] = item.get("label") or ", ".join(missing)
+        while missing:
+            suggestion = self.le_suggest(missing, season_term, self.locked | set(self.planned))
+            if not suggestion:
+                return
+            code, record, covered = suggestion
+            if code in self.locked or code in self.planned or not set(covered).intersection(missing):
+                return
+            self.metadata[code] = record
+            if not self.place(code, start):
+                return
+            self.slots[code] = item.get("label") or ", ".join(item["categories"])
             self.le_coverage |= set(covered)
+            missing = [category for category in missing if category not in self.le_coverage]
 
     def run(self):
         ordered = sorted(enumerate(self.program["groups"]),

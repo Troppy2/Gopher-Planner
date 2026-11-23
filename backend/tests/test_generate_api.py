@@ -36,6 +36,77 @@ def planned(plan):
     return {course["code"]: course["term"] for course in plan["courses"] if course["status"] == "plan"}
 
 
+def test_empty_current_semester_is_seeded_from_the_sample_without_writing_on_preview(client, student, post_headers, tmp_path, monkeypatch, app):
+    import json
+    student(graduationTarget="Spring 2030")
+    (tmp_path / "mini-synthetic.json").write_text(json.dumps({"terms": [
+        {"year": 1, "season": "Fall", "items": [{"kind": "course", "codes": ["MINI 1101"]}]},
+        {"year": 1, "season": "Spring", "items": [{"kind": "course", "codes": ["MINI 1102"]}]},
+    ]}), encoding="utf-8")
+    monkeypatch.setenv("SAMPLE_PLAN_DATA_PATH", str(tmp_path))
+    before = rows(app)
+    preview = generate(client, post_headers, dryRun=True, catalogTerm="Fall 2026")
+    assert preview.status_code == 200
+    assert planned(preview.json["plan"])["MINI 1101"] == "Fall 2026"
+    assert planned(preview.json["plan"])["MINI 1102"] == "Spring 2027"
+    assert rows(app) == before
+    saved = generate(client, post_headers, catalogTerm="Fall 2026")
+    assert saved.status_code == 200
+    assert client.get("/api/v1/plan").json == saved.json["plan"]
+    assert planned(saved.json["plan"])["MINI 1101"] == "Fall 2026"
+
+
+def test_generation_keeps_existing_current_enrollment(client, student, post_headers):
+    student(courses=[work("MINI 1101", "prog", term="Fall 2026")])
+    result = generate(client, post_headers, catalogTerm="Fall 2026").json["plan"]
+    assert all(term != "Fall 2026" for term in planned(result).values())
+    assert next(c for c in result["courses"] if c["code"] == "MINI 1101")["status"] == "prog"
+
+
+@pytest.mark.parametrize("covered", [False, True])
+def test_sample_slots_round_trip_and_dry_run_is_read_only(client, student, post_headers, app, tmp_path, monkeypatch, covered):
+    import json
+    from app.extensions import db
+    from app.models import CatalogCourse
+
+    student(graduationTarget="Spring 2029", courses=[work("CSCI 1001")] if covered else [])
+    for code in ("CSCI 1001", "CSCI 1006"):
+        row = db.session.query(CatalogCourse).filter_by(course_code=code).one()
+        row.le_attributes = "Synthetic perspective"
+        row.prerequisite_status = "none"
+    db.session.commit()
+    sample = {"terms": [{"year": 2, "season": "Spring", "items": [
+        {"kind": "le", "categories": ["Synthetic perspective"], "label": "Synthetic perspective"},
+        {"kind": "course", "codes": ["MATH 2008"]}]}]}
+    (tmp_path / "mini-synthetic.json").write_text(json.dumps(sample), encoding="utf-8")
+    monkeypatch.setenv("SAMPLE_PLAN_DATA_PATH", str(tmp_path))
+    before = rows(app)
+    dry = generate(client, post_headers, catalogTerm="Fall 2026", dryRun=True)
+    assert dry.status_code == 200
+    assert rows(app) == before
+    plan = dry.json["plan"]
+    slots = [course for course in plan["courses"] if course.get("slot")]
+    assert [course["code"] for course in slots] == ([] if covered else ["CSCI 1006"])
+    if slots:
+        assert slots[0]["slot"] == "Synthetic perspective"
+        assert slots[0]["term"] == "Spring 2027"
+    assert planned(plan)["MATH 2008"] == "Spring 2027"
+    projected = plan["baseCredits"] + sum(c["credits"] for c in plan["courses"] if c["status"] in {"done", "prog", "plan"})
+    assert plan["electiveCredits"] == max(0, 24 - projected)
+    saved = generate(client, post_headers, catalogTerm="Fall 2026")
+    assert saved.json["plan"] == plan
+    assert client.get("/api/v1/plan").json == plan
+    if slots:
+        replacement = db.session.query(CatalogCourse).filter_by(course_code="MATH 2010").one()
+        replacement.le_attributes = "Synthetic perspective"
+        db.session.commit()
+        swapped = client.put("/api/v1/plan", headers=post_headers, json={"changes": [
+            {"code": "CSCI 1006", "status": "avail", "term": None},
+            {"code": "MATH 2010", "status": "plan", "term": "Spring 2027", "slot": "Synthetic perspective"}]})
+        assert swapped.status_code == 200
+        assert next(c for c in swapped.json["courses"] if c["code"] == "MATH 2010")["slot"] == "Synthetic perspective"
+
+
 def test_generation_matches_the_engine_and_persists_the_plan(client, student, post_headers, app):
     from app.services.metadata import resolve_course
     from app.services.planning.generate import generate_plan
@@ -49,11 +120,63 @@ def test_generation_matches_the_engine_and_persists_the_plan(client, student, po
     assert body["status"] == "succeeded" and body["jobId"]
     program = load_program(MINI, "Fall 2026")
     expected = generate_plan(program, coursework=[], metadata={code: resolve_course(code, program, None) for code in program["courseMetadata"]},
-                             terms=plan_window("Fall 2026", ""), credit_load=15)
+                             terms=["Fall 2026", *plan_window("Fall 2026", "")], credit_load=15)
     assert planned(body["plan"]) == {item["code"]: item["term"] for item in expected["placements"]}
     assert body["plan"]["catalogTerm"] == "Fall 2026"
     assert client.get("/api/v1/plan").json == body["plan"]
     assert all(source == "generated" for _, _, _, source in rows(app)[0])
+
+
+def test_le_prefetch_keeps_candidates_for_each_category(client, student, post_headers, tmp_path, monkeypatch):
+    import json
+    from app.extensions import db
+    from app.models import CatalogCourse
+    student(graduationTarget="Spring 2029")
+    for code, category in [("CSCI 1002", "Synthetic arts"), ("CSCI 1004", "Synthetic arts"), ("CSCI 1006", "Synthetic history")]:
+        row = db.session.query(CatalogCourse).filter_by(course_code=code).one()
+        row.le_attributes, row.prerequisite_status = category, "none"
+        row.prerequisite_json = json.dumps({"status": "none", "requirements": None})
+    db.session.commit()
+    (tmp_path / "mini-synthetic.json").write_text(json.dumps({"terms": [{"year": 2, "season": "Spring", "items": [
+        {"kind": "le", "categories": ["Synthetic arts", "Synthetic history"], "label": "Synthetic breadth"}]}]}), encoding="utf-8")
+    monkeypatch.setenv("SAMPLE_PLAN_DATA_PATH", str(tmp_path))
+    from app.services import plan as service
+    original = service.generate_plan
+    def without_transaction(*args, **kwargs):
+        assert not db.session().in_transaction()
+        result = original(*args, **kwargs)
+        assert not db.session().in_transaction()
+        return result
+    monkeypatch.setattr(service, "generate_plan", without_transaction)
+    response = generate(client, post_headers, catalogTerm="Fall 2026", dryRun=True)
+    assert response.status_code == 200
+    slots = {c["code"] for c in response.json["plan"]["courses"] if c.get("slot")}
+    assert slots == {"CSCI 1002", "CSCI 1006"}
+    assert generate(client, post_headers, catalogTerm="Fall 2026").status_code == 200
+    db.session.query(CatalogCourse).filter_by(course_code="MATH 2010").one().le_attributes = "Synthetic history"
+    db.session.commit()
+    response = client.put("/api/v1/plan", headers=post_headers, json={"changes": [
+        {"code": code, "status": "avail", "term": None} for code in sorted(slots)] + [
+        {"code": code, "status": "plan", "term": "Spring 2027", "slot": "Synthetic breadth"}
+        for code in ["CSCI 1004", "MATH 2010"]]})
+    assert response.status_code == 200
+
+
+def test_generation_rejects_a_stale_snapshot_without_overwriting_newer_edits(client, student, post_headers, monkeypatch):
+    from app.services import plan as service
+    student()
+    original = service.generate_plan
+    def with_edit(*args, **kwargs):
+        result = original(*args, **kwargs)
+        response = client.put("/api/v1/plan", headers=post_headers, json={"catalogTerm": "Fall 2026", "changes": [
+            {"code": "CSCI 1001", "status": "plan", "term": "Fall 2027"}]})
+        assert response.status_code == 200
+        return result
+    monkeypatch.setattr(service, "generate_plan", with_edit)
+    response = generate(client, post_headers, catalogTerm="Fall 2026")
+    assert response.status_code == 409
+    assert response.json["code"] == "plan_changed"
+    assert planned(client.get("/api/v1/plan").json) == {"CSCI 1001": "Fall 2027"}
 
 
 def test_rerunning_generation_replaces_generated_rows_without_duplicates(client, student, post_headers, app):
@@ -91,7 +214,7 @@ def test_credit_load_and_graduation_target_are_respected(client, student, post_h
     for course in plan["courses"]:
         if course["status"] == "plan":
             loads[course["term"]] = loads.get(course["term"], 0) + course["credits"]
-    assert loads and max(loads.values()) <= 7 and set(loads) <= set(plan["terms"][2:])
+    assert loads and max(loads.values()) <= 7 and set(loads) <= set(plan["terms"][1:])
 
 
 def test_unconfirmed_and_unsupported_versions_return_distinct_warnings_and_write_nothing(client, student, post_headers, app):

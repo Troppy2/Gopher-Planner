@@ -6,6 +6,7 @@ Catalog and program seed data. Separate from user data.
 | --- | --- |
 | `courses.db` | Bundled course catalog export (CSCI and MATH, catalog version `unknown`). Source for `scripts/import_catalog.py`, which loads it (its rows win over the CSV) into the `catalog_*` database tables. Never edited; the app does not read it at runtime. |
 | `catalog-exports/` | Dated public snapshots of every Twin Cities program (`programs.<date>.csv`) and course version (`courses.<date>.csv`). `courses.<date>.csv` is also merged by `scripts/import_catalog.py --csv` for every course outside `courses.db`; prerequisites from it are unverified text. `scripts/validate_programs.py` checks every program's courses against it. See [catalog-exports/README.md](catalog-exports/README.md). |
+| `sample_plans/` | Per-program official four-year sample plans built from `catalog-exports/sample-plans.2026-11-23.csv`. Used to seed generation before requirement filling; labels identify liberal education suggestions. Free electives are reported as credits and are not placed. |
 | `programs/` | Versioned planner requirement files in the v2 format, one per undergraduate major and catalog term, plus `mapping-report.csv`. |
 
 ## v2 program files
@@ -38,3 +39,17 @@ Program rules stated only in prose need a reviewed overlay in `scripts/program_o
 ## Selecting and adding versions
 
 Students explicitly choose a supported catalog term; the planner never applies a candidate year on its own and never combines files from different terms. To add a version, take a new dated snapshot, rebuild into a scratch directory, compare it with the current files by `officialProgramId`, review changed rules and overlays, then copy the new `<id>--<term>.json` files into `programs/` alongside the old ones. Existing plans keep their saved term until the student switches, and switching keeps their saved courses. Run `uv run pytest -q`; `tests/test_shipped_programs.py` checks that every file traces to its official revision, totals and course sources.
+
+## Sample plans and full course snapshot
+
+`catalog-exports/courses.2026-11-23.csv` includes descriptions and liberal education designations, also merged onto reviewed CSCI and MATH rows during import:
+
+```powershell
+uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-23.csv
+uv run python scripts/export_sample_plans.py --output data/catalog-exports/sample-plans.2026-11-23.csv
+uv run python scripts/build_sample_plans.py --sample-plans data/catalog-exports/sample-plans.2026-11-23.csv
+```
+
+The sample snapshot contains rows from all 161 public pages; 155 pages match programs. The exporter handles heading and paragraph term labels, merged cells, and optional Offered columns. It caches public HTML with `--source-cache <directory>` and retries rate-limited requests. Explicit slug aliases cover confirmed name differences only. Six pages remain unmatched: arts education, business analytics, business-economics emphasis, educational psychology, public/nonprofit management, and user experience design. No degree equivalence is inferred for these pages.
+
+Sample plans are suggestions, not additional authoritative degree rules. Graduation targets map their four years onto calendar terms. Existing coursework covers LE categories; generation suggests prerequisite-free catalog courses for missing categories. Moves and swaps retain slot labels. Free electives are reported as credits and are not placed. The sample sources are not catalog-version-specific, so students must review the draft against their APAS and advisor guidance.
