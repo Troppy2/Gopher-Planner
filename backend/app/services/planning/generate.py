@@ -9,7 +9,13 @@ how many open rules they count toward, the program's home subject, missing prere
 course level, then code; when a branch cannot be scheduled the
 group's placements are rolled back and the next complete branch is tried. This is a bounded
 greedy search, not a global optimizer: an incomplete result is not proof that no schedule exists.
+
+Liberal education: sample-plan slots are filled first; after the program's requirements are placed,
+any core area, theme (4 of 5, Race, Power, and Justice required) or writing intensive course still
+open is filled from a candidate pool, one course at a time, preferring the course that covers the
+most open needs. Designations carried by required major courses count, so they are never doubled.
 """
+from app.services.liberal_ed import open_needs
 from app.services.metadata import home_subject
 
 from app.services.planning.eligibility import placement_check
@@ -21,10 +27,13 @@ CATEGORY_PRIORITY = {"Major core": 0, "Math and stats": 1, "Elective": 2, "Liber
 STATUS_WARNINGS = {"unknown": "program_requirements_unavailable", "unavailable": "program_version_unavailable",
                    "unconfirmed": "program_version_unconfirmed"}
 MAX_STEPS = 400
+# Upper bound on gap-filling courses: 7 core + 4 themes + 4 writing intensive.
+MAX_LE_FILLS = 15
 
 
 class Planner:
-    def __init__(self, program, coursework, metadata, terms, credit_load, *, le_suggest=None, le_coverage=frozenset()):
+    def __init__(self, program, coursework, metadata, terms, credit_load, *, le_suggest=None, le_coverage=frozenset(),
+                 le_pool=(), le_designations=None, le_rules=None):
         self.program = program
         self.coursework = coursework
         self.metadata = metadata
@@ -46,6 +55,10 @@ class Planner:
         self.slots = {}
         self.le_suggest = le_suggest
         self.le_coverage = set(le_coverage)
+        self.le_pool = list(le_pool or ())
+        self.le_designations = {code: set(names) for code, names in (le_designations or {}).items()}
+        self.le_designations.update({item["code"]: set(item["designations"]) for item in self.le_pool})
+        self.le_rules = le_rules
 
     def _home_subject(self):
         """Most common subject among courses named directly in the program's rules."""
@@ -334,6 +347,48 @@ class Planner:
             self.le_coverage |= set(covered)
             missing = [category for category in missing if category not in self.le_coverage]
 
+    def le_state(self):
+        """Designations and writing intensive count across finished, in-progress and planned courses."""
+        codes = self.locked | set(self.planned)
+        covered = set(self.le_coverage)
+        for code in codes:
+            covered |= self.le_designations.get(code, set())
+        writing = sum("Writing Intensive" in self.le_designations.get(code, ()) for code in codes)
+        return covered, writing
+
+    def fill_le_gaps(self):
+        """Add pool courses for liberal education needs still open, best combined coverage first."""
+        if not self.le_rules or not self.le_pool:
+            return
+        for _ in range(MAX_LE_FILLS):
+            covered, writing = self.le_state()
+            needs = open_needs(self.le_rules, covered, writing)
+            if not needs:
+                return
+            if not self.place_le_need(needs):
+                break
+        # Something is still open and nothing more fits (full terms, or no eligible course).
+        if open_needs(self.le_rules, *self.le_state()):
+            self.warnings.add("liberal_ed_unplanned")
+
+    def place_le_need(self, needs):
+        taken = self.locked | set(self.planned)
+
+        def level(code):
+            number = code.split(" ")[-1]
+            return int(number[0]) if number[:1].isdigit() else 9
+
+        for _, wanted in needs:
+            candidates = [item for item in self.le_pool if item["code"] not in taken and item["designations"] & wanted]
+            candidates.sort(key=lambda item: (-sum(bool(item["designations"] & group) for _, group in needs),
+                                              level(item["code"]), item["code"]))
+            for item in candidates:
+                self.metadata.setdefault(item["code"], item["record"])
+                if self.place(item["code"]):
+                    self.slots[item["code"]] = ", ".join(label for label, group in needs if item["designations"] & group)
+                    return True
+        return False
+
     def run(self):
         ordered = sorted(enumerate(self.program["groups"]),
                          key=lambda pair: (CATEGORY_PRIORITY.get(pair[1]["category"], 9), pair[0]))
@@ -343,13 +398,15 @@ class Planner:
 
 
 def generate_plan(program, *, coursework, metadata, terms, credit_load, base_credits=0, status="ok", sample=None,
-                  graduation=None, le_suggest=None, le_coverage=frozenset()):
+                  graduation=None, le_suggest=None, le_coverage=frozenset(), le_pool=(), le_designations=None, le_rules=None):
     if status != "ok" or program is None:
         return {"placements": [], "warnings": [STATUS_WARNINGS.get(status, "program_requirements_unavailable")],
                 "requirementProgress": []}
-    planner = Planner(program, coursework, metadata, terms, credit_load, le_suggest=le_suggest, le_coverage=le_coverage)
+    planner = Planner(program, coursework, metadata, terms, credit_load, le_suggest=le_suggest, le_coverage=le_coverage,
+                      le_pool=le_pool, le_designations=le_designations, le_rules=le_rules)
     planner.seed(sample, graduation)
     planner.run()
+    planner.fill_le_gaps()
     evaluation = planner.evaluate()
     warnings = set(planner.warnings) | set(evaluation["warnings"])
     if "requirements_incomplete" in warnings and planner.blocked_reasons:

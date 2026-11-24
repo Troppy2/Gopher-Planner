@@ -123,6 +123,7 @@ export type WarningCode =
   | "catalog_version_unverified"
   | "catalog_metadata_conflict"
   | "graduation_target_unreachable"
+  | "liberal_ed_unplanned"
   | (string & {});
 
 export type RequirementStatus = "satisfied" | "unsatisfied" | "needs_review";

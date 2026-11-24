@@ -143,6 +143,36 @@ def double_dippers(wanted, *, exclude, limit, offset):
     return [(course, covered) for _, course, covered in matches[offset:offset + limit]], len(matches)
 
 
+def le_candidates(needs, *, exclude, per_need=8):
+    """Prerequisite-free courses for open liberal education needs, as ``[(code, designations)]``.
+
+    ``needs`` is ``[(label, designations)]``. For each need, keeps the ``per_need`` courses that cover
+    the most open needs overall, then lower levels, then code; the union is the generator's pool."""
+    names = sorted({name for _, group in needs for name in group})
+    if not names:
+        return []
+    rows = db.session.execute(
+        select(CatalogCourse.course_code, CatalogCourse.le_attributes)
+        .where(or_(*(CatalogCourse.le_attributes.contains(name) for name in names)))
+        .where(CatalogCourse.prerequisite_status == "none")
+        .where(CatalogCourse.typically_offered != "-"))
+    scored = []
+    for code, attributes in rows:
+        if code in exclude:
+            continue
+        carried = _le(attributes)
+        hits = sum(bool(carried & group) for _, group in needs)
+        if hits:
+            number = code.split(" ")[-1]
+            scored.append(((-hits, int(number[0]) if number[:1].isdigit() else 9, code), code, carried))
+    scored.sort(key=lambda row: row[0])
+    pool = {}
+    for _, group in needs:
+        for _, code, carried in [row for row in scored if row[2] & group][:per_need]:
+            pool[code] = carried
+    return sorted(pool.items())
+
+
 def le_coverage(codes):
     """Liberal education designations carried by any of ``codes``."""
     codes = sorted(set(codes))
@@ -154,10 +184,12 @@ def le_coverage(codes):
     return covered
 
 
-def suggest_le_course(categories, *, season, exclude):
+def suggest_le_course(categories, *, season, exclude, bonus=()):
     """A prerequisite-free course offered in ``season`` that covers the most of ``categories``.
 
-    Ties prefer lower course levels, then code. Returns (code, covered categories) or None."""
+    Ties prefer courses that also carry more ``bonus`` designations (other liberal education needs
+    still open), then lower course levels, then code. Returns (code, covered categories) or None."""
+    bonus = set(bonus)
     wanted = set(categories)
     if not wanted:
         return None
@@ -173,7 +205,7 @@ def suggest_le_course(categories, *, season, exclude):
         if not covered:
             continue
         number = code.split(" ")[-1]
-        key = (-len(covered), int(number[0]) if number[:1].isdigit() else 9, code)
+        key = (-len(covered), -len((bonus - set(covered)) & _le(attributes)), int(number[0]) if number[:1].isdigit() else 9, code)
         if best is None or key < best[0]:
             best = (key, code, covered)
     return (best[1], best[2]) if best else None

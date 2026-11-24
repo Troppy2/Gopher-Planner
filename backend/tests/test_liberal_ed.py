@@ -159,3 +159,41 @@ def test_themes_drop_out_of_remaining_once_projected_complete(rules):
                     "SYN 1003": {"Global Perspectives"}, "SYN 1005": {"Race, Power, and Justice US"}}
     remaining = evaluate(rules, [done(code) for code in designations], designations)["remaining"]
     assert "Technology and Society" not in remaining
+
+
+# open_needs: what a generator should still fill.
+
+def needs(rules, covered=(), wi=0):
+    from app.services.liberal_ed import open_needs
+    return [label for label, _ in open_needs(rules, set(covered), wi)]
+
+
+def all_core(rules):
+    return {entry["designations"][0] for entry in rules["core"]["items"]}
+
+
+def test_open_needs_lists_race_power_justice_first_then_core_then_themes_then_writing(rules):
+    result = needs(rules)
+    assert result[0] == "Race, Power, and Justice US"
+    assert result[1:8] == [entry["designations"][0] for entry in rules["core"]["items"]]
+    assert result[-1] == "Writing Intensive"
+
+
+def test_open_needs_stops_asking_for_themes_once_four_including_rpj_are_covered(rules):
+    covered = all_core(rules) | {"Race, Power, and Justice US", "Civic Life and Ethics", "Environment", "Global Perspectives"}
+    assert needs(rules, covered, wi=4) == []
+
+
+def test_open_needs_still_requires_rpj_when_four_other_themes_are_covered(rules):
+    covered = all_core(rules) | {"Civic Life and Ethics", "Environment", "Global Perspectives", "Technology and Society"}
+    assert needs(rules, covered, wi=4) == ["Race, Power, and Justice US"]
+
+
+def test_open_needs_accepts_the_former_diversity_name(rules):
+    covered = all_core(rules) | {"Diversity and Soc Justice US", "Civic Life and Ethics", "Environment", "Global Perspectives"}
+    assert needs(rules, covered, wi=4) == []
+
+
+def test_open_needs_counts_writing_intensive_total(rules):
+    covered = all_core(rules) | {"Race, Power, and Justice US", "Civic Life and Ethics", "Environment", "Global Perspectives"}
+    assert needs(rules, covered, wi=3) == ["Writing Intensive"]

@@ -137,3 +137,29 @@ def evaluate_liberal_ed(rules, *, courses, designations, major_codes, major_subj
     return {"source": "catalog+apas" if audit else "catalog", "core": core, "themes": themes,
             "writing": {"firstYear": first_year, "intensive": intensive}, "remaining": remaining,
             "sources": {key: value["url"] for key, value in rules["sources"].items()}}
+
+
+def open_needs(rules, covered, wi_count):
+    """Liberal education needs a plan should still fill, most constrained first.
+
+    ``covered`` is every designation name already earned, in progress, planned, or credited by APAS;
+    ``wi_count`` counts writing intensive courses among them. Returns ``[(label, designations)]``:
+    mandatory themes, then missing core areas, then other themes while fewer than the required
+    number are covered, then writing intensive while the total is short. Upper-division and
+    in-major writing intensive courses depend on the major and are left to the tracker.
+    """
+    def met(entry):
+        return bool(covered & set(entry["designations"]))
+
+    themes = rules["themes"]
+    by_id = {entry["id"]: entry for entry in themes["items"]}
+    needs = [(by_id[identity]["designations"][0], set(by_id[identity]["designations"]))
+             for identity in themes["mandatory"] if not met(by_id[identity])]
+    needs += [(entry["designations"][0], set(entry["designations"])) for entry in rules["core"]["items"] if not met(entry)]
+    if sum(met(entry) for entry in themes["items"]) < themes["required"]:
+        needs += [(entry["designations"][0], set(entry["designations"])) for entry in themes["items"]
+                  if not met(entry) and entry["id"] not in themes["mandatory"]]
+    intensive = rules["writing"]["intensive"]
+    if wi_count < intensive["total"]:
+        needs.append((intensive["designations"][0], set(intensive["designations"])))
+    return needs

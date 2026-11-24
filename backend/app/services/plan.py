@@ -8,12 +8,12 @@ from sqlalchemy import select
 
 from app.extensions import db
 from app.models import Coursework
-from app.repositories.catalog import find_courses, le_coverage, le_designations, suggest_le_course
+from app.repositories.catalog import find_courses, le_candidates, le_coverage, le_designations, suggest_le_course
 from app.repositories.locks import lock_user
 from app.repositories.plans import find_plan, planned_courses, planned_slots, replace_planned_courses
 from app.schemas.coursework import CODE_PATTERN
 from app.services.coursework import get_coursework
-from app.services.liberal_ed import evaluate_liberal_ed, load_rules
+from app.services.liberal_ed import evaluate_liberal_ed, load_rules, open_needs
 from app.services.metadata import home_subject, referenced_codes, resolve_course
 from app.services.planning.eligibility import INFORMATIONAL, placement_check
 from app.services.planning.generate import CATEGORY_PRIORITY, STATUS_WARNINGS, generate_plan
@@ -417,6 +417,20 @@ def generate(user, body):
         required, audited = audit
         covered |= audited | {category for item in items if item["kind"] == "le"
                               for category in item["categories"] if category not in required}
+        # As in the tracker: a section the audit lists but a category it omits is not required.
+        rules = load_rules()
+        for section in ("core", "themes"):
+            names = {name for entry in rules[section]["items"] for name in entry["designations"]}
+            if required & names:
+                covered |= {name for entry in rules[section]["items"] if not set(entry["designations"]) & required
+                            for name in entry["designations"]}
+    # Liberal education needs still open after finished work, for double-dipper ranking and gap filling.
+    taken_codes = {item["code"] for item in attempts if earned(item) or item["status"] == "prog"}
+    designations = le_designations(taken_codes | (referenced_codes(program) if program else set()) | sample_codes)
+    earned_names = set(covered).union(*(designations.get(code, set()) for code in taken_codes))
+    writing = sum("Writing Intensive" in designations.get(code, ()) for code in taken_codes)
+    needs = open_needs(load_rules(), earned_names, writing) if program else []
+    bonus = {name for _, group in needs for name in group}
     # Materialize alternatives before generation so the engine callback is pure.
     suggestions = {}
     le_items = [item for item in items if item["kind"] == "le"]
@@ -432,7 +446,7 @@ def generate(user, body):
             continue
         options, excluded = [], set(locked_codes(attempts))
         for _ in range(sum(len(slot["categories"]) for slot in le_items)):
-            suggestion = suggest_le_course(wanted, season=season, exclude=excluded)
+            suggestion = suggest_le_course(wanted, season=season, exclude=excluded, bonus=bonus)
             if not suggestion:
                 break
             code, coverage = suggestion
@@ -449,6 +463,14 @@ def generate(user, body):
                    if option[0] not in exclude and wanted.intersection(option[2])]
         return min(options, key=lambda o: (-len(wanted.intersection(o[2])), o[0])) if options else None
 
+    pool = []
+    if needs:
+        candidates = le_candidates(needs, exclude=set(locked_codes(attempts)))
+        records = find_courses([code for code, _ in candidates])
+        for code, carried in candidates:
+            record = resolve_course(code, program, records.get(code))
+            if record and not record.get("blockedReason"):
+                pool.append({"code": code, "designations": carried, "record": record})
     user_id, graduation, credit_load = user.id, user.graduation_target, user.credit_load
     existing = snapshot[4] if not program else {}
     db.session.rollback()
@@ -457,6 +479,7 @@ def generate(user, body):
     result = generate_plan(program, coursework=[item for item in attempts if item["status"] in {"done", "prog"}], metadata=metadata,
                     terms=window, credit_load=credit_load, base_credits=earned_base,
                     sample=sample, graduation=graduation, le_suggest=suggest, le_coverage=covered,
+                    le_pool=pool, le_designations=designations, le_rules=load_rules(),
                     status="ok" if program else "unknown")
     planned = {item["code"]: (item["term"], "generated") for item in result["placements"]}
     if not program:

@@ -19,7 +19,10 @@ def le_catalog(app, catalog):
         "MATH 2011": "Biological Sciences; Diversity and Soc Justice US",
     }
     for code, value in designations.items():
-        db.session.execute(update(CatalogCourse).where(CatalogCourse.course_code == code).values(le_attributes=value))
+        # Mirror real catalog rows: CSCI 1003 has a prerequisite in the synthetic catalog, the rest have none.
+        status = "found" if code == "CSCI 1003" else "none"
+        db.session.execute(update(CatalogCourse).where(CatalogCourse.course_code == code)
+                           .values(le_attributes=value, prerequisite_status=status))
     db.session.commit()
     return designations
 
@@ -64,9 +67,10 @@ def test_double_dippers_rank_courses_covering_remaining_needs(client, make_user,
     codes = [course["code"] for course in body["courses"]]
     assert "CSCI 1001" not in codes  # already taken
     assert "CSCI 1005" not in codes  # covers only one need
-    assert codes[:2] == ["CSCI 1003", "MATH 2009"]  # three needs each, then code order
-    first = body["courses"][0]
-    assert first["covers"] == ["Historical Perspectives", "Race, Power, and Justice US", "Writing Intensive"]
+    # Three needs each; the course without prerequisites ranks first.
+    assert codes[:2] == ["MATH 2009", "CSCI 1003"]
+    assert body["courses"][0]["covers"] == ["Physical Sciences", "Technology and Society", "Writing Intensive"]
+    assert body["courses"][1]["covers"] == ["Historical Perspectives", "Race, Power, and Justice US", "Writing Intensive"]
     # The former theme name still counts toward Race, Power, and Justice.
     by_code = {course["code"]: course for course in body["courses"]}
     assert by_code["MATH 2011"]["covers"] == ["Biological Sciences", "Race, Power, and Justice US"]
@@ -83,3 +87,34 @@ def test_double_dippers_paginate_and_validate(client, make_user, login_as, le_ca
 
 def test_double_dippers_require_sign_in(client):
     assert client.get("/api/v1/liberal-ed/double-dippers").status_code == 401
+
+
+def test_generation_fills_liberal_ed_gaps_with_courses_that_count_twice(client, make_user, login_as, post_headers,
+                                                                         le_catalog, program_files, today):
+    login_as(make_user())
+    profile = {"major": "Mini Synthetic B.S.", "graduationTarget": "Spring 2030", "creditLoad": 18}
+    assert client.put("/api/v1/profile", json=profile, headers=post_headers).status_code == 200
+    response = client.post("/api/v1/plans/generate", json={"catalogTerm": "Fall 2026", "dryRun": True}, headers=post_headers)
+    assert response.status_code == 200
+    plan = response.json["plan"]
+    slots = {course["code"]: course["slot"] for course in plan["courses"] if course.get("slot")}
+    # Prerequisite-free designated courses fill the gaps; CSCI 1003 has a prerequisite and is skipped.
+    assert "CSCI 1003" not in slots
+    assert slots["MATH 2009"] == "Physical Sciences, Technology and Society, Writing Intensive"
+    assert slots["MATH 2011"] == "Race, Power, and Justice US, Biological Sciences"
+    liberal = plan["liberalEd"]
+    themes = {item["id"]: item["status"] for item in liberal["themes"]["items"]}
+    assert themes["race-power-justice"] == "planned"
+    core = {item["id"]: item["status"] for item in liberal["core"]["items"]}
+    assert {core[key] for key in ("literature", "arts-humanities", "social-sciences", "physical-sciences", "biological-sciences")} == {"planned"}
+
+
+def test_generation_does_not_add_liberal_ed_already_covered(client, make_user, login_as, post_headers,
+                                                            le_catalog, program_files, today):
+    login_as(make_user())
+    profile = {"major": "Mini Synthetic B.S.", "graduationTarget": "Spring 2030", "creditLoad": 18}
+    assert client.put("/api/v1/profile", json=profile, headers=post_headers).status_code == 200
+    save_coursework(client, post_headers, work("CSCI 1001"))  # Literature and Global Perspectives
+    plan = client.post("/api/v1/plans/generate", json={"catalogTerm": "Fall 2026", "dryRun": True}, headers=post_headers).json["plan"]
+    slots = {course["code"]: course["slot"] for course in plan["courses"] if course.get("slot")}
+    assert not any("Literature" in label or "Global Perspectives" in label for label in slots.values())

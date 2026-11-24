@@ -481,3 +481,93 @@ def test_registered_future_term_courses_use_up_that_terms_credit_load():
     program = inline([grp("major", rule)])
     registered = [done("REG 1001", 6, grade=None, term="Spring 2027", status="prog")]
     assert placed(generate(program, registered, load_limit=7)) == {"MAJR 1001": "Fall 2027", "MAJR 1002": "Fall 2027"}
+
+
+# Liberal education gap filling.
+
+def le_course(code, *designations, offered=("Fall", "Spring"), credits=3):
+    return {"code": code, "designations": set(designations),
+            "record": {"code": code, "title": code, "minimumCredits": credits, "maximumCredits": credits,
+                       "offered": list(offered), "prerequisites": {"state": "verified_none", "expression": None}, "metadataWarnings": [], "blockedReason": None,
+                       "metadataSource": "catalog"}}
+
+
+def all_but(rules, *missing):
+    names = {entry["designations"][0] for section in ("core", "themes") for entry in rules[section]["items"]}
+    return frozenset(names - set(missing))
+
+
+def filled(program, pool, *, coverage=frozenset(), designations=None, coursework=(), load_limit=15, terms=TERMS):
+    from app.services.liberal_ed import load_rules
+    from app.services.planning.generate import generate_plan
+    return generate_plan(program, coursework=list(coursework), metadata=metadata_for(program), terms=terms,
+                         credit_load=load_limit, le_coverage=coverage, le_pool=pool,
+                         le_designations=designations or {}, le_rules=load_rules())
+
+
+def four_wi():
+    return [done(f"WRIT {3000 + i}W") for i in range(4)], {f"WRIT {3000 + i}W": {"Writing Intensive"} for i in range(4)}
+
+
+def test_gaps_are_filled_preferring_courses_that_count_twice():
+    from app.services.liberal_ed import load_rules
+    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    coursework, designations = four_wi()
+    # Alphabetical order favors the single-purpose courses, so only the ranking picks ZZZ 1001.
+    pool = [le_course("AAA 1001", "Race, Power, and Justice US"),
+            le_course("ABC 1001", "Literature"),
+            le_course("ZZZ 1001", "Literature", "Race, Power, and Justice US"),
+            le_course("ART 1001", "Arts/Humanities")]
+    coverage = all_but(load_rules(), "Literature", "Race, Power, and Justice US", "Arts/Humanities")
+    result = filled(program, pool, coverage=coverage, designations=designations, coursework=coursework)
+    slots = {item["code"]: item.get("slot") for item in result["placements"]}
+    assert "AAA 1001" not in slots and "ABC 1001" not in slots
+    assert slots["ZZZ 1001"] == "Race, Power, and Justice US, Literature"
+    assert slots["ART 1001"] == "Arts/Humanities"
+
+
+def test_major_courses_that_carry_a_designation_count_toward_it():
+    from app.services.liberal_ed import load_rules
+    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    coursework, designations = four_wi()
+    pool = [le_course("PHYS 1001", "Physical Sciences")]
+    coverage = all_but(load_rules(), "Physical Sciences")
+    result = filled(program, pool, coverage=coverage, designations={**designations, "MAJR 1001": {"Physical Sciences"}},
+                    coursework=coursework)
+    assert "PHYS 1001" not in placed(result)
+
+
+def test_writing_intensive_courses_fill_the_total():
+    from app.services.liberal_ed import load_rules
+    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    pool = [le_course(f"SYN 10{i}W", "Writing Intensive") for i in range(6)]
+    result = filled(program, pool, coverage=all_but(load_rules()))
+    assert sum(code.endswith("W") for code in placed(result)) == 4
+
+
+def test_gap_filling_stops_cleanly_when_nothing_fits():
+    from app.services.liberal_ed import load_rules
+    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    coursework, designations = four_wi()
+    pool = [le_course("LIT 1001", "Literature", offered=("Summer",))]
+    result = filled(program, pool, coverage=all_but(load_rules(), "Literature"), designations=designations, coursework=coursework)
+    assert "LIT 1001" not in placed(result)
+    assert "liberal_ed_unplanned" in result["warnings"]
+
+
+def test_no_unplanned_warning_when_every_need_is_filled():
+    from app.services.liberal_ed import load_rules
+    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    coursework, designations = four_wi()
+    pool = [le_course("LIT 1001", "Literature")]
+    result = filled(program, pool, coverage=all_but(load_rules(), "Literature"), designations=designations, coursework=coursework)
+    assert "LIT 1001" in placed(result)
+    assert "liberal_ed_unplanned" not in result["warnings"]
+
+
+def test_no_rules_means_no_gap_filling():
+    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    from app.services.planning.generate import generate_plan
+    result = generate_plan(program, coursework=[], metadata=metadata_for(program), terms=TERMS, credit_load=15,
+                           le_pool=[le_course("LIT 1001", "Literature")])
+    assert placed(result) == {"MAJR 1001": "Spring 2027"}
