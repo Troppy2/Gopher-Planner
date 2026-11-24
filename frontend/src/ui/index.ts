@@ -8,3 +8,4 @@ export * from "./Display";
 export * from "./Drawer";
 export * from "./Skeleton";
 export * from "./SaveToast";
+export * from "./Modal";

@@ -139,6 +139,7 @@ export interface RequirementEvidence {
 }
 
 export interface RequirementProgress {
+  options?: string[];
   id: string;
   label: string;
   parentId: string | null;
@@ -240,3 +241,4 @@ export interface Transcript {
   notImported?: string[];
   errorCode?: string;
 }
+
