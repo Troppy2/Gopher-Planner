@@ -21,12 +21,12 @@ interface Props {
   onAddCourse?: (course: Course, term: string) => void;
 }
 
-function Row({ c, onOpen, right, hideCredits = false, showStatus = false }: { c: Course; onOpen: (code: string) => void; right: ReactNode; hideCredits?: boolean; showStatus?: boolean }) {
+function Row({ c, onOpen, right, hideCredits = false, showStatus = false, statusLabel }: { c: Course; onOpen: (code: string) => void; right: ReactNode; hideCredits?: boolean; showStatus?: boolean; statusLabel?: string }) {
   return (
     <li className="semrow hover-row">
       <button type="button" className="semrow-main" onClick={() => onOpen(c.code)}>
         <b>{c.code}</b>
-        {showStatus && <StatusBadge status={c.status} />}
+        {showStatus && <StatusBadge status={c.status} label={statusLabel} />}
         <span>{c.title}</span>
         <SlotTag slot={c.slot} />
         {c.lockReason && (
@@ -43,7 +43,7 @@ function Row({ c, onOpen, right, hideCredits = false, showStatus = false }: { c:
 }
 
 export function SemesterView({ plan, profile, courses, goal, onOpen, onAdd, onRemove, onCredits, onAddCourse }: Props) {
-  const current = courses.filter((c) => c.status === "prog" || (c.status === "plan" && c.term === plan.currentTerm));
+  const current = courses.filter((c) => (c.status === "prog" || c.status === "plan") && c.term === plan.currentTerm);
   const first = firstFutureIndex(plan);
   const last = lastPlanIndex(plan, profile);
   const projected = projectedCredits(plan.baseCredits, courses);
@@ -79,7 +79,8 @@ export function SemesterView({ plan, profile, courses, goal, onOpen, onAdd, onRe
 
       {Array.from({ length: last - first + 1 }, (_, k) => first + k).map((i) => {
         const term = plan.terms[i];
-        const planned = courses.filter((c) => c.term === term && c.status === "plan");
+        // Courses already registered for this term (in progress) sit with the planned ones.
+        const planned = courses.filter((c) => c.term === term && (c.status === "plan" || c.status === "prog"));
         const locked = courses.filter((c) => c.term === term && c.status === "block");
         const options = courses.filter((c) => eligible(c, i, courses, plan.terms)).slice(0, 4);
         const cr = sumCredits(planned);
@@ -104,6 +105,9 @@ export function SemesterView({ plan, profile, courses, goal, onOpen, onAdd, onRe
                     c={c}
                     onOpen={onOpen}
                     right={controls(c)}
+                    hideCredits={c.status === "prog" && !!onCredits}
+                    showStatus={c.status === "prog"}
+                    statusLabel="Registered"
                   />
                 ))}
                 {locked.map((c) => (

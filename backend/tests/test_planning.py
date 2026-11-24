@@ -174,6 +174,24 @@ def test_completed_and_in_progress_courses_are_never_placed_and_count_toward_req
     assert placed(result)["MINI 3001"] == "Fall 2027"
 
 
+def test_courses_registered_for_a_future_term_only_satisfy_later_terms():
+    program = load("mini-synthetic--fall-2026.json")
+    result = generate(program, [done("MINI 1101"), done("MINI 1102", 4, None, "Fall 2027", "prog")], base=3)
+    assert "MINI 1102" not in placed(result)
+    # MINI 3001 needs MINI 1102 and is Fall-only: not beside the registration, but the next Fall.
+    assert placed(result)["MINI 3001"] == "Fall 2028"
+
+
+def test_validation_treats_a_registered_course_as_taken_in_its_term():
+    from app.services.planning.validate import validate_plan
+    program = load("mini-synthetic--fall-2026.json")
+    terms = ["Fall 2026", *TERMS]
+    kwargs = dict(locked={"MINI 1101": "done", "MINI 1102": "prog"}, metadata=metadata_for(program), terms=terms,
+                  current_term="Fall 2026", registered={"MINI 1102": "Fall 2027"})
+    assert validate_plan({"MINI 3001": "Fall 2027"}, **kwargs)[0]["reason"] == "prerequisite_not_before"
+    assert validate_plan({"MINI 3001": "Fall 2028"}, **kwargs) == []
+
+
 def test_generation_is_deterministic_and_does_not_mutate_inputs():
     program, coursework = load("mini-synthetic--fall-2026.json"), [done("MINI 1101")]
     metadata = metadata_for(program)

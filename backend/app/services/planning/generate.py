@@ -68,6 +68,10 @@ class Planner:
         self.done = {item["code"] for item in coursework if item["status"] == "done"}
         self.in_progress = {item["code"] for item in coursework if item["status"] == "prog"}
         self.locked = self.done | self.in_progress
+        # Courses registered for a term inside the plan count only for later terms' prerequisites.
+        self.registered = {item["code"]: terms.index(item["term"]) for item in coursework
+                           if item["status"] == "prog" and item.get("term") in terms}
+        self.in_progress -= set(self.registered)
         self.planned = {}
         self.loads = [0.0] * len(terms)
         for item in coursework:
@@ -195,7 +199,8 @@ class Planner:
                 continue
             if self.loads[position] + credits > self.credit_load:
                 continue
-            check = placement_check(record, term, position, done=self.done, in_progress=self.in_progress, planned=self.planned)
+            check = placement_check(record, term, position, done=self.done, in_progress=self.in_progress,
+                                    planned={**self.registered, **self.planned})
             if check.ok:
                 self.warnings.update(check.warnings)
                 return position

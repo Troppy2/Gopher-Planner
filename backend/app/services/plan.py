@@ -100,6 +100,17 @@ def coursework_attempts(user):
              "term": row["term"], "title": row["title"]} for row in get_coursework(user)["courses"]]
 
 
+def registered_term(row, current, window):
+    """An in-progress attempt's plan term: a later term it is registered for, otherwise the current term."""
+    return row["term"] if row.get("term") in window else current
+
+
+def registered_future(attempts, current, window):
+    """Codes in progress for a future term in the window (registered for next semester), with that term."""
+    return {item["code"]: item["term"] for item in attempts
+            if item["status"] == "prog" and registered_term(item, current, window) != current}
+
+
 def locked_codes(attempts):
     """Done and in-progress codes; an in-progress attempt wins over earlier done attempts."""
     locked = {}
@@ -223,7 +234,8 @@ def build_plan(user, context, planned, *, slots=None):
         }
         if row and (code not in planned or earned(row) or row["status"] == "prog"):
             course.update(status=row["status"], credits=float(row["credits"]),
-                          term=current if row["status"] == "prog" else (row["term"] if row["term"] in terms else "Completed"))
+                          term=registered_term(row, current, window) if row["status"] == "prog"
+                          else (row["term"] if row["term"] in terms else "Completed"))
         elif code in planned:
             course.update(status="plan", term=planned[code][0])
         elif record is None or record.get("blockedReason"):
@@ -303,6 +315,7 @@ def save_changes(user, body):
         raise PlanError(400, "invalid_change", "Expected {changes: [...]} with at most 300 changes")
     requested = parse_catalog_term(body)
     current, window = window_terms(user)
+    registered = registered_future(coursework_attempts(user), current, window)
     for change in body["changes"]:
         if not isinstance(change, dict) or not {"code", "status", "term"} <= set(change) or set(change) - {"code", "status", "term", "slot", "credits"}:
             raise PlanError(400, "invalid_change", "Each change needs exactly code, status and term")
@@ -313,8 +326,8 @@ def save_changes(user, body):
                 or not 0.5 <= change["credits"] <= 12 or change["credits"] * 2 != int(change["credits"] * 2)):
             raise PlanError(400, "invalid_change", "Current course credits must be between 0.5 and 12 in half-credit increments")
         if change["status"] == "prog":
-            if change["term"] != current:
-                raise PlanError(400, "invalid_change", "In-progress courses belong in the current term")
+            if change["term"] != current and registered.get(change["code"]) != change["term"]:
+                raise PlanError(400, "invalid_change", "In-progress courses belong in the current term or the term they are registered for")
         elif change["status"] == "plan":
             if change["term"] not in [current, *window]:
                 raise PlanError(400, "invalid_change", "Planned courses need the current or a future term inside the plan window")
@@ -385,7 +398,8 @@ def save_changes(user, body):
             raise PlanError(400, "invalid_change", "The replacement courses must preserve the slot categories")
     scheduling_terms = [current, *window]
     violations = validate_plan({code: term for code, (term, _) in planned.items() if term in scheduling_terms},
-                               locked=locked, metadata=metadata, terms=scheduling_terms, changed=changed, current_term=current)
+                               locked=locked, metadata=metadata, terms=scheduling_terms, changed=changed, current_term=current,
+                               registered={code: term for code, term in registered.items() if locked.get(code) == "prog"})
     if violations:
         raise PlanError(409, "plan_invalid", "The resulting plan breaks a scheduling rule", violations)
     # Enrollment edits and plan moves commit together. Failed validation leaves both unchanged.
@@ -400,7 +414,7 @@ def save_changes(user, body):
             record = metadata.get(code) or {}
             row.title = row.title or record.get("title") or code
             row.credits = change.get("credits", float(row.credits) if row.credits is not None else record.get("minimumCredits", 3))
-            row.term, row.status = current, "prog"
+            row.term, row.status = change["term"], "prog"
             db.session.add(row)
             for duplicate in enrolled[1:]:
                 db.session.delete(duplicate)

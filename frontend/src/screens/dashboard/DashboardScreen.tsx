@@ -37,10 +37,10 @@ export default function DashboardScreen() {
 
   if (isLoading) return <DashboardSkeleton />;
 
-  const current = courses.filter((c) => c.status === "prog" || (c.status === "plan" && c.term === plan?.currentTerm));
+  const current = courses.filter((c) => (c.status === "prog" || c.status === "plan") && c.term === plan?.currentTerm);
   const futureTerms = plan ? plan.terms.slice(firstFutureIndex(plan)) : [];
   const future = futureTerms
-    .map((term) => ({ term, list: courses.filter((c) => c.term === term && (c.status === "plan" || c.status === "block")) }))
+    .map((term) => ({ term, list: courses.filter((c) => c.term === term && (c.status === "plan" || c.status === "prog" || c.status === "block")) }))
     .filter((g) => g.list.length);
   const nextTerm = future[0]?.term;
   const hasPlan = courses.some((c) => c.status === "plan" || c.status === "block");
@@ -128,7 +128,7 @@ export default function DashboardScreen() {
                   {(allTerms ? future : future.slice(0, 2)).map((g) => (
                     <div key={g.term} className="term-group">
                       <h3 className="term">{g.term}</h3>
-                      <CourseList courses={g.list} />
+                      <CourseList courses={g.list} future />
                     </div>
                   ))}
                   {future.length > 2 && (
