@@ -27,7 +27,7 @@ Read [the feature implementation checklist](docs/IMPLEMENTING_FEATURES.md) befor
 
 ## Frontend Reference
 
-Read `docs/design-rules.md` before frontend work. It is the source of truth for the maroon `#7A0019`, gold `#FFCC33`, and ivory `#E6E0D2` visual system, desktop and mobile layouts, navigation, screen requirements, accessibility, states, and Figma deliverables.
+Read `docs/design-rules.md` before frontend work. It is the source of truth for the maroon `#7A0019`, gold `#FFCC33`, and ivory `#F4F0E8` visual system, desktop and mobile layouts, navigation, screen requirements, accessibility, states, and Figma deliverables.
 
 ## Documentation Reference
 

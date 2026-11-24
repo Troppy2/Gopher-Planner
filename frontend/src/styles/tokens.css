@@ -5,7 +5,7 @@
   --maroon-tint: rgba(122, 0, 25, 0.07);
   --gold: #ffcc33;
   --gold-ink: #6b4d00;
-  --ivory: #e6e0d2;
+  --ivory: #f4f0e8;
   --ink: #201a1b;
   --muted: #625a5c;
   --success: #1e6b4a;
@@ -20,22 +20,23 @@
   --st-plan: #7a0019;
   --st-plan-bg: #f5e6e8;
   --st-lock: #625a5c;
-  --st-lock-bg: #ece7de;
+  --st-lock-bg: #efebe3;
   --st-short-bg: #f8e3e1;
 
   /* surfaces */
-  --surface-page: #e6e0d2;
-  --surface-card: #fbf8f2;
+  --surface-page: #f4f0e8;
+  --surface-card: #ffffff;
   --surface-raised: #ffffff;
-  --surface-hover: #f3eee3;
+  --surface-hover: #f7f3ec;
+  --surface-pressed: #ece6da;
   --border: rgba(32, 26, 27, 0.14);
   --border-strong: rgba(32, 26, 27, 0.38);
   --shadow-card: 0 1px 2px rgba(32, 26, 27, 0.06);
   --shadow-raised: 0 12px 30px rgba(32, 26, 27, 0.14);
-  --chrome: rgba(246, 242, 233, 0.72);
+  --chrome: rgba(250, 247, 241, 0.72);
   /* A shade darker than the ivory page so the scrollbar blends in but stays findable. */
-  --scroll-thumb: #c9c0ad;
-  --scroll-thumb-hover: #a99f8b;
+  --scroll-thumb: #d3cbbb;
+  --scroll-thumb-hover: #b3aa98;
 
   /* type */
   --display: "Times New Roman", Times, serif;

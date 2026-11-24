@@ -170,7 +170,7 @@ ul {
 }
 .btn.ghost:active:not(:disabled),
 .btn.quiet:active:not(:disabled) {
-  background: #ebe4d6;
+  background: var(--surface-pressed);
   border-color: var(--maroon);
   color: var(--maroon);
 }
@@ -215,7 +215,7 @@ ul {
   background: var(--surface-hover);
 }
 .icon-btn:active:not(:disabled) {
-  background: #ebe4d6;
+  background: var(--surface-pressed);
   transition-duration: var(--press);
 }
 .icon-btn.bare {

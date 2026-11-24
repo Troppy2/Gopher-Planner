@@ -194,7 +194,7 @@ All tokens are CSS variables in `styles/tokens.css`, exposed to Tailwind through
 
 | Token | Value | Use |
 | --- | --- | --- |
-| `--surface-page` | `#E6E0D2` | Flat page background; no gradients, orbs, or grain |
+| `--surface-page` | `#F4F0E8` | Flat page background; no gradients, orbs, or grain |
 | `--surface-card` | `#FBF8F2` | Cards, panels, table containers |
 | `--surface-raised` | `#FFFFFF` | Dock, drawer, bottom sheet, menus |
 | `--border` | `rgba(32, 26, 27, 0.14)` | Card and field outlines |
