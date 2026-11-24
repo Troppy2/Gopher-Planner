@@ -17,6 +17,8 @@ interface SessionState {
   signIn: (user: AuthUser) => void;
   restoreSession: () => Promise<void>;
   signOut: () => Promise<void>;
+  /** Forget the session locally after the server already ended it (account deletion). */
+  clear: () => void;
 }
 
 export const useSession = create<SessionState>((set) => ({
@@ -53,6 +55,8 @@ export const useSession = create<SessionState>((set) => ({
       });
     }
   },
+
+  clear: () => set({ signedIn: false, initialized: true, email: "", user: null }),
 
   signOut: async () => {
     try {

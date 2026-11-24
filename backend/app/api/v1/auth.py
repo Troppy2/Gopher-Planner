@@ -4,7 +4,7 @@ from datetime import timedelta
 
 from flask import Blueprint, current_app, jsonify, request
 from google.auth.exceptions import GoogleAuthError
-from sqlalchemy import select
+from sqlalchemy import delete, select
 from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 
 from app.core.auth import COOKIE_NAME, check_request_origin, hash_session_token, read_session, utc_now
@@ -216,4 +216,40 @@ def logout():
             return response
 
     response = jsonify({"message": "Signed out"})
+    return clear_session_cookie(response)
+
+
+@auth_bp.delete("/account")
+def delete_account():
+    """Permanently delete the signed-in user and everything they own.
+
+    Sessions, coursework, transcripts, plans and plan courses are removed by the
+    database's ON DELETE CASCADE foreign keys in the same transaction.
+    """
+    origin_error = check_request_origin()
+    if origin_error is not None:
+        return origin_error
+
+    body = request.get_json(silent=True)
+    if not isinstance(body, dict) or body.get("confirm") is not True:
+        return jsonify({"error": "Confirm account deletion"}), 400
+
+    try:
+        user_session = read_session()
+
+        if user_session is None:
+            return jsonify({"error": "Not signed in"}), 401
+
+        user_id = user_session.user_id
+        # Detach loaded rows so the ORM does not try to manage what the cascade removes.
+        db.session.expunge_all()
+        db.session.execute(delete(User).where(User.id == user_id))
+        db.session.commit()
+
+    except SQLAlchemyError:
+        db.session.rollback()
+        current_app.logger.exception("Failed to delete account")
+        return jsonify({"error": "Could not delete your account. Please retry."}), 503
+
+    response = jsonify({"message": "Account deleted"})
     return clear_session_cookie(response)

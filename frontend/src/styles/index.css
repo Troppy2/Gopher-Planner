@@ -942,3 +942,25 @@ html body[data-scroll-locked] {
   margin-right: 0 !important;
   padding-right: 0 !important;
 }
+
+/* ---------- destructive buttons ---------- */
+.btn.danger {
+  background: var(--danger);
+  border-color: var(--danger);
+  color: #fff;
+}
+.btn.danger:hover,
+.btn.danger:active:not(:disabled) {
+  background: #912018;
+  border-color: #912018;
+}
+.btn.ghost.danger {
+  background: var(--surface-raised);
+  color: var(--danger);
+}
+.btn.ghost.danger:hover,
+.btn.ghost.danger:active:not(:disabled) {
+  background: rgba(180, 35, 24, 0.07);
+  color: var(--danger);
+  border-color: var(--danger);
+}

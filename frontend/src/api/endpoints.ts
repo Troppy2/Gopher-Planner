@@ -77,6 +77,10 @@ export async function updateProfile(
   return response.json() as Promise<Profile>;
 }
 
+/** DELETE /api/v1/auth/account: permanently removes the account and all of its data. */
+export const deleteAccount = () =>
+  apiRequest<{ message: string }>("/auth/account", { method: "DELETE", json: { confirm: true } });
+
 /** GET /api/v1/programs: every supported program version, without requirement details. */
 export const getPrograms = () => apiRequest<{ programs: ProgramSummary[] }>("/programs");
 
