@@ -148,6 +148,8 @@ The API entrypoint currently applies migrations on container start and runs Flas
 
 Backend precedence is process environment, then `backend/.env`, then root `.env`. Vite reads the frontend environment separately. Every `VITE_` value is public build output, so never put secrets there.
 
+The frontend includes Vercel Web Analytics through `@vercel/analytics/react`. Enable Web Analytics in the Vercel project's Analytics tab, then redeploy to start collecting page views. Local development uses the SDK's debug mode.
+
 ## Database and data
 
 Schema changes use Alembic. From `backend`, against an intended, authorized database:
