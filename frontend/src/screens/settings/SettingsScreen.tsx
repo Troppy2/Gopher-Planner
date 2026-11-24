@@ -1,11 +1,11 @@
 import { Link } from "react-router";
 import { useRef, useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { CheckCircle2, PenLine, RefreshCw, XCircle } from "lucide-react";
+import { RefreshCw } from "lucide-react";
 import { getOptions, getProfile, updateProfile } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
 import type { Options, Profile } from "@/api/types";
-import { Button, Callout, Combobox, EmptyState, Select, Stepper, TextField } from "@/ui";
+import { Button, Callout, Combobox, EmptyState, SaveToast, Select, Stepper, TextField } from "@/ui";
 import { useLeaveWarning } from "@/hooks/useLeaveWarning";
 import { useAutosave } from "@/hooks/useAutosave";
 import { careerForMajor, careerOptions, HeavyLoadNote, UnverifiedMajorNote, MAX_CREDITS, MIN_CREDITS } from "@/features/profile/profileRules";
@@ -117,20 +117,14 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
     save.reset();
   };
 
-  const STATE = {
-    saved: { icon: <CheckCircle2 className="ic sm" aria-hidden />, text: "Saved" },
-    unsaved: { icon: <PenLine className="ic sm" aria-hidden />, text: form.name.trim() ? "Saving…" : "Add your name to save" },
-    error: { icon: <XCircle className="ic sm" aria-hidden />, text: "Could not save" },
-  }[state];
+  // Waiting out the autosave delay counts as saving, so the toast appears as soon as you edit.
+  const saving = (state === "unsaved" && !!form.name.trim()) || save.isPending;
+  const nameHint = state === "unsaved" && !form.name.trim() ? "Add your name to save your changes." : "";
 
   return (
     <div className="page narrow">
       <div className="pg-head">
         <h1 className="title">Settings</h1>
-        <span className={`sstate ${state}`} role="status">
-          {STATE.icon}
-          {STATE.text}
-        </span>
       </div>
 
       <form
@@ -143,7 +137,7 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
         <section className="sec surf" aria-labelledby="s-profile">
           <h2 id="s-profile">Profile</h2>
           <div className="sgrid" ref={nameRef}>
-            <TextField label="Name" autoComplete="name" value={form.name} onChange={(e) => set({ name: e.target.value })} error={nameError} />
+            <TextField label="Name" autoComplete="name" value={form.name} onChange={(e) => set({ name: e.target.value })} error={nameError || nameHint} />
           </div>
         </section>
 
@@ -214,6 +208,7 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
         <Link to="/contact">Contact</Link>
       </nav>
 
+      <SaveToast saving={saving} failed={state === "error"} />
       {state === "error" && (
         <div className="savebar" role="alert">
           <span className="msg">
