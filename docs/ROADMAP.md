@@ -18,6 +18,18 @@ Implementation references: [API routes](../backend/app/api/v1/), [services](../b
 
 ## Proposed product and data work
 
+### Multiple majors and premajors
+
+[#21](https://github.com/Troppy2/Gopher-Planner/issues/21) tracks support for representing more than one major or premajor at the same time. This is proposed, not currently implemented.
+
+**Current code boundary:** the profile currently stores one `major` string on `User`, exposes it as one `major` field in the profile API and frontend types, and uses that value as the catalog-year/program key in plan generation and summary calculation. The settings and onboarding screens also present one major combobox, and changing that value clears the saved catalog-term confirmation.
+
+**Still needed:** define separate data and UX for majors versus premajors, decide the maximum or whether limits are unbounded, represent primary/secondary or declared/admitted status, support catalog years and requirement sets per program, merge or surface overlapping requirements, and preserve ownership and migration behavior for existing users. The implementation will need storage, migrations, profile/API wire types, onboarding/settings controls, plan/context resolution, summary and requirement progress updates, and synthetic tests.
+
+**Out of scope for the first slice:** automatic admission-status changes, dual-degree residency/graduation-rule enforcement, cross-program course arbitration, and external university approval data. Official UMN academic rules and degree combinations must remain source-backed and advisor-verifiable.
+
+Acceptance criteria and follow-up implementation work should remain in the new tracking issue rather than being implied as complete here.
+
 ### Liberal education, themes, writing, and double dippers
 
 [#14](https://github.com/Troppy2/Gopher-Planner/issues/14) proposes typed designations, sourced versioned rules, a fuller per-category tracker, broader audit parsing, personalized double-dipper discovery, and dashboard changes.

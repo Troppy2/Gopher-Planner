@@ -21,6 +21,78 @@ Shared deployments use PostgreSQL for user data and the runtime course catalog; 
 - Docker Desktop if you want to run PostgreSQL or the full stack in containers
 - A Google OAuth client ID (see `VITE_GOOGLE_CLIENT_ID` below)
 
+## Agent prompt: run the app locally
+
+For coding agents, start in the repository root and use the command block for the agent's host OS. Preserve the selected database target, do not print secrets, and stop before any migration or catalog import if the intended database is not explicitly local or disposable.
+
+### macOS or Linux
+
+```bash
+cp .env.example .env
+cp backend/.env.example backend/.env
+cp frontend/.env.example frontend/.env
+
+cd backend
+uv sync
+uv run flask --app app db upgrade
+uv run flask --app app run --debug --port 5000
+```
+
+In a second terminal:
+
+```bash
+cd frontend
+npm ci
+npm run dev -- --port 5173 --strictPort
+```
+
+Activate a plain Python virtual environment instead of `uv` with:
+
+```bash
+cd backend
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -e .
+flask --app app db upgrade
+flask --app app run --debug --port 5000
+```
+
+### Windows PowerShell
+
+```powershell
+Copy-Item .env.example .env
+Copy-Item backend/.env.example backend/.env
+Copy-Item frontend/.env.example frontend/.env
+
+cd backend
+uv sync
+uv run flask --app app db upgrade
+uv run flask --app app run --debug --port 5000
+```
+
+In a second PowerShell terminal:
+
+```powershell
+cd frontend
+npm ci
+npm run dev -- --port 5173 --strictPort
+```
+
+Activate a plain virtual environment instead of `uv` with:
+
+```powershell
+cd backend
+py -3.12 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -e .
+flask --app app db upgrade
+flask --app app run --debug --port 5000
+```
+
+Open http://localhost:5173. The frontend proxies `/api` to the backend on port 5000. For SQLite, leave `DATABASE_URL` empty in development; otherwise run and verify PostgreSQL before starting the backend.
+
 ## 1. Environment variables
 Configuration templates are committed; actual credentials are not. The backend reads existing process variables first, then `backend/.env`, then root `.env`. Docker Compose uses root `.env`. A value in `backend/.env` takes precedence over the same value in root `.env`, so keep the intended development target explicit.
 
