@@ -118,3 +118,32 @@ def test_generation_does_not_add_liberal_ed_already_covered(client, make_user, l
     plan = client.post("/api/v1/plans/generate", json={"catalogTerm": "Fall 2026", "dryRun": True}, headers=post_headers).json["plan"]
     slots = {course["code"]: course["slot"] for course in plan["courses"] if course.get("slot")}
     assert not any("Literature" in label or "Global Perspectives" in label for label in slots.values())
+
+
+def test_generated_liberal_ed_slots_can_be_saved(client, make_user, login_as, post_headers, le_catalog, program_files, today):
+    """Build, then keep the draft: gap-filled slot labels must pass save validation."""
+    login_as(make_user())
+    profile = {"major": "Mini Synthetic B.S.", "graduationTarget": "Spring 2030", "creditLoad": 18}
+    assert client.put("/api/v1/profile", json=profile, headers=post_headers).status_code == 200
+    draft = client.post("/api/v1/plans/generate", json={"catalogTerm": "Fall 2026", "dryRun": True}, headers=post_headers).json["plan"]
+    changes = [{"code": c["code"], "status": "plan", "term": c["term"], **({"slot": c["slot"]} if c.get("slot") else {})}
+               for c in draft["courses"] if c["status"] == "plan"]
+    assert any("," in change.get("slot", "") for change in changes)  # a multi-designation label, e.g. with RPJ
+    saved = client.put("/api/v1/plan", json={"changes": changes, "catalogTerm": "Fall 2026"}, headers=post_headers)
+    assert saved.status_code == 200, saved.json
+    by_code = {c["code"]: c for c in saved.json["courses"]}
+    assert by_code["MATH 2011"]["slot"] == "Race, Power, and Justice US, Biological Sciences"
+    assert by_code["MATH 2011"]["slotCategories"] == ["Biological Sciences", "Diversity and Soc Justice US"] or \
+        set(by_code["MATH 2011"]["slotCategories"]) >= {"Biological Sciences"}
+
+
+def test_made_up_slot_labels_are_still_rejected(client, make_user, login_as, post_headers, le_catalog, program_files, today):
+    login_as(make_user())
+    assert client.put("/api/v1/profile", json={"major": "Mini Synthetic B.S."}, headers=post_headers).status_code == 200
+    change = {"code": "MATH 2011", "status": "plan", "term": "Spring 2027", "slot": "Basket Weaving"}
+    response = client.put("/api/v1/plan", json={"changes": [change], "catalogTerm": "Fall 2026"}, headers=post_headers)
+    assert response.status_code == 400
+    # A real designation the course does not carry is rejected too.
+    change["slot"] = "Literature"
+    response = client.put("/api/v1/plan", json={"changes": [change], "catalogTerm": "Fall 2026"}, headers=post_headers)
+    assert response.status_code == 400

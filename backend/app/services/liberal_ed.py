@@ -163,3 +163,33 @@ def open_needs(rules, covered, wi_count):
     if wi_count < intensive["total"]:
         needs.append((intensive["designations"][0], set(intensive["designations"])))
     return needs
+
+
+def designation_groups(rules=None):
+    """Each designation name mapped to every name that satisfies the same category (former names included)."""
+    rules = rules or load_rules()
+    groups = {}
+    for section in ("core", "themes"):
+        for entry in rules[section]["items"]:
+            for name in entry["designations"]:
+                groups[name] = list(entry["designations"])
+    for name in rules["writing"]["intensive"]["designations"]:
+        groups[name] = [name]
+    return groups
+
+
+def designation_label_categories(label):
+    """Designation names in a generated slot label such as "Race, Power, and Justice US, Literature".
+
+    Names can contain commas, so known names are matched longest first instead of splitting. Returns
+    the names in label order, or [] when anything else is left over (an unknown or made-up label)."""
+    if not isinstance(label, str) or not label.strip():
+        return []
+    rest, found = label, []
+    for name in sorted(designation_groups(), key=len, reverse=True):
+        if name in rest:
+            found.append((label.index(name), name))
+            rest = rest.replace(name, "")
+    if not found or rest.replace(",", "").strip():
+        return []
+    return [name for _, name in sorted(found)]

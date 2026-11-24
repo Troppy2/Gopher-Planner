@@ -197,3 +197,12 @@ def test_open_needs_accepts_the_former_diversity_name(rules):
 def test_open_needs_counts_writing_intensive_total(rules):
     covered = all_core(rules) | {"Race, Power, and Justice US", "Civic Life and Ethics", "Environment", "Global Perspectives"}
     assert needs(rules, covered, wi=3) == ["Writing Intensive"]
+
+
+def test_designation_labels_parse_names_that_contain_commas():
+    from app.services.liberal_ed import designation_label_categories
+    assert designation_label_categories("Race, Power, and Justice US, Literature") == ["Race, Power, and Justice US", "Literature"]
+    assert designation_label_categories("Physical Sciences, Technology and Society, Writing Intensive") == [
+        "Physical Sciences", "Technology and Society", "Writing Intensive"]
+    assert designation_label_categories("Literature, Basket Weaving") == []
+    assert designation_label_categories("") == []

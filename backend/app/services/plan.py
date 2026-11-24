@@ -13,7 +13,7 @@ from app.repositories.locks import lock_user
 from app.repositories.plans import find_plan, planned_courses, planned_slots, replace_planned_courses
 from app.schemas.coursework import CODE_PATTERN
 from app.services.coursework import get_coursework
-from app.services.liberal_ed import evaluate_liberal_ed, load_rules, open_needs
+from app.services.liberal_ed import designation_groups, designation_label_categories, evaluate_liberal_ed, load_rules, open_needs
 from app.services.metadata import home_subject, referenced_codes, resolve_course
 from app.services.planning.eligibility import INFORMATIONAL, placement_check
 from app.services.planning.generate import CATEGORY_PRIORITY, STATUS_WARNINGS, generate_plan
@@ -133,10 +133,34 @@ def earned(item):
     return item["status"] == "done" and item.get("grade") not in NO_CREDIT
 
 
+class SlotLabels(dict):
+    """Sample-plan slot labels, plus the labels plan generation builds from liberal education designation
+    names when it fills open needs (for example "Race, Power, and Justice US, Literature")."""
+
+    def get(self, label, default=None):
+        if dict.__contains__(self, label):
+            return dict.__getitem__(self, label)
+        names = designation_label_categories(label)
+        if not names:
+            return default
+        groups = designation_groups()
+        # Former names count too, so a course with the old designation still matches its slot.
+        return list(dict.fromkeys(alias for name in names for alias in groups.get(name, [name])))
+
+    def __contains__(self, label):
+        return self.get(label) is not None
+
+    def __getitem__(self, label):
+        value = self.get(label)
+        if value is None:
+            raise KeyError(label)
+        return value
+
+
 def slot_categories(program):
     sample = load_sample_plan(program["id"]) if program else None
-    return {item.get("label") or ", ".join(item["categories"]): item["categories"]
-            for term in (sample or {}).get("terms", []) for item in term["items"] if item["kind"] == "le"}
+    return SlotLabels({item.get("label") or ", ".join(item["categories"]): item["categories"]
+                       for term in (sample or {}).get("terms", []) for item in term["items"] if item["kind"] == "le"})
 
 
 def audit_le_status(user_id):
