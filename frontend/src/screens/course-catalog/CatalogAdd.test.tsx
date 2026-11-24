@@ -51,3 +51,19 @@ describe("adding catalog-only courses", () => {
     expect(screen.getByRole("button", { name: "Add to plan" })).toBeDisabled();
   });
 });
+
+describe("liberal education links", () => {
+  it("filters by the ?le= designation and lets the student remove it", async () => {
+    const seen: string[][] = [];
+    server.use(http.get(api("/courses"), ({ request }) => {
+      seen.push(new URL(request.url).searchParams.getAll("le"));
+      return HttpResponse.json({ courses: [free], total: 1, limit: 25, offset: 0 });
+    }));
+    renderWithProviders(<CatalogScreen />, { path: "/catalog", route: "/catalog?le=Arts%2FHumanities" });
+    const chip = await screen.findByRole("button", { name: "Remove filter Liberal ed: Arts/Humanities" });
+    expect(seen[0]).toEqual(["Arts/Humanities"]);
+    await userEvent.click(chip);
+    expect(screen.queryByRole("button", { name: /Liberal ed/ })).not.toBeInTheDocument();
+    expect(seen.at(-1)).toEqual([]);
+  });
+});

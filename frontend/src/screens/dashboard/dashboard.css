@@ -301,3 +301,56 @@
 .req-st.track { color: var(--st-prog-ink); }
 .req-st.review { color: var(--muted); }
 .req-st.short { color: var(--danger); }
+
+/* ---------- liberal education ---------- */
+.le-section {
+  padding-top: var(--s4);
+  margin-top: var(--s4);
+  border-top: 1px solid var(--border);
+}
+.le-section:first-of-type {
+  margin-top: var(--s2);
+}
+.le-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s3);
+}
+.le-h3 {
+  font-weight: 700;
+  font-size: 15px;
+}
+.le-summary {
+  margin: 2px 0 var(--s2);
+  font-size: 13px;
+}
+.le-find {
+  font-size: 13px;
+  font-weight: 600;
+  justify-self: start;
+}
+.le-course {
+  justify-self: start;
+  text-align: left;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.le-course:hover b,
+.le-course:focus-visible b {
+  color: var(--maroon);
+  text-decoration: underline;
+}
+.le-added:empty {
+  display: none;
+}
+.le-added {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--st-done);
+  margin-bottom: var(--s2);
+}

@@ -107,6 +107,42 @@ def _le(value):
     return {part.strip() for part in (value or "").split(";") if part.strip()}
 
 
+def le_designations(codes):
+    """Catalog designation names per course code; codes missing from the catalog are omitted."""
+    codes = sorted(set(codes))
+    found = {}
+    for start in range(0, len(codes), 500):
+        rows = db.session.execute(select(CatalogCourse.course_code, CatalogCourse.le_attributes)
+                                  .where(CatalogCourse.course_code.in_(codes[start:start + 500])))
+        for code, value in rows:
+            found[code] = found.get(code, set()) | _le(value)
+    return found
+
+
+def double_dippers(wanted, *, exclude, limit, offset):
+    """Catalog courses carrying at least two of ``wanted`` groups of designations.
+
+    ``wanted`` maps a need (for example "Literature") to the designation names that satisfy it.
+    Returns (page of (course, covered needs), total). Most needs covered first, then courses
+    without prerequisites, lower levels, and code."""
+    names = sorted({name for group in wanted.values() for name in group})
+    if len(wanted) < 2 or not names:
+        return [], 0
+    rows = db.session.scalars(select(CatalogCourse).where(or_(*(CatalogCourse.le_attributes.contains(name) for name in names))))
+    matches = []
+    for course in rows:
+        if course.course_code in exclude:
+            continue
+        carried = _le(course.le_attributes)
+        covered = [need for need, group in wanted.items() if carried & set(group)]
+        if len(covered) >= 2:
+            number = course.course_number[:1]
+            key = (-len(covered), course.prerequisite_status != "none", int(number) if number.isdigit() else 9, course.course_code)
+            matches.append((key, course, covered))
+    matches.sort(key=lambda match: match[0])
+    return [(course, covered) for _, course, covered in matches[offset:offset + limit]], len(matches)
+
+
 def le_coverage(codes):
     """Liberal education designations carried by any of ``codes``."""
     codes = sorted(set(codes))

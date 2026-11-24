@@ -34,9 +34,9 @@ Acceptance criteria and follow-up implementation work should remain in the new t
 
 [#14](https://github.com/Troppy2/Gopher-Planner/issues/14) proposes typed designations, sourced versioned rules, a fuller per-category tracker, broader audit parsing, personalized double-dipper discovery, and dashboard changes.
 
-**Already present:** catalog LE attributes, recognized APAS required/covered categories, labeled sample-plan slots, coverage-aware suggestions, and category-based swaps/filtering.
+**Already present:** catalog LE attributes, recognized APAS required/covered categories, labeled sample-plan slots, coverage-aware suggestions, and category-based swaps/filtering. A sourced rules file (`backend/data/liberal_ed/umn-tc.json`) and tracker now report the 7 core areas, 4 of 5 themes with Race, Power, and Justice required, first-year writing, and writing intensive counts (total, upper division, upper division in the major) in `GET /plan` as `liberalEd`. APAS takes precedence and disagreements show as needing review. The dashboard shows the tracker, links each missing category to the catalog (`/catalog?le=`), and lists "courses that count twice" from `GET /liberal-ed/double-dippers` with one-click add.
 
-**Still needed:** the complete rule model and tracker described in the issue, including writing policies, source-disagreement behavior, user reassignment where appropriate, and the proposed dashboard replacement. Existing suggestion coverage is not proof that the full issue is implemented. Academic rule counts and sharing policies need official source evidence before implementation.
+**Still needed:** the generator still fills sample-plan LE slots one category at a time instead of preferring courses that cover two remaining needs; the APAS parser does not read the writing section, so first-year writing equivalents (AP, transfer) only show once APAS-covered categories are parsed; and the student's admission term is unknown, so Race, Power, and Justice is always treated as required. User reassignment is unnecessary: a course can carry at most one core and one theme.
 
 ### Student verification of prerequisites and requirements
 

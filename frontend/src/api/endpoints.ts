@@ -7,6 +7,7 @@ import type {
   CatalogCoursePage,
   Coursework,
   CourseFilters,
+  DoubleDipperPage,
   GenerateResult,
   Options,
   Plan,
@@ -100,6 +101,10 @@ export const getCoursework = () => apiRequest<Coursework>("/coursework");
 /** PUT /api/v1/coursework: replaces the whole set. */
 export const saveCoursework = (body: Coursework) =>
   apiRequest<Coursework>("/coursework", { method: "PUT", json: body });
+
+/** GET /api/v1/liberal-ed/double-dippers: catalog courses covering two or more remaining needs. */
+export const getDoubleDippers = (limit = 5, offset = 0) =>
+  apiRequest<DoubleDipperPage>(`/liberal-ed/double-dippers?limit=${limit}&offset=${offset}`);
 
 /** GET /api/v1/plan */
 export const getPlan = () => apiRequest<Plan>("/plan");

@@ -7,6 +7,7 @@ Precedence for a selected program version:
 3. Unknown-version or unmapped legacy catalog facts, flagged ``catalog_version_unverified``.
 """
 import copy
+from collections import Counter
 import re
 
 SEASONS = ("Fall", "Spring", "Summer")
@@ -119,6 +120,21 @@ def resolve_course(code, program, catalog_row):
     result["metadataWarnings"] = warnings
     result["blockedReason"] = blocked
     return result
+
+
+def home_subject(program):
+    """Most common subject among courses named directly in the program's rules, or None."""
+    subjects = Counter()
+
+    def walk(node):
+        if node["type"] == "course":
+            subjects[node["code"].split(" ")[0]] += 1
+        for child in node.get("children", []):
+            walk(child)
+
+    for group in program["groups"]:
+        walk(group["rule"])
+    return subjects.most_common(1)[0][0] if subjects else None
 
 
 def referenced_codes(program):

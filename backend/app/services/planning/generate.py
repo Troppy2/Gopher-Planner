@@ -10,7 +10,7 @@ course level, then code; when a branch cannot be scheduled the
 group's placements are rolled back and the next complete branch is tried. This is a bounded
 greedy search, not a global optimizer: an incomplete result is not proof that no schedule exists.
 """
-from collections import Counter
+from app.services.metadata import home_subject
 
 from app.services.planning.eligibility import placement_check
 from app.services.planning.sample import sample_terms
@@ -49,17 +49,7 @@ class Planner:
 
     def _home_subject(self):
         """Most common subject among courses named directly in the program's rules."""
-        subjects = Counter()
-
-        def walk(node):
-            if node["type"] == "course":
-                subjects[node["code"].split(" ")[0]] += 1
-            for child in node.get("children", []):
-                walk(child)
-
-        for group in self.program["groups"]:
-            walk(group["rule"])
-        return subjects.most_common(1)[0][0] if subjects else None
+        return home_subject(self.program)
 
     def prerequisite_cost(self, code):
         """Credits of unplanned prerequisites ``code`` would pull in; large when it cannot be scheduled."""
