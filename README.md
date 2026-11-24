@@ -242,6 +242,7 @@ Never attach real transcripts, student identifiers, session cookies, credentials
 | [Architecture](docs/ARCHITECTURE.md) | Technical design, request flows, persistence, and operations. |
 | [Roadmap](docs/ROADMAP.md) | Issue-backed future work and status reconciliation. |
 | [Local development](docs/running-locally.md) | Setup details and troubleshooting. |
+| [Implementing a feature](docs/IMPLEMENTING_FEATURES.md) | Contributor checklist from an optional spec through migrations and verification. |
 | [Design rules](docs/design-rules.md) | Visual system, responsive behavior, accessibility, and states. |
 | [Requirement contract](docs/specs/program-requirements-v2.md) | Rule schema, evidence policies, and program versioning. |
 | [Data guide](backend/data/README.md) | Sources, imports, reviewed overlays, and sample plans. |
