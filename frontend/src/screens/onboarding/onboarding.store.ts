@@ -21,7 +21,6 @@ export interface ProfileDraft {
   name: string;
   standing: string;
   major: string;
-  careerGoals: string;
   creditLoad: string;
   graduationTarget: string;
 }

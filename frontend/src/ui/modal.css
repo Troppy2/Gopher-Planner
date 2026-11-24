@@ -1,0 +1,99 @@
+/* Centered dialog over the shared scrim; a full-screen sheet under 768px. Sits above the drawer. */
+.modal-scrim {
+  z-index: 120;
+}
+.modal {
+  position: fixed;
+  z-index: 121;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  width: min(560px, calc(100vw - 48px));
+  max-height: 85dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface-raised);
+  color: var(--ink);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-raised);
+  outline: none;
+}
+.modal:focus,
+.modal:focus-visible {
+  outline: none;
+}
+.modal[data-state="open"] {
+  animation: fadeIn var(--med) var(--ease);
+}
+.modal-lg {
+  width: min(880px, calc(100vw - 48px));
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--s3);
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid var(--border);
+  flex: none;
+}
+.modal-header h2 {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.1;
+  color: var(--maroon);
+}
+.modal-header p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.modal-body {
+  padding: 20px 24px 24px;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+.modal-body.flush {
+  padding: 0;
+}
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: var(--s3);
+  padding: 14px 24px;
+  border-top: 1px solid var(--border);
+  flex: none;
+}
+@media (max-width: 767px) {
+  .modal,
+  .modal-lg {
+    inset: 0;
+    transform: none;
+    width: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+    border: 0;
+    border-radius: 0;
+  }
+  .modal-header {
+    padding: 16px;
+  }
+  .modal-header h2 {
+    font-size: 24px;
+  }
+  .modal-body {
+    padding: 16px;
+  }
+  .modal-footer {
+    padding: 14px 16px max(14px, env(safe-area-inset-bottom));
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .modal[data-state="open"] {
+    animation: none;
+  }
+}

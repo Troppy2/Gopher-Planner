@@ -123,6 +123,7 @@ export type WarningCode =
   | "catalog_version_unverified"
   | "catalog_metadata_conflict"
   | "graduation_target_unreachable"
+  | "liberal_ed_unplanned"
   | (string & {});
 
 export type RequirementStatus = "satisfied" | "unsatisfied" | "needs_review";
@@ -139,6 +140,7 @@ export interface RequirementEvidence {
 }
 
 export interface RequirementProgress {
+  options?: string[];
   id: string;
   label: string;
   parentId: string | null;
@@ -164,6 +166,71 @@ export interface Plan {
   availableCatalogTerms: TermId[];
   warnings: WarningCode[];
   requirementProgress: RequirementProgress[];
+  /** Liberal education tracker; absent from older API responses. */
+  liberalEd?: LiberalEd;
+}
+
+/** Codes by evidence kind: earned, in progress this term, or planned. */
+export interface LeCodes {
+  done: string[];
+  prog: string[];
+  plan: string[];
+}
+
+export type LeItemStatus = "done" | "in_progress" | "planned" | "needed" | "needs_review" | "not_required";
+export type LeSectionStatus = "met" | "on_track" | "needs_review" | "short";
+
+export interface LeCategory {
+  id: string;
+  label: string;
+  /** Catalog designation names that satisfy it; the first is the current name. */
+  designations: string[];
+  status: LeItemStatus;
+  /** "apas" when a parsed APAS audit marked it complete. */
+  source: "catalog" | "apas";
+  codes: LeCodes;
+}
+
+export interface WritingCounts {
+  total: number;
+  upper: number;
+  upperInMajor: number;
+}
+
+export interface LiberalEd {
+  source: "catalog" | "catalog+apas";
+  core: { status: LeSectionStatus; items: LeCategory[] };
+  themes: {
+    status: LeSectionStatus;
+    required: number;
+    completed: number;
+    projected: number;
+    mandatory: string[];
+    mandatoryMissing: string[];
+    items: LeCategory[];
+  };
+  writing: {
+    firstYear: { label: string; status: LeItemStatus; codes: LeCodes; acceptedCodes: string[] };
+    intensive: {
+      label: string;
+      status: LeSectionStatus;
+      required: WritingCounts;
+      completed: WritingCounts;
+      projected: WritingCounts;
+      codes: LeCodes;
+    };
+  };
+  /** Designation names a new course could still usefully cover. */
+  remaining: string[];
+  sources: Record<string, string>;
+}
+
+export interface DoubleDipperPage {
+  remaining: string[];
+  courses: (CatalogCourse & { covers: string[] })[];
+  total: number;
+  limit: number;
+  offset: number;
 }
 
 export interface GenerateResult {
@@ -240,3 +307,21 @@ export interface Transcript {
   notImported?: string[];
   errorCode?: string;
 }
+export type ReportTargetType = "course" | "requirement";
+export type ReportReason = "prerequisites_wrong" | "offered_terms_wrong" | "details_wrong" | "missing_course" | "course_should_not_count" | "rule_wrong" | "other";
+export type NewReport = (
+  | { targetType: "course"; courseCode: string }
+  | { targetType: "requirement"; requirementId: string }
+) & { reason: ReportReason; note?: string };
+export interface DataReport {
+  id: number;
+  targetType: ReportTargetType;
+  courseCode: string | null;
+  requirementId: string | null;
+  reason: ReportReason;
+  note: string | null;
+  status: "open" | "resolved" | "dismissed";
+  createdAt: string;
+  updatedAt: string;
+}
+

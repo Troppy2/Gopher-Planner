@@ -11,8 +11,9 @@ export default function PrivacyScreen() {
 
       <h2>What we collect</h2>
       <ul>
+        <li><b>Problem reports:</b> what you reported, the reason, and your optional note.</li>
         <li><b>Your Google account basics:</b> your name, @umn.edu email address, profile picture link, and Google account ID. We use these to sign you in.</li>
-        <li><b>Your profile:</b> major, grade standing, career goal, preferred credits per term, and graduation target.</li>
+        <li><b>Your profile:</b> major, grade standing, preferred credits per term, and graduation target.</li>
         <li><b>Your coursework:</b> course codes, titles, credits, terms, status, and grades, whether you typed them in or we read them from your APAS report.</li>
         <li><b>Your plan:</b> the courses you planned, the semesters you put them in, and your catalog year.</li>
         <li><b>A sign-in session:</b> a cookie that keeps you signed in for up to 7 days.</li>
@@ -52,9 +53,11 @@ export default function PrivacyScreen() {
       </p>
 
       <h2>Keeping and deleting your data</h2>
+      <p>Problem reports are emailed to the project maintainers so they can fix the data. The email includes what you reported, the reason, and your note, but not your name or email address. Reports are deleted with your account.</p>
       <p>
         We keep your data while your account exists. You can edit your profile and coursework in Settings at any time. To
-        delete your account and everything tied to it, <Link to="/contact">contact us</Link> and we will remove it.
+        delete your account and everything tied to it, use <b>Delete account</b> in Settings. Deletion is immediate and
+        permanent. If you can't sign in, <Link to="/contact">contact us</Link> and we will remove it.
       </p>
 
       <h2>Changes</h2>

@@ -290,6 +290,8 @@ def evaluate_program(program, attempts):
             "completedStatus": completed[node["id"]].status, "projectedStatus": projected[node["id"]].status,
             "completedEvidence": _evidence(completed[node["id"]]), "projectedEvidence": _evidence(projected[node["id"]]),
             "details": details,
+            **({"options": sorted(program["courseSets"][node["courseSet"]]["codes"])}
+               if node.get("type") in ("count", "credits") else {}),
         })
         if "rule" in node:
             visit(node["rule"], group_label, node["id"])

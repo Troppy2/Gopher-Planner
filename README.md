@@ -128,7 +128,7 @@ Stop while preserving database storage:
 docker compose down
 ```
 
-The API entrypoint currently applies migrations on container start and runs Flask's development server. This is a development setup, not a finished production deployment. See [#12](https://github.com/Troppy2/Gopher-Planner/issues/12).
+With `FLASK_ENVIRONMENT=development` (the Compose default), the API container applies migrations on start and runs Flask's development server. With `FLASK_ENVIRONMENT=production` it runs gunicorn instead; set `RUN_MIGRATIONS=false` there and let CD migrate. `GET /health` reports that the process is up; `GET /ready` also checks the database and is the one to use for deploy health checks.
 
 ## Configuration
 
@@ -139,7 +139,13 @@ The API entrypoint currently applies migrations on container start and runs Flas
 | `DATABASE_URL` | `postgresql+psycopg://...` or SQLite URL. Required in production mode; development can fall back to SQLite. |
 | `FRONTEND_ORIGIN` | Exact allowed browser origin, including port. Currently one origin is supported. |
 | `COOKIE_SECURE` | `false` for local HTTP; `true` for HTTPS deployments. |
-| `FLASK_ENVIRONMENT` | `development` or `production`. |
+| `FLASK_ENVIRONMENT` | `development` or `production`. Production runs gunicorn. |
+| `RUN_MIGRATIONS` | Container only. `true` (default) migrates on start; set `false` in production, where CD migrates. |
+| `WEB_CONCURRENCY`, `GUNICORN_TIMEOUT` | Production only. Worker count (default 2; each loads the OCR model) and request timeout in seconds (default 120, for OCR). |
+| `TRUSTED_PROXY_HOPS` | Number of proxies in front of the API whose `X-Forwarded-For`/`-Proto` headers to trust. Default 0. Set it to your host's proxy count (usually 1) so rate limits see real client addresses. |
+| `RATELIMIT_ENABLED`, `RATELIMIT_STORAGE_URI` | Rate limits are on by default with in-memory counters per worker. Point the storage URI at Redis to share counters across workers. Limits: sign-in 30/minute and 300/hour per address; transcript upload 20/hour, plan generation 60/hour and problem reports 30/hour per signed-in user. |
+| `REPORT_NOTIFY_EMAIL` | Comma-separated addresses that receive an email for each new "Report a problem" submission. Edits to an open report are saved, not re-sent, and submissions are limited to 30 an hour per user. Unset disables email; reports are still saved. |
+| `SMTP_HOST`, `SMTP_PORT`, `SMTP_USERNAME`, `SMTP_PASSWORD`, `SMTP_FROM` | Mail server for report emails. Port 587 uses STARTTLS, 465 uses SSL. For Gmail, use `smtp.gmail.com`, port 587, and an app password. `SMTP_FROM` defaults to the username. |
 | `VITE_GOOGLE_CLIENT_ID` | Public frontend client ID, matching the backend. |
 | `VITE_API_URL` | Optional API base ending in `/api/v1`. Omit for same-origin proxy setups. |
 | `PROGRAM_DATA_PATH` | Optional override for the versioned program directory. |
@@ -195,7 +201,27 @@ npm run build
 
 On macOS/Linux, use `npx` instead of `npx.cmd`. Backend tests default to disposable migrated SQLite databases. Use synthetic coursework and generated PDFs only.
 
-The files under `.github/workflows/` are currently placeholders. Do not assume automated CI or deployment runs these commands.
+If your local `frontend/.env` sets `VITE_API_URL`, frontend tests will call that URL instead of their mocks and fail. Unset it for test runs.
+
+## CI/CD
+
+| Workflow | Runs on | What it does |
+| --- | --- | --- |
+| [CI](.github/workflows/ci.yml) | Every pull request, and as the first stage of CD | Backend pytest on SQLite and PostgreSQL 17; migrations: one head, clean upgrade, `db check` for model drift, downgrade to base and back; frontend typecheck, Vitest, production build; Docker builds of both images. One aggregate check, **CI passed**, is the check to require in branch protection. |
+| [CD](.github/workflows/cd.yml) | Push to `main`, or manual run | Reruns CI on the same commit, publishes `ghcr.io/<owner>/gopher-planner-api` (`sha-<commit>` and `latest`), applies migrations to production, triggers the API host's deploy hook and waits for `/health`, then deploys the frontend to Vercel production. Runs are queued, never cancelled mid-migration. |
+| [Preview](.github/workflows/preview.yml) | Pull requests that change `frontend/` | Deploys a Vercel preview and comments its URL on the PR. Skipped for forks. |
+| [Dependabot](.github/dependabot.yml) | Weekly | Grouped minor/patch update PRs for npm, uv, GitHub Actions and Docker base images. |
+
+Set these in **Settings → Environments → production**:
+
+| Name | Kind | Needed |
+| --- | --- | --- |
+| `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID` | Secrets | Yes. Also add them as repository secrets so PR previews can use them. |
+| `PRODUCTION_DATABASE_URL` | Secret | When the API is hosted. Without it, CD skips migrations. |
+| `BACKEND_DEPLOY_HOOK_URL` | Secret | When the API is hosted. Without it, CD publishes the image but does not deploy it. |
+| `BACKEND_HEALTH_URL` | Variable | Optional. `https://<api-host>/ready`, checked after each API deploy. |
+
+Turn off Vercel's own Git deployments so only CD deploys production. Set the hosted API container's `RUN_MIGRATIONS=false` so it does not migrate on startup; CD applies migrations before every deploy.
 
 ## Architecture
 

@@ -123,6 +123,22 @@ def test_current_suggestion_cannot_use_a_same_semester_in_progress_prerequisite(
     assert response.json["violations"][0]["reason"] == "prerequisite_not_before"
 
 
+def test_courses_registered_for_next_term_stay_in_that_term(client, planner, post_headers):
+    planner(courses=[work("MINI 1101", "prog", term="Spring 2027", credits=3)])
+    plan = client.get("/api/v1/plan").json
+    assert by_code(plan)["MINI 1101"]["term"] == "Spring 2027"
+    beside = put(client, post_headers, [{"code": "MINI 1102", "status": "plan", "term": "Spring 2027"}], catalogTerm="Fall 2026")
+    assert beside.status_code == 409 and beside.json["violations"][0]["reason"] == "prerequisite_not_before"
+    assert put(client, post_headers, [{"code": "MINI 1102", "status": "plan", "term": "Fall 2027"}], catalogTerm="Fall 2026").status_code == 200
+    edited = put(client, post_headers, [{"code": "MINI 1101", "status": "prog", "term": "Spring 2027", "credits": 4}])
+    assert edited.status_code == 200
+    assert by_code(edited.json)["MINI 1101"]["term"] == "Spring 2027"
+    row = client.get("/api/v1/coursework").json["courses"][0]
+    assert (row["term"], row["credits"]) == ("Spring 2027", 4)
+    # Only the current term or the course's own registered term is accepted for in-progress courses.
+    assert put(client, post_headers, [{"code": "MINI 1101", "status": "prog", "term": "Fall 2027"}]).status_code == 400
+
+
 def work(code, status="done", grade="A", term="Fall 2025", credits=3):
     return {"code": code, "title": f"Synthetic {code}", "credits": credits, "status": status,
             "grade": None if status == "prog" else grade, "term": term}

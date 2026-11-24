@@ -1,0 +1,45 @@
+.requirements-filter { position: sticky; top: 0; z-index: 1; background: var(--surface-raised); border-bottom: 1px solid var(--border); padding: var(--s4) var(--s6); display: flex; flex-wrap: wrap; gap: var(--s3); align-items: center; justify-content: space-between; }
+.requirements-summary { display: flex; flex-wrap: wrap; gap: var(--s2); }
+.requirements-body { padding: var(--s4) var(--s6); }
+.requirements-group { border-bottom: 1px solid var(--border); }
+.requirements-group h3 { display: flex; align-items: center; gap: var(--s2); margin: 0; padding: var(--s2) 0; font-size: 16px; }
+/* The app's quiet row highlight, not the browser's gray button. */
+.requirements-group-header { appearance: none; background: transparent; border: 0; color: inherit; font: inherit; cursor: pointer;
+  flex: 1; min-width: 0; display: flex; align-items: center; text-align: left; gap: var(--s3);
+  padding: var(--s3); margin-left: calc(-1 * var(--s3)); min-height: var(--hit); border-radius: var(--radius); transition: background-color var(--fast); }
+.requirements-group-header:hover { background: rgba(122, 0, 25, 0.045); }
+.requirements-group-header:active { background: rgba(122, 0, 25, 0.09); }
+.requirements-group-header:focus-visible { outline: 3px solid var(--maroon); outline-offset: -3px; }
+.requirements-group-header > span:first-of-type { flex: 1; min-width: 0; overflow-wrap: anywhere; font-weight: 600; }
+.requirements-group-header small { display: block; font-size: 13px; font-weight: 400; color: var(--muted); }
+.requirements-group-header > svg { color: var(--muted); flex: none; transition: transform var(--fast); }
+.requirements-group-header[aria-expanded="false"] > svg { transform: rotate(-90deg); }
+.requirements-group-header .req-st { flex: none; }
+.requirements-report { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--s2); margin-top: var(--s4); padding-top: var(--s3); border-top: 1px dashed var(--border); font-size: 13px; }
+.requirements-caveat { margin: 0 0 var(--s2); font-size: 13px; }
+.req-st.zero { color: var(--muted); font-weight: 500; }
+.requirements-notes { margin: var(--s2) 0 var(--s3); padding: var(--s2) var(--s3); border-left: 3px solid var(--border); font-size: 13px; color: var(--muted); }
+.requirements-notes ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.requirements-more { appearance: none; background: none; border: 0; padding: 0; margin-top: var(--s2); font: inherit; font-weight: 600; color: var(--maroon); cursor: pointer; min-height: 24px; }
+.requirements-more:hover { text-decoration: underline; }
+.requirements-more:focus-visible { outline: 3px solid var(--maroon); outline-offset: 2px; border-radius: 2px; }
+@media (prefers-reduced-motion: reduce) { .requirements-group-header, .requirements-group-header > svg { transition: none; } }
+.requirements-group-body { padding: 0 0 var(--s4) var(--s6); }
+.requirements-rule { margin-top: var(--s3); }
+.requirements-rule h4 { display: flex; align-items: center; flex-wrap: wrap; gap: var(--s2); margin: var(--s3) 0 var(--s2); }
+.requirements-rule p { margin: var(--s2) 0; }
+.requirements-option { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: var(--s3); margin-top: var(--s3); }
+.requirements-option h5 { font-size: inherit; margin: 0 0 var(--s2); }
+.requirements-courses { list-style: none; padding: 0; margin: 0; }
+.requirements-course { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s2); padding: var(--s2) 0; border-bottom: 1px solid var(--border); }
+.requirements-course:last-child { border-bottom: 0; }
+.requirements-course-name { display: flex; flex-direction: column; flex: 1; min-width: 160px; overflow-wrap: anywhere; }
+.requirements-course-name { gap: 2px; }
+.requirements-course-line { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: var(--s2); }
+.requirements-course-name a { display: inline-flex; align-items: center; min-height: 24px; font-weight: 700; }
+.requirements-course-credits { font-size: 13px; }
+.requirements-search { display: flex; flex-direction: column; gap: var(--s1); margin: var(--s3) 0; }
+.requirements-search input { min-height: 44px; border: 1px solid var(--border-strong); border-radius: var(--radius-sm); padding: var(--s2); width: 100%; }
+.requirements-skeleton { display: grid; gap: var(--s3); padding: var(--s4) 0; }
+@media (max-width: 767px) { .requirements-body, .requirements-filter { padding: var(--s4); } .requirements-course-name { flex-basis: 100%; } .requirements-group-header { flex-wrap: wrap; } }
+

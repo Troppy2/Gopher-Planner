@@ -12,7 +12,7 @@ This document distinguishes implemented foundations, partial work, and proposals
 | [#7: backend expansion](https://github.com/Troppy2/Gopher-Planner/issues/7) | Models, Alembic revisions, parser/OCR, summary, coursework, and plan services/endpoints exist. | Operational hardening and broader data integrations remain separate work. |
 | [#9: majors/programs](https://github.com/Troppy2/Gopher-Planner/issues/9) | Versioned JSON requirements and `GET /programs` supply the major list. | This uses files rather than the issue's proposed programs table. Profile major strings are not fully restricted to that list, and non-CS programs remain unverified. |
 | [#10: full catalog](https://github.com/Troppy2/Gopher-Planner/issues/10) | Full dated exports and a repeatable importer populate SQLAlchemy `catalog_*` tables. Runtime no longer reads `courses.db`. | Scheduled refresh, richer offering semantics, and reliable exact-term availability are not complete. The old SQLite-swap proposal does not describe the current runtime. |
-| [#12: backend structure/correctness](https://github.com/Troppy2/Gopher-Planner/issues/12) | Services, repositories, schemas, session helpers, JSON error handlers, tests, and P0 API flows exist. | The issue bundles many independent items. Unused required `JWT_SECRET`, production serving, entrypoint migrations, auth hardening, and real CI/CD remain unresolved. |
+| [#12: backend structure/correctness](https://github.com/Troppy2/Gopher-Planner/issues/12) | Services, repositories, schemas, session helpers, JSON error handlers, tests, and P0 API flows exist. | The issue bundles many independent items. Unused required `JWT_SECRET`, production serving, auth hardening, and choosing an API host remain unresolved. CI/CD workflows exist; see the README. |
 
 Implementation references: [API routes](../backend/app/api/v1/), [services](../backend/app/services/), [models](../backend/app/models/), [catalog importer](../backend/scripts/import_catalog.py), [frontend endpoints](../frontend/src/api/endpoints.ts), and [data guide](../backend/data/README.md).
 
@@ -34,9 +34,11 @@ Acceptance criteria and follow-up implementation work should remain in the new t
 
 [#14](https://github.com/Troppy2/Gopher-Planner/issues/14) proposes typed designations, sourced versioned rules, a fuller per-category tracker, broader audit parsing, personalized double-dipper discovery, and dashboard changes.
 
-**Already present:** catalog LE attributes, recognized APAS required/covered categories, labeled sample-plan slots, coverage-aware suggestions, and category-based swaps/filtering.
+**Already present:** catalog LE attributes, recognized APAS required/covered categories, labeled sample-plan slots, coverage-aware suggestions, and category-based swaps/filtering. A sourced rules file (`backend/data/liberal_ed/umn-tc.json`) and tracker now report the 7 core areas, 4 of 5 themes with Race, Power, and Justice required, first-year writing, and writing intensive counts (total, upper division, upper division in the major) in `GET /plan` as `liberalEd`. APAS takes precedence and disagreements show as needing review. The dashboard shows the tracker, links each missing category to the catalog (`/catalog?le=`), and lists "courses that count twice" from `GET /liberal-ed/double-dippers` with one-click add.
 
-**Still needed:** the complete rule model and tracker described in the issue, including writing policies, source-disagreement behavior, user reassignment where appropriate, and the proposed dashboard replacement. Existing suggestion coverage is not proof that the full issue is implemented. Academic rule counts and sharing policies need official source evidence before implementation.
+Plan generation now plans toward the same rules: sample-plan LE slots prefer courses that also cover other open needs, and after the major's requirements are placed the generator fills any core area, theme (until 4 including Race, Power, and Justice) or writing intensive total still open, best combined coverage first. When nothing more fits it returns `liberal_ed_unplanned`.
+
+**Still needed:** upper-division and in-major writing intensive courses are left to the tracker, since they depend on the major and usually have prerequisites; the APAS parser does not read the writing section, so first-year writing equivalents (AP, transfer) only show once APAS-covered categories are parsed; and the student's admission term is unknown, so Race, Power, and Justice is always treated as required. User reassignment is unnecessary: a course can carry at most one core and one theme.
 
 ### Student verification of prerequisites and requirements
 
@@ -82,11 +84,9 @@ No registration handoff is implemented. Establish what the university supports b
 
 [#12](https://github.com/Troppy2/Gopher-Planner/issues/12) remains a broad hardening tracker. Current gaps include:
 
-- Replacing Flask's development server in the container with a production serving strategy.
-- Moving entrypoint migrations into an explicit deployment step.
-- Completing CI/CD: the workflow files currently contain names/comments without jobs or triggers.
-- API readiness checks, operational monitoring, backup/restore and retention procedures.
-- Authentication rate limiting, expired-session cleanup, and account/session management.
+- Hosting the API: CD publishes the image and runs migrations, but deploys it only once a host's deploy hook is configured.
+- Operational monitoring, backup/restore and retention procedures. (`/ready` checks the database.)
+- Expired-session cleanup and account/session management. Rate limits exist for sign-in, transcript upload and plan generation.
 - Finishing input-option validation and resolving remaining configuration/dependency cleanup.
 
 These are gaps, not claims of production safeguards already being provided.

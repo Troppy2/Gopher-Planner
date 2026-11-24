@@ -8,12 +8,13 @@ from sqlalchemy import select
 
 from app.extensions import db
 from app.models import Coursework
-from app.repositories.catalog import find_courses, le_coverage, suggest_le_course
+from app.repositories.catalog import find_courses, le_candidates, le_coverage, le_designations, suggest_le_course
 from app.repositories.locks import lock_user
 from app.repositories.plans import find_plan, planned_courses, planned_slots, replace_planned_courses
 from app.schemas.coursework import CODE_PATTERN
 from app.services.coursework import get_coursework
-from app.services.metadata import referenced_codes, resolve_course
+from app.services.liberal_ed import designation_groups, designation_label_categories, evaluate_liberal_ed, load_rules, open_needs
+from app.services.metadata import apply_equivalents, home_subject, referenced_codes, resolve_course
 from app.services.planning.eligibility import INFORMATIONAL, placement_check
 from app.services.planning.generate import CATEGORY_PRIORITY, STATUS_WARNINGS, generate_plan
 from app.services.planning.sample import load_sample_plan
@@ -81,7 +82,8 @@ def gather_metadata(program, codes, *, closure_depth=4):
         if not pending:
             break
         rows = find_courses(pending)
-        found = {code: resolve_course(code, program, rows.get(code)) for code in pending}
+        # Prerequisites also accept the program's own equivalents (CSE Calculus II for Calculus II).
+        found = apply_equivalents({code: resolve_course(code, program, rows.get(code)) for code in pending}, program)
         metadata.update(found)
         pending = {code for record in found.values() if record
                    for code in expression_codes(record["prerequisites"]["expression"])}
@@ -96,6 +98,17 @@ def window_terms(user):
 def coursework_attempts(user):
     return [{"code": row["code"], "credits": row["credits"], "status": row["status"], "grade": row["grade"],
              "term": row["term"], "title": row["title"]} for row in get_coursework(user)["courses"]]
+
+
+def registered_term(row, current, window):
+    """An in-progress attempt's plan term: a later term it is registered for, otherwise the current term."""
+    return row["term"] if row.get("term") in window else current
+
+
+def registered_future(attempts, current, window):
+    """Codes in progress for a future term in the window (registered for next semester), with that term."""
+    return {item["code"]: item["term"] for item in attempts
+            if item["status"] == "prog" and registered_term(item, current, window) != current}
 
 
 def locked_codes(attempts):
@@ -132,10 +145,34 @@ def earned(item):
     return item["status"] == "done" and item.get("grade") not in NO_CREDIT
 
 
+class SlotLabels(dict):
+    """Sample-plan slot labels, plus the labels plan generation builds from liberal education designation
+    names when it fills open needs (for example "Race, Power, and Justice US, Literature")."""
+
+    def get(self, label, default=None):
+        if dict.__contains__(self, label):
+            return dict.__getitem__(self, label)
+        names = designation_label_categories(label)
+        if not names:
+            return default
+        groups = designation_groups()
+        # Former names count too, so a course with the old designation still matches its slot.
+        return list(dict.fromkeys(alias for name in names for alias in groups.get(name, [name])))
+
+    def __contains__(self, label):
+        return self.get(label) is not None
+
+    def __getitem__(self, label):
+        value = self.get(label)
+        if value is None:
+            raise KeyError(label)
+        return value
+
+
 def slot_categories(program):
     sample = load_sample_plan(program["id"]) if program else None
-    return {item.get("label") or ", ".join(item["categories"]): item["categories"]
-            for term in (sample or {}).get("terms", []) for item in term["items"] if item["kind"] == "le"}
+    return SlotLabels({item.get("label") or ", ".join(item["categories"]): item["categories"]
+                       for term in (sample or {}).get("terms", []) for item in term["items"] if item["kind"] == "le"})
 
 
 def audit_le_status(user_id):
@@ -197,7 +234,8 @@ def build_plan(user, context, planned, *, slots=None):
         }
         if row and (code not in planned or earned(row) or row["status"] == "prog"):
             course.update(status=row["status"], credits=float(row["credits"]),
-                          term=current if row["status"] == "prog" else (row["term"] if row["term"] in terms else "Completed"))
+                          term=registered_term(row, current, window) if row["status"] == "prog"
+                          else (row["term"] if row["term"] in terms else "Completed"))
         elif code in planned:
             course.update(status="plan", term=planned[code][0])
         elif record is None or record.get("blockedReason"):
@@ -235,7 +273,20 @@ def build_plan(user, context, planned, *, slots=None):
         "catalogTerm": context.catalog_term, "availableCatalogTerms": context.available,
         "warnings": sorted(warnings), "requirementProgress": progress,
         "electiveCredits": elective_credits,
+        "liberalEd": liberal_ed_status(user.id, attempts, planned, program, program_codes),
     }
+
+
+def liberal_ed_status(user_id, attempts, planned, program, program_codes):
+    """Liberal education tracker from earned, in-progress and planned courses, plus any APAS audit."""
+    evidence = [{"code": row["code"], "status": "done" if earned(row) else "prog", "term": row["term"]}
+                for row in attempts if earned(row) or row["status"] == "prog"]
+    taken = {item["code"] for item in evidence}
+    evidence += [{"code": code, "status": "plan", "term": term} for code, (term, _) in planned.items() if code not in taken]
+    subject = home_subject(program) if program else None
+    return evaluate_liberal_ed(load_rules(), courses=evidence, designations=le_designations(item["code"] for item in evidence),
+                               major_codes=set(program_codes), major_subjects={subject} if subject else set(),
+                               audit=audit_le_status(user_id))
 
 
 def get_plan(user):
@@ -264,6 +315,7 @@ def save_changes(user, body):
         raise PlanError(400, "invalid_change", "Expected {changes: [...]} with at most 300 changes")
     requested = parse_catalog_term(body)
     current, window = window_terms(user)
+    registered = registered_future(coursework_attempts(user), current, window)
     for change in body["changes"]:
         if not isinstance(change, dict) or not {"code", "status", "term"} <= set(change) or set(change) - {"code", "status", "term", "slot", "credits"}:
             raise PlanError(400, "invalid_change", "Each change needs exactly code, status and term")
@@ -274,8 +326,8 @@ def save_changes(user, body):
                 or not 0.5 <= change["credits"] <= 12 or change["credits"] * 2 != int(change["credits"] * 2)):
             raise PlanError(400, "invalid_change", "Current course credits must be between 0.5 and 12 in half-credit increments")
         if change["status"] == "prog":
-            if change["term"] != current:
-                raise PlanError(400, "invalid_change", "In-progress courses belong in the current term")
+            if change["term"] != current and registered.get(change["code"]) != change["term"]:
+                raise PlanError(400, "invalid_change", "In-progress courses belong in the current term or the term they are registered for")
         elif change["status"] == "plan":
             if change["term"] not in [current, *window]:
                 raise PlanError(400, "invalid_change", "Planned courses need the current or a future term inside the plan window")
@@ -346,7 +398,8 @@ def save_changes(user, body):
             raise PlanError(400, "invalid_change", "The replacement courses must preserve the slot categories")
     scheduling_terms = [current, *window]
     violations = validate_plan({code: term for code, (term, _) in planned.items() if term in scheduling_terms},
-                               locked=locked, metadata=metadata, terms=scheduling_terms, changed=changed, current_term=current)
+                               locked=locked, metadata=metadata, terms=scheduling_terms, changed=changed, current_term=current,
+                               registered={code: term for code, term in registered.items() if locked.get(code) == "prog"})
     if violations:
         raise PlanError(409, "plan_invalid", "The resulting plan breaks a scheduling rule", violations)
     # Enrollment edits and plan moves commit together. Failed validation leaves both unchanged.
@@ -361,7 +414,7 @@ def save_changes(user, body):
             record = metadata.get(code) or {}
             row.title = row.title or record.get("title") or code
             row.credits = change.get("credits", float(row.credits) if row.credits is not None else record.get("minimumCredits", 3))
-            row.term, row.status = current, "prog"
+            row.term, row.status = change["term"], "prog"
             db.session.add(row)
             for duplicate in enrolled[1:]:
                 db.session.delete(duplicate)
@@ -403,6 +456,20 @@ def generate(user, body):
         required, audited = audit
         covered |= audited | {category for item in items if item["kind"] == "le"
                               for category in item["categories"] if category not in required}
+        # As in the tracker: a section the audit lists but a category it omits is not required.
+        rules = load_rules()
+        for section in ("core", "themes"):
+            names = {name for entry in rules[section]["items"] for name in entry["designations"]}
+            if required & names:
+                covered |= {name for entry in rules[section]["items"] if not set(entry["designations"]) & required
+                            for name in entry["designations"]}
+    # Liberal education needs still open after finished work, for double-dipper ranking and gap filling.
+    taken_codes = {item["code"] for item in attempts if earned(item) or item["status"] == "prog"}
+    designations = le_designations(taken_codes | (referenced_codes(program) if program else set()) | sample_codes)
+    earned_names = set(covered).union(*(designations.get(code, set()) for code in taken_codes))
+    writing = sum("Writing Intensive" in designations.get(code, ()) for code in taken_codes)
+    needs = open_needs(load_rules(), earned_names, writing) if program else []
+    bonus = {name for _, group in needs for name in group}
     # Materialize alternatives before generation so the engine callback is pure.
     suggestions = {}
     le_items = [item for item in items if item["kind"] == "le"]
@@ -418,7 +485,7 @@ def generate(user, body):
             continue
         options, excluded = [], set(locked_codes(attempts))
         for _ in range(sum(len(slot["categories"]) for slot in le_items)):
-            suggestion = suggest_le_course(wanted, season=season, exclude=excluded)
+            suggestion = suggest_le_course(wanted, season=season, exclude=excluded, bonus=bonus)
             if not suggestion:
                 break
             code, coverage = suggestion
@@ -435,6 +502,14 @@ def generate(user, body):
                    if option[0] not in exclude and wanted.intersection(option[2])]
         return min(options, key=lambda o: (-len(wanted.intersection(o[2])), o[0])) if options else None
 
+    pool = []
+    if needs:
+        candidates = le_candidates(needs, exclude=set(locked_codes(attempts)))
+        records = find_courses([code for code, _ in candidates])
+        for code, carried in candidates:
+            record = resolve_course(code, program, records.get(code))
+            if record and not record.get("blockedReason"):
+                pool.append({"code": code, "designations": carried, "record": record})
     user_id, graduation, credit_load = user.id, user.graduation_target, user.credit_load
     existing = snapshot[4] if not program else {}
     db.session.rollback()
@@ -443,6 +518,7 @@ def generate(user, body):
     result = generate_plan(program, coursework=[item for item in attempts if item["status"] in {"done", "prog"}], metadata=metadata,
                     terms=window, credit_load=credit_load, base_credits=earned_base,
                     sample=sample, graduation=graduation, le_suggest=suggest, le_coverage=covered,
+                    le_pool=pool, le_designations=designations, le_rules=load_rules(),
                     status="ok" if program else "unknown")
     planned = {item["code"]: (item["term"], "generated") for item in result["placements"]}
     if not program:

@@ -8,18 +8,18 @@ import type { Options, Profile } from "@/api/types";
 import { Button, Callout, Combobox, EmptyState, SaveToast, Select, Stepper, TextField } from "@/ui";
 import { useLeaveWarning } from "@/hooks/useLeaveWarning";
 import { useAutosave } from "@/hooks/useAutosave";
-import { careerForMajor, careerOptions, HeavyLoadNote, UnverifiedMajorNote, MAX_CREDITS, MIN_CREDITS } from "@/features/profile/profileRules";
+import { HeavyLoadNote, UnverifiedMajorNote, MAX_CREDITS, MIN_CREDITS } from "@/features/profile/profileRules";
 import { CourseworkEditor } from "@/features/coursework/CourseworkEditor";
+import { DeleteAccount } from "@/features/account/DeleteAccount";
 import { usePlanDraft } from "@/features/plan/plan.store";
 import { SettingsSkeleton } from "@/features/loading/ScreenSkeletons";
 import "./settings.css";
 
-type Form = Pick<Profile, "name" | "major" | "standing" | "careerGoals" | "creditLoad" | "graduationTarget">;
+type Form = Pick<Profile, "name" | "major" | "standing" | "creditLoad" | "graduationTarget">;
 const pick = (p: Profile): Form => ({
   name: p.name,
   major: p.major,
   standing: p.standing,
-  careerGoals: p.careerGoals,
   creditLoad: p.creditLoad,
   graduationTarget: p.graduationTarget,
 });
@@ -147,7 +147,7 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
             <Combobox
               label="Major or degree program"
               value={form.major}
-              onChange={(major) => set({ major, careerGoals: careerForMajor(options, major, form.careerGoals) })}
+              onChange={(major) => set({ major })}
               options={options?.majors ?? [form.major]}
               placeholder="Start typing, for example Computer Science"
             />
@@ -155,13 +155,6 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
               <UnverifiedMajorNote options={options} major={form.major} />
             </div>
             <Select label="Grade standing" value={form.standing} onChange={(standing) => set({ standing })} options={options?.standings ?? [form.standing]} />
-            <Select
-              className="span2"
-              label="Career goal"
-              value={form.careerGoals}
-              onChange={(careerGoals) => set({ careerGoals })}
-              options={careerOptions(options, form.major)}
-            />
           </div>
         </section>
 
@@ -201,6 +194,8 @@ function SettingsForm({ profile, options }: { profile: Profile; options?: Option
       </form>
 
       <CourseworkEditor />
+
+      <DeleteAccount />
 
       <nav className="settings-legal muted" aria-label="Legal and contact">
         <Link to="/privacy">Privacy</Link>

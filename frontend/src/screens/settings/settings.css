@@ -41,3 +41,47 @@
   margin-top: var(--s6);
   font-size: 14px;
 }
+
+.del-copy {
+  margin-bottom: var(--s4);
+}
+.confirm-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(440px, calc(100% - 32px));
+  z-index: 51;
+  padding: 22px;
+  display: grid;
+  gap: var(--s4);
+  box-shadow: var(--shadow-raised);
+  outline: none;
+}
+.confirm-dialog[data-state="open"] {
+  animation: fadeIn var(--med) var(--ease);
+}
+.confirm-dialog h2 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--maroon);
+}
+.confirm-dialog form {
+  display: grid;
+  gap: var(--s4);
+}
+.confirm-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--s3);
+}
+
+@media (max-width: 767px) {
+  .confirm-actions {
+    flex-direction: column-reverse;
+  }
+  .confirm-actions .btn {
+    width: 100%;
+  }
+}
