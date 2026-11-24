@@ -9,7 +9,7 @@
 #   secrets  PRODUCTION_DATABASE_URL   postgresql+psycopg://... (optional until the API is hosted)
 #            BACKEND_DEPLOY_HOOK_URL   host deploy hook, e.g. Render/Railway (optional until hosted)
 #            VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_PROJECT_ID   (required)
-#   variables BACKEND_HEALTH_URL       https://<api>/health (optional; enables a post-deploy check)
+#   variables BACKEND_HEALTH_URL       https://<api>/ready (optional; enables a post-deploy check)
 name: CD
 
 on:

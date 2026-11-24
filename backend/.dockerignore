@@ -5,3 +5,9 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.env.*
+!.env.example
+instance/
+node_modules/
+.test-tmp*/
+*.xml

@@ -82,10 +82,9 @@ No registration handoff is implemented. Establish what the university supports b
 
 [#12](https://github.com/Troppy2/Gopher-Planner/issues/12) remains a broad hardening tracker. Current gaps include:
 
-- Replacing Flask's development server in the container with a production serving strategy.
 - Hosting the API: CD publishes the image and runs migrations, but deploys it only once a host's deploy hook is configured.
-- API readiness checks, operational monitoring, backup/restore and retention procedures.
-- Authentication rate limiting, expired-session cleanup, and account/session management.
+- Operational monitoring, backup/restore and retention procedures. (`/ready` checks the database.)
+- Expired-session cleanup and account/session management. Rate limits exist for sign-in, transcript upload and plan generation.
 - Finishing input-option validation and resolving remaining configuration/dependency cleanup.
 
 These are gaps, not claims of production safeguards already being provided.

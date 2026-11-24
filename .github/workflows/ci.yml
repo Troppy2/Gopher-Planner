@@ -158,8 +158,31 @@ jobs:
         with:
           context: ${{ matrix.service }}
           push: false
+          load: true
+          tags: gopher-planner-${{ matrix.service }}:ci
           cache-from: type=gha,scope=${{ matrix.service }}
           cache-to: type=gha,mode=max,scope=${{ matrix.service }}
+      # The production image must boot under gunicorn and reach its database. The frontend
+      # image proxies /api to a Compose service, so it is only built here.
+      - name: Start the API image in production mode
+        if: matrix.service == 'backend'
+        run: |
+          docker run -d --name api -p 5000:5000 \
+            -e FLASK_ENVIRONMENT=production -e RUN_MIGRATIONS=false \
+            -e GOOGLE_CLIENT_ID=ci-synthetic-client -e JWT_SECRET=ci-synthetic-secret \
+            -e DATABASE_URL=sqlite:////tmp/ci-smoke.db \
+            gopher-planner-backend:ci
+          for attempt in $(seq 1 45); do
+            if curl --fail --silent http://localhost:5000/ready; then
+              echo
+              docker logs api 2>&1 | grep -i "gunicorn" || { echo "::error::The API did not start under gunicorn."; exit 1; }
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "::error::The API image never became ready."
+          docker logs api
+          exit 1
 
   ci-passed:
     name: CI passed
