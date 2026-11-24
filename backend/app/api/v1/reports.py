@@ -4,6 +4,7 @@ from app.core.auth import check_request_origin, read_session
 from app.extensions import db
 from app.services import reports
 from app.services.report_email import notify_report
+from app.extensions.rate_limit import REPORT_LIMIT, limiter, user_or_address
 
 reports_bp = Blueprint("reports", __name__, url_prefix="/api/v1")
 
@@ -24,6 +25,7 @@ def get_reports():
 
 
 @reports_bp.post("/reports")
+@limiter.limit(REPORT_LIMIT, key_func=user_or_address)
 def create_report():
     origin_error = check_request_origin()
     if origin_error is not None:

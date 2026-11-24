@@ -13,6 +13,8 @@ SIGN_IN_LIMIT = "30 per minute;300 per hour"
 # Per signed-in user: PDF parsing and OCR are the most expensive requests the API serves.
 TRANSCRIPT_UPLOAD_LIMIT = "20 per hour"
 PLAN_GENERATE_LIMIT = "60 per hour"
+# Report submissions, new or edited, per signed-in user.
+REPORT_LIMIT = "30 per hour"
 
 
 def user_or_address():

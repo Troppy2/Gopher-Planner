@@ -70,11 +70,20 @@ def test_new_report_is_emailed_without_the_students_identity(client, make_user, 
     assert "synthetic-student@example.invalid" not in body
 
 
-def test_updated_report_says_updated(client, make_user, login_as, post_headers, catalog, smtp, configured):
+def test_edits_are_saved_but_not_re_emailed(client, make_user, login_as, post_headers, catalog, smtp, configured):
     login_as(make_user())
     report(client, post_headers)
-    assert report(client, post_headers, note="More detail").status_code == 200
-    assert smtp.sent[-1]["Subject"].startswith("[Gopher Planner] Updated report")
+    for index in range(5):
+        assert report(client, post_headers, note=f"Edit {index}").status_code == 200
+    assert len(smtp.sent) == 1
+    assert client.get("/api/v1/reports").json["reports"][0]["note"] == "Edit 4"
+
+
+def test_report_submissions_are_rate_limited_per_user(client, make_user, login_as, post_headers, catalog, smtp, configured):
+    login_as(make_user())
+    statuses = [report(client, post_headers, note=f"Edit {index}").status_code for index in range(31)]
+    assert statuses[:30].count(429) == 0 and statuses[30] == 429
+    assert len(smtp.sent) == 1
 
 
 def test_no_email_without_configuration(client, make_user, login_as, post_headers, catalog, smtp, monkeypatch):

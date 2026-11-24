@@ -7,17 +7,22 @@ Configured entirely by environment variables, so no address or credential lives 
     SMTP_USERNAME, SMTP_PASSWORD
     SMTP_FROM             sender address; defaults to SMTP_USERNAME
 
-Sending happens on a background thread after the report is committed, so a slow or failing
+Only new reports are emailed; edits to an open report are saved but not re-sent, so one student
+cannot flood the inbox (new reports are capped at 20 a day, and submissions are rate limited).
+Sending happens on a single background worker after the report is committed, so a slow or failing
 mail server never delays the student or loses the report. Failures are logged without the
 report's note or any recipient address.
 """
 import os
 import smtplib
 import ssl
-import threading
+from concurrent.futures import ThreadPoolExecutor
 from email.message import EmailMessage
 
 from flask import current_app
+
+# One worker: sends are rare, and a bounded pool cannot be used to spawn unbounded threads.
+_mailer = ThreadPoolExecutor(max_workers=1, thread_name_prefix="report-email")
 
 REASON_LABELS = {
     "prerequisites_wrong": "The prerequisites are wrong",
@@ -84,15 +89,15 @@ def _send(settings, message, report_id, logger):
 
 
 def notify_report(report, *, created, wait=False):
-    """Email a serialized report to the maintainers if email is configured. Returns the thread, if any."""
+    """Email a new report to the maintainers if email is configured. Returns the pending send, if any."""
+    if not created:
+        return None
     settings = email_settings()
     if settings is None:
         return None
     message = build_message(report, created=created, sender=settings["sender"], recipients=settings["recipients"])
-    # The app logger is captured here because the send thread has no application context.
-    logger = current_app.logger
-    thread = threading.Thread(target=_send, args=(settings, message, report["id"], logger), daemon=True)
-    thread.start()
+    # The app logger is captured here because the worker has no application context.
+    future = _mailer.submit(_send, settings, message, report["id"], current_app.logger)
     if wait:
-        thread.join()
-    return thread
+        future.result()
+    return future
