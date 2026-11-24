@@ -240,3 +240,21 @@ export interface Transcript {
   notImported?: string[];
   errorCode?: string;
 }
+export type ReportTargetType = "course" | "requirement";
+export type ReportReason = "prerequisites_wrong" | "offered_terms_wrong" | "details_wrong" | "missing_course" | "course_should_not_count" | "rule_wrong" | "other";
+export type NewReport = (
+  | { targetType: "course"; courseCode: string }
+  | { targetType: "requirement"; requirementId: string }
+) & { reason: ReportReason; note?: string };
+export interface DataReport {
+  id: number;
+  targetType: ReportTargetType;
+  courseCode: string | null;
+  requirementId: string | null;
+  reason: ReportReason;
+  note: string | null;
+  status: "open" | "resolved" | "dismissed";
+  createdAt: string;
+  updatedAt: string;
+}
+

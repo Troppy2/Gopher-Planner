@@ -2,11 +2,13 @@ import type { Plan, RequirementStatus } from "@/api/types";
 import { Link } from "react-router";
 import { CheckCircle2, CircleDashed, AlertCircle, HelpCircle } from "lucide-react";
 import { translateWarning } from "@/lib/warnings";
+import { useRequirementsParam } from "@/features/requirements/useRequirementsParam";
+import { Button } from "@/ui";
 
 const STATUS_TEXT: Record<RequirementStatus, string> = { satisfied: "met", unsatisfied: "not yet met", needs_review: "needs review" };
 
 /** One scannable status per requirement: done, covered by the plan, or short. */
-function chip(completed: RequirementStatus, projected: RequirementStatus) {
+export function chip(completed: RequirementStatus, projected: RequirementStatus) {
   if (completed === "satisfied") return { cls: "met", text: "Met", Icon: CheckCircle2 };
   if (projected === "satisfied") return { cls: "track", text: "On track", Icon: CircleDashed };
   if (projected === "needs_review") return { cls: "review", text: "Needs review", Icon: HelpCircle };
@@ -15,12 +17,14 @@ function chip(completed: RequirementStatus, projected: RequirementStatus) {
 
 /** Completed and projected requirement status, kept separate from credit progress. */
 export function RequirementProgressPanel({ plan }: { plan: Plan }) {
+  const { open } = useRequirementsParam();
   const groups = plan.requirementProgress.filter((item) => item.parentId === null);
   return (
     <section className="card surf" aria-labelledby="req-h">
       <h2 className="h2" id="req-h">
         Degree requirements
       </h2>
+      <Button variant="ghost" size="sm" onClick={() => open()}>See all requirements</Button>
       {plan.catalogTerm && <p className="muted req-meta">Catalog year {plan.catalogTerm}. Your advisor and APAS have the final word.</p>}
       {groups.length ? (
         <ul className="req-list">
@@ -29,7 +33,7 @@ export function RequirementProgressPanel({ plan }: { plan: Plan }) {
             return (
               <li key={group.id} className="req-row">
                 <span className="req-name">
-                  <b>{group.label}</b>
+                  <Button variant="quiet" size="sm" onClick={() => open(group.id)}>{group.label}</Button>
                   {missing.length > 0 && <span className="muted">Still needed: {missing.join(", ")}</span>}
                 </span>
                 {(() => {

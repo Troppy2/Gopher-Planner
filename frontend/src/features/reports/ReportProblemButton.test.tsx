@@ -17,8 +17,11 @@ beforeEach(() => {
 
 it('requires a reason, sends only contract fields, announces success and remembers the report', async () => {
   let body: unknown;
+  let saved = false;
+  server.use(http.get(api('/reports'), () => HttpResponse.json({ reports: saved ? [report] : [] })));
   server.use(http.post(api('/reports'), async ({ request }) => {
     body = await request.json();
+    saved = true;
     return HttpResponse.json(report, { status: 201 });
   }));
   const user = userEvent.setup();
@@ -32,7 +35,7 @@ it('requires a reason, sends only contract fields, announces success and remembe
   await waitFor(() => expect(screen.queryByRole('dialog')).not.toBeInTheDocument());
   expect(body).toEqual({ targetType: 'course', courseCode: 'TEST 1001', reason: 'other', note: 'Synthetic note' });
   expect(usePlanDraft.getState().announcement).toBe("Thanks. We'll review your report.");
-  expect(screen.getByRole('button', { name: 'Reported' })).toBeInTheDocument();
+  expect(await screen.findByRole('button', { name: 'Reported' })).toBeInTheDocument();
 });
 
 it('loads an existing open report and prefills edits', async () => {

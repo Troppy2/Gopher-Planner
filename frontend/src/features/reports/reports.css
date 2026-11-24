@@ -1,0 +1,7 @@
+.report-form { display: grid; gap: 16px; }
+.report-form fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.report-form legend { font-weight: 600; margin-bottom: 8px; }
+.report-reason { display: flex; gap: 12px; align-items: center; min-height: 44px; padding: 8px 0; cursor: pointer; }
+.report-reason input { accent-color: #7a0019; flex: 0 0 auto; width: 18px; height: 18px; }
+.report-count { margin: -8px 0 0; text-align: right; font-size: 12px; }
+.report-actions { display: flex; justify-content: flex-end; gap: 12px; flex-wrap: wrap; }

@@ -6,6 +6,7 @@ from flask_cors import CORS
 from app.api.v1.auth import auth_bp
 from app.api.v1.courses import courses_bp
 from app.api.v1.profile import profile_bp
+from app.api.v1.reports import reports_bp
 from app.api.v1.summary import summary_bp
 from app.api.v1.coursework import coursework_bp
 from app.api.v1.plan import plan_bp
@@ -38,6 +39,7 @@ def create_app() -> Flask:
     app.register_blueprint(auth_bp)
     app.register_blueprint(courses_bp)
     app.register_blueprint(profile_bp)
+    app.register_blueprint(reports_bp)
     app.register_blueprint(summary_bp)
     app.register_blueprint(coursework_bp)
     app.register_blueprint(plan_bp)

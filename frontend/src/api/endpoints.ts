@@ -3,6 +3,8 @@
 import { db, delay } from "./mock/mockDb";
 import { ApiError, apiRequest, apiUrl } from "./client";
 import type {
+  DataReport,
+  NewReport,
   CatalogCourse,
   CatalogCoursePage,
   Coursework,
@@ -19,6 +21,9 @@ import type {
 } from "./types";
 
 const clone = <T>(v: T): T => structuredClone(v);
+
+export const getMyReports = () => apiRequest<{ reports: DataReport[] }>("/reports");
+export const createReport = (body: NewReport) => apiRequest<DataReport>("/reports", { method: "POST", json: body });
 
 /** GET /api/v1/summary */
 export const getSummary = () => apiRequest<Summary>("/summary");

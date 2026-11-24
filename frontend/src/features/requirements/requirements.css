@@ -1,0 +1,7 @@
+.requirement-groups { display: grid; gap: 16px; }
+.requirement-group { border-bottom: 1px solid #d9d2cf; padding-bottom: 16px; }
+.requirement-group-header { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.requirement-toggle { border: 0; background: transparent; color: inherit; font: inherit; text-align: left; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; min-height: 44px; flex: 1 1 220px; cursor: pointer; }
+.requirement-toggle b { flex: 1 1 100%; }
+.requirement-group-body { padding: 0 12px; }
+.requirement-group-body p { overflow-wrap: anywhere; }

@@ -9,6 +9,7 @@ export function useCourseParam() {
 
   const open = (next: string) => {
     const p = new URLSearchParams(params);
+    p.delete("requirements");
     p.set("course", next);
     // Only a pushed entry can be closed with Back; a replaced one keeps whatever flag it had.
     const pushed = (location.state as { courseDrawer?: boolean } | null)?.courseDrawer;
