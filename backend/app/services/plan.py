@@ -8,12 +8,13 @@ from sqlalchemy import select
 
 from app.extensions import db
 from app.models import Coursework
-from app.repositories.catalog import find_courses, le_coverage, suggest_le_course
+from app.repositories.catalog import find_courses, le_coverage, le_designations, suggest_le_course
 from app.repositories.locks import lock_user
 from app.repositories.plans import find_plan, planned_courses, planned_slots, replace_planned_courses
 from app.schemas.coursework import CODE_PATTERN
 from app.services.coursework import get_coursework
-from app.services.metadata import referenced_codes, resolve_course
+from app.services.liberal_ed import evaluate_liberal_ed, load_rules
+from app.services.metadata import home_subject, referenced_codes, resolve_course
 from app.services.planning.eligibility import INFORMATIONAL, placement_check
 from app.services.planning.generate import CATEGORY_PRIORITY, STATUS_WARNINGS, generate_plan
 from app.services.planning.sample import load_sample_plan
@@ -235,7 +236,20 @@ def build_plan(user, context, planned, *, slots=None):
         "catalogTerm": context.catalog_term, "availableCatalogTerms": context.available,
         "warnings": sorted(warnings), "requirementProgress": progress,
         "electiveCredits": elective_credits,
+        "liberalEd": liberal_ed_status(user.id, attempts, planned, program, program_codes),
     }
+
+
+def liberal_ed_status(user_id, attempts, planned, program, program_codes):
+    """Liberal education tracker from earned, in-progress and planned courses, plus any APAS audit."""
+    evidence = [{"code": row["code"], "status": "done" if earned(row) else "prog", "term": row["term"]}
+                for row in attempts if earned(row) or row["status"] == "prog"]
+    taken = {item["code"] for item in evidence}
+    evidence += [{"code": code, "status": "plan", "term": term} for code, (term, _) in planned.items() if code not in taken]
+    subject = home_subject(program) if program else None
+    return evaluate_liberal_ed(load_rules(), courses=evidence, designations=le_designations(item["code"] for item in evidence),
+                               major_codes=set(program_codes), major_subjects={subject} if subject else set(),
+                               audit=audit_le_status(user_id))
 
 
 def get_plan(user):

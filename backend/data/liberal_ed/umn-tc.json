@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "umn-tc-liberal-education",
+  "name": "University of Minnesota Twin Cities liberal education requirements",
+  "appliesTo": "Students admitted Fall 2021 or later (Race, Power, and Justice theme required)",
+  "sources": {
+    "core": {
+      "url": "https://onestop.umn.edu/academics/undergraduate/lib-ed-requirements-overview/diversified-core-courses",
+      "retrieved": "2026-11-24",
+      "section": "Diversified core course information and criteria"
+    },
+    "themes": {
+      "url": "https://onestop.umn.edu/academics/undergraduate/lib-ed-requirements-overview/designated-theme-courses",
+      "retrieved": "2026-11-24",
+      "section": "Designated theme courses: satisfy four of the five themes; Race, Power, and Justice required if admitted fall 2021 or later, formerly Diversity and Social Justice in the United States"
+    },
+    "writing": {
+      "url": "https://onestop.umn.edu/academics/undergraduate/lib-ed-requirements-overview/writing-requirement",
+      "retrieved": "2026-11-24",
+      "section": "First-year writing (WRIT 1301, 1401, or equivalent) and four writing intensive courses, two upper division, one upper division in the major"
+    },
+    "sharing": {
+      "url": "https://curricularhub.umn.edu/courses/liberal-education-0",
+      "retrieved": "2026-11-24",
+      "section": "A course can be certified for a Core, a Theme, and as Writing Intensive, but not two Cores nor two Themes"
+    }
+  },
+  "core": {
+    "sourceRef": "core",
+    "items": [
+      {"id": "arts-humanities", "label": "Arts/Humanities", "designations": ["Arts/Humanities"]},
+      {"id": "biological-sciences", "label": "Biological Sciences", "designations": ["Biological Sciences"]},
+      {"id": "historical-perspectives", "label": "Historical Perspectives", "designations": ["Historical Perspectives"]},
+      {"id": "literature", "label": "Literature", "designations": ["Literature"]},
+      {"id": "mathematical-thinking", "label": "Mathematical Thinking", "designations": ["Mathematical Thinking"]},
+      {"id": "physical-sciences", "label": "Physical Sciences", "designations": ["Physical Sciences"]},
+      {"id": "social-sciences", "label": "Social Sciences", "designations": ["Social Sciences"]}
+    ]
+  },
+  "themes": {
+    "sourceRef": "themes",
+    "required": 4,
+    "mandatory": ["race-power-justice"],
+    "items": [
+      {"id": "civic-life-ethics", "label": "Civic Life and Ethics", "designations": ["Civic Life and Ethics"]},
+      {"id": "race-power-justice", "label": "Race, Power, and Justice in the US", "designations": ["Race, Power, and Justice US", "Diversity and Soc Justice US"]},
+      {"id": "environment", "label": "The Environment", "designations": ["Environment"]},
+      {"id": "global-perspectives", "label": "Global Perspectives", "designations": ["Global Perspectives"]},
+      {"id": "technology-society", "label": "Technology and Society", "designations": ["Technology and Society"]}
+    ]
+  },
+  "writing": {
+    "sourceRef": "writing",
+    "firstYear": {"label": "First-year writing", "codes": ["WRIT 1301", "WRIT 1401"]},
+    "intensive": {
+      "label": "Writing intensive",
+      "designations": ["Writing Intensive"],
+      "total": 4,
+      "upperDivision": 2,
+      "upperDivisionInMajor": 1
+    }
+  }
+}

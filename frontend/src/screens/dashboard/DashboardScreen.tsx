@@ -9,11 +9,12 @@ import { MetricCard, PercentCard } from "./components/MetricCard";
 import { CourseList } from "./components/CourseList";
 import { UserDetails } from "./components/UserDetails";
 import { RequirementProgressPanel } from "./components/RequirementProgressPanel";
+import { LiberalEdPanel } from "./components/LiberalEdPanel";
 import "./dashboard.css";
 
 export default function DashboardScreen() {
   const navigate = useNavigate();
-  const { plan, profile, summary, summaryLoading, summaryError, refetchSummary, courses, isLoading, error, refetch } = usePlan();
+  const { plan, profile, summary, summaryLoading, summaryError, refetchSummary, courses, isLoading, error, refetch, addCourse } = usePlan();
 
   if (error) {
     return (
@@ -135,6 +136,14 @@ export default function DashboardScreen() {
                 </div>
               )}
             </section>
+            {plan && (
+              <LiberalEdPanel
+                plan={plan}
+                profile={profile}
+                courses={courses}
+                onAdd={addCourse}
+              />
+            )}
         </div>
       </div>
     </div>

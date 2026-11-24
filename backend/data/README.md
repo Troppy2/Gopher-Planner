@@ -53,3 +53,15 @@ uv run python scripts/build_sample_plans.py --sample-plans data/catalog-exports/
 The sample snapshot contains rows from all 161 public pages; 155 pages match programs. The exporter handles heading and paragraph term labels, merged cells, and optional Offered columns. It caches public HTML with `--source-cache <directory>` and retries rate-limited requests. Explicit slug aliases cover confirmed name differences only. Six pages remain unmatched: arts education, business analytics, business-economics emphasis, educational psychology, public/nonprofit management, and user experience design. No degree equivalence is inferred for these pages.
 
 Sample plans are suggestions, not additional authoritative degree rules. Graduation targets map their four years onto calendar terms. Existing coursework covers LE categories; generation suggests prerequisite-free catalog courses for missing categories. Moves and swaps retain slot labels. Free electives are reported as credits and are not placed. The sample sources are not catalog-version-specific, so students must review the draft against their APAS and advisor guidance.
+
+## Liberal education rules
+
+`liberal_ed/umn-tc.json` holds the Twin Cities liberal education requirements the tracker evaluates, with the official pages and retrieval dates in `sources`:
+
+- **Diversified core:** one course in each of 7 areas.
+- **Designated themes:** 4 of the 5. Race, Power, and Justice in the United States is required for students admitted Fall 2021 or later. Its former name, Diversity and Social Justice in the United States, still appears on 165 catalog courses and counts toward it.
+- **Writing:** first-year writing (WRIT 1301, WRIT 1401, or an equivalent) and 4 writing intensive courses, 2 of them upper division (3xxx or higher) and 1 of those in the major.
+
+A course can carry one core, one theme, and writing intensive at the same time, so it counts toward each kind once and never has to be split between two cores or two themes. Course designations come from the catalog's `le_attributes`. Older "... Core" and "... Theme" designations from the previous curriculum are not counted.
+
+The tracker is an estimate. A parsed APAS audit takes precedence: categories it marks complete count even without a matching course (AP or transfer credit), core categories it does not list are shown as not required, and a category the catalog says is complete but the audit does not is shown as needing review. "In the major" for writing intensive means the course is listed by the student's program or shares its home subject. Edit the rules file only from official sources, and update `sources` when you do.
