@@ -14,7 +14,7 @@ from app.repositories.plans import find_plan, planned_courses, planned_slots, re
 from app.schemas.coursework import CODE_PATTERN
 from app.services.coursework import get_coursework
 from app.services.liberal_ed import designation_groups, designation_label_categories, evaluate_liberal_ed, load_rules, open_needs
-from app.services.metadata import home_subject, referenced_codes, resolve_course
+from app.services.metadata import apply_equivalents, home_subject, referenced_codes, resolve_course
 from app.services.planning.eligibility import INFORMATIONAL, placement_check
 from app.services.planning.generate import CATEGORY_PRIORITY, STATUS_WARNINGS, generate_plan
 from app.services.planning.sample import load_sample_plan
@@ -82,7 +82,8 @@ def gather_metadata(program, codes, *, closure_depth=4):
         if not pending:
             break
         rows = find_courses(pending)
-        found = {code: resolve_course(code, program, rows.get(code)) for code in pending}
+        # Prerequisites also accept the program's own equivalents (CSE Calculus II for Calculus II).
+        found = apply_equivalents({code: resolve_course(code, program, rows.get(code)) for code in pending}, program)
         metadata.update(found)
         pending = {code for record in found.values() if record
                    for code in expression_codes(record["prerequisites"]["expression"])}

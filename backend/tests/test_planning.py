@@ -511,7 +511,7 @@ def four_wi():
 
 def test_gaps_are_filled_preferring_courses_that_count_twice():
     from app.services.liberal_ed import load_rules
-    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    program = inline([grp("major", crs("a", "MAJR 1001"))], total=3)  # no room left for free electives
     coursework, designations = four_wi()
     # Alphabetical order favors the single-purpose courses, so only the ranking picks ZZZ 1001.
     pool = [le_course("AAA 1001", "Race, Power, and Justice US"),
@@ -528,7 +528,7 @@ def test_gaps_are_filled_preferring_courses_that_count_twice():
 
 def test_major_courses_that_carry_a_designation_count_toward_it():
     from app.services.liberal_ed import load_rules
-    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    program = inline([grp("major", crs("a", "MAJR 1001"))], total=3)  # no room left for free electives
     coursework, designations = four_wi()
     pool = [le_course("PHYS 1001", "Physical Sciences")]
     coverage = all_but(load_rules(), "Physical Sciences")
@@ -539,7 +539,7 @@ def test_major_courses_that_carry_a_designation_count_toward_it():
 
 def test_writing_intensive_courses_fill_the_total():
     from app.services.liberal_ed import load_rules
-    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    program = inline([grp("major", crs("a", "MAJR 1001"))], total=3)  # no room left for free electives
     pool = [le_course(f"SYN 10{i}W", "Writing Intensive") for i in range(6)]
     result = filled(program, pool, coverage=all_but(load_rules()))
     assert sum(code.endswith("W") for code in placed(result)) == 4
@@ -547,7 +547,7 @@ def test_writing_intensive_courses_fill_the_total():
 
 def test_gap_filling_stops_cleanly_when_nothing_fits():
     from app.services.liberal_ed import load_rules
-    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    program = inline([grp("major", crs("a", "MAJR 1001"))], total=3)  # no room left for free electives
     coursework, designations = four_wi()
     pool = [le_course("LIT 1001", "Literature", offered=("Summer",))]
     result = filled(program, pool, coverage=all_but(load_rules(), "Literature"), designations=designations, coursework=coursework)
@@ -557,7 +557,7 @@ def test_gap_filling_stops_cleanly_when_nothing_fits():
 
 def test_no_unplanned_warning_when_every_need_is_filled():
     from app.services.liberal_ed import load_rules
-    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    program = inline([grp("major", crs("a", "MAJR 1001"))], total=3)  # no room left for free electives
     coursework, designations = four_wi()
     pool = [le_course("LIT 1001", "Literature")]
     result = filled(program, pool, coverage=all_but(load_rules(), "Literature"), designations=designations, coursework=coursework)
@@ -566,8 +566,141 @@ def test_no_unplanned_warning_when_every_need_is_filled():
 
 
 def test_no_rules_means_no_gap_filling():
-    program = inline([grp("major", crs("a", "MAJR 1001"))])
+    program = inline([grp("major", crs("a", "MAJR 1001"))], total=3)  # no room left for free electives
     from app.services.planning.generate import generate_plan
     result = generate_plan(program, coursework=[], metadata=metadata_for(program), terms=TERMS, credit_load=15,
                            le_pool=[le_course("LIT 1001", "Literature")])
     assert placed(result) == {"MAJR 1001": "Spring 2027"}
+
+
+# Free electives: fill the plan up to the degree total from the major's own elective pools.
+
+def elective_program(total, *, pool_size=10, extra_sets=None, groups_extra=(), metadata=None):
+    pool = [f"ELEC {3000 + i}" for i in range(pool_size)]
+    sets = {"pool": {"codes": pool, "sourceRef": "s"}, **(extra_sets or {})}
+    rule = {"id": "elective-rule", "type": "credits", "courseSet": "pool", "minCredits": 3, "sourceRef": "s"}
+    # A required course in the same subject makes ELEC the program's home subject, as in a real major.
+    core = grp("core", crs("core-rule", "ELEC 1000"))
+    return inline([grp("electives", rule, "Elective"), core, *groups_extra], sets=sets, total=total, metadata=metadata)
+
+
+def test_free_electives_fill_the_plan_to_the_degree_total():
+    result = generate(elective_program(15), load_limit=6)
+    assert sum(1 for code in placed(result) if code.startswith("ELEC 3")) == 4  # ELEC 1000 + 4 electives = 15 credits
+    assert result["electiveCredits"] == 0
+    assert "graduation_target_unreachable" not in result["warnings"]
+
+
+def test_free_electives_may_go_over_the_total_but_stop_once_reached():
+    result = generate(elective_program(14), load_limit=6)
+    assert len(placed(result)) == 5  # ELEC 1000 + 4 electives = 15 credits: the last one crosses 14
+    assert result["electiveCredits"] == 0
+
+
+def test_free_electives_skip_choose_one_equivalents_and_specific_courses():
+    calc = {"calc": {"codes": ["MATH 1271", "MATH 1371", "MATH 1471"], "sourceRef": "s"}}
+    choose_one = grp("calculus", {"id": "calc-rule", "type": "count", "courseSet": "calc", "minCourses": 1, "sourceRef": "s"}, "Math and stats")
+    result = generate(elective_program(30, pool_size=12, extra_sets=calc, groups_extra=[choose_one]), [done("MATH 1271", 4)],
+                      load_limit=9, base=4)
+    calculus = {code for code in placed(result) if code.startswith("MATH")}
+    assert calculus == set()
+
+
+def test_free_electives_skip_graduate_courses_and_repeated_titles():
+    metadata = {"ELEC 3000": {"title": "Synthetic Topic"}, "ELEC 3001": {"title": "Synthetic Topic (Honors)"}}
+    program = elective_program(9, pool_size=10, metadata=metadata)
+    program["courseSets"]["pool"]["codes"].append("ELEC 8001")
+    program["courseMetadata"]["ELEC 8001"] = {**program["courseMetadata"]["ELEC 3002"], "title": "Graduate"}
+    result = generate(program, [done("TAKE 1001", 3)], load_limit=6, base=0)
+    codes = set(placed(result))
+    assert "ELEC 8001" not in codes
+    assert not {"ELEC 3000", "ELEC 3001"} <= codes  # the honors twin of the same course is not added too
+
+
+def test_free_electives_keep_the_unreachable_warning_when_terms_are_full():
+    result = generate(elective_program(60), load_limit=3)
+    assert "graduation_target_unreachable" in result["warnings"]
+    assert result["electiveCredits"] > 0
+
+
+def test_free_electives_never_add_intro_sequences_or_honors_twins():
+    """A large math/physics option list is not an elective pool: no Calculus II next to the CSE sequence."""
+    options = ["MATH 1271", "MATH 1272", "MATH 1371", "MATH 1372", "MATH 1571H", "MATH 1572H",
+               "PHYS 1301W", "PHYS 1302W", "PHYS 1401V", "PHYS 1402V"]
+    pool = [f"MAJR {4000 + i}" for i in range(10)] + ["MAJR 4000H"]
+    sets = {"opts": {"codes": options, "sourceRef": "s"}, "pool": {"codes": pool, "sourceRef": "s"}}
+    groups = [grp("math", {"id": "math-rule", "type": "credits", "courseSet": "opts", "minCredits": 8, "sourceRef": "s"}, "Math and stats"),
+              grp("electives", {"id": "pool-rule", "type": "credits", "courseSet": "pool", "minCredits": 3, "sourceRef": "s"}, "Elective"),
+              grp("core", crs("major", "MAJR 1001"))]
+    program = inline(groups, sets=sets, total=45)
+    result = generate(program, [done("MATH 1371", 4), done("MATH 1372", 4)], load_limit=12, base=8)
+    codes = set(placed(result))
+    assert not codes & set(options)
+    assert not {"MAJR 4000", "MAJR 4000H"} <= codes
+    assert sum(code.startswith("MAJR 4") for code in codes) >= 1
+
+
+def test_liberal_ed_pool_courses_never_come_from_the_majors_own_subjects():
+    """A pool Calculus I variant must not be added next to the major's own calculus."""
+    from app.services.liberal_ed import load_rules
+    program = inline([grp("math", crs("calc", "MATH 1271"))], total=9)
+    coursework, designations = four_wi()
+    pool = [le_course("MATH 1471", "Literature"), le_course("ENGL 1001", "Literature"), le_course("ANTH 1001", "Social Sciences")]
+    result = filled(program, pool, coverage=all_but(load_rules(), "Literature"), designations=designations, coursework=coursework)
+    codes = set(placed(result))
+    assert "MATH 1471" not in codes
+    assert "ENGL 1001" in codes  # fills Literature
+    assert "ANTH 1001" in codes  # free elective from an unrelated subject
+
+
+# Program-declared equivalents count for each other's prerequisites.
+
+def calculus_program():
+    calc2 = {"calc2": {"codes": ["MATH 1372", "MATH 1272"], "sourceRef": "s"}}
+    rules = {"id": "calc2-all", "type": "all", "allowReuse": True, "sourceRef": "s", "children": [
+        {"id": "calc2-min", "type": "count", "courseSet": "calc2", "minCourses": 1, "sourceRef": "s"},
+        {"id": "calc2-cap", "type": "count", "courseSet": "calc2", "maxCourses": 1, "sourceRef": "s"}]}
+    stats = crs("stat-rule", "STAT 3021")
+    prereq = {"prerequisites": {"expression": {"type": "any_of", "requirements": [{"type": "course", "course_code": "MATH 1272"}]}, "sourceRef": "s"}}
+    return inline([grp("math", rules, "Math and stats"), grp("stat", stats)], sets=calc2, total=8, metadata={"STAT 3021": prereq})
+
+
+def test_cap_one_lists_and_course_alternatives_are_equivalents():
+    from app.services.metadata import program_equivalents
+    program = calculus_program()
+    honors = {"id": "intro", "type": "any", "sourceRef": "s", "children": [crs("i1", "CSCI 1133"), crs("i2", "CSCI 1133H")]}
+    program["groups"].append(grp("intro", honors))
+    equivalents = program_equivalents(program)
+    assert equivalents["MATH 1272"] == {"MATH 1272", "MATH 1372"}
+    assert equivalents["CSCI 1133H"] == {"CSCI 1133", "CSCI 1133H"}
+    assert "STAT 3021" not in equivalents
+
+
+def test_a_planned_equivalent_satisfies_a_prerequisite_without_adding_the_listed_course():
+    from app.services.metadata import apply_equivalents
+    program = calculus_program()
+    metadata = apply_equivalents(metadata_for(program), program)
+    result = generate(program, [done("MATH 1372", 4)], metadata=metadata, load_limit=8, base=4)
+    assert placed(result) == {"STAT 3021": "Spring 2027"}  # no MATH 1272 pulled in as a prerequisite
+
+
+def test_without_equivalents_the_listed_prerequisite_is_pulled_in():
+    program = calculus_program()
+    result = generate(program, [done("MATH 1372", 4)], load_limit=8, base=4)
+    assert "MATH 1272" in placed(result)  # documents the bug the expansion fixes
+
+
+def test_upper_division_electives_land_in_the_second_half_of_the_plan():
+    terms = ["Fall 2026", "Spring 2027", "Fall 2027", "Spring 2028", "Fall 2028", "Spring 2029", "Fall 2029", "Spring 2030"]
+    result = generate(elective_program(12), load_limit=6, terms=terms)
+    # ELEC 3000 fills the program's own elective requirement; the rest are free electives.
+    electives = {code: term for code, term in placed(result).items() if code.startswith("ELEC 3") and code != "ELEC 3000"}
+    assert electives and all(terms.index(term) >= 4 for term in electives.values())
+
+
+def test_upper_division_electives_move_earlier_only_when_the_second_half_is_full():
+    terms = ["Fall 2026", "Spring 2027", "Fall 2027", "Spring 2028"]
+    result = generate(elective_program(15), load_limit=6, terms=terms)  # 2 terms x 6 credits cannot hold 12
+    electives = {code: term for code, term in placed(result).items() if code.startswith("ELEC 3") and code != "ELEC 3000"}
+    assert len(electives) == 3
+    assert all(terms.index(term) >= 1 for term in electives.values())  # never the first semester

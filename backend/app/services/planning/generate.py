@@ -14,7 +14,14 @@ Liberal education: sample-plan slots are filled first; after the program's requi
 any core area, theme (4 of 5, Race, Power, and Justice required) or writing intensive course still
 open is filled from a candidate pool, one course at a time, preferring the course that covers the
 most open needs. Designations carried by required major courses count, so they are never doubled.
+
+Free electives: until the plan reaches the degree's credit total (going over is fine), courses are
+added from the major's own elective pools (sets of 8+ courses under a credits rule or a "choose at
+least 2" rule), then from the liberal education pool. Courses named in specific rules, choose-one
+equivalents, graduate courses and repeats of a course already taken or planned are never added.
 """
+import re
+
 from app.services.liberal_ed import open_needs
 from app.services.metadata import home_subject
 
@@ -29,6 +36,25 @@ STATUS_WARNINGS = {"unknown": "program_requirements_unavailable", "unavailable":
 MAX_STEPS = 400
 # Upper bound on gap-filling courses: 7 core + 4 themes + 4 writing intensive.
 MAX_LE_FILLS = 15
+# Elective pools smaller than this are usually lists of equivalent alternatives, not electives.
+MIN_ELECTIVE_POOL = 8
+
+
+def program_codes(program):
+    """Every course code a program names, in rules or course sets."""
+    codes = set()
+
+    def walk(node):
+        if node["type"] == "course":
+            codes.add(node["code"])
+        for child in node.get("children", []):
+            walk(child)
+
+    for group in program["groups"]:
+        walk(group["rule"])
+    for course_set in program["courseSets"].values():
+        codes.update(course_set["codes"])
+    return codes
 
 
 class Planner:
@@ -55,7 +81,10 @@ class Planner:
         self.slots = {}
         self.le_suggest = le_suggest
         self.le_coverage = set(le_coverage)
-        self.le_pool = list(le_pool or ())
+        # Pool courses never come from a subject the major uses: a pool course there is likely an
+        # equivalent of a major course under another number (a second Calculus I, an honors twin).
+        program_subjects = {code.split(" ")[0] for code in program_codes(program)} if program else set()
+        self.le_pool = [item for item in (le_pool or ()) if item["code"].split(" ")[0] not in program_subjects]
         self.le_designations = {code: set(names) for code, names in (le_designations or {}).items()}
         self.le_designations.update({item["code"]: set(item["designations"]) for item in self.le_pool})
         self.le_rules = le_rules
@@ -389,6 +418,88 @@ class Planner:
                     return True
         return False
 
+    def elective_candidates(self):
+        """Major elective-pool courses that are safe to add as free electives, best first.
+
+        Only upper-division (3xxx-4xxx) courses in the program's home subject, from pools of 8+ courses
+        under a credits rule or a "choose at least 2" rule: large option lists for math, science or
+        intro sequences hold equivalent alternatives (Calculus I/II variants, honors twins), and adding
+        one of those as an "elective" would duplicate a course the student already has.
+        """
+        specific, usable = set(), set()
+
+        def walk(node):
+            if node["type"] == "course":
+                specific.add(node["code"])
+            elif node["type"] in {"credits", "count"}:
+                codes = self.program["courseSets"][node["courseSet"]]["codes"]
+                electives = node["type"] == "credits" or node.get("minCourses", 2) >= 2
+                if electives and len(codes) >= MIN_ELECTIVE_POOL:
+                    usable.update(codes)
+            for child in node.get("children", []):
+                walk(child)
+
+        for group in self.program["groups"]:
+            walk(group["rule"])
+
+        def level(code):
+            number = code.split(" ")[-1]
+            return int(number[0]) if number[:1].isdigit() else 9
+
+        codes = [code for code in usable - specific if code in self.metadata and 3 <= level(code) <= 4
+                 and code.split(" ")[0] == self.home_subject]
+        return sorted(codes, key=self.option_key)
+
+    @staticmethod
+    def base_code(code):
+        """A course without its letter suffix: CSCI 4041H and CSCI 4041W are both CSCI 4041."""
+        subject, _, number = code.partition(" ")
+        return f"{subject} {re.sub(r'[A-Z]+$', '', number)}"
+
+    @staticmethod
+    def title_key(record):
+        """A course title for spotting repeats, ignoring case, punctuation and an "Honors" marker."""
+        title = (record or {}).get("title") or ""
+        title = re.sub(r"\bhonors?\b", " ", title.lower())
+        return re.sub(r"[^a-z0-9]+", " ", title).strip()
+
+    def fill_electives(self, needed):
+        """Add courses until ``needed`` more credits are planned (the last one may go over).
+
+        Upper-division major electives start in the second half of the plan, then move back to a
+        quarter of the way in only if more room is needed, never into the first semesters; liberal
+        education pool courses (mostly introductory) may go in any term.
+        """
+        if needed <= 0:
+            return
+        taken_titles = {self.title_key(self.metadata.get(code)) for code in self.locked | set(self.planned)} - {""}
+        taken_numbers = {self.base_code(code) for code in self.locked | set(self.planned)}
+        added = 0.0
+        majors = self.elective_candidates()
+        pool = [item["code"] for item in self.le_pool]
+        half, quarter = len(self.terms) // 2, max(1, len(self.terms) // 4)
+        passes = [(majors, half), (majors, quarter), (pool, 0)]
+        for candidates, start in passes:
+            for code in candidates:
+                if added >= needed:
+                    return
+                if code in self.planned or code in self.locked:
+                    continue
+                if code not in self.metadata:
+                    record = next((item["record"] for item in self.le_pool if item["code"] == code), None)
+                    if record is None:
+                        continue
+                    self.metadata[code] = record
+                title = self.title_key(self.metadata[code])
+                if (title and title in taken_titles) or self.base_code(code) in taken_numbers:
+                    continue
+                before = set(self.planned)
+                if self.place(code, start):
+                    for new in set(self.planned) - before:
+                        added += self.credits(new)
+                        taken_titles.add(self.title_key(self.metadata.get(new)))
+                        taken_numbers.add(self.base_code(new))
+
     def run(self):
         ordered = sorted(enumerate(self.program["groups"]),
                          key=lambda pair: (CATEGORY_PRIORITY.get(pair[1]["category"], 9), pair[0]))
@@ -407,11 +518,13 @@ def generate_plan(program, *, coursework, metadata, terms, credit_load, base_cre
     planner.seed(sample, graduation)
     planner.run()
     planner.fill_le_gaps()
+    in_progress_credits = sum(float(item["credits"]) for item in coursework if item["status"] == "prog")
+    planned_credits = sum(planner.credits(code) for code in planner.planned)
+    planner.fill_electives(float(program["totalCredits"]) - (base_credits + in_progress_credits + planned_credits))
     evaluation = planner.evaluate()
     warnings = set(planner.warnings) | set(evaluation["warnings"])
     if "requirements_incomplete" in warnings and planner.blocked_reasons:
         warnings |= planner.blocked_reasons
-    in_progress_credits = sum(float(item["credits"]) for item in coursework if item["status"] == "prog")
     projected = base_credits + in_progress_credits + sum(planner.credits(code) for code in planner.planned)
     if projected < float(program["totalCredits"]):
         warnings.add("graduation_target_unreachable")

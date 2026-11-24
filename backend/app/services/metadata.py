@@ -157,3 +157,67 @@ def coverage_gaps(program, *, catalog_codes):
     """Referenced courses with no authoritative title and credits in either source."""
     return sorted(code for code in referenced_codes(program)
                   if code not in program["courseMetadata"] and code not in catalog_codes)
+
+
+# Program-declared alternatives, which the catalog's prerequisite lists often leave out.
+
+MAX_EQUIVALENT_SET = 8
+
+
+def program_equivalents(program):
+    """Courses a program treats as interchangeable, as ``code -> {code and its equivalents}``.
+
+    Two shapes declare equivalence: a course set capped at one course (``count`` with ``maxCourses:
+    1``, such as "one of MATH 1372, 1272, 1572H, 1472"), and an ``any`` rule whose options are all
+    single courses (CSCI 1133 or CSCI 1133H). Larger sets are elective pools, not equivalents.
+    """
+    groups = []
+
+    def walk(node):
+        if node["type"] == "count" and node.get("maxCourses") == 1:
+            codes = program["courseSets"][node["courseSet"]]["codes"]
+            if 1 < len(codes) <= MAX_EQUIVALENT_SET:
+                groups.append(set(codes))
+        if node["type"] == "any" and len(node["children"]) > 1 and all(child["type"] == "course" for child in node["children"]):
+            groups.append({child["code"] for child in node["children"]})
+        for child in node.get("children", []):
+            walk(child)
+
+    for group in program["groups"]:
+        walk(group["rule"])
+    equivalents = {}
+    for group in groups:
+        for code in group:
+            equivalents.setdefault(code, set()).update(group)
+    return equivalents
+
+
+def with_equivalents(expression, equivalents):
+    """A prerequisite expression where each listed course also accepts its program equivalents."""
+    if not isinstance(expression, dict):
+        return expression
+    if expression.get("type") == "course":
+        code = expression.get("course_code")
+        options = [code, *sorted(equivalents.get(code, set()) - {code})]
+        if len(options) == 1:
+            return expression
+        return {"type": "any_of", "requirements": [{"type": "course", "course_code": option} for option in options]}
+    if expression.get("type") in {"any_of", "all_of"}:
+        return {**expression, "requirements": [with_equivalents(child, equivalents) for child in expression.get("requirements") or []]}
+    return expression
+
+
+def apply_equivalents(metadata, program):
+    """Copies of resolved records whose prerequisites accept the program's equivalent courses."""
+    equivalents = program_equivalents(program) if program else {}
+    if not equivalents:
+        return metadata
+    updated = {}
+    for code, record in metadata.items():
+        prerequisites = (record or {}).get("prerequisites") or {}
+        expression = prerequisites.get("expression")
+        expanded = with_equivalents(expression, equivalents)
+        if record and expanded is not expression and expanded != expression:
+            record = {**record, "prerequisites": {**prerequisites, "expression": expanded}}
+        updated[code] = record
+    return updated

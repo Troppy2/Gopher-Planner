@@ -100,13 +100,13 @@ def test_generation_fills_liberal_ed_gaps_with_courses_that_count_twice(client, 
     slots = {course["code"]: course["slot"] for course in plan["courses"] if course.get("slot")}
     # Prerequisite-free designated courses fill the gaps; CSCI 1003 has a prerequisite and is skipped.
     assert "CSCI 1003" not in slots
-    assert slots["MATH 2009"] == "Physical Sciences, Technology and Society, Writing Intensive"
-    assert slots["MATH 2011"] == "Race, Power, and Justice US, Biological Sciences"
-    liberal = plan["liberalEd"]
-    themes = {item["id"]: item["status"] for item in liberal["themes"]["items"]}
-    assert themes["race-power-justice"] == "planned"
-    core = {item["id"]: item["status"] for item in liberal["core"]["items"]}
-    assert {core[key] for key in ("literature", "arts-humanities", "social-sciences", "physical-sciences", "biological-sciences")} == {"planned"}
+    assert slots["CSCI 1001"] == "Literature, Global Perspectives"
+    assert slots["CSCI 1005"] == "Arts/Humanities"
+    # The synthetic major requires MATH 3101, so MATH pool courses are never added: they could be
+    # equivalents of a major course under another number.
+    assert not any(code.startswith("MATH 2") for code in slots)
+    core = {item["id"]: item["status"] for item in plan["liberalEd"]["core"]["items"]}
+    assert core["literature"] == core["arts-humanities"] == "planned"
 
 
 def test_generation_does_not_add_liberal_ed_already_covered(client, make_user, login_as, post_headers,
@@ -132,9 +132,8 @@ def test_generated_liberal_ed_slots_can_be_saved(client, make_user, login_as, po
     saved = client.put("/api/v1/plan", json={"changes": changes, "catalogTerm": "Fall 2026"}, headers=post_headers)
     assert saved.status_code == 200, saved.json
     by_code = {c["code"]: c for c in saved.json["courses"]}
-    assert by_code["MATH 2011"]["slot"] == "Race, Power, and Justice US, Biological Sciences"
-    assert by_code["MATH 2011"]["slotCategories"] == ["Biological Sciences", "Diversity and Soc Justice US"] or \
-        set(by_code["MATH 2011"]["slotCategories"]) >= {"Biological Sciences"}
+    assert by_code["CSCI 1001"]["slot"] == "Literature, Global Perspectives"
+    assert by_code["CSCI 1001"]["slotCategories"] == ["Global Perspectives", "Literature"]
 
 
 def test_made_up_slot_labels_are_still_rejected(client, make_user, login_as, post_headers, le_catalog, program_files, today):
