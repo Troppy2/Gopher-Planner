@@ -70,7 +70,7 @@ def test_rate_limits_can_be_disabled(make_app, post_headers):
         assert sign_in(client, post_headers).status_code == 400
 
 
-def test_transcript_uploads_are_limited_per_session(make_app, post_headers):
+def test_transcript_uploads_are_limited_per_user(make_app, post_headers):
     from app.api.v1.auth import hash_session_token
     from app.extensions import db
     from app.models import User, UserSession
@@ -78,24 +78,37 @@ def test_transcript_uploads_are_limited_per_session(make_app, post_headers):
 
     application = make_app()
 
-    def session_client(name):
+    def session_client(user_name, token):
         client = application.test_client()
         with application.app_context():
-            user = User(google_sub=f"limit-{name}", email=f"limit-{name}@example.invalid")
-            db.session.add(user)
-            db.session.flush()
-            db.session.add(UserSession(user_id=user.id, token_hash=hash_session_token(f"token-{name}"),
+            user = db.session.query(User).filter_by(google_sub=f"limit-{user_name}").one_or_none()
+            if user is None:
+                user = User(google_sub=f"limit-{user_name}", email=f"limit-{user_name}@example.invalid")
+                db.session.add(user)
+                db.session.flush()
+            db.session.add(UserSession(user_id=user.id, token_hash=hash_session_token(token),
                                        expires_at=datetime.now(timezone.utc) + timedelta(days=1)))
             db.session.commit()
-        client.set_cookie("gp_session", f"token-{name}")
+        client.set_cookie("gp_session", token)
         return client
 
-    first, second = session_client("a"), session_client("b")
+    first = session_client("a", "token-a1")
     for _ in range(20):
         assert first.post("/api/v1/transcripts", headers=post_headers).status_code != 429
     assert first.post("/api/v1/transcripts", headers=post_headers).status_code == 429
-    # Same address, different session: its own budget.
-    assert second.post("/api/v1/transcripts", headers=post_headers).status_code != 429
+    # A second session for the same user shares the budget.
+    assert session_client("a", "token-a2").post("/api/v1/transcripts", headers=post_headers).status_code == 429
+    # Another user on the same address has their own budget.
+    assert session_client("b", "token-b1").post("/api/v1/transcripts", headers=post_headers).status_code != 429
+
+
+def test_invented_cookies_share_the_address_budget(make_app, post_headers):
+    client = make_app().test_client()
+    for index in range(20):
+        client.set_cookie("gp_session", f"invented-{index}")
+        assert client.post("/api/v1/transcripts", headers=post_headers).status_code == 401
+    client.set_cookie("gp_session", "invented-final")
+    assert client.post("/api/v1/transcripts", headers=post_headers).status_code == 429
 
 
 def test_ready_reports_database_state(make_app, monkeypatch):
