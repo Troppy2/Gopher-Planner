@@ -27,6 +27,7 @@ import { HeaderSearch } from "@/features/search/HeaderSearch";
 import { useIsMobile } from "@/hooks/useMediaQuery";
 import { RequirementsModal } from "@/features/requirements/RequirementsModal";
 import { CourseDrawer } from "@/features/course-detail/CourseDrawer";
+import { RequirementsModal } from "@/features/requirements/RequirementsModal";
 import { UnsavedPlanBar } from "@/features/plan/UnsavedPlanBar";
 import { useHideOnScroll } from "@/hooks/useHideOnScroll";
 

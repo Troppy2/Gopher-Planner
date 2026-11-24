@@ -11,6 +11,7 @@ import { PlanCourseActions } from "@/screens/flow-chart/components/PlanCourseAct
 import { SlotTag } from "@/features/plan/PlanLabels";
 import { DetailsSkeleton } from "@/features/loading/ScreenSkeletons";
 import "./course-detail.css";
+import { ReportProblemButton } from "@/features/reports/ReportProblemButton";
 
 function formatCredits(course: CatalogCourse): string {
   if (course.minimumCredits === course.maximumCredits) {
@@ -241,6 +242,10 @@ export function CourseDrawer() {
             )}
           </section>
 
+          <div className="course-report">
+            <p className="muted">Something wrong with this course?</p>
+            <ReportProblemButton target={{ type: "course", courseCode: code, title: catalogCourse.title }} />
+          </div>
           <div className="dlinks">
             <a
               className="btn ghost sm"

@@ -1,6 +1,7 @@
 import type { CourseFilters } from "./types";
 
 export const queryKeys = {
+  reports: ["reports"] as const,
   summary: ["summary"] as const,
   profile: ["profile"] as const,
   options: ["options"] as const,

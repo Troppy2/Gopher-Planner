@@ -5,6 +5,7 @@ import { CalendarDays, Maximize, Minus, Network, Plus, RefreshCw } from "lucide-
 import { Button, Callout, EmptyState, IconButton, SegmentedControl, Select } from "@/ui";
 import { usePlan } from "@/features/plan/usePlan";
 import { useCourseParam } from "@/features/course-detail/useCourseParam";
+import { useRequirementsParam } from "@/features/requirements/useRequirementsParam";
 import { lastPlanIndex } from "@/features/plan/planRules";
 import { useReducedMotion } from "@/hooks/useMediaQuery";
 import { ElectiveNote } from "@/features/plan/PlanLabels";
