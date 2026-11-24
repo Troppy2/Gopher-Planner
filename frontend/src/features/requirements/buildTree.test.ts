@@ -18,3 +18,17 @@ describe("buildTree", () => {
     expect(tree[0].children[0].children[0].id).toBe("c");
   });
 });
+
+describe("buildTree notes", () => {
+  it("keeps each evaluator note only on the node it comes from", () => {
+    const withDetails = (n: RequirementProgress, details: string[]) => ({ ...n, details });
+    const tree = buildTree([
+      withDetails(node("g"), ["Group note", "Leaf note"]),
+      withDetails(node("a", "all", "g"), ["Leaf note"]),
+      withDetails(node("x", "course", "a"), ["Leaf note"]),
+    ]);
+    expect(tree[0].details).toEqual(["Group note"]);
+    expect(tree[0].children[0].details).toEqual([]);
+    expect(tree[0].children[0].children[0].details).toEqual(["Leaf note"]);
+  });
+});

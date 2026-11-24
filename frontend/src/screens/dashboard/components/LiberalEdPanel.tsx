@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router";
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
-import { AlertCircle, CheckCircle2, CircleDashed, HelpCircle, MinusCircle, Plus } from "lucide-react";
+import { AlertCircle, CheckCircle2, ChevronDown, CircleDashed, HelpCircle, MinusCircle, Plus } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { getDoubleDippers } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
@@ -66,18 +66,25 @@ function CategoryRow({ item, termOf }: { item: LeCategory; termOf: (code: string
   );
 }
 
+/** A collapsible section: open when it needs attention, a one-line summary otherwise. */
 function Section({ title, status, summary, children }: { title: string; status: LeSectionStatus; summary?: string; children: React.ReactNode }) {
   const id = `le-${title.toLowerCase().replace(/\W+/g, "-")}`;
+  const [open, setOpen] = useState(status === "short" || status === "needs_review");
   return (
-    <div className="le-section" aria-labelledby={id}>
-      <div className="le-section-head">
-        <h3 className="le-h3" id={id}>
-          {title}
-        </h3>
-        <Chip {...SECTION[status]} />
-      </div>
+    <div className="le-section">
+      <h3 className="le-h3">
+        <button type="button" className="le-toggle" aria-expanded={open} aria-controls={`${id}-body`} onClick={() => setOpen(!open)}>
+          <ChevronDown className="ic sm le-chev" aria-hidden />
+          <span className="le-toggle-label">{title}</span>
+          <Chip {...SECTION[status]} />
+        </button>
+      </h3>
       {summary && <p className="muted le-summary">{summary}</p>}
-      <ul className="req-list">{children}</ul>
+      {open && (
+        <ul className="req-list" id={`${id}-body`}>
+          {children}
+        </ul>
+      )}
     </div>
   );
 }
@@ -118,11 +125,9 @@ function DoubleDippers({ liberal, plan, profile, courses, onAdd }: {
 
   return (
     <div className="le-section" aria-labelledby="le-dd-h">
-      <div className="le-section-head">
-        <h3 className="le-h3" id="le-dd-h">
-          Courses that count twice
-        </h3>
-      </div>
+      <h3 className="le-h3 le-plain" id="le-dd-h">
+        Courses that count twice
+      </h3>
       <p className="muted le-summary">Each covers two or more of your remaining liberal education needs.</p>
       <p className="le-added" role="status" aria-live="polite">
         {added}

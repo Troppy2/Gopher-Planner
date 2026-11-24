@@ -33,7 +33,8 @@ describe('requirements modal', () => {
     const header = await dialog.findByRole('button',{name:/g Major core/});
     await waitFor(()=>expect(header).toHaveFocus());
     expect(header).toHaveAttribute('aria-expanded','true');
-    for (const text of ['Complete all of these','Complete one option','Choose 2 of these 3','0 of 2 chosen','Earn 9 credits from these courses','3 of 9 credits','Counting toward this','Check this one with your advisor','Synthetic advisor note','Done','In progress','Planned, Fall 2027','Needed','Locked','TEST 9999']) expect(dialog.getAllByText(text).length).toBeGreaterThan(0);
+    await userEvent.click(dialog.getByRole('button',{name:'Show the other option'}));
+    for (const text of ['Complete one option','Choose 2 of these 3','0 of 2 chosen','Earn 9 credits from these courses','3 of 9 credits','Counting toward this','Check this one with your advisor','Synthetic advisor note','Done','In progress','Planned, Fall 2027','Needed','Locked','TEST 9999']) expect(dialog.getAllByText(text).length).toBeGreaterThan(0);
   });
   it('unknown group ids use default expansion without focusing a group', async () => {
     open('/?requirements=stale');
@@ -75,7 +76,11 @@ describe('requirements modal', () => {
   });
   it('suppresses Add throughout satisfied ancestors', async () => {
     plan.requirementProgress[1].projectedStatus='satisfied'; open();
-    const d=within(await screen.findByRole('dialog')); await d.findAllByText('Needed');
+    const d=within(await screen.findByRole('dialog')); await d.findByText('Choose 2 of these 3');
+    expect(d.queryByRole('button',{name:'Add TEST 1004 to plan'})).not.toBeInTheDocument();
+    // Under a met rule, alternatives wait behind a button and read "Also counts", never "Needed".
+    await userEvent.click(d.getAllByRole('button',{name:/other courses that count/})[0]);
+    expect(d.getAllByText('Also counts').length).toBeGreaterThan(0);
     expect(d.queryByRole('button',{name:'Add TEST 1004 to plan'})).not.toBeInTheDocument();
   });
   it('opens from dashboard rows and See all; closes with Esc, Close and Back', async () => {
@@ -83,7 +88,7 @@ describe('requirements modal', () => {
     expect(await screen.findByRole('dialog')).toBeInTheDocument();
     await userEvent.keyboard('{Escape}'); expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
     await userEvent.click(screen.getByRole('button',{name:'See all requirements'}));
-    await userEvent.click(within(await screen.findByRole('dialog')).getByRole('button',{name:'Close'}));
+    await userEvent.click(within(await screen.findByRole('dialog')).getByRole('button',{name:'Close dialog'}));
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
     await userEvent.click(screen.getByRole('button',{name:'See all requirements'}));
     await userEvent.keyboard('{Escape}');
@@ -123,11 +128,11 @@ it('uses course evidence codes when an official course label is present', async 
   expect(await within(await screen.findByRole('dialog')).findByRole('link',{name:'TEST 1004'})).toBeInTheDocument();
 });
 it('renders maximum counts, adjustments, Met markers and server warnings', async () => {
-  plan.warnings=['requirements_need_review'];
+  plan.warnings=['offered_terms_unverified'];
   plan.requirementProgress=[n('g','group',null),n('cap','count','g',{options:['TEST 1004'],projectedStatus:'satisfied',projectedEvidence:{...evidence,maxCourses:1,matchedCourses:0,appliedAdjustments:['synthetic-waiver']},details:['Synthetic waiver applied.']})];
   open(); const d=within(await screen.findByRole('dialog'));
   expect(await d.findByText('Up to 1 of these count')).toBeInTheDocument();
   expect(d.getByText('Adjusted: Synthetic waiver applied.')).toBeInTheDocument();
   expect(d.getByText('Met')).toBeInTheDocument();
-  expect(d.getByText(/Some requirements need review/)).toBeInTheDocument();
+  expect(d.getByText(/Some courses don't list which semesters/)).toBeInTheDocument();
 });

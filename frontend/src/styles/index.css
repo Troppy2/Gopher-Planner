@@ -964,3 +964,35 @@ html body[data-scroll-locked] {
   color: var(--danger);
   border-color: var(--danger);
 }
+
+/* Plan warnings as one quiet, scannable note instead of loose paragraphs. */
+.warn-box {
+  margin-top: var(--s4);
+  padding: var(--s3) var(--s4);
+  border-radius: var(--radius);
+  background: var(--surface-hover);
+  border: 1px solid var(--border);
+}
+.warn-title {
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 24px;
+}
+.warn-box[open] .warn-title {
+  margin-bottom: var(--s2);
+}
+.warn-title:focus-visible {
+  outline: 3px solid var(--maroon);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+.warn-list {
+  margin: 0;
+  padding-left: 1.1em;
+  list-style: disc;
+  display: grid;
+  gap: 4px;
+  font-size: 13px;
+  color: var(--muted);
+}

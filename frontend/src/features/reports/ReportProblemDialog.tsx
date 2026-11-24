@@ -42,7 +42,7 @@ export function ReportProblemDialog({ target, existing, onClose }: { target: Rep
     </fieldset>
     <TextArea label="What's wrong? (optional)" value={note} onChange={e => setNote(e.target.value)} maxLength={500} rows={4} disabled={send.isPending}
       hint="Don't include personal details like your student ID or grades." />
-    <p className="muted report-count" aria-live="polite">{Array.from(note).length}/500 characters</p>
+    <p className="muted report-count" aria-live={Array.from(note).length >= 450 ? "polite" : "off"}>{Array.from(note).length}/500 characters</p>
     {send.isError && <Callout tone="error" title={send.error instanceof ApiError && send.error.status === 429
       ? "You've sent a lot of reports today. Try again tomorrow."
       : "Couldn't send your report. Check your connection and try again."} />}

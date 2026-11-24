@@ -64,7 +64,7 @@ function render(le?: LiberalEd, onAdd = vi.fn()) {
 it("shows each section's status, evidence and links for needed categories", async () => {
   server.use(http.get(api("/liberal-ed/double-dippers"), () => HttpResponse.json({ remaining: [], courses: [], total: 0, limit: 5, offset: 0 })));
   render();
-  const core = screen.getByRole("heading", { name: "Diversified core" }).closest(".le-section") as HTMLElement;
+  const core = screen.getByRole("heading", { name: /^Diversified core/ }).closest(".le-section") as HTMLElement;
   expect(within(core).getByText("Short")).toBeVisible();
   expect(within(core).getByText("SYN 1001")).toBeVisible();
   expect(within(core).getByText("TEST 1001 (Spring 2027)")).toBeVisible();

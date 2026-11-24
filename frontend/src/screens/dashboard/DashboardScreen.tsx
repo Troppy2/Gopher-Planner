@@ -1,10 +1,10 @@
+import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { CalendarDays, RefreshCw } from "lucide-react";
 import { Button, Callout, EmptyState } from "@/ui";
 import { DashboardSkeleton, MetricsSkeleton } from "@/features/loading/ScreenSkeletons";
 import { usePlan } from "@/features/plan/usePlan";
 import { firstFutureIndex, sumCredits } from "@/features/plan/planRules";
-import { ElectiveNote } from "@/features/plan/PlanLabels";
 import { MetricCard, PercentCard } from "./components/MetricCard";
 import { CourseList } from "./components/CourseList";
 import { UserDetails } from "./components/UserDetails";
@@ -14,6 +14,7 @@ import "./dashboard.css";
 
 export default function DashboardScreen() {
   const navigate = useNavigate();
+  const [allTerms, setAllTerms] = useState(false);
   const { plan, profile, summary, summaryLoading, summaryError, refetchSummary, courses, isLoading, error, refetch, addCourse } = usePlan();
 
   if (error) {
@@ -85,12 +86,14 @@ export default function DashboardScreen() {
           >
             {`${Math.max(0, summary.creditsTotal - summary.creditsCompleted)} credits remaining`}
             {!isLoading && <span className="dashboard-credit-breakdown">{sumCredits(courses.filter(c => c.status === "prog"))} in progress · {sumCredits(courses.filter(c => c.status === "plan"))} planned</span>}
+            {!!plan?.electiveCredits && plan.electiveCredits > 0 && (
+              <span className="dashboard-credit-breakdown">{plan.electiveCredits} more credits of free electives to plan</span>
+            )}
           </MetricCard>
           <PercentCard className="g5" percent={summary.percentComplete} total={summary.creditsTotal} source={summary.source} />
         </div>
       )}
 
-      <ElectiveNote credits={plan?.electiveCredits} />
       <div className="dcols">
         <div className="dcol">
             <section className="card surf" aria-labelledby="cur-h">
@@ -121,12 +124,19 @@ export default function DashboardScreen() {
               {isLoading ? (
                 <p className="muted">Loading plan…</p>
               ) : future.length ? (
-                future.map((g) => (
-                  <div key={g.term} className="term-group">
-                    <h3 className="term">{g.term}</h3>
-                    <CourseList courses={g.list} />
-                  </div>
-                ))
+                <>
+                  {(allTerms ? future : future.slice(0, 2)).map((g) => (
+                    <div key={g.term} className="term-group">
+                      <h3 className="term">{g.term}</h3>
+                      <CourseList courses={g.list} />
+                    </div>
+                  ))}
+                  {future.length > 2 && (
+                    <Button variant="ghost" size="sm" className="show-more" aria-expanded={allTerms} onClick={() => setAllTerms(!allTerms)}>
+                      {allTerms ? "Show fewer terms" : `Show ${future.length - 2} more terms`}
+                    </Button>
+                  )}
+                </>
               ) : (
                 <div className="empty-inline">
                   <p className="muted">No planned classes yet.</p>
