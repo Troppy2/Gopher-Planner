@@ -143,7 +143,9 @@ With `FLASK_ENVIRONMENT=development` (the Compose default), the API container ap
 | `RUN_MIGRATIONS` | Container only. `true` (default) migrates on start; set `false` in production, where CD migrates. |
 | `WEB_CONCURRENCY`, `GUNICORN_TIMEOUT` | Production only. Worker count (default 2; each loads the OCR model) and request timeout in seconds (default 120, for OCR). |
 | `TRUSTED_PROXY_HOPS` | Number of proxies in front of the API whose `X-Forwarded-For`/`-Proto` headers to trust. Default 0. Set it to your host's proxy count (usually 1) so rate limits see real client addresses. |
-| `RATELIMIT_ENABLED`, `RATELIMIT_STORAGE_URI` | Rate limits are on by default with in-memory counters per worker. Point the storage URI at Redis to share counters across workers. Limits: sign-in 30/minute and 300/hour per address; transcript upload 20/hour and plan generation 60/hour per session. |
+| `RATELIMIT_ENABLED`, `RATELIMIT_STORAGE_URI` | Rate limits are on by default with in-memory counters per worker. Point the storage URI at Redis to share counters across workers. Limits: sign-in 30/minute and 300/hour per address; transcript upload 20/hour and plan generation 60/hour per signed-in user. |
+| `REPORT_NOTIFY_EMAIL` | Comma-separated addresses that receive an email for each new or updated "Report a problem" submission. Unset disables email; reports are still saved. |
+| `SMTP_HOST`, `SMTP_PORT`, `SMTP_USERNAME`, `SMTP_PASSWORD`, `SMTP_FROM` | Mail server for report emails. Port 587 uses STARTTLS, 465 uses SSL. For Gmail, use `smtp.gmail.com`, port 587, and an app password. `SMTP_FROM` defaults to the username. |
 | `VITE_GOOGLE_CLIENT_ID` | Public frontend client ID, matching the backend. |
 | `VITE_API_URL` | Optional API base ending in `/api/v1`. Omit for same-origin proxy setups. |
 | `PROGRAM_DATA_PATH` | Optional override for the versioned program directory. |

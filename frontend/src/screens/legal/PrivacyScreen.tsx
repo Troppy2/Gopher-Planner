@@ -53,7 +53,7 @@ export default function PrivacyScreen() {
       </p>
 
       <h2>Keeping and deleting your data</h2>
-      <p>Problem reports are deleted with your account.</p>
+      <p>Problem reports are emailed to the project maintainers so they can fix the data. The email includes what you reported, the reason, and your note, but not your name or email address. Reports are deleted with your account.</p>
       <p>
         We keep your data while your account exists. You can edit your profile and coursework in Settings at any time. To
         delete your account and everything tied to it, use <b>Delete account</b> in Settings. Deletion is immediate and

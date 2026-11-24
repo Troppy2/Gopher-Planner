@@ -3,6 +3,7 @@ from sqlalchemy.exc import SQLAlchemyError
 from app.core.auth import check_request_origin, read_session
 from app.extensions import db
 from app.services import reports
+from app.services.report_email import notify_report
 
 reports_bp = Blueprint("reports", __name__, url_prefix="/api/v1")
 
@@ -38,7 +39,10 @@ def create_report():
             return jsonify(error="Not signed in"), 401
         report_id = row.id
         result = reports.serialize_report(row)
+        target = {"programId": row.program_id, "catalogTerm": row.catalog_term}
         db.session.commit()
+        # After commit and on its own thread: email never delays or undoes a saved report.
+        notify_report({**result, **target}, created=created)
         return jsonify(result), 201 if created else 200
     except reports.ReportError as error:
         db.session.rollback()
