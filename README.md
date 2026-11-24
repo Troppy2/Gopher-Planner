@@ -195,7 +195,27 @@ npm run build
 
 On macOS/Linux, use `npx` instead of `npx.cmd`. Backend tests default to disposable migrated SQLite databases. Use synthetic coursework and generated PDFs only.
 
-The files under `.github/workflows/` are currently placeholders. Do not assume automated CI or deployment runs these commands.
+If your local `frontend/.env` sets `VITE_API_URL`, frontend tests will call that URL instead of their mocks and fail. Unset it for test runs.
+
+## CI/CD
+
+| Workflow | Runs on | What it does |
+| --- | --- | --- |
+| [CI](.github/workflows/ci.yml) | Every pull request, and as the first stage of CD | Backend pytest on SQLite and PostgreSQL 17; migrations: one head, clean upgrade, `db check` for model drift, downgrade to base and back; frontend typecheck, Vitest, production build; Docker builds of both images. One aggregate check, **CI passed**, is the check to require in branch protection. |
+| [CD](.github/workflows/cd.yml) | Push to `main`, or manual run | Reruns CI on the same commit, publishes `ghcr.io/<owner>/gopher-planner-api` (`sha-<commit>` and `latest`), applies migrations to production, triggers the API host's deploy hook and waits for `/health`, then deploys the frontend to Vercel production. Runs are queued, never cancelled mid-migration. |
+| [Preview](.github/workflows/preview.yml) | Pull requests that change `frontend/` | Deploys a Vercel preview and comments its URL on the PR. Skipped for forks. |
+| [Dependabot](.github/dependabot.yml) | Weekly | Grouped minor/patch update PRs for npm, uv, GitHub Actions and Docker base images. |
+
+Set these in **Settings → Environments → production**:
+
+| Name | Kind | Needed |
+| --- | --- | --- |
+| `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID` | Secrets | Yes. Also add them as repository secrets so PR previews can use them. |
+| `PRODUCTION_DATABASE_URL` | Secret | When the API is hosted. Without it, CD skips migrations. |
+| `BACKEND_DEPLOY_HOOK_URL` | Secret | When the API is hosted. Without it, CD publishes the image but does not deploy it. |
+| `BACKEND_HEALTH_URL` | Variable | Optional. `https://<api-host>/health`, checked after each API deploy. |
+
+Turn off Vercel's own Git deployments so only CD deploys production. Set the hosted API container's `RUN_MIGRATIONS=false` so it does not migrate on startup; CD applies migrations before every deploy.
 
 ## Architecture
 

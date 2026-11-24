@@ -1,0 +1,63 @@
+# Vercel preview deployment for each pull request from this repository.
+# Fork PRs get no secrets, so they are skipped. Previews use Vercel's "preview"
+# environment variables, never production ones.
+name: Preview
+
+on:
+  pull_request:
+    paths:
+      - "frontend/**"
+      - ".github/workflows/preview.yml"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  deploy-preview:
+    name: Deploy Vercel preview
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - name: Skip without Vercel credentials
+        if: env.VERCEL_TOKEN == ''
+        run: echo "::notice::Vercel secrets are not available to this run; skipping the preview."
+      - uses: actions/checkout@v5
+        if: env.VERCEL_TOKEN != ''
+      - uses: actions/setup-node@v5
+        if: env.VERCEL_TOKEN != ''
+        with:
+          node-version: "22"
+      - if: env.VERCEL_TOKEN != ''
+        run: npm install --global vercel@latest
+      - if: env.VERCEL_TOKEN != ''
+        run: vercel pull --yes --environment=preview --token="$VERCEL_TOKEN"
+      - if: env.VERCEL_TOKEN != ''
+        run: vercel build --token="$VERCEL_TOKEN"
+      - id: deploy
+        if: env.VERCEL_TOKEN != ''
+        run: echo "url=$(vercel deploy --prebuilt --token="$VERCEL_TOKEN")" >> "$GITHUB_OUTPUT"
+      - name: Comment the preview URL
+        if: env.VERCEL_TOKEN != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          URL: ${{ steps.deploy.outputs.url }}
+        run: |
+          body="Preview: $URL (commit ${GITHUB_SHA::7})"
+          # Edit our earlier comment instead of adding one per push.
+          id=$(gh api "repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments" \
+            --jq '[.[] | select(.user.login == "github-actions[bot]" and (.body | startswith("Preview: ")))][0].id // empty')
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/${{ github.repository }}/issues/comments/$id" -f body="$body" > /dev/null
+          else
+            gh pr comment "${{ github.event.pull_request.number }}" --repo "${{ github.repository }}" --body "$body"
+          fi

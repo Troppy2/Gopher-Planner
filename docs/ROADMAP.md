@@ -12,7 +12,7 @@ This document distinguishes implemented foundations, partial work, and proposals
 | [#7: backend expansion](https://github.com/Troppy2/Gopher-Planner/issues/7) | Models, Alembic revisions, parser/OCR, summary, coursework, and plan services/endpoints exist. | Operational hardening and broader data integrations remain separate work. |
 | [#9: majors/programs](https://github.com/Troppy2/Gopher-Planner/issues/9) | Versioned JSON requirements and `GET /programs` supply the major list. | This uses files rather than the issue's proposed programs table. Profile major strings are not fully restricted to that list, and non-CS programs remain unverified. |
 | [#10: full catalog](https://github.com/Troppy2/Gopher-Planner/issues/10) | Full dated exports and a repeatable importer populate SQLAlchemy `catalog_*` tables. Runtime no longer reads `courses.db`. | Scheduled refresh, richer offering semantics, and reliable exact-term availability are not complete. The old SQLite-swap proposal does not describe the current runtime. |
-| [#12: backend structure/correctness](https://github.com/Troppy2/Gopher-Planner/issues/12) | Services, repositories, schemas, session helpers, JSON error handlers, tests, and P0 API flows exist. | The issue bundles many independent items. Unused required `JWT_SECRET`, production serving, entrypoint migrations, auth hardening, and real CI/CD remain unresolved. |
+| [#12: backend structure/correctness](https://github.com/Troppy2/Gopher-Planner/issues/12) | Services, repositories, schemas, session helpers, JSON error handlers, tests, and P0 API flows exist. | The issue bundles many independent items. Unused required `JWT_SECRET`, production serving, auth hardening, and choosing an API host remain unresolved. CI/CD workflows exist; see the README. |
 
 Implementation references: [API routes](../backend/app/api/v1/), [services](../backend/app/services/), [models](../backend/app/models/), [catalog importer](../backend/scripts/import_catalog.py), [frontend endpoints](../frontend/src/api/endpoints.ts), and [data guide](../backend/data/README.md).
 
@@ -83,8 +83,7 @@ No registration handoff is implemented. Establish what the university supports b
 [#12](https://github.com/Troppy2/Gopher-Planner/issues/12) remains a broad hardening tracker. Current gaps include:
 
 - Replacing Flask's development server in the container with a production serving strategy.
-- Moving entrypoint migrations into an explicit deployment step.
-- Completing CI/CD: the workflow files currently contain names/comments without jobs or triggers.
+- Hosting the API: CD publishes the image and runs migrations, but deploys it only once a host's deploy hook is configured.
 - API readiness checks, operational monitoring, backup/restore and retention procedures.
 - Authentication rate limiting, expired-session cleanup, and account/session management.
 - Finishing input-option validation and resolving remaining configuration/dependency cleanup.

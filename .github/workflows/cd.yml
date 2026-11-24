@@ -1,2 +1,168 @@
-# Continuous deployment.
+# Continuous deployment for main.
+#
+# Order: CI (same commit) -> publish API image to GHCR -> migrate production DB
+#        -> deploy API -> deploy frontend to Vercel.
+# A failure at any step stops everything after it. Runs never overlap or cancel
+# each other, so a migration is never interrupted halfway.
+#
+# Configure in Settings -> Environments -> "production":
+#   secrets  PRODUCTION_DATABASE_URL   postgresql+psycopg://... (optional until the API is hosted)
+#            BACKEND_DEPLOY_HOOK_URL   host deploy hook, e.g. Render/Railway (optional until hosted)
+#            VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_PROJECT_ID   (required)
+#   variables BACKEND_HEALTH_URL       https://<api>/health (optional; enables a post-deploy check)
 name: CD
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cd-production
+  cancel-in-progress: false
+
+jobs:
+  ci:
+    name: CI
+    uses: ./.github/workflows/ci.yml
+
+  publish-api-image:
+    name: Publish API image
+    needs: ci
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      image: ${{ steps.meta.outputs.tags }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ghcr.io/${{ github.repository_owner }}/gopher-planner-api
+          tags: |
+            type=sha,format=long
+            type=raw,value=latest
+      - uses: docker/build-push-action@v6
+        with:
+          context: backend
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha,scope=backend
+          cache-to: type=gha,mode=max,scope=backend
+
+  migrate:
+    name: Migrate production database
+    needs: publish-api-image
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    env:
+      DATABASE_URL: ${{ secrets.PRODUCTION_DATABASE_URL }}
+      FLASK_ENVIRONMENT: production
+      # Required by app startup; migrations never use them.
+      GOOGLE_CLIENT_ID: migration-only
+      JWT_SECRET: migration-only
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - name: Skip when no production database is configured
+        if: env.DATABASE_URL == ''
+        run: echo "::notice::PRODUCTION_DATABASE_URL is not set; skipping migrations."
+      - uses: actions/checkout@v5
+        if: env.DATABASE_URL != ''
+      - uses: astral-sh/setup-uv@v6
+        if: env.DATABASE_URL != ''
+        with:
+          python-version: "3.12"
+          enable-cache: true
+          cache-dependency-glob: backend/uv.lock
+      - if: env.DATABASE_URL != ''
+        run: uv sync --frozen --no-dev
+      - name: Apply migrations
+        if: env.DATABASE_URL != ''
+        run: |
+          uv run flask --app app db upgrade
+          uv run flask --app app db current
+
+  deploy-api:
+    name: Deploy API
+    needs: migrate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: production
+    env:
+      DEPLOY_HOOK: ${{ secrets.BACKEND_DEPLOY_HOOK_URL }}
+      HEALTH_URL: ${{ vars.BACKEND_HEALTH_URL }}
+    steps:
+      - name: Skip when no API host is configured
+        if: env.DEPLOY_HOOK == ''
+        run: echo "::notice::BACKEND_DEPLOY_HOOK_URL is not set; the API image was published but not deployed."
+      - name: Trigger host deploy
+        if: env.DEPLOY_HOOK != ''
+        run: curl --fail --silent --show-error --retry 3 -X POST "$DEPLOY_HOOK" > /dev/null
+      - name: Wait for a healthy API
+        if: env.DEPLOY_HOOK != '' && env.HEALTH_URL != ''
+        run: |
+          # Give the host time to swap instances before trusting a 200.
+          sleep 30
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent --max-time 10 "$HEALTH_URL" > /dev/null; then
+              echo "API healthy after $attempt checks."
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "::error::API did not become healthy at $HEALTH_URL."
+          exit 1
+
+  deploy-frontend:
+    name: Deploy frontend (Vercel production)
+    needs: deploy-api
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: production
+      url: ${{ steps.deploy.outputs.url }}
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - name: Require Vercel credentials
+        run: |
+          if [ -z "$VERCEL_TOKEN" ] || [ -z "$VERCEL_ORG_ID" ] || [ -z "$VERCEL_PROJECT_ID" ]; then
+            echo "::error::Set VERCEL_TOKEN, VERCEL_ORG_ID and VERCEL_PROJECT_ID in the production environment."
+            exit 1
+          fi
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Install Vercel CLI
+        run: npm install --global vercel@latest
+      # Run from the repository root: the Vercel project's Root Directory setting
+      # points the build at frontend/, and project env vars come from Vercel.
+      - name: Pull production settings
+        run: vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
+      - name: Build
+        run: vercel build --prod --token="$VERCEL_TOKEN"
+      - id: deploy
+        name: Deploy
+        run: |
+          url=$(vercel deploy --prebuilt --prod --token="$VERCEL_TOKEN")
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          echo "Deployed $url" >> "$GITHUB_STEP_SUMMARY"
