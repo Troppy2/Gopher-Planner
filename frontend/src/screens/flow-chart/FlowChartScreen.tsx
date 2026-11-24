@@ -1,4 +1,3 @@
-import { useRequirementsParam } from "@/features/requirements/useRequirementsParam";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router";
 import { CalendarDays, Maximize, Minus, Network, Plus, RefreshCw } from "lucide-react";
