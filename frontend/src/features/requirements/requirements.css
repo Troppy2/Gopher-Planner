@@ -1,0 +1,26 @@
+.requirements-filter { position: sticky; top: 0; z-index: 1; background: var(--surface-raised); border-bottom: 1px solid var(--border); padding: var(--s4) var(--s6); display: flex; flex-wrap: wrap; gap: var(--s3); align-items: center; justify-content: space-between; }
+.requirements-summary { display: flex; flex-wrap: wrap; gap: var(--s2); }
+.requirements-body { padding: var(--s4) var(--s6); }
+.requirements-group { border-bottom: 1px solid var(--border); }
+.requirements-group h3 { display: flex; margin: 0; }
+.requirements-group-header { display: flex; align-items: center; text-align: left; gap: var(--s3); width: 100%; padding: var(--s4) 0; min-height: var(--hit); }
+.requirements-group-header > span:first-of-type { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.requirements-group-header small { display: block; font-weight: 400; color: var(--muted); }
+.requirements-group-header[aria-expanded="false"] > svg { transform: rotate(-90deg); }
+.requirements-group-body { padding-bottom: var(--s4); }
+.requirements-rule { margin-top: var(--s3); }
+.requirements-rule h4 { display: flex; align-items: center; flex-wrap: wrap; gap: var(--s2); margin: var(--s3) 0 var(--s2); }
+.requirements-rule p { margin: var(--s2) 0; }
+.requirements-option { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: var(--s3); margin-top: var(--s3); }
+.requirements-option h5 { font-size: inherit; margin: 0 0 var(--s2); }
+.requirements-courses { list-style: none; padding: 0; margin: 0; }
+.requirements-course { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s2); padding: var(--s3) 0; border-bottom: 1px solid var(--border); }
+.requirements-course-name { display: flex; flex-direction: column; flex: 1; min-width: 160px; overflow-wrap: anywhere; }
+.requirements-course-name a { min-height: 44px; display: flex; align-items: center; font-weight: 700; }
+.requirements-search { display: flex; flex-direction: column; gap: var(--s1); margin: var(--s3) 0; }
+.requirements-search input { min-height: 44px; border: 1px solid var(--border-strong); border-radius: var(--radius-sm); padding: var(--s2); width: 100%; }
+.requirements-skeleton { display: grid; gap: var(--s3); padding: var(--s4) 0; }
+.req-open { width: 100%; text-align: left; min-height: 44px; }
+@media (max-width: 767px) { .requirements-body, .requirements-filter { padding: var(--s4); } .requirements-course-name { flex-basis: 100%; } .requirements-group-header { flex-wrap: wrap; } }
+.requirements-panel-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--s2); }
+.req-list > li + li .req-open { border-top: 1px solid var(--border); }
