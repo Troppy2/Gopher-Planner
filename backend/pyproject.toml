@@ -10,7 +10,7 @@ dependencies = [
     "flask-limiter>=4.1.1",
     "flask-migrate>=4.1.0",
     "flask-sqlalchemy>=3.1.1",
-    "google-auth>=2.62.0",
+    "google-auth>=2.63.0",
     "gunicorn>=27.0.1",
     "onnxruntime>=1.32.0",
     "pdfplumber>=0.11.11",
@@ -19,7 +19,7 @@ dependencies = [
     "python-dotenv>=1.2.4",
     "rapidocr>=3.10.0",
     "requests>=2.34.2",
-    "sqlalchemy>=2.1.5",
+    "sqlalchemy>=2.1.9",
 ]
 
 [dependency-groups]
