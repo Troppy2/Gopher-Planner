@@ -11,6 +11,7 @@ from app.core.auth import COOKIE_NAME, check_request_origin, hash_session_token,
 from app.core.config import Settings
 from app.core.google_auth import verify_google_credential
 from app.extensions import db
+from app.extensions.rate_limit import SIGN_IN_LIMIT, limiter
 from app.models import User, UserSession
 
 auth_bp = Blueprint("auth", __name__, url_prefix="/api/v1/auth")
@@ -59,6 +60,7 @@ def serialize_user(user: User) -> dict:
 
 
 @auth_bp.post("/google")
+@limiter.limit(SIGN_IN_LIMIT)
 def google_login():
     origin_error = check_request_origin()
     if origin_error is not None:

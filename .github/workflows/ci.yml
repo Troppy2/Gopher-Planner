@@ -1,2 +1,198 @@
-# Continuous integration: backend tests, frontend typecheck, tests and build.
+# Continuous integration: backend tests on SQLite and PostgreSQL, migration drift,
+# frontend typecheck/tests/build, and Docker image builds.
+#
+# Runs on every pull request. Pushes to main run it through CD, which calls this
+# workflow first, so nothing deploys unless the exact commit passed it.
+# For branch protection, require the single "CI passed" check.
 name: CI
+
+on:
+  pull_request:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+concurrency:
+  # Cancel superseded runs on the same PR or branch. Calls from CD use CD's own group.
+  group: ci-${{ github.workflow_ref }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  PYTHON_VERSION: "3.12"
+  NODE_VERSION: "22"
+  # Synthetic values only: the app refuses to start without them.
+  GOOGLE_CLIENT_ID: ci-synthetic-client
+  JWT_SECRET: ci-synthetic-secret
+  FRONTEND_ORIGIN: http://localhost:5173
+
+jobs:
+  backend-tests:
+    name: Backend tests (${{ matrix.database }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        database: [sqlite, postgres]
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: gopher_test
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6.8.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          enable-cache: true
+          cache-dependency-glob: backend/uv.lock
+      - name: Install dependencies
+        run: uv sync --frozen
+      - name: Run pytest
+        env:
+          # Disposable service database; conftest drops and recreates its schema per test.
+          TEST_DATABASE_URL: ${{ matrix.database == 'postgres' && 'postgresql+psycopg://postgres:postgres@localhost:5432/gopher_test' || '' }}
+        run: uv run pytest -q --junitxml=pytest-${{ matrix.database }}.xml
+      - name: Upload test report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: pytest-${{ matrix.database }}
+          path: backend/pytest-${{ matrix.database }}.xml
+          retention-days: 7
+
+  migrations:
+    name: Migrations (PostgreSQL)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: gopher_migrations
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      DATABASE_URL: postgresql+psycopg://postgres:postgres@localhost:5432/gopher_migrations
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6.8.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          enable-cache: true
+          cache-dependency-glob: backend/uv.lock
+      - run: uv sync --frozen
+      - name: Exactly one migration head
+        run: |
+          heads=$(uv run flask --app app db heads | grep -c "(head)")
+          if [ "$heads" -ne 1 ]; then
+            echo "::error::Expected 1 Alembic head, found $heads. Merge the branches with 'flask db merge'."
+            exit 1
+          fi
+      - name: Upgrade a clean database
+        run: uv run flask --app app db upgrade
+      - name: Models match migrations
+        run: uv run flask --app app db check
+      - name: Downgrade to base and upgrade again
+        run: |
+          uv run flask --app app db downgrade base
+          uv run flask --app app db upgrade
+
+  frontend:
+    name: Frontend typecheck, tests and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - name: Typecheck
+        run: npx tsc -b --noEmit
+      - name: Unit tests
+        run: npx vitest run
+      - name: Production build
+        run: npm run build
+
+  docker:
+    name: Docker image (${{ matrix.service }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        service: [backend, frontend]
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # v3.12.0
+      - name: Build without pushing
+        uses: docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8 # v6.19.2
+        with:
+          context: ${{ matrix.service }}
+          push: false
+          load: true
+          tags: gopher-planner-${{ matrix.service }}:ci
+          cache-from: type=gha,scope=${{ matrix.service }}
+          cache-to: type=gha,mode=max,scope=${{ matrix.service }}
+      # The production image must boot under gunicorn and reach its database. The frontend
+      # image proxies /api to a Compose service, so it is only built here.
+      - name: Start the API image in production mode
+        if: matrix.service == 'backend'
+        run: |
+          docker run -d --name api -p 5000:5000 \
+            -e FLASK_ENVIRONMENT=production -e RUN_MIGRATIONS=false \
+            -e GOOGLE_CLIENT_ID=ci-synthetic-client -e JWT_SECRET=ci-synthetic-secret \
+            -e DATABASE_URL=sqlite:////tmp/ci-smoke.db \
+            gopher-planner-backend:ci
+          for attempt in $(seq 1 45); do
+            if curl --fail --silent http://localhost:5000/ready; then
+              echo
+              docker logs api 2>&1 | grep -i "gunicorn" || { echo "::error::The API did not start under gunicorn."; exit 1; }
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "::error::The API image never became ready."
+          docker logs api
+          exit 1
+
+  ci-passed:
+    name: CI passed
+    if: always()
+    needs: [backend-tests, migrations, frontend, docker]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Every required job succeeded
+        run: |
+          if [ "${{ contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') || contains(needs.*.result, 'skipped') }}" = "true" ]; then
+            echo "::error::One or more CI jobs did not succeed."
+            exit 1
+          fi
