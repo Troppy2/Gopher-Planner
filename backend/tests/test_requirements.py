@@ -12,6 +12,29 @@ def rich():
     return json.loads((FIXTURES / "rich-synthetic--fall-2026.json").read_text(encoding="utf-8"))
 
 
+def test_progress_options_are_complete_sorted_and_only_on_set_rules():
+    program = rich()
+    rules = {}
+
+    def walk(node):
+        rules[node['id']] = node
+        if 'rule' in node:
+            walk(node['rule'])
+        for child in node.get('children', []):
+            walk(child)
+
+    for pool in program['courseSets'].values():
+        pool['codes'] = list(reversed(sorted(pool['codes'])))
+    for g in program['groups']:
+        walk(g)
+    for item in evaluate(program, [])['requirementProgress']:
+        rule = rules[item['id']]
+        if item['type'] in ('count', 'credits'):
+            assert item['options'] == sorted(program['courseSets'][rule['courseSet']]['codes'])
+        else:
+            assert 'options' not in item
+
+
 def attempt(code, grade="A", status="done", credits=3, term="Fall 2025"):
     return {"code": code, "grade": grade, "status": status, "credits": credits, "term": term}
 

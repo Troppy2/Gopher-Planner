@@ -1,0 +1,8 @@
+.modal { position: fixed; z-index: 51; top: 50%; left: 50%; transform: translate(-50%, -50%); width: min(640px, calc(100% - 48px)); max-height: 85vh; display: flex; flex-direction: column; background: var(--surface-raised); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-raised); }
+.modal-lg { width: min(880px, calc(100% - 48px)); }
+.modal-header, .modal-footer { padding: var(--s4) var(--s6); flex: none; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--s3); border-bottom: 1px solid var(--border); }
+.modal-header h2 { margin: 0; }
+.modal-header p { margin: var(--s1) 0 0; color: var(--muted); }
+.modal-content { min-height: 0; overflow: auto; }
+@media (max-width: 767px) { .modal, .modal-lg { inset: 0; transform: none; width: 100%; height: 100dvh; max-height: 100dvh; border-radius: 0; } .modal-header, .modal-footer { padding: var(--s4); } }

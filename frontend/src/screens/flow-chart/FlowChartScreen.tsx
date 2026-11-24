@@ -1,3 +1,4 @@
+import { useRequirementsParam } from "@/features/requirements/useRequirementsParam";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router";
 import { CalendarDays, Maximize, Minus, Network, Plus, RefreshCw } from "lucide-react";
@@ -20,6 +21,7 @@ export default function FlowChartScreen() {
   const [params, setParams] = useSearchParams();
   const view: ViewMode = params.get("view") === "graph" ? "graph" : "sem";
   const course = useCourseParam();
+  const requirements = useRequirementsParam();
   const { plan, profile, courses, goal, isLoading, error, refetch, add, addCourse, editCredits, remove, build, buildState, catalogTerm, selectCatalogTerm, announcement, announce: setLive, pendingCount } = usePlan();
   const [confirmBuild, setConfirmBuild] = useState(false);
   const reduced = useReducedMotion();
@@ -116,6 +118,7 @@ export default function FlowChartScreen() {
       <div className="pg-head flow-head">
         <h1 className="title">My plan</h1>
         <div className="flow-actions">
+          <Button variant="ghost" size="sm" onClick={() => requirements.open()}>Requirements</Button>
           {confirmBuild ? <>
             <span className="muted">Replace {pendingCount} unsaved {pendingCount === 1 ? "edit" : "edits"}?</span>
             <Button variant="ghost" size="sm" onClick={() => setConfirmBuild(false)}>Cancel</Button>
@@ -254,3 +257,4 @@ export default function FlowChartScreen() {
     </div>
   );
 }
+
