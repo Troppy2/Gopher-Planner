@@ -26,6 +26,7 @@ import { SearchOverlay } from "@/features/search/SearchOverlay";
 import { HeaderSearch } from "@/features/search/HeaderSearch";
 import { useIsMobile } from "@/hooks/useMediaQuery";
 import { CourseDrawer } from "@/features/course-detail/CourseDrawer";
+import { RequirementsModal } from "@/features/requirements/RequirementsModal";
 import { UnsavedPlanBar } from "@/features/plan/UnsavedPlanBar";
 import { useHideOnScroll } from "@/hooks/useHideOnScroll";
 
@@ -185,6 +186,8 @@ export function AppShell() {
       <UnsavedPlanBar visible={PLAN_EDIT_SCREENS.includes(pathname)} />
       <SearchOverlay open={searchOpen} onOpenChange={setSearchOpen} />
       <CourseDrawer />
+      <RequirementsModal />
     </div>
   );
 }
+

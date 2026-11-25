@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router";
 import { useSession } from "@/features/auth/session.store";
 import "./legal.css";
 
-export const LEGAL_UPDATED = "November 23, 2026";
+export const LEGAL_UPDATED = "November 24, 2026";
 export const REPO_URL = "https://github.com/Troppy2/Gopher-Planner";
 export const ISSUES_URL = `${REPO_URL}/issues`;
 

@@ -2,6 +2,8 @@
 
 Describe the user-visible problem and resulting behavior. Link the issue and state which part this PR completes.
 
+For new features, use the [implementation checklist](../docs/IMPLEMENTING_FEATURES.md) and link the spec if you wrote one.
+
 ## Verification
 
 - Commands run and results:

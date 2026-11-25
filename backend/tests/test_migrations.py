@@ -34,6 +34,18 @@ def test_migrated_schema_has_no_model_drift(app):
         assert compare_metadata(context, db.metadata) == []
 
 
+def test_reports_revision_preserves_existing_accounts(app, make_user):
+    user_id = make_user().id
+    db.session.remove()
+    downgrade(directory="migrations", revision="a1d4e7f93c20")
+    assert "data_reports" not in inspect(db.engine).get_table_names()
+    assert db.session.scalar(text("SELECT id FROM users")) == user_id
+    db.session.remove()
+    upgrade(directory="migrations")
+    assert "data_reports" in inspect(db.engine).get_table_names()
+    assert db.session.scalar(text("SELECT id FROM users")) == user_id
+
+
 @sqlite_only
 def test_sqlite_test_connections_enforce_foreign_keys(app):
     assert db.session.scalar(text("PRAGMA foreign_keys")) == 1

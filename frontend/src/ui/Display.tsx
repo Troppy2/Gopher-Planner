@@ -14,12 +14,12 @@ export const STATUS_LABEL: Record<CourseStatus, string> = {
 const STATUS_ICON = { done: Check, prog: Clock, plan: CalendarDays, avail: Plus, block: Lock };
 
 /** Always icon plus text, so status never relies on color. */
-export function StatusBadge({ status }: { status: CourseStatus }) {
+export function StatusBadge({ status, label }: { status: CourseStatus; label?: string }) {
   const Icon = STATUS_ICON[status];
   return (
     <span className={`badge b-${status}`}>
       <Icon className="ic" aria-hidden />
-      {STATUS_LABEL[status]}
+      {label ?? STATUS_LABEL[status]}
     </span>
   );
 }

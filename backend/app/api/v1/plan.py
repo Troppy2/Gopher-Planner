@@ -5,6 +5,7 @@ from app.extensions import db
 from app.services.plan import PlanError, generate, get_plan, save_changes
 from app.services.program_graph import ProgramGraphError, program_graph
 from app.services.programs import list_programs
+from app.extensions.rate_limit import PLAN_GENERATE_LIMIT, limiter, user_or_address
 
 plan_bp = Blueprint("plan", __name__, url_prefix="/api/v1")
 
@@ -33,6 +34,7 @@ def update_plan():
 
 
 @plan_bp.post("/plans/generate")
+@limiter.limit(PLAN_GENERATE_LIMIT, key_func=user_or_address)
 @require_auth
 def generate_plan_route():
     body = request.get_json(silent=True) if request.data else {}

@@ -7,7 +7,7 @@ import { getCoursework, getCourses, getTranscript, saveCoursework, uploadTranscr
 import { queryKeys } from "@/api/queryKeys";
 import type { CourseworkEntry } from "@/api/types";
 import { currentTerm } from "@/lib/terms";
-import { Button, Callout, CourseRowsSkeleton, Select, SkeletonRegion, Spinner } from "@/ui";
+import { Button, Callout, CourseRowsSkeleton, SaveToast, Select, SkeletonRegion, Spinner } from "@/ui";
 import "./coursework.css";
 
 const GRADES = ["A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "F", "S", "N", "W", "I"];
@@ -262,7 +262,7 @@ export function CourseworkEditor() {
       </div>
 
       <div className="cw-actions">
-        {(dirty || save.isPending) && !save.isError && <span className="sstate saving" role="status">Saving…</span>}
+        <SaveToast saving={(dirty || save.isPending) && !save.isError} failed={save.isError} />
         {save.isError && dirty && <Button onClick={() => save.mutate()} disabled={save.isPending || reading}>Try again</Button>}
         {save.isError && dirty && (
           <Button variant="ghost" onClick={() => { editedRef.current = false; if (saved.data) setRows(saved.data.courses); }}>

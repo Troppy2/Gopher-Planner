@@ -2,10 +2,13 @@
 // through `apiRequest`.
 import { ApiError, apiRequest, apiUrl } from "./client";
 import type {
+  DataReport,
+  NewReport,
   CatalogCourse,
   CatalogCoursePage,
   Coursework,
   CourseFilters,
+  DoubleDipperPage,
   GenerateResult,
   Options,
   Plan,
@@ -16,6 +19,11 @@ import type {
   TermId,
   Transcript,
 } from "./types";
+
+const clone = <T>(v: T): T => structuredClone(v);
+
+export const getMyReports = () => apiRequest<{ reports: DataReport[] }>("/reports");
+export const createReport = (body: NewReport) => apiRequest<DataReport>("/reports", { method: "POST", json: body });
 
 /** GET /api/v1/summary */
 export const getSummary = () => apiRequest<Summary>("/summary");
@@ -74,6 +82,10 @@ export async function updateProfile(
   return response.json() as Promise<Profile>;
 }
 
+/** DELETE /api/v1/auth/account: permanently removes the account and all of its data. */
+export const deleteAccount = () =>
+  apiRequest<{ message: string }>("/auth/account", { method: "DELETE", json: { confirm: true } });
+
 /** GET /api/v1/programs: every supported program version, without requirement details. */
 export const getPrograms = () => apiRequest<{ programs: ProgramSummary[] }>("/programs");
 
@@ -89,6 +101,10 @@ export const getCoursework = () => apiRequest<Coursework>("/coursework");
 /** PUT /api/v1/coursework: replaces the whole set. */
 export const saveCoursework = (body: Coursework) =>
   apiRequest<Coursework>("/coursework", { method: "PUT", json: body });
+
+/** GET /api/v1/liberal-ed/double-dippers: catalog courses covering two or more remaining needs. */
+export const getDoubleDippers = (limit = 5, offset = 0) =>
+  apiRequest<DoubleDipperPage>(`/liberal-ed/double-dippers?limit=${limit}&offset=${offset}`);
 
 /** GET /api/v1/plan */
 export const getPlan = () => apiRequest<Plan>("/plan");

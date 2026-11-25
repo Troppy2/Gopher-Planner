@@ -396,7 +396,7 @@ Do not infer the deployed Supabase revision from the repository head. Apply migr
 
 `TEST_DATABASE_URL` is destructive by design: fixtures drop and recreate its public schema. Never use a shared/Supabase database. Backend fixtures set a synthetic application database URL before constructing the app.
 
-The `frontend/e2e/` directory currently documents an intended Playwright suite but does not itself establish a configured end-to-end test runner. The GitHub workflow files are placeholders, not an active CI/CD guarantee. Commands and contribution expectations are in [CONTRIBUTING.md](../CONTRIBUTING.md).
+The `frontend/e2e/` directory currently documents an intended Playwright suite but does not itself establish a configured end-to-end test runner. CI runs backend tests on SQLite and PostgreSQL, migration checks, frontend tests and builds on every pull request; CD gates deploys on the same checks (see the README). Commands and contribution expectations are in [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Operational limits
 

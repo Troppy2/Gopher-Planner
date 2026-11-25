@@ -34,7 +34,7 @@ Use the three primary colors as the foundation. Do not use maroon for large body
 | --- | --- | --- | --- |
 | `color-maroon` | Maroon | `#7A0019` | Primary actions, active navigation, headings, focus accents |
 | `color-gold` | Gold | `#FFCC33` | Progress highlights, attention states, selected indicators, secondary accents |
-| `color-ivory` | Ivory | `#E6E0D2` | Main page background, warm neutral surfaces |
+| `color-ivory` | Ivory (warm paper) | `#F4F0E8` | Main page background, warm neutral surfaces |
 | `color-ink` | Ink | `#201A1B` | Primary text and icons |
 | `color-muted` | Muted ink | `#625A5C` | Secondary text, metadata, helper text |
 | `color-surface` | Frosted white | `rgba(255, 255, 255, 0.72)` | Glass panels and cards |

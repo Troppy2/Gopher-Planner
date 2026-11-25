@@ -21,9 +21,13 @@ Prioritize four-year planning, transcript upload and manual course entry, prereq
 
 Keep catalog and program seed data separate from user plans. Verify ownership at route and service boundaries. Do not log transcript contents or other user-sensitive data. Do not hold database sessions across slow external calls, and do not change schema through application startup.
 
+## Implementing Features
+
+Read [the feature implementation checklist](docs/IMPLEMENTING_FEATURES.md) before starting feature work. Follow the steps for the layers you change, from storage and services through the API and frontend. A standalone spec is optional. Use the guide's local migration and verification steps when they apply.
+
 ## Frontend Reference
 
-Read `docs/design-rules.md` before frontend work. It is the source of truth for the maroon `#7A0019`, gold `#FFCC33`, and ivory `#E6E0D2` visual system, desktop and mobile layouts, navigation, screen requirements, accessibility, states, and Figma deliverables.
+Read `docs/design-rules.md` before frontend work. It is the source of truth for the maroon `#7A0019`, gold `#FFCC33`, and ivory `#F4F0E8` visual system, desktop and mobile layouts, navigation, screen requirements, accessibility, states, and Figma deliverables.
 
 ## Documentation Reference
 

@@ -5,7 +5,7 @@ import { ArrowLeft } from "lucide-react";
 import { getOptions, getProfile, updateProfile } from "@/api/endpoints";
 import { queryKeys } from "@/api/queryKeys";
 import { Button, Callout, Combobox, Select, Spinner, TextField } from "@/ui";
-import { careerForMajor, careerOptions, creditChoices, HeavyLoadNote, UnverifiedMajorNote } from "@/features/profile/profileRules";
+import { creditChoices, HeavyLoadNote, UnverifiedMajorNote } from "@/features/profile/profileRules";
 import { StepHeader } from "./components/StepHeader";
 import { useOnboarding } from "./onboarding.store";
 import type { ProfileDraft } from "./onboarding.store";
@@ -28,7 +28,6 @@ export default function ProfileScreen() {
     name: profile?.name ?? "",
     standing: profile?.standing ?? "Freshman",
     major: profile?.major ?? "",
-    careerGoals: profile?.careerGoals ?? "",
     creditLoad: "",
     graduationTarget: "",
   };
@@ -46,7 +45,6 @@ export default function ProfileScreen() {
         name: draft.name.trim(),
         standing: draft.standing,
         major: draft.major.trim(),
-        careerGoals: draft.careerGoals.trim(),
         creditLoad: draft.creditLoad ? Number(draft.creditLoad) : 15,
         graduationTarget: draft.graduationTarget || profile?.graduationTarget || "Spring 2028",
       }),
@@ -84,20 +82,13 @@ export default function ProfileScreen() {
           <Combobox
             label="Major or degree program"
             value={draft.major}
-            onChange={(major) => set({ major, careerGoals: careerForMajor(options, major, draft.careerGoals) })}
+            onChange={(major) => set({ major })}
             options={options?.majors ?? []}
             placeholder="Start typing, for example Computer Science"
             error={touched ? errors.major : undefined}
           />
           <UnverifiedMajorNote options={options} major={draft.major} />
         </div>
-        <Select
-          className="span2"
-          label="Career goal"
-          value={draft.careerGoals}
-          onChange={(careerGoals) => set({ careerGoals })}
-          options={careerOptions(options, draft.major)}
-        />
         <Select
           label={
             <>

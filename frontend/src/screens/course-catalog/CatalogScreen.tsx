@@ -38,6 +38,8 @@ const EMPTY: Filters = {
 export default function CatalogScreen() {
   const [params, setParams] = useSearchParams();
   const q = params.get("q") ?? "";
+  // Liberal education designation, set by links such as the dashboard's "Find courses".
+  const le = params.get("le") ?? "";
 
   const [filters, setFilters] = useState<Filters>(EMPTY);
   const [page, setPage] = useState(0);
@@ -50,6 +52,7 @@ export default function CatalogScreen() {
   const query: CourseFilters = {
     q,
     ...filters,
+    ...(le ? { le } : {}),
     limit: PAGE_SIZE,
     offset: page * PAGE_SIZE,
   };
@@ -81,10 +84,20 @@ export default function CatalogScreen() {
     setPage(0);
   };
 
+  const clearLe = () => {
+    const nextParams = new URLSearchParams(params);
+    nextParams.delete("le");
+    setPage(0);
+    setParams(nextParams, { replace: true });
+  };
+
   const clearAll = () => {
     setFilters(EMPTY);
     setPage(0);
-    setQ("");
+    const nextParams = new URLSearchParams(params);
+    nextParams.delete("q");
+    nextParams.delete("le");
+    setParams(nextParams, { replace: true });
   };
 
   const active = (Object.keys(filters) as FilterKey[]).filter(
@@ -205,7 +218,7 @@ export default function CatalogScreen() {
           onClick={() => setSheetOpen(true)}
         >
           <SlidersHorizontal className="ic sm" aria-hidden />
-          Filters{active.length ? ` (${active.length})` : ""}
+          Filters{active.length + (le ? 1 : 0) ? ` (${active.length + (le ? 1 : 0)})` : ""}
         </Button>
       </div>
 
@@ -223,6 +236,13 @@ export default function CatalogScreen() {
               </span>
             )}
           </>
+        )}
+
+        {le && (
+          <button className="chip" onClick={clearLe} aria-label={`Remove filter Liberal ed: ${le}`}>
+            Liberal ed: {le}
+            <X className="ic sm" aria-hidden />
+          </button>
         )}
 
         {active.map((key) => {

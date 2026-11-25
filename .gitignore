@@ -1,3 +1,9 @@
 .claude/
 .env
 instance/
+
+# Local agent and QA scratch space
+.worktrees/
+.playwright-mcp/
+backend/.test-tmp*/
+*.log

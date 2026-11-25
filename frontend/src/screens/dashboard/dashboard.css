@@ -301,3 +301,138 @@
 .req-st.track { color: var(--st-prog-ink); }
 .req-st.review { color: var(--muted); }
 .req-st.short { color: var(--danger); }
+
+/* ---------- liberal education ---------- */
+.le-section {
+  padding-top: var(--s4);
+  margin-top: var(--s4);
+  border-top: 1px solid var(--border);
+}
+.le-section:first-of-type {
+  margin-top: var(--s2);
+}
+.le-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s3);
+}
+.le-h3 {
+  font-weight: 700;
+  font-size: 15px;
+}
+.le-summary {
+  margin: 2px 0 var(--s2);
+  font-size: 13px;
+}
+.le-find {
+  font-size: 13px;
+  font-weight: 600;
+  justify-self: start;
+}
+.le-course {
+  justify-self: start;
+  text-align: left;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.le-course:hover b,
+.le-course:focus-visible b {
+  color: var(--maroon);
+  text-decoration: underline;
+}
+.le-added:empty {
+  display: none;
+}
+.le-added {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--st-done);
+  margin-bottom: var(--s2);
+}
+
+/* Clickable requirement rows: the app's row style, not the browser's button. */
+.req-open {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  min-height: var(--hit);
+  align-items: center;
+  padding: var(--s3) var(--row-inset);
+}
+.req-open:focus-visible {
+  outline: 3px solid var(--maroon);
+  outline-offset: -3px;
+}
+.req-chevron {
+  color: var(--muted);
+  margin-left: 2px;
+}
+.req-open:hover .req-name b {
+  color: var(--maroon);
+}
+
+
+/* Collapsible liberal education sections, matching the requirement rows. */
+.le-h3 {
+  margin: 0;
+}
+.le-toggle {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  width: calc(100% + 2 * var(--row-inset));
+  margin-inline: calc(-1 * var(--row-inset));
+  padding: var(--s2) var(--row-inset);
+  min-height: var(--hit);
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  text-align: left;
+  border-radius: var(--radius);
+  transition: background-color var(--fast);
+}
+.le-toggle:hover {
+  background: rgba(122, 0, 25, 0.045);
+}
+.le-toggle:focus-visible {
+  outline: 3px solid var(--maroon);
+  outline-offset: -3px;
+}
+.le-toggle-label {
+  flex: 1;
+}
+.le-chev {
+  color: var(--muted);
+  transition: transform var(--fast);
+}
+.le-toggle[aria-expanded="false"] .le-chev {
+  transform: rotate(-90deg);
+}
+.le-plain {
+  font-weight: 700;
+  font-size: 15px;
+  padding: var(--s2) 0;
+}
+.show-more {
+  margin-top: var(--s3);
+}
+@media (prefers-reduced-motion: reduce) {
+  .le-toggle,
+  .le-chev {
+    transition: none;
+  }
+}

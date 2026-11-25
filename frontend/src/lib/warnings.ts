@@ -10,6 +10,7 @@ export const WARNING_TEXT: Record<string, string> = {
   prerequisites_require_review: "Some prerequisites are written as text the planner can't check. Confirm them before registering.",
   catalog_version_unverified: "Some course details come from an older catalog and may have changed.",
   catalog_metadata_conflict: "Official sources disagree about some courses. Ask your advisor before planning them.",
+  liberal_ed_unplanned: "Some liberal education requirements didn't fit in your plan. Raise your credits per term or move your graduation target, or add courses from the Liberal education panel.",
   graduation_target_unreachable: "This plan doesn't reach your degree credit total yet. Add liberal education and elective courses to close the gap.",
 };
 

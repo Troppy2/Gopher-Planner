@@ -83,7 +83,8 @@ it("uses fresh current credits when an unchanged course was included in a genera
   await act(async () => { await result.current.build(); });
   credits = 2;
   await act(async () => { await result.current.refetch(); });
-  expect(result.current.courses.find(c => c.code === "MINI 1101")?.credits).toBe(2);
+  // The draft re-merges after the refetched plan renders, which can land a tick later on slow runners.
+  await waitFor(() => expect(result.current.courses.find(c => c.code === "MINI 1101")?.credits).toBe(2));
 });
 
 it("keeps a newly added class visible while saving", async () => {

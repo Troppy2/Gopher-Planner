@@ -12,6 +12,8 @@ Discuss large features, data sources, schema changes, or new dependencies in an 
 
 ## Development workflow
 
+Use the [feature implementation checklist](docs/IMPLEMENTING_FEATURES.md) to trace a change from design through storage, API, UI, migrations, and verification. It includes an optional spec outline.
+
 1. Follow the [quick start](README.md#quick-start). Keep credentials local and use a development database.
 2. Work from a fork or a branch agreed with the maintainers.
 3. Read `AGENTS.md` and relevant module documentation for project conventions. If a local `.claude/CLAUDE.md` is present, read it too; that ignored file is not part of a fresh clone.

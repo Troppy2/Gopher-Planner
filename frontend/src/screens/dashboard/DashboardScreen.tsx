@@ -1,19 +1,21 @@
+import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { CalendarDays, RefreshCw } from "lucide-react";
 import { Button, Callout, EmptyState } from "@/ui";
 import { DashboardSkeleton, MetricsSkeleton } from "@/features/loading/ScreenSkeletons";
 import { usePlan } from "@/features/plan/usePlan";
 import { firstFutureIndex, sumCredits } from "@/features/plan/planRules";
-import { ElectiveNote } from "@/features/plan/PlanLabels";
 import { MetricCard, PercentCard } from "./components/MetricCard";
 import { CourseList } from "./components/CourseList";
 import { UserDetails } from "./components/UserDetails";
 import { RequirementProgressPanel } from "./components/RequirementProgressPanel";
+import { LiberalEdPanel } from "./components/LiberalEdPanel";
 import "./dashboard.css";
 
 export default function DashboardScreen() {
   const navigate = useNavigate();
-  const { plan, profile, summary, summaryLoading, summaryError, refetchSummary, courses, isLoading, error, refetch } = usePlan();
+  const [allTerms, setAllTerms] = useState(false);
+  const { plan, profile, summary, summaryLoading, summaryError, refetchSummary, courses, isLoading, error, refetch, addCourse } = usePlan();
 
   if (error) {
     return (
@@ -35,10 +37,10 @@ export default function DashboardScreen() {
 
   if (isLoading) return <DashboardSkeleton />;
 
-  const current = courses.filter((c) => c.status === "prog" || (c.status === "plan" && c.term === plan?.currentTerm));
+  const current = courses.filter((c) => (c.status === "prog" || c.status === "plan") && c.term === plan?.currentTerm);
   const futureTerms = plan ? plan.terms.slice(firstFutureIndex(plan)) : [];
   const future = futureTerms
-    .map((term) => ({ term, list: courses.filter((c) => c.term === term && (c.status === "plan" || c.status === "block")) }))
+    .map((term) => ({ term, list: courses.filter((c) => c.term === term && (c.status === "plan" || c.status === "prog" || c.status === "block")) }))
     .filter((g) => g.list.length);
   const nextTerm = future[0]?.term;
   const hasPlan = courses.some((c) => c.status === "plan" || c.status === "block");
@@ -84,12 +86,14 @@ export default function DashboardScreen() {
           >
             {`${Math.max(0, summary.creditsTotal - summary.creditsCompleted)} credits remaining`}
             {!isLoading && <span className="dashboard-credit-breakdown">{sumCredits(courses.filter(c => c.status === "prog"))} in progress · {sumCredits(courses.filter(c => c.status === "plan"))} planned</span>}
+            {!!plan?.electiveCredits && plan.electiveCredits > 0 && (
+              <span className="dashboard-credit-breakdown">{plan.electiveCredits} more credits of free electives to plan</span>
+            )}
           </MetricCard>
           <PercentCard className="g5" percent={summary.percentComplete} total={summary.creditsTotal} source={summary.source} />
         </div>
       )}
 
-      <ElectiveNote credits={plan?.electiveCredits} />
       <div className="dcols">
         <div className="dcol">
             <section className="card surf" aria-labelledby="cur-h">
@@ -120,12 +124,19 @@ export default function DashboardScreen() {
               {isLoading ? (
                 <p className="muted">Loading plan…</p>
               ) : future.length ? (
-                future.map((g) => (
-                  <div key={g.term} className="term-group">
-                    <h3 className="term">{g.term}</h3>
-                    <CourseList courses={g.list} />
-                  </div>
-                ))
+                <>
+                  {(allTerms ? future : future.slice(0, 2)).map((g) => (
+                    <div key={g.term} className="term-group">
+                      <h3 className="term">{g.term}</h3>
+                      <CourseList courses={g.list} future />
+                    </div>
+                  ))}
+                  {future.length > 2 && (
+                    <Button variant="ghost" size="sm" className="show-more" aria-expanded={allTerms} onClick={() => setAllTerms(!allTerms)}>
+                      {allTerms ? "Show fewer terms" : `Show ${future.length - 2} more terms`}
+                    </Button>
+                  )}
+                </>
               ) : (
                 <div className="empty-inline">
                   <p className="muted">No planned classes yet.</p>
@@ -135,6 +146,14 @@ export default function DashboardScreen() {
                 </div>
               )}
             </section>
+            {plan && (
+              <LiberalEdPanel
+                plan={plan}
+                profile={profile}
+                courses={courses}
+                onAdd={addCourse}
+              />
+            )}
         </div>
       </div>
     </div>

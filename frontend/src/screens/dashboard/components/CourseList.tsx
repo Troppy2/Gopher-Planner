@@ -4,7 +4,8 @@ import { useCourseParam } from "@/features/course-detail/useCourseParam";
 import { credits } from "@/lib/format";
 import { SlotTag } from "@/features/plan/PlanLabels";
 
-export function CourseList({ courses }: { courses: Course[] }) {
+/** ``future``: the list is a later term, so in-progress courses there are registrations. */
+export function CourseList({ courses, future = false }: { courses: Course[]; future?: boolean }) {
   const { open } = useCourseParam();
   return (
     <ul className="clist-d">
@@ -18,7 +19,7 @@ export function CourseList({ courses }: { courses: Course[] }) {
             </span>
             <span className="crow-meta">
               <span className="num">{credits(c.credits)}</span>
-              <StatusBadge status={c.status} />
+              <StatusBadge status={c.status} label={future && c.status === "prog" ? "Registered" : undefined} />
             </span>
           </button>
         </li>
