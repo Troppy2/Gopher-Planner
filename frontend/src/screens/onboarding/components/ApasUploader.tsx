@@ -4,6 +4,7 @@ import { uploadTranscript } from "@/api/endpoints";
 import type { Transcript } from "@/api/types";
 import { Button, Callout, Dropzone, Spinner } from "@/ui";
 import { useOnboarding } from "../onboarding.store";
+import { toManualCourse } from "../coursework";
 
 const MAX_BYTES = 10 * 1024 * 1024;
 const sizeLabel = (b: number) => (b > 1024 * 1024 ? `${(b / 1024 / 1024).toFixed(1)} MB` : `${Math.max(1, Math.round(b / 1024))} KB`);
@@ -16,16 +17,17 @@ interface Props {
 
 export function ApasUploader({ transcript, transcriptError, onManual }: Props) {
   const { upload, setUpload, setManual } = useOnboarding();
-  const [fileError, setFileError] = useState("");
+  // A rejected file and a failed upload need different titles: only the first is the student's file.
+  const [fileError, setFileError] = useState<{ title: string; detail: string } | null>(null);
 
   const start = async (file: File) => {
-    setFileError("");
+    setFileError(null);
     if (file.type && file.type !== "application/pdf" && !file.name.toLowerCase().endsWith(".pdf")) {
-      setFileError("That file isn't a PDF. Export your APAS report as a PDF and try again.");
+      setFileError({ title: "Couldn't use that file", detail: "That file isn't a PDF. Export your APAS report as a PDF and try again." });
       return;
     }
     if (file.size > MAX_BYTES) {
-      setFileError("That PDF is over 10 MB. Try exporting only the APAS report pages.");
+      setFileError({ title: "Couldn't use that file", detail: "That PDF is over 10 MB. Try exporting only the APAS report pages." });
       return;
     }
     setUpload({ fileName: file.name, sizeLabel: sizeLabel(file.size), transcriptId: null });
@@ -34,12 +36,12 @@ export function ApasUploader({ transcript, transcriptError, onManual }: Props) {
       useOnboarding.setState((s) => (s.upload ? { upload: { ...s.upload, transcriptId: id } } : s));
     } catch (error) {
       setUpload(null);
-      setFileError(error instanceof Error ? error.message : "The upload failed. Try again.");
+      setFileError({ title: "The upload didn't finish", detail: error instanceof Error ? error.message : "Try again." });
     }
   };
 
   const correct = () => {
-    setManual((transcript?.courses ?? []).map((course) => ({ code: course.code, title: course.title, credits: course.credits, status: course.status })));
+    setManual((transcript?.courses ?? []).map(toManualCourse));
     onManual();
   };
 
@@ -88,7 +90,7 @@ export function ApasUploader({ transcript, transcriptError, onManual }: Props) {
         <p className="muted">Scanned pages can take up to a minute while we recognize the text.</p>
       )}
 
-      {fileError && <Callout tone="error" title="Couldn't use that file">{fileError}</Callout>}
+      {fileError && <Callout tone="error" title={fileError.title}>{fileError.detail}</Callout>}
       {transcriptError && <Callout tone="error" title="We couldn't check your upload.">{transcriptError.message}</Callout>}
 
       {status === "parsed" && transcript && (

@@ -1,4 +1,4 @@
-import { useId, useState } from "react";
+import { useId, useRef, useState } from "react";
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import { Plus, X } from "lucide-react";
 import { getCourses } from "@/api/endpoints";
@@ -9,6 +9,7 @@ import { useOnboarding } from "../onboarding.store";
 export function ManualEntry() {
   const id = useId();
   const [q, setQ] = useState("");
+  const search = useRef<HTMLInputElement>(null);
   const { manual, addManual, setManualStatus, removeManual } = useOnboarding();
 
   const { data, isFetching } = useQuery({
@@ -35,6 +36,7 @@ export function ManualEntry() {
         </label>
         <div className="inline-search">
           <input
+            ref={search}
             id={id}
             className="input"
             value={q}
@@ -60,9 +62,11 @@ export function ManualEntry() {
                 <Button
                   variant="ghost"
                   size="sm"
-                  onClick={() =>
-                    addManual({ code: c.code, title: c.title, credits: c.minimumCredits, status: "done" })
-                  }
+                  onClick={() => {
+                    addManual({ code: c.code, title: c.title, credits: c.minimumCredits, status: "done" });
+                    // The added row leaves the results, so keep focus from falling back to the page.
+                    search.current?.focus();
+                  }}
                   aria-label={`Add ${c.code}`}
                 >
                   <Plus className="ic sm" aria-hidden />

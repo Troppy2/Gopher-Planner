@@ -15,6 +15,9 @@ export interface ManualCourse {
   /** From the catalog result, so saved coursework never guesses credits. */
   credits: number;
   status: "done" | "prog";
+  /** Kept from an uploaded transcript so correcting a row does not drop its term or grade. */
+  term?: string | null;
+  grade?: string | null;
 }
 
 export interface ProfileDraft {

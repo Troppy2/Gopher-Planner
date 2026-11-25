@@ -10,7 +10,7 @@ import { StepHeader } from "./components/StepHeader";
 import { ImportChoice } from "./components/ImportChoice";
 import { ApasUploader } from "./components/ApasUploader";
 import { ManualEntry } from "./components/ManualEntry";
-import { toCourseworkEntries } from "./coursework";
+import { toCourseworkEntries, toManualCourse } from "./coursework";
 import { useOnboarding } from "./onboarding.store";
 import "./onboarding.css";
 
@@ -37,10 +37,13 @@ export default function CourseworkScreen() {
     restored.current = true;
     const rows = saved.data.courses.filter((course) => course.source !== "transcript");
     if (!manual.length && !upload && rows.length) {
-      setManual(rows.map((course) => ({ code: course.code, title: course.title, credits: course.credits, status: course.status })));
+      setManual(rows.map(toManualCourse));
       setMethod("manual");
     }
   }, [saved.data, manual.length, upload, setManual, setMethod]);
+
+  // A Continue error describes what was missing; drop it once the student acts on it.
+  useEffect(() => setError(""), [manual.length, upload]);
 
   const save = useMutation({
     mutationFn: (body: Coursework) => saveCoursework(body),
@@ -52,6 +55,8 @@ export default function CourseworkScreen() {
   });
 
   const status = transcript.data?.status;
+  // Skip saves an empty list, so say how much it replaces.
+  const existing = Math.max(saved.data?.courses.length ?? 0, manual.length);
   const busy = save.isPending || (method === "upload" && !!upload && (!transcript.data || status === "parsing"));
 
   const onContinue = () => {
@@ -98,6 +103,11 @@ export default function CourseworkScreen() {
           <Callout tone="info" title="Standard four-year plan">
             We build it from your major's requirements. You can add coursework any time from Settings.
           </Callout>
+          {existing > 0 && (
+            <Callout tone="warn" title={`Skipping removes the ${existing} ${existing === 1 ? "course" : "courses"} you already added.`}>
+              Choose another option above to keep them.
+            </Callout>
+          )}
         </div>
       )}
 

@@ -206,4 +206,17 @@
   .actions .btn {
     flex: 1;
   }
+  /* Status controls always sit on their own line so short and long titles line up the same. */
+  .mrow > .row {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+/* A floated legend becomes a normal grid row instead of sitting on the panel's border. */
+.panel > legend {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }

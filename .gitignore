@@ -7,3 +7,9 @@ instance/
 .playwright-mcp/
 backend/.test-tmp*/
 *.log
+
+# Local UX audit screenshots
+docs/onboarding-ux/
+
+# Tool caches
+backend/node_modules/

@@ -36,6 +36,16 @@ describe("toCourseworkEntries", () => {
       { code: "MATH 1271", title: "Calculus", credits: 4, status: "prog", term: "Fall 2026", grade: null },
     ]);
   });
+
+  it("keeps the term and grade of a corrected transcript course", () => {
+    expect(toCourseworkEntries([
+      { code: "CSCI 1133", title: "Intro", credits: 4, status: "done", term: "Fall 2025", grade: "A" },
+      { code: "MATH 1271", title: "Calculus", credits: 4, status: "prog", term: "Spring 2026", grade: "B" },
+    ], "Fall 2026")).toEqual([
+      { code: "CSCI 1133", title: "Intro", credits: 4, status: "done", term: "Fall 2025", grade: "A" },
+      { code: "MATH 1271", title: "Calculus", credits: 4, status: "prog", term: "Fall 2026", grade: null },
+    ]);
+  });
 });
 
 describe("CourseworkScreen", () => {
