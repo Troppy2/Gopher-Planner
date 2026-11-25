@@ -86,7 +86,7 @@ No registration handoff is implemented. Establish what the university supports b
 
 - Hosting the API: CD publishes the image and runs migrations, but deploys it only once a host's deploy hook is configured.
 - Operational monitoring, backup/restore and retention procedures. (`/ready` checks the database.)
-- Expired-session cleanup and account/session management. Rate limits exist for sign-in, transcript upload and plan generation.
+- Account/session management. Expired and revoked sessions are pruned at each sign-in; a scheduled cleanup for users who never return does not exist. Rate limits exist for sign-in, transcript upload and plan generation.
 - Finishing input-option validation and resolving remaining configuration/dependency cleanup.
 
 These are gaps, not claims of production safeguards already being provided.

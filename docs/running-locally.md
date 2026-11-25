@@ -113,7 +113,6 @@ DATABASE_URL=postgresql+psycopg://gopher_planner:your_local_database_password@lo
 
 GOOGLE_CLIENT_ID=your-client-id.apps.googleusercontent.com
 FRONTEND_ORIGIN=http://localhost:5173
-JWT_SECRET=a_long_random_string
 COOKIE_SECURE=false
 
 VITE_GOOGLE_CLIENT_ID=your-client-id.apps.googleusercontent.com
@@ -121,7 +120,7 @@ VITE_GOOGLE_CLIENT_ID=your-client-id.apps.googleusercontent.com
 
 Notes:
 
-- `GOOGLE_CLIENT_ID` and `JWT_SECRET` are required. The backend refuses to start without them.
+- `GOOGLE_CLIENT_ID` is required. The backend refuses to start without it. An old `JWT_SECRET` value is ignored and can be removed.
 - `FRONTEND_ORIGIN` must match the URL you open the frontend at. Use `http://localhost:5173` for the dev server, or `http://localhost:3000` for the Docker frontend.
 - In development, `DATABASE_URL` is optional. If it is empty, the backend creates a SQLite database at `backend/instance/dev.db`. If it is set, PostgreSQL must be running.
 - `VITE_GOOGLE_CLIENT_ID` must be the same OAuth client ID as `GOOGLE_CLIENT_ID`.
@@ -292,7 +291,7 @@ The API container also runs `flask --app app db upgrade` on startup through `bac
 
 ## Troubleshooting
 
-**`Missing required environment variables: GOOGLE_CLIENT_ID, JWT_SECRET`**
+**`Missing required environment variables: GOOGLE_CLIENT_ID`**
 
 The environment is missing required values. The backend reads existing process variables first, then `backend/.env`, then root `.env`. Check the intended local configuration without printing its contents or committing secrets.
 

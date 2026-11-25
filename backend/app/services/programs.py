@@ -86,7 +86,8 @@ def list_programs(*, directory=None):
     """Supported programs for selection: profile name, official name and catalog terms, without requirements."""
     index = _index(directory)
     names = sorted({name for name, _ in index})
-    return [{"name": name,
+    return [{"id": next(program["id"] for (other, _), program in index.items() if other == name),
+             "name": name,
              "officialName": next(program.get("officialName", name) for (other, _), program in index.items() if other == name),
              "catalogTerms": available_catalog_terms(name, directory=directory),
              "reviewed": any(program.get("officialProgramId") in REVIEWED_PROGRAM_IDS

@@ -72,7 +72,7 @@ Copy-Item backend/.env.example backend/.env
 Copy-Item frontend/.env.example frontend/.env
 ```
 
-Edit the copied files locally. Use the same Google client ID in both, set a random `JWT_SECRET`, and set `FRONTEND_ORIGIN=http://localhost:5173` in the backend file.
+Edit the copied files locally. Use the same Google client ID in both and set `FRONTEND_ORIGIN=http://localhost:5173` in the backend file.
 
 For local SQLite development, replace the sample Supabase URL in `backend/.env` with:
 
@@ -135,7 +135,6 @@ With `FLASK_ENVIRONMENT=development` (the Compose default), the API container ap
 | Variable | Purpose |
 | --- | --- |
 | `GOOGLE_CLIENT_ID` | Required backend Google OAuth audience. |
-| `JWT_SECRET` | Required by current configuration, although authentication uses opaque sessions rather than JWTs. Cleanup is tracked in #12. |
 | `DATABASE_URL` | `postgresql+psycopg://...` or SQLite URL. Required in production mode; development can fall back to SQLite. |
 | `FRONTEND_ORIGIN` | Exact allowed browser origin, including port. Currently one origin is supported. |
 | `COOKIE_SECURE` | `false` for local HTTP; `true` for HTTPS deployments. |

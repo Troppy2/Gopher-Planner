@@ -14,6 +14,7 @@ from app.api.v1.reports import reports_bp
 from app.api.v1.summary import summary_bp
 from app.api.v1.coursework import coursework_bp
 from app.api.v1.plan import plan_bp
+from app.api.v1.options import options_bp
 from app.api.v1.transcripts import transcripts_bp
 from app.api.v1.liberal_ed import liberal_ed_bp
 from app.core.config import Settings
@@ -58,6 +59,7 @@ def create_app() -> Flask:
     app.register_blueprint(summary_bp)
     app.register_blueprint(coursework_bp)
     app.register_blueprint(plan_bp)
+    app.register_blueprint(options_bp)
     app.register_blueprint(transcripts_bp)
     app.register_blueprint(liberal_ed_bp)
 

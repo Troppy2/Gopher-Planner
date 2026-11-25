@@ -17,7 +17,6 @@ load_dotenv(REPO_ROOT / ".env")
 class Settings:
     google_client_id: str
     frontend_origin: str
-    jwt_secret: str
     cookie_secure: bool
     database_url: str
 
@@ -28,7 +27,6 @@ class Settings:
             "FRONTEND_ORIGIN",
             "http://localhost:3000",
         ).strip().rstrip("/")
-        jwt_secret = os.getenv("JWT_SECRET", "").strip()
         database_url = os.getenv("DATABASE_URL", "").strip()
         environment = os.getenv(
             "FLASK_ENVIRONMENT",
@@ -42,7 +40,6 @@ class Settings:
             name
             for name, value in (
                 ("GOOGLE_CLIENT_ID", google_client_id),
-                ("JWT_SECRET", jwt_secret),
             )
             if not value
         ]
@@ -78,7 +75,6 @@ class Settings:
         return cls(
             google_client_id=google_client_id,
             frontend_origin=frontend_origin,
-            jwt_secret=jwt_secret,
             cookie_secure=cookie_secure,
             database_url=database_url,
         )

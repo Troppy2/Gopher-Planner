@@ -8,6 +8,9 @@ import { queryKeys } from "@/api/queryKeys";
 import { usePlanDraft } from "@/features/plan/plan.store";
 import SettingsScreen from "./SettingsScreen";
 
+const options = (majors: string[]) => ({ majors, unverifiedMajors: majors, standings: ["Freshman", "Sophomore", "Junior", "Senior"],
+  graduationTargets: ["Spring 2030"], subjects: [], careers: {} });
+
 beforeEach(() => usePlanDraft.getState().clear());
 
 it("refreshes the plan and clears the old major draft when switching majors and back", async () => {
@@ -15,7 +18,7 @@ it("refreshes the plan and clears the old major draft when switching majors and 
   server.use(
     http.get(api("/profile"), () => HttpResponse.json(profile)),
     http.put(api("/profile"), async ({ request }) => { profile = { ...profile, ...await request.json() as object }; return HttpResponse.json(profile); }),
-    http.get(api("/programs"), () => HttpResponse.json({ programs: ["Synthetic Alpha B.S.", "Synthetic Beta B.S."].map(name => ({ name, reviewed: false })) })),
+    http.get(api("/options"), () => HttpResponse.json(options(["Synthetic Alpha B.S.", "Synthetic Beta B.S."]))),
     http.get(api("/coursework"), () => HttpResponse.json({ courses: [], skipped: false })),
   );
   const { client } = renderWithProviders(<SettingsScreen />);
@@ -39,7 +42,7 @@ it("lets users retry a failed major list", async () => {
   server.use(
     http.get(api("/profile"), () => HttpResponse.json({ name: "Synthetic Student", major: "Synthetic Alpha B.S.", standing: "Freshman", careerGoals: "", creditLoad: 15, graduationTarget: "Spring 2030", onboarded: true })),
     http.put(api("/profile"), async ({ request }) => HttpResponse.json({ ...await request.json() as object, onboarded: true })),
-    http.get(api("/programs"), () => available ? HttpResponse.json({ programs: [{ name: "Synthetic Beta B.S.", reviewed: false }] }) : HttpResponse.json({ error: "Unavailable" }, { status: 503 })),
+    http.get(api("/options"), () => available ? HttpResponse.json(options(["Synthetic Beta B.S."])) : HttpResponse.json({ error: "Unavailable" }, { status: 503 })),
     http.get(api("/coursework"), () => HttpResponse.json({ courses: [], skipped: false })),
   );
   renderWithProviders(<SettingsScreen />);

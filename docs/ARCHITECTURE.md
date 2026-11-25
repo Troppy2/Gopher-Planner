@@ -193,7 +193,7 @@ PostgreSQL migrations enable row-level security on application tables, but that 
 5. It creates a cryptographically random opaque token, stores its SHA-256 hash in `user_sessions`, and returns `gp_session` as an HttpOnly, SameSite=Lax cookie. Secure behavior is configurable.
 6. Future requests look up an active, unexpired, unrevoked session by token hash. Current sessions last seven days.
 
-`JWT_SECRET` is still a required configuration value, but the implemented authentication path uses database-backed opaque sessions, not client JWT authorization. Removing the unused setting/dependency is tracked as cleanup.
+Authentication uses database-backed opaque sessions, not JWTs; there is no `JWT_SECRET` setting. At each sign-in, the user's expired and revoked sessions are deleted.
 
 State-changing routes require the exact configured frontend `Origin`; CORS permits that origin with credentials. Same-origin proxying simplifies browser cookie behavior. Frontend requests include credentials explicitly.
 
@@ -329,6 +329,7 @@ The base prefix is `/api/v1`, except `/health`. Catalog/program endpoints are al
 | `POST /transcripts` | Multipart PDF import. | `api/v1/transcripts.py` |
 | `GET /transcripts/<id>` | Owner-filtered status and imported-course result. | `api/v1/transcripts.py` |
 | `GET /programs` | Supported program/version summaries and review state. | `api/v1/plan.py` |
+| `GET /programs/<id>/graph` | Course nodes and prerequisite edges for one program version (`catalogTerm` required when several exist). Free-text prerequisites produce no edges. | `api/v1/plan.py` |
 | `GET`, `PUT /plan` | Read the assembled plan or validate/persist edits. | `api/v1/plan.py` |
 | `POST /plans/generate` | Generate a preview or persisted plan. | `api/v1/plan.py` |
 | `GET /courses` | Search/filter/paginate catalog records, including LE filtering. | `api/v1/courses.py` |

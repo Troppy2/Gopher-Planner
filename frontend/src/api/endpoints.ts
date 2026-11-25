@@ -1,6 +1,5 @@
-// Every screen reads data through these functions. All planner features use the real API
-// through `apiRequest`. Only `getOptions` still reads mock data (issue #9).
-import { db, delay } from "./mock/mockDb";
+// Every screen reads data through these functions. All features use the real API
+// through `apiRequest`.
 import { ApiError, apiRequest, apiUrl } from "./client";
 import type {
   DataReport,
@@ -91,18 +90,10 @@ export const deleteAccount = () =>
 export const getPrograms = () => apiRequest<{ programs: ProgramSummary[] }>("/programs");
 
 /**
- * Select options. Standings, graduation targets, subjects and careers are still mock data
- * until a real options endpoint exists (issue #9). Majors come from the supported program
- * files so every undergraduate major can be selected.
+ * GET /api/v1/options: majors from the supported program files, plus standings,
+ * graduation targets, catalog subjects and career suggestions (issue #9).
  */
-export async function getOptions(): Promise<Options> {
-  await delay(100);
-  const options = clone(db.options);
-  const { programs } = await getPrograms();
-  options.majors = programs.map((program) => program.name);
-  options.unverifiedMajors = programs.filter((program) => !program.reviewed).map((program) => program.name);
-  return options;
-}
+export const getOptions = () => apiRequest<Options>("/options");
 
 /** GET /api/v1/coursework */
 export const getCoursework = () => apiRequest<Coursework>("/coursework");
