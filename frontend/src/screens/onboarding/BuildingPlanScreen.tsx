@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useId, useState } from "react";
 import { Link, useNavigate } from "react-router";
+import { ArrowLeft } from "lucide-react";
 import { StepHeader } from "./components/StepHeader";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { generatePlan, getPlan, updateProfile } from "@/api/endpoints";
@@ -58,7 +59,17 @@ export default function BuildingPlanScreen() {
   }, [confirmed, result, failed, running, finished, run]);
 
   const versionProblem = result?.warnings.some((code) => VERSION_WARNINGS.includes(code));
+  const choosing = !!plan.data && ((needsChoice && confirmed === undefined) || !!versionProblem);
   const done = finished ? 4 : result ? 3 : confirmed !== undefined ? 2 : plan.data ? 1 : 0;
+  // Nothing is running while the student picks a catalog year or after a failure.
+  const paused = (choosing && !running) || failed || !!plan.error;
+  const subtitle = finished
+    ? "Review it on your dashboard."
+    : choosing && !running
+      ? "One choice before we finish."
+      : failed
+        ? "Something went wrong."
+        : "This takes a few seconds.";
   const warnings = (result?.warnings ?? []).filter((code) => !VERSION_WARNINGS.includes(code));
   const navigate = useNavigate();
   // Nothing to read on this screen once the plan is ready, so go straight to the dashboard.
@@ -73,18 +84,18 @@ export default function BuildingPlanScreen() {
         {finished ? "Your plan is ready" : "Building your plan"}
       </h1>
       <p className="sub" role="status">
-        {finished ? "Review it on your dashboard." : needsChoice && confirmed === undefined ? "One choice before we start." : "This takes a few seconds."}
+        {subtitle}
       </p>
       <div className="gen surf">
         <ProgressBar label="Plan progress" value={done} max={STEPS.length} />
-        <StepList steps={STEPS} done={done} />
+        <StepList steps={STEPS} done={done} paused={paused} />
       </div>
 
       {plan.error && (
         <Callout tone="error" title="We couldn't load your plan.">{plan.error.message}</Callout>
       )}
 
-      {((needsChoice && confirmed === undefined) || versionProblem) && plan.data && (
+      {choosing && (
         <fieldset className="panel surf">
           <legend className="h2">Choose the catalog year you follow</legend>
           <p className="muted">
@@ -127,7 +138,15 @@ export default function BuildingPlanScreen() {
         </div>
       )}
       <div className="actions">
-        <span />
+        {/* Back stays available until the plan is saved, so a wrong major or target can be fixed. */}
+        {!finished && !running ? (
+          <Button variant="ghost" onClick={() => navigate("/onboarding/profile")}>
+            <ArrowLeft className="ic sm" aria-hidden />
+            Back
+          </Button>
+        ) : (
+          <span />
+        )}
         {failed ? (
           <Button onClick={() => void run(confirmed ?? null)}>Try again</Button>
         ) : finished ? (

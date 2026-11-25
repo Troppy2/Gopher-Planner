@@ -108,14 +108,15 @@ export function DemoToggle({ children }: { children: ReactNode }) {
 }
 
 /** Step list for plan generation. Steps flip from pending to done; nothing slides or types. */
-export function StepList({ steps, done }: { steps: string[]; done: number }) {
+/** `paused` stops the current step's spinner while work waits on the user or has failed. */
+export function StepList({ steps, done, paused = false }: { steps: string[]; done: number; paused?: boolean }) {
   return (
     <ol className="steps-list">
       {steps.map((s, i) => (
-        <li key={s} className={cn("gstep", i < done && "done", i === done && "active")}>
-          <span className="dot">{i < done ? <Check className="ic" aria-hidden /> : i === done ? <Spinner /> : null}</span>
+        <li key={s} className={cn("gstep", i < done && "done", i === done && !paused && "active")}>
+          <span className="dot">{i < done ? <Check className="ic" aria-hidden /> : i === done && !paused ? <Spinner /> : null}</span>
           {s}
-          <span className="vh">{i < done ? ", done" : i === done ? ", in progress" : ", waiting"}</span>
+          <span className="vh">{i < done ? ", done" : i === done && !paused ? ", in progress" : ", waiting"}</span>
         </li>
       ))}
     </ol>
