@@ -84,6 +84,14 @@ def test_course_prerequisites_accept_done_in_progress_or_strictly_earlier_planne
     assert check(course("A 1001"), planned={"A 1001": 6}).missing == ["A 1001"]
 
 
+def test_concurrent_course_prerequisites_also_accept_the_same_term():
+    same = {"type": "course", "course_code": "A 1001", "concurrent": True}
+    assert check(same, planned={"A 1001": 5}).ok
+    assert check(same, planned={"A 1001": 4}).ok
+    assert not check(same, planned={"A 1001": 6}).ok
+    assert not check(course("A 1001"), planned={"A 1001": 5}).ok
+
+
 def test_nested_all_and_any_prerequisite_trees():
     tree = {"type": "all_of", "requirements": [course("A 1001"), {"type": "any_of", "requirements": [course("B 1001"), course("C 1001")]}]}
     assert check(tree, done_codes={"A 1001", "C 1001"}).ok
@@ -361,6 +369,22 @@ def test_elective_pools_prefer_lower_level_courses_when_otherwise_equal():
     pool = {"id": "pool", "type": "credits", "courseSet": "pool", "minCredits": 3, "sourceRef": "s"}
     program = inline([grp("electives", pool, "Elective")], sets={"pool": {"codes": ["POOL 5001", "POOL 4001"], "sourceRef": "s"}})
     assert set(placed(generate(program))) == {"POOL 4001"}
+
+
+def test_elective_pools_rank_restricted_enrollment_last():
+    pool = {"id": "pool", "type": "credits", "courseSet": "pool", "minCredits": 3, "sourceRef": "s"}
+    program = inline([grp("electives", pool, "Elective")],
+                     sets={"pool": {"codes": ["POOL 1001H", "POOL 1471", "POOL 3001"], "sourceRef": "s"}},
+                     metadata={"POOL 1471": {"title": "UM Talented Youth Mathematics Program--Calculus I"}})
+    assert set(placed(generate(program))) == {"POOL 3001"}
+
+
+def test_elective_pools_skip_the_honors_twin_of_a_course_already_taken():
+    pool = {"id": "pool", "type": "credits", "courseSet": "pool", "minCredits": 6, "sourceRef": "s"}
+    program = inline([grp("electives", pool, "Elective")],
+                     sets={"pool": {"codes": ["POOL 1001H", "POOL 4002", "POOL 1001"], "sourceRef": "s"}})
+    result = generate(program, [done("POOL 1001")])
+    assert set(placed(result)) == {"POOL 4002"}
 
 
 @pytest.mark.parametrize("marker", [{"preferred": True}, {"label": "Physics II (Preferred)"}])
@@ -722,3 +746,59 @@ def test_upper_division_electives_move_earlier_only_when_the_second_half_is_full
     electives = {code: term for code, term in placed(result).items() if code.startswith("ELEC 3") and code != "ELEC 3000"}
     assert len(electives) == 3
     assert all(terms.index(term) >= 1 for term in electives.values())  # never the first semester
+
+
+def test_class_standing_conditions_imply_earned_credits_only_when_required():
+    from app.services.planning.prerequisites import standing_credits
+
+    def cond(text):
+        return {"type": "condition", "text": text}
+
+    assert standing_credits(cond("ME upper div, instr consent")) == 60
+    assert standing_credits(cond("CSOM, soph or jr")) == 30
+    assert standing_credits(cond("CSE sr or grad student")) == 90
+    assert standing_credits({"type": "all_of", "requirements": [course("A 1001"), cond("At least 60 credits")]}) == 60
+    assert standing_credits({"type": "any_of", "requirements": [course("A 1001"), cond("jr")]}) == 0
+    assert standing_credits(cond("Max 18 cr per semester")) == 0
+    assert standing_credits(cond("Honors student")) == 0
+    assert standing_credits(cond("CSE lower division or ME upper division")) == 0
+    assert standing_credits(cond("Carlson School student, non-FRFY, jr")) == 60
+
+
+def test_standing_restricted_courses_wait_until_the_student_has_the_credits():
+    standing = {"prerequisites": {"expression": {"type": "condition", "text": "Upper division standing"}, "sourceRef": "s"}}
+    program = inline([grp("core", crs("late", "LATE 4001"))], metadata={"LATE 4001": standing})
+    terms = ["Fall 2026", "Spring 2027", "Fall 2027", "Spring 2028", "Fall 2028"]
+    assert placed(generate(program, load_limit=15, terms=terms))["LATE 4001"] == "Fall 2028"
+    assert placed(generate(program, load_limit=15, terms=terms, base=60))["LATE 4001"] == "Fall 2026"
+
+
+def test_a_concurrent_prerequisite_is_placed_with_its_course_not_earlier():
+    lab = {"prerequisites": {"expression": {"type": "course", "course_code": "CHEM 1061", "concurrent": True}, "sourceRef": "s"}}
+    program = inline([grp("core", crs("lab", "CHEM 1065"))], metadata={"CHEM 1065": lab, "CHEM 1061": {}})
+    from app.services.planning.generate import Planner
+    planner = Planner(program, [], metadata_for(program), TERMS, 7)
+    assert planner.place("CHEM 1065", start=2)
+    assert planner.planned == {"CHEM 1061": 2, "CHEM 1065": 2}
+
+
+def test_a_menu_of_different_courses_is_not_a_set_of_equivalents():
+    from app.services.metadata import program_equivalents
+    program = calculus_program()
+    menu = {"w": {"codes": ["CSCI 3081W", "CSCI 3921W", "CSCI 4271W"], "sourceRef": "s"}}
+    cross = {"x": {"codes": ["BA 3062", "IBUS 3062"], "sourceRef": "s"}}
+    program["courseSets"].update(menu | cross)
+    for name in ("w", "x"):
+        rule = {"id": f"{name}-cap", "type": "count", "courseSet": name, "minCourses": 1, "maxCourses": 1, "sourceRef": "s"}
+        program["groups"].append(grp(name, rule))
+    equivalents = program_equivalents(program)
+    assert "CSCI 4271W" not in equivalents and "CSCI 3081W" not in equivalents
+    assert equivalents["BA 3062"] == {"BA 3062", "IBUS 3062"}  # a cross-listing shares the number
+    assert equivalents["MATH 1372"] == {"MATH 1272", "MATH 1372"}
+
+
+def test_a_course_never_counts_toward_its_own_prerequisite():
+    from app.services.metadata import with_equivalents
+    expression = {"type": "course", "course_code": "CSCI 1133"}
+    expanded = with_equivalents(expression, {"CSCI 1133": {"CSCI 1133", "CSCI 1133H"}}, owner="CSCI 1133H")
+    assert expanded == expression

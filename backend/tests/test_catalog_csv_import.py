@@ -78,7 +78,7 @@ def test_text_only_prerequisites_warn_but_never_block(app, catalog, tmp_path):
     from app.services.metadata import resolve_course
 
     import_catalog(catalog, extra_csv=write_csv(tmp_path / "all.csv", [
-        row("CHEM 1061", prerequisite_text="MATH 1031"), row("HIST 1001")]))
+        row("CHEM 1061", prerequisite_text="MATH 1031 or instructor consent"), row("HIST 1001")]))
     rows = find_courses(["CHEM 1061", "HIST 1001"])
     chem = resolve_course("CHEM 1061", None, rows["CHEM 1061"])
     assert chem["blockedReason"] is None
@@ -126,3 +126,60 @@ def test_le_queries_report_coverage_and_suggest_prerequisite_free_courses_in_sea
     assert suggest_le_course(["Global Perspectives"], season="Spring", exclude=set())[0] == "GLOB 1002"
     assert suggest_le_course(["Global Perspectives"], season="Fall", exclude={"HIST 1001"})[0] == "GLOB 3001"
     assert suggest_le_course(["Literature"], season="Fall", exclude=set()) is None
+
+
+def test_le_suggestions_skip_restricted_courses_and_prefer_yearly_offerings(app, catalog, tmp_path):
+    from app.repositories.catalog import le_candidates, open_to_any_undergraduate, suggest_le_course
+    from app.services.catalog_import import import_catalog
+
+    import_catalog(catalog, extra_csv=write_csv(tmp_path / "all.csv", [
+        row("GLOB 1001H", le_attributes="Global Perspectives"),
+        row("GLOB 1905", le_attributes="Global Perspectives", title="Freshman Seminar"),
+        row("GLOB 5001", le_attributes="Global Perspectives"),
+        row("GLOB 1102", le_attributes="Global Perspectives", typically_offered="Periodic Fall"),
+        row("GLOB 3003", le_attributes="Global Perspectives", typically_offered="Every Fall"),
+    ]))
+    assert not open_to_any_undergraduate("GLOB 1001H", "Honors")
+    assert not open_to_any_undergraduate("GLOB 1905", "Topics: Freshman Seminar")
+    assert not open_to_any_undergraduate("GLOB 5001", "Graduate topics")
+    assert open_to_any_undergraduate("GLOB 3003", "Global topics")
+    assert suggest_le_course(["Global Perspectives"], season="Fall", exclude=set())[0] == "GLOB 3003"
+    pool = [code for code, _ in le_candidates([("Global", {"Global Perspectives"})], exclude=set())]
+    assert pool == ["GLOB 1102", "GLOB 3003"]
+
+
+def test_fully_parsed_prerequisites_become_trees_and_unknown_courses_stay_text(app, catalog, tmp_path):
+    from app.services.catalog_import import import_catalog
+
+    import_catalog(catalog, extra_csv=write_csv(tmp_path / "all.csv", [
+        row("HIST 1001"), row("HIST 3001", prerequisite_text="1001 or 1002"),
+        row("HIST 3002", prerequisite_text="HIST 1001, GONE 1000")]))
+    later = by_code("HIST 3001")
+    assert later.prerequisite_status == "found"
+    assert json.loads(later.prerequisite_json)["requirements"] == {"type": "course", "course_code": "HIST 1001"}
+    assert by_code("HIST 3002").prerequisite_status == "text_only"
+
+
+def test_enforced_requirements_and_reviewed_trees_take_precedence(app, catalog, tmp_path):
+    from app.services.catalog_import import import_catalog
+
+    requisites = tmp_path / "requisites.csv"
+    with requisites.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, ["term", "strm", "code", "course_id", "requirement_group", "requirement_text",
+                                         "sections", "source_url", "retrieved_at_utc"])
+        writer.writeheader()
+        for code, text in [("NSCI 3101", "NSci 2001 or 2101"), ("NSCI 3102", "Neuroscience majors only")]:
+            writer.writerow({"term": "Spring 2027", "strm": "1273", "code": code, "course_id": "1", "requirement_group": "1",
+                             "requirement_text": text, "sections": 1, "source_url": "https://example.test",
+                             "retrieved_at_utc": "2026-11-24T00:00:00+00:00"})
+    reviewed = tmp_path / "reviewed.json"
+    reviewed.write_text(json.dumps({"sources": {"synthetic": {"url": "https://example.test", "retrieved": "2026-11-24",
+                                                              "section": "synthetic"}},
+                                    "courses": {"CSCI 1001": {"expression": None, "sourceRef": "synthetic"}}}))
+    import_catalog(catalog, extra_csv=write_csv(tmp_path / "all.csv", [
+        row("NSCI 2001"), row("NSCI 2101"), row("NSCI 3101"), row("NSCI 3102")]),
+        requisites=requisites, reviewed=reviewed)
+    assert json.loads(by_code("NSCI 3101").prerequisite_json)["requirements"]["type"] == "any_of"
+    # An enforced requirement that can't be parsed still keeps the course out of "no prerequisites".
+    assert by_code("NSCI 3102").prerequisite_status == "text_only"
+    assert by_code("CSCI 1001").prerequisite_status == "none"

@@ -1,0 +1,31 @@
+{
+  "sourceNote": "Overlay: the Chemistry I option the catalog record lists by an unpublished course id is taken to be CHEM 1071, the course the official sample plan schedules and that ME 3331 and MATS 2001 name in their enforced registration requirements. The rest of this major is machine-mapped.",
+  "sources": {
+    "me-sample-plan": {
+      "url": "https://sampleplan.umn.edu/twin-cities/mechanical-engineering-bme",
+      "retrieved": "2026-11-23",
+      "section": "Official four-year sample plan: CHEM 1071 with CHEM 1065"
+    },
+    "me-enforced": {
+      "url": "https://schedulebuilder.umn.edu/explore/ME/3331/1273/",
+      "retrieved": "2026-11-25",
+      "section": "Enforced requirement for ME 3331: Chem 1071 or Chem 1071H or Chem 1061, Chem 1065"
+    }
+  },
+  "courseSets": {
+    "set-x4huSwKO": {"codes": ["CHEM 1071", "CHEM 1071H", "CHEM 1061", "CHEM 1081", "CHEM 1065"], "sourceRef": "me-sample-plan"}
+  },
+  "replaceRules": {
+    "r-x4huSwKO-g1": {
+      "id": "r-x4huSwKO-g1",
+      "type": "any",
+      "sourceRef": "program",
+      "children": [
+        {"id": "r-x4huSwKO-g1-1071", "type": "course", "code": "CHEM 1071", "sourceRef": "me-sample-plan"},
+        {"id": "r-x4huSwKO-g1-1", "type": "course", "code": "CHEM 1071H", "sourceRef": "program"},
+        {"id": "r-x4huSwKO-g1-2", "type": "course", "code": "CHEM 1061", "sourceRef": "program"},
+        {"id": "r-x4huSwKO-g1-3", "type": "course", "code": "CHEM 1081", "sourceRef": "program"}
+      ]
+    }
+  }
+}

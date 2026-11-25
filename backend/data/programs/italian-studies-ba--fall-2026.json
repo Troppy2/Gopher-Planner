@@ -18,6 +18,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record ITAL 3015, version 0095571-2026-01-20"
   },
+  "enforced-ITAL-3015": {
+   "url": "https://schedulebuilder.umn.edu/explore/ITAL/3015/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ITAL 3015, term 1273"
+  },
   "course-8015951": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8015951",
    "retrieved": "2026-11-23",
@@ -36,8 +41,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0095571"
+    "expression": {
+     "type": "course",
+     "course_code": "ITAL 1004"
+    },
+    "sourceRef": "enforced-ITAL-3015"
    },
    "sourceRef": "course-0095571"
   },

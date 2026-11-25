@@ -18,10 +18,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record EDHD 1525W, version 8016981-2021-09-07"
   },
+  "enforced-EDHD-1525W": {
+   "url": "https://schedulebuilder.umn.edu/explore/EDHD/1525W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for EDHD 1525W, term 1269"
+  },
   "course-8054041": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8054041",
    "retrieved": "2026-11-23",
    "section": "Course record EDHD 1525V, version 8054041-2021-09-07"
+  },
+  "enforced-EDHD-1525V": {
+   "url": "https://schedulebuilder.umn.edu/explore/EDHD/1525V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for EDHD 1525V, term 1269"
   },
   "course-0023571": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0023571",
@@ -38,6 +48,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record CPSY 3301H, version 8253431-2024-09-03"
   },
+  "enforced-CPSY-3301H": {
+   "url": "https://schedulebuilder.umn.edu/explore/CPSY/3301H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CPSY 3301H, term 1269"
+  },
   "course-0023581": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0023581",
    "retrieved": "2026-11-23",
@@ -52,6 +67,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0023711",
    "retrieved": "2026-11-23",
    "section": "Course record CPSY 4331, version 0023711-2024-09-03"
+  },
+  "enforced-CPSY-4331": {
+   "url": "https://schedulebuilder.umn.edu/explore/CPSY/4331/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CPSY 4331, term 1273"
   },
   "course-0023661": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0023661",
@@ -78,20 +98,40 @@
    "retrieved": "2026-11-23",
    "section": "Course record CPSY 4345, version 0023641-2024-09-03"
   },
+  "enforced-CPSY-4345": {
+   "url": "https://schedulebuilder.umn.edu/explore/CPSY/4345/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CPSY 4345, term 1269"
+  },
   "course-0048951": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0048951",
    "retrieved": "2026-11-23",
    "section": "Course record CPSY 5241, version 0048951-2024-09-03"
+  },
+  "enforced-CPSY-5241": {
+   "url": "https://schedulebuilder.umn.edu/explore/CPSY/5241/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CPSY 5241, term 1273"
   },
   "course-0165101": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0165101",
    "retrieved": "2026-11-23",
    "section": "Course record CPSY 5251W, version 0165101-2024-09-03"
   },
+  "enforced-CPSY-5251W": {
+   "url": "https://schedulebuilder.umn.edu/explore/CPSY/5251W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CPSY 5251W, term 1273"
+  },
   "course-0156221": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0156221",
    "retrieved": "2026-11-23",
    "section": "Course record CPSY 5252, version 0156221-2024-09-03"
+  },
+  "enforced-CPSY-5252": {
+   "url": "https://schedulebuilder.umn.edu/explore/CPSY/5252/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CPSY 5252, term 1273"
   },
   "course-0156231": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0156231",
@@ -102,6 +142,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8064181",
    "retrieved": "2026-11-23",
    "section": "Course record CPSY 5254, version 8064181-2024-09-03"
+  },
+  "enforced-CPSY-5254": {
+   "url": "https://schedulebuilder.umn.edu/explore/CPSY/5254/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CPSY 5254, term 1273"
   },
   "course-8264971": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8264971",
@@ -203,8 +248,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8253431"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: honors student"
+    },
+    "sourceRef": "enforced-CPSY-3301H"
    },
    "sourceRef": "course-8253431"
   },
@@ -271,9 +319,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "CPSY 2301 / 3301 or equiv strongly recommended"
+     "text": "Registration requires: CPsy 2301 or equiv"
     },
-    "sourceRef": "course-0023711"
+    "sourceRef": "enforced-CPSY-4331"
    },
    "sourceRef": "course-0023711"
   },
@@ -337,9 +385,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "CPSY 2301 / 3301 or equiv"
+     "text": "Registration requires: CPsy 2301 or equiv"
     },
-    "sourceRef": "course-0023641"
+    "sourceRef": "enforced-CPSY-4345"
    },
    "sourceRef": "course-0023641"
   },
@@ -355,9 +403,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "CPSY 2/3301 or equiv."
+     "text": "Registration requires: CPsy 2301 or equiv"
     },
-    "sourceRef": "course-0048951"
+    "sourceRef": "enforced-CPSY-5241"
    },
    "sourceRef": "course-0048951"
   },
@@ -372,9 +420,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "CPSY 2/3301 or equiv."
+     "text": "Registration requires: CPsy 2301 or equiv"
     },
-    "sourceRef": "course-0165101"
+    "sourceRef": "enforced-CPSY-5251W"
    },
    "sourceRef": "course-0165101"
   },
@@ -389,9 +437,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "CPSY 2301 or equiv or inst consent. For Early Childhood or ECSE students."
+     "text": "Registration requires: CPsy 2301 or equiv"
     },
-    "sourceRef": "course-0156221"
+    "sourceRef": "enforced-CPSY-5252"
    },
    "sourceRef": "course-0156221"
   },
@@ -423,9 +471,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "CPSY 2301 or equiv or inst consent. For Early Childhood and ECSE students."
+     "text": "Registration requires: CPsy 2301 or equiv"
     },
-    "sourceRef": "course-8064181"
+    "sourceRef": "enforced-CPSY-5254"
    },
    "sourceRef": "course-8064181"
   },
@@ -440,9 +488,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "CEHD student, honors, 1st-term fr"
+     "text": "Registration requires: CEHD honors, 1st-term fr"
     },
-    "sourceRef": "course-8054041"
+    "sourceRef": "enforced-EDHD-1525V"
    },
    "sourceRef": "course-8054041"
   },
@@ -456,8 +504,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8016981"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: CEHD student, FRFY"
+    },
+    "sourceRef": "enforced-EDHD-1525W"
    },
    "sourceRef": "course-8016981"
   },

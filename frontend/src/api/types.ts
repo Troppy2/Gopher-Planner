@@ -34,6 +34,8 @@ export type PrerequisiteExpression =
   | {
       type: "course";
       course_code: string;
+      /** The catalog allows taking this course in the same term. */
+      concurrent?: boolean;
     }
   | {
       type: "condition";

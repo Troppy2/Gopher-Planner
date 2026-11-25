@@ -28,10 +28,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record APEC 1102, version 0062861-2020-09-08"
   },
+  "reviewed-2026-11-24": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses",
+   "retrieved": "2026-11-24",
+   "section": "Course prerequisites reviewed against the official catalog course records (retrieved 2026-11-23) and the enrollment requirements enforced by registration in Schedule Builder for Fall 2026 and Spring 2027 (https://schedulebuilder.umn.edu/, retrieved 2026-11-24)"
+  },
   "course-0062871": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0062871",
    "retrieved": "2026-11-23",
    "section": "Course record APEC 1251, version 0062871-2016-09-06"
+  },
+  "enforced-APEC-1251": {
+   "url": "https://schedulebuilder.umn.edu/explore/APEC/1251/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for APEC 1251, term 1269"
   },
   "course-8073501": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8073501",
@@ -43,40 +53,80 @@
    "retrieved": "2026-11-23",
    "section": "Course record GDES 2345, version 0122041-2026-09-08"
   },
+  "enforced-GDES-2345": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/2345/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 2345, term 1269"
+  },
   "course-8076861": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8076861",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 2399W, version 8076861-2024-09-03"
+  },
+  "enforced-GDES-2399W": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/2399W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 2399W, term 1273"
   },
   "course-8164191": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8164191",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 2399V, version 8164191-2019-05-20"
   },
+  "enforced-GDES-2399V": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/2399V/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 2399V, term 1273"
+  },
   "course-8037091": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8037091",
    "retrieved": "2026-11-23",
    "section": "Course record DES 3201, version 8037091-2021-09-07"
+  },
+  "enforced-DES-3201": {
+   "url": "https://schedulebuilder.umn.edu/explore/DES/3201/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for DES 3201, term 1273"
   },
   "course-0126101": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0126101",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 3351, version 0126101-2019-09-03"
   },
+  "enforced-GDES-3351": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/3351/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 3351, term 1273"
+  },
   "course-0127381": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0127381",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 3352, version 0127381-2025-09-02"
+  },
+  "enforced-GDES-3352": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/3352/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 3352, term 1269"
   },
   "course-8164111": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8164111",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 3352H, version 8164111-2025-09-02"
   },
+  "enforced-GDES-3352H": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/3352H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 3352H, term 1269"
+  },
   "course-0126771": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0126771",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 3353, version 0126771-2017-01-17"
+  },
+  "enforced-GDES-3353": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/3353/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 3353, term 1273"
   },
   "course-0092541": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0092541",
@@ -88,20 +138,40 @@
    "retrieved": "2026-11-23",
    "section": "Course record GDES 4345, version 0092721-2015-01-20"
   },
+  "enforced-GDES-4345": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/4345/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 4345, term 1273"
+  },
   "course-8076551": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8076551",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 4361W, version 8076551-2023-09-05"
+  },
+  "enforced-GDES-4361W": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/4361W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 4361W, term 1273"
   },
   "course-8164121": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8164121",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 4361V, version 8164121-2023-09-05"
   },
+  "enforced-GDES-4361V": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/4361V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 4361V, term 1273"
+  },
   "course-8076561": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8076561",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 4362, version 8076561-2020-09-08"
+  },
+  "enforced-GDES-4362": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/4362/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 4362, term 1273"
   },
   "course-8164641": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8164641",
@@ -112,6 +182,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0127431",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 4363, version 0127431-2026-09-08"
+  },
+  "enforced-GDES-4363": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/4363/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 4363, term 1273"
   },
   "course-8096121": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8096121",
@@ -148,6 +223,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record DESI 5185, version 7977461-2026-09-08"
   },
+  "enforced-DESI-5185": {
+   "url": "https://schedulebuilder.umn.edu/explore/DESI/5185/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for DESI 5185, term 1269"
+  },
   "course-0160821": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0160821",
    "retrieved": "2026-11-23",
@@ -163,6 +243,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record GDES 3311, version 8114181-2025-09-02"
   },
+  "enforced-GDES-3311": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/3311/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 3311, term 1273"
+  },
   "course-0126111": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0126111",
    "retrieved": "2026-11-23",
@@ -173,20 +258,40 @@
    "retrieved": "2026-11-23",
    "section": "Course record GDES 4312, version 8141961-2017-09-05"
   },
+  "enforced-GDES-4312": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/4312/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 4312, term 1269"
+  },
   "course-8111311": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8111311",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 4371, version 8111311-2025-09-02"
+  },
+  "enforced-GDES-4371": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/4371/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 4371, term 1273"
   },
   "course-7977471": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7977471",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 5341, version 7977471-2025-09-02"
   },
+  "enforced-GDES-5341": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/5341/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 5341, term 1273"
+  },
   "course-7977481": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7977481",
    "retrieved": "2026-11-23",
    "section": "Course record GDES 5342, version 7977481-2020-01-21"
+  },
+  "enforced-GDES-5342": {
+   "url": "https://schedulebuilder.umn.edu/explore/GDES/5342/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GDES 5342, term 1269"
   },
   "course-0144141": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0144141",
@@ -208,6 +313,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record PDES 3711, version 8070001-2021-01-19"
   },
+  "enforced-PDES-3711": {
+   "url": "https://schedulebuilder.umn.edu/explore/PDES/3711/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PDES 3711, term 1273"
+  },
   "course-8083881": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8083881",
    "retrieved": "2026-11-23",
@@ -223,10 +333,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record DESI 2101, version 8015051-2025-09-02"
   },
+  "enforced-DESI-2101": {
+   "url": "https://schedulebuilder.umn.edu/explore/DESI/2101/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for DESI 2101, term 1273"
+  },
   "course-8069961": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8069961",
    "retrieved": "2026-11-23",
    "section": "Course record DESI 2701, version 8069961-2025-09-02"
+  },
+  "enforced-DESI-2701": {
+   "url": "https://schedulebuilder.umn.edu/explore/DESI/2701/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for DESI 2701, term 1273"
   },
   "course-0121581": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0121581",
@@ -339,10 +459,27 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1101 or Econ 1101"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "APEC 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "APEC 1101H"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 1101H"
+      }
+     ]
     },
-    "sourceRef": "course-0062861"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0062861"
   },
@@ -355,8 +492,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0062871"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Min 30 units"
+    },
+    "sourceRef": "enforced-APEC-1251"
    },
    "sourceRef": "course-0062871"
   },
@@ -400,8 +540,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8037091"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: CDes Undergraduate Students"
+    },
+    "sourceRef": "enforced-DES-3201"
    },
    "sourceRef": "course-8037091"
   },
@@ -520,8 +663,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8015051"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: non-PDES pre major"
+    },
+    "sourceRef": "enforced-DESI-2101"
    },
    "sourceRef": "course-8015051"
   },
@@ -534,8 +680,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8069961"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: non-PDES pre major"
+    },
+    "sourceRef": "enforced-DESI-2701"
    },
    "sourceRef": "course-8069961"
   },
@@ -548,8 +697,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-7977461"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: sr or grad"
+    },
+    "sourceRef": "enforced-DESI-5185"
    },
    "sourceRef": "course-7977461"
   },
@@ -611,8 +763,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0122041"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Graphic Design mjr"
+    },
+    "sourceRef": "enforced-GDES-2345"
    },
    "sourceRef": "course-0122041"
   },
@@ -640,8 +795,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8164191"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Honor's student, GDes 1311 or \"DRAW\" student group, GDES 1312, GDES 1315, Des 1101W, DES 2101, [graphic design major or pre-major]; or design minor or Apparel Design Major"
+    },
+    "sourceRef": "enforced-GDES-2399V"
    },
    "sourceRef": "course-8164191"
   },
@@ -654,8 +812,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8076861"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: GDes 1315, Des 2101, Graphic Design major or pre-major; or Product Design major or Interdisciplinary Design minor"
+    },
+    "sourceRef": "enforced-GDES-2399W"
    },
    "sourceRef": "course-8076861"
   },
@@ -670,9 +831,9 @@
    "prerequisites": {
     "expression": {
      "type": "course",
-     "course_code": "DES 1311"
+     "course_code": "DESI 1311"
     },
-    "sourceRef": "course-8114181"
+    "sourceRef": "enforced-GDES-3311"
    },
    "sourceRef": "course-8114181"
   },
@@ -703,9 +864,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "[2345 or DHA 2345], graphic design major, pass portfolio review"
+     "text": "Registration requires: GDES 2345, Graphic Design Major"
     },
-    "sourceRef": "course-0126101"
+    "sourceRef": "enforced-GDES-3351"
    },
    "sourceRef": "course-0126101"
   },
@@ -719,8 +880,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0127381"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: GDes 2345, 3351 or ACL1, Graphic Design Major or Product Design major and jr or sr"
+    },
+    "sourceRef": "enforced-GDES-3352"
    },
    "sourceRef": "course-0127381"
   },
@@ -734,8 +898,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8164111"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: GDes 2345, 3351 or ACL1, Graphic Design Major or Product Design major and jr or sr"
+    },
+    "sourceRef": "enforced-GDES-3352H"
    },
    "sourceRef": "course-8164111"
   },
@@ -749,8 +916,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0126771"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: [GDes 2345, 3351, Graphic Design Major] OR [Product Design major and jr or sr]"
+    },
+    "sourceRef": "enforced-GDES-3353"
    },
    "sourceRef": "course-0126771"
   },
@@ -778,8 +948,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8141961"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: GDes 3312 or grad"
+    },
+    "sourceRef": "enforced-GDES-4312"
    },
    "sourceRef": "course-8141961"
   },
@@ -796,9 +969,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "[[2345 or DHA 2345], 3351, graphic design major] or design grad student or instr consent"
+     "text": "Registration requires: GDes 2345, 3351, Graphic Design Major or Design grad student"
     },
-    "sourceRef": "course-0092721"
+    "sourceRef": "enforced-GDES-4345"
    },
    "sourceRef": "course-0092721"
   },
@@ -812,8 +985,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8164121"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: [GDes 2399W or 2399V] and [GDes 3352 or 3352H] and [GDes 3353 or ACL2], Honors student"
+    },
+    "sourceRef": "enforced-GDES-4361V"
    },
    "sourceRef": "course-8164121"
   },
@@ -827,8 +1003,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8076551"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: GDes 2399W, and GDes 3352; and [GDes 3353 or ACL2]\u200b"
+    },
+    "sourceRef": "enforced-GDES-4361W"
    },
    "sourceRef": "course-8076551"
   },
@@ -842,8 +1021,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8076561"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: GDes 4361W, Graphic Design mjr, sr"
+    },
+    "sourceRef": "enforced-GDES-4362"
    },
    "sourceRef": "course-8076561"
   },
@@ -872,8 +1054,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0127431"
+    "expression": {
+     "type": "course",
+     "course_code": "GDES 3353"
+    },
+    "sourceRef": "enforced-GDES-4363"
    },
    "sourceRef": "course-0127431"
   },
@@ -886,8 +1071,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8111311"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: junior or senior"
+    },
+    "sourceRef": "enforced-GDES-4371"
    },
    "sourceRef": "course-8111311"
   },
@@ -901,8 +1089,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-7977471"
+    "expression": {
+     "type": "course",
+     "course_code": "GDES 2342"
+    },
+    "sourceRef": "enforced-GDES-5341"
    },
    "sourceRef": "course-7977471"
   },
@@ -916,10 +1107,10 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[[2334 or 2342], design minor] or graphic design major or grad student or instr consent"
+     "type": "course",
+     "course_code": "GDES 2342"
     },
-    "sourceRef": "course-7977481"
+    "sourceRef": "enforced-GDES-5342"
    },
    "sourceRef": "course-7977481"
   },
@@ -975,9 +1166,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "PDes 2772 OR Junior/Senior (any major) or permission from instructor"
+     "text": "Registration requires: PDes 2772 OR Junior/Senior (any major)"
     },
-    "sourceRef": "course-8070001"
+    "sourceRef": "enforced-PDES-3711"
    },
    "sourceRef": "course-8070001"
   },

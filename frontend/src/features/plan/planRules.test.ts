@@ -76,4 +76,14 @@ describe("eligible", () => {
     expect(eligible(target, 2, [target, planned], plan.terms)).toBe(false);
     expect(eligible(target, 3, [target, planned], plan.terms)).toBe(true);
   });
+
+  it("accepts a same-term prerequisite only when concurrent registration is allowed", () => {
+    const tree = { type: "course" as const, course_code: "CHEM 1061", concurrent: true };
+    const lab = { ...catalogToPlanCourse(catalog()), prerequisiteTree: tree, prereqs: ["CHEM 1061"] };
+    const lecture = course("CHEM 1061", "plan", "Spring 2027");
+    expect(eligible(lab, 2, [lab, lecture], plan.terms)).toBe(true);
+    expect(eligible(lab, 1, [lab, lecture], plan.terms)).toBe(false);
+    const strict = { ...lab, prerequisiteTree: { type: "course" as const, course_code: "CHEM 1061" } };
+    expect(eligible(strict, 2, [strict, lecture], plan.terms)).toBe(false);
+  });
 });

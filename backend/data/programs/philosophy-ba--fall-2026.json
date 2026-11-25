@@ -33,6 +33,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record PHIL 5201, version 0063091-2021-05-17"
   },
+  "enforced-PHIL-5201": {
+   "url": "https://schedulebuilder.umn.edu/explore/PHIL/5201/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PHIL 5201, term 1269"
+  },
   "course-0066711": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0066711",
    "retrieved": "2026-11-23",
@@ -288,6 +293,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record PHIL 5615, version 8196001-2026-01-20"
   },
+  "enforced-PHIL-5615": {
+   "url": "https://schedulebuilder.umn.edu/explore/PHIL/5615/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PHIL 5615, term 1273"
+  },
   "course-0063631": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0063631",
    "retrieved": "2026-11-23",
@@ -338,6 +348,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record PHIL 5415, version 0069851-2021-05-17"
   },
+  "enforced-PHIL-5415": {
+   "url": "https://schedulebuilder.umn.edu/explore/PHIL/5415/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PHIL 5415, term 1273"
+  },
   "course-7940011": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7940011",
    "retrieved": "2026-11-23",
@@ -348,25 +363,50 @@
    "retrieved": "2026-11-23",
    "section": "Course record PHIL 5760, version 0072091-2026-09-08"
   },
+  "enforced-PHIL-5760": {
+   "url": "https://schedulebuilder.umn.edu/explore/PHIL/5760/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PHIL 5760, term 1273"
+  },
   "course-0072161": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0072161",
    "retrieved": "2026-11-23",
    "section": "Course record PHIL 5993, version 0072161-2021-05-17"
+  },
+  "enforced-PHIL-5993": {
+   "url": "https://schedulebuilder.umn.edu/explore/PHIL/5993/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PHIL 5993, term 1273"
   },
   "course-8256251": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8256251",
    "retrieved": "2026-11-23",
    "section": "Course record PHIL 4888, version 8256251-2022-01-18"
   },
+  "enforced-PHIL-4888": {
+   "url": "https://schedulebuilder.umn.edu/explore/PHIL/4888/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PHIL 4888, term 1273"
+  },
   "course-8256301": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8256301",
    "retrieved": "2026-11-23",
    "section": "Course record PHIL 4888H, version 8256301-2022-01-18"
   },
+  "enforced-PHIL-4888H": {
+   "url": "https://schedulebuilder.umn.edu/explore/PHIL/4888H/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PHIL 4888H, term 1273"
+  },
   "course-8000261": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8000261",
    "retrieved": "2026-11-23",
    "section": "Course record PHIL 4893, version 8000261-2022-01-18"
+  },
+  "enforced-PHIL-4893": {
+   "url": "https://schedulebuilder.umn.edu/explore/PHIL/4893/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PHIL 4893, term 1273"
   }
  },
  "courseSets": {
@@ -1056,8 +1096,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8256251"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Philosophy major (undergrad)"
+    },
+    "sourceRef": "enforced-PHIL-4888"
    },
    "sourceRef": "course-8256251"
   },
@@ -1070,8 +1113,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8256301"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: honors student"
+    },
+    "sourceRef": "enforced-PHIL-4888H"
    },
    "sourceRef": "course-8256301"
   },
@@ -1084,9 +1130,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "instr consent, dept consent"
+     "text": "Registration requires: Philosophy major (undergrad)"
     },
-    "sourceRef": "course-8000261"
+    "sourceRef": "enforced-PHIL-4893"
    },
    "sourceRef": "course-8000261"
   },
@@ -1214,9 +1260,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "1001 or instr consent"
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
     },
-    "sourceRef": "course-0063091"
+    "sourceRef": "enforced-PHIL-5201"
    },
    "sourceRef": "course-0063091"
   },
@@ -1396,9 +1442,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "1003 or 1004 or 3302 or social science major or instr consent"
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
     },
-    "sourceRef": "course-0069851"
+    "sourceRef": "enforced-PHIL-5415"
    },
    "sourceRef": "course-0069851"
   },
@@ -1469,8 +1515,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8196001"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Graduate Student"
+    },
+    "sourceRef": "enforced-PHIL-5615"
    },
    "sourceRef": "course-8196001"
   },
@@ -1498,9 +1547,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "3xxx-5xxx course in phil or instr consent"
+     "text": "Registration requires: Exclude fr or soph 5000 level courses | Phil 1001 or equivalent"
     },
-    "sourceRef": "course-0072091"
+    "sourceRef": "enforced-PHIL-5760"
    },
    "sourceRef": "course-0072091"
   },
@@ -1517,9 +1566,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "instr consent, dept consent, college consent"
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
     },
-    "sourceRef": "course-0072161"
+    "sourceRef": "enforced-PHIL-5993"
    },
    "sourceRef": "course-0072161"
   }

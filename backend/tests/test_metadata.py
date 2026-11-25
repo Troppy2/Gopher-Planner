@@ -162,3 +162,13 @@ def test_shipped_catalog_imports_read_only(app):
     assert import_catalog(shipped)["courses"] == 324
     assert "CSCI 1133" in find_courses(["CSCI 1133"])
     assert hashlib.sha256(shipped.read_bytes()).hexdigest() == before
+
+
+def test_program_equivalents_keep_a_concurrent_prerequisite_concurrent():
+    from app.services.metadata import with_equivalents
+
+    expanded = with_equivalents({"type": "course", "course_code": "MATH 1372", "concurrent": True},
+                                {"MATH 1372": {"MATH 1372", "MATH 1272"}})
+    assert expanded == {"type": "any_of", "requirements": [
+        {"type": "course", "course_code": "MATH 1372", "concurrent": True},
+        {"type": "course", "course_code": "MATH 1272", "concurrent": True}]}

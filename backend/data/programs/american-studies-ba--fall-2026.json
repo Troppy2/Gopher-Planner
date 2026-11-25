@@ -588,6 +588,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record GWSS 4406, version 8093611-2016-09-06"
   },
+  "enforced-GWSS-4406": {
+   "url": "https://schedulebuilder.umn.edu/explore/GWSS/4406/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GWSS 4406, term 1269"
+  },
   "course-8094301": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8094301",
    "retrieved": "2026-11-23",
@@ -688,10 +693,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record AMIN 5602, version 8189721-2026-09-08"
   },
+  "enforced-AMIN-5602": {
+   "url": "https://schedulebuilder.umn.edu/explore/AMIN/5602/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for AMIN 5602, term 1269"
+  },
   "course-8101221": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8101221",
    "retrieved": "2026-11-23",
    "section": "Course record ANTH 5601, version 8101221-2026-09-08"
+  },
+  "enforced-ANTH-5601": {
+   "url": "https://schedulebuilder.umn.edu/explore/ANTH/5601/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ANTH 5601, term 1269"
   },
   "course-8146491": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8146491",
@@ -913,10 +928,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record CHLS 5920, version 0031281-2026-09-08"
   },
+  "enforced-CHLS-5920": {
+   "url": "https://schedulebuilder.umn.edu/explore/CHLS/5920/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CHLS 5920, term 1269"
+  },
   "course-0031291": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0031291",
    "retrieved": "2026-11-23",
    "section": "Course record CHLS 5993, version 0031291-2026-01-20"
+  },
+  "enforced-CHLS-5993": {
+   "url": "https://schedulebuilder.umn.edu/explore/CHLS/5993/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CHLS 5993, term 1273"
   },
   "course-0034551": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0034551",
@@ -928,10 +953,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record TH 5182W, version 8101061-2022-01-18"
   },
+  "enforced-TH-5182W": {
+   "url": "https://schedulebuilder.umn.edu/explore/TH/5182W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for TH 5182W, term 1269"
+  },
   "course-0100071": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0100071",
    "retrieved": "2026-11-23",
    "section": "Course record AMST 4962W, version 0100071-2021-01-19"
+  },
+  "enforced-AMST-4962W": {
+   "url": "https://schedulebuilder.umn.edu/explore/AMST/4962W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for AMST 4962W, term 1273"
   }
  },
  "courseSets": {
@@ -2042,8 +2077,8 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1001"
+     "type": "course",
+     "course_code": "AMIN 1001"
     },
     "sourceRef": "course-0102801"
    },
@@ -2057,8 +2092,8 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1001"
+     "type": "course",
+     "course_code": "AMIN 1001"
     },
     "sourceRef": "course-0086441"
    },
@@ -2165,8 +2200,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8189721"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-AMIN-5602"
    },
    "sourceRef": "course-8189721"
   },
@@ -2535,9 +2573,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "AmSt sr or instr consent"
+     "text": "Registration requires: AmSt senior"
     },
-    "sourceRef": "course-0100071"
+    "sourceRef": "enforced-AMST-4962W"
    },
    "sourceRef": "course-0100071"
   },
@@ -2596,8 +2634,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8101221"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-ANTH-5601"
    },
    "sourceRef": "course-8101221"
   },
@@ -2943,8 +2984,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0031281"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: sr or grad"
+    },
+    "sourceRef": "enforced-CHLS-5920"
    },
    "sourceRef": "course-0031281"
   },
@@ -2961,9 +3005,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "instr consent"
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
     },
-    "sourceRef": "course-0031291"
+    "sourceRef": "enforced-CHLS-5993"
    },
    "sourceRef": "course-0031291"
   },
@@ -3236,8 +3280,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8093611"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: jr or sr or grad student"
+    },
+    "sourceRef": "enforced-GWSS-4406"
    },
    "sourceRef": "course-8093611"
   },
@@ -3651,8 +3698,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8101061"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: jr or sr or grad student"
+    },
+    "sourceRef": "enforced-TH-5182W"
    },
    "sourceRef": "course-8101061"
   }

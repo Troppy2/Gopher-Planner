@@ -23,6 +23,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record SLHS 1301V, version 7956201-2022-01-18"
   },
+  "enforced-SLHS-1301V": {
+   "url": "https://schedulebuilder.umn.edu/explore/SLHS/1301V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SLHS 1301V, term 1273"
+  },
   "course-0000631": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0000631",
    "retrieved": "2026-11-23",
@@ -53,15 +58,30 @@
    "retrieved": "2026-11-23",
    "section": "Course record SLHS 4402, version 7939631-2026-09-08"
   },
+  "enforced-SLHS-4402": {
+   "url": "https://schedulebuilder.umn.edu/explore/SLHS/4402/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SLHS 4402, term 1269"
+  },
   "course-0000721": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0000721",
    "retrieved": "2026-11-23",
    "section": "Course record SLHS 4801, version 0000721-2026-09-08"
   },
+  "enforced-SLHS-4801": {
+   "url": "https://schedulebuilder.umn.edu/explore/SLHS/4801/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SLHS 4801, term 1269"
+  },
   "course-0000741": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0000741",
    "retrieved": "2026-11-23",
    "section": "Course record SLHS 4802, version 0000741-2026-09-08"
+  },
+  "enforced-SLHS-4802": {
+   "url": "https://schedulebuilder.umn.edu/explore/SLHS/4802/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SLHS 4802, term 1273"
   },
   "course-7953581": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7953581",
@@ -88,10 +108,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record SLHS 3402W, version 0071741-2026-09-08"
   },
+  "enforced-SLHS-3402W": {
+   "url": "https://schedulebuilder.umn.edu/explore/SLHS/3402W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SLHS 3402W, term 1273"
+  },
   "course-8079311": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8079311",
    "retrieved": "2026-11-23",
    "section": "Course record SLHS 3402V, version 8079311-2026-09-08"
+  },
+  "enforced-SLHS-3402V": {
+   "url": "https://schedulebuilder.umn.edu/explore/SLHS/3402V/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SLHS 3402V, term 1273"
   },
   "course-0065231": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0065231",
@@ -151,8 +181,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-7956201"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: honors student"
+    },
+    "sourceRef": "enforced-SLHS-1301V"
    },
    "sourceRef": "course-7956201"
   },
@@ -295,8 +328,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8079311"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: SLHS major, jr or sr in, honors"
+    },
+    "sourceRef": "enforced-SLHS-3402V"
    },
    "sourceRef": "course-8079311"
   },
@@ -309,8 +345,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0071741"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: SLHS mjr or CDis major, jr or sr"
+    },
+    "sourceRef": "enforced-SLHS-3402W"
    },
    "sourceRef": "course-0071741"
   },
@@ -337,9 +376,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "[1401, 3302, 3303, 3304, 4301 (either before registration for 4402 or concurrent registration is required (or allowed) in 4402)], or grad student, or instructor consent."
+     "text": "Registration requires: SLHS 1401 or 3401, 3302, 3303, 3304, 4301 or &4301, or grad student"
     },
-    "sourceRef": "course-7939631"
+    "sourceRef": "enforced-SLHS-4402"
    },
    "sourceRef": "course-7939631"
   },
@@ -367,10 +406,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[SLHS 3302, SLHS 3307W] or instr consent"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "SLHS 3302"
+      },
+      {
+       "type": "course",
+       "course_code": "SLHS 3307W"
+      }
+     ]
     },
-    "sourceRef": "course-0000721"
+    "sourceRef": "enforced-SLHS-4801"
    },
    "sourceRef": "course-0000721"
   },
@@ -387,7 +435,7 @@
      "type": "course",
      "course_code": "SLHS 4801"
     },
-    "sourceRef": "course-0000741"
+    "sourceRef": "enforced-SLHS-4802"
    },
    "sourceRef": "course-0000741"
   }

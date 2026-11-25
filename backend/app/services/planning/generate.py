@@ -4,9 +4,11 @@ Groups are filled in category priority, then file order. Inside a group the engi
 re-evaluates projected progress and adds one course (with its prerequisite closure) for the first
 unsatisfied machine-checkable rule. ``any`` rules choose whole branches by existing qualifying
 evidence, then a preferred branch (``preferred: true`` or "(Preferred)" in the label), then fewer
-additional credits including missing prerequisites, then source order. Course pools rank options by
-how many open rules they count toward, the program's home subject, missing prerequisite credits,
-course level, then code; when a branch cannot be scheduled the
+additional credits including missing prerequisites, then source order. Course pools skip variants
+of a course already taken or planned (an honors twin, for example) and rank options by how many open
+rules they count toward, the program's preferred courses, open enrollment (honors, freshman-seminar
+and talented-youth courses last), the program's home subject, missing prerequisite credits, course
+level, then code; when a branch cannot be scheduled the
 group's placements are rolled back and the next complete branch is tried. This is a bounded
 greedy search, not a global optimizer: an incomplete result is not proof that no schedule exists.
 
@@ -23,9 +25,10 @@ equivalents, graduate courses and repeats of a course already taken or planned a
 import re
 
 from app.services.liberal_ed import open_needs
-from app.services.metadata import home_subject
+from app.services.metadata import home_subject, restricted_enrollment
 
 from app.services.planning.eligibility import placement_check
+from app.services.planning.prerequisites import standing_credits
 from app.services.planning.sample import sample_terms
 from app.services.planning.terms import term_index
 from app.services.requirements import evaluate_program
@@ -59,8 +62,12 @@ def program_codes(program):
 
 class Planner:
     def __init__(self, program, coursework, metadata, terms, credit_load, *, le_suggest=None, le_coverage=frozenset(),
-                 le_pool=(), le_designations=None, le_rules=None):
+                 le_pool=(), le_designations=None, le_rules=None, base_credits=0):
         self.program = program
+        # Credits a student brings into the first plan term: earned plus in progress now.
+        self.starting_credits = float(base_credits) + sum(
+            float(item["credits"]) for item in coursework
+            if item["status"] == "prog" and item.get("term") not in terms)
         self.coursework = coursework
         self.metadata = metadata
         self.terms = terms
@@ -111,8 +118,16 @@ class Planner:
     def option_key(self, code):
         number = code.split(" ")[-1]
         level = int(number[0]) if number[:1].isdigit() else 9
-        return (code not in self.program.get("preferredCourses", ()), code.split(" ")[0] != self.home_subject,
-                self.prerequisite_cost(code), level, code)
+        title = (self.metadata.get(code) or {}).get("title")
+        return (code not in self.program.get("preferredCourses", ()), restricted_enrollment(code, title),
+                code.split(" ")[0] != self.home_subject, self.prerequisite_cost(code), level, code)
+
+    def duplicates_taken(self, code):
+        """True when ``code`` is a variant (honors, writing intensive, retitled) of a course already taken or planned."""
+        taken = self.locked | set(self.planned)
+        titles = {self.title_key(self.metadata.get(other)) for other in taken} - {""}
+        title = self.title_key(self.metadata.get(code))
+        return self.base_code(code) in {self.base_code(other) for other in taken} or bool(title and title in titles)
 
     @staticmethod
     def preferred(node):
@@ -176,11 +191,13 @@ class Planner:
         order = self.closure(code, frozenset())
         if order is None:
             return False
+        # A course taken "with" this one (a lecture for its lab) goes no earlier than this one's target term.
+        together = self.concurrent_codes((self.metadata[code].get("prerequisites") or {}).get("expression"))
         added = []
         for item in order:
             if item in self.planned or item in self.locked:
                 continue
-            position = self.earliest(item, start if item == code else 0)
+            position = self.earliest(item, start if item == code or item in together else 0)
             if position is None:
                 for undo in added:
                     self.loads[self.planned.pop(undo)] -= self.credits(undo)
@@ -190,10 +207,28 @@ class Planner:
             added.append(item)
         return True
 
+    @staticmethod
+    def concurrent_codes(node):
+        if not isinstance(node, dict):
+            return set()
+        if node.get("type") == "course":
+            return {node["course_code"]} if node.get("concurrent") else set()
+        return set().union(set(), *(Planner.concurrent_codes(child) for child in node.get("requirements") or []))
+
+    def standing_start(self, record):
+        """First term by which a student on this plan's credit load has the class standing the course
+        requires; restrictions such as "ME upper division" set timing, never eligibility."""
+        needed = standing_credits((record.get("prerequisites") or {}).get("expression"))
+        position = 0
+        while position < len(self.terms) - 1 and self.starting_credits + self.credit_load * position < needed:
+            position += 1
+        return position
+
     def earliest(self, code, start=0):
         record = self.metadata[code]
         credits = self.credits(code)
         last_reason = None
+        start = max(start, self.standing_start(record))
         for position, term in enumerate(self.terms):
             if position < start:
                 continue
@@ -278,7 +313,8 @@ class Planner:
             sets = self.program["courseSets"]
             peers = [peer for peer in siblings if peer["id"] != node["id"]] + [node]
             candidates = [code for code in sets[node["courseSet"]]["codes"]
-                          if not self.satisfied_now(code) and code not in infeasible["codes"]]
+                          if not self.satisfied_now(code) and code not in infeasible["codes"]
+                          and not self.duplicates_taken(code)]
             candidates.sort(key=lambda code: (-sum(code in sets[peer["courseSet"]]["codes"] for peer in peers),
                                               *self.option_key(code)))
             return (candidates[0], path) if candidates else None
@@ -519,7 +555,7 @@ def generate_plan(program, *, coursework, metadata, terms, credit_load, base_cre
         return {"placements": [], "warnings": [STATUS_WARNINGS.get(status, "program_requirements_unavailable")],
                 "requirementProgress": []}
     planner = Planner(program, coursework, metadata, terms, credit_load, le_suggest=le_suggest, le_coverage=le_coverage,
-                      le_pool=le_pool, le_designations=le_designations, le_rules=le_rules)
+                      le_pool=le_pool, le_designations=le_designations, le_rules=le_rules, base_credits=base_credits)
     planner.seed(sample, graduation)
     planner.run()
     planner.fill_le_gaps()

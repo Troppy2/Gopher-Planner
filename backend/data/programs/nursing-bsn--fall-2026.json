@@ -18,15 +18,30 @@
    "retrieved": "2026-11-23",
    "section": "Course record NURS 4777W, version 8052071-2020-09-08"
   },
+  "enforced-NURS-4777W": {
+   "url": "https://schedulebuilder.umn.edu/explore/NURS/4777W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for NURS 4777W, term 1273"
+  },
   "course-0153871": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0153871",
    "retrieved": "2026-11-23",
    "section": "Course record NURS 4205W, version 0153871-2020-01-21"
   },
+  "enforced-NURS-4205W": {
+   "url": "https://schedulebuilder.umn.edu/explore/NURS/4205W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for NURS 4205W, term 1273"
+  },
   "course-0074361": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0074361",
    "retrieved": "2026-11-23",
    "section": "Course record NURS 4205V, version 0074361-2015-01-20"
+  },
+  "enforced-NURS-4205V": {
+   "url": "https://schedulebuilder.umn.edu/explore/NURS/4205V/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for NURS 4205V, term 1273"
   }
  },
  "courseSets": {
@@ -51,9 +66,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Nurs honors"
+     "text": "Registration requires: Nursing honors student"
     },
-    "sourceRef": "course-0074361"
+    "sourceRef": "enforced-NURS-4205V"
    },
    "sourceRef": "course-0074361"
   },
@@ -69,9 +84,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Undergrad in nursing"
+     "text": "Registration requires: Nursing undergrad"
     },
-    "sourceRef": "course-0153871"
+    "sourceRef": "enforced-NURS-4205W"
    },
    "sourceRef": "course-0153871"
   },
@@ -86,10 +101,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "4205W or 4205V"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "NURS 4205W"
+      },
+      {
+       "type": "course",
+       "course_code": "NURS 4205V"
+      }
+     ]
     },
-    "sourceRef": "course-8052071"
+    "sourceRef": "enforced-NURS-4777W"
    },
    "sourceRef": "course-8052071"
   }

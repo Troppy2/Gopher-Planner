@@ -18,15 +18,30 @@
    "retrieved": "2026-11-23",
    "section": "Course record AST 2001, version 0000431-2024-09-03"
   },
+  "enforced-AST-2001": {
+   "url": "https://schedulebuilder.umn.edu/explore/AST/2001/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for AST 2001, term 1273"
+  },
   "course-7953551": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7953551",
    "retrieved": "2026-11-23",
    "section": "Course record AST 4001, version 7953551-2024-09-03"
   },
+  "enforced-AST-4001": {
+   "url": "https://schedulebuilder.umn.edu/explore/AST/4001/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for AST 4001, term 1269"
+  },
   "course-7951081": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7951081",
    "retrieved": "2026-11-23",
    "section": "Course record AST 4002, version 7951081-2024-09-03"
+  },
+  "enforced-AST-4002": {
+   "url": "https://schedulebuilder.umn.edu/explore/AST/4002/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for AST 4002, term 1273"
   },
   "course-0020781": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0020781",
@@ -57,6 +72,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0002821",
    "retrieved": "2026-11-23",
    "section": "Course record MATH 2263, version 0002821-2021-05-17"
+  },
+  "reviewed-2026-11-24": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses",
+   "retrieved": "2026-11-24",
+   "section": "Course prerequisites reviewed against the official catalog course records (retrieved 2026-11-23) and the enrollment requirements enforced by registration in Schedule Builder for Fall 2026 and Spring 2027 (https://schedulebuilder.umn.edu/, retrieved 2026-11-24)"
   },
   "course-0036951": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0036951",
@@ -93,6 +113,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record PHYS 5022, version 7913011-2021-05-17"
   },
+  "enforced-PHYS-5022": {
+   "url": "https://schedulebuilder.umn.edu/explore/PHYS/5022/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PHYS 5022, term 1269"
+  },
   "course-8174071": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8174071",
    "retrieved": "2026-11-23",
@@ -102,6 +127,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0000501",
    "retrieved": "2026-11-23",
    "section": "Course record AST 5201, version 0000501-2015-01-20"
+  },
+  "enforced-AST-5201": {
+   "url": "https://schedulebuilder.umn.edu/explore/AST/5201/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for AST 5201, term 1269"
   },
   "course-7994511": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7994511",
@@ -157,6 +187,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
    "retrieved": "2026-11-23",
    "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "enforced-MATH-1571H": {
+   "url": "https://schedulebuilder.umn.edu/explore/MATH/1571H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MATH 1571H, term 1269"
   },
   "course-0001211": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0001211",
@@ -232,6 +267,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8136481",
    "retrieved": "2026-11-23",
    "section": "Course record PHYS 2503H, version 8136481-2021-09-07"
+  },
+  "enforced-PHYS-2503H": {
+   "url": "https://schedulebuilder.umn.edu/explore/PHYS/2503H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PHYS 2503H, term 1269"
   }
  },
  "courseSets": {
@@ -329,9 +369,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "[One yr calculus, PHYS 1302] or instr consent"
+     "text": "Registration requires: Math 1371 or equiv, Math 1372 or equiv, and Phys 1302 (or instr consent)"
     },
-    "sourceRef": "course-0000431"
+    "sourceRef": "enforced-AST-2001"
    },
    "sourceRef": "course-0000431"
   },
@@ -343,10 +383,19 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "2001, Phys 2601"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "AST 2001"
+      },
+      {
+       "type": "course",
+       "course_code": "PHYS 2601"
+      }
+     ]
     },
-    "sourceRef": "course-7953551"
+    "sourceRef": "enforced-AST-4001"
    },
    "sourceRef": "course-7953551"
   },
@@ -360,10 +409,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "2001, Phys 2601"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "AST 2001"
+      },
+      {
+       "type": "course",
+       "course_code": "PHYS 2601"
+      }
+     ]
     },
-    "sourceRef": "course-7951081"
+    "sourceRef": "enforced-AST-4002"
    },
    "sourceRef": "course-7951081"
   },
@@ -435,9 +493,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Upper div CSE or grad or instr consent"
+     "text": "Registration requires: CSE student, upper div or grad"
     },
-    "sourceRef": "course-0000501"
+    "sourceRef": "enforced-AST-5201"
    },
    "sourceRef": "course-0000501"
   },
@@ -468,10 +526,37 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "all_of",
+       "requirements": [
+        {
+         "type": "any_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "MATH 1151"
+          },
+          {
+           "type": "course",
+           "course_code": "MATH 1155"
+          }
+         ]
+        },
+        {
+         "type": "condition",
+         "text": "Minimum grade C-"
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0001201"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001201"
   },
@@ -487,10 +572,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1271 or equiv] with grade of at least C-"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1271"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0001211"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001211"
   },
@@ -505,10 +599,32 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "condition",
+         "text": "Satisfactory score on the math placement test"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1151"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1155"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+      }
+     ]
     },
-    "sourceRef": "course-0036921"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036921"
   },
@@ -522,10 +638,23 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Grade of at least C- in [1371 or equiv], CSE or pre-Bioprod/Biosys Engr"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1371"
+      },
+      {
+       "type": "condition",
+       "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0036931"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036931"
   },
@@ -540,9 +669,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Honors student and permission of University Honors Program"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-0036961"
+    "sourceRef": "enforced-MATH-1571H"
    },
    "sourceRef": "course-0036961"
   },
@@ -557,10 +686,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1571H (or equivalent)  honors student"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1571H"
+      },
+      {
+       "type": "condition",
+       "text": "Honors student"
+      }
+     ]
     },
-    "sourceRef": "course-0036971"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036971"
   },
@@ -576,10 +714,36 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1282"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0002801"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0002801"
   },
@@ -595,10 +759,32 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1272 or 1372 or 1572] w/grade of at least C-"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0002821"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0002821"
   },
@@ -613,10 +799,40 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bio Prod/Biosys Engr"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1282"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0036941"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036941"
   },
@@ -631,10 +847,40 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bioprod/Biosys Engr"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1282"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0036951"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036951"
   },
@@ -648,10 +894,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Math 1572H (or equivalent), honors student"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1572H"
+      },
+      {
+       "type": "condition",
+       "text": "Honors student"
+      }
+     ]
     },
-    "sourceRef": "course-0036981"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036981"
   },
@@ -665,10 +920,28 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Math 1572H or Math 2573H, honors student and permission of University Honors Program"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1572H"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 2573H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "Honors student"
+      }
+     ]
     },
-    "sourceRef": "course-0043111"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0043111"
   },
@@ -703,10 +976,10 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "PHYS 1221 or equivalent"
+     "type": "course",
+     "course_code": "PHYS 1221"
     },
-    "sourceRef": "course-8179651"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8179651"
   },
@@ -737,10 +1010,35 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "PHYS 1301 or equivalent, Prereq or Concurrent: MATH 1272/1372/1572H or equivalent"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "PHYS 1301W"
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H",
+         "concurrent": true
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0020711"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0020711"
   },
@@ -754,10 +1052,35 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Honors program or with permission, Prereq or Concurrent: MATH 1271/1371/1571H or equivalent"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1271",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1371",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1571H",
+         "concurrent": true
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "Honors program or permission"
+      }
+     ]
     },
-    "sourceRef": "course-0020731"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0020731"
   },
@@ -770,8 +1093,36 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0020741"
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "PHYS 1401V"
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H",
+         "concurrent": true
+        }
+       ]
+      }
+     ]
+    },
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0020741"
   },
@@ -803,10 +1154,10 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1302W or equivalent"
+     "type": "course",
+     "course_code": "PHYS 1302W"
     },
-    "sourceRef": "course-7905411"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-7905411"
   },
@@ -821,9 +1172,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Honors program or with permission, PHYS 1402V or equivalent"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-8136481"
+    "sourceRef": "enforced-PHYS-2503H"
    },
    "sourceRef": "course-8136481"
   },
@@ -1005,8 +1356,8 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "4101"
+     "type": "course",
+     "course_code": "PHYS 4101"
     },
     "sourceRef": "course-7906701"
    },
@@ -1069,9 +1420,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "2601 or instr consent"
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
     },
-    "sourceRef": "course-7913011"
+    "sourceRef": "enforced-PHYS-5022"
    },
    "sourceRef": "course-7913011"
   }

@@ -38,6 +38,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record ADES 4215, version 0092601-2023-09-05"
   },
+  "enforced-ADES-4215": {
+   "url": "https://schedulebuilder.umn.edu/explore/ADES/4215/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ADES 4215, term 1273"
+  },
   "course-8083841": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8083841",
    "retrieved": "2026-11-23",
@@ -47,6 +52,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0092641",
    "retrieved": "2026-11-23",
    "section": "Course record ADES 4225, version 0092641-2025-09-02"
+  },
+  "enforced-ADES-4225": {
+   "url": "https://schedulebuilder.umn.edu/explore/ADES/4225/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ADES 4225, term 1269"
   },
   "course-8275881": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8275881",
@@ -63,15 +73,30 @@
    "retrieved": "2026-11-23",
    "section": "Course record DESI 2101, version 8015051-2025-09-02"
   },
+  "enforced-DESI-2101": {
+   "url": "https://schedulebuilder.umn.edu/explore/DESI/2101/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for DESI 2101, term 1273"
+  },
   "course-8069961": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8069961",
    "retrieved": "2026-11-23",
    "section": "Course record DESI 2701, version 8069961-2025-09-02"
   },
+  "enforced-DESI-2701": {
+   "url": "https://schedulebuilder.umn.edu/explore/DESI/2701/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for DESI 2701, term 1273"
+  },
   "course-0128401": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0128401",
    "retrieved": "2026-11-23",
    "section": "Course record ADES 3224W, version 0128401-2023-09-05"
+  },
+  "enforced-ADES-3224W": {
+   "url": "https://schedulebuilder.umn.edu/explore/ADES/3224W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ADES 3224W, term 1273"
   },
   "course-0092591": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0092591",
@@ -171,8 +196,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0128401"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: ADes 2213, 3223, Apparel Design Major"
+    },
+    "sourceRef": "enforced-ADES-3224W"
    },
    "sourceRef": "course-0128401"
   },
@@ -185,9 +213,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "2213 or DHA 2213 or apparel design major or clothing design major or retail merchandising major or instr consent"
+     "text": "Registration requires: ADes or RM major"
     },
-    "sourceRef": "course-0092601"
+    "sourceRef": "enforced-ADES-4215"
    },
    "sourceRef": "course-0092601"
   },
@@ -215,8 +243,11 @@
    "maximumCredits": 4,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0092641"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: DHA or ADES ADes 3224, 3225, Apparel Design Major"
+    },
+    "sourceRef": "enforced-ADES-4225"
    },
    "sourceRef": "course-0092641"
   },
@@ -260,8 +291,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8015051"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: non-PDES pre major"
+    },
+    "sourceRef": "enforced-DESI-2101"
    },
    "sourceRef": "course-8015051"
   },
@@ -274,8 +308,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8069961"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: non-PDES pre major"
+    },
+    "sourceRef": "enforced-DESI-2701"
    },
    "sourceRef": "course-8069961"
   },

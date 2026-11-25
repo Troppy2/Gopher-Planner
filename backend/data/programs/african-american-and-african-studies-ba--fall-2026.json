@@ -98,6 +98,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record GWSS 4406, version 8093611-2016-09-06"
   },
+  "enforced-GWSS-4406": {
+   "url": "https://schedulebuilder.umn.edu/explore/GWSS/4406/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GWSS 4406, term 1269"
+  },
   "course-8094301": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8094301",
    "retrieved": "2026-11-23",
@@ -148,6 +153,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record AFRO 5103, version 7959691-2015-01-20"
   },
+  "enforced-AFRO-5103": {
+   "url": "https://schedulebuilder.umn.edu/explore/AFRO/5103/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for AFRO 5103, term 1273"
+  },
   "course-0023291": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0023291",
    "retrieved": "2026-11-23",
@@ -197,6 +207,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8280811",
    "retrieved": "2026-11-23",
    "section": "Course record AFRO 3227, version 8280811-2026-01-20"
+  },
+  "enforced-AFRO-3227": {
+   "url": "https://schedulebuilder.umn.edu/explore/AFRO/3227/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for AFRO 3227, term 1269"
   },
   "course-0023341": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0023341",
@@ -473,6 +488,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record AFRO 5101, version 0053521-2024-09-03"
   },
+  "enforced-AFRO-5101": {
+   "url": "https://schedulebuilder.umn.edu/explore/AFRO/5101/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for AFRO 5101, term 1269"
+  },
   "course-7971911": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7971911",
    "retrieved": "2026-11-23",
@@ -482,6 +502,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8101061",
    "retrieved": "2026-11-23",
    "section": "Course record TH 5182W, version 8101061-2022-01-18"
+  },
+  "enforced-TH-5182W": {
+   "url": "https://schedulebuilder.umn.edu/explore/TH/5182W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for TH 5182W, term 1269"
   },
   "course-0053451": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0053451",
@@ -507,6 +532,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0050611",
    "retrieved": "2026-11-23",
    "section": "Course record AFRO 5993, version 0050611-2018-05-21"
+  },
+  "enforced-AFRO-5993": {
+   "url": "https://schedulebuilder.umn.edu/explore/AFRO/5993/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for AFRO 5993, term 1273"
   },
   "course-0050591": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0050591",
@@ -925,8 +955,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8280811"
+    "expression": {
+     "type": "course",
+     "course_code": "AFRO 1227"
+    },
+    "sourceRef": "enforced-AFRO-3227"
    },
    "sourceRef": "course-8280811"
   },
@@ -1444,8 +1477,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0053521"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-AFRO-5101"
    },
    "sourceRef": "course-0053521"
   },
@@ -1458,9 +1494,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Grad student or instr consent"
+     "text": "Registration requires: Graduate Student"
     },
-    "sourceRef": "course-7959691"
+    "sourceRef": "enforced-AFRO-5103"
    },
    "sourceRef": "course-7959691"
   },
@@ -1619,9 +1655,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "instr consent"
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
     },
-    "sourceRef": "course-0050611"
+    "sourceRef": "enforced-AFRO-5993"
    },
    "sourceRef": "course-0050611"
   },
@@ -1647,8 +1683,17 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1101 or ECON 1101"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "APEC 1101"
+      },
+      {
+       "type": "course",
+       "course_code": "ECON 1101"
+      }
+     ]
     },
     "sourceRef": "course-8049431"
    },
@@ -1793,8 +1838,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8093611"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: jr or sr or grad student"
+    },
+    "sourceRef": "enforced-GWSS-4406"
    },
    "sourceRef": "course-8093611"
   },
@@ -2040,8 +2088,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8101061"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: jr or sr or grad student"
+    },
+    "sourceRef": "enforced-TH-5182W"
    },
    "sourceRef": "course-8101061"
   }

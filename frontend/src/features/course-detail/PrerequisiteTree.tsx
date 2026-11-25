@@ -24,6 +24,7 @@ export function PrerequisiteTree({ expression }: Props) {
       <div className="prerequisite-course">
         <span className="prerequisite-bullet" aria-hidden="true" />
         <strong>{courseCode}</strong>
+        {expression.concurrent === true && <span> (or take it the same term)</span>}
       </div>
     );
   }

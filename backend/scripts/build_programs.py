@@ -21,6 +21,7 @@ if str(BACKEND) not in sys.path:
 
 from app.schemas.coursework import CODE_PATTERN  # noqa: E402
 from app.schemas.programs import validate_program  # noqa: E402
+from app.services.requisites import load_enforced, load_reviewed, resolve_prerequisites  # noqa: E402
 
 COURSE_LIST_CONDITIONS = {"minimumCredits", "completeVariableCoursesAndVariableCredits", "completedAllOf",
                           "completedAnyOf", "completedAtLeastXOf"}
@@ -140,9 +141,14 @@ def offered(text):
 
 
 class Builder:
-    def __init__(self, record, courses):
+    def __init__(self, record, courses, *, enforced=None, reviewed=None, reviewed_sources=None):
         self.record = record
         self.courses = courses
+        self.enforced = enforced or {}
+        self.reviewed = reviewed or {}
+        self.reviewed_sources = reviewed_sources or {}
+        self.known = {" ".join(row["code"].split()) for row in courses.values() if row["code"].strip()}
+        self.subjects = {code.split()[0] for code in self.known}
         self.term = catalog_term(record["effective_start_date"])
         self.ids = set()
         self.sets = {}
@@ -172,12 +178,24 @@ class Builder:
         key = f"course-{row['course_group_id']}"
         self.sources[key] = {"url": row["source_url"], "retrieved": row["retrieved_at_utc"][:10],
                              "section": f"Course record {row['code']}, version {row['revision_id']}"}
-        text = row["prerequisite_text"].strip()
-        expression = parse_prerequisites(text) if text else None
-        self.metadata[row["code"]] = {
+        code = row["code"]
+        expression, origin, _ = resolve_prerequisites(
+            code, row["prerequisite_text"], enforced=self.enforced, reviewed=self.reviewed,
+            subject=code.split()[0], subjects=self.subjects, known=self.known)
+        prerequisite_source = key
+        if origin == "enforced":
+            entry = self.enforced[code]
+            prerequisite_source = f"enforced-{code.replace(' ', '-')}"
+            self.sources[prerequisite_source] = {
+                "url": entry["url"], "retrieved": entry["retrieved"],
+                "section": f"Enrollment requirement enforced by registration for {code}, term {entry['strm']}"}
+        elif origin == "reviewed":
+            prerequisite_source = self.reviewed[code]["sourceRef"]
+            self.sources[prerequisite_source] = self.reviewed_sources[prerequisite_source]
+        self.metadata[code] = {
             "catalogTerm": self.term, "title": row["title"], "minimumCredits": number(row["credits_min"]),
             "maximumCredits": number(row["credits_max"]), "offered": offered(row["typically_offered"]),
-            "prerequisites": {"expression": expression, "sourceRef": key},
+            "prerequisites": {"expression": expression, "sourceRef": prerequisite_source},
             "sourceRef": key,
         }
 
@@ -412,11 +430,11 @@ def referenced(program):
     return codes
 
 
-def build_program(record, courses, *, overlay=None):
+def build_program(record, courses, *, overlay=None, enforced=None, reviewed=None, reviewed_sources=None):
     total = positive(record.get("degree_credits_min"))
     if not total:
         raise ProgramSkipped("The official record states no degree credit total")
-    builder = Builder(record, courses)
+    builder = Builder(record, courses, enforced=enforced, reviewed=reviewed, reviewed_sources=reviewed_sources)
     groups, sub_plans = [], []
     for section in (record["requirements"] or {}).get("requisitesSimple") or []:
         name = plain(section.get("name") or "") or "Program requirements"
@@ -473,7 +491,9 @@ def build_program(record, courses, *, overlay=None):
     program["courseSets"] = {key: value for key, value in program["courseSets"].items() if key in used_sets}
     used = referenced(program)
     program["courseMetadata"] ={code: value for code, value in sorted(program["courseMetadata"].items()) if code in used}
-    keep = {"program"} | {value["sourceRef"] for value in program["courseMetadata"].values()} | set(overlay.get("sources", {}) if overlay else ())
+    keep = ({"program"} | {value["sourceRef"] for value in program["courseMetadata"].values()}
+            | {value["prerequisites"]["sourceRef"] for value in program["courseMetadata"].values() if value["prerequisites"]}
+            | set(overlay.get("sources", {}) if overlay else ()))
     program["sources"] = {key: value for key, value in program["sources"].items() if key in keep}
     return program
 
@@ -538,9 +558,14 @@ def main(argv=None):
     parser.add_argument("--courses", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--overlays", type=Path, default=Path(__file__).parent / "program_overlays")
+    parser.add_argument("--requisites", type=Path, help="Enforced enrollment requirements from export_requisites.py")
+    parser.add_argument("--reviewed", type=Path, default=BACKEND / "data" / "prerequisites" / "reviewed.json",
+                        help="Hand-reviewed prerequisite trees, which take precedence over parsed text")
     parser.add_argument("--replace", action="store_true", help="Replace previously generated files in the output directory")
     args = parser.parse_args(argv)
     courses = {row["course_group_id"]: row for row in read_csv(args.courses)}
+    enforced = load_enforced(args.requisites)
+    reviewed, reviewed_sources = load_reviewed(args.reviewed if args.reviewed and args.reviewed.exists() else None)
     overlays = {path.stem: json.loads(path.read_text(encoding="utf-8")) for path in sorted(args.overlays.glob("*.json"))}
     args.output.mkdir(parents=True, exist_ok=True)
     report, written = [], 0
@@ -550,7 +575,8 @@ def main(argv=None):
         record = {**row, "requirements": json.loads(row["requirements_json"]),
                   "requirement_levels": json.loads(row["requirement_levels_json"])}
         try:
-            program = validate_program(build_program(record, courses, overlay=overlays.get(row["program_id"])))
+            program = validate_program(build_program(record, courses, overlay=overlays.get(row["program_id"]),
+                                                     enforced=enforced, reviewed=reviewed, reviewed_sources=reviewed_sources))
         except ProgramSkipped as error:
             report.append({"program_id": row["program_id"], "name": row["name"], "file": "", "catalog_term": "",
                            "review_rules": "", "status": f"skipped: {error}"})

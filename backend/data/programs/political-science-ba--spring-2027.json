@@ -158,6 +158,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record POL 3766H, version 8275791-2025-01-21"
   },
+  "enforced-POL-3766H": {
+   "url": "https://schedulebuilder.umn.edu/explore/POL/3766H/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for POL 3766H, term 1273"
+  },
   "course-7957971": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7957971",
    "retrieved": "2026-11-23",
@@ -463,6 +468,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record POL 3108H, version 8076421-2020-09-08"
   },
+  "enforced-POL-3108H": {
+   "url": "https://schedulebuilder.umn.edu/explore/POL/3108H/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for POL 3108H, term 1273"
+  },
   "course-0055181": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0055181",
    "retrieved": "2026-11-23",
@@ -488,10 +498,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record POL 4991, version 8179401-2026-05-18"
   },
+  "enforced-POL-4991": {
+   "url": "https://schedulebuilder.umn.edu/explore/POL/4991/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for POL 4991, term 1273"
+  },
   "course-7898011": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7898011",
    "retrieved": "2026-11-23",
    "section": "Course record POL 4993, version 7898011-2025-09-02"
+  },
+  "enforced-POL-4993": {
+   "url": "https://schedulebuilder.umn.edu/explore/POL/4993/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for POL 4993, term 1273"
   }
  },
  "courseSets": {
@@ -696,8 +716,8 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1001"
+     "type": "course",
+     "course_code": "AMIN 1001"
     },
     "sourceRef": "course-0102801"
    },
@@ -808,9 +828,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Pol sci major, honors"
+     "text": "Registration requires: Politcal Science honors major, jr or sr"
     },
-    "sourceRef": "course-8076421"
+    "sourceRef": "enforced-POL-3108H"
    },
    "sourceRef": "course-8076421"
   },
@@ -1328,8 +1348,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8275791"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: honors undergrad student"
+    },
+    "sourceRef": "enforced-POL-3766H"
    },
    "sourceRef": "course-8275791"
   },
@@ -1869,8 +1892,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8179401"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Political Science senior"
+    },
+    "sourceRef": "enforced-POL-4991"
    },
    "sourceRef": "course-8179401"
   },
@@ -1885,8 +1911,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-7898011"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Pol 3108H, political science major, honors"
+    },
+    "sourceRef": "enforced-POL-4993"
    },
    "sourceRef": "course-7898011"
   },

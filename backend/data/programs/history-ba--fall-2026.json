@@ -18,6 +18,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record HIST 3023, version 8261351-2023-09-05"
   },
+  "enforced-HIST-3023": {
+   "url": "https://schedulebuilder.umn.edu/explore/HIST/3023/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HIST 3023, term 1273"
+  },
   "course-8021111": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8021111",
    "retrieved": "2026-11-23",
@@ -28,10 +33,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record HIST 1011W, version 0154121-2026-01-20"
   },
+  "enforced-HIST-1011W": {
+   "url": "https://schedulebuilder.umn.edu/explore/HIST/1011W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HIST 1011W, term 1269"
+  },
   "course-0077751": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0077751",
    "retrieved": "2026-11-23",
    "section": "Course record HIST 1012W, version 0077751-2026-09-08"
+  },
+  "enforced-HIST-1012W": {
+   "url": "https://schedulebuilder.umn.edu/explore/HIST/1012W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HIST 1012W, term 1273"
   },
   "course-7886641": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7886641",
@@ -98,6 +113,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record HIST 1301W, version 0094591-2021-05-17"
   },
+  "enforced-HIST-1301W": {
+   "url": "https://schedulebuilder.umn.edu/explore/HIST/1301W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HIST 1301W, term 1269"
+  },
   "course-0160921": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0160921",
    "retrieved": "2026-11-23",
@@ -107,6 +127,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0033591",
    "retrieved": "2026-11-23",
    "section": "Course record HIST 1302W, version 0033591-2021-05-17"
+  },
+  "enforced-HIST-1302W": {
+   "url": "https://schedulebuilder.umn.edu/explore/HIST/1302W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HIST 1302W, term 1273"
   },
   "course-0154111": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0154111",
@@ -253,6 +278,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record ANTH 5027W, version 0087621-2024-01-16"
   },
+  "enforced-ANTH-5027W": {
+   "url": "https://schedulebuilder.umn.edu/explore/ANTH/5027W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ANTH 5027W, term 1273"
+  },
   "course-8150311": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8150311",
    "retrieved": "2026-11-23",
@@ -338,6 +368,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record HIST 5264, version 0100781-2021-05-17"
   },
+  "enforced-HIST-5264": {
+   "url": "https://schedulebuilder.umn.edu/explore/HIST/5264/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HIST 5264, term 1269"
+  },
   "course-8097321": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8097321",
    "retrieved": "2026-11-23",
@@ -347,6 +382,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0100941",
    "retrieved": "2026-11-23",
    "section": "Course record HIST 5265, version 0100941-2021-05-17"
+  },
+  "enforced-HIST-5265": {
+   "url": "https://schedulebuilder.umn.edu/explore/HIST/5265/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HIST 5265, term 1273"
   },
   "course-0034541": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0034541",
@@ -1423,10 +1463,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record HIST 4011W, version 8021131-2023-09-05"
   },
+  "enforced-HIST-4011W": {
+   "url": "https://schedulebuilder.umn.edu/explore/HIST/4011W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HIST 4011W, term 1273"
+  },
   "course-8114301": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8114301",
    "retrieved": "2026-11-23",
    "section": "Course record HIST 4011V, version 8114301-2025-01-21"
+  },
+  "enforced-HIST-4011V": {
+   "url": "https://schedulebuilder.umn.edu/explore/HIST/4011V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HIST 4011V, term 1273"
   },
   "course-0032931": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0032931",
@@ -2604,8 +2654,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0087621"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-ANTH-5027W"
    },
    "sourceRef": "course-0087621"
   },
@@ -2926,9 +2979,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Fr or soph or non-hist major"
+     "text": "Registration requires: fr or soph (any) or PSEO, but only non-Hist mjr jr or sr"
     },
-    "sourceRef": "course-0154121"
+    "sourceRef": "enforced-HIST-1011W"
    },
    "sourceRef": "course-0154121"
   },
@@ -2941,8 +2994,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0077751"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: fr or soph (any) or PSEO, but only non-Hist mjr jr or sr"
+    },
+    "sourceRef": "enforced-HIST-1012W"
    },
    "sourceRef": "course-0077751"
   },
@@ -3038,9 +3094,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Fr or soph or non-hist major"
+     "text": "Registration requires: fr or soph (any) or PSEO, but only non-Hist mjr jr or sr"
     },
-    "sourceRef": "course-0094591"
+    "sourceRef": "enforced-HIST-1301W"
    },
    "sourceRef": "course-0094591"
   },
@@ -3055,9 +3111,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Fr or soph or non-hist major"
+     "text": "Registration requires: fr or soph (any) or PSEO, but only non-Hist mjr jr or sr"
     },
-    "sourceRef": "course-0033591"
+    "sourceRef": "enforced-HIST-1302W"
    },
    "sourceRef": "course-0033591"
   },
@@ -3252,8 +3308,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8261351"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: History majors"
+    },
+    "sourceRef": "enforced-HIST-3023"
    },
    "sourceRef": "course-8261351"
   },
@@ -5022,9 +5081,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Jr or sr history major, honors, or instr consent"
+     "text": "Registration requires: honors, and Hist 3020 or 3021 or 3022 or 3023"
     },
-    "sourceRef": "course-8114301"
+    "sourceRef": "enforced-HIST-4011V"
    },
    "sourceRef": "course-8114301"
   },
@@ -5040,9 +5099,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Jr or Sr history major or instr consent"
+     "text": "Registration requires: HIST 3020 or 3021 or 3022 or 3023; and jr 2nd Term or Senior"
     },
-    "sourceRef": "course-8021131"
+    "sourceRef": "enforced-HIST-4011W"
    },
    "sourceRef": "course-8021131"
   },
@@ -5102,8 +5161,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0100781"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-HIST-5264"
    },
    "sourceRef": "course-0100781"
   },
@@ -5116,8 +5178,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0100941"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-HIST-5265"
    },
    "sourceRef": "course-0100941"
   },

@@ -90,7 +90,7 @@ An empty development URL selects `backend/instance/dev.db`. Process environment 
 cd backend
 uv sync
 uv run flask --app app db upgrade
-uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-23.csv
+uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-23.csv --requisites data/catalog-exports/requisites.2026-11-25.csv
 uv run flask --app app run --debug --port 5000
 ```
 
@@ -119,7 +119,7 @@ docker compose up --build
 Open **http://localhost:3000**. Compose runs PostgreSQL 17, Flask, and an nginx-served frontend. Load catalog data into this local stack with:
 
 ```powershell
-docker compose exec api uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-23.csv
+docker compose exec api uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-23.csv --requisites data/catalog-exports/requisites.2026-11-25.csv
 ```
 
 Stop while preserving database storage:
@@ -167,7 +167,7 @@ uv run flask --app app db upgrade
 Catalog imports replace seed tables:
 
 ```powershell
-uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-23.csv
+uv run python scripts/import_catalog.py --csv data/catalog-exports/courses.2026-11-23.csv --requisites data/catalog-exports/requisites.2026-11-25.csv
 ```
 
 The importer reads `backend/data/courses.db` without modifying it. Program requirements and sample plans live in versioned JSON files, separate from student records. Read [the data guide](backend/data/README.md) before rebuilding them.
@@ -176,10 +176,10 @@ Current accuracy boundaries:
 
 - Sample-plan exports cover **161 public pages**, with **155 matched program files** and six explicitly unmatched pages.
 - Computer Science B.S. is the only program with a rule-by-rule reviewed overlay. Other majors are marked unverified.
-- Reviewed CSCI/MATH rows have structured prerequisites. Other prerequisite text remains visible with review warnings and does not silently become an enforced rule.
+- Prerequisites come from, in order: hand-reviewed trees in `backend/data/prerequisites/reviewed.json` (core courses of ten popular majors), the requirement registration enforces (Schedule Builder) when it parses completely, then the catalog text when it parses completely. Anything else remains visible text with review warnings and never blocks. See [the prerequisite audit](docs/major-prerequisite-audit.md).
 - Missing LE categories receive labeled suggestions. Free elective gaps are reported as credits rather than filled with arbitrary classes.
 - Category suggestions are not a complete core/theme/writing tracker. See [#14](https://github.com/Troppy2/Gopher-Planner/issues/14).
-- Sample plans are not catalog-year-specific degree rules. Typical offering seasons do not guarantee a section or seat. Concurrent-enrollment enforcement and live section data remain future work.
+- Sample plans are not catalog-year-specific degree rules. Typical offering seasons do not guarantee a section or seat. Prerequisites marked concurrent may share a term; live section data remains future work.
 - PDFs and extracted document text are not persisted by the upload pipeline. Normalized coursework and audit metadata are stored. See [SECURITY.md](SECURITY.md).
 
 ## Development checks

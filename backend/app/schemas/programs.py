@@ -204,9 +204,10 @@ def prerequisite_expression(node):
     require(isinstance(node, dict), "Prerequisite expressions must be objects")
     kind = node.get("type")
     if kind == "course":
-        shape(node, {"type", "course_code"}, location="prerequisite course")
+        shape(node, {"type", "course_code"}, location="prerequisite course", optional={"concurrent"})
         require(isinstance(node["course_code"], str) and CODE_PATTERN.fullmatch(node["course_code"]),
                 "Invalid prerequisite course code")
+        require(node.get("concurrent", True) is True, "Prerequisite concurrent must be true when present")
     elif kind in {"all_of", "any_of"}:
         shape(node, {"type", "requirements"}, location="prerequisite group")
         require(isinstance(node["requirements"], list) and bool(node["requirements"]), "Prerequisite groups must be nonempty")
