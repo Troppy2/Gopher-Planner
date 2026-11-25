@@ -105,6 +105,16 @@ Remaining issues seen in the check, outside prerequisite data:
 - **Lab timing:** when a term is already full, a lab can land one term after its lecture (Mechanical Engineering: CHEM 1071 in year 1 spring, CHEM 1065 in year 2 fall).
 - **3xxx LE courses early:** LE picks favor courses that cover two needs, which are often 3xxx courses open to any student, so some land in year 1.
 
+### Every major
+
+The same dry run was repeated for all 155 program files, re-checking each planned course against its prerequisites with the program's equivalent courses applied, as the planner does.
+
+- **First run:** 150 majors clean. One real violation: in Computer Science B.A., CSCI 4271W was placed before CSCI 3081W. The program's "one writing-intensive course" menu (CSCI 3081W, 3921W, 4271W, ...) was treated as a set of interchangeable courses, so 4271W counted toward its own prerequisite.
+- **Fix:** program equivalents now cover only variants of one course: honors or suffix twins and cross-listings (same number), or lower-division courses at one level (MATH 1271, 1371, 1571H). A course never counts toward its own prerequisite.
+- **After the fix:** 0 prerequisite-order violations, 0 restricted LE picks and 0 errors across all 155. The fix added no new `requirements_incomplete` plans (60 before and after).
+
+To repeat this for a new term: re-export the registration requirements, rebuild the program files, run the dry run, and hand-review only the majors it flags.
+
 ## Known limits
 
 - Reviewed trees cover the ten majors' core chains only. Other courses use parsed registration or catalog text, or remain warnings.
