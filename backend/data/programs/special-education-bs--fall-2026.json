@@ -18,10 +18,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record EDHD 1525W, version 8016981-2021-09-07"
   },
+  "enforced-EDHD-1525W": {
+   "url": "https://schedulebuilder.umn.edu/explore/EDHD/1525W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for EDHD 1525W, term 1269"
+  },
   "course-8054041": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8054041",
    "retrieved": "2026-11-23",
    "section": "Course record EDHD 1525V, version 8054041-2021-09-07"
+  },
+  "enforced-EDHD-1525V": {
+   "url": "https://schedulebuilder.umn.edu/explore/EDHD/1525V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for EDHD 1525V, term 1269"
   },
   "course-8113281": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8113281",
@@ -50,9 +60,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "CEHD student, honors, 1st-term fr"
+     "text": "Registration requires: CEHD honors, 1st-term fr"
     },
-    "sourceRef": "course-8054041"
+    "sourceRef": "enforced-EDHD-1525V"
    },
    "sourceRef": "course-8054041"
   },
@@ -66,8 +76,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8016981"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: CEHD student, FRFY"
+    },
+    "sourceRef": "enforced-EDHD-1525W"
    },
    "sourceRef": "course-8016981"
   },

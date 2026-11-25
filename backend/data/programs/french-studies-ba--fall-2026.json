@@ -108,6 +108,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record FREN 3861, version 8264471-2026-09-08"
   },
+  "enforced-FREN-3861": {
+   "url": "https://schedulebuilder.umn.edu/explore/FREN/3861/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for FREN 3861, term 1269"
+  },
   "course-8107021": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8107021",
    "retrieved": "2026-11-23",
@@ -369,8 +374,8 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3101W"
+     "type": "course",
+     "course_code": "FREN 3101W"
     },
     "sourceRef": "course-8021101"
    },
@@ -399,8 +404,8 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3015"
+     "type": "course",
+     "course_code": "FREN 3015"
     },
     "sourceRef": "course-8082661"
    },
@@ -454,8 +459,8 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3015"
+     "type": "course",
+     "course_code": "FREN 3015"
     },
     "sourceRef": "course-0096261"
    },
@@ -499,7 +504,7 @@
      "type": "course",
      "course_code": "FREN 3016"
     },
-    "sourceRef": "course-8264471"
+    "sourceRef": "enforced-FREN-3861"
    },
    "sourceRef": "course-8264471"
   },

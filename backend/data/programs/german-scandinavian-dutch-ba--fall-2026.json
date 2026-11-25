@@ -63,6 +63,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record GER 3014, version 0090031-2026-09-08"
   },
+  "enforced-GER-3014": {
+   "url": "https://schedulebuilder.umn.edu/explore/GER/3014/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GER 3014, term 1273"
+  },
   "course-0090111": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0090111",
    "retrieved": "2026-11-23",
@@ -72,6 +77,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0103071",
    "retrieved": "2026-11-23",
    "section": "Course record GER 3104W, version 0103071-2026-09-08"
+  },
+  "enforced-GER-3104W": {
+   "url": "https://schedulebuilder.umn.edu/explore/GER/3104W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GER 3104W, term 1269"
   },
   "course-0090121": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0090121",
@@ -97,6 +107,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0102541",
    "retrieved": "2026-11-23",
    "section": "Course record GER 3702, version 0102541-2015-01-20"
+  },
+  "enforced-GER-3702": {
+   "url": "https://schedulebuilder.umn.edu/explore/GER/3702/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GER 3702, term 1273"
   },
   "course-0090491": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0090491",
@@ -173,6 +188,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record GER 3501, version 0090161-2026-09-08"
   },
+  "enforced-GER-3501": {
+   "url": "https://schedulebuilder.umn.edu/explore/GER/3501/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GER 3501, term 1269"
+  },
   "course-0101741": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0101741",
    "retrieved": "2026-11-23",
@@ -207,6 +227,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8154241",
    "retrieved": "2026-11-23",
    "section": "Course record GER 5651, version 8154241-2026-09-08"
+  },
+  "enforced-GER-5651": {
+   "url": "https://schedulebuilder.umn.edu/explore/GER/5651/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GER 5651, term 1269"
   },
   "course-8133421": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8133421",
@@ -348,6 +373,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record GER 5011, version 0102971-2015-01-20"
   },
+  "enforced-GER-5011": {
+   "url": "https://schedulebuilder.umn.edu/explore/GER/5011/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GER 5011, term 1269"
+  },
   "course-8267031": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8267031",
    "retrieved": "2026-11-23",
@@ -362,6 +392,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0099971",
    "retrieved": "2026-11-23",
    "section": "Course record GER 5510, version 0099971-2026-09-08"
+  },
+  "enforced-GER-5510": {
+   "url": "https://schedulebuilder.umn.edu/explore/GER/5510/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GER 5510, term 1269"
   },
   "course-0090211": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0090211",
@@ -413,10 +448,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record GSD 3451W, version 0089781-2014-09-02"
   },
+  "enforced-GSD-3451W": {
+   "url": "https://schedulebuilder.umn.edu/explore/GSD/3451W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GSD 3451W, term 1273"
+  },
   "course-7876061": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7876061",
    "retrieved": "2026-11-23",
    "section": "Course record GSD 3451V, version 7876061-2015-01-20"
+  },
+  "enforced-GSD-3451V": {
+   "url": "https://schedulebuilder.umn.edu/explore/GSD/3451V/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GSD 3451V, term 1273"
   }
  },
  "courseSets": {
@@ -696,8 +741,8 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3011 or 4011"
+     "type": "course",
+     "course_code": "DTCH 4011"
     },
     "sourceRef": "course-0088261"
    },
@@ -725,8 +770,17 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1004 or 4004"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "FIN 1004"
+      },
+      {
+       "type": "course",
+       "course_code": "FIN 4004"
+      }
+     ]
     },
     "sourceRef": "course-0079661"
    },
@@ -742,8 +796,17 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3011 or 4011"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "FIN 3011"
+      },
+      {
+       "type": "course",
+       "course_code": "FIN 4011"
+      }
+     ]
     },
     "sourceRef": "course-0079761"
    },
@@ -760,8 +823,8 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1004."
+     "type": "course",
+     "course_code": "GER 1004"
     },
     "sourceRef": "course-0086391"
    },
@@ -775,8 +838,8 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3011W"
+     "type": "course",
+     "course_code": "GER 3011W"
     },
     "sourceRef": "course-0088651"
    },
@@ -792,10 +855,10 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3011"
+     "type": "course",
+     "course_code": "GER 3011W"
     },
-    "sourceRef": "course-0090031"
+    "sourceRef": "enforced-GER-3014"
    },
    "sourceRef": "course-0090031"
   },
@@ -822,8 +885,8 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1004"
+     "type": "course",
+     "course_code": "GER 1004"
     },
     "sourceRef": "course-0090111"
    },
@@ -839,10 +902,10 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3011 or advanced German proficiency."
+     "type": "course",
+     "course_code": "GER 3011W"
     },
-    "sourceRef": "course-0103071"
+    "sourceRef": "enforced-GER-3104W"
    },
    "sourceRef": "course-0103071"
   },
@@ -883,8 +946,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0090161"
+    "expression": {
+     "type": "course",
+     "course_code": "GER 3011W"
+    },
+    "sourceRef": "enforced-GER-3501"
    },
    "sourceRef": "course-0090161"
   },
@@ -1078,8 +1144,8 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1004"
+     "type": "course",
+     "course_code": "GER 1004"
     },
     "sourceRef": "course-0102411"
    },
@@ -1093,10 +1159,10 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1004"
+     "type": "course",
+     "course_code": "GER 1004"
     },
-    "sourceRef": "course-0102541"
+    "sourceRef": "enforced-GER-3702"
    },
    "sourceRef": "course-0102541"
   },
@@ -1109,9 +1175,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "3012, [grad student or adv undergrad]"
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
     },
-    "sourceRef": "course-0102971"
+    "sourceRef": "enforced-GER-5011"
    },
    "sourceRef": "course-0102971"
   },
@@ -1158,8 +1224,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0099971"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-GER-5510"
    },
    "sourceRef": "course-0099971"
   },
@@ -1185,8 +1254,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8154241"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-GER-5651"
    },
    "sourceRef": "course-8154241"
   },
@@ -1252,9 +1324,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Honors student"
+     "text": "Registration requires: GSD mjr, jr or sr, honors"
     },
-    "sourceRef": "course-7876061"
+    "sourceRef": "enforced-GSD-3451V"
    },
    "sourceRef": "course-7876061"
   },
@@ -1267,8 +1339,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0089781"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: GSD mjr, jr or sr"
+    },
+    "sourceRef": "enforced-GSD-3451W"
    },
    "sourceRef": "course-0089781"
   },

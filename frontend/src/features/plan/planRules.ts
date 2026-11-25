@@ -40,16 +40,17 @@ export function catalogToPlanCourse(course: CatalogCourse): Course {
   };
 }
 
-/** True when the prerequisite is finished, in progress, or planned in a strictly earlier term. */
-function satisfied(code: string, termIdx: number, courses: Course[], terms: TermId[]) {
+/** True when the prerequisite is finished, in progress, or planned in a strictly earlier term (or the same term when concurrent registration is allowed). */
+function satisfied(code: string, termIdx: number, courses: Course[], terms: TermId[], concurrent = false) {
   const p = courses.find((x) => x.code === code);
   if (!p) return false;
   if (p.status === "done") return true;
-  return (p.status === "plan" || p.status === "prog") && p.term !== null && terms.indexOf(p.term) >= 0 && terms.indexOf(p.term) < termIdx;
+  const at = p.term !== null ? terms.indexOf(p.term) : -1;
+  return (p.status === "plan" || p.status === "prog") && at >= 0 && (concurrent ? at <= termIdx : at < termIdx);
 }
 
 function treeMet(node: PrerequisiteExpression, termIdx: number, courses: Course[], terms: TermId[]): boolean {
-  if (node.type === "course") return satisfied(String(node.course_code).toUpperCase(), termIdx, courses, terms);
+  if (node.type === "course") return satisfied(String(node.course_code).toUpperCase(), termIdx, courses, terms, node.concurrent === true);
   const children = (node as { requirements?: PrerequisiteExpression[] }).requirements ?? [];
   if (node.type === "all_of") return children.every((child) => treeMet(child, termIdx, courses, terms));
   if (node.type === "any_of") return children.some((child) => treeMet(child, termIdx, courses, terms));

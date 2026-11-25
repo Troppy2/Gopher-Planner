@@ -1,0 +1,5525 @@
+{
+ "schemaVersion": 1,
+ "description": "Hand-reviewed prerequisite trees for the core courses of ten popular Twin Cities majors. Each tree encodes the standard course route from the official catalog text and the requirement registration enforces. Standing, major, college and minimum-grade rules are condition nodes that warn but never block. Instructor consent, graduate standing and broad 'or equivalent' escape hatches are omitted from the tree and noted. A concurrent course may be taken in the same term. An expression of null means no prerequisites.",
+ "sources": {
+  "reviewed-2026-11-24": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses",
+   "retrieved": "2026-11-24",
+   "section": "Course prerequisites reviewed against the official catalog course records (retrieved 2026-11-23) and the enrollment requirements enforced by registration in Schedule Builder for Fall 2026 and Spring 2027 (https://schedulebuilder.umn.edu/, retrieved 2026-11-24)"
+  }
+ },
+ "courses": {
+  "ACCT 3001": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ACCT 2051"
+     },
+     {
+      "type": "course",
+      "course_code": "ACCT 2051H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ACCT 2051 or 2051H or ACCT 2050",
+   "enforced": "Acct 2050 or 2051 or 2051H | Students registering for this cohort need to enroll in MKTG 3001-001 (21353), IDSC 3001-001 (21467), BA 3001-001 (21673), and ACCT 3001-001 (21479) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-001 (56253), IDSC 3001-001 (56400), BA 3001-001 (56589), and ACCT 3001-001 (56247) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-002 (21293), IDSC 3001-002 (21468), BA 3001-002 (21695), and ACCT 3001-002 (21288) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-002 (56254), IDSC 3001-002 (56401), BA 3001-002 (56642), and ACCT 3001-002 (56248) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-003 (21294), IDSC 3001-003 (21469), BA 3001-003 (21696), and ACCT 3001-003 (21289) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-003 (56255), IDSC 3001-003 (56402), BA 3001-003 (56643), and ACCT 3001-003 (56420) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-004 (21475), IDSC 3001-004 (21487), BA 3001-004 (21697), and ACCT 3001-004 (21428) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-004 (56306), IDSC 3001-004 (56491), BA 3001-004 (56644), and ACCT 3001-004 (56249) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-005 (56329), IDSC 3001-005 (56403), BA 3001-005 (56645), and ACCT 3001-005 (56641) and be part of the CORE student group."
+  },
+  "ACCT 5101": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ACCT 2051"
+       },
+       {
+        "type": "course",
+        "course_code": "ACCT 2051H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Grade of B- or better in ACCT 2050/2051, or a passed accounting pretest"
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School major, or another major or minor the course lists"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Grade of B- or better in Acct 2050/Acct 2051 OR passed the Acct pretest (z.umn.edu/Acct5101pretest); CSOM Major, MGMT minor, mgmt grad student",
+   "enforced": "ACCT student group, and CSOM UGRD or NONM or MGMT minor or ECON Business Econ major or MGMT grad student | ACCT student group, and CSOM UGRD or NONM or MGMT minor or MGMT grad student",
+   "note": "Passing the accounting pretest is an alternative route; every Carlson major already takes ACCT 2051."
+  },
+  "AEM 2011": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "PHYS 1301W"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1201W"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1401V"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1501V"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2374",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2263",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2573H",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[PHYS 1301W or Phys 1201W or Phys 1401V or 1501V] , &Math 2374 or &Math 2263 or &Math 2573H], CSE Student or Pre-Bioprod & Biosys Engn (PRE)",
+   "enforced": "AEM: [PHYS 1301W or Phys 1201W or Phys 1401V or 1501V] , &Math 2374 or &Math 2263 or &Math 2573H], CSE Student or Pre-Bioprod & Biosys Engn (PRE)",
+   "note": "A leading & in the catalog means concurrent registration is allowed."
+  },
+  "AEM 2012": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "AEM 2011"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2373",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2243",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2574H",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSE student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "2011, [concurrent registration is required (or allowed) in  Math 2373 or equiv], CSE student",
+   "enforced": "AEM 2011, &Math 2373 or &Math 2243 or &Math 2574], CSE student"
+  },
+  "AEM 2021": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "PHYS 1301W"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1201W"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1401V"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1501V"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2374",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2263",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2573H",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Phys 1301W, [concurrent registration is required (or allowed) in Math 2374 or equiv], CSE",
+   "enforced": "AEM: [PHYS 1301W or Phys 1201W or Phys 1401V or 1501V] , &Math 2374 or &Math 2263 or &Math 2573H], CSE Student or Pre-Bioprod & Biosys Engn (PRE)"
+  },
+  "AEM 3031": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "AEM 2011"
+       },
+       {
+        "type": "course",
+        "course_code": "AEM 2021"
+       },
+       {
+        "type": "course",
+        "course_code": "BMEN 3011"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2374"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2263"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 3251"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2373",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2243",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2573H",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSE student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[2011 or 2021 or [BMEN 3011, BMEN major]], [Math 2374 or equiv], [concurrent registration is required (or allowed) in Math 2373 or equiv], CSE",
+   "enforced": "AEM: [AEM 2011 or 2021 or [BMEN 3011 or BMEN Major]],[Math 2374 or Math 2263 or Math 3251],[&Math 2373 or &Math 2243 or &Math 2573H], CSE Student"
+  },
+  "AEM 4201": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "AEM 2012"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2373"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2243"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2574H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2374"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2263"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2573H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSE upper division or graduate student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "2012, [Math 2373 or equiv], [Math 2374 or equiv], [CSE upper div or grad student]",
+   "enforced": "AEM 2012, [Math 2373 or Math 2243 or Math 2574H], [Math 2374 or Math 2263 or Math 2573H], [CSE upper div or grad student]"
+  },
+  "AEM 4202": {
+   "expression": {
+    "type": "course",
+    "course_code": "AEM 4201"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "upper div CSE or grad, 4201",
+   "enforced": "AEM 4201"
+  },
+  "ANAT 3001": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BIOL 1002W"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 1009"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2002"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "At least sophomore standing"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[BIOL 1002W or BIOL 1009 or BIOL 2002 or equiv], at least soph",
+   "enforced": "Biol 1002W or Biol 1009 or Biol 2002 or equiv | soph or jr or sr or grad"
+  },
+  "ANAT 3601": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BIOL 1002W"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 1009"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2002"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ANAT 3602",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "ANAT 3612",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "At least sophomore standing"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[BIOL 1002 or BIOL 1009 or BIOL 2002 or equiv], [concurrent registration is required (or allowed) in 3602 or concurrent registration is required (or allowed) in 3612], at least soph",
+   "enforced": ""
+  },
+  "ANAT 3611": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BIOL 1002W"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 1009"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2002"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "At least sophomore standing"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[BIOL 1002 or BIOL 1009 or BIOL 2002 or equiv], at least soph; [concurrent registration is required (or allowed) in 3602 or concurrent registration is required (or allowed) in 3612] recommended",
+   "enforced": ""
+  },
+  "ANAT 3651": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BIOL 1002W"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 1009"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2002"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "At least sophomore standing"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[BIOL 1002 or BIOL 1009 or BIOL 2002 or equiv], at least soph",
+   "enforced": "Biol 1002W or Biol 1009 or Biol 2002 or equiv, at least soph"
+  },
+  "ANAT 3658H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BIOL 1002W"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 1009"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2002"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "At least sophomore standing; honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "Biol 1002W or Biol 1009 or Biol 2002 or equiv, at least soph"
+  },
+  "APEC 1102": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "APEC 1101"
+     },
+     {
+      "type": "course",
+      "course_code": "APEC 1101H"
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 1101"
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 1101H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "1101 or Econ 1101",
+   "enforced": "ApEc 1101 or 1101H or Econ 1101 or 1101H"
+  },
+  "APEC 3006": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "APEC 1102"
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 1102"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "APEC 1102 or ECON 1102 or instr consent",
+   "enforced": "ApEc 1102 or Econ1102"
+  },
+  "APEC 3501": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "APEC 1251"
+       },
+       {
+        "type": "course",
+        "course_code": "ACCT 2051"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "At least 60 credits"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[[1251 or Acct 2051], 60 cr] or instr consent",
+   "enforced": "[APEC 1251 or ACCT 2051] , 60 credits"
+  },
+  "BA 3033W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "WRIT 1301"
+       },
+       {
+        "type": "course",
+        "course_code": "WRIT 1401"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School major, or another major or minor the course lists"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "First Year Writing, CSOM mjr or NONM",
+   "enforced": "CSOM mjr or NONM",
+   "note": "First-year writing: WRIT 1301, 1401, or an equivalent."
+  },
+  "BA 3051": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BA 2051"
+       },
+       {
+        "type": "course",
+        "course_code": "BA 2051H"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "BA 2551"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "Carlson School of Management student",
+   "note": "Stated in the catalog description: Modeling Business Scenarios in Excel and Business Statistics in R."
+  },
+  "BA 3062": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "BA 1011"
+     },
+     {
+      "type": "course",
+      "course_code": "BA 2062"
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School student, not first-year"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Carlson School of Management student, BA 1011, BA 2062, non-FRFY",
+   "enforced": "BA 1011, BA 2062, non-FRFY, Carlson School of Management student"
+  },
+  "BIOC 3022": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CHEM 2301"
+       },
+       {
+        "type": "all_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "CHEM 2081"
+         },
+         {
+          "type": "course",
+          "course_code": "CHEM 2085"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CBS students only"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "CHEM 2301 or CHEM 2081/2085 or equivalent",
+   "enforced": "Chem 2301 or Chem 2081 or Chem 2085 or equiv AND CBS Students ONLY"
+  },
+  "BIOC 4331": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BIOL 1009"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2003"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2003H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CHEM 2302"
+       },
+       {
+        "type": "all_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "CHEM 2081"
+         },
+         {
+          "type": "course",
+          "course_code": "CHEM 2085"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "(BIOL 1009 or 2003 or equiv) AND (Chem 2302 or CHEM 2081/2085 or equiv)",
+   "enforced": "Biol 1009 or 2003 or equiv) AND Chem 2302 or Chem 2081 or Chem 2085 or equiv"
+  },
+  "BIOC 4332": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "BIOC 3021"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOC 3022"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOC 4331"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "BioC 4331 or Bioc 3201 or BioC 3022",
+   "enforced": "BioC 3021 or BioC 3022 or BioC 4331"
+  },
+  "BIOL 1806": {
+   "expression": {
+    "type": "course",
+    "course_code": "BIOL 1805"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Biol 1805",
+   "enforced": "Biol 1805"
+  },
+  "BIOL 2002": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CHEM 1021"
+       },
+       {
+        "type": "course",
+        "course_code": "CHEM 1061"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CBS major"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[[CHEM 1021 or 1061 or equiv], CBS major] or dept consent; calculus I or equiv recommended",
+   "enforced": ""
+  },
+  "BIOL 2003": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "BIOL 1951"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOL 1951H"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOL 2002"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOL 2002H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "Biol 1951, 1951H, 2002 or 2002H",
+   "note": "Enforced by registration; the catalog record states no prerequisite."
+  },
+  "BIOL 2003H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BIOL 1951"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 1951H"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2002"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2002H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "Biol 1951, 1951H, 2002 or 2002H",
+   "note": "Enforced by registration; the catalog record states no prerequisite."
+  },
+  "BIOL 3025": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "BIOL 2003"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOL 2003H"
+     },
+     {
+      "type": "all_of",
+      "requirements": [
+       {
+        "type": "any_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "BIOL 1009"
+         },
+         {
+          "type": "course",
+          "course_code": "BIOL 1009H"
+         }
+        ]
+       },
+       {
+        "type": "course",
+        "course_code": "CHEM 1061"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "Biol 2003/2003H or [Biol1009/1009H AND Chem1061/1061H]",
+   "note": "Enforced by registration; the catalog record states no prerequisite."
+  },
+  "BIOL 3211": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BIOL 1009"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 1009H"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2003"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2003H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "all_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "CHEM 1062"
+         },
+         {
+          "type": "course",
+          "course_code": "CHEM 1066"
+         }
+        ]
+       },
+       {
+        "type": "all_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "CHEM 1072"
+         },
+         {
+          "type": "course",
+          "course_code": "CHEM 1066"
+         }
+        ]
+       },
+       {
+        "type": "all_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "CHEM 1072H"
+         },
+         {
+          "type": "course",
+          "course_code": "CHEM 1066"
+         }
+        ]
+       },
+       {
+        "type": "all_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "CHEM 1082"
+         },
+         {
+          "type": "course",
+          "course_code": "CHEM 1086"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[1009 or 2003], [CHEM 1062/1066 or 1082/1086], [2005 is recommended]",
+   "enforced": "[BIOL 1009 or BIOL 2003] and [CHEM 1062,1066 or CHEM 1072,1066, or CHEM 1072H,1066 or CHEM 1082,1086] | [Biol 1009/1009H or Biol 2003/2003H] and [Chem 1062/1066 or Chem 1082/1086]"
+  },
+  "BIOL 4003": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "BIOL 2003"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOL 2003H"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOC 3021"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOC 4331"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Biol 2003/2003H or BioC 3021 or BioC 4331 or grad",
+   "enforced": "FBYP/Biol 2003/Biol 2003H/BioC 3021/BioC 4331/Grad"
+  },
+  "BIOL 4004": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "BIOL 2003"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOL 2003H"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOL 4003"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "FBYP, or BIOL 2003 or 2003H, or BIOL 4003, or grad",
+   "enforced": "FBYP or Biol 2003 or Biol 2003H or Biol 4003 or Grad"
+  },
+  "BMEN 3011": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2373"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2374"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 2301"
+     },
+     {
+      "type": "course",
+      "course_code": "PHYS 1302W"
+     },
+     {
+      "type": "condition",
+      "text": "CSE student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "CSE Student, (Math 2373 or 2374), Chem 2301, and Phys 1302W; (equiv courses allowed)",
+   "note": "Enforced by registration; equivalent courses are allowed."
+  },
+  "CHEM 1061": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "condition",
+      "text": "Satisfactory score on the math placement test"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1031"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1051"
+     },
+     {
+      "type": "course",
+      "course_code": "CI 1806"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806",
+   "enforced": "Chem 1065 prereq or coreq, or equiv",
+   "note": "Placement into MATH 1151 alone qualifies. CHEM 1065 (lab) is required with or before it. Lecture and lab must be taken together; the planner enforces the pairing on the lab only, because a two-way concurrent requirement cannot be ordered."
+  },
+  "CHEM 1062": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CHEM 1061"
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Grade of at least C- in 1061 or equiv, concurrent registration is required (or allowed) in 1066; registration for 1066 must precede registration for 1062",
+   "enforced": "Chem 1061 and 1066",
+   "note": "CHEM 1066 (lab) is required with it. Lecture and lab must be taken together; the planner enforces the pairing on the lab only, because a two-way concurrent requirement cannot be ordered."
+  },
+  "CHEM 1065": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CHEM 1061",
+      "concurrent": true
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1071",
+      "concurrent": true
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1071H",
+      "concurrent": true
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1081",
+      "concurrent": true
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081",
+   "enforced": "Concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+  },
+  "CHEM 1066": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CHEM 1062",
+      "concurrent": true
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1072",
+      "concurrent": true
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1072H",
+      "concurrent": true
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "concurrent registration is required (or allowed) in 1062, 1072, 1072H",
+   "enforced": "Concurrent registration is required (or allowed) in 1062, 1072, 1072H"
+  },
+  "CHEM 1071": {
+   "expression": {
+    "type": "condition",
+    "text": "CHEM 1065 (lab) with or before this course"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "A strong understanding of College Algebra or Precalculus is recommended. Prerequisite: Concurrent registration is required (or allowed in) CHEM 1065; registration for 1065 must precede registration for 1071.",
+   "enforced": "Chem 1065 prereq or coreq, or equiv",
+   "note": "Lecture and lab must be taken together; the planner enforces the pairing on the lab only, because a two-way concurrent requirement cannot be ordered."
+  },
+  "CHEM 1072": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CHEM 1071"
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Grade of at least C- in 1071 or equivalent, concurrent registration is required in 1066; registration for 1066 must precede registration for 1072",
+   "enforced": "Chem 1061 and 1066",
+   "note": "CHEM 1066 (lab) is required with it. Lecture and lab must be taken together; the planner enforces the pairing on the lab only, because a two-way concurrent requirement cannot be ordered."
+  },
+  "CHEM 1081": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "condition",
+      "text": "Satisfactory score on the math placement test"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1031"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1051"
+     },
+     {
+      "type": "course",
+      "course_code": "CI 1806"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806",
+   "enforced": "Chem 1065 prereq or coreq, or equiv",
+   "note": "Placement into MATH 1151 alone qualifies. CHEM 1065 (lab) is required with or before it. Lecture and lab must be taken together; the planner enforces the pairing on the lab only, because a two-way concurrent requirement cannot be ordered."
+  },
+  "CHEM 1082": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CHEM 1081"
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1065"
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "Concurrent enrollment in CHEM 1086",
+   "note": "CHEM 1086 (lab) is required with it. Lecture and lab must be taken together; the planner enforces the pairing on the lab only, because a two-way concurrent requirement cannot be ordered."
+  },
+  "CHEM 1086": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CHEM 1081"
+       },
+       {
+        "type": "course",
+        "course_code": "CHEM 1061"
+       },
+       {
+        "type": "course",
+        "course_code": "CHEM 1071H"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1065"
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1082",
+      "concurrent": true
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "grade of a C- or better in CHEM 1081 or 1061 or 1071H and CHEM 1065 (lab). Concurrent registration in CHEM 1082 is required.",
+   "enforced": "Chem 1061 or 1071H or 1081; Chem 1065"
+  },
+  "CHEM 2081": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CHEM 1082"
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1086"
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "grade of a C- or better in CHEM 1082 (lecture) and CHEM 1086 (lab)",
+   "enforced": "Chem 2085 concurrent",
+   "note": "CHEM 2085 (lab) is required with it. Lecture and lab must be taken together; the planner enforces the pairing on the lab only, because a two-way concurrent requirement cannot be ordered."
+  },
+  "CHEM 2085": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CHEM 1082"
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1086"
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 2081",
+      "concurrent": true
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "grade of a C- or better in CHEM 1082 (lecture) and CHEM 1086 (lab). Concurrent registration in CHEM 2081 is required.",
+   "enforced": "Chem 1082, Chem 1086"
+  },
+  "CHEM 2301": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CHEM 1062"
+       },
+       {
+        "type": "course",
+        "course_code": "CHEM 1072"
+       },
+       {
+        "type": "course",
+        "course_code": "CHEM 1072H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "C- or better in CHEM 1062/1072/1072H or equivalent",
+   "enforced": "Chem 1062/1072/1072H or equivalent"
+  },
+  "CHEM 2302": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CHEM 2301"
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Grade of at least C- in 2301",
+   "enforced": ""
+  },
+  "CHEM 2331H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CHEM 1072H"
+     },
+     {
+      "type": "condition",
+      "text": "At least B+ in CHEM 1072H; honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "At least B+ in 1072H, honors student or instructor consent",
+   "enforced": "honors student"
+  },
+  "CHEM 2332H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CHEM 2331H"
+     },
+     {
+      "type": "condition",
+      "text": "Honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "At least C- in 2331H, UHP student",
+   "enforced": "Chem 2331H, Honors Student"
+  },
+  "CSCI 1113": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MATH 1271"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1371"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1571H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Math 1271 or Math 1371 or Math 1571H or instr consent.",
+   "enforced": "Math 1271 or 1371 or 1571H; non-grad students (or instr consent)"
+  },
+  "CSCI 1133H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1271",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1371",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1571H",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSci major or CSE/CLA pre-major; honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[concurrent registration is required (or allowed) in MATH 1271 or concurrent registration is required (or allowed) in MATH 1371 or concurrent registration is required (or allowed) in MATH 1571H], CSci majors, pre-majors in CSE/CLA, honors student",
+   "enforced": "honors student"
+  },
+  "CSCI 1913": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CSCI 1103"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 1113"
+       },
+       {
+        "type": "course",
+        "course_code": "EE 1301"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1271",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1371",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1571H",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1142",
+        "concurrent": true
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "(CSCI 1103 or CSCI 1113 or EE 1301 or instr consent) AND (concurrent registration in MATH 1271 or MATH 1371 or MATH 1571H or MATH 1142 or instr consent)",
+   "enforced": "CSci 1103 or CSci 1113 or EE 1301; and coreq Math 1271 or Math 1371 or Math 1571H or MATH 1142 (or instr consent)"
+  },
+  "CSCI 1923": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CSCI 1103"
+     },
+     {
+      "type": "course",
+      "course_code": "CSCI 1113"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "CSci 1103 or CSci 1113",
+   "enforced": "CSci 1103 or 1113"
+  },
+  "CSCI 1933": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CSCI 1133"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 1133H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1271",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1371",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1571H",
+        "concurrent": true
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Calc I (Math 1271 or Math 1371 or Math 1571H) as a corequisite, CSci 1133 as a prerequisite.",
+   "enforced": "Calculus I, CSCI1133"
+  },
+  "CSCI 1933H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CSCI 1133"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 1133H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1271",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1371",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1571H",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "Co-req: Calc 1; pre-req: CSCI 1133 or 1133H AND honors student"
+  },
+  "CSCI 2011": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MATH 1271"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1371"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1571H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "MATH 1271 or MATH 1371 or MATH 1571H",
+   "enforced": "Math1271 or 1371 or 1571H"
+  },
+  "CSCI 2011H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1271"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1371"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1571H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Honors Student AND [MATH 1271 or MATH 1371 or MATH 1571H]",
+   "enforced": "Honors Student AND [MATH 1271 or MATH 1371 or MATH 1571H]"
+  },
+  "CSCI 2021": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CSCI 1913"
+     },
+     {
+      "type": "course",
+      "course_code": "CSCI 1933"
+     },
+     {
+      "type": "course",
+      "course_code": "CSCI 1933H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "1913 or 1933  or 1933H",
+   "enforced": "CSci 1913 or 1933"
+  },
+  "CSCI 2033": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CSCI 1103"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 1113"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 1133"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1271"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1371"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1571H"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "CSCI [1103 OR 1113 OR 1133] & MATH [1271 OR 1371 OR 1571H]",
+   "enforced": "CSci 1103 or 1113 or 1133; and Math 1271 or 1371 or 1571H"
+  },
+  "CSCI 2041": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CSCI 1913"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 1933"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 1933H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CSCI 2011"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 2011H"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "(CSci 1913 or CSci 1933 or 1933H) and (CSci 2011 or CSci 2011H)",
+   "enforced": "(CSci 1913 or CSci 1933 or 1933H), (CSci 2011 or CSci 2011H)"
+  },
+  "CSCI 2081": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CSCI 1133"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 1133H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Not for CSci or CompE majors"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "CSCI 1133 or CSCI 1133H",
+   "enforced": "CSci 1133 or CSci 1133H, non-CSci, non-CompE mjrs"
+  },
+  "CSCI 3041": {
+   "expression": {
+    "type": "course",
+    "course_code": "CSCI 2081"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "CSci 2081",
+   "enforced": "CSci 2081"
+  },
+  "CSCI 3061": {
+   "expression": {
+    "type": "course",
+    "course_code": "CSCI 2081"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "CSci 2081",
+   "enforced": "CSci 2081"
+  },
+  "CSCI 3081W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CSCI 2021"
+     },
+     {
+      "type": "course",
+      "course_code": "CSCI 2041"
+     },
+     {
+      "type": "condition",
+      "text": "CSci upper division"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "(CSci 2021, CSCI 2041, CSci upper div) or CSci grad or department consent",
+   "enforced": "(CSci 2021, CSCI 2041, CSci upper div) or CSci grad | CSci 3081: restrict to CSci mjrs"
+  },
+  "CSCI 4011": {
+   "expression": {
+    "type": "course",
+    "course_code": "CSCI 2041"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "2041",
+   "enforced": "CSci 2041"
+  },
+  "CSCI 4041": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CSCI 1913"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 1933"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 1933H"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "CSCI 2011"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[(CSCI 1913 or CSCI 1933 or CSCI 1933H) and CSCI 2011] or Graduate Student Standing",
+   "enforced": "[(CSCI 1913 or CSCI 1933 or CSCI 1933H) and CSCI 2011] or Graduate Student Standing"
+  },
+  "CSCI 4061": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CSCI 2021"
+       },
+       {
+        "type": "course",
+        "course_code": "EE 2361"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CS, CompE, EE or ITI upper division"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "2021 or EE 2361; CS upper div, CompE upper div., EE upper div., EE grad, ITI upper div., or dept. permission; no cr for grads in CSci.",
+   "enforced": "CSci 2021 or EE 2361; and CSci"
+  },
+  "CSCI 4131": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CSCI 1133"
+       },
+       {
+        "type": "course",
+        "course_code": "CSCI 1913"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "CSCI 4061"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[CSCI 1133 OR CSCI 1913] AND CSCI 4061. Cannot be taken for grad CSci cr.",
+   "enforced": "CSci 1133 or 1913; and CSci 4061; ugrd student"
+  },
+  "CSCI 4211": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CSCI 2021"
+     },
+     {
+      "type": "course",
+      "course_code": "CSCI 3061"
+     },
+     {
+      "type": "course",
+      "course_code": "EE 2361"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "CSci 2021 or CSci 3061 or EE 2361",
+   "enforced": "CSci 2021 or CSci 3061 or EE 2361"
+  },
+  "CSCI 4271W": {
+   "expression": {
+    "type": "course",
+    "course_code": "CSCI 3081W"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "CSCI 3081W (CSCI 4061 recommended but not required)",
+   "enforced": "CSci 3081W"
+  },
+  "CSCI 4521": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "CSCI 2033"
+     },
+     {
+      "type": "all_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 4242"
+       },
+       {
+        "type": "any_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "CSCI 2011"
+         },
+         {
+          "type": "course",
+          "course_code": "CSCI 3041"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "(CSCI 1133 and (CSCI 2033 or MATH 2243/2373/2471/2574H))  or (MATH 4242 and (CSCI 2011 or CSCI 3041 or MATH 2283/2283W))",
+   "enforced": "CSci 2033 or (Math 4242 and (CSci 2011 or 3041))",
+   "note": "Registration enforces this route; the catalog text also lists CSCI 1133 with MATH 2243, 2373, 2471 or 2574H."
+  },
+  "ECON 1102": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ECON 1101"
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 1165"
+     },
+     {
+      "type": "course",
+      "course_code": "APEC 1101"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[1101 or equiv], knowledge of plane geometry and advanced algebra",
+   "enforced": "",
+   "note": "ECON 1165 and APEC 1101 are the department's stated equivalents of ECON 1101."
+  },
+  "ECON 3011": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ECON 1101"
+       },
+       {
+        "type": "course",
+        "course_code": "APEC 1101"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ECON 1102"
+       },
+       {
+        "type": "course",
+        "course_code": "APEC 1102"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1271"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1142"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ECON 1101 (or APEC 1101); ECON 1102 (or APEC 1102); MATH 1271 or MATH 1142.  Or equivalent courses approved by the Economics Department.",
+   "enforced": "Econ 1101 (or ApEc 1101); Econ 1102 (or ApEc 1102); Math 1271 or Math 1142. Or equivalent courses approved by the Economics Department."
+  },
+  "ECON 3012": {
+   "expression": {
+    "type": "course",
+    "course_code": "ECON 3011",
+    "concurrent": true
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ECON 3011",
+   "enforced": "Econ 3011 prereq or coreq"
+  },
+  "ECON 3023": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ECON 1102"
+       },
+       {
+        "type": "course",
+        "course_code": "APEC 1102"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ECON 3012"
+       },
+       {
+        "type": "course",
+        "course_code": "ECON 3101"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1271"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1142"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ECON 1102 (or APEC 1102); ECON 3011 and ECON 3012 (or ECON 3101); MATH 1271 or MATH 1142.  Or equivalent courses approved by the Economics Department.Students registering for ECON 3023 should not register for APEC 3006. Completion of both ECON 3023 and 3024 is equivalent to APEC 3006.",
+   "enforced": "Econ 1102/ApEc 1102; Econ 3012/3101; and Math 1271/1142; (or dept consent)"
+  },
+  "ECON 3024": {
+   "expression": {
+    "type": "course",
+    "course_code": "ECON 3023",
+    "concurrent": true
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "Econ 3023 prereq or coreq",
+   "note": "Stated in the catalog description as prereq/coreq."
+  },
+  "ECON 3101": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ECON 1101"
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 1102"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1271"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ECON 1101, 1102, and MATH 1271 or equivalent courses approved by the Economics Department.",
+   "enforced": ""
+  },
+  "ECON 3102": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ECON 1101"
+       },
+       {
+        "type": "course",
+        "course_code": "ECON 1165"
+       },
+       {
+        "type": "course",
+        "course_code": "APEC 1101"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ECON 1102"
+       },
+       {
+        "type": "course",
+        "course_code": "APEC 1102"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 3101"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1271"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC1102), ECON 3101, MATH 1271 or equivalent courses approved by the Economics Department.",
+   "enforced": ""
+  },
+  "ECON 3951": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ECON 3024"
+       },
+       {
+        "type": "course",
+        "course_code": "ECON 3102"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BA 2551"
+       },
+       {
+        "type": "course",
+        "course_code": "STAT 3011"
+       },
+       {
+        "type": "course",
+        "course_code": "STAT 3021"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "STAT 3022"
+       },
+       {
+        "type": "course",
+        "course_code": "STAT 3032"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Economics B.A. major"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "(Econ 3024 or 3102), (BA 2551 or Stat 3011 or 3021), (Stat 3022 or 3032), (Econ BA or BA-Q or BA-B major)",
+   "note": "Enforced by registration; the catalog record states no prerequisite."
+  },
+  "ECON 4211": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "all_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "ECON 3011"
+         },
+         {
+          "type": "course",
+          "course_code": "ECON 3012"
+         }
+        ]
+       },
+       {
+        "type": "course",
+        "course_code": "ECON 3101"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1271"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1142"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "STAT 3011"
+       },
+       {
+        "type": "course",
+        "course_code": "STAT 3021"
+       },
+       {
+        "type": "course",
+        "course_code": "STAT 4101"
+       },
+       {
+        "type": "course",
+        "course_code": "STAT 5101"
+       },
+       {
+        "type": "course",
+        "course_code": "BA 2551"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "((ECON 3011 & 3012) or ECON 3101), (MATH 1271 or 1142), (STAT 3011 or STAT 3021 or STAT 4101 or STAT 5101 or BA2551)",
+   "enforced": "((ECON 3011, 3012) or ECON 3101)), (MATH 1271 or 1142), (STAT 3011 or 3021 or 4101 or 5101 or BA 2551)"
+  },
+  "ECON 4331W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ECON 3024"
+       },
+       {
+        "type": "course",
+        "course_code": "ECON 3102"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "WRIT 1301"
+       },
+       {
+        "type": "course",
+        "course_code": "WRIT 1401"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3011 & 3012 (or ECON 3101), ECON 3023 & 3024, (or ECON 3102), MATH 1271 or equivalent courses approved by the Economics Department, and completion of freshman writing practice.",
+   "enforced": "(ECON 3024 or 3012) and (ECON 3035 or B.S. Major) | Econ 3024 or 3102",
+   "note": "Registration enforces only this; the rest of the catalog list follows from the intermediate sequence."
+  },
+  "ECON 4431W": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ECON 3024"
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 3102"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3101, ECON 3102, MATH 1271, or equivalent courses approved by the Economics Department, and completion of freshman writing practice.",
+   "enforced": "Econ 3024 or 3102",
+   "note": "Registration enforces only this; the rest of the catalog list follows from the intermediate sequence."
+  },
+  "ECON 4631": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ECON 3012"
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 3101"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "(ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3011 & 3012, (or ECON 3101), MATH 1271 or equivalent courses approved by the Economics Department",
+   "enforced": "Econ 3012 or 3101",
+   "note": "Registration enforces only this; the rest of the catalog list follows from the intermediate sequence."
+  },
+  "ECON 4721": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ECON 3024"
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 3102"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "(ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3011 & 3012 (or ECON 3101), ECON 3023 & 3024 (or ECON 3102), and MATH 1271, or equivalent courses approved by the Economics Department.",
+   "enforced": "Econ 3024 or 3102",
+   "note": "Registration enforces only this; the rest of the catalog list follows from the intermediate sequence."
+  },
+  "ECON 4751": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ECON 3012"
+       },
+       {
+        "type": "course",
+        "course_code": "ECON 3101"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "STAT 3011"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "Econ 3012 or 3101",
+   "note": "Registration enforces ECON 3012 or 3101; the catalog description adds STAT 3011 or an equivalent."
+  },
+  "ECON 4821": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ECON 3024"
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 3102"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "(ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3011 & 3012, (or ECON 3101), ECON 3023 & 3024, (or ECON 3102), MATH 1271 or equivalent courses approved by the Economics Department",
+   "enforced": "Econ 3024 or 3102",
+   "note": "Registration enforces only this; the rest of the catalog list follows from the intermediate sequence."
+  },
+  "ECON 4831": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ECON 3012"
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 3101"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "(ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, MATH 1271 or equivalent courses approved by the Economics Department",
+   "enforced": "Econ 3012 or 3101",
+   "note": "Registration enforces only this; the rest of the catalog list follows from the intermediate sequence."
+  },
+  "EE 2015": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "PHYS 1302W",
+      "concurrent": true
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2243",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2373",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2574H",
+        "concurrent": true
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "concurrent registration is required (or allowed) in PHYS 1302, concurrent registration is required (or allowed) in (MATH 2243 or MATH 2373 or MATH 2573)",
+   "enforced": "Phys 1302W coreq or prereq (or equiv), and coreq or pereq: Math 2243 or 2373 or 2574H (or equiv)"
+  },
+  "EE 2115": {
+   "expression": {
+    "type": "course",
+    "course_code": "EE 2015"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "2015",
+   "enforced": ""
+  },
+  "EE 2301": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 1301"
+     },
+     {
+      "type": "course",
+      "course_code": "CSCI 1113"
+     },
+     {
+      "type": "course",
+      "course_code": "CSCI 1103"
+     },
+     {
+      "type": "course",
+      "course_code": "CSCI 1133"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[EE 1301 (preferred) or CSCI 1113 or CSCI 1103 or CSci 1133]",
+   "enforced": ""
+  },
+  "EE 2361": {
+   "expression": {
+    "type": "course",
+    "course_code": "EE 2301"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "EE 2301",
+   "enforced": "EE 2301"
+  },
+  "EE 3005": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MATH 2243"
+     },
+     {
+      "type": "course",
+      "course_code": "PHYS 1302W"
+     },
+     {
+      "type": "condition",
+      "text": "Not for EE majors"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Math 2243, Phys 1302; not for EE majors",
+   "enforced": ""
+  },
+  "EE 3006": {
+   "expression": {
+    "type": "course",
+    "course_code": "EE 3005",
+    "concurrent": true
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Concurrent enrollment in 3005 is allowed but not required",
+   "enforced": ""
+  },
+  "EE 3015": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 2115"
+     },
+     {
+      "type": "condition",
+      "text": "CSE upper division standing"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[2115, CSE Upper Division] or dept consent",
+   "enforced": "CSE upper division (or instr consent) | EE 2115 and [EE or CompE major (upper or lower division)]"
+  },
+  "EE 3025": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 3015"
+     },
+     {
+      "type": "condition",
+      "text": "CSE upper division standing"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[3015, CSE upper division] or instr approval",
+   "enforced": "CSE upper division (or instr consent)"
+  },
+  "EE 3101": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 2115"
+     },
+     {
+      "type": "course",
+      "course_code": "EE 3015",
+      "concurrent": true
+     },
+     {
+      "type": "course",
+      "course_code": "EE 3115",
+      "concurrent": true
+     },
+     {
+      "type": "condition",
+      "text": "CSE upper division standing"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[2115, &3015, &3115, CSE Upper Division] or dept consent",
+   "enforced": "CSE upper division (or instr consent) | EE 2115 and [EE or CompE major (upper or lower division)] and concurrent registration in EE 3015 and EE 3115"
+  },
+  "EE 3102": {
+   "expression": {
+    "type": "course",
+    "course_code": "EE 3101"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[3101 or CSE or dept consent], attendance first day of class.",
+   "enforced": "",
+   "note": "Catalog: [3101 or CSE or dept consent]. Registration enforces nothing; this lab follows EE 3101 in the EE sample plan."
+  },
+  "EE 3115": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 2115"
+     },
+     {
+      "type": "course",
+      "course_code": "EE 3015",
+      "concurrent": true
+     },
+     {
+      "type": "condition",
+      "text": "CSE upper division standing"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[EE 2115, &EE 3015, CSE upper division] or dept consent",
+   "enforced": "CSE upper division (or instr consent) | EE 2115 and [EE or CompE major (upper or lower division)] and concurrent registration in EE 3015"
+  },
+  "EE 3161": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 2115"
+     },
+     {
+      "type": "course",
+      "course_code": "PHYS 1302W"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "PHYS 2503",
+        "concurrent": true
+       },
+       {
+        "type": "all_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "CHEM 1066",
+          "concurrent": true
+         },
+         {
+          "type": "course",
+          "course_code": "CHEM 1072",
+          "concurrent": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "EE or CompE major"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Upper div CSE, 2115, Phys 1302, Phys 2303 or Chem 1022",
+   "enforced": "CSE upper division (or instr consent) | [EE or CompE major (upper or lower division)], EE 2115, PHYS 1302, and coreq of [PHYS 2503 or (CHEM 1066 and 1072)]"
+  },
+  "EE 3601": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 2015"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2374"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2263"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2574H"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 3584H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "PHYS 1302W"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1402V"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[2015, [Math 2374 or Math 2263 or Math 2574H or Math 3584H], [Phys 1302 or Phys 1402], CSE] or dept consen",
+   "enforced": "CSE student | EE 2015, (MATH 2374 or MATH 2263 or MATH 2574H or MATH 3584H), (PHYS 1302 or PHYS 1402), and [EE or CompE major (upper or lower division)]"
+  },
+  "EE 3951W": {
+   "expression": {
+    "type": "course",
+    "course_code": "EE 3101"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "",
+   "note": "Stated in the catalog description."
+  },
+  "EE 4111": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 3015"
+     },
+     {
+      "type": "course",
+      "course_code": "EE 3115"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3015, 3115",
+   "enforced": ""
+  },
+  "EE 4231": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 3015"
+     },
+     {
+      "type": "condition",
+      "text": "CSE upper division standing"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[3015, [upper div CSE or grad student in CSE major]] or instr consent",
+   "enforced": "CSE student, upper div or grad"
+  },
+  "EE 4233": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 3015"
+     },
+     {
+      "type": "condition",
+      "text": "CSE upper division standing"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[3015, upper div CSE] or instr consent",
+   "enforced": "CSE student, upper div or grad"
+  },
+  "EE 4235": {
+   "expression": {
+    "type": "course",
+    "course_code": "EE 4231",
+    "concurrent": true
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "4231 or concurrent registration is required (or allowed) in 4231",
+   "enforced": ""
+  },
+  "EE 4389W": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "all_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "EE 3025"
+       },
+       {
+        "type": "condition",
+        "text": "ECE student"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "STAT 3022"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[3025, ECE student] or STAT 3022; computer programming or MATLAB or similar environment is recommended for ECE students",
+   "enforced": "",
+   "note": "Programming experience (MATLAB or similar) is also recommended."
+  },
+  "EE 4501": {
+   "expression": {
+    "type": "course",
+    "course_code": "EE 3025"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3025",
+   "enforced": ""
+  },
+  "EE 4505": {
+   "expression": {
+    "type": "course",
+    "course_code": "EE 4501",
+    "concurrent": true
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "4501 or  concurrent registration is required (or allowed) in 4501",
+   "enforced": ""
+  },
+  "EE 4541": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 3015"
+     },
+     {
+      "type": "course",
+      "course_code": "EE 3025"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[3015, 3025] or instr consent",
+   "enforced": ""
+  },
+  "EE 4623": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "PHYS 2503"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 2303"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2374"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2263"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2573H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Instructor consent"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[Phys 2503 or Phys 2303] and [Math 2374 or MATH 2263 or MATH 2573H]; instr consent.",
+   "enforced": ""
+  },
+  "EE 4701": {
+   "expression": {
+    "type": "course",
+    "course_code": "EE 3015"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3015",
+   "enforced": ""
+  },
+  "EE 4741": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 3015"
+     },
+     {
+      "type": "course",
+      "course_code": "EE 3115"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3015, 3115",
+   "enforced": ""
+  },
+  "EE 4951W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "EE 3015"
+     },
+     {
+      "type": "course",
+      "course_code": "EE 3115"
+     },
+     {
+      "type": "course",
+      "course_code": "EE 3102"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3015, 3115, 3102, attendance first day of class",
+   "enforced": ""
+  },
+  "EE 4982V": {
+   "expression": {
+    "type": "course",
+    "course_code": "EE 4981H"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "4981",
+   "enforced": "honors student"
+  },
+  "EEB 3408W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BIOL 1001"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 1009"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 1951"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1142"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1271"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1272"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1241"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1281"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1282"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "Biol 1001 or 1009 or 1951, or equiv; and Math 1142 or 1271 or 1272 or 1241 or 1281 or 1282, or equiv",
+   "note": "Enforced by registration; equivalents are allowed."
+  },
+  "FINA 3001": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ACCT 2051"
+       },
+       {
+        "type": "course",
+        "course_code": "ACCT 2051H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BA 2051"
+       },
+       {
+        "type": "course",
+        "course_code": "BA 2051H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ECON 1101"
+       },
+       {
+        "type": "course",
+        "course_code": "ECON 1165"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BA 2551"
+       },
+       {
+        "type": "course",
+        "course_code": "STAT 3011"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ACCT 2050 or ACCT 2051 or ACCT 2051H; SCO 2550 or BA 2551 or equivalent statistics course",
+   "enforced": "ACCT 2051 or ACCT 2051H; BA 2051 or BA 2051H; ECON 1101 or ECON 1165; BA 2551 or STAT 3011 or equivalent statistics course | Acct 2050 or 2051/H; or BA 2551, SCO 2550 or equiv | Students registering for this cohort need to enroll in HRIR 3021-001 (21478), MGMT 3004-001 (21417), FINA 3001-001 (21290), SCO 3001-001 (21453) and be part of the CORE student group. | Students registering for this cohort need to enroll in HRIR 3021-001 (56418), MGMT 3004-001 (56340), FINA 3001-001 (56323), SCO 3001-001 (56381) and be part of the CORE student group. | Students registering for this cohort need to enroll in HRIR 3021-002 (21341), MGMT 3004-002 (21430), FINA 3001-002 (21291), SCO 3001-002 (21454) and be part of the CORE student group. | Students registering for this cohort need to enroll in HRIR 3021-002 (56301), MGMT 3004-002 (56341), FINA 3001-002 (56250), SCO 3001-002 (56382) and be part of the CORE student group. | Students registering for this cohort need to enroll in HRIR 3021-003 (21347), MGMT 3004-003 (21474), FINA 3001-003 (21292), SCO 3001-003 (21455) and be part of the CORE student group. | Students registering for this cohort need to enroll in HRIR 3021-003 (56419), MGMT 3004-003 (56342), FINA 3001-003 (56251), SCO 3001-003 (56383) and be part of the CORE student group. | Students registering for this cohort need to enroll in HRIR 3021-004 (21386), MGMT 3004-004 (21504), FINA 3001-004 (21445), and SCO 3001-004 (21476) and be part of the CORE student group. | Students registering for this cohort need to enroll in HRIR 3021-004 (56441), MGMT 3004-004 (56343), FINA 3001-004 (56252), and SCO 3001-004 (56384) and be part of the CORE student group. | Students registering for this cohort need to enroll in HRIR 3021-005 (21699), MGMT 3004-005 (21608), FINA 3001-005 (21466), and SCO 3001-005 (21505) and be part of the CORE student group. | Students registering for this cohort need to enroll in HRIR 3021-005 (56310), MGMT 3004-005 (56415), FINA 3001-005 (56327), and SCO 3001-005 (56385) and be part of the CORE student group. | non-CSOM CORE students",
+   "note": "Registration's requirement for Carlson students; non-Carlson students need only accounting and statistics."
+  },
+  "FINA 3001H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ACCT 2051"
+       },
+       {
+        "type": "course",
+        "course_code": "ACCT 2051H"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "BA 2551"
+     },
+     {
+      "type": "condition",
+      "text": "Honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Acct 2050 or Acct 2051, SCO 2550 or BA 2551 or equivalent statistics course",
+   "enforced": "Acct 2050 or 2051/H; or BA 2551, SCO 2550 or equiv"
+  },
+  "FINA 4121": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "FINA 3001"
+       },
+       {
+        "type": "course",
+        "course_code": "FINA 3001H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School major, or another major or minor the course lists"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "FINA 3001 or FINA 3001H; CSOM mjr or NONM or Management minor or Math/Actuarial Science major or Economics - Business Economics Emphasis major.",
+   "enforced": "Fina 3001/H, CSOM mjr or NONM or Management minor or Math/Actuarial Science major or Economics-Business Economics Emphasis major"
+  },
+  "FINA 4121H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "FINA 3001"
+     },
+     {
+      "type": "condition",
+      "text": "Carlson major and honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3001, CSOM major, honors",
+   "enforced": ""
+  },
+  "FINA 4221": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "FINA 3001"
+       },
+       {
+        "type": "course",
+        "course_code": "FINA 3001H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School major, or another major or minor the course lists"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "FINA 3001 or FINA 3001H; CSOM mjr or NONM or Management minor or Math/Actuarial Science major or Economics-Business Economics Emphasis major",
+   "enforced": "Fina 3001/H, CSOM mjr or NONM or Management minor or Math/Actuarial Science major or Economics-Business Economics Emphasis major"
+  },
+  "FINA 4242W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "FINA 4121"
+       },
+       {
+        "type": "course",
+        "course_code": "FINA 4121H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "FINA 4321"
+       },
+       {
+        "type": "course",
+        "course_code": "FINA 4321H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "FINA 4422"
+       },
+       {
+        "type": "course",
+        "course_code": "FINA 5322"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "FINA 4522"
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School major, or another major or minor the course lists"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "FINA 4121, 4321, 4422 or 5322, 4522, and CSOM major",
+   "enforced": "CSOM mjr or NONM; Fina 4121/H; 4321/H; 4422 or 5322; 4522"
+  },
+  "FINA 4321": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "FINA 3001"
+       },
+       {
+        "type": "course",
+        "course_code": "FINA 3001H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School major, or another major or minor the course lists"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "FINA 3001 or FINA 3001H; CSOM mjr or NONM or Management minor or Economics-Business Economics Emphasis major",
+   "enforced": "Fina 3001/H, CSOM mjr or NONM or Management minor or Math/Actuarial Science major or Economics-Business Economics Emphasis major"
+  },
+  "FINA 4321H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "FINA 3001"
+     },
+     {
+      "type": "condition",
+      "text": "Carlson major and honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3001, CSOM major, honors",
+   "enforced": ""
+  },
+  "FINA 4325": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "FINA 4321"
+     },
+     {
+      "type": "course",
+      "course_code": "FINA 4321H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "4321 or 4321H",
+   "enforced": "Fina 4321or 4321H"
+  },
+  "FINA 4329": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "FINA 4422"
+       },
+       {
+        "type": "course",
+        "course_code": "FINA 5322"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "FINA 4522"
+     },
+     {
+      "type": "course",
+      "course_code": "ACCT 5101"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "4422 or 5322, 4522,  ACCT 5101",
+   "enforced": "FINA 4422 or FINA 5322; FINA 4522; and ACCT 5101"
+  },
+  "FINA 4422": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "FINA 4221",
+      "concurrent": true
+     },
+     {
+      "type": "course",
+      "course_code": "ACCT 5101",
+      "concurrent": true
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School major, or another major or minor the course lists"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Fina 4221 (can be concurrent),  Acct 5101 (can be concurrent), CSOM major",
+   "enforced": "Fina 4221 pre/coreq, Acct 5101 pre/coreq, CSOM mjr or NONM"
+  },
+  "FINA 4522": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "FINA 3001"
+       },
+       {
+        "type": "course",
+        "course_code": "FINA 3001H"
+       },
+       {
+        "type": "course",
+        "course_code": "APEC 3501"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "FINA 4121"
+       },
+       {
+        "type": "course",
+        "course_code": "FINA 4121H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "FINA 4321",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "FINA 4321H",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School major, or another major or minor the course lists"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "CSOM mjr, (Fina 3001 or Fina 3001H or ApEc 3501; Fina 4121 or Fina 4121H), completion of or concurrent enrollment in Fina 4321 or Fina 4321H",
+   "enforced": "Fina 3001 or 3001H or ApEc 3501, Fina 4121/H, 4321/H or &4321/H, CSOM major"
+  },
+  "FINA 4621": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "FINA 3001"
+       },
+       {
+        "type": "course",
+        "course_code": "FINA 3001H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School major, or another major or minor the course lists"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3001 or 3001H, CSOM major or Math major/Act Sci, or Management minor or Economics-Business Economics Emphasis major",
+   "enforced": "Fina 3001/H, CSOM mjr or NONM or Management minor or Math/Actuarial Science major or Economics-Business Economics Emphasis major"
+  },
+  "FINA 5322": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "FINA 3001"
+     },
+     {
+      "type": "condition",
+      "text": "Admitted to the Carlson Funds Enterprise"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "FINA 3001 and admittance to Carlson Funds Enterprise",
+   "enforced": ""
+  },
+  "GCD 3486": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "BIOL 2003"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOL 2003H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Biol 2003/2003H",
+   "enforced": "Biol 2003/2003H"
+  },
+  "GCD 4151": {
+   "expression": {
+    "type": "course",
+    "course_code": "BIOL 4003"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Biol 4003",
+   "enforced": "Biol 4003"
+  },
+  "IBUS 3033W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "WRIT 1301"
+       },
+       {
+        "type": "course",
+        "course_code": "WRIT 1401"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Carlson upper division, at least 60 credits"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Fr composition, CSOM upper-div, at least 60 cr",
+   "enforced": "CSOM mjr or NONM"
+  },
+  "IBUS 3062": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "BA 1011"
+     },
+     {
+      "type": "course",
+      "course_code": "BA 2062"
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Carlson School of Management student;  BA 1011: Leading Self & Teams; BA 2062: Impact Lab Problem Solving",
+   "enforced": "BA 1011, BA 2062, CSOM student"
+  },
+  "IBUS 4125": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "FINA 4121"
+     },
+     {
+      "type": "course",
+      "course_code": "FINA 4121H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "FINA 4121",
+   "enforced": "FINA 4121 or 4121H"
+  },
+  "IE 3521": {
+   "expression": {
+    "type": "course",
+    "course_code": "MATH 1372"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "MATH 1372 or equiv",
+   "enforced": "",
+   "note": "An equivalent of MATH 1372 also qualifies."
+  },
+  "KIN 3112": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "PHYS 1101W"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1201W"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1221"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1301W"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1401V"
+       },
+       {
+        "type": "course",
+        "course_code": "PHYS 1107"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "KIN 3027"
+       },
+       {
+        "type": "course",
+        "course_code": "KIN 3111"
+       },
+       {
+        "type": "course",
+        "course_code": "ANAT 3001"
+       },
+       {
+        "type": "course",
+        "course_code": "ANAT 3601"
+       },
+       {
+        "type": "course",
+        "course_code": "ANAT 3611"
+       },
+       {
+        "type": "course",
+        "course_code": "ANAT 3651"
+       },
+       {
+        "type": "course",
+        "course_code": "ANAT 3658H"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[PHYS 1101W or PHYS 1201W or PHYS 1221 or PHYS 1301W or PHYS 1401V or 1107], [KIN 3027 or KIN 3111 or ANAT 3001 or ANAT 3601 or ANAT 3611 or ANAT 3651 or ANAT 3658H or INMD 3001 or INMD 3601]; KIN 3385 recommended",
+   "enforced": "[Phys 1101W/1107 or Phys 1201W/1221/1301W/1401V] and [ Kin 3027 or 3111 or Anat 3001/3601/3611 or Anat 3651/3658H or INMD 3001/3601]"
+  },
+  "KIN 3385": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "KIN 3027"
+       },
+       {
+        "type": "course",
+        "course_code": "ANAT 3001"
+       },
+       {
+        "type": "course",
+        "course_code": "ANAT 3601"
+       },
+       {
+        "type": "course",
+        "course_code": "ANAT 3611"
+       },
+       {
+        "type": "course",
+        "course_code": "ANAT 3651"
+       },
+       {
+        "type": "course",
+        "course_code": "ANAT 3658H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Kinesiology or Physical Activity and Health Promotion major"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[KIN 3027 or ANAT 3001 or ANAT 3601 or ANAT 3611 or ANAT 3651 or ANAT 3658H ] and [Kin or Physical Activity and Health Promotion Major] or instr consent",
+   "enforced": "[Kin 3027 or Anat 3001 or Anat 3601 or Anat 3611or Anat 3651 or Anat 3658H ] and Kin or Physical Activity and Health Promotion Major"
+  },
+  "KIN 4136": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "KIN 3132"
+     },
+     {
+      "type": "course",
+      "course_code": "KIN 3135"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3132 or 3135 or instr consent",
+   "enforced": ""
+  },
+  "KIN 4385": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "KIN 3385"
+       },
+       {
+        "type": "course",
+        "course_code": "PHSL 3051"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Kinesiology or Physical Activity and Health Promotion major"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "KIN 3385 or PHSL 3051 and Kinesiology Major or Physical Activity and Health Promotion Major",
+   "enforced": "KIN 3385 or PHSL 3051; and Kinesiology or Physical Activity & Health Promotion Major"
+  },
+  "MATH 1142": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "condition",
+      "text": "Satisfactory score on the math placement test"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1031"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1051"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]",
+   "enforced": "",
+   "note": "Placement alone qualifies, so no course is required."
+  },
+  "MATH 1151": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "condition",
+      "text": "Satisfactory score on the math placement test"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1031"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1051"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Satisfactory score on placement exam or grade of at least C- in [1031 or 1051]",
+   "enforced": "",
+   "note": "Placement alone qualifies, so no course is required."
+  },
+  "MATH 1241": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "condition",
+        "text": "Satisfactory score on the math placement test"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1151"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1155"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CBS student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155], CBS student",
+   "enforced": "CBS students (or instructor consent)"
+  },
+  "MATH 1271": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "condition",
+      "text": "Satisfactory score on the math placement test"
+     },
+     {
+      "type": "all_of",
+      "requirements": [
+       {
+        "type": "any_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "MATH 1151"
+         },
+         {
+          "type": "course",
+          "course_code": "MATH 1155"
+         }
+        ]
+       },
+       {
+        "type": "condition",
+        "text": "Minimum grade C-"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]",
+   "enforced": "",
+   "note": "Placement alone qualifies, so precalculus is not required."
+  },
+  "MATH 1272": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MATH 1271"
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[1271 or equiv] with grade of at least C-",
+   "enforced": "",
+   "note": "An equivalent of MATH 1271 also qualifies."
+  },
+  "MATH 1371": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "condition",
+        "text": "Satisfactory score on the math placement test"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1151"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1155"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]",
+   "enforced": "CSE student or Pre-Bioprod & Biosys Engn (PRE)"
+  },
+  "MATH 1372": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MATH 1371"
+     },
+     {
+      "type": "condition",
+      "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Grade of at least C- in [1371 or equiv], CSE or pre-Bioprod/Biosys Engr",
+   "enforced": "CSE student or Pre-Bioprod & Biosys Engn (PRE)"
+  },
+  "MATH 1572H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MATH 1571H"
+     },
+     {
+      "type": "condition",
+      "text": "Honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "1571H (or equivalent)  honors student",
+   "enforced": "honors student"
+  },
+  "MATH 2243": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1272"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1282"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1372"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1572H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-",
+   "enforced": ""
+  },
+  "MATH 2263": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1272"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1372"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1572H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[1272 or 1372 or 1572] w/grade of at least C-",
+   "enforced": ""
+  },
+  "MATH 2283": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2243",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2263",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2373",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2374",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[concurrent registration is required (or allowed) in 2243 or concurrent registration is required (or allowed) in 2263 or concurrent registration is required (or allowed) in 2373 or concurrent registration is required (or allowed) in 2374] w/grade of at least C-",
+   "enforced": ""
+  },
+  "MATH 2373": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1272"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1282"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1372"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1572H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bio Prod/Biosys Engr",
+   "enforced": "CSE student or Pre-Bioprod & Biosys Engn (PRE)"
+  },
+  "MATH 2374": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1272"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1282"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1372"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1572H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bioprod/Biosys Engr",
+   "enforced": "CSE student or Pre-Bioprod & Biosys Engn (PRE)"
+  },
+  "MATH 2573H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MATH 1572H"
+     },
+     {
+      "type": "condition",
+      "text": "Honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Math 1572H (or equivalent), honors student",
+   "enforced": "honors student"
+  },
+  "MATH 2574H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1572H"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2573H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Math 1572H or Math 2573H, honors student and permission of University Honors Program",
+   "enforced": "Math 1572H or Math 2573H, honors student"
+  },
+  "MATH 3283W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2243",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2263",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2373",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2374",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Minimum grade C-"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[concurrent registration is required (or allowed) in 2243 or concurrent registration is required (or allowed) in 2263 or concurrent registration is required (or allowed) in 2373 or concurrent registration is required (or allowed) in 2374] w/grade of at least C-",
+   "enforced": ""
+  },
+  "MATH 3593H": {
+   "expression": {
+    "type": "course",
+    "course_code": "MATH 3592H"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3592H or instr consent",
+   "enforced": ""
+  },
+  "MATH 4242": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MATH 2243"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 2373"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 2573H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "2243 or 2373 or 2573",
+   "enforced": ""
+  },
+  "MATH 4707": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MATH 2243"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2283"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 3283W"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "2243, [2283 or 3283]",
+   "enforced": ""
+  },
+  "MATS 2001": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "PHYS 1301W"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1372"
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1065"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CHEM 1071"
+       },
+       {
+        "type": "course",
+        "course_code": "CHEM 1071H"
+       },
+       {
+        "type": "course",
+        "course_code": "CHEM 1061"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Mechanical or aerospace engineering major or pre-major"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "Phys 1301W (or equiv), Math 1372 (or equiv), Chem 1071/1065 (or equiv), CSE Student | Phys 1301W (or equiv), Math 1372 (or equiv), Chem 1071/1065 (or equiv), [pre-Mechanical Engineering major or Mechanical Engineering major or pre-Aerospace Engineering major or Aerospace Engineering major]",
+   "note": "Enforced by registration (CHEM 1061 accepted as in ME 3331); equivalents are allowed."
+  },
+  "MATS 2002": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MATS 2001",
+      "concurrent": true
+     },
+     {
+      "type": "condition",
+      "text": "CSE student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[2001 or concurrent registration is required (or allowed) in 2001], IT student",
+   "enforced": "(MATS 2001 prerequisite or concurrent enrollment), (Pre-Mechanical Engineering or Mechanical Engineering or Pre-Aerospace Engineering or Aerospace Engineering major) | MatS 2001 or &MatS 2001, CSE student"
+  },
+  "ME 2021": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1272",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1372",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1572H",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSE student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Completed or concurrent registration in Math 1272 or 1372 or 1572H",
+   "enforced": "CSE student, Math 1272 or 1372 or 1572H",
+   "note": "The catalog allows concurrent calculus; registration lists the courses without a concurrent marker."
+  },
+  "ME 3221": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ME 2011"
+     },
+     {
+      "type": "course",
+      "course_code": "AEM 3031"
+     },
+     {
+      "type": "course",
+      "course_code": "MATS 2001"
+     },
+     {
+      "type": "condition",
+      "text": "ME upper division"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "2011, AEM 3031, MatS 2001",
+   "enforced": "ME upper division student"
+  },
+  "ME 3222": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ME 3221",
+      "concurrent": true
+     },
+     {
+      "type": "course",
+      "course_code": "CSCI 1113"
+     },
+     {
+      "type": "condition",
+      "text": "ME upper division"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[3221 or concurrent registration is required (or allowed) in 3221], [CSci 1113 or equiv]",
+   "enforced": "ME upper division student"
+  },
+  "ME 3281": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "AEM 2021"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2243"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2373"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "ME upper division"
+     },
+     {
+      "type": "condition",
+      "text": "ME upper division"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "AEM 2021, [Math 2243 or Math 2373], ME upper div",
+   "enforced": "ME upper division student"
+  },
+  "ME 3331": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "CHEM 1071"
+       },
+       {
+        "type": "course",
+        "course_code": "CHEM 1071H"
+       },
+       {
+        "type": "course",
+        "course_code": "CHEM 1061"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "CHEM 1065"
+     },
+     {
+      "type": "course",
+      "course_code": "PHYS 1301W"
+     },
+     {
+      "type": "condition",
+      "text": "CSE student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "CSE Student, Chem 1071 or  Chem 1071H or Chem 1061, Chem 1065, Phys 1301W",
+   "enforced": "CSE Student, Chem 1071 or Chem 1071H or Chem 1061, Chem 1065, and Phys 1301 (or equivalent)"
+  },
+  "ME 3332": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 2243"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 2373"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3331"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Math 2243 or Math 2373, 3331",
+   "enforced": "CSE student, (MATH 2243 or MATH 2373), and ME 3331 | ME upper division student"
+  },
+  "ME 3333": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ME 3332"
+     },
+     {
+      "type": "condition",
+      "text": "ME upper division"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3332, ME upper division",
+   "enforced": "ME upper div, ME 3332"
+  },
+  "ME 4031W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "IE 3521"
+     },
+     {
+      "type": "condition",
+      "text": "ME upper division"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "IE 3521, upper div ME",
+   "enforced": "IE 3521, upper div ME"
+  },
+  "ME 4053": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ME 3221"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3222"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3281"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3331"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3332"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3333"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ME 3221, ME 3222, ME 3281, ME 3331, ME 3332, ME 3333",
+   "enforced": "ME 3222, 3281, and 3333"
+  },
+  "ME 4054W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ME 2011"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3221"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3222"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3281"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3331"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3332"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 3333"
+     },
+     {
+      "type": "course",
+      "course_code": "ME 4031W"
+     },
+     {
+      "type": "course",
+      "course_code": "AEM 2021"
+     },
+     {
+      "type": "course",
+      "course_code": "AEM 3031"
+     },
+     {
+      "type": "course",
+      "course_code": "EE 3005"
+     },
+     {
+      "type": "condition",
+      "text": "ME upper division"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "2011, 3221, 3222, 3281, 3331, 3332, 3333, 4031W, AEM 2021, AEM 3031, EE 3005, ME upper div",
+   "enforced": "3222, 3281, 3333, 4031W, EE 3005"
+  },
+  "ME 4131W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ME 3333",
+      "concurrent": true
+     },
+     {
+      "type": "course",
+      "course_code": "ME 4031W"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "4031W",
+   "enforced": "ME 3333 (pre-req or co-req), ME 4031W"
+  },
+  "ME 5332": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ME 3332"
+       },
+       {
+        "type": "course",
+        "course_code": "AEM 4201"
+       },
+       {
+        "type": "course",
+        "course_code": "CEGE 3502"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "CSE upper division or graduate student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ME 3332, Admitted to upper division/ME major or graduate student",
+   "enforced": "ME 3332 or AEM 4201 or CEGE 3502, CSE upper division or Grad student"
+  },
+  "ME 5341": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ME 3333"
+     },
+     {
+      "type": "condition",
+      "text": "CSE upper division or graduate student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3333, CSE upper div or grad student",
+   "enforced": ""
+  },
+  "MICB 3301": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "all_of",
+      "requirements": [
+       {
+        "type": "any_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "BIOL 1961"
+         },
+         {
+          "type": "course",
+          "course_code": "BIOL 1961H"
+         }
+        ]
+       },
+       {
+        "type": "any_of",
+        "requirements": [
+         {
+          "type": "course",
+          "course_code": "BIOL 2003"
+         },
+         {
+          "type": "course",
+          "course_code": "BIOL 2003H"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course_code": "BIOL 1009"
+     },
+     {
+      "type": "course",
+      "course_code": "BIOL 1009H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[Biol 1961 and Biol 2003] or Biol 1009 or instructor permission",
+   "enforced": "FBYP or (Biol 1961/H & Biol 2003/H) or Biol 1009/H"
+  },
+  "MKTG 3001": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "ECON 1101"
+     },
+     {
+      "type": "course",
+      "course_code": "ECON 1165"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ECON 1101 or ECON 1165",
+   "enforced": "Students registering for this cohort need to enroll in MKTG 3001-001 (21353), IDSC 3001-001 (21467), BA 3001-001 (21673), and ACCT 3001-001 (21479) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-001 (56253), IDSC 3001-001 (56400), BA 3001-001 (56589), and ACCT 3001-001 (56247) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-002 (21293), IDSC 3001-002 (21468), BA 3001-002 (21695), and ACCT 3001-002 (21288) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-002 (56254), IDSC 3001-002 (56401), BA 3001-002 (56642), and ACCT 3001-002 (56248) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-003 (21294), IDSC 3001-003 (21469), BA 3001-003 (21696), and ACCT 3001-003 (21289) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-003 (56255), IDSC 3001-003 (56402), BA 3001-003 (56643), and ACCT 3001-003 (56420) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-004 (21475), IDSC 3001-004 (21487), BA 3001-004 (21697), and ACCT 3001-004 (21428) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-004 (56306), IDSC 3001-004 (56491), BA 3001-004 (56644), and ACCT 3001-004 (56249) and be part of the CORE student group. | Students registering for this cohort need to enroll in MKTG 3001-005 (56329), IDSC 3001-005 (56403), BA 3001-005 (56645), and ACCT 3001-005 (56641) and be part of the CORE student group. | non-CSOM CORE students"
+  },
+  "MKTG 3001H": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "ECON 1101"
+       },
+       {
+        "type": "course",
+        "course_code": "ECON 1165"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "ECON 1101 or ECON 1165, Honors Student",
+   "enforced": "honors student"
+  },
+  "MKTG 3011": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MKTG 3001"
+       },
+       {
+        "type": "course",
+        "course_code": "MKTG 3001H"
+       }
+      ]
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BA 2551"
+       },
+       {
+        "type": "course",
+        "course_code": "STAT 3011"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School major, or another major or minor the course lists"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "(MKTG 3001 or 3001H), (BA 2551 or Stat 3011 or equiv), (CSOM major or Management minor or Economics-Business Economics major or NONM) | MKTG 3001, BA 2551 or Stat 3011 or equiv, CSOM major or Management minor or Economics-Business Economics major or NONM"
+  },
+  "MKTG 3041": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MKTG 3001"
+       },
+       {
+        "type": "course",
+        "course_code": "MKTG 3001H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Carlson School major, or another major or minor the course lists"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "3001; CSOM major or Management minor or Economics - Business Economics Emphasis major or NONM",
+   "enforced": "MKTG 3001 or 3001H, CSOM mjr or MGMT minor or Economics - Business Economics major or NONM | MKTG 3001, CSOM mjr or MGMT minor or Economics - Business Economics major or NONM"
+  },
+  "MKTG 4031": {
+   "expression": {
+    "type": "course",
+    "course_code": "MKTG 3041"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "MKTG 3040 or 3041",
+   "enforced": "CSOM mjr or NONM",
+   "note": "MKTG 3040 is the retired version of 3041."
+  },
+  "MKTG 4051": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MKTG 3011"
+     },
+     {
+      "type": "course",
+      "course_code": "MKTG 3041"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "MKTG 3011 and MKTG 3041 (or 3010 & 3040) or instructor approval",
+   "enforced": "CSOM mjr or NONM"
+  },
+  "MKTG 4061": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MKTG 3011"
+     },
+     {
+      "type": "course",
+      "course_code": "MKTG 3041"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "MKTG 3011 and MKTG 3041 (or 3010 & 3040) or instructor approval",
+   "enforced": "CSOM mjr or NONM"
+  },
+  "MKTG 4072": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MKTG 3001"
+     },
+     {
+      "type": "course",
+      "course_code": "BA 2551"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "MKTG 3001 and BA 2551 or SCO 2550 or equivalent statistics course",
+   "enforced": "Carlson School of Management student"
+  },
+  "MKTG 4074": {
+   "expression": {
+    "type": "course",
+    "course_code": "MKTG 3011"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Mktg 3011 (or 3010)",
+   "enforced": ""
+  },
+  "MKTG 4076": {
+   "expression": {
+    "type": "course",
+    "course_code": "MKTG 3011"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Mktg 3011 (or 3010)",
+   "enforced": "MKTG 3011; CSOM mjr or NONM | Mktg 3001/H, Mktg 3010, CSOM major or NONM"
+  },
+  "MKTG 4081W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MKTG 3011"
+     },
+     {
+      "type": "course",
+      "course_code": "MKTG 3041"
+     },
+     {
+      "type": "condition",
+      "text": "8 MKTG elective credits"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Mktg 3011, Mktg 3041, (or Mktg 3010 & Mktg 3040) and 8 Mktg elective credits",
+   "enforced": "CSOM major or NONM or Acct Cert, Housing Studies, Retail Merch, Bio Prod (Mktg subplan), or Journalism"
+  },
+  "MKTG 4082W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MKTG 3011"
+     },
+     {
+      "type": "course",
+      "course_code": "MKTG 3041"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Mktg 3010/3011 and Mktg 3040/3041",
+   "enforced": "CSOM mjr or NONM"
+  },
+  "PHSL 3051": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "BIOL 1009"
+       },
+       {
+        "type": "course",
+        "course_code": "BIOL 2003"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "One year of college chemistry; registration limits it to nursing students"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[BIOL 1009 or 1 yr college biol], 1 yr college chem",
+   "enforced": "Nursing student"
+  },
+  "PHYS 1222": {
+   "expression": {
+    "type": "course",
+    "course_code": "PHYS 1221"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "PHYS 1221 or equivalent",
+   "enforced": ""
+  },
+  "PHYS 1302W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "PHYS 1301W"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1272",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1372",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1572H",
+        "concurrent": true
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "PHYS 1301 or equivalent, Prereq or Concurrent: MATH 1272/1372/1572H or equivalent",
+   "enforced": "",
+   "note": "An equivalent of PHYS 1301W also qualifies."
+  },
+  "PHYS 1401V": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1271",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1371",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1571H",
+        "concurrent": true
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Honors program or permission"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Honors program or with permission, Prereq or Concurrent: MATH 1271/1371/1571H or equivalent",
+   "enforced": "honors student"
+  },
+  "PHYS 1402V": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "PHYS 1401V"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1272",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1372",
+        "concurrent": true
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1572H",
+        "concurrent": true
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "",
+   "enforced": "honors student",
+   "note": "Stated in the catalog description."
+  },
+  "PHYS 2303": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "PHYS 1302W"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "MATH 1272"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1372"
+       },
+       {
+        "type": "course",
+        "course_code": "MATH 1572H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Materials Science or EE student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "1302, [MATH 1272 or MATH 1372 or MATH 1572H], [MatSci or EE] student",
+   "enforced": ""
+  },
+  "PHYS 2503": {
+   "expression": {
+    "type": "course",
+    "course_code": "PHYS 1302W"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "1302W or equivalent",
+   "enforced": ""
+  },
+  "PSY 3001V": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "PSY 3801"
+       },
+       {
+        "type": "course",
+        "course_code": "PSY 3801H"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Psychology major; honors student"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[1001, [2081/3801 or equiv]]or dept consent, PSY major, honors student",
+   "enforced": "Psy 3801 or 3801H, Psy mjr, honors student"
+  },
+  "PSY 3001W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "PSY 1001"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "PSY 3801"
+       },
+       {
+        "type": "course",
+        "course_code": "SOC 3811"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[1001, [2801 or 3801 or equiv]] or dept consent",
+   "enforced": "Psy 3801 or Psy 2801 or Soc 3811 or OMS 2550 or SCO 2550",
+   "note": "Registration also accepts SOC 3811 as the statistics course."
+  },
+  "PSY 3011": {
+   "expression": {
+    "type": "course",
+    "course_code": "PSY 1001"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "1001",
+   "enforced": ""
+  },
+  "PSY 3051": {
+   "expression": {
+    "type": "course",
+    "course_code": "PSY 1001"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "1001",
+   "enforced": ""
+  },
+  "PSY 3206": {
+   "expression": {
+    "type": "course",
+    "course_code": "PSY 1001"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "1001",
+   "enforced": ""
+  },
+  "PSY 3604": {
+   "expression": {
+    "type": "course",
+    "course_code": "PSY 1001"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "1001",
+   "enforced": ""
+  },
+  "PSY 3801": {
+   "expression": {
+    "type": "course",
+    "course_code": "PSY 1001"
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "High school algebra, [PSY 1001 or equiv]; intended for students who plan to major in psychology",
+   "enforced": "",
+   "note": "High school algebra is also expected."
+  },
+  "PSY 3902W": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "PSY 3801"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "PSY 3001W"
+       },
+       {
+        "type": "course",
+        "course_code": "PSY 3001V"
+       }
+      ]
+     },
+     {
+      "type": "condition",
+      "text": "Five courses from three distribution areas; psychology major; senior"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "[3801 or equiv], 3001W, completion of five courses from three distribution areas, PSY major, senior",
+   "enforced": "Psy 3001W or 3001V, Psy major, sr"
+  },
+  "PSY 4521": {
+   "expression": {
+    "type": "all_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "PSY 1001"
+     },
+     {
+      "type": "any_of",
+      "requirements": [
+       {
+        "type": "course",
+        "course_code": "PSY 3001W"
+       },
+       {
+        "type": "course",
+        "course_code": "PSY 3001V"
+       },
+       {
+        "type": "course",
+        "course_code": "CPSY 3308W"
+       }
+      ]
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "PSY 1001 and 3001W or PSY 3001V or CPSY 3308W",
+   "enforced": "Psy 3001W or 3001V or CPsy 3308W"
+  },
+  "STAT 3021": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "MATH 1272"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1372"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1472"
+     },
+     {
+      "type": "course",
+      "course_code": "MATH 1572H"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Math 1272 or Math 1472",
+   "enforced": "Math 1272 or 1372 or 1472 or 1572H"
+  },
+  "STAT 3022": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "STAT 3011"
+     },
+     {
+      "type": "course",
+      "course_code": "STAT 3021"
+     },
+     {
+      "type": "course",
+      "course_code": "SOC 3811"
+     },
+     {
+      "type": "course",
+      "course_code": "BA 2551"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "Stat 3011 or 3021 or Soc 3811 or BA 2551",
+   "enforced": "Stat 3011 or 3021 or Soc 3811 or BA 2551"
+  },
+  "STAT 3032": {
+   "expression": {
+    "type": "any_of",
+    "requirements": [
+     {
+      "type": "course",
+      "course_code": "STAT 3011"
+     },
+     {
+      "type": "course",
+      "course_code": "STAT 3021"
+     }
+    ]
+   },
+   "sourceRef": "reviewed-2026-11-24",
+   "catalog": "STAT 3011 or STAT 3021",
+   "enforced": "Stat 3011 or Stat 3021"
+  }
+ }
+}

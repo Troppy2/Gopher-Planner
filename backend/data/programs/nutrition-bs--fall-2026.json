@@ -23,6 +23,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record BIOC 3021, version 0142901-2024-05-13"
   },
+  "enforced-BIOC-3021": {
+   "url": "https://schedulebuilder.umn.edu/explore/BIOC/3021/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BIOC 3021, term 1273"
+  },
   "course-0016181": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
    "retrieved": "2026-11-23",
@@ -47,6 +52,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0105661",
    "retrieved": "2026-11-23",
    "section": "Course record PHSL 3051, version 0105661-2015-01-20"
+  },
+  "reviewed-2026-11-24": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses",
+   "retrieved": "2026-11-24",
+   "section": "Course prerequisites reviewed against the official catalog course records (retrieved 2026-11-23) and the enrollment requirements enforced by registration in Schedule Builder for Fall 2026 and Spring 2027 (https://schedulebuilder.umn.edu/, retrieved 2026-11-24)"
   },
   "course-0130771": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0130771",
@@ -103,10 +113,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record FSCN 2001, version 8092771-2026-09-08"
   },
+  "enforced-FSCN-2001": {
+   "url": "https://schedulebuilder.umn.edu/explore/FSCN/2001/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for FSCN 2001, term 1269"
+  },
   "course-7967711": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7967711",
    "retrieved": "2026-11-23",
    "section": "Course record CFAN 3201, version 7967711-2022-01-18"
+  },
+  "enforced-CFAN-3201": {
+   "url": "https://schedulebuilder.umn.edu/explore/CFAN/3201/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CFAN 3201, term 1273"
   },
   "course-0074791": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0074791",
@@ -118,6 +138,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record FSCN 4612W, version 0074901-2018-09-04"
   },
+  "enforced-FSCN-4612W": {
+   "url": "https://schedulebuilder.umn.edu/explore/FSCN/4612W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for FSCN 4612W, term 1273"
+  },
   "course-0074921": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0074921",
    "retrieved": "2026-11-23",
@@ -128,10 +153,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record FSCN 4614W, version 0074941-2017-01-17"
   },
+  "enforced-FSCN-4614W": {
+   "url": "https://schedulebuilder.umn.edu/explore/FSCN/4614W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for FSCN 4614W, term 1273"
+  },
   "course-7975851": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7975851",
    "retrieved": "2026-11-23",
    "section": "Course record FSCN 4621, version 7975851-2024-09-03"
+  },
+  "enforced-FSCN-4621": {
+   "url": "https://schedulebuilder.umn.edu/explore/FSCN/4621/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for FSCN 4621, term 1269"
   },
   "course-0074671": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0074671",
@@ -142,6 +177,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8095531",
    "retrieved": "2026-11-23",
    "section": "Course record CFAN 3096, version 8095531-2024-01-16"
+  },
+  "enforced-CFAN-3096": {
+   "url": "https://schedulebuilder.umn.edu/explore/CFAN/3096/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CFAN 3096, term 1273"
   }
  },
  "courseSets": {
@@ -254,8 +294,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0142901"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: CFANS, CEHD, CLA, CSE, CSOM, CDES, PHAR, CCAPS, or MULTU student"
+    },
+    "sourceRef": "enforced-BIOC-3021"
    },
    "sourceRef": "course-0142901"
   },
@@ -286,10 +329,89 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1009 or 2003], [CHEM 1062/1066 or 1082/1086], [2005 is recommended]"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "BIOL 1009"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 1009H"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 2003"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 2003H"
+        }
+       ]
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "all_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "CHEM 1062"
+          },
+          {
+           "type": "course",
+           "course_code": "CHEM 1066"
+          }
+         ]
+        },
+        {
+         "type": "all_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "CHEM 1072"
+          },
+          {
+           "type": "course",
+           "course_code": "CHEM 1066"
+          }
+         ]
+        },
+        {
+         "type": "all_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "CHEM 1072H"
+          },
+          {
+           "type": "course",
+           "course_code": "CHEM 1066"
+          }
+         ]
+        },
+        {
+         "type": "all_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "CHEM 1082"
+          },
+          {
+           "type": "course",
+           "course_code": "CHEM 1086"
+          }
+         ]
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0130771"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0130771"
   },
@@ -304,8 +426,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8095531"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: CFANS or CCAPS students"
+    },
+    "sourceRef": "enforced-CFAN-3096"
    },
    "sourceRef": "course-8095531"
   },
@@ -321,9 +446,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Soph or jr or sr or grad student"
+     "text": "Registration requires: soph or jr or sr or grad"
     },
-    "sourceRef": "course-7967711"
+    "sourceRef": "enforced-CFAN-3201"
    },
    "sourceRef": "course-7967711"
   },
@@ -400,9 +525,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "[soph, jr, sr] or instructor consent"
+     "text": "Registration requires: Soph or Jr or Sr"
     },
-    "sourceRef": "course-8092771"
+    "sourceRef": "enforced-FSCN-2001"
    },
    "sourceRef": "course-8092771"
   },
@@ -446,8 +571,28 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0074901"
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "BIOC 3021"
+      },
+      {
+       "type": "course",
+       "course_code": "PHSL 3051"
+      },
+      {
+       "type": "course",
+       "course_code": "ANSC 3301"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 3211"
+      }
+     ]
+    },
+    "sourceRef": "enforced-FSCN-4612W"
    },
    "sourceRef": "course-0074901"
   },
@@ -474,8 +619,20 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0074941"
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "FSCN 1112"
+      },
+      {
+       "type": "course",
+       "course_code": "FSCN 3612"
+      }
+     ]
+    },
+    "sourceRef": "enforced-FSCN-4614W"
    },
    "sourceRef": "course-0074941"
   },
@@ -490,9 +647,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "FSCN 4612, BIOC 3021; ANSC 3301 or PHSL 3051"
+     "text": "Registration requires: FScN 4612, BioC 3021, (AnSc 3301 or Phsl 3051)"
     },
-    "sourceRef": "course-7975851"
+    "sourceRef": "enforced-FSCN-4621"
    },
    "sourceRef": "course-7975851"
   },
@@ -527,10 +684,23 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      }
+     ]
     },
-    "sourceRef": "course-0001191"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001191"
   },
@@ -546,10 +716,37 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "all_of",
+       "requirements": [
+        {
+         "type": "any_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "MATH 1151"
+          },
+          {
+           "type": "course",
+           "course_code": "MATH 1155"
+          }
+         ]
+        },
+        {
+         "type": "condition",
+         "text": "Minimum grade C-"
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0001201"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001201"
   },
@@ -565,10 +762,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1271 or equiv] with grade of at least C-"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1271"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0001211"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001211"
   },
@@ -584,10 +790,50 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[Biol 1961 and Biol 2003] or Biol 1009 or instructor permission"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "all_of",
+       "requirements": [
+        {
+         "type": "any_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "BIOL 1961"
+          },
+          {
+           "type": "course",
+           "course_code": "BIOL 1961H"
+          }
+         ]
+        },
+        {
+         "type": "any_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "BIOL 2003"
+          },
+          {
+           "type": "course",
+           "course_code": "BIOL 2003H"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1009"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1009H"
+      }
+     ]
     },
-    "sourceRef": "course-0086591"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0086591"
   },
@@ -602,10 +848,28 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[BIOL 1009 or 1 yr college biol], 1 yr college chem"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "BIOL 1009"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 2003"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "One year of college chemistry; registration limits it to nursing students"
+      }
+     ]
     },
-    "sourceRef": "course-0105661"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0105661"
   },

@@ -123,6 +123,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record CHLS 1102H, version 7975021-2026-01-20"
   },
+  "enforced-CHLS-1102H": {
+   "url": "https://schedulebuilder.umn.edu/explore/CHLS/1102H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CHLS 1102H, term 1273"
+  },
   "course-7975511": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7975511",
    "retrieved": "2026-11-23",
@@ -273,10 +278,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record CHLS 5920, version 0031281-2026-09-08"
   },
+  "enforced-CHLS-5920": {
+   "url": "https://schedulebuilder.umn.edu/explore/CHLS/5920/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CHLS 5920, term 1269"
+  },
   "course-0031291": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0031291",
    "retrieved": "2026-11-23",
    "section": "Course record CHLS 5993, version 0031291-2026-01-20"
+  },
+  "enforced-CHLS-5993": {
+   "url": "https://schedulebuilder.umn.edu/explore/CHLS/5993/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CHLS 5993, term 1273"
   },
   "course-7982091": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7982091",
@@ -516,8 +531,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-7975021"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: honors student"
+    },
+    "sourceRef": "enforced-CHLS-1102H"
    },
    "sourceRef": "course-7975021"
   },
@@ -970,8 +988,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0031281"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: sr or grad"
+    },
+    "sourceRef": "enforced-CHLS-5920"
    },
    "sourceRef": "course-0031281"
   },
@@ -988,9 +1009,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "instr consent"
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
     },
-    "sourceRef": "course-0031291"
+    "sourceRef": "enforced-CHLS-5993"
    },
    "sourceRef": "course-0031291"
   },

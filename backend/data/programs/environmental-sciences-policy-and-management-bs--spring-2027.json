@@ -33,6 +33,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record ESPM 2021, version 7989281-2020-09-08"
   },
+  "enforced-ESPM-2021": {
+   "url": "https://schedulebuilder.umn.edu/explore/ESPM/2021/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ESPM 2021, term 1273"
+  },
   "course-8270991": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8270991",
    "retrieved": "2026-11-23",
@@ -63,10 +68,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record ESPM 4021W, version 0053631-2016-01-19"
   },
+  "enforced-ESPM-4021W": {
+   "url": "https://schedulebuilder.umn.edu/explore/ESPM/4021W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ESPM 4021W, term 1273"
+  },
   "course-7989531": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7989531",
    "retrieved": "2026-11-23",
    "section": "Course record ESPM 4041W, version 7989531-2017-09-05"
+  },
+  "enforced-ESPM-4041W": {
+   "url": "https://schedulebuilder.umn.edu/explore/ESPM/4041W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ESPM 4041W, term 1269"
   }
  },
  "courseSets": {
@@ -225,9 +240,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "1011, ESPM major"
+     "text": "Registration requires: ESPM 1011, ESPM Major"
     },
-    "sourceRef": "course-7989281"
+    "sourceRef": "enforced-ESPM-2021"
    },
    "sourceRef": "course-7989281"
   },
@@ -257,9 +272,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "ESPM 2021 and jr or sr"
+     "text": "Registration requires: ESPM 2021 and jr or sr"
     },
-    "sourceRef": "course-0053631"
+    "sourceRef": "enforced-ESPM-4021W"
    },
    "sourceRef": "course-0053631"
   },
@@ -272,8 +287,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-7989531"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: ESPM Senior"
+    },
+    "sourceRef": "enforced-ESPM-4041W"
    },
    "sourceRef": "course-7989531"
   }

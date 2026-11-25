@@ -43,6 +43,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record DAKO 3125, version 8042761-2015-01-20"
   },
+  "enforced-DAKO-3125": {
+   "url": "https://schedulebuilder.umn.edu/explore/DAKO/3125/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for DAKO 3125, term 1273"
+  },
   "course-8009831": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8009831",
    "retrieved": "2026-11-23",
@@ -123,6 +128,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record AMIN 5602, version 8189721-2026-09-08"
   },
+  "enforced-AMIN-5602": {
+   "url": "https://schedulebuilder.umn.edu/explore/AMIN/5602/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for AMIN 5602, term 1269"
+  },
   "course-0087371": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0087371",
    "retrieved": "2026-11-23",
@@ -132,6 +142,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8101221",
    "retrieved": "2026-11-23",
    "section": "Course record ANTH 5601, version 8101221-2026-09-08"
+  },
+  "enforced-ANTH-5601": {
+   "url": "https://schedulebuilder.umn.edu/explore/ANTH/5601/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ANTH 5601, term 1269"
   },
   "course-0101961": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0101961",
@@ -632,8 +647,8 @@
    "offered": null,
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1001"
+     "type": "course",
+     "course_code": "AMIN 1001"
     },
     "sourceRef": "course-0086441"
    },
@@ -771,8 +786,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8189721"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-AMIN-5602"
    },
    "sourceRef": "course-8189721"
   },
@@ -873,8 +891,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8101221"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-ANTH-5601"
    },
    "sourceRef": "course-8101221"
   },
@@ -938,8 +959,8 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1121"
+     "type": "course",
+     "course_code": "DAKO 1121"
     },
     "sourceRef": "course-8011241"
    },
@@ -955,8 +976,8 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1122"
+     "type": "course",
+     "course_code": "DAKO 1122"
     },
     "sourceRef": "course-8011251"
    },
@@ -972,8 +993,21 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1121, 1122, 3123"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "DAKO 1121"
+      },
+      {
+       "type": "course",
+       "course_code": "DAKO 1122"
+      },
+      {
+       "type": "course",
+       "course_code": "DAKO 3123"
+      }
+     ]
     },
     "sourceRef": "course-8011261"
    },
@@ -989,10 +1023,10 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3124"
+     "type": "course",
+     "course_code": "DAKO 3124"
     },
-    "sourceRef": "course-8042761"
+    "sourceRef": "enforced-DAKO-3125"
    },
    "sourceRef": "course-8042761"
   },
@@ -1006,8 +1040,8 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1121"
+     "type": "course",
+     "course_code": "DAKO 1121"
     },
     "sourceRef": "course-8063961"
    },

@@ -23,15 +23,30 @@
    "retrieved": "2026-11-23",
    "section": "Course record JOUR 1001H, version 8033081-2023-01-17"
   },
+  "enforced-JOUR-1001H": {
+   "url": "https://schedulebuilder.umn.edu/explore/JOUR/1001H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for JOUR 1001H, term 1269"
+  },
   "course-0002231": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0002231",
    "retrieved": "2026-11-23",
    "section": "Course record JOUR 3004, version 0002231-2023-01-17"
   },
+  "enforced-JOUR-3004": {
+   "url": "https://schedulebuilder.umn.edu/explore/JOUR/3004/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for JOUR 3004, term 1273"
+  },
   "course-7967981": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7967981",
    "retrieved": "2026-11-23",
    "section": "Course record JOUR 3004H, version 7967981-2023-01-17"
+  },
+  "enforced-JOUR-3004H": {
+   "url": "https://schedulebuilder.umn.edu/explore/JOUR/3004H/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for JOUR 3004H, term 1273"
   },
   "course-8003701": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8003701",
@@ -118,6 +133,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record JOUR 3201, version 0002361-2023-01-17"
   },
+  "enforced-JOUR-3201": {
+   "url": "https://schedulebuilder.umn.edu/explore/JOUR/3201/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for JOUR 3201, term 1273"
+  },
   "course-7905681": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7905681",
    "retrieved": "2026-11-23",
@@ -173,6 +193,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record JOUR 3776H, version 8055031-2022-09-06"
   },
+  "enforced-JOUR-3776H": {
+   "url": "https://schedulebuilder.umn.edu/explore/JOUR/3776H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for JOUR 3776H, term 1273"
+  },
   "course-0002501": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0002501",
    "retrieved": "2026-11-23",
@@ -213,10 +238,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record JOUR 4721H, version 8017151-2018-09-04"
   },
+  "enforced-JOUR-4721H": {
+   "url": "https://schedulebuilder.umn.edu/explore/JOUR/4721H/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for JOUR 4721H, term 1273"
+  },
   "course-8041111": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8041111",
    "retrieved": "2026-11-23",
    "section": "Course record JOUR 4733V, version 8041111-2023-01-17"
+  },
+  "enforced-JOUR-4733V": {
+   "url": "https://schedulebuilder.umn.edu/explore/JOUR/4733V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for JOUR 4733V, term 1269"
   },
   "course-0002701": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0002701",
@@ -252,6 +287,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8187161",
    "retrieved": "2026-11-23",
    "section": "Course record JOUR 4999, version 8187161-2024-09-03"
+  },
+  "enforced-JOUR-4999": {
+   "url": "https://schedulebuilder.umn.edu/explore/JOUR/4999/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for JOUR 4999, term 1273"
   }
  },
  "courseSets": {
@@ -420,8 +460,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8033081"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: honors student"
+    },
+    "sourceRef": "enforced-JOUR-1001H"
    },
    "sourceRef": "course-8033081"
   },
@@ -453,9 +496,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "[JOUR 1001 or JOUR 100H], [JOUR major, Strat Comm major, Media and Information major or Media and Information minor or approved BIS/IDIM/ICP program]"
+     "text": "Registration requires: [Jour 1001 or 1001H] and [Journalism mjr, Media and Information mjr/min, Strategic Communication mjr or approved BIS/IDIM/ICP program]"
     },
-    "sourceRef": "course-0002231"
+    "sourceRef": "enforced-JOUR-3004"
    },
    "sourceRef": "course-0002231"
   },
@@ -470,9 +513,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Honors, [JOUR 1001 or JOUR100H], [Jour major, Strat Comm major, Media and Information major or Media and Information minor or approved BIS/IDIM/ICP program]"
+     "text": "Registration requires: Honors, [Jour 1001 or Jour 100H], [Jour major, Strat Comm major, Mass Comm major or Mass Comm minor or approved BIS/IDIM/ICP program]"
     },
-    "sourceRef": "course-7967981"
+    "sourceRef": "enforced-JOUR-3004H"
    },
    "sourceRef": "course-7967981"
   },
@@ -533,9 +576,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "[JOUR 3004 or 3004H or concurrent registration], [Jour major, Strat Comm major, Media & Information major or Media & Information minor or approved BIS/IDIM/ICP program]"
+     "text": "Registration requires: Jour 3004 or 3004H or concurrent registration], [Jour major, Strat Comm major, Mass Comm major or Mass Comm minor or approved BIS/IDIM/ICP program"
     },
-    "sourceRef": "course-0002361"
+    "sourceRef": "enforced-JOUR-3201"
    },
    "sourceRef": "course-0002361"
   },
@@ -753,9 +796,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Honors"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-8055031"
+    "sourceRef": "enforced-JOUR-3776H"
    },
    "sourceRef": "course-8055031"
   },
@@ -924,9 +967,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "honors"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-8017151"
+    "sourceRef": "enforced-JOUR-4721H"
    },
    "sourceRef": "course-8017151"
   },
@@ -941,9 +984,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Honors, [Jour major, Strat Comm major, or Media and Information major]"
+     "text": "Registration requires: Honors in Jour, Strat Comm or Mass Comm majors"
     },
-    "sourceRef": "course-8041111"
+    "sourceRef": "enforced-JOUR-4733V"
    },
    "sourceRef": "course-8041111"
   },
@@ -971,8 +1014,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8187161"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: seniors in Jour, Strat Comm and Mass Comm majors"
+    },
+    "sourceRef": "enforced-JOUR-4999"
    },
    "sourceRef": "course-8187161"
   },

@@ -18,10 +18,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record ICP 3101W, version 8102251-2022-01-18"
   },
+  "enforced-ICP-3101W": {
+   "url": "https://schedulebuilder.umn.edu/explore/ICP/3101W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ICP 3101W, term 1273"
+  },
   "course-8269231": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8269231",
    "retrieved": "2026-11-23",
    "section": "Course record ICP 4101, version 8269231-2024-01-16"
+  },
+  "enforced-ICP-4101": {
+   "url": "https://schedulebuilder.umn.edu/explore/ICP/4101/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ICP 4101, term 1273"
   }
  },
  "courseSets": {},
@@ -38,9 +48,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Admission to the Inter-College Program or Health and Wellbeing Sciences major"
+     "text": "Registration requires: Health and Wellbeing Sciences or Inter-College Program student"
     },
-    "sourceRef": "course-8102251"
+    "sourceRef": "enforced-ICP-3101W"
    },
    "sourceRef": "course-8102251"
   },
@@ -54,8 +64,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8269231"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: ICP 3101W and ICP or HWS major"
+    },
+    "sourceRef": "enforced-ICP-4101"
    },
    "sourceRef": "course-8269231"
   }

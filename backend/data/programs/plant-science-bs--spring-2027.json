@@ -33,10 +33,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record PLSC 3005W, version 0076621-2025-09-02"
   },
+  "enforced-PLSC-3005W": {
+   "url": "https://schedulebuilder.umn.edu/explore/PLSC/3005W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PLSC 3005W, term 1273"
+  },
   "course-8171031": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8171031",
    "retrieved": "2026-11-23",
    "section": "Course record PLSC 3401, version 8171031-2025-09-02"
+  },
+  "enforced-PLSC-3401": {
+   "url": "https://schedulebuilder.umn.edu/explore/PLSC/3401/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for PLSC 3401, term 1273"
   },
   "course-0065781": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0065781",
@@ -67,6 +77,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0001191",
    "retrieved": "2026-11-23",
    "section": "Course record MATH 1142, version 0001191-2021-05-17"
+  },
+  "reviewed-2026-11-24": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses",
+   "retrieved": "2026-11-24",
+   "section": "Course prerequisites reviewed against the official catalog course records (retrieved 2026-11-23) and the enrollment requirements enforced by registration in Schedule Builder for Fall 2026 and Spring 2027 (https://schedulebuilder.umn.edu/, retrieved 2026-11-24)"
   },
   "course-0133861": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0133861",
@@ -128,10 +143,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record BIOC 3021, version 0142901-2024-05-13"
   },
+  "enforced-BIOC-3021": {
+   "url": "https://schedulebuilder.umn.edu/explore/BIOC/3021/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BIOC 3021, term 1273"
+  },
   "course-8019271": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8019271",
    "retrieved": "2026-11-23",
    "section": "Course record HORT 2121, version 8019271-2026-09-08"
+  },
+  "enforced-HORT-2121": {
+   "url": "https://schedulebuilder.umn.edu/explore/HORT/2121/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HORT 2121, term 1269"
   },
   "course-0076501": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0076501",
@@ -148,6 +173,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record HORT 4114, version 8169401-2025-01-21"
   },
+  "enforced-HORT-4114": {
+   "url": "https://schedulebuilder.umn.edu/explore/HORT/4114/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HORT 4114, term 1273"
+  },
   "course-8272721": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8272721",
    "retrieved": "2026-11-23",
@@ -158,15 +188,30 @@
    "retrieved": "2026-11-23",
    "section": "Course record HORT 5114, version 8257441-2022-09-06"
   },
+  "enforced-HORT-5114": {
+   "url": "https://schedulebuilder.umn.edu/explore/HORT/5114/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HORT 5114, term 1269"
+  },
   "course-8097381": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8097381",
    "retrieved": "2026-11-23",
    "section": "Course record FDSY 2101, version 8097381-2024-01-16"
   },
+  "enforced-FDSY-2101": {
+   "url": "https://schedulebuilder.umn.edu/explore/FDSY/2101/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for FDSY 2101, term 1273"
+  },
   "course-8005951": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8005951",
    "retrieved": "2026-11-23",
    "section": "Course record HORT 4141W, version 8005951-2024-01-16"
+  },
+  "enforced-HORT-4141W": {
+   "url": "https://schedulebuilder.umn.edu/explore/HORT/4141W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HORT 4141W, term 1273"
   },
   "course-8267891": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8267891",
@@ -326,8 +371,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0142901"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: CFANS, CEHD, CLA, CSE, CSOM, CDES, PHAR, CCAPS, or MULTU student"
+    },
+    "sourceRef": "enforced-BIOC-3021"
    },
    "sourceRef": "course-0142901"
   },
@@ -391,10 +439,27 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      },
+      {
+       "type": "course",
+       "course_code": "CI 1806"
+      }
+     ]
     },
-    "sourceRef": "course-8077531"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077531"
   },
@@ -410,10 +475,31 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1061",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1071",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1071H",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1081",
+       "concurrent": true
+      }
+     ]
     },
-    "sourceRef": "course-8077521"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077521"
   },
@@ -428,10 +514,27 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      },
+      {
+       "type": "course",
+       "course_code": "CI 1806"
+      }
+     ]
     },
-    "sourceRef": "course-8152521"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8152521"
   },
@@ -476,9 +579,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "BIOL 1001 or BIOL 1009 or HORT 1001 or instr consent"
+     "text": "Registration requires: Biol 1001 or Biol 1009 or Hort 1001 (or instr consent)"
     },
-    "sourceRef": "course-8097381"
+    "sourceRef": "enforced-FDSY-2101"
    },
    "sourceRef": "course-8097381"
   },
@@ -521,8 +624,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8019271"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: (CHEM 1001 or equiv and CHEM 1017) or (CHEM 1061 or equiv and CHEM 1065)"
+    },
+    "sourceRef": "enforced-HORT-2121"
    },
    "sourceRef": "course-8019271"
   },
@@ -545,8 +651,11 @@
    "maximumCredits": 1,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8169401"
+    "expression": {
+     "type": "course",
+     "course_code": "HORT 1015"
+    },
+    "sourceRef": "enforced-HORT-4114"
    },
    "sourceRef": "course-8169401"
   },
@@ -560,10 +669,27 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "HORT 1001/6011 or PMB 2022 or BIOL 1009.  HORT 1015 preferred but not required."
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "HORT 1001"
+      },
+      {
+       "type": "course",
+       "course_code": "HORT 6011"
+      },
+      {
+       "type": "course",
+       "course_code": "PMB 2022"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1009"
+      }
+     ]
     },
-    "sourceRef": "course-8005951"
+    "sourceRef": "enforced-HORT-4141W"
    },
    "sourceRef": "course-8005951"
   },
@@ -588,8 +714,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8257441"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Biol 1001 or 1009, or Hort 1001 or 1015; and Jr/Sr"
+    },
+    "sourceRef": "enforced-HORT-5114"
    },
    "sourceRef": "course-8257441"
   },
@@ -643,10 +772,23 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      }
+     ]
     },
-    "sourceRef": "course-0001191"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001191"
   },
@@ -662,10 +804,23 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement exam or grade of at least C- in [1031 or 1051]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      }
+     ]
     },
-    "sourceRef": "course-0133861"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0133861"
   },
@@ -697,10 +852,32 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155], CBS student"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "condition",
+         "text": "Satisfactory score on the math placement test"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1151"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1155"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "CBS student"
+      }
+     ]
     },
-    "sourceRef": "course-8082761"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8082761"
   },
@@ -716,10 +893,37 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "all_of",
+       "requirements": [
+        {
+         "type": "any_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "MATH 1151"
+          },
+          {
+           "type": "course",
+           "course_code": "MATH 1155"
+          }
+         ]
+        },
+        {
+         "type": "condition",
+         "text": "Minimum grade C-"
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0001201"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001201"
   },
@@ -745,7 +949,7 @@
       }
      ]
     },
-    "sourceRef": "course-0076621"
+    "sourceRef": "enforced-PLSC-3005W"
    },
    "sourceRef": "course-0076621"
   },
@@ -758,8 +962,20 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8171031"
+    "expression": {
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "BIOL 1009"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1009H"
+      }
+     ]
+    },
+    "sourceRef": "enforced-PLSC-3401"
    },
    "sourceRef": "course-8171031"
   },

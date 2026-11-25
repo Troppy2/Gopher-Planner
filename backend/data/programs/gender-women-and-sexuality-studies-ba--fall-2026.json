@@ -68,6 +68,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record GWSS 3102V, version 7887301-2021-01-19"
   },
+  "enforced-GWSS-3102V": {
+   "url": "https://schedulebuilder.umn.edu/explore/GWSS/3102V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GWSS 3102V, term 1269"
+  },
   "course-8189991": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8189991",
    "retrieved": "2026-11-23",
@@ -82,6 +87,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0163791",
    "retrieved": "2026-11-23",
    "section": "Course record GWSS 3002V, version 0163791-2017-01-17"
+  },
+  "enforced-GWSS-3002V": {
+   "url": "https://schedulebuilder.umn.edu/explore/GWSS/3002V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GWSS 3002V, term 1269"
   },
   "course-0070951": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0070951",
@@ -127,6 +137,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8173721",
    "retrieved": "2026-11-23",
    "section": "Course record GWSS 3505V, version 8173721-2017-09-05"
+  },
+  "enforced-GWSS-3505V": {
+   "url": "https://schedulebuilder.umn.edu/explore/GWSS/3505V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GWSS 3505V, term 1269"
   },
   "course-7942781": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7942781",
@@ -218,6 +233,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record GWSS 4406, version 8093611-2016-09-06"
   },
+  "enforced-GWSS-4406": {
+   "url": "https://schedulebuilder.umn.edu/explore/GWSS/4406/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GWSS 4406, term 1269"
+  },
   "course-8094291": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8094291",
    "retrieved": "2026-11-23",
@@ -273,20 +293,40 @@
    "retrieved": "2026-11-23",
    "section": "Course record GWSS 5993, version 0103971-2013-05-28"
   },
+  "enforced-GWSS-5993": {
+   "url": "https://schedulebuilder.umn.edu/explore/GWSS/5993/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GWSS 5993, term 1273"
+  },
   "course-0143951": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0143951",
    "retrieved": "2026-11-23",
    "section": "Course record GWSS 5994, version 0143951-2013-05-28"
+  },
+  "enforced-GWSS-5994": {
+   "url": "https://schedulebuilder.umn.edu/explore/GWSS/5994/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GWSS 5994, term 1273"
   },
   "course-0143961": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0143961",
    "retrieved": "2026-11-23",
    "section": "Course record GWSS 5995, version 0143961-2013-05-28"
   },
+  "enforced-GWSS-5995": {
+   "url": "https://schedulebuilder.umn.edu/explore/GWSS/5995/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GWSS 5995, term 1273"
+  },
   "course-0080521": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0080521",
    "retrieved": "2026-11-23",
    "section": "Course record GWSS 4108, version 0080521-2019-09-03"
+  },
+  "enforced-GWSS-4108": {
+   "url": "https://schedulebuilder.umn.edu/explore/GWSS/4108/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for GWSS 4108, term 1273"
   }
  },
  "courseSets": {
@@ -658,9 +698,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Honors"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-0163791"
+    "sourceRef": "enforced-GWSS-3002V"
    },
    "sourceRef": "course-0163791"
   },
@@ -688,8 +728,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-7887301"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: honors student"
+    },
+    "sourceRef": "enforced-GWSS-3102V"
    },
    "sourceRef": "course-7887301"
   },
@@ -767,8 +810,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8173721"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: honors student"
+    },
+    "sourceRef": "enforced-GWSS-3505V"
    },
    "sourceRef": "course-8173721"
   },
@@ -856,8 +902,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0080521"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: GWSS major, jr or sr"
+    },
+    "sourceRef": "enforced-GWSS-4108"
    },
    "sourceRef": "course-0080521"
   },
@@ -919,8 +968,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8093611"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: jr or sr or grad student"
+    },
+    "sourceRef": "enforced-GWSS-4406"
    },
    "sourceRef": "course-8093611"
   },
@@ -1058,8 +1110,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0103971"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-GWSS-5993"
    },
    "sourceRef": "course-0103971"
   },
@@ -1074,8 +1129,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0143951"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-GWSS-5994"
    },
    "sourceRef": "course-0143951"
   },
@@ -1089,8 +1147,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0143961"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-GWSS-5995"
    },
    "sourceRef": "course-0143961"
   }

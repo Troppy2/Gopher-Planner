@@ -23,6 +23,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record MATH 1271, version 0001201-2025-09-02"
   },
+  "reviewed-2026-11-24": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses",
+   "retrieved": "2026-11-24",
+   "section": "Course prerequisites reviewed against the official catalog course records (retrieved 2026-11-23) and the enrollment requirements enforced by registration in Schedule Builder for Fall 2026 and Spring 2027 (https://schedulebuilder.umn.edu/, retrieved 2026-11-24)"
+  },
   "course-0016181": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
    "retrieved": "2026-11-23",
@@ -37,6 +42,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7953031",
    "retrieved": "2026-11-23",
    "section": "Course record CEGE 3102, version 7953031-2025-09-02"
+  },
+  "enforced-CEGE-3102": {
+   "url": "https://schedulebuilder.umn.edu/explore/CEGE/3102/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CEGE 3102, term 1273"
   },
   "course-7995071": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7995071",
@@ -78,6 +88,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record HSCI 5244, version 0145331-2017-09-05"
   },
+  "enforced-HSCI-5244": {
+   "url": "https://schedulebuilder.umn.edu/explore/HSCI/5244/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HSCI 5244, term 1269"
+  },
   "course-0062811": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0062811",
    "retrieved": "2026-11-23",
@@ -103,6 +118,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record SSM 4506W, version 8154171-2024-09-03"
   },
+  "enforced-SSM-4506W": {
+   "url": "https://schedulebuilder.umn.edu/explore/SSM/4506W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SSM 4506W, term 1273"
+  },
   "course-8141521": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8141521",
    "retrieved": "2026-11-23",
@@ -112,6 +132,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7989281",
    "retrieved": "2026-11-23",
    "section": "Course record ESPM 2021, version 7989281-2020-09-08"
+  },
+  "enforced-ESPM-2021": {
+   "url": "https://schedulebuilder.umn.edu/explore/ESPM/2021/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ESPM 2021, term 1273"
   },
   "course-7990781": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7990781",
@@ -256,9 +281,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Math 1372 or equivalent"
+     "text": "Registration requires: Math 1372 or equiv"
     },
-    "sourceRef": "course-7953031"
+    "sourceRef": "enforced-CEGE-3102"
    },
    "sourceRef": "course-7953031"
   },
@@ -274,10 +299,27 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      },
+      {
+       "type": "course",
+       "course_code": "CI 1806"
+      }
+     ]
     },
-    "sourceRef": "course-8077531"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077531"
   },
@@ -293,10 +335,31 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1061",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1071",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1071H",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1081",
+       "concurrent": true
+      }
+     ]
     },
-    "sourceRef": "course-8077521"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077521"
   },
@@ -328,9 +391,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "1011, ESPM major"
+     "text": "Registration requires: ESPM 1011, ESPM Major"
     },
-    "sourceRef": "course-7989281"
+    "sourceRef": "enforced-ESPM-2021"
    },
    "sourceRef": "course-7989281"
   },
@@ -442,8 +505,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0145331"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-HSCI-5244"
    },
    "sourceRef": "course-0145331"
   },
@@ -459,10 +525,37 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "all_of",
+       "requirements": [
+        {
+         "type": "any_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "MATH 1151"
+          },
+          {
+           "type": "course",
+           "course_code": "MATH 1155"
+          }
+         ]
+        },
+        {
+         "type": "condition",
+         "text": "Minimum grade C-"
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0001201"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001201"
   },
@@ -533,9 +626,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "ESPM 3603, Senior within two semesters of graduation."
+     "text": "Registration requires: ESPM 3603, senior (within two semesters of graduation)"
     },
-    "sourceRef": "course-8154171"
+    "sourceRef": "enforced-SSM-4506W"
    },
    "sourceRef": "course-8154171"
   },
@@ -575,11 +668,19 @@
       },
       {
        "type": "course",
+       "course_code": "MATH 1372"
+      },
+      {
+       "type": "course",
        "course_code": "MATH 1472"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1572H"
       }
      ]
     },
-    "sourceRef": "course-0016221"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0016221"
   }

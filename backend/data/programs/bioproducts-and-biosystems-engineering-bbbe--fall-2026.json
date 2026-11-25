@@ -18,6 +18,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record MATH 1371, version 0036921-2025-09-02"
   },
+  "reviewed-2026-11-24": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses",
+   "retrieved": "2026-11-24",
+   "section": "Course prerequisites reviewed against the official catalog course records (retrieved 2026-11-23) and the enrollment requirements enforced by registration in Schedule Builder for Fall 2026 and Spring 2027 (https://schedulebuilder.umn.edu/, retrieved 2026-11-24)"
+  },
   "course-0001201": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
    "retrieved": "2026-11-23",
@@ -27,6 +32,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
    "retrieved": "2026-11-23",
    "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "enforced-MATH-1571H": {
+   "url": "https://schedulebuilder.umn.edu/explore/MATH/1571H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MATH 1571H, term 1269"
   },
   "course-0148561": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0148561",
@@ -143,6 +153,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record CHEM 1071H, version 8077581-2026-09-08"
   },
+  "enforced-CHEM-1071H": {
+   "url": "https://schedulebuilder.umn.edu/explore/CHEM/1071H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CHEM 1071H, term 1273"
+  },
   "course-8152521": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8152521",
    "retrieved": "2026-11-23",
@@ -167,6 +182,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8077551",
    "retrieved": "2026-11-23",
    "section": "Course record CHEM 1072H, version 8077551-2025-01-21"
+  },
+  "enforced-CHEM-1072H": {
+   "url": "https://schedulebuilder.umn.edu/explore/CHEM/1072H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CHEM 1072H, term 1273"
   },
   "course-8077561": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8077561",
@@ -203,6 +223,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record BBE 2001, version 7956551-2020-09-08"
   },
+  "enforced-BBE-2001": {
+   "url": "https://schedulebuilder.umn.edu/explore/BBE/2001/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BBE 2001, term 1269"
+  },
   "course-0043361": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0043361",
    "retrieved": "2026-11-23",
@@ -218,50 +243,100 @@
    "retrieved": "2026-11-23",
    "section": "Course record BBE 2003, version 8172851-2024-01-16"
   },
+  "enforced-BBE-2003": {
+   "url": "https://schedulebuilder.umn.edu/explore/BBE/2003/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BBE 2003, term 1269"
+  },
   "course-8052181": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8052181",
    "retrieved": "2026-11-23",
    "section": "Course record BBE 3002, version 8052181-2022-09-06"
+  },
+  "enforced-BBE-3002": {
+   "url": "https://schedulebuilder.umn.edu/explore/BBE/3002/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BBE 3002, term 1269"
   },
   "course-8066641": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8066641",
    "retrieved": "2026-11-23",
    "section": "Course record BBE 3012, version 8066641-2020-01-21"
   },
+  "enforced-BBE-3012": {
+   "url": "https://schedulebuilder.umn.edu/explore/BBE/3012/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BBE 3012, term 1269"
+  },
   "course-0040101": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0040101",
    "retrieved": "2026-11-23",
    "section": "Course record BBE 3013, version 0040101-2023-09-05"
+  },
+  "enforced-BBE-3013": {
+   "url": "https://schedulebuilder.umn.edu/explore/BBE/3013/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BBE 3013, term 1269"
   },
   "course-7998661": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7998661",
    "retrieved": "2026-11-23",
    "section": "Course record BBE 3033, version 7998661-2023-09-05"
   },
+  "enforced-BBE-3033": {
+   "url": "https://schedulebuilder.umn.edu/explore/BBE/3033/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BBE 3033, term 1273"
+  },
   "course-8044821": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8044821",
    "retrieved": "2026-11-23",
    "section": "Course record BBE 3043, version 8044821-2023-09-05"
+  },
+  "enforced-BBE-3043": {
+   "url": "https://schedulebuilder.umn.edu/explore/BBE/3043/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BBE 3043, term 1273"
   },
   "course-0040121": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0040121",
    "retrieved": "2026-11-23",
    "section": "Course record BBE 4013, version 0040121-2025-09-02"
   },
+  "enforced-BBE-4013": {
+   "url": "https://schedulebuilder.umn.edu/explore/BBE/4013/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BBE 4013, term 1273"
+  },
   "course-0040131": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0040131",
    "retrieved": "2026-11-23",
    "section": "Course record BBE 4023W, version 0040131-2019-09-03"
+  },
+  "enforced-BBE-4023W": {
+   "url": "https://schedulebuilder.umn.edu/explore/BBE/4023W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BBE 4023W, term 1269"
   },
   "course-7956721": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7956721",
    "retrieved": "2026-11-23",
    "section": "Course record BBE 4303, version 7956721-2021-01-19"
   },
+  "enforced-BBE-4303": {
+   "url": "https://schedulebuilder.umn.edu/explore/BBE/4303/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BBE 4303, term 1273"
+  },
   "course-7956931": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7956931",
    "retrieved": "2026-11-23",
    "section": "Course record BBE 4502W, version 7956931-2021-01-19"
+  },
+  "enforced-BBE-4502W": {
+   "url": "https://schedulebuilder.umn.edu/explore/BBE/4502W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BBE 4502W, term 1273"
   },
   "course-7990781": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7990781",
@@ -287,6 +362,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0052281",
    "retrieved": "2026-11-23",
    "section": "Course record ME 4431W, version 0052281-2015-01-20"
+  },
+  "enforced-ME-4431W": {
+   "url": "https://schedulebuilder.umn.edu/explore/ME/4431W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ME 4431W, term 1269"
   }
  },
  "courseSets": {
@@ -445,10 +525,56 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Phys 1301W, [concurrent registration is required (or allowed) in Math 2374 or equiv], CSE"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "PHYS 1301W"
+        },
+        {
+         "type": "course",
+         "course_code": "PHYS 1201W"
+        },
+        {
+         "type": "course",
+         "course_code": "PHYS 1401V"
+        },
+        {
+         "type": "course",
+         "course_code": "PHYS 1501V"
+        }
+       ]
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 2374",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 2263",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 2573H",
+         "concurrent": true
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+      }
+     ]
     },
-    "sourceRef": "course-0043361"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0043361"
   },
@@ -475,8 +601,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-7956551"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Math 1272 or Math 1372 or Math 1572H and Phys 1101W or Phys 1301W or Phys 1401V"
+    },
+    "sourceRef": "enforced-BBE-2001"
    },
    "sourceRef": "course-7956551"
   },
@@ -491,9 +620,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "(Math 1271 or Math 1371, Math 1272 or Math 1372, Concurrent registration in [{Math 2243 or 2373} OR {Math 2263 or 2374}]) CSE lower division or CSE Upper Division BBE Majors or CFANS Pre-BBE (Premajor) or instructor consent."
+     "text": "Registration requires: Math 1271 or 1371; 1272 or 1372; coreq Math 2243 or 2373 or 2263 or 2374; CSE lower division or BBE upper div, or CFANS Pre-BBE (or instr consent)"
     },
-    "sourceRef": "course-8172851"
+    "sourceRef": "enforced-BBE-2003"
    },
    "sourceRef": "course-8172851"
   },
@@ -508,9 +637,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "BBE 2003, Chem 1061, Math 2243 or Math 2373, BBE or Pre-BBE student or instr consent"
+     "text": "Registration requires: BBE 2003, Chem 1061, Math 2243 or Math 2373, BBE or Pre-BBE student"
     },
-    "sourceRef": "course-8052181"
+    "sourceRef": "enforced-BBE-3002"
    },
    "sourceRef": "course-8052181"
   },
@@ -525,9 +654,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "BBE 1001 or concurrent registration and BBE 2001 and BBE 3033 and Math 2243 or Math 2373 or Math 2574H and Math 2263 or Math 2374 or Math 2573H and Phys 1302W or Phys 1402V"
+     "text": "Registration requires: BBE 1001 or concurrent registration and BBE 2001, BBE 3033, Math 2243 or Math 2373 or Math 2574H, Math 2263 or Math 2374 or Math 2573H, Phys 1302W or Phys 1402V"
     },
-    "sourceRef": "course-8066641"
+    "sourceRef": "enforced-BBE-3012"
    },
    "sourceRef": "course-8066641"
   },
@@ -542,9 +671,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "BIOL 1009 or BIOL 2003; and CHEM 1062/CHEM 1066 or equivalent or CHEM 1082; MATH 1372 or MATH 1282"
+     "text": "Registration requires: Biol 1009 or Biol 2003; and Chem 1062 or equiv, or Chem 1082; and Math 1372 or Math 1282"
     },
-    "sourceRef": "course-0040101"
+    "sourceRef": "enforced-BBE-3013"
    },
    "sourceRef": "course-0040101"
   },
@@ -559,9 +688,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "CHEM 1062 or CHEM 1082, MATH 1372 or equivalent or MATH 1282 and PHYS 1302W or PHYS 1222"
+     "text": "Registration requires: CHEM 1062 or 1072 , MATH 1272 or 1372, PHYS 1302W or PHYS 1222"
     },
-    "sourceRef": "course-7998661"
+    "sourceRef": "enforced-BBE-3033"
    },
    "sourceRef": "course-7998661"
   },
@@ -576,9 +705,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "BIOL 1009 or BIOL 2003 and CHEM 1065 or equivalent or CHEM 1081, MATH 1372 or MATH 1282 and PHYS 1302W or PHYS 1222"
+     "text": "Registration requires: Biol 1009 or Biol 2003; and Chem 1065 or equivalent or Chem 1072; Chem 1081; Math 1372 or Math 1282; and Phys 1302W or Phys 1222"
     },
-    "sourceRef": "course-8044821"
+    "sourceRef": "enforced-BBE-3043"
    },
    "sourceRef": "course-8044821"
   },
@@ -593,9 +722,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "BBE 2003, 3012 and BBE 3043, upper div CSE or grad CSE"
+     "text": "Registration requires: BBE 2003, 3012 and 3043, CSE jr or sr or grad (or instr consent)"
     },
-    "sourceRef": "course-0040121"
+    "sourceRef": "enforced-BBE-4013"
    },
    "sourceRef": "course-0040121"
   },
@@ -610,9 +739,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Upper div CSE or grad student"
+     "text": "Registration requires: CSE student, upper div or grad"
     },
-    "sourceRef": "course-0040131"
+    "sourceRef": "enforced-BBE-4023W"
    },
    "sourceRef": "course-0040131"
   },
@@ -626,10 +755,10 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "2001 or instr consent"
+     "type": "course",
+     "course_code": "BBE 2001"
     },
-    "sourceRef": "course-7956721"
+    "sourceRef": "enforced-BBE-4303"
    },
    "sourceRef": "course-7956721"
   },
@@ -644,9 +773,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "BBE 3002 and BBE 3012 and BBE 4013 and or concurrent with BBE 4013 and CSE Upper Division."
+     "text": "Registration requires: BBE 3002 and BBE 3012 and BBE 4013 and or concurrent with BBE 4013 and CSE Upper Division."
     },
-    "sourceRef": "course-7956931"
+    "sourceRef": "enforced-BBE-4502W"
    },
    "sourceRef": "course-7956931"
   },
@@ -692,10 +821,27 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      },
+      {
+       "type": "course",
+       "course_code": "CI 1806"
+      }
+     ]
     },
-    "sourceRef": "course-8077531"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077531"
   },
@@ -711,10 +857,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Grade of at least C- in 1061 or equiv, concurrent registration is required (or allowed) in 1066; registration for 1066 must precede registration for 1062"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1061"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-8077561"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077561"
   },
@@ -730,10 +885,31 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1061",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1071",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1071H",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1081",
+       "concurrent": true
+      }
+     ]
     },
-    "sourceRef": "course-8077521"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077521"
   },
@@ -749,10 +925,26 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "concurrent registration is required (or allowed) in 1062, 1072, 1072H"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1062",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1072",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1072H",
+       "concurrent": true
+      }
+     ]
     },
-    "sourceRef": "course-8077541"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077541"
   },
@@ -768,9 +960,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "A strong understanding of College Algebra or Precalculus is recommended. Prerequisite: Concurrent registration is required (or allowed in) CHEM 1065; registration for 1065 must precede registration for 1071."
+     "text": "CHEM 1065 (lab) with or before this course"
     },
-    "sourceRef": "course-8271261"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8271261"
   },
@@ -784,8 +976,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8077581"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Chem 1065 prereq or coreq; honors"
+    },
+    "sourceRef": "enforced-CHEM-1071H"
    },
    "sourceRef": "course-8077581"
   },
@@ -800,10 +995,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Grade of at least C- in 1071 or equivalent, concurrent registration is required in 1066; registration for 1066 must precede registration for 1072"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1071"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-8271311"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8271311"
   },
@@ -818,10 +1022,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Honors student or permission of University Honors Program."
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1061"
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1066"
+      }
+     ]
     },
-    "sourceRef": "course-8077551"
+    "sourceRef": "enforced-CHEM-1072H"
    },
    "sourceRef": "course-8077551"
   },
@@ -836,10 +1049,27 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      },
+      {
+       "type": "course",
+       "course_code": "CI 1806"
+      }
+     ]
     },
-    "sourceRef": "course-8152521"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8152521"
   },
@@ -852,8 +1082,24 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8152841"
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1081"
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1065"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
+    },
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8152841"
   },
@@ -868,10 +1114,41 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "grade of a C- or better in CHEM 1081 or 1061 or 1071H and CHEM 1065 (lab). Concurrent registration in CHEM 1082 is required."
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "CHEM 1081"
+        },
+        {
+         "type": "course",
+         "course_code": "CHEM 1061"
+        },
+        {
+         "type": "course",
+         "course_code": "CHEM 1071H"
+        }
+       ]
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1065"
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1082",
+       "concurrent": true
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-8152831"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8152831"
   },
@@ -904,10 +1181,37 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "all_of",
+       "requirements": [
+        {
+         "type": "any_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "MATH 1151"
+          },
+          {
+           "type": "course",
+           "course_code": "MATH 1155"
+          }
+         ]
+        },
+        {
+         "type": "condition",
+         "text": "Minimum grade C-"
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0001201"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001201"
   },
@@ -923,10 +1227,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1271 or equiv] with grade of at least C-"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1271"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0001211"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001211"
   },
@@ -941,10 +1254,32 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "condition",
+         "text": "Satisfactory score on the math placement test"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1151"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1155"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+      }
+     ]
     },
-    "sourceRef": "course-0036921"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036921"
   },
@@ -958,10 +1293,23 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Grade of at least C- in [1371 or equiv], CSE or pre-Bioprod/Biosys Engr"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1371"
+      },
+      {
+       "type": "condition",
+       "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0036931"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036931"
   },
@@ -1018,9 +1366,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Honors student and permission of University Honors Program"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-0036961"
+    "sourceRef": "enforced-MATH-1571H"
    },
    "sourceRef": "course-0036961"
   },
@@ -1035,10 +1383,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "1571H (or equivalent)  honors student"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1571H"
+      },
+      {
+       "type": "condition",
+       "text": "Honors student"
+      }
+     ]
     },
-    "sourceRef": "course-0036971"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036971"
   },
@@ -1054,10 +1411,36 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1282"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0002801"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0002801"
   },
@@ -1073,10 +1456,32 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1272 or 1372 or 1572] w/grade of at least C-"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0002821"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0002821"
   },
@@ -1091,10 +1496,40 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bio Prod/Biosys Engr"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1282"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0036941"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036941"
   },
@@ -1109,10 +1544,40 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1272 or 1282 or 1372 or 1572] w/grade of at least C-, CSE or pre-Bioprod/Biosys Engr"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1282"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0036951"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036951"
   },
@@ -1168,10 +1633,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Math 1572H (or equivalent), honors student"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "MATH 1572H"
+      },
+      {
+       "type": "condition",
+       "text": "Honors student"
+      }
+     ]
     },
-    "sourceRef": "course-0036981"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036981"
   },
@@ -1185,10 +1659,28 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Math 1572H or Math 2573H, honors student and permission of University Honors Program"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1572H"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 2573H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "Honors student"
+      }
+     ]
     },
-    "sourceRef": "course-0043111"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0043111"
   },
@@ -1204,9 +1696,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "3333, 4031W, [ME upper div or grad student]"
+     "text": "Registration requires: ME 3333, 4031W, ME upper div or grad student"
     },
-    "sourceRef": "course-0052281"
+    "sourceRef": "enforced-ME-4431W"
    },
    "sourceRef": "course-0052281"
   },
@@ -1241,10 +1733,10 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "PHYS 1221 or equivalent"
+     "type": "course",
+     "course_code": "PHYS 1221"
     },
-    "sourceRef": "course-8179651"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8179651"
   },
@@ -1275,10 +1767,35 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "PHYS 1301 or equivalent, Prereq or Concurrent: MATH 1272/1372/1572H or equivalent"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "PHYS 1301W"
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H",
+         "concurrent": true
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0020711"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0020711"
   },
@@ -1292,10 +1809,35 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Honors program or with permission, Prereq or Concurrent: MATH 1271/1371/1571H or equivalent"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1271",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1371",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1571H",
+         "concurrent": true
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "Honors program or permission"
+      }
+     ]
     },
-    "sourceRef": "course-0020731"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0020731"
   },
@@ -1308,8 +1850,36 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0020741"
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "PHYS 1401V"
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "MATH 1272",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1372",
+         "concurrent": true
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1572H",
+         "concurrent": true
+        }
+       ]
+      }
+     ]
+    },
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0020741"
   },

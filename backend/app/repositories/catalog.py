@@ -6,6 +6,7 @@ from sqlalchemy.orm import aliased
 
 from app.extensions import db
 from app.models import CatalogCourse, CatalogPrerequisiteEdge, CatalogRelease
+from app.services.metadata import restricted_enrollment
 
 
 def _json(value):
@@ -107,6 +108,19 @@ def _le(value):
     return {part.strip() for part in (value or "").split(";") if part.strip()}
 
 
+def open_to_any_undergraduate(code, title):
+    """False for courses whose enrollment is restricted in ways the planner can't check for a student
+    (see ``restricted_enrollment``) and for graduate-level (5xxx and above) courses."""
+    number = code.split(" ")[-1]
+    if number[:1].isdigit() and int(number[0]) >= 5:
+        return False
+    return not restricted_enrollment(code, title)
+
+
+def _offered_every(offered):
+    return (offered or "").strip().startswith("Every")
+
+
 def le_designations(codes):
     """Catalog designation names per course code; codes missing from the catalog are omitted."""
     codes = sorted(set(codes))
@@ -123,8 +137,8 @@ def double_dippers(wanted, *, exclude, limit, offset):
     """Catalog courses carrying at least two of ``wanted`` groups of designations.
 
     ``wanted`` maps a need (for example "Literature") to the designation names that satisfy it.
-    Returns (page of (course, covered needs), total). Most needs covered first, then courses
-    without prerequisites, lower levels, and code."""
+    Returns (page of (course, covered needs), total). Most needs covered first, then courses open to
+    any undergraduate, courses without prerequisites, lower levels, and code."""
     names = sorted({name for group in wanted.values() for name in group})
     if len(wanted) < 2 or not names:
         return [], 0
@@ -137,34 +151,39 @@ def double_dippers(wanted, *, exclude, limit, offset):
         covered = [need for need, group in wanted.items() if carried & set(group)]
         if len(covered) >= 2:
             number = course.course_number[:1]
-            key = (-len(covered), course.prerequisite_status != "none", int(number) if number.isdigit() else 9, course.course_code)
+            key = (-len(covered), not open_to_any_undergraduate(course.course_code, course.course_name),
+                   course.prerequisite_status != "none", int(number) if number.isdigit() else 9, course.course_code)
             matches.append((key, course, covered))
     matches.sort(key=lambda match: match[0])
     return [(course, covered) for _, course, covered in matches[offset:offset + limit]], len(matches)
 
 
 def le_candidates(needs, *, exclude, per_need=8):
-    """Prerequisite-free courses for open liberal education needs, as ``[(code, designations)]``.
+    """Prerequisite-free courses any undergraduate can take, for open liberal education needs, as
+    ``[(code, designations)]``.
 
     ``needs`` is ``[(label, designations)]``. For each need, keeps the ``per_need`` courses that cover
-    the most open needs overall, then lower levels, then code; the union is the generator's pool."""
+    the most open needs overall, then courses offered every year, lower levels, and code; the union is
+    the generator's pool."""
     names = sorted({name for _, group in needs for name in group})
     if not names:
         return []
     rows = db.session.execute(
-        select(CatalogCourse.course_code, CatalogCourse.le_attributes)
+        select(CatalogCourse.course_code, CatalogCourse.le_attributes, CatalogCourse.course_name,
+               CatalogCourse.typically_offered)
         .where(or_(*(CatalogCourse.le_attributes.contains(name) for name in names)))
         .where(CatalogCourse.prerequisite_status == "none")
         .where(CatalogCourse.typically_offered != "-"))
     scored = []
-    for code, attributes in rows:
-        if code in exclude:
+    for code, attributes, title, offered in rows:
+        if code in exclude or not open_to_any_undergraduate(code, title):
             continue
         carried = _le(attributes)
         hits = sum(bool(carried & group) for _, group in needs)
         if hits:
             number = code.split(" ")[-1]
-            scored.append(((-hits, int(number[0]) if number[:1].isdigit() else 9, code), code, carried))
+            scored.append(((-hits, not _offered_every(offered), int(number[0]) if number[:1].isdigit() else 9, code),
+                           code, carried))
     scored.sort(key=lambda row: row[0])
     pool = {}
     for _, group in needs:
@@ -185,27 +204,31 @@ def le_coverage(codes):
 
 
 def suggest_le_course(categories, *, season, exclude, bonus=()):
-    """A prerequisite-free course offered in ``season`` that covers the most of ``categories``.
+    """A prerequisite-free course any undergraduate can take, offered in ``season``, that covers the most
+    of ``categories``.
 
     Ties prefer courses that also carry more ``bonus`` designations (other liberal education needs
-    still open), then lower course levels, then code. Returns (code, covered categories) or None."""
+    still open), then courses offered every year, then lower course levels, then code. Returns
+    (code, covered categories) or None."""
     bonus = set(bonus)
     wanted = set(categories)
     if not wanted:
         return None
     rows = db.session.execute(
-        select(CatalogCourse.course_code, CatalogCourse.le_attributes, CatalogCourse.typically_offered)
+        select(CatalogCourse.course_code, CatalogCourse.le_attributes, CatalogCourse.typically_offered,
+               CatalogCourse.course_name)
         .where(or_(*(CatalogCourse.le_attributes.contains(category) for category in sorted(wanted))))
         .where(CatalogCourse.prerequisite_status == "none"))
     best = None
-    for code, attributes, offered in rows:
-        if code in exclude or season not in (offered or ""):
+    for code, attributes, offered, title in rows:
+        if code in exclude or season not in (offered or "") or not open_to_any_undergraduate(code, title):
             continue
         covered = sorted(wanted & _le(attributes))
         if not covered:
             continue
         number = code.split(" ")[-1]
-        key = (-len(covered), -len((bonus - set(covered)) & _le(attributes)), int(number[0]) if number[:1].isdigit() else 9, code)
+        key = (-len(covered), -len((bonus - set(covered)) & _le(attributes)), not _offered_every(offered),
+               int(number[0]) if number[:1].isdigit() else 9, code)
         if best is None or key < best[0]:
             best = (key, code, covered)
     return (best[1], best[2]) if best else None

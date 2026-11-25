@@ -38,6 +38,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record SOC 5811, version 0011491-2023-09-05"
   },
+  "enforced-SOC-5811": {
+   "url": "https://schedulebuilder.umn.edu/explore/SOC/5811/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SOC 5811, term 1269"
+  },
   "course-8168821": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8168821",
    "retrieved": "2026-11-23",
@@ -58,6 +63,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record SOC 3090, version 0099601-2026-09-08"
   },
+  "enforced-SOC-3090": {
+   "url": "https://schedulebuilder.umn.edu/explore/SOC/3090/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SOC 3090, term 1273"
+  },
   "course-7901811": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7901811",
    "retrieved": "2026-11-23",
@@ -67,6 +77,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8107201",
    "retrieved": "2026-11-23",
    "section": "Course record SOC 3101H, version 8107201-2021-05-17"
+  },
+  "enforced-SOC-3101H": {
+   "url": "https://schedulebuilder.umn.edu/explore/SOC/3101H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SOC 3101H, term 1273"
   },
   "course-7901821": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7901821",
@@ -153,6 +168,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record SOC 3412H, version 8127911-2021-05-17"
   },
+  "enforced-SOC-3412H": {
+   "url": "https://schedulebuilder.umn.edu/explore/SOC/3412H/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SOC 3412H, term 1273"
+  },
   "course-7961141": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7961141",
    "retrieved": "2026-11-23",
@@ -213,6 +233,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record SOC 3511H, version 8114111-2021-05-17"
   },
+  "enforced-SOC-3511H": {
+   "url": "https://schedulebuilder.umn.edu/explore/SOC/3511H/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SOC 3511H, term 1273"
+  },
   "course-7982151": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7982151",
    "retrieved": "2026-11-23",
@@ -263,6 +288,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record SOC 4101V, version 8105771-2026-09-08"
   },
+  "enforced-SOC-4101V": {
+   "url": "https://schedulebuilder.umn.edu/explore/SOC/4101V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SOC 4101V, term 1273"
+  },
   "course-0025451": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0025451",
    "retrieved": "2026-11-23",
@@ -307,6 +337,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8194641",
    "retrieved": "2026-11-23",
    "section": "Course record SOC 4113, version 8194641-2021-05-17"
+  },
+  "enforced-SOC-4113": {
+   "url": "https://schedulebuilder.umn.edu/explore/SOC/4113/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SOC 4113, term 1273"
   },
   "course-0025601": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0025601",
@@ -458,6 +493,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record SOC 4094W, version 0099691-2021-05-17"
   },
+  "enforced-SOC-4094W": {
+   "url": "https://schedulebuilder.umn.edu/explore/SOC/4094W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SOC 4094W, term 1273"
+  },
   "course-0145811": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0145811",
    "retrieved": "2026-11-23",
@@ -467,6 +507,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0081761",
    "retrieved": "2026-11-23",
    "section": "Course record SOC 4977V, version 0081761-2026-09-08"
+  },
+  "enforced-SOC-4977V": {
+   "url": "https://schedulebuilder.umn.edu/explore/SOC/4977V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for SOC 4977V, term 1269"
   },
   "course-0099681": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0099681",
@@ -842,9 +887,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "1001 recommended; soc majors must register A-F; credit will not be granted if credit has been received for the same topics title"
+     "text": "Registration requires: soph or jr or sr"
     },
-    "sourceRef": "course-0099601"
+    "sourceRef": "enforced-SOC-3090"
    },
    "sourceRef": "course-0099601"
   },
@@ -880,9 +925,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "[SOC 1001] recommended, Sociology majors/minors must register A-F, honors"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-8107201"
+    "sourceRef": "enforced-SOC-3101H"
    },
    "sourceRef": "course-8107201"
   },
@@ -1090,9 +1135,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "[SOC 1001] recommended, Sociology majors/minors must register A-F, honors"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-8127911"
+    "sourceRef": "enforced-SOC-3412H"
    },
    "sourceRef": "course-8127911"
   },
@@ -1237,9 +1282,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "[SOC 1001] recommended, Sociology majors/minors must register A-F"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-8114111"
+    "sourceRef": "enforced-SOC-3511H"
    },
    "sourceRef": "course-8114111"
   },
@@ -1386,9 +1431,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "1001, 3701, 3801, 3811, at least 12 cr upper div sociology electives, dept & instructor consent."
+     "text": "Registration requires: Sociology major"
     },
-    "sourceRef": "course-0099691"
+    "sourceRef": "enforced-SOC-4094W"
    },
    "sourceRef": "course-0099691"
   },
@@ -1404,9 +1449,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "honors student, SOC 1001 and  3101 or 3102 recommended, Sociology majors/minors must register A-F"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-8105771"
+    "sourceRef": "enforced-SOC-4101V"
    },
    "sourceRef": "course-8105771"
   },
@@ -1557,8 +1602,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8194641"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: soph or jr or sr"
+    },
+    "sourceRef": "enforced-SOC-4113"
    },
    "sourceRef": "course-8194641"
   },
@@ -1954,9 +2002,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "3701, 3801, 3811, 9 additional upper div sociology cr, sr soc honors major, dept consent"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-0081761"
+    "sourceRef": "enforced-SOC-4977V"
    },
    "sourceRef": "course-0081761"
   },
@@ -1987,8 +2035,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0011491"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: jr or sr or grad student"
+    },
+    "sourceRef": "enforced-SOC-5811"
    },
    "sourceRef": "course-0011491"
   }

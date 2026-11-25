@@ -207,6 +207,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0095511",
    "retrieved": "2026-11-23",
    "section": "Course record CSCL 5993, version 0095511-2020-05-18"
+  },
+  "enforced-CSCL-5993": {
+   "url": "https://schedulebuilder.umn.edu/explore/CSCL/5993/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CSCL 5993, term 1273"
   }
  },
  "courseSets": {
@@ -709,8 +714,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0095511"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-CSCL-5993"
    },
    "sourceRef": "course-0095511"
   },

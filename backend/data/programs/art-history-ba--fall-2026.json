@@ -123,10 +123,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record ARTH 5993, version 0160681-2023-01-17"
   },
+  "enforced-ARTH-5993": {
+   "url": "https://schedulebuilder.umn.edu/explore/ARTH/5993/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ARTH 5993, term 1273"
+  },
   "course-0160731": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0160731",
    "retrieved": "2026-11-23",
    "section": "Course record ARTH 5994, version 0160731-2015-01-20"
+  },
+  "enforced-ARTH-5994": {
+   "url": "https://schedulebuilder.umn.edu/explore/ARTH/5994/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ARTH 5994, term 1273"
   },
   "course-0098031": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0098031",
@@ -137,6 +147,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0168521",
    "retrieved": "2026-11-23",
    "section": "Course record ARTH 3971V, version 0168521-2018-01-16"
+  },
+  "enforced-ARTH-3971V": {
+   "url": "https://schedulebuilder.umn.edu/explore/ARTH/3971V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ARTH 3971V, term 1273"
   }
  },
  "courseSets": {
@@ -305,8 +320,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0168521"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Art History major honors jr or sr"
+    },
+    "sourceRef": "enforced-ARTH-3971V"
    },
    "sourceRef": "course-0168521"
   },
@@ -405,9 +423,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "instr consent"
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
     },
-    "sourceRef": "course-0160681"
+    "sourceRef": "enforced-ARTH-5993"
    },
    "sourceRef": "course-0160681"
   },
@@ -424,9 +442,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "instr consent"
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
     },
-    "sourceRef": "course-0160731"
+    "sourceRef": "enforced-ARTH-5994"
    },
    "sourceRef": "course-0160731"
   },

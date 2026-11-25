@@ -28,6 +28,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record MATH 1142, version 0001191-2021-05-17"
   },
+  "reviewed-2026-11-24": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses",
+   "retrieved": "2026-11-24",
+   "section": "Course prerequisites reviewed against the official catalog course records (retrieved 2026-11-23) and the enrollment requirements enforced by registration in Schedule Builder for Fall 2026 and Spring 2027 (https://schedulebuilder.umn.edu/, retrieved 2026-11-24)"
+  },
   "course-0001201": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
    "retrieved": "2026-11-23",
@@ -48,10 +53,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record WRIT 3562W, version 0026681-2021-05-17"
   },
+  "enforced-WRIT-3562W": {
+   "url": "https://schedulebuilder.umn.edu/explore/WRIT/3562W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for WRIT 3562W, term 1273"
+  },
   "course-8158401": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8158401",
    "retrieved": "2026-11-23",
    "section": "Course record WRIT 3562V, version 8158401-2021-05-17"
+  },
+  "enforced-WRIT-3562V": {
+   "url": "https://schedulebuilder.umn.edu/explore/WRIT/3562V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for WRIT 3562V, term 1273"
   },
   "course-0083751": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0083751",
@@ -98,6 +113,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record ANSC 4604, version 0091001-2022-01-18"
   },
+  "enforced-ANSC-4604": {
+   "url": "https://schedulebuilder.umn.edu/explore/ANSC/4604/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ANSC 4604, term 1273"
+  },
   "course-7952231": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7952231",
    "retrieved": "2026-11-23",
@@ -117,6 +137,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8082501",
    "retrieved": "2026-11-23",
    "section": "Course record ANSC 2056, version 8082501-2025-01-21"
+  },
+  "enforced-ANSC-2056": {
+   "url": "https://schedulebuilder.umn.edu/explore/ANSC/2056/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for ANSC 2056, term 1273"
   },
   "course-0103151": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0103151",
@@ -143,10 +168,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record CFAN 3091V, version 8140461-2024-01-16"
   },
+  "enforced-CFAN-3091V": {
+   "url": "https://schedulebuilder.umn.edu/explore/CFAN/3091V/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CFAN 3091V, term 1269"
+  },
   "course-8095531": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8095531",
    "retrieved": "2026-11-23",
    "section": "Course record CFAN 3096, version 8095531-2024-01-16"
+  },
+  "enforced-CFAN-3096": {
+   "url": "https://schedulebuilder.umn.edu/explore/CFAN/3096/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CFAN 3096, term 1273"
   },
   "course-8199021": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8199021",
@@ -307,10 +342,10 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "ANSC 2055 or concurrent registration is required (or allowed) in 2055"
+     "type": "course",
+     "course_code": "ANSC 2055"
     },
-    "sourceRef": "course-8082501"
+    "sourceRef": "enforced-ANSC-2056"
    },
    "sourceRef": "course-8082501"
   },
@@ -467,7 +502,7 @@
       }
      ]
     },
-    "sourceRef": "course-0091001"
+    "sourceRef": "enforced-ANSC-4604"
    },
    "sourceRef": "course-0091001"
   },
@@ -512,9 +547,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Honors student. If you have less than 60 credits and are interested in this course, please contact the instructor."
+     "text": "Registration requires: junior or senior"
     },
-    "sourceRef": "course-8140461"
+    "sourceRef": "enforced-CFAN-3091V"
    },
    "sourceRef": "course-8140461"
   },
@@ -529,8 +564,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8095531"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: CFANS or CCAPS students"
+    },
+    "sourceRef": "enforced-CFAN-3096"
    },
    "sourceRef": "course-8095531"
   },
@@ -598,10 +636,23 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      }
+     ]
     },
-    "sourceRef": "course-0001191"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001191"
   },
@@ -617,10 +668,37 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "all_of",
+       "requirements": [
+        {
+         "type": "any_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "MATH 1151"
+          },
+          {
+           "type": "course",
+           "course_code": "MATH 1155"
+          }
+         ]
+        },
+        {
+         "type": "condition",
+         "text": "Minimum grade C-"
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0001201"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001201"
   },
@@ -648,8 +726,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8158401"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: soph, junior, or senior, and honors student"
+    },
+    "sourceRef": "enforced-WRIT-3562V"
    },
    "sourceRef": "course-8158401"
   },
@@ -664,8 +745,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0026681"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: soph or jr or sr"
+    },
+    "sourceRef": "enforced-WRIT-3562W"
    },
    "sourceRef": "course-0026681"
   }

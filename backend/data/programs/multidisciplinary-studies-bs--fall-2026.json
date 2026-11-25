@@ -38,10 +38,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record COMM 3605W, version 0039051-2026-09-08"
   },
+  "enforced-COMM-3605W": {
+   "url": "https://schedulebuilder.umn.edu/explore/COMM/3605W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for COMM 3605W, term 1269"
+  },
   "course-0133221": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0133221",
    "retrieved": "2026-11-23",
    "section": "Course record BA 3033W, version 0133221-2025-01-21"
+  },
+  "reviewed-2026-11-24": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses",
+   "retrieved": "2026-11-24",
+   "section": "Course prerequisites reviewed against the official catalog course records (retrieved 2026-11-23) and the enrollment requirements enforced by registration in Schedule Builder for Fall 2026 and Spring 2027 (https://schedulebuilder.umn.edu/, retrieved 2026-11-24)"
   },
   "course-0021991": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0021991",
@@ -52,6 +62,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0022501",
    "retrieved": "2026-11-23",
    "section": "Course record EPSY 5261, version 0022501-2020-09-08"
+  },
+  "enforced-EPSY-5261": {
+   "url": "https://schedulebuilder.umn.edu/explore/EPSY/5261/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for EPSY 5261, term 1273"
   },
   "course-7939031": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7939031",
@@ -150,10 +165,28 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "First Year Writing, CSOM mjr or NONM"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "WRIT 1301"
+        },
+        {
+         "type": "course",
+         "course_code": "WRIT 1401"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "Carlson School major, or another major or minor the course lists"
+      }
+     ]
     },
-    "sourceRef": "course-0133221"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0133221"
   },
@@ -217,9 +250,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "1101, soph"
+     "text": "Registration requires: soph or jr or sr or grad"
     },
-    "sourceRef": "course-0039051"
+    "sourceRef": "enforced-COMM-3605W"
    },
    "sourceRef": "course-0039051"
   },
@@ -250,8 +283,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0022501"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-EPSY-5261"
    },
    "sourceRef": "course-0022501"
   },
@@ -318,10 +354,10 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "High school algebra, [PSY 1001 or equiv]; intended for students who plan to major in psychology"
+     "type": "course",
+     "course_code": "PSY 1001"
     },
-    "sourceRef": "course-7989021"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-7989021"
   },

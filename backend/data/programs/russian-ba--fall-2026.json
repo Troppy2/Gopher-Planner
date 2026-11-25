@@ -18,10 +18,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record RUSS 3101, version 0070411-2026-01-20"
   },
+  "enforced-RUSS-3101": {
+   "url": "https://schedulebuilder.umn.edu/explore/RUSS/3101/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for RUSS 3101, term 1269"
+  },
   "course-0070431": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0070431",
    "retrieved": "2026-11-23",
    "section": "Course record RUSS 3102, version 0070431-2026-01-20"
+  },
+  "enforced-RUSS-3102": {
+   "url": "https://schedulebuilder.umn.edu/explore/RUSS/3102/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for RUSS 3102, term 1273"
   },
   "course-0035411": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0035411",
@@ -33,6 +43,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record RUSS 5421, version 0035461-2021-05-17"
   },
+  "enforced-RUSS-5421": {
+   "url": "https://schedulebuilder.umn.edu/explore/RUSS/5421/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for RUSS 5421, term 1269"
+  },
   "course-0070471": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0070471",
    "retrieved": "2026-11-23",
@@ -42,6 +57,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0070481",
    "retrieved": "2026-11-23",
    "section": "Course record RUSS 5422W, version 0070481-2026-09-08"
+  },
+  "enforced-RUSS-5422W": {
+   "url": "https://schedulebuilder.umn.edu/explore/RUSS/5422W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for RUSS 5422W, term 1273"
   },
   "course-0070491": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0070491",
@@ -58,6 +78,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record HIST 5264, version 0100781-2021-05-17"
   },
+  "enforced-HIST-5264": {
+   "url": "https://schedulebuilder.umn.edu/explore/HIST/5264/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HIST 5264, term 1269"
+  },
   "course-8097321": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8097321",
    "retrieved": "2026-11-23",
@@ -67,6 +92,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0100941",
    "retrieved": "2026-11-23",
    "section": "Course record HIST 5265, version 0100941-2021-05-17"
+  },
+  "enforced-HIST-5265": {
+   "url": "https://schedulebuilder.umn.edu/explore/HIST/5265/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for HIST 5265, term 1273"
   },
   "course-0034541": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0034541",
@@ -108,6 +138,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record RUSS 5404, version 0035391-2021-05-17"
   },
+  "enforced-RUSS-5404": {
+   "url": "https://schedulebuilder.umn.edu/explore/RUSS/5404/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for RUSS 5404, term 1269"
+  },
   "course-0035401": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0035401",
    "retrieved": "2026-11-23",
@@ -137,6 +172,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0070461",
    "retrieved": "2026-11-23",
    "section": "Course record RUSS 3311W, version 0070461-2021-05-17"
+  },
+  "enforced-RUSS-3311W": {
+   "url": "https://schedulebuilder.umn.edu/explore/RUSS/3311W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for RUSS 3311W, term 1273"
   },
   "course-7887111": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/7887111",
@@ -288,8 +328,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0100781"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-HIST-5264"
    },
    "sourceRef": "course-0100781"
   },
@@ -302,8 +345,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0100941"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-HIST-5265"
    },
    "sourceRef": "course-0100941"
   },
@@ -353,10 +399,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3002 or 4104 or instr consent"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "RUSS 3002"
+      },
+      {
+       "type": "course",
+       "course_code": "RUSS 4104"
+      }
+     ]
     },
-    "sourceRef": "course-0070411"
+    "sourceRef": "enforced-RUSS-3101"
    },
    "sourceRef": "course-0070411"
   },
@@ -370,10 +425,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3101 or 4111 or instr consent"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "RUSS 3101"
+      },
+      {
+       "type": "course",
+       "course_code": "RUSS 4111"
+      }
+     ]
     },
-    "sourceRef": "course-0070431"
+    "sourceRef": "enforced-RUSS-3102"
    },
    "sourceRef": "course-0070431"
   },
@@ -422,9 +486,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Advanced Russian major"
+     "text": "Registration requires: Russian major, jr or above"
     },
-    "sourceRef": "course-0070461"
+    "sourceRef": "enforced-RUSS-3311W"
    },
    "sourceRef": "course-0070461"
   },
@@ -528,8 +592,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0035391"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-RUSS-5404"
    },
    "sourceRef": "course-0035391"
   },
@@ -554,8 +621,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0035461"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-RUSS-5421"
    },
    "sourceRef": "course-0035461"
   },
@@ -568,8 +638,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0070481"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-RUSS-5422W"
    },
    "sourceRef": "course-0070481"
   },

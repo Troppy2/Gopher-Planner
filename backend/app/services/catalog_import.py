@@ -13,6 +13,7 @@ from sqlalchemy import delete, insert
 
 from app.extensions import db
 from app.models import CatalogCourse, CatalogPrerequisiteEdge, CatalogRelease
+from app.services.requisites import has_condition, load_enforced, load_reviewed, resolve_prerequisites
 
 COURSE_COLUMNS = [column.name for column in CatalogCourse.__table__.columns if column.name not in {"release_id", "le_attributes"}]
 
@@ -40,14 +41,20 @@ def _current(row, today):
     return (not start or start <= today) and (not end or end >= today)
 
 
-def _csv_course(row, identity, release_id):
-    """Map a full-catalog CSV row. Prerequisites are kept as unverified text: shown and warned, never enforced."""
+def _prerequisite_record(expression, origin, text):
+    if origin == "none":
+        return {"status": "none", "requirements": None, "source_text": text or None, "needs_review": False}
+    return {"status": "found", "requirements": expression, "source_text": text, "needs_review": has_condition(expression)}
+
+
+def _csv_course(row, identity, release_id, *, enforced=None, reviewed=None, subjects=frozenset(), known=None):
+    """Map a full-catalog CSV row. Prerequisites come from ``resolve_prerequisites``: a reviewed or fully
+    parsed tree is enforced; anything else stays text that is shown and warned, never enforced."""
     code = " ".join(row["code"].split())
     subject, _, number = code.partition(" ")
-    text = row["prerequisite_text"].strip()
-    prerequisites = ({"status": "found", "requirements": {"type": "condition", "text": text},
-                      "source_text": text, "needs_review": True}
-                     if text else {"status": "none", "requirements": None, "source_text": None, "needs_review": False})
+    expression, origin, text = resolve_prerequisites(code, row["prerequisite_text"], enforced=enforced, reviewed=reviewed,
+                                                     subject=subject, subjects=subjects, known=known)
+    prerequisites = _prerequisite_record(expression, origin, text)
     course = dict.fromkeys(COURSE_COLUMNS, "-")
     course.update(
         id=identity, release_id=release_id, subject_code=subject, course_number=number, course_code=code,
@@ -55,7 +62,8 @@ def _csv_course(row, identity, release_id):
         minimum_credits=row["credits_min"] or "0", maximum_credits=row["credits_max"] or row["credits_min"] or "0",
         repeatable="Yes" if row["repeatable"].strip().lower() == "true" else "No",
         typically_offered=row["typically_offered"].strip() or "-",
-        prerequisite_status="text_only" if text else "none", prerequisite_source_text=text or "-",
+        prerequisite_status="none" if origin == "none" else "text_only" if expression.get("type") == "condition" else "found",
+        prerequisite_source_text=text or "-",
         prerequisite_json=json.dumps(prerequisites), prerequisite_unresolved_courses="[]",
         prerequisite_extraction_method="catalog_text", le_attributes=(row.get("le_attributes") or "").strip())
     return course
@@ -73,20 +81,34 @@ def _latest_csv_rows(path, today):
     return latest
 
 
-def read_csv_source(path, *, release_id, first_id, skip_codes, today=None):
+def read_csv_source(path, *, release_id, first_id, skip_codes, today=None, enforced=None, reviewed=None):
     """Current revisions only; for a code with several current revisions the latest start date wins."""
-    latest = {code: row for code, row in _latest_csv_rows(path, today or date.today().isoformat()).items()
-              if code not in skip_codes}
-    return [_csv_course(row, first_id + index, release_id) for index, row in enumerate(sorted(latest.values(), key=lambda r: r["code"]))]
+    rows = _latest_csv_rows(path, today or date.today().isoformat())
+    subjects = {code.split(" ")[0] for code in rows}
+    known = set(rows) | set(skip_codes)
+    latest = {code: row for code, row in rows.items() if code not in skip_codes}
+    return [_csv_course(row, first_id + index, release_id, enforced=enforced, reviewed=reviewed, subjects=subjects,
+                        known=known)
+            for index, row in enumerate(sorted(latest.values(), key=lambda r: r["code"]))]
 
 
-def import_catalog(path, *, extra_csv=None, today=None):
-    """Reviewed SQLite rows win; ``extra_csv`` adds every other current course from the full catalog export."""
+def import_catalog(path, *, extra_csv=None, today=None, requisites=None, reviewed=None):
+    """SQLite rows win over the CSV; ``extra_csv`` adds every other current course from the full catalog export.
+
+    ``requisites`` (enforced enrollment requirements) improves CSV rows' prerequisites. ``reviewed``
+    hand-checked trees replace the prerequisites of any course they list, SQLite rows included."""
     releases, courses, edges = read_source(path)
     if not releases or not courses:
         raise ValueError("catalog export has no release or no courses")
+    enforced = load_enforced(requisites)
+    reviewed_trees, _ = load_reviewed(reviewed)
     for course in courses:
         course.setdefault("le_attributes", "")
+        if course["course_code"] in reviewed_trees:
+            expression, origin, text = resolve_prerequisites(course["course_code"], "", reviewed=reviewed_trees)
+            course["prerequisite_json"] = json.dumps(_prerequisite_record(expression, origin, text))
+            course["prerequisite_status"] = "none" if expression is None else "found"
+            course["prerequisite_unresolved_courses"] = "[]"
     if extra_csv:
         # Reviewed rows keep their prerequisites but take catalog-wide facts the SQLite export lacks.
         latest = _latest_csv_rows(extra_csv, today or date.today().isoformat())
@@ -98,7 +120,8 @@ def import_catalog(path, *, extra_csv=None, today=None):
                     course["description"] = source["description"].strip()
         courses = courses + read_csv_source(
             extra_csv, release_id=releases[0]["id"], first_id=max(course["id"] for course in courses) + 1,
-            skip_codes={course["course_code"] for course in courses}, today=today)
+            skip_codes={course["course_code"] for course in courses}, today=today, enforced=enforced,
+            reviewed=reviewed_trees)
     try:
         db.session.execute(delete(CatalogPrerequisiteEdge))
         db.session.execute(delete(CatalogCourse))

@@ -38,6 +38,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record MATH 1142, version 0001191-2021-05-17"
   },
+  "reviewed-2026-11-24": {
+   "url": "https://umtc.catalog.prod.coursedog.com/courses",
+   "retrieved": "2026-11-24",
+   "section": "Course prerequisites reviewed against the official catalog course records (retrieved 2026-11-23) and the enrollment requirements enforced by registration in Schedule Builder for Fall 2026 and Spring 2027 (https://schedulebuilder.umn.edu/, retrieved 2026-11-24)"
+  },
   "course-0001201": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0001201",
    "retrieved": "2026-11-23",
@@ -52,6 +57,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0036961",
    "retrieved": "2026-11-23",
    "section": "Course record MATH 1571H, version 0036961-2021-05-17"
+  },
+  "enforced-MATH-1571H": {
+   "url": "https://schedulebuilder.umn.edu/explore/MATH/1571H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MATH 1571H, term 1269"
   },
   "course-0016181": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0016181",
@@ -128,20 +138,40 @@
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5311, version 8106081-2024-01-16"
   },
+  "enforced-MLSP-5311": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5311/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5311, term 1273"
+  },
   "course-8106111": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106111",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5511, version 8106111-2023-09-05"
+  },
+  "enforced-MLSP-5511": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5511/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5511, term 1269"
   },
   "course-0092671": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0092671",
    "retrieved": "2026-11-23",
    "section": "Course record MICB 4131, version 0092671-2024-09-03"
   },
+  "enforced-MICB-4131": {
+   "url": "https://schedulebuilder.umn.edu/explore/MICB/4131/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MICB 4131, term 1269"
+  },
   "course-0142901": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0142901",
    "retrieved": "2026-11-23",
    "section": "Course record BIOC 3021, version 0142901-2024-05-13"
+  },
+  "enforced-BIOC-3021": {
+   "url": "https://schedulebuilder.umn.edu/explore/BIOC/3021/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for BIOC 3021, term 1273"
   },
   "course-8155901": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8155901",
@@ -178,90 +208,180 @@
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5012, version 8105991-2024-01-16"
   },
+  "enforced-MLSP-5012": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5012/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5012, term 1269"
+  },
   "course-8106001": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106001",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5013, version 8106001-2023-09-05"
+  },
+  "enforced-MLSP-5013": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5013/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5013, term 1269"
   },
   "course-8106011": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106011",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5111, version 8106011-2025-01-21"
   },
+  "enforced-MLSP-5111": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5111/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5111, term 1269"
+  },
   "course-8106021": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106021",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5112, version 8106021-2023-09-05"
+  },
+  "enforced-MLSP-5112": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5112/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5112, term 1269"
   },
   "course-8106031": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106031",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5113, version 8106031-2024-01-16"
   },
+  "enforced-MLSP-5113": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5113/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5113, term 1273"
+  },
   "course-8106041": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106041",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5211, version 8106041-2025-01-21"
+  },
+  "enforced-MLSP-5211": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5211/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5211, term 1269"
   },
   "course-8106051": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106051",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5212, version 8106051-2023-09-05"
   },
+  "enforced-MLSP-5212": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5212/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5212, term 1269"
+  },
   "course-8106061": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106061",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5213, version 8106061-2023-09-05"
+  },
+  "enforced-MLSP-5213": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5213/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5213, term 1273"
   },
   "course-8106071": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106071",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5214, version 8106071-2023-09-05"
   },
+  "enforced-MLSP-5214": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5214/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5214, term 1273"
+  },
   "course-8106091": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106091",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5312, version 8106091-2023-09-05"
+  },
+  "enforced-MLSP-5312": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5312/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5312, term 1273"
   },
   "course-8106101": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106101",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5313, version 8106101-2025-01-21"
   },
+  "enforced-MLSP-5313": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5313/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5313, term 1269"
+  },
   "course-8106161": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106161",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5513, version 8106161-2023-09-05"
+  },
+  "enforced-MLSP-5513": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5513/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5513, term 1273"
   },
   "course-8106171": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106171",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5514, version 8106171-2023-09-05"
   },
+  "enforced-MLSP-5514": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5514/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5514, term 1273"
+  },
   "course-8106331": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106331",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5014W, version 8106331-2023-09-05"
+  },
+  "enforced-MLSP-5014W": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5014W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5014W, term 1269"
   },
   "course-8106181": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106181",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5701, version 8106181-2023-09-05"
   },
+  "enforced-MLSP-5701": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5701/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5701, term 1269"
+  },
   "course-8106201": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106201",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5702, version 8106201-2023-09-05"
+  },
+  "enforced-MLSP-5702": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5702/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5702, term 1269"
   },
   "course-8106211": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106211",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5703, version 8106211-2023-09-05"
   },
+  "enforced-MLSP-5703": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5703/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5703, term 1269"
+  },
   "course-8106221": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8106221",
    "retrieved": "2026-11-23",
    "section": "Course record MLSP 5704, version 8106221-2023-09-05"
+  },
+  "enforced-MLSP-5704": {
+   "url": "https://schedulebuilder.umn.edu/explore/MLSP/5704/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for MLSP 5704, term 1269"
   },
   "course-8077531": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8077531",
@@ -277,6 +397,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8077581",
    "retrieved": "2026-11-23",
    "section": "Course record CHEM 1071H, version 8077581-2026-09-08"
+  },
+  "enforced-CHEM-1071H": {
+   "url": "https://schedulebuilder.umn.edu/explore/CHEM/1071H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CHEM 1071H, term 1273"
   },
   "course-8077521": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8077521",
@@ -297,6 +422,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8077551",
    "retrieved": "2026-11-23",
    "section": "Course record CHEM 1072H, version 8077551-2025-01-21"
+  },
+  "enforced-CHEM-1072H": {
+   "url": "https://schedulebuilder.umn.edu/explore/CHEM/1072H/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for CHEM 1072H, term 1273"
   },
   "course-8077541": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8077541",
@@ -474,8 +604,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0142901"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: CFANS, CEHD, CLA, CSE, CSOM, CDES, PHAR, CCAPS, or MULTU student"
+    },
+    "sourceRef": "enforced-BIOC-3021"
    },
    "sourceRef": "course-0142901"
   },
@@ -490,10 +623,37 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "CHEM 2301 or CHEM 2081/2085 or equivalent"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "CHEM 2301"
+        },
+        {
+         "type": "all_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "CHEM 2081"
+          },
+          {
+           "type": "course",
+           "course_code": "CHEM 2085"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "CBS students only"
+      }
+     ]
     },
-    "sourceRef": "course-8155901"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8155901"
   },
@@ -508,10 +668,50 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "(BIOL 1009 or 2003 or equiv) AND (Chem 2302 or CHEM 2081/2085 or equiv)"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "BIOL 1009"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 2003"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 2003H"
+        }
+       ]
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "CHEM 2302"
+        },
+        {
+         "type": "all_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "CHEM 2081"
+          },
+          {
+           "type": "course",
+           "course_code": "CHEM 2085"
+          }
+         ]
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0029451"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0029451"
   },
@@ -586,10 +786,89 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[1009 or 2003], [CHEM 1062/1066 or 1082/1086], [2005 is recommended]"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "BIOL 1009"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 1009H"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 2003"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 2003H"
+        }
+       ]
+      },
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "all_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "CHEM 1062"
+          },
+          {
+           "type": "course",
+           "course_code": "CHEM 1066"
+          }
+         ]
+        },
+        {
+         "type": "all_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "CHEM 1072"
+          },
+          {
+           "type": "course",
+           "course_code": "CHEM 1066"
+          }
+         ]
+        },
+        {
+         "type": "all_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "CHEM 1072H"
+          },
+          {
+           "type": "course",
+           "course_code": "CHEM 1066"
+          }
+         ]
+        },
+        {
+         "type": "all_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "CHEM 1082"
+          },
+          {
+           "type": "course",
+           "course_code": "CHEM 1086"
+          }
+         ]
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0130771"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0130771"
   },
@@ -623,10 +902,27 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Biol 2003/2003H or BioC 3021 or BioC 4331 or grad"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "BIOL 2003"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 2003H"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOC 3021"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOC 4331"
+      }
+     ]
     },
-    "sourceRef": "course-0094891"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0094891"
   },
@@ -642,10 +938,27 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      },
+      {
+       "type": "course",
+       "course_code": "CI 1806"
+      }
+     ]
     },
-    "sourceRef": "course-8077531"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077531"
   },
@@ -661,10 +974,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Grade of at least C- in 1061 or equiv, concurrent registration is required (or allowed) in 1066; registration for 1066 must precede registration for 1062"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1061"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-8077561"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077561"
   },
@@ -680,10 +1002,31 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1061",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1071",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1071H",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1081",
+       "concurrent": true
+      }
+     ]
     },
-    "sourceRef": "course-8077521"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077521"
   },
@@ -699,10 +1042,26 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "concurrent registration is required (or allowed) in 1062, 1072, 1072H"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1062",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1072",
+       "concurrent": true
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1072H",
+       "concurrent": true
+      }
+     ]
     },
-    "sourceRef": "course-8077541"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8077541"
   },
@@ -716,8 +1075,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8077581"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Chem 1065 prereq or coreq; honors"
+    },
+    "sourceRef": "enforced-CHEM-1071H"
    },
    "sourceRef": "course-8077581"
   },
@@ -732,10 +1094,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Honors student or permission of University Honors Program."
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1061"
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1066"
+      }
+     ]
     },
-    "sourceRef": "course-8077551"
+    "sourceRef": "enforced-CHEM-1072H"
    },
    "sourceRef": "course-8077551"
   },
@@ -750,10 +1121,27 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      },
+      {
+       "type": "course",
+       "course_code": "CI 1806"
+      }
+     ]
     },
-    "sourceRef": "course-8152521"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8152521"
   },
@@ -766,8 +1154,24 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8152841"
+    "expression": {
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1081"
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1065"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
+    },
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8152841"
   },
@@ -782,10 +1186,41 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "grade of a C- or better in CHEM 1081 or 1061 or 1071H and CHEM 1065 (lab). Concurrent registration in CHEM 1082 is required."
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "CHEM 1081"
+        },
+        {
+         "type": "course",
+         "course_code": "CHEM 1061"
+        },
+        {
+         "type": "course",
+         "course_code": "CHEM 1071H"
+        }
+       ]
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1065"
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1082",
+       "concurrent": true
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-8152831"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8152831"
   },
@@ -799,10 +1234,23 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "grade of a C- or better in CHEM 1082 (lecture) and CHEM 1086 (lab)"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1082"
+      },
+      {
+       "type": "course",
+       "course_code": "CHEM 1086"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-8152861"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8152861"
   },
@@ -818,10 +1266,32 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "C- or better in CHEM 1062/1072/1072H or equivalent"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "CHEM 1062"
+        },
+        {
+         "type": "course",
+         "course_code": "CHEM 1072"
+        },
+        {
+         "type": "course",
+         "course_code": "CHEM 1072H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0023921"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0023921"
   },
@@ -837,10 +1307,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Grade of at least C- in 2301"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 2301"
+      },
+      {
+       "type": "condition",
+       "text": "Minimum grade C-"
+      }
+     ]
     },
-    "sourceRef": "course-0023931"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0023931"
   },
@@ -854,10 +1333,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "At least B+ in 1072H, honors student or instructor consent"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 1072H"
+      },
+      {
+       "type": "condition",
+       "text": "At least B+ in CHEM 1072H; honors student"
+      }
+     ]
     },
-    "sourceRef": "course-8081851"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8081851"
   },
@@ -871,10 +1359,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "At least C- in 2331H, UHP student"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "CHEM 2331H"
+      },
+      {
+       "type": "condition",
+       "text": "Honors student"
+      }
+     ]
     },
-    "sourceRef": "course-8081861"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-8081861"
   },
@@ -922,10 +1419,44 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[KIN 3027 or ANAT 3001 or ANAT 3601 or ANAT 3611 or ANAT 3651 or ANAT 3658H ] and [Kin or Physical Activity and Health Promotion Major] or instr consent"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "KIN 3027"
+        },
+        {
+         "type": "course",
+         "course_code": "ANAT 3001"
+        },
+        {
+         "type": "course",
+         "course_code": "ANAT 3601"
+        },
+        {
+         "type": "course",
+         "course_code": "ANAT 3611"
+        },
+        {
+         "type": "course",
+         "course_code": "ANAT 3651"
+        },
+        {
+         "type": "course",
+         "course_code": "ANAT 3658H"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "Kinesiology or Physical Activity and Health Promotion major"
+      }
+     ]
     },
-    "sourceRef": "course-0052701"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0052701"
   },
@@ -941,10 +1472,23 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test or grade of at least C- in [1031 or 1051]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1031"
+      },
+      {
+       "type": "course",
+       "course_code": "MATH 1051"
+      }
+     ]
     },
-    "sourceRef": "course-0001191"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001191"
   },
@@ -960,10 +1504,37 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "condition",
+       "text": "Satisfactory score on the math placement test"
+      },
+      {
+       "type": "all_of",
+       "requirements": [
+        {
+         "type": "any_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "MATH 1151"
+          },
+          {
+           "type": "course",
+           "course_code": "MATH 1155"
+          }
+         ]
+        },
+        {
+         "type": "condition",
+         "text": "Minimum grade C-"
+        }
+       ]
+      }
+     ]
     },
-    "sourceRef": "course-0001201"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0001201"
   },
@@ -978,10 +1549,32 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "CSE or pre-bioprod concurrent registration is required (or allowed) in biosys engn (PRE), Satisfactory score on placement test, or grade of at least C- in [1151 or 1155]"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "condition",
+         "text": "Satisfactory score on the math placement test"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1151"
+        },
+        {
+         "type": "course",
+         "course_code": "MATH 1155"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "CSE student (or pre-Bioproducts and Biosystems Engineering)"
+      }
+     ]
     },
-    "sourceRef": "course-0036921"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0036921"
   },
@@ -996,9 +1589,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Honors student and permission of University Honors Program"
+     "text": "Registration requires: honors student"
     },
-    "sourceRef": "course-0036961"
+    "sourceRef": "enforced-MATH-1571H"
    },
    "sourceRef": "course-0036961"
   },
@@ -1014,10 +1607,50 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[Biol 1961 and Biol 2003] or Biol 1009 or instructor permission"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "all_of",
+       "requirements": [
+        {
+         "type": "any_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "BIOL 1961"
+          },
+          {
+           "type": "course",
+           "course_code": "BIOL 1961H"
+          }
+         ]
+        },
+        {
+         "type": "any_of",
+         "requirements": [
+          {
+           "type": "course",
+           "course_code": "BIOL 2003"
+          },
+          {
+           "type": "course",
+           "course_code": "BIOL 2003H"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1009"
+      },
+      {
+       "type": "course",
+       "course_code": "BIOL 1009H"
+      }
+     ]
     },
-    "sourceRef": "course-0086591"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0086591"
   },
@@ -1032,9 +1665,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Biol 2003 or Biol 1009 and [Junior or senior]"
+     "text": "Registration requires: Biol 2003/2003H or Biol 1009/1009H; and jr or sr"
     },
-    "sourceRef": "course-0092671"
+    "sourceRef": "enforced-MICB-4131"
    },
    "sourceRef": "course-0092671"
   },
@@ -1077,8 +1710,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8105991"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MMLS student"
+    },
+    "sourceRef": "enforced-MLSP-5012"
    },
    "sourceRef": "course-8105991"
   },
@@ -1092,8 +1728,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106001"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MMLS student"
+    },
+    "sourceRef": "enforced-MLSP-5013"
    },
    "sourceRef": "course-8106001"
   },
@@ -1107,8 +1746,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106331"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MMLS student"
+    },
+    "sourceRef": "enforced-MLSP-5014W"
    },
    "sourceRef": "course-8106331"
   },
@@ -1121,8 +1763,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106011"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MicB 3301 or VBS 2032"
+    },
+    "sourceRef": "enforced-MLSP-5111"
    },
    "sourceRef": "course-8106011"
   },
@@ -1135,8 +1780,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106021"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MMLS student"
+    },
+    "sourceRef": "enforced-MLSP-5112"
    },
    "sourceRef": "course-8106021"
   },
@@ -1149,8 +1797,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106031"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MicB 3301 or VBS 2032"
+    },
+    "sourceRef": "enforced-MLSP-5113"
    },
    "sourceRef": "course-8106031"
   },
@@ -1163,8 +1814,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106041"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or Phsl 3051 or Biol 3211"
+    },
+    "sourceRef": "enforced-MLSP-5211"
    },
    "sourceRef": "course-8106041"
   },
@@ -1177,8 +1831,11 @@
     "Fall"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106051"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MMLS student"
+    },
+    "sourceRef": "enforced-MLSP-5212"
    },
    "sourceRef": "course-8106051"
   },
@@ -1191,8 +1848,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106061"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Medical Laboratory Sciences student or Phsl 3051 (or instr consent)"
+    },
+    "sourceRef": "enforced-MLSP-5213"
    },
    "sourceRef": "course-8106061"
   },
@@ -1205,8 +1865,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106071"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP or MMLS student (or instructor consent)"
+    },
+    "sourceRef": "enforced-MLSP-5214"
    },
    "sourceRef": "course-8106071"
   },
@@ -1220,8 +1883,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106081"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP Student or MMLS Student or BioC 3021 (or instructor consent)"
+    },
+    "sourceRef": "enforced-MLSP-5311"
    },
    "sourceRef": "course-8106081"
   },
@@ -1234,8 +1900,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106091"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MMLS student"
+    },
+    "sourceRef": "enforced-MLSP-5312"
    },
    "sourceRef": "course-8106091"
   },
@@ -1250,9 +1919,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "BioC 3021 or equivalent"
+     "text": "Registration requires: MLSP student or BioC 3021 or equiv (or instructor consent)"
     },
-    "sourceRef": "course-8106101"
+    "sourceRef": "enforced-MLSP-5313"
    },
    "sourceRef": "course-8106101"
   },
@@ -1266,8 +1935,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106111"
+    "expression": {
+     "type": "course",
+     "course_code": "PHSL 3051"
+    },
+    "sourceRef": "enforced-MLSP-5511"
    },
    "sourceRef": "course-8106111"
   },
@@ -1280,8 +1952,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106161"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Medical Laboratory Sciences student or Phsl 3051 (or instr consent)"
+    },
+    "sourceRef": "enforced-MLSP-5513"
    },
    "sourceRef": "course-8106161"
   },
@@ -1294,8 +1969,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106171"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MMLS student"
+    },
+    "sourceRef": "enforced-MLSP-5514"
    },
    "sourceRef": "course-8106171"
   },
@@ -1310,8 +1988,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106181"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MMLS student"
+    },
+    "sourceRef": "enforced-MLSP-5701"
    },
    "sourceRef": "course-8106181"
   },
@@ -1326,8 +2007,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106201"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MMLS student"
+    },
+    "sourceRef": "enforced-MLSP-5702"
    },
    "sourceRef": "course-8106201"
   },
@@ -1342,8 +2026,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106211"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MMLS student"
+    },
+    "sourceRef": "enforced-MLSP-5703"
    },
    "sourceRef": "course-8106211"
   },
@@ -1358,8 +2045,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8106221"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: MLSP student or MMLS student"
+    },
+    "sourceRef": "enforced-MLSP-5704"
    },
    "sourceRef": "course-8106221"
   },
@@ -1374,10 +2064,28 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "[BIOL 1009 or 1 yr college biol], 1 yr college chem"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "any_of",
+       "requirements": [
+        {
+         "type": "course",
+         "course_code": "BIOL 1009"
+        },
+        {
+         "type": "course",
+         "course_code": "BIOL 2003"
+        }
+       ]
+      },
+      {
+       "type": "condition",
+       "text": "One year of college chemistry; registration limits it to nursing students"
+      }
+     ]
     },
-    "sourceRef": "course-0105661"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0105661"
   },
@@ -1428,7 +2136,7 @@
       }
      ]
     },
-    "sourceRef": "course-0016211"
+    "sourceRef": "reviewed-2026-11-24"
    },
    "sourceRef": "course-0016211"
   },

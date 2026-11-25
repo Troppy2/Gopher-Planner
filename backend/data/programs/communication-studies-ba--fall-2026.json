@@ -58,6 +58,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record COMM 3204, version 7930741-2021-05-17"
   },
+  "enforced-COMM-3204": {
+   "url": "https://schedulebuilder.umn.edu/explore/COMM/3204/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for COMM 3204, term 1273"
+  },
   "course-0038981": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0038981",
    "retrieved": "2026-11-23",
@@ -73,10 +78,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record COMM 3605W, version 0039051-2026-09-08"
   },
+  "enforced-COMM-3605W": {
+   "url": "https://schedulebuilder.umn.edu/explore/COMM/3605W/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for COMM 3605W, term 1269"
+  },
   "course-8168371": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8168371",
    "retrieved": "2026-11-23",
    "section": "Course record COMM 3614, version 8168371-2021-05-17"
+  },
+  "enforced-COMM-3614": {
+   "url": "https://schedulebuilder.umn.edu/explore/COMM/3614/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for COMM 3614, term 1273"
   },
   "course-0046061": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0046061",
@@ -97,6 +112,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0043781",
    "retrieved": "2026-11-23",
    "section": "Course record COMM 3615W, version 0043781-2022-09-06"
+  },
+  "enforced-COMM-3615W": {
+   "url": "https://schedulebuilder.umn.edu/explore/COMM/3615W/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for COMM 3615W, term 1273"
   },
   "course-0039081": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0039081",
@@ -127,6 +147,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8052041",
    "retrieved": "2026-11-23",
    "section": "Course record COMM 4204, version 8052041-2021-05-17"
+  },
+  "enforced-COMM-4204": {
+   "url": "https://schedulebuilder.umn.edu/explore/COMM/4204/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for COMM 4204, term 1273"
   },
   "course-0044671": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0044671",
@@ -193,10 +218,20 @@
    "retrieved": "2026-11-23",
    "section": "Course record COMM 5110, version 0102451-2026-09-08"
   },
+  "enforced-COMM-5110": {
+   "url": "https://schedulebuilder.umn.edu/explore/COMM/5110/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for COMM 5110, term 1273"
+  },
   "course-8003981": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8003981",
    "retrieved": "2026-11-23",
    "section": "Course record COMM 5211, version 8003981-2021-09-07"
+  },
+  "enforced-COMM-5211": {
+   "url": "https://schedulebuilder.umn.edu/explore/COMM/5211/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for COMM 5211, term 1273"
   },
   "course-8003991": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/8003991",
@@ -218,6 +253,11 @@
    "retrieved": "2026-11-23",
    "section": "Course record COMM 5402, version 0039271-2024-01-16"
   },
+  "enforced-COMM-5402": {
+   "url": "https://schedulebuilder.umn.edu/explore/COMM/5402/1273/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for COMM 5402, term 1273"
+  },
   "course-0039041": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0039041",
    "retrieved": "2026-11-23",
@@ -237,6 +277,11 @@
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0039111",
    "retrieved": "2026-11-23",
    "section": "Course record COMM 5451, version 0039111-2026-09-08"
+  },
+  "enforced-COMM-5451": {
+   "url": "https://schedulebuilder.umn.edu/explore/COMM/5451/1269/",
+   "retrieved": "2026-11-25",
+   "section": "Enrollment requirement enforced by registration for COMM 5451, term 1269"
   },
   "course-0039191": {
    "url": "https://umtc.catalog.prod.coursedog.com/courses/0039191",
@@ -452,10 +497,10 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3201 or instr consent"
+     "type": "course",
+     "course_code": "COMM 3201"
     },
-    "sourceRef": "course-7930741"
+    "sourceRef": "enforced-COMM-3204"
    },
    "sourceRef": "course-7930741"
   },
@@ -587,9 +632,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "1101, soph"
+     "text": "Registration requires: soph or jr or sr or grad"
     },
-    "sourceRef": "course-0039051"
+    "sourceRef": "enforced-COMM-3605W"
    },
    "sourceRef": "course-0039051"
   },
@@ -603,8 +648,11 @@
     "Spring"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-8168371"
+    "expression": {
+     "type": "course",
+     "course_code": "COMM 1313W"
+    },
+    "sourceRef": "enforced-COMM-3614"
    },
    "sourceRef": "course-8168371"
   },
@@ -619,8 +667,11 @@
     "Summer"
    ],
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0043781"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: soph or jr or sr or grad"
+    },
+    "sourceRef": "enforced-COMM-3615W"
    },
    "sourceRef": "course-0043781"
   },
@@ -735,10 +786,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3201, 3204"
+     "type": "all_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "COMM 3201"
+      },
+      {
+       "type": "course",
+       "course_code": "COMM 3204"
+      }
+     ]
     },
-    "sourceRef": "course-8052041"
+    "sourceRef": "enforced-COMM-4204"
    },
    "sourceRef": "course-8052041"
   },
@@ -925,8 +985,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0102451"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-COMM-5110"
    },
    "sourceRef": "course-0102451"
   },
@@ -941,9 +1004,9 @@
    "prerequisites": {
     "expression": {
      "type": "condition",
-     "text": "Graduate students or undergraduates who have completed COMM 3211 (Introduction to Media Studies) or its equivalent"
+     "text": "Registration requires: Comm 3211 or equivalent; or grad student"
     },
-    "sourceRef": "course-8003981"
+    "sourceRef": "enforced-COMM-5211"
    },
    "sourceRef": "course-8003981"
   },
@@ -1002,10 +1065,19 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3401 or 3402"
+     "type": "any_of",
+     "requirements": [
+      {
+       "type": "course",
+       "course_code": "COMM 3401"
+      },
+      {
+       "type": "course",
+       "course_code": "COMM 3402"
+      }
+     ]
     },
-    "sourceRef": "course-0039271"
+    "sourceRef": "enforced-COMM-5402"
    },
    "sourceRef": "course-0039271"
   },
@@ -1037,8 +1109,8 @@
    ],
    "prerequisites": {
     "expression": {
-     "type": "condition",
-     "text": "3431"
+     "type": "course",
+     "course_code": "COMM 3431"
     },
     "sourceRef": "course-0039071"
    },
@@ -1067,8 +1139,11 @@
    "maximumCredits": 3,
    "offered": null,
    "prerequisites": {
-    "expression": null,
-    "sourceRef": "course-0039111"
+    "expression": {
+     "type": "condition",
+     "text": "Registration requires: Exclude fr or soph 5000 level courses"
+    },
+    "sourceRef": "enforced-COMM-5451"
    },
    "sourceRef": "course-0039111"
   },
